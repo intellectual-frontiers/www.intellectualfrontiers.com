@@ -107,7 +107,7 @@ The patented technology introduces a comprehensive computer-implemented system d
 
 <div class="center-elements"> 
 
-![Figure 1](/src/assets/US7039898-image-66.png#center)
+![Figure 1](/assets/US7039898-image-66.png#center)
 
 
 **Figure 1** 
@@ -124,7 +124,7 @@ A key innovation is the integration of WiFi-enabled devices within an interactio
 
 <div class="center-elements"> 
 
-![Figure 2](/src/assets/US7039898-image-22.png#center)
+![Figure 2](/assets/US7039898-image-22.png#center)
 **Figure 2**
 
 </div>
@@ -153,7 +153,7 @@ All these changes and adjustments are made by the system to make sure things run
 
 <div class="center-elements"> 
 
-![Figure 3](/src/assets/US7039898-image-55.png#center)
+![Figure 3](/assets/US7039898-image-55.png#center)
 **Figure 3**
 </div>
 
@@ -161,13 +161,13 @@ A user can use a special dashboard or interface like the one shown in Figures 4 
 
 <div class="center-elements"> 
 
-![Figure 4](/src/assets/US7039898-image-77.png#center)
+![Figure 4](/assets/US7039898-image-77.png#center)
 **Figure 4**
 </div
 >
 <div class="center-elements"> 
 
-![Figures. 5](/src/assets/US7039898-image-88.png#center)
+![Figures. 5](/assets/US7039898-image-88.png#center)
 **Figure 5**
 
 </div>
@@ -176,13 +176,13 @@ Figures. 6 and 7 show interfaces to manage the worklists, access different libra
 
 <div class="center-elements"> 
 
-![Figures. 6](/src/assets/US7039898-image-99.png#center)
+![Figures. 6](/assets/US7039898-image-99.png#center)
 **Figure 6**
 </div>
 
 <div class="center-elements"> 
 
-![Figures. 7](/src/assets/US7039898-image-100.png#center)
+![Figures. 7](/assets/US7039898-image-100.png#center)
 **Figure 7**
 </div>
 
@@ -198,7 +198,7 @@ The image below shows the different types of libraries available for functioning
 
 <div class="center-elements"> 
 
-![Figures. 8](/src/assets/US7039898-image-177.png#center)
+![Figures. 8](/assets/US7039898-image-177.png#center)
 **Figure 8**
 </div>
 
