@@ -1,0 +1,13 @@
+/* img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  } */
+
+  .center-elements p  {
+    text-align:center
+  }
+
+  .center-elements p img {
+    margin:auto
+  }

@@ -6,6 +6,9 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Intellectual Frontiers',
+			customCss: [
+				'./src/styles/custom.css',
+			],
 			social: {
 				github: 'https://github.com/intellectual-frontiers',
 			},
