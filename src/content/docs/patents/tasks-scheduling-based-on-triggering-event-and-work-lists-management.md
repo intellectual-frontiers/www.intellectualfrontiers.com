@@ -149,49 +149,49 @@ All these changes and adjustments are made by the system to make sure things run
     <p>The foregoing and other objects, aspects and advantages will be better understood from the following detailed description of a preferred embodiment(s) of the invention with reference to the drawings, in which:</p>
     <p>
       <figure>
-        <img src="assets-natural/brand/www.netspective.com/ip/US7039898-image-2.png" alt="Alt Text">
+        <img src="/assets-natural/brand/www.netspective.com/ip/US7039898-image-2.png" alt="Alt Text">
         <figcaption>FIG. 1 is a system diagram illustrating a preferred embodiment of the present invention;</figcaption>
       </figure>
     </p>
     <p>
       <figure>
-        <img src="assets-natural/brand/www.netspective.com/ip/US7039898-image-3.png" alt="Alt Text">
+        <img src="/assets-natural/brand/www.netspective.com/ip/US7039898-image-3.png" alt="Alt Text">
         <figcaption>FIG. 2 is a system diagram illustrating a preferred embodiment of the present invention;</figcaption>
       </figure>
     </p>
     <p>
       <figure>
-        <img src="assets-natural/brand/www.netspective.com/ip/US7039898-image-4.png" alt="Alt Text">
+        <img src="/assets-natural/brand/www.netspective.com/ip/US7039898-image-4.png" alt="Alt Text">
         <figcaption>FIG. 3 is a system diagram illustrating a preferred embodiment of the present invention;</figcaption>
       </figure></p>
     <p> 
       <figure>
-        <img src="assets-natural/brand/www.netspective.com/ip/US7039898-image-5.png" alt="Alt Text">
+        <img src="/assets-natural/brand/www.netspective.com/ip/US7039898-image-5.png" alt="Alt Text">
         <figcaption>FIG. 4 is a system diagram illustrating a preferred embodiment of the present invention;
         FIG. 5 is a system diagram illustrating a preferred embodiment of the present invention;</figcaption>
       </figure>
     </p>
     <p>
       <figure>
-        <img src="assets-natural/brand/www.netspective.com/ip/US7039898-image-6.png" alt="Alt Text">
+        <img src="/assets-natural/brand/www.netspective.com/ip/US7039898-image-6.png" alt="Alt Text">
         <figcaption>FIG. 6 is a system diagram illustrating a preferred embodiment of the present invention;</figcaption>
       </figure>
     </p>
     <p>
       <figure>
-        <img src="assets-natural/brand/www.netspective.com/ip/US7039898-image-7.png" alt="Alt Text">
+        <img src="/assets-natural/brand/www.netspective.com/ip/US7039898-image-7.png" alt="Alt Text">
         <figcaption>FIG. 7 is a flow diagram illustrating a preferred method of the present invention;</figcaption>
       </figure>
     </p>
     <p>
       <figure>
-        <img src="assets-natural/brand/www.netspective.com/ip/US7039898-image-8.png" alt="Alt Text">
+        <img src="/assets-natural/brand/www.netspective.com/ip/US7039898-image-8.png" alt="Alt Text">
         <figcaption>FIG. 8 is a flow diagram illustrating a preferred method of the present invention;</figcaption>
       </figure>
     </p>
     <p>
       <figure>
-        <img src="assets-natural/brand/www.netspective.com/ip/US7039898-image-9.png" alt="Alt Text">
+        <img src="/assets-natural/brand/www.netspective.com/ip/US7039898-image-9.png" alt="Alt Text">
         <figcaption>FIG. 9 is a flow diagram illustrating a preferred method of the present invention; FIG. 10 is a flow diagram illustrating a preferred method of the present invention</figcaption>
       </figure>
     </p>
