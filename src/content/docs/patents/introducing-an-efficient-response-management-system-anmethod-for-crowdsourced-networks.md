@@ -114,10 +114,6 @@ In simpler terms, this system helps verify the qualifications and background of 
 
 **Publishing Anonymously:** The integrated response is published anonymously for public viewing.
 
-## A New Approach to Handling Complex Medical Cases
-
 This technology presents an innovative approach to handling complex medical cases, ensuring accuracy, and reliability through crowdsourcing and credentialing processes.
-
-## Implementation and Adaptability
 
 This technology can be implemented as a computer program product stored on a computer-readable medium. It can be used in various applications, from standalone computers to networked systems, and can adapt to different hardware environments.
