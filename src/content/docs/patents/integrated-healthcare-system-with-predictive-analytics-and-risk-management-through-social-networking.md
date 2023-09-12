@@ -1,5 +1,5 @@
 ---
-title: Innovative Integrated Healthcare System Empowering Social Networking Among Medical Devices and Participants
+title: Integrated Healthcare System with Predictive Analytics and Risk Management through Social Networking
 uspto-canonical-id-label: Patent
 uspto-patent-number: US9525753B2
 inventor: Shah N. Shahid
@@ -11,7 +11,7 @@ application-date:
 issue-date: 
 expiry-date: 
 patent-status: Active
-url: "/ip/innovative-integrated-healthcare-system-empowering-social-networking-among-medical-devices-and-participants"
+url: "/ip/integrated-healthcare-system-with-predictive-analytics-and-risk-management-through-social-networking"
 uspto-patent-pdf:
 uspto-patent-url:
 thumbnail: 
