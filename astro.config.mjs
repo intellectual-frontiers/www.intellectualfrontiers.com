@@ -14,6 +14,10 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
+					label: "About our IP",
+					link: "/about"
+				},
+				{
 					label: 'Use Cases',
 					autogenerate: { directory: 'use-cases' },
 				},
