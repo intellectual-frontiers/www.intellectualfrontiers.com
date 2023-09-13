@@ -1,5 +1,5 @@
 ---
-title: Introducing an Efficient Response Management System and Method for Crowdsourced Networks
+title: Efficient Response Management System and Method for Crowdsourced Networks
 uspto-canonical-id-label: Patent
 uspto-patent-number: US9418355B2
 inventor: Shah N. Shahid
@@ -11,7 +11,6 @@ application-date:
 issue-date: 
 expiry-date: 
 patent-status: Active
-url: "/ip/introducing-an-efficient-response-management-system-and-method-for-crowdsourced-networks"
 uspto-patent-pdf:
 uspto-patent-url:
 thumbnail: 
