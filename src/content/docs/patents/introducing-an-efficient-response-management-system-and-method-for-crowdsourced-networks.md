@@ -79,7 +79,7 @@ This technology includes an ecosystem as shown in FIG. 1 for managing responses 
 
 <div class="center-elements"> 
 
-![Figure 1](/assets/US9418355B2-image-1.png#center)
+![Figure 1](US9418355B2-image-1.png)
 
 
 **Figure 1** 

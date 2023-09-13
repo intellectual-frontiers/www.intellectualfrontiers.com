@@ -58,7 +58,7 @@ To make this collaboration effective, the system uses the "social profiles" for 
 
 <div class="center-elements"> 
 
-![Figure 1](/assets/US9525753B2-image-01.png#center)
+![Figure 1](US9525753B2-image-01.png)
 
 
 **Figure 1** 
@@ -71,7 +71,7 @@ One notable feature is the incorporation of Near Field Communication (NFC) chann
 
 <div class="center-elements"> 
 
-![Figure 2](/assets/US9525753B2-image-02.png#center)
+![Figure 2](US9525753B2-image-02.png)
 
 
 **Figure 2** 
