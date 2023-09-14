@@ -14,5 +14,8 @@
     "astro": "^3.0.6",
     "astro-markdown-experience": "^0.6.5",
     "sharp": "^0.32.5"
+  },
+  "devDependencies": {
+    "astro-robots-txt": "^1.0.0"
   }
 }

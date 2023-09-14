@@ -1,6 +1,7 @@
-import { defineConfig } from 'astro/config';
-import starlight from '@astrojs/starlight';
+import { defineConfig } from "astro/config";
+import starlight from "@astrojs/starlight";
 import * as ameRPU from "astro-markdown-experience/rewrite-previewable-url";
+import robotsTxt from "astro-robots-txt";
 
 // https://astro.build/config
 export default defineConfig({
@@ -9,6 +10,7 @@ export default defineConfig({
   },
   site: "https://www.intellectualfrontiers.com/",
   integrations: [
+    robotsTxt(),
     starlight({
       title: "Intellectual Frontiers",
       customCss: ["./src/styles/custom.css"],
