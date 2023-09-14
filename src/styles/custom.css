@@ -11,3 +11,7 @@
   .center-elements p img {
     margin:auto
   }
+
+  p a {
+text-decoration: none !important;
+  }
