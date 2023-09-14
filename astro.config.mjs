@@ -5,11 +5,9 @@ import * as ameRPU from "astro-markdown-experience/rewrite-previewable-url";
 // https://astro.build/config
 export default defineConfig({
   markdown: {
-    remarkPlugins: [
-      ameRPU.typicalRemarkRewritePreviewableURLsPlugin({
-      }),
-    ],
+    remarkPlugins: [ameRPU.typicalRemarkRewritePreviewableURLsPlugin({})],
   },
+  site: "https://www.intellectualfrontiers.com/",
   integrations: [
     starlight({
       title: "Intellectual Frontiers",
