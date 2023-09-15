@@ -3,6 +3,8 @@ import starlight from "@astrojs/starlight";
 import * as ameRPU from "astro-markdown-experience/rewrite-previewable-url";
 import robotsTxt from "astro-robots-txt";
 
+
+
 // https://astro.build/config
 export default defineConfig({
   markdown: {
@@ -29,6 +31,16 @@ export default defineConfig({
         {
           label: "Patents",
           autogenerate: { directory: "patents" },
+        },
+      ],
+      head: [
+        {
+          tag: "meta",
+          attrs: {
+            name: "google-site-verification",
+            content: "BbkYCQaDnpMzS3hZLItIMBOQUDoJWkJilmNH5XwORto",
+            defer: true,
+          },
         },
       ],
     }),
