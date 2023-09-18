@@ -29,6 +29,10 @@ export default defineConfig({
           autogenerate: { directory: "use-cases" },
         },
         {
+          label: "Patent Summaries",
+          autogenerate: { directory: "patent-summaries" },
+        },
+        {
           label: "Patents",
           autogenerate: { directory: "patents" },
         },
