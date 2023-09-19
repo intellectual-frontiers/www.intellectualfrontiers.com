@@ -1,5 +1,5 @@
 ---
-title: Enhancing Reusable Software Development with Declarative Executable Specifications
+title: Reusable Software Development with Declarative Executable Specifications
 uspto-canonical-id-label: Patent
 uspto-patent-number: US-7039898-B2
 inventor: Shah N. Shahid
@@ -11,7 +11,7 @@ application-date:
 issue-date: 
 expiry-date: 
 patent-status: Active
-url: "/ip/enhancing-reusable-software-development-with-declarative-executable-specifications"
+url: "/ip/reusable-software-development-with-declarative-executable-specifications"
 uspto-patent-pdf:
 uspto-patent-url:
 thumbnail: 
