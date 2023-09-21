@@ -71,7 +71,7 @@ One notable feature is the incorporation of Near Field Communication (NFC) chann
 
 <div class="center-elements"> 
 
-![Figure 2](US9525753B2-image-02.png)
+![Figure 2](us9525753b2-image-02.png)
 
 
 **Figure 2** 
