@@ -58,7 +58,7 @@ To make this collaboration effective, the system uses the "social profiles" for 
 
 <div class="center-elements"> 
 
-![Figure 1](US9525753B2-image-01.png)
+![Figure 1](us9525753b2-image-01.png)
 
 
 **Figure 1** 

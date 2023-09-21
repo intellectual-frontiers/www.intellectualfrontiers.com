@@ -14,7 +14,7 @@ patent-status: Active
 url: "/ip/tasks-scheduling-based-on-triggering-event-and-work-lists-management"
 uspto-patent-pdf: "https://patentimages.storage.googleapis.com/2f/e7/27/f40f5ddb15d76e/US7039898.pdf"
 uspto-patent-url: https://patents.google.com/patent/US10403399B2
-thumbnail: "/assets-natural/brand/www.netspective.com/ip/US7039898.jpg"
+thumbnail: "/assets-natural/brand/www.netspective.com/ip/us7039898.jpg"
 uspto-patent-citation-label: Patent Citations
 forward-citations: 
  - US11282596B2 (3M Innovative Properties Company)
@@ -51,19 +51,19 @@ topics:
  - Task Scheduling Automation
  - Automated Care Plans
 images:
-  - url: 'US7039898-image-1.png'
+  - url: 'us7039898-image-1.png'
     type: png
-  - url: 'US7039898-image-2.png'
+  - url: 'us7039898-image-2.png'
     type: png
-  - url: 'US7039898-image-3.png'
+  - url: 'us7039898-image-3.png'
     type: png
-  - url: 'US7039898-image-4.png'
+  - url: 'us7039898-image-4.png'
     type: png
-  - url: 'US7039898-image-5.png'
+  - url: 'us7039898-image-5.png'
     type: png
-  - url: 'US7039898-image-6.png'
+  - url: 'us7039898-image-6.png'
     type: png
-  - url: 'US7039898-image-7.png'
+  - url: 'us7039898-image-7.png'
     type: png
 external-links: 
   - anchor_text: USPTO Patent Center
@@ -107,7 +107,7 @@ The patented technology introduces a comprehensive computer-implemented system d
 
 <div class="center-elements"> 
 
-![Figure 1](US7039898-image-66.png)
+![Figure 1](us7039898-image-66.png)
 
 
 **Figure 1** 
@@ -124,7 +124,7 @@ A key innovation is the integration of WiFi-enabled devices within an interactio
 
 <div class="center-elements"> 
 
-![Figure 2](US7039898-image-22.png)
+![Figure 2](us7039898-image-22.png)
 **Figure 2**
 
 </div>
@@ -153,7 +153,7 @@ All these changes and adjustments are made by the system to make sure things run
 
 <div class="center-elements"> 
 
-![Figure 3](US7039898-image-55.png)
+![Figure 3](us7039898-image-55.png)
 **Figure 3**
 </div>
 
@@ -161,13 +161,13 @@ A user can use a special dashboard or interface like the one shown in Figures 4 
 
 <div class="center-elements"> 
 
-![Figure 4](US7039898-image-77.png)
+![Figure 4](us7039898-image-77.png)
 **Figure 4**
 </div
 >
 <div class="center-elements"> 
 
-![Figures. 5](US7039898-image-88.png)
+![Figures. 5](us7039898-image-88.png)
 **Figure 5**
 
 </div>
@@ -176,13 +176,13 @@ Figures. 6 and 7 show interfaces to manage the worklists, access different libra
 
 <div class="center-elements"> 
 
-![Figures. 6](US7039898-image-99.png)
+![Figures. 6](us7039898-image-99.png)
 **Figure 6**
 </div>
 
 <div class="center-elements"> 
 
-![Figures. 7](US7039898-image-100.png)
+![Figures. 7](us7039898-image-100.png)
 **Figure 7**
 </div>
 
@@ -198,7 +198,7 @@ The image below shows the different types of libraries available for functioning
 
 <div class="center-elements"> 
 
-![Figures. 8](US7039898-image-177.png)
+![Figures. 8](us7039898-image-177.png)
 **Figure 8**
 </div>
 

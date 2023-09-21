@@ -52,7 +52,7 @@ In response to this need, we introduced a patented computer-implemented method a
 This system, as shown in Figure 1 includes multiple user devices (referred to as client devices) that are connected through a network to a central server. This server connects to a rating aggregator, which is a tool for gathering and analyzing ratings. These client devices can be any devices with internet access, like computers or smartphones. They are used by users, like individuals or organizations, who want to find ratings or reviews for different entities, such as doctors, hospitals, or other professionals.
 <div class="center-elements"> 
 
-![Figure 1](US10489830B2-image-01.png)
+![Figure 1](us10489830b2-image-01.png)
 
 
 </div>
@@ -66,7 +66,7 @@ The rating aggregator uses different algorithms and methods to calculate these a
 As shown in Figure 2, the system consists of several components that work together to collect, filter, process, and publish ratings. The search engine is responsible for finding ratings from various sources on the internet. The filtering engine removes any unreliable or redundant ratings. The rating evaluation unit calculates the aggregated ratings using different methods. The publishing engine shares these aggregated ratings on websites or other platforms. The memory circuit stores all the data, including individual and aggregated ratings, for future reference.
 <div class="center-elements"> 
 
-![Figure 2](US10489830B2-image-02.png)
+![Figure 2](us10489830b2-image-02.png)
 
 
 **Figure 2** 
@@ -107,7 +107,7 @@ Figure 3 shows technology components of the sentiment analysis engine integrated
 
 <div class="center-elements"> 
 
-![Figure 3](US10489830B2-image-03.png)
+![Figure 3](us10489830b2-image-03.png)
 
 
 **Figure 3** 

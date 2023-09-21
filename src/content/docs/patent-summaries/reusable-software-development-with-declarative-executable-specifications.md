@@ -60,7 +60,7 @@ In a world that increasingly relies on digital solutions, the call for efficient
 
 <div class="center-elements img-rt" style="padding-top:60px"> 
 
-![Figure 1](US7039898B2-image-01.png)
+![Figure 1](us7039898b2-image-01.png)
 **Figure 1**
 
 </div>

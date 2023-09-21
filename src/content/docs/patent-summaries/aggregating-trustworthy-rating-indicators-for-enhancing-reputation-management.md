@@ -54,7 +54,7 @@ Once it has this data, the system uses a special computer program to filter out 
 
 <div class="center-elements"> 
 
-![Figure 2](US9846896B2-image-01.png)
+![Figure 2](us9846896b2-image-01.png)
 
 </div>
 
@@ -74,7 +74,7 @@ The key components of the technology are described herein:
 
 <div class="center-elements"> 
 
-![Figure 2](US9846896B2-image-02.png)
+![Figure 2](us9846896b2-image-02.png)
 
 
 **Figure 2** 
@@ -83,7 +83,7 @@ The key components of the technology are described herein:
 
 <div class="center-elements"> 
 
-![Figure 3](US9846896B2-image-03.png)
+![Figure 3](us9846896b2-image-03.png)
 
 **Figure 3** 
 
