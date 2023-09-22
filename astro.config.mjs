@@ -21,7 +21,7 @@ export default defineConfig({
       },
       sidebar: [
         {
-          label: "About our IP",
+          label: "About Our IP",
           link: "/about",
         },
         {
