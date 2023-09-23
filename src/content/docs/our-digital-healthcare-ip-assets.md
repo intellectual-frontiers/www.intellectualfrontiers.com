@@ -6,7 +6,27 @@ Welcome to our Digital Healthcare Intellectual Property (IP) Showcase. Our commi
 
 ## Explore Our Patents Portfolio
 
-Step further into our portfolio of patents, where you'll uncover in-depth details about our innovations in digital healthcare. Each patent is a distinct solution crafted to improve healthcare accessibility, efficiency, and patient-centered care.
+Take a closer look into our patent portfolio, where you'll discover comprehensive information about our innovations in digital healthcare. Each patent represents a unique solution designed to enhance healthcare accessibility, efficiency, and patient-centered care. Our portfolio comprises 74 patent filings, including 28 granted US patents. Additionally, approximately a dozen more filings are in an unpublished stage, not accessible to the general public but available for disclosure under an NDA upon request.
+
+### Original Patent Documents
+
+Access the official, unaltered patent documents, including detailed specifications, drawings, and claims, to get an in-depth understanding of the patented technology.
+### Layman Language Patent Summaries
+
+Simplified explanations in plain language that break down complex patents, making them accessible to individuals without a technical background.
+
+### Claim Summaries
+
+Concise summaries of the key claims within each patent, highlighting the specific innovations and protections provided by the patent.
+### Use Case Examples
+
+Real-world scenarios and practical applications that illustrate how each patent can be utilized in various industries and situations.
+### Visual Representations
+
+Visual aids such as infographics, diagrams, and flowcharts that visually explain the patent's concepts and functionality.
+### FAQ (Frequently Asked Questions)
+
+Answers to common queries about our patents, the patent acquisition process, licensing, and other relevant topics, providing clarity and guidance to users.
 
 ## Explore Our Defensive Disclosures
 
