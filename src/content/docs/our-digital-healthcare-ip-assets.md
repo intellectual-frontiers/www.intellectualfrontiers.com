@@ -13,7 +13,7 @@ Take a closer look into our patent portfolio, where you'll discover comprehensiv
 Access the official, unaltered patent documents, including detailed specifications, drawings, and claims, to get an in-depth understanding of the patented technology.
 ### Layman Language Patent Summaries
 
-Simplified explanations in plain language that break down complex patents, making them accessible to individuals without a technical background.
+Simplified explanations in plain language that break down complex patents, making them accessible to individuals without a patent/legal background.
 
 ### Claim Summaries
 
