@@ -21,8 +21,8 @@ export default defineConfig({
       },
       sidebar: [
         {
-          label: "Our Digital Healthcare Intellectual Property (IP) Assets",
-          link: "/our-digital-healthcare-ip-assets",
+          label: "Our Intellectual Property (IP) Assets",
+          link: "/our-intellectual-property-assets/",
         },
         {
           label: "Use Cases",
