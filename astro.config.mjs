@@ -36,6 +36,10 @@ export default defineConfig({
           label: "Patents",
           autogenerate: { directory: "patents" },
         },
+        {
+          label: "Patents Listing",
+          link: "/patents-listing/",
+        },
       ],
       head: [
         {
