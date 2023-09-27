@@ -184,7 +184,13 @@ The second medical device may comprise a life support system comprising an oxyge
 
 **What is claimed is** :
 
+<div style="padding-left:60px">
+
 1. A system comprising:
+
+</div>
+
+<div style="padding-left:110px">
 
 a sensor that senses one or more physiological characteristics of a physiological subject and generates a digital signal indicative of an instantaneous physiological state of the subject;
 
@@ -196,6 +202,10 @@ a server communicatively linked to the sensor and the at least one electronic de
 
 an identity validation device that verifies an identity of the at least one electronic device and associates a subject identifier uniquely representing the subject with the at least one electronic device based on information contained within the digital signal such that the operational parameters are dependent on the reference values associated with the subject.
 
+</div>
+
+<div style="padding-left:130px;color:grey">
+
 2. The system of claim 1, comprising an interface communicatively linked to a social network platform to facilitate real-time communication associated with the operating state of the at least one electronic device.
 
 3. The system of claim 1, comprising an interface communicatively linked to a social network platform to facilitate real-time communication associated with the subject interacting with at least one electronic device.
@@ -204,9 +214,16 @@ an identity validation device that verifies an identity of the at least one elec
 
 5. The system of claim 1, wherein the at least one electronic device comprises:
 
+</div>
+
+<div style="padding-left:200px;color:grey">
+
 a first electronic device that generates a first signal corresponding to an operating state of the first electronic device, wherein the first electronic device performs one of a therapeutic, diagnostic, and a medication delivery task on the subject based on a first selected set of instructions; and
 
 a second electronic device that generates a second signal corresponding to an operating state of the second electronic device, wherein the second electronic device performs one of a therapeutic, diagnostic, and a medication delivery task on the subject based on a second selected set of instructions.
+</div>
+
+<div style="padding-left:130px;color:grey">
 
 6. The system of claim 5, wherein the operating state of the first electronic device and the operating state of the second electronic device are interdependent such that the operating state of the first electronic device is non-performing when the operating state of the second electronic device is performing, and wherein the server is configured to retrieve information about interdependence of the first electronic device and the second electronic device from a lookup table stored in the database.
 
@@ -224,7 +241,11 @@ a second electronic device that generates a second signal corresponding to an op
 
 13. The system of claim 1, comprising a remote-controlled device that controls an operation of the at least one electronic device for performing an action on the subject.
 
+</div>
+
 14. A system comprising:
+
+<div style="padding-left:80px">
 
 a sensor that detects physiological data associated with a subject;
 
@@ -238,6 +259,10 @@ an identification module that contains digitally stored information for transmis
 
 a processor communicatively linked with the sensor and the plurality of electronic devices, wherein the processor:
 
+</div>
+
+<div style="padding-left:100px">
+
 receives a signal from the sensor, wherein the signal contains the physiological data;
 
 verifies an identity of the plurality of electronic devices based at least on the digitally stored information and associates a subject identifier uniquely representing the subject with at least one of the plurality of electronic devices based on information contained in the physiological data associated with a subject;
@@ -245,6 +270,10 @@ verifies an identity of the plurality of electronic devices based at least on th
 transmits the subject identifier and a plurality of electronic devices identifier associated along with a service request to a remote-control device positioned apart from the sensor, wherein the remote-control device fulfills the service request based on information contained in a plurality of dynamically updating computer-executable files from a plurality of digital data sources communicatively linked to the remote-control device; and
 
 receives the one or more operational parameters from the remote-control device in response to the service request from the processor and based on an instantaneous physiological state as identified from the signal such that said one or more operating parameters decides operating characteristics of the plurality of electronic devices.
+
+</div>
+
+<div style="padding-left:100px;color:grey">
 
 15. The system of claim 14, wherein the plurality of electronic devices and the integrated gateway device are communicatively linked through the Internet.
 
@@ -257,6 +286,8 @@ receives the one or more operational parameters from the remote-control device i
 19. The system of claim 18, wherein the trust factor determines whether a particular electronic device of the plurality of electronic devices is to be used.
 
 20. The system of claim 14, wherein the remote-controlled device controls an operation of the plurality of electronic devices for performing an action on the subject.
+
+</div>
 
 ### BRIEF DESCRIPTION OF THE DRAWINGS
 

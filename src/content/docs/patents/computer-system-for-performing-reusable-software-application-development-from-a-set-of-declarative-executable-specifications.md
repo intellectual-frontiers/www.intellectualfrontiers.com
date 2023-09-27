@@ -176,7 +176,7 @@ Yet another benefit of the present invention is that it implements common design
 ## Claims (19)
 
 1. A computer system for performing reusable software application development, said computer system comprising a multi-component architecture comprising data, wherein said multi-component architecture further comprises:
-
+<div style="padding-left:60px">
 a relational database server operatively connected to an application server;
 
 a presentation component operatively connected to said application server;
@@ -191,6 +191,10 @@ an administration console operatively connected to said presentation component, 
 
 declarable executable specifications operatively connected to said security and personalization component, wherein said declarable executable specifications comprise a set of keywords and attributes used to declare a single set of said executable specifications and receive full unit tests, implementation documentation, and end-user application code from said single set of said executable specifications.
 
+</div>
+
+<div style="padding-left:70px;color:grey">
+
 2. The computer system of claim 1, wherein said presentation component comprises an extensible application framework comprising at least one application program interface, wherein said application program interface automates form building engines, data state machine engines, queries engines, reporting engines, access control engines, templating engines, project configuration engines, rule processing engines, and metrics engines.
 
 3. The computer system of claim 1, wherein said application component comprises an extensible information framework of database structure libraries, wherein said libraries comprise reusable tables, columns, and indexes.
@@ -199,17 +203,26 @@ declarable executable specifications operatively connected to said security and 
 
 5. The computer system of claim 1, wherein said administration console responds to operator commands enabling an operator to access said data and said declarable executable specifications.
 
+</div>
+
 6. A computer-implemented method for performing reusable software application development, said method comprising:
 
+<div style="padding-left:60px">
+
 integrating a data processing system;
-
 providing a set of keywords and attributes in said data processing system;
-
 declaring a single set of executable specifications using said set of keywords and attributes; and
-
 receiving full unit tests, implementation documentation, and end-user application code from said single set of said executable specifications.
 
+</div>
+
+<div style="padding-left:70px;color:grey">
+
 7. The method of claim 6, wherein said step of declaring a set of executable specifications comprises:
+
+</div>
+
+<div style="padding-left:160px;color:grey">
 
 generating a program code in said data processing system;
 
@@ -225,9 +238,17 @@ generating a performance statistics output in said data processing system; and
 
 generating a project metrics in said data processing system.
 
+</div>
+
+<div style="padding-left:70px;color:grey">
+
 8. The method of claim 6, wherein said step of providing a set of keywords and attributes comprises generating a set of user interface forms, fields, and validation rules, and wherein said method enables an operator to describe components of a presentation and interface by receiving input from a user.
 
 9. The method of claim 6, wherein said step of providing a set of keywords and attributes comprises:
+
+</div>
+
+<div style="padding-left:160px;color:grey">
 
 generating a library of structured query language statements; and
 
@@ -238,6 +259,10 @@ wherein said method enables an operator to describe database access components b
 wherein said data storage device is coupled to said data processing system, and
 
 wherein said method enables said operator to describe database access rules and user interface components that connect to said data storage device by retrieving said data from said storage device and presenting data to a user.
+
+</div>
+
+<div style="padding-left:70px;color:grey">
 
 10. The method of claim 6, wherein said step of providing a set of keywords and attributes comprises generating one of a web browser report, a file-based report, and a portable document format report, and wherein said method enables an operator to describe database interface components by displaying data to a user.
 
@@ -245,7 +270,11 @@ wherein said method enables said operator to describe database access rules and 
 
 12. The method of claim 6, wherein said step of providing a set of keywords and attributes comprises generating database schemata, wherein said database schemata comprises data types, table types, tables, and enumerations, and wherein said method enables an operator to describe database structure components by storing application data.
 
+</div>
+
 13. A program storage device readable by machine, tangibly embodying a program of instructions executable by said machine to perform a method for performing reusable software application development, said method comprising:
+
+<div style="padding-left:80px">
 
 integrating a data processing system;
 
@@ -255,7 +284,15 @@ declaring a single set of executable specifications using said set of keywords a
 
 receiving full unit tests, implementation documentation, and end-user application code from said single set of said executable specifications.
 
+</div>
+
+<div style="padding-left:70px;color:grey">
+
 14. The program storage device of claim 13, wherein said step of declaring a set of executable specifications comprises:
+
+</div>
+
+<div style="padding-left:160px;color:grey">
 
 generating a program code in said data processing system;
 
@@ -271,9 +308,17 @@ generating a performance statistics output in said data processing system; and
 
 generating a project metrics in said data processing system.
 
+</div>
+
+<div style="padding-left:70px;color:grey">
+
 15. The program storage device of claim 13, wherein said step of providing a set of keywords and attributes comprises generating a set of user interface forms, fields, and validation rules, and wherein said method enables an operator to describe components of a presentation and interface by receiving input from a user.
 
 16. The program storage device of claim 13, wherein said step of providing a set of keywords and attributes comprises:
+
+</div>
+
+<div style="padding-left:160px;color:grey">
 
 generating a library of structured query language statements; and
 
@@ -285,11 +330,17 @@ wherein said data storage device is coupled to said data processing system, and
 
 wherein said method enables said operator to describe database access rules and user interface components that connect to said data storage device by retrieving said data from said storage device and presenting data to a user.
 
+</div>
+
+<div style="padding-left:70px;color:grey">
+
 17. The program storage device of claim 13, wherein said step of providing a set of keywords and attributes comprises generating one of a web browser report, a file-based report, and a portable document format report, and wherein said method enables an operator to describe database interface components by displaying data to a user.
 
 18. The program storage device of claim 13, wherein said step of providing a set of keywords and attributes comprises generating a library of security rules and permission statements, and wherein said method enables an operator to describe authorization and authentication components of an application.
 
 19. The program storage device of claim 13, wherein said step of providing a set of keywords and attributes comprises generating database schemata, wherein said database schemata comprises data types, table types, tables, and enumerations, and wherein said method enables an operator to describe database structure components by storing application data.
+
+</div>
 
 ## BRIEF DESCRIPTION OF THE DRAWINGS
 
