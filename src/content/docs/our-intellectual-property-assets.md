@@ -10,7 +10,7 @@ Take a closer look into our patent portfolio, where you'll discover comprehensiv
 
 ### Original Patent Documents
 
-[Access the official, unaltered patent documents, including detailed specifications, drawings, and claims, to get an in-depth understanding of the patented technology.](/patents-listing/)
+Access the official, unaltered patent documents, including detailed specifications, drawings, and claims, to get an in-depth understanding of the patented technology. [Click here to view](/patents-listing/)
 ### Layman Language Patent Summaries
 
 Simplified explanations in plain language that break down complex patents, making them accessible to individuals without a patent/legal background.
