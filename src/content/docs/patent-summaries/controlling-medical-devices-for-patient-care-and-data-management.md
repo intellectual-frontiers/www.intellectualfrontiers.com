@@ -47,6 +47,14 @@ Furthermore, with its electronic record (ER) client, the remote-control device c
 
 This proposed technology addresses the extant challenges in the medical field by ensuring efficient real-time monitoring, seamless integration with electronic health record technologies, and unimpeded access to data across changing networks. Such advancements are poised to impact patient care and data management, ensuring better health outcomes and streamlined operational procedures for medical establishments.
 
+<div class="center-elements"> 
+
+![Figure 1](us10638999b2-image-1.png)
+
+**Figure 1** 
+
+</div>
+
 ## Introduction of the Innovative Medical Device Management Technology
 
 ### Functional Significance of Physiological Sensing

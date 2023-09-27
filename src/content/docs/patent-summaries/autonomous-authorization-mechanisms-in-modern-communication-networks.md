@@ -53,6 +53,14 @@ It is a challenging task to strike a balance between security and usability. Ove
 
 ## Innovative Approaches to Enhance Digital Authorization
 
+<div class="center-elements"> 
+
+![Figure 1](us10963585b2-image-1.png)
+
+**Figure 1** 
+
+</div>
+
 ### Self-Controlled Digital Authorization Protocols
 
 This technology fine-tunes authorization measures, ensuring enhanced security. It learns and responds to user habits, mitigating potential unauthorized access.
