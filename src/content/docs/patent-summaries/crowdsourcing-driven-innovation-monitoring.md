@@ -31,7 +31,7 @@ downloadable-documents:
     link_url: 
 ---
 
-This technology establishes a secure and trust-based system for exchanging crowdsourced initiatives in an ecosystem. It involves innovators contributing their initiatives and approaches for tracking and evaluating these innovations based on various inputs.A method is provided for validating innovators' credentials and maintaining trust among participants. The system emphasizes security, trust, and privacy while facilitating the exchange of innovative ideas.
+This technology establishes a secure and trust-based system for exchanging crowdsourced initiatives in an ecosystem. It involves innovators contributing their initiatives and approaches for tracking and evaluating these innovations based on various inputs. A method is provided for validating innovators' credentials and maintaining trust among participants. The system emphasizes security, trust, and privacy while facilitating the exchange of innovative ideas.
 
 
 ## Concepts to Digital Realities
