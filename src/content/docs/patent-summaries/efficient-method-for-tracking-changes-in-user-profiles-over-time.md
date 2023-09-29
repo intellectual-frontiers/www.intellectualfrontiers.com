@@ -1,5 +1,5 @@
 ---
-title: Networking devices for storing profiles longitudinally
+title: Efficient Method for Tracking Changes in User Profiles Over Time
 uspto-canonical-id-label: Patent
 uspto-patent-number: US-10586069-B2
 inventor: Shah N. Shahid
@@ -11,7 +11,7 @@ application-date:
 issue-date: 
 expiry-date: 
 patent-status: Active
-url: "/ip/networking-devices-for-storing-profiles-longitudinally"
+url: "/ip/efficient-method-for-tracking-changes-in-user-profiles-over-time"
 uspto-patent-pdf:
 uspto-patent-url:
 thumbnail: 
