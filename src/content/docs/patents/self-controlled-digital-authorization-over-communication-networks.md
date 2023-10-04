@@ -145,7 +145,7 @@ A system for authorizing an external device to access computerized records. The 
 
 This application is a continuation-in-part of U.S. patent application Ser. No. 13/607,997 filed on Sep. 10, 2012, the complete disclosure of which, in its entirety, is hereby incorporated by reference.
 
-### <span style="font-size:20px">BACKGROUND</span
+### <span style="font-size:20px">BACKGROUND</span>
 
 1. Technical Field
 
