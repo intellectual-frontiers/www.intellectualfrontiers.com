@@ -41,11 +41,11 @@ downloadable-documents:
 </div>
 
 
-## Abstract
+### Abstract
 
 Controlling a multi-device module includes a physiological sensor configured to sense physiological characteristics of a subject and generate a signal indicative of an instantaneous physiological state. A first device is configured to generate a first signal indicative of an operating state of the first device. A second device is configured to generate a second signal indicative of an operating state of the second device. A remote-control device includes a repository for storing computer executable files aggregated from a plurality of changing private networks. The remote-control device includes an electronic record (ER) client to make a wireless connection with each of the private networks and to query ER database associated with the private networks for electronic records residing within the private networks.
 
-## Images (13)
+### Images (13)
 
 <div class="center-elements">
 
@@ -142,25 +142,25 @@ Controlling a multi-device module includes a physiological sensor configured to 
 
 </div>
 
-## Description
+### Description
 
-### CROSS-REFERENCE TO RELATED APPLICATIONS
+**CROSS-REFERENCE TO RELATED APPLICATIONS**
 
 This application is a continuation of U.S. patent application Ser. No. 15/430,461 filed on Feb. 11, 2017, which is a continuation-in-part of U.S. patent application Ser. No. 13/756,445 filed on Jan. 31, 2013, which claims priority to U.S. provisional application No. 61/594,224, filed on Feb. 2, 2012, the complete disclosures of which, in their entireties, are hereby incorporated by reference.
 
-## BACKGROUND
+### <span style="font-size:20px">BACKGROUND</span>
 
-### Technical Field
+Technical Field
 
 The embodiments herein generally relate to medical devices, and more particularly, to systems for controlling medical devices.
 
-### Description of the Related Art
+Description of the Related Art
 
 Hospitals, caretakers, nursing centers or homes, medical offices, medical centers, or other sources of medical care and entities generally keep medical and demographic or other such records of their patients. These records may include a variety of information such as demographic information of their patients, medical history, diagnostic and pathology reports of their patients, medical reports or prescriptions, or other such information. This information can be used for a variety of purposes by these sources of medical care. A few examples of them are, without limitations, tracking of the patients and their records, billing, historical assessments, integrating with medical devices, remote care, future care taking, telemedicine, proper ongoing medical or health assessment or treatment, or any other purpose.
 
 One way to collate and store the medical data is with the use of an electronic health record data bank (EHRDB). These records from various entities can be electronically maintained such as by the electronic health record data bank (EHRDB) in a central system accessible by the entities. The EHRDB may store medical data of the entities and devices and retrieve the data of the respective entities as and when requested by them.
 
-### SUMMARY
+### <span style="font-size:20px">SUMMARY</span>
 
 An embodiment herein provides a system for controlling multiple devices, the system comprising a physiological sensor associated with a body of a subject and configured to sense one or more physiological characteristics of the subject and generate a digital physiological signal indicative of an instantaneous physiological state of the subject; a first device configured for bi-directional wireless communication positioned proximate to the subject and comprising a first memory circuit and a first processor, wherein the first device is configured to generate a first signal indicative of an operating state of the first device, and wherein the operating state comprising one of a performing state and a non-performing state of the first device; a second device configured for bi-directional wireless communication positioned proximate to the subject and comprising a second memory circuit and a second processor, wherein the second device is configured to generate a second signal indicative of an operating state of the second device, wherein the operating state comprising one of a performing state and a non-performing state of the second device, and wherein the first device and the second device are configured to perform one of a therapeutic, diagnostic, and a medication delivery task on the subject in accordance with computer-enabled instructions; a computer with telemetry circuitry for communicating with the physiological sensor, the first device, and the second device; and a remote-control device positioned apart from the physiological sensor, the first device, and the second device.
 
@@ -180,7 +180,7 @@ The first medical device may comprise a medical imaging machine for imaging of a
 
 The second medical device may comprise a life support system comprising an oxygen source that includes a tank of pressurized gas; one or more control valves disposed over a channel connecting the oxygen source and the subject to allow the oxygen to flow from the tank to a laryngeal mask in a first state and to allow gas expelled from the subject to flow from the laryngeal mask to the atmosphere in a second state while preventing the oxygen from flowing from the oxygen source in a second state; the laryngeal mask disposed downstream from the inspiration control valve, the laryngeal mask configured to form an air seal with the subject's respiratory tract such that the oxygen flows from the oxygen source to the lungs of the subject; a timer for synchronizing actuation of the one or more control valves based on the operational parameters received from the remote-control device containing the EMR system; the integrated gateway device; and the identification module. The life support system may comprise a ventilator. Each of the first medical device and the second medical device may comprise a respective (Global Positioning System) GPS-based device such that the GPS-based device is configured to detect geo-locations of the respective first medical device and the second medical device, wherein the remote-control device receives the detected geo-locations of the first medical device and the second medical device, and the remote-control device automatically correlates the subject identifier for the subject associated with the first medical device and the second medical device and initiates functioning in context of the subject as and when the EMR system is proximate to the subject associated with the first medical device and the second medical device. The computer may be configured to transform the operating parameters received from the remote-control device into a digital data structure, the system further comprising a scanner communicatively coupled to the computer such that the digital data structure is readable by the scanner.
 
-## Claims (20)
+### Claims (20)
 
 **What is claimed is** :
 
@@ -289,7 +289,7 @@ receives the one or more operational parameters from the remote-control device i
 
 </div>
 
-### BRIEF DESCRIPTION OF THE DRAWINGS
+### <span style="font-size:20px">BRIEF DESCRIPTION OF THE DRAWINGS </span>
 
 The features of the disclosed embodiments may become apparent from the following detailed description taken in conjunction with the accompanying drawings showing illustrative embodiments herein, in which:
 
@@ -357,7 +357,7 @@ FIG. 12 illustrates an exemplary centralized system linked with medical devices,
 FIG. 13 illustrates generally, but not by the way of limitation, a computer system that may be used in accordance with the embodiments herein.
 </a>
 
-###   DETAILED DESCRIPTION
+### <span style="font-size:20px">DETAILED DESCRIPTION </span>
 
 The embodiments herein and the various features and advantageous details thereof are explained more fully with reference to the non-limiting embodiments that are illustrated in the accompanying drawings and detailed in the following description. Descriptions of well-known components and are omitted so as to not unnecessarily obscure the embodiments herein. The examples used herein are intended merely to facilitate an understanding of ways in which the embodiments herein may be practiced and to further enable those of skill in the art to practice the embodiments herein. Accordingly, the examples should not be construed as limiting the scope of the embodiments herein.
 

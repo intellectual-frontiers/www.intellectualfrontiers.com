@@ -39,11 +39,11 @@ downloadable-documents:
 
 </div>
 
-## Abstract
+### Abstract
 
 A computer system executing a method for performing reusable software application development comprises integrating a data processing system, providing a set of keywords and attributes, and declaring a set of executable specifications using the keywords and attributes, further comprising generating a program code, instantiating an object code, generating a testable functionality result, generating at least one unit test, generating an implementation documentation output, generating a performance statistics output, and generating a project metrics in the data processing system. The step of providing a set of keywords and attributes comprises generating a set of user interface forms, fields, and validation rules, generating a library of structured query language statements, generating a library of rules for generating dynamic structured query language statements, generating one of a web browser report, a file-based report, and a portable document format report, generating a library of security rules and permission statements, and generating database schemata.
 
-## Images (11)
+### Images (11)
 
 <div class="center-elements">
 
@@ -119,9 +119,9 @@ A computer system executing a method for performing reusable software applicatio
 
 </div>
 
-## Description
+### Description
 
-### BACKGROUND OF THE INVENTION
+### <span style="font-size:20px">BACKGROUND OF THE INVENTION</span>
 
 1. **Field of the Invention**
 
@@ -143,7 +143,7 @@ Moreover, existing development environments and languages treat the problem doma
 
 While the conventional development processes once provided a valuable system of creating multi-components of business systems, there remains a need for a new automated reusable software application development system which provides a uniform framework for describing the various components or facets of business systems using simple declarative constructs that even inexperienced programmers can create and yet achieve quality attributes of systems that senior level architects and engineers often produce.
 
-## **SUMMARY OF THE INVENTION**
+### <span style="font-size:20px">SUMMARY OF THE INVENTION</span>
 
 In view of the foregoing, and other drawbacks and disadvantages of the conventional systems, the present invention has been devised, and it is an object of the present invention, to provide an automated system and method for performing reusable software application development. It is another object of the present invention to provide a business-oriented computer software system comprising multi-components or facets including forms, dialogs, fields, validation rules, static structured query language statements (SQL), dynamic structured query language statements, security roles and permissions, value sources, data sources, database schemata, reports, navigation, and personalization.
 
@@ -173,7 +173,7 @@ Yet another benefit of the present invention is that it provides a computer syst
 
 Yet another benefit of the present invention is that it implements common design patterns like Model-View-Controller (MVC) and factories, and the present invention's skins infrastructure allows identical business logic to be used across different user interfaces for a variety of browsers and platforms like handheld computers. Still another benefit of the present invention is that it affords developers much flexibility in their software application development process without having to change the existing code-base.
 
-## Claims (19)
+### Claims (19)
 
 1. A computer system for performing reusable software application development, said computer system comprising a multi-component architecture comprising data, wherein said multi-component architecture further comprises:
 <div style="padding-left:60px">
@@ -342,7 +342,7 @@ wherein said method enables said operator to describe database access rules and 
 
 </div>
 
-## BRIEF DESCRIPTION OF THE DRAWINGS
+### <span style="font-size:20px">BRIEF DESCRIPTION OF THE DRAWINGS </span>
 
 The foregoing and other objects, aspects and advantages will be better understood from the following detailed description of a preferred embodiment(s) of the invention with reference to the drawings, in which:
 
@@ -416,8 +416,7 @@ FIG. 14 is a system diagram according to the present invention;
 </a>
 
 
-## DETAILED DESCRIPTION OF PREFERRED EMBODIMENTS OF THE INVENTION
-
+### <span style="font-size:20px">DETAILED DESCRIPTION OF PREFERRED EMBODIMENTS OF THE INVENTION</span>
 As previously mentioned, there is a need for a new automated reusable software application development system capable of streamlining and improving the technique of software application development. The claimed invention addresses this need by providing a system and method for performing reusable software application development from a set of declarative executable specifications. Specifically, the present invention provides a system for easily assembling robust and sophisticated business applications from a set of reusable declarative constructs, and from these constructs known as executable specifications, to automatically generate program code, automatically instantiate objects that do not need to be recompiled, automatically generate unit test cases to enforce quality standards, and to automatically generate implementation documentation that can be used for application maintenance.
 
 Referring now to the drawings, and more particularly to FIGS. 1 through 14, there are shown preferred embodiments of the system and method according to the present invention. Specifically, in FIG. 1, there is shown a system diagram illustrating a preferred embodiment of the present invention in which a computer system  **1**  for performing reusable software application development is shown comprising a multi-component architecture  **2** , which comprises data  **37**  (shown in FIG. 6), wherein the multi-component architecture  **2**  further comprises a relational database server  **3**  operatively connected to an application server  **4** , a presentation component  **5**  operatively connected to the application server  **4** , an application component  **6**  operatively connected to the application server  **4** , a data component  **7**  operatively connected to the application server  **4** , a security and personalization component  **8**  operatively connected to the presentation component  **5** , the application component  **6** , and the data component  **7** , and wherein the computer system  **1**  also comprises an administration console  **9**  operatively connected to the presentation component  **5** , the application component  **6** , and the data component  **7** , wherein the administration console  **9**  comprises the security and personalization component  **8**.

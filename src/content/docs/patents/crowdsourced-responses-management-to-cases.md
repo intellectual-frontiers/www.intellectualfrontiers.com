@@ -39,11 +39,11 @@ downloadable-documents:
 
 </div>
 
-## Abstract
+### Abstract
 
 A response management system and method configured to allow management of responses to a case submitted by an entity in a crowdsourced network. The system includes a processing circuit that receives, from the entity over the crowdsourced network, the case. The processing circuit federates the case, into a plurality of federated cases, based on one or more parameters. The processing circuit routes the federated cases to the crowd of respondents in the network. The processing circuit receives responses from the crowd for each of the federated cases. The processing circuit integrates responses for each of the federated cases to yield a single integrated response for the case. The processing circuit publishes the integrated response anonymously that is viewable publicly.
 
-## Images (12)
+### Images (12)
 
 <div class="center-elements">
 
@@ -130,9 +130,9 @@ A response management system and method configured to allow management of respon
 </div>
 
 
-## Description
+### Description
 
-### BACKGROUND
+### <span style="font-size:20px">BACKGROUND</span>
 
 1. Technical Field
 
@@ -144,7 +144,7 @@ There exist online platforms through which individuals can submit their question
 
 Therefore, there is a need for a method and system that ensures reliability and correctness of the answers by using wisdom of crowd and credentialing processes.
 
-## SUMMARY
+### <span style="font-size:20px">SUMMARY</span>
 
 An embodiment herein provides a response management system configured to allow management of responses to a case submitted by an entity in a crowdsourced network. The system includes a memory for storing information pertaining to the case submitted by the entity, respective responses for the case by a crowd of respondents in the crowdsourced network, and programmed instructions. The system further includes a processing circuit. The processing circuit receives, from the entity over the crowdsourced network, the case. The processing circuit federates the case, into a plurality of federated cases, based on one or more parameters including a level of complexity, technology involved, and a level of reliability and trust desired in its respective response. Each of the federated cases are associated with one or more corresponding session parameters that are indicative of a respective level of complexity, technology involved, a level of reliability and trust in response desired. The processing circuit routes the federated cases to the crowd of respondents in the network such that the routing of the federated cases is managed based on the session parameters associated with each of the federated cases. The processing circuit receives responses from the crowd for each of the federated cases. The processing circuit associates information pertaining to the responses as second session parameters that are compared with the first session parameters such that the comparison yields a degree of compliance and appropriateness of the second session parameters toward the first session parameters. In response to a degree of compliance below a threshold for one or more federated cases, an adjusted set of third session parameters are associated with the one or more such federated cases. The processing circuit routes the one or more such non-compliant federated cases to a second crowd of respondents in the network such that the routing of the cases is managed based on the third session parameters associated with each of the one or more federated cases. The processing circuit integrates responses for each of the federated cases to yield a single integrated response for the case. The processing circuit publishes the integrated response anonymously that is viewable publicly.
 
@@ -152,7 +152,7 @@ An embodiment herein provides a method for management of responses to cases subm
 
 An embodiment herein provides a program storage device readable by a computer, and comprising a program of instructions executable by said computer to perform a method for management of responses to cases submitted by an entity in a crowdsourced network. The method includes receiving, from the entity over the crowdsourced network, a case. The method includes federating the case, into a plurality of federated cases, based on one or more parameters including a level of complexity, technology involved, and a level of reliability and trust desired in its respective response, wherein each of the federated cases are associated with one or more corresponding session parameters that are indicative of a respective level of complexity, technology involved, a level of reliability and trust in response desired. The method includes routing the federated cases to the crowd of respondents in the network such that the routing of the cases is managed based on the session parameters associated with each of the federated cases. The method includes receiving responses from the crowd for each of the federated cases. The method includes associating information pertaining to the responses as second session parameters that is compared with the first session parameters such that the comparison yields a degree of compliance and appropriateness of the second session parameters toward the first session parameters. In response to a degree of compliance below a threshold for one or more federated cases, an adjusted set of third session parameters are associated with the one or more such federated cases. The method includes routing the one or more such non-compliant federated cases to a second crowd of respondents in the network such that the routing of the cases is managed based on the third session parameters associated with each of the one or more federated cases. The method includes integrating responses for each of the federated cases to yield a single integrated response for the case corresponding to the federated cases. The method includes publishing the integrated response anonymously that is viewable publicly.
 
-## Claims (14)
+### Claims (14)
 
 What is claimed is:
 
@@ -314,7 +314,7 @@ publishing said integrated response anonymously that is viewable publicly.
 
 </div>
 
-## BRIEF DESCRIPTION OF THE DRAWINGS
+### <span style="font-size:20px">BRIEF DESCRIPTION OF THE DRAWINGS </span>
 
 The features of the disclosed embodiments may become apparent from the following detailed description taken in conjunction with the accompanying drawings showing illustrative embodiments herein, in which:
 
@@ -357,7 +357,7 @@ FIG. 1 illustrates an example of an ecosystem to allow management of responses t
 <a href="./#fig10">FIG. 10 illustrates generally, but not by the way of limitation, a computer system that may be used in accordance with the embodiments herein.
 </a>
 
-## DETAILED DESCRIPTION
+### <span style="font-size:20px">DETAILED DESCRIPTION </span>
 
 The embodiments herein and the various features and advantageous details thereof are explained more fully with reference to the non-limiting embodiments that are illustrated in the accompanying drawings and detailed in the following description. Descriptions of well-known components are omitted so as to not unnecessarily obscure the embodiments herein. The examples used herein are intended merely to facilitate an understanding of ways in which the embodiments herein may be practiced and to further enable those of skill in the art to practice the embodiments herein. Accordingly, the examples should not be construed as limiting the scope of the embodiments herein.
 

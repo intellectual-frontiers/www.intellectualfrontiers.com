@@ -38,11 +38,11 @@ downloadable-documents:
 
 </div>
 
-## Abstract
+### Abstract
 
 A computer-implemented method and system for publishing an aggregate rating indicator based on a plurality of discrete rating indicators associated with a rated entity. The method includes searching a plurality of repositories containing the plurality of discrete rating indicators associated with the rated entity. The method may include retrieving a first rating indicator, a second rating indicator, and a third rating indicator. At least one of the first rating indicator, the second rating indicator, and the third rating indicator may be a fraudulent rating indicator. The method may include filtering out the fraudulent rating indicator from among the first, second, and third rating indicators, wherein the fraudulent rating indicator is determined based on a combination of parameters. The method may include aggregating the first, second, and third rating indicators after filtering out the fraudulent rating indicator such that the aggregation results in an aggregate rating indicator.
 
-## Images (15)
+### Images (15)
 
 <div class="center-elements">
 
@@ -135,13 +135,13 @@ A computer-implemented method and system for publishing an aggregate rating indi
 </div>
 
 
-## Description
+### Description
 
-### CROSS-REFERENCE TO RELATED APPLICATIONS
+**CROSS-REFERENCE TO RELATED APPLICATIONS**
 
 This application is a continuation of U.S. application Ser. No. 14/744,697, filed on Jun. 19, 2015 and entitled "Aggregation of Rating Indicators," which claims priority to U.S. Provisional Application Ser. No. 62/015,503, filed on Jun. 22, 2014 and entitled "Methods and Systems for Rating Aggregation," the complete disclosures of which, in their entireties, are hereby incorporated by reference.
 
-### BACKGROUND
+### <span style="font-size:20px">BACKGROUND</span>
 
 Technical Field
 
@@ -155,13 +155,13 @@ Existing methods and systems however do not generally provide an optimal aggrega
 
 In view of the above, there is a need to provide an improved way and system for generating an aggregate rating indicator about an entity to establish an optimal rating and to facilitate searching of entities in an optimal way based on rating indicators to meet user requirements in a precise manner.
 
-## SUMMARY
+### <span style="font-size:20px">SUMMARY</span
 
 An embodiment herein provides a computer-implemented method for publishing an aggregate rating indicator based on a plurality of discrete rating indicators associated with a rated entity. The method includes searching a plurality of repositories containing the plurality of discrete rating indicators associated with the rated entity, wherein each of the plurality of rating indicators comprises a numerical score component and a sentiment score component. The method may include retrieving a first rating indicator published on a web-based repository. The first rating indicator may include a first numerical score component and a first semantic score component. The method may include retrieving a second rating indicator published on a personalized social networking platform section. The second rating indicator may include a second numeric score component and a second semantic score component. The method may include retrieving a third rating indicator stored with a local storage component associated with the rated entity or a rating entity. The third rating indicator may include a third numeric score component and a third semantic score component. At least one of the first rating indicator, the second rating indicator, and the third rating indicator may be a fraudulent rating indicator. The method may include storing the first rating indicator, the second rating indicator, and the third rating indicator in a memory circuit equipped with a special purpose processor. The method may include filtering out the fraudulent rating indicator from among the first rating indicator, the second rating indicator, and the third rating indicator, by the special purpose processor, wherein the fraudulent rating indicator is determined by the special purpose processor based on a combination of parameters including a geo-location coordinate similarity between a rating entity and the rated entity, gender identification, age specifics, frequency of the rating indicator of the rated entity by the rating entity, sentiment writing style, duration between the rating indicator and a subsequent rating indicator by the same rating entity for the same rated entity, duplicate rating indicators provided by the rating entity for the rated entity, use of multiple different rating sources for rating the rated entity by the rating entity, and the like. The method may include aggregating the first rating indicator, the second rating indicator, and the third rating indicator by the special purpose computer after filtering out the fraudulent rating indicator such that the aggregation results in an aggregate rating indicator indicative of an equivalent of the plurality of discrete rating indicators other than the fraudulent rating indicator. The method may include generating an electric signal comprising data signifying the aggregate rating indicator and the rated entity. The method may include transmitting the electric signal from a data communication device, communicatively connected with the special purpose processor, in a network comprising a plurality of communicatively linked data communication devices. The method may include converting the electric signal into a plurality of pixels. The method may include displaying the plurality of pixels on a display unit of a second communication device to publish the aggregate rating indicator associated with the rated entity and the data signifying the rated entity.
 
 An embodiment herein provides a system for publishing an aggregate rating indicator based on a plurality of discrete rating indicators associated with a rated entity. The system may include a search engine for searching a plurality of repositories containing the plurality of discrete rating indicators associated with the entity, wherein each of the plurality of rating indicators comprises a numerical score component and a sentiment score component. The system may include a special purpose processor for retrieving a first rating indicator published on a web-based repository. The first rating indicator includes a first numerical score component and a first sentiment score component. The special purpose processor is configured to retrieve a second rating indicator published on a personalized social networking platform section. The second rating indicator includes a second numeric score component and a second sentiment score component. The special purpose processor is configured to retrieve a third rating indicator published with a local storage component associated with the rated entity or a ratting entity. The third rating indicator includes a third numeric score component and a third sentiment score component, wherein at least one of the first rating indicator, the second rating indicator, and the third rating indicator is a fraudulent rating indicator. The system includes a memory circuit communicatively and operatively connected with the special purpose processor for storing the first rating indicator, the second rating indicator, and the third rating indicator. The system includes a rating filter or a filtering engine communicatively coupled with the special purpose processor and the memory circuit for filtering out a fraudulent rating indicator. The fraudulent rating indicator is determined based on a combination of parameters including a geo-location coordinate similarity between a rating entity and the rated entity, gender identification, age specifics, frequency of the rating indicator of the rated entity by the rating entity, sentiment writing style, duration between the rating indicator and a subsequent rating indicator by the same rating entity for the same rated entity, duplicate rating indicators provided by the rating entity for the rated entity, use of multiple rating sources for rating the rated entity by the rating entity. The system may include a rating aggregator communicatively and operatively connected with the special purpose processor for aggregating the first rating indicator, the second rating indicator, and the third rating indicator after filtering out the fraudulent rating indicator such that the aggregation results in an aggregate rating indicator indicative of an equivalent of the plurality of discrete rating indicators other than the fraudulent rating indicator. The system includes an electric signal generator embedded in an electronic circuit and communicatively and operatively connected with the special purpose processor and the memory circuit for generating an electric signal comprising data signifying the aggregate rating indicator and the rated entity. The system includes a transceiver for transmitting the electric signal from a data communication device, communicatively connected with the special purpose processor and the electric signal generator, in a network comprising a plurality of communicatively linked data communication devices. The system includes a signal converter for converting the electric signal into a plurality of pixels to publish the aggregate rating indicator associated with the rated entity and the data signifying the rated entity.
 
-## Claims (20)
+### Claims (20)
 
 What is claimed is:
 
@@ -282,7 +282,7 @@ and displaying the plurality of pixels on a display unit of a communication devi
 
 </div>
 
-## BRIEF DESCRIPTION OF THE DRAWINGS
+### <span style="font-size:20px">BRIEF DESCRIPTION OF THE DRAWINGS </span>
 
 In the drawings, like numerals describe similar components substantially throughout the several views. The drawings illustrate generally, by way of an example, but not by a way of limitation, various embodiments.
 
@@ -330,7 +330,7 @@ FIG. 1 illustrates an exemplary architecture for establishing ratings in accorda
 <a href="./#fig13">FIG. 13 illustrates a computer system that may be used in accordance with the embodiments herein.
 </a>
 
-## DETAILED DESCRIPTION
+### <span style="font-size:20px">DETAILED DESCRIPTION </span>N
 
 In the following detailed description, reference is made to the accompanying drawings that form a part hereof, and these are shown by way of illustrating specific embodiments herein that may be practiced. These embodiments, which are also referred to herein as "examples," are described in sufficient detail to enable those skilled in the art to practice the embodiments herein, and it is to be understood that the embodiments may be combined, or that other embodiments may be utilized and that structural, logical, and electrical changes may be made without departing from the scope of the embodiments herein.
 

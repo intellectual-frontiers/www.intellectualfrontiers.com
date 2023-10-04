@@ -133,7 +133,7 @@ An embodiment herein provides a blockchain configured crowdsourced initiatives e
 
 This application is a continuation-in-part of U.S. patent application Ser. No. 14/025,493 filed on Sep. 12, 2013, the complete disclosure of which, in its entirety, is herein incorporated by reference.
 
-**BACKGROUND**
+### <span style="font-size:20px">BACKGROUND</span>
 
 Technical Field
 
@@ -143,7 +143,7 @@ Description of the Related Art
 
 Many organizations and agencies give financial aids and rewards such as grants etc. for valuable ideas. However, in many of the cases, the organizations are not always sure about how to choose the most valuable ideas out of a set of innumerable ideas submitted for evaluation. This makes the evaluation process difficult for these organizations. Further, companies generally have a difficult time in tracking and/or developing valuable and creative global innovations and initiatives.
 
-## SUMMARY
+### <span style="font-size:20px">SUMMARY</span>
 
 In view of the foregoing, an embodiment herein provides a blockchain configured distributed architecture-based crowdsourced initiatives exchange ecosystem. The crowdsourced initiatives exchange ecosystem includes a plurality of computing terminals associated with respective plurality of innovators which serve as sources of initiatives identified as innovations and respective sub-innovations stored in the form of computer executable files at the computing terminals of the innovators. The plurality of computing terminals are communicatively connected over a crowdsourced initiatives exchange network.
 
@@ -269,7 +269,7 @@ wherein said hardware-based identity validation appliance further comprises a fa
 
 </div>
 
-## BRIEF DESCRIPTION OF THE DRAWINGS
+### <span style="font-size:20px">BRIEF DESCRIPTION OF THE DRAWINGS </span>
 
 The embodiments herein will be better understood from the following detailed description with reference to the drawings, in which:
 
@@ -305,7 +305,7 @@ FIG. 1 illustrates generally, but not by way of limitation, an exemplary compute
 <a href="./#fig10">FIG. 10 illustrates a computer system used in accordance with an embodiment herein.
 </a>
 
-## DETAILED DESCRIPTION
+### <span style="font-size:20px">DETAILED DESCRIPTION </span>
 
 The embodiments herein and the various features and advantageous details thereof are explained more fully with reference to the non-limiting embodiments that are illustrated in the accompanying drawings and detailed in the following description. Descriptions of well-known components and are omitted so as to not unnecessarily obscure the embodiments herein. The examples used herein are intended merely to facilitate an understanding of ways in which the embodiments herein may be practiced and to further enable those of skill in the art to practice the embodiments herein. Accordingly, the examples should not be construed as limiting the scope of the embodiments herein.
 

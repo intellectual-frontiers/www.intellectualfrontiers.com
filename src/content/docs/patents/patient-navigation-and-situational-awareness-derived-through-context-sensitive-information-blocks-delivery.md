@@ -37,11 +37,11 @@ downloadable-documents:
 
 </div>
 
-## Abstract
+### Abstract
 
 A surveillance system for monitoring of Electronic Medical Record (EMR) application navigation through a plurality of navigation interfaces of an EMR application. The system includes an EMR system that includes the EMR application. The system includes a context-sensitive engine that includes an agent device to record EMR application navigation data in real time and contextual data comprising application sensitive, user sensitive and context sensitive data. The system includes an information management server to facilitate serving of information blocks to the EMR system from a plurality of distributed databases in real-time. The system includes a processing that analyzes the plurality of navigation interfaces associated with the EMR application during a workflow event, maps the analyzed navigation data and the contextual information with actual information pre-stored in a separate database connected with the EMR system, and determine an inconsistency in a navigation workflow during the workflow event based on the mapping.
 
-## Images ( 11 )
+### Images ( 11 )
 
 <div class="center-elements">
 
@@ -116,13 +116,13 @@ A surveillance system for monitoring of Electronic Medical Record (EMR) applicat
 
 </div>
 
-## Description
+### Description
 
-### CROSS-REFERENCE TO RELATED APPLICATIONS
+**CROSS-REFERENCE TO RELATED APPLICATIONS**
 
 This application claims the benefit of U.S. Provisional Application No. 62/166,103, filed on May 25, 2015 and entitled "Patient Navigation and Situational Awareness Derived Through Context-Sensitive Information Blocks Delivery," the complete disclosure of which, in its entirety, is hereby incorporated by reference.
 
-### BACKGROUND
+### <span style="font-size:20px">BACKGROUND</span>
 
 Technical Field
 
@@ -136,13 +136,13 @@ However, patient medical records are highly sensitive documents, and it is cruci
 
 In view of the above, there is a need of a system and method to perform surveillance of access to the medical records by patients and health care providers and thus provide enhanced security and confidentiality based on access tracking.
 
-## SUMMARY
+### <span style="font-size:20px">SUMMARY</span>
 
 An embodiment herein provides a computer-implemented surveillance system for monitoring and surveillance of Electronic Medical Record (EMR) application navigation through a plurality of navigation interfaces of an EMR application. The system comprises an EMR system that includes the EMR application. The EMR system is configured to execute computer executable instructions to manage medical records electronically. The system further includes a context-sensitive engine operatively deployed at a front-end of the EMR system. The context-sensitive engine includes an agent device to record EMR application navigation data in real time and contextual data comprising application sensitive, user sensitive and context sensitive data. The agent device is operatively and communicatively connected with the EMR system. The context-sensitive engine further includes an installable computer-executable agent file to allow configuration and setup of the agent device. The system further includes an information management server communicatively connected with the EMR system to facilitate serving of information blocks to the EMR system from a plurality of distributed databases in real-time, wherein each of the plurality of distributed databases are communicatively connected with the EMR system through the information management server. The delivery of the information blocks is based on the contextual information. The system further includes a transceiver to transmit the navigation data and the contextual data from the agent device to the information management server. The system further includes a processing circuit included within or communicatively coupled with the information management server. The processing circuit analyzes the plurality of navigation interfaces associated with the EMR application during a workflow event to generate a signal indicative of analyzed navigation data, maps the analyzed navigation data and the contextual information with actual information pre-stored in a separate database connected with the EMR system, and determine an inconsistency in a navigation workflow during the workflow event based on the mapping. The actual information may signify events occurrences within an environment. The system further includes a notification device to report the inconsistency to the EMR system. The notification device generates an electric signal comprising a computer executable file signifying the inconsistency in the navigation workflow during the workflow event, transmits the electric signal, in a network comprising a plurality of communicatively linked data communication devices, converts the electric signal into a plurality of pixels, and displays the plurality of pixels on a display unit to indicate the navigation data and the inconsistency therein.
 
 An embodiment herein provides a computer-implemented surveillance method for monitoring and surveillance of EMR application navigation through a plurality of navigation interfaces of an EMR application. The method includes recording EMR application navigation data in real time by an agent device installed at a front-end of the EMR application and recording contextual data comprising application sensitive data, user sensitive data, and context sensitive data by the agent device. The agent device is operatively and communicatively connected with the EMR system. The method further includes transmitting the navigation data and the contextual data from the agent device to the information management server, analyzing the plurality of navigation interfaces associated with the EMR application during a workflow event by a processing circuit to generate a signal indicative of analyzed navigation data, and mapping the analyzed navigation data and the contextual data with actual information pre-stored in a separate database connected with the EMR system. The actual information signifies events occurrences within an environment. The method may further include determining an inconsistency in a navigation workflow during the workflow event based on the mapping, reporting the inconsistency to the EMR system through a notification device. The reporting includes generating an electric signal comprising a computer executable file signifying the inconsistency in the navigation workflow during the workflow event, transmitting the electric signal, in a network comprising a plurality of communicatively linked data communication devices, converting the electric signal into a plurality of pixels, and displaying the plurality of pixels on a display unit to indicate the navigation data and the inconsistency therein.
 
-## Claims (15)
+### Claims (15)
 
 I claim:
 
@@ -360,7 +360,7 @@ generating an electric signal comprising a computer executable file signifying s
 
 </div>
 
-## BRIEF DESCRIPTION OF THE FIGURES
+### <span style="font-size:20px">BRIEF DESCRIPTION OF THE DRAWINGS </span>
 
 In the drawings, like numerals describe similar components substantially throughout the several views. The drawings illustrate generally, by way of an example, but not by a way of limitation, various embodiments.
 
@@ -396,7 +396,7 @@ FIG. 1 illustrates architecture for managing and delivering context-based inform
 <a href="./#fig10">FIG. 10 illustrates a computer system that may be used in accordance with the embodiments herein.
 </a>
 
-## DETAILED DESCRIPTION
+### <span style="font-size:20px">DETAILED DESCRIPTION </span>
 
 In the following detailed description, reference is made to the accompanying drawings that form a part hereof, and these are shown by way of illustrating specific embodiments herein that may be practiced. These embodiments, which are also referred to herein as "examples," are described in sufficient detail to enable those skilled in the art to practice the embodiments herein, and it is to be understood that the embodiments may be combined, or that other embodiments may be utilized and that structural, logical, and electrical changes may be made without departing from the scope of the embodiments herein.
 

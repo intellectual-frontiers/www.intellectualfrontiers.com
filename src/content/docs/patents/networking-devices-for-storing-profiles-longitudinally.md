@@ -130,7 +130,7 @@ A method and networking device for tracking change in a computer executable prof
 
 ### Description
 
-### BACKGROUND
+### <span style="font-size:20px">BACKGROUND</span>
 
 Technical Field
 
@@ -142,7 +142,7 @@ Different web-based profile platforms provide profiles of users in accordance wi
 
 In view of the above, there is a need to provide an improved networking device of profiles and management of credentialing information of the profiles.
 
-## SUMMARY
+### <span style="font-size:20px">SUMMARY</span>
 
 An embodiment herein provides a computer-implemented method for tracking change in a computer executable profile associated with a registered clinician. The method may include retrieving, by a processing circuit, computer executable profile information for the registered clinician, wherein the computer executable profile information includes computer executable user personal information, computer executable review information, and computer executable aggregated credentialing information obtained based on individual credentialing information components retrieved from a plurality of credentialing information sources. The method may include staging the computer executable profile information in one or more cloud staging repositories. The method may include splitting the computer executable profile information into constituent data types. The method may include defining, by the processing circuit, a plurality of computer executable profile fields and corresponding profile information components for each of the plurality of computer executable profile fields. The method may include storing the computer executable profile information including the computer executable profile fields and the corresponding profile information components as initial computer executable profile information in a database communicatively connected with the processing circuit. The method may include accessing the plurality of credentialing information sources after a defined interval of time to obtain the individual credentialing information components as indicated at a later time. The method may include retrieving second computer executable profile information based on the obtained individual credentialing information components from the plurality of credentialing information sources as indicated at the later time. The method may include mapping the initial computer executable profile information with the second computer executable profile information to identify changes in the profile information components corresponding to the computer executable profile fields, wherein the changes are indicative of reliability of credentialing of the profile over time. The method may include defining a set of computer executable notification rules to selectively generate notifications corresponding to the changes between the initial computer executable profile information and the second computer executable profile information upon identification of such changes and generate notifications corresponding to the changes between the initial computer executable profile information and the second computer executable profile information over a defined time period as and when requested by a user computer, communicatively connected with the processing circuit, through a search query submitted to the processing circuit. The method may include determining a crowdsourced credentialing index for the profile based on the changes over time obtained from the mapping of the initial computer executable profile information and the second computer executable profile information. The method may include generating an electric signal comprising data signifying the changes in the profile information. The method may include transmitting the electric signal from the processing circuit, in a network comprising a plurality of communicatively linked data communication devices. The method may include converting the electric signal into a plurality of pixels. The method may include displaying the plurality of pixels on a display unit to indicate timeline views of the second profile information and the changes based on the computer executable notification rules.
 
@@ -284,7 +284,7 @@ a processing circuit to allow said first signal port, said second signal port, s
 
 </div>
 
-### BRIEF DESCRIPTION OF THE DRAWINGS
+### <span style="font-size:20px">BRIEF DESCRIPTION OF THE DRAWINGS </span>
 
 In the drawings, like numerals describe similar components substantially throughout the several views. The drawings illustrate generally, by way of an example, but not by a way of limitation, various embodiments.
 
@@ -328,7 +328,7 @@ FIG. 1 illustrates a flow diagram of a method for tracking change in a computer 
 <a href="./#fig10">FIG. 10 is a schematic diagram of a networking device and linked components according to an embodiment herein.
 </a>
 
-### DETAILED DESCRIPTION
+### <span style="font-size:20px">DETAILED DESCRIPTION </span>
 
 In the following detailed description, reference is made to the accompanying drawings that form a part hereof, and these are shown by way of illustrating specific embodiments herein that may be practiced. These embodiments, which are also referred to herein as "examples," are described in sufficient detail to enable those skilled in the art to practice the embodiments herein, and it is to be understood that the embodiments may be combined, or that other embodiments may be utilized and that structural, logical, and electrical changes may be made without departing from the scope of the embodiments herein.
 

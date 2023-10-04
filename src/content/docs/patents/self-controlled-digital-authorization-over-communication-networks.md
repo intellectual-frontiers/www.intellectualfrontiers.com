@@ -38,11 +38,11 @@ downloadable-documents:
 
 </div>
 
-## Abstract
+### Abstract
 
 A system for authorizing an external device to access computerized records. The system includes a server. The server includes a computerized records data-store. The computerized records data-store stores multiple computer executable files associated with subjects. The system includes a communication network which facilitates communication between at least two of the subjects, the server, and the external device. The system includes a contextual authorization device for authorizing access to the external device for the computerized records. The contextual authorization device includes a database storing a set of custom rules. The contextual authorization device further includes a Global Positioning System-based tracking device, a credentialing engine, and a user behavior analytics engine. The contextual authorization device further includes an access module to process authorization of the external device for access of the computerized records.
 
-## Images (13)
+### Images (13)
 
 <div class="center-elements">
 
@@ -145,7 +145,7 @@ A system for authorizing an external device to access computerized records. The 
 
 This application is a continuation-in-part of U.S. patent application Ser. No. 13/607,997 filed on Sep. 10, 2012, the complete disclosure of which, in its entirety, is hereby incorporated by reference.
 
-**BACKGROUND**
+### <span style="font-size:20px">BACKGROUND</span
 
 1. Technical Field
 
@@ -159,7 +159,7 @@ Electronic records are user or owner specific and are generally kept as confiden
 
 In certain conditions, an external device other than the patient such as a general consumer of the information or records may be interested in the electronic records and may want to access them. However, as per the conditions prescribed by several authorities and standards such as the Health Insurance Portability and Accountability Act (HIPPA) meant for health-related information and several others, it is imperative and important to gain authorization from an owner for accessing his electronic records. The process of authorization can be fairly simple if the records are limited. An external device or a consumer may directly approach the owner for authorization. However, as the data contained within the records increase to a large extent, the task of identifying relevant data and gaining access and authorization becomes complex and difficult.
 
-### SUMMARY
+### <span style="font-size:20px">SUMMARY</span>
 
 The embodiments herein provide a distributed architecture-based system for digitally authorizing access to computerized records. The system includes at least one server. The server includes at least one computerized records data-store storing multiple computer executable files associated with a subject and containing subject data in a digital format and associated with a subject identifier that identifies association of the subject with its respective computer executable file. The system includes an external device communicatively linked to the at least one server. The system includes a scanner operatively linked to the external device. The system includes a communication network communicatively linking at least two of the subject, the server, the external device, and the scanner.
 
@@ -233,7 +233,7 @@ wherein the electronic circuits of the access module execute computer logic inst
 
 </div>
 
-### BRIEF DESCRIPTION OF THE DRAWINGS
+### <span style="font-size:20px">BRIEF DESCRIPTION OF THE DRAWINGS </span>
 
 The embodiments herein will be better understood from the following detailed description with reference to the drawings, in which:
 
@@ -285,7 +285,7 @@ FIG. 1 illustrates generally, but not by way of limitation, among other things, 
 <a href="./#fig12">FIG. 12 illustrates a representative hardware environment for practicing various embodiments herein.
 </a>
 
-### DETAILED DESCRIPTION
+### <span style="font-size:20px">DETAILED DESCRIPTION </span>
 
 The embodiments herein and the various features and advantageous details thereof are explained more fully with reference to the non-limiting embodiments that are illustrated in the accompanying drawings and detailed in the following description. Descriptions of well-known components and are omitted so as to not unnecessarily obscure the embodiments herein. The examples used herein are intended merely to facilitate an understanding of ways in which the embodiments herein may be practiced and to further enable those of skill in the art to practice the embodiments herein. Accordingly, the examples should not be construed as limiting the scope of the embodiments herein.
 

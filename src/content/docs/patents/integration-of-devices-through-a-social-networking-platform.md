@@ -41,11 +41,11 @@ downloadable-documents:
 
 </div>
 
-## Abstract
+### Abstract
 
 A system and method for providing a social networking service to a plurality of devices. A social networking server for facilitating social information exchange among the plurality of devices through a socially aware network. A social profiles manager is coupled to the social networking server that creates and manages individual centric profiles of the plurality of devices. The individual centric profiles of the plurality of devices are social representation of individual devices within the socially aware network. The plurality of devices are identifiable by other participants and the social networking server through their social profiles.
 
-## Images ( **23** )
+### Images ( **23** )
 
 <div class="center-elements">
 
@@ -212,23 +212,23 @@ A system and method for providing a social networking service to a plurality of 
 </div>
 
 
-## Description
+### Description
 
-### **CROSS-REFERENCE TO RELATED APPLICATIONS**
+**CROSS-REFERENCE TO RELATED APPLICATIONS**
 
 This application claims the benefit of U.S. Ser. No. 14/103,098, filed on Dec. 11, 2013, which claims priority to U.S. Provisional Application No. 61/736,119, filed on Dec. 12, 2012, the complete disclosures of which, in their entireties, are hereby incorporated by reference.
 
-## BACKGROUND
+### <span style="font-size:20px">BACKGROUND</span>
 
-### Technical Field
+Technical Field
 
 The embodiments herein generally relate to management and interconnection of devices and in particular to facilitating interconnection and interaction among a plurality of devices through a social networking platform.
 
-### Description of the Related Art
+Description of the Related Art
 
 Devices interaction and automation is needed in several environments such as medical environment, manufacturing environment, avionics and the like. There are existing systems and procedures for automating and interconnecting the devices. However, still there is a requirement to develop improved systems and methods for the interconnection and automation of devices.
 
-## SUMMARY
+### <span style="font-size:20px">SUMMARY</span>
 
 An embodiment herein provides a system for providing a social networking service to a plurality of participants and allowing the participants to perform a series of social tasks in a socially aware network. The system includes a social networking server that facilitates social information exchange among the participants through the socially aware network. The plurality of participants includes device participants and non-device participants. The system further includes a social profiles manager included in or coupled to the social networking server. The social profiles manager creates and manages individual centric profiles of devices that are a social representation of individual devices within the socially aware network. The devices are identifiable by other participants and the social networking server through social profiles associated with the devices. The social profiles includes social device profiles and social human profiles associated with device participants and non-device participants respectively such that the social human profiles are associated with one or more device profiles, and wherein the social human profiles are represented as a subset of corresponding device profiles. The system further includes a social device manager included in or coupled to the social networking server. The social device manager manages device relationships and social activity in the socially aware network. The system further includes a social networking application comprising a cluster of social applications each for providing a specific social facility to facilitate social activity among the plurality of participants through the socially aware network.
 
@@ -250,7 +250,7 @@ An embodiment herein provides a system for monitoring and conveying health relat
 
 An embodiment herein provides a method for monitoring and conveying health related information from a first device to a second device interconnected through a socially aware network. The method includes storing information related to defined social event timelines for tasks associated with the first device, wherein the defined social event timelines define times when an event should occur at the first device. The method includes monitoring a social event occurrence time by a social event timeline monitoring unit. The method includes detecting a fault in functioning of the first device by comparing the social event timeline with an event occurrence time for the event. A gap between the social event timeline and the event occurrence time beyond a threshold limit is indicative of the fault. The event at the first device and the event at the second device are interdependent. The method further includes sharing a social content, indicative of the fault and a predicted modified event occurrence time at the first device, to a social networking platform through a two-way communication channel including a near field communication channel and a socially aware network channel. The social networking platform sends the social content to the second device. The first device and the second device comprise connections and parts of a same chain of integrated tasks.
 
-## Claims (11)
+### Claims (11)
 
 What is claimed is:
 
@@ -327,7 +327,7 @@ wherein said first device is communicatively coupled to an intelligent health mo
 
 </div>
 
-## BRIEF DESCRIPTION OF THE DRAWINGS
+### <span style="font-size:20px">BRIEF DESCRIPTION OF THE DRAWINGS </span>
 
 The features of the disclosed embodiments may become apparent from the following detailed description taken in conjunction with the accompanying drawings showing illustrative embodiments herein, in which:
 
@@ -398,7 +398,7 @@ FIG. 1 illustrates an exemplary ecosystem of participants interconnected over a 
 <a href="./#fig22">FIG. 22 is a block diagram illustrating an exemplary hardware environment for practicing the embodiments depicted in FIGS. 1-21.</a>
 </a>
 
-## DETAILED DESCRIPTION
+### <span style="font-size:20px">DETAILED DESCRIPTION </span>
 
 The embodiments herein and the various features and advantageous details thereof are explained more fully with reference to the non-limiting embodiments that are illustrated in the accompanying drawings and detailed in the following description. Descriptions of well-known components are omitted so as to not unnecessarily obscure the embodiments herein. The examples used herein are intended merely to facilitate an understanding of ways in which the embodiments herein may be practiced and to further enable those of skill in the art to practice the embodiments herein. Accordingly, the examples should not be construed as limiting the scope of the embodiments herein.
 

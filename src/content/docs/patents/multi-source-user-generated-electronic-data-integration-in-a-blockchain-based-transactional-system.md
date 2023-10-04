@@ -45,7 +45,7 @@ downloadable-documents:
 
 A system is provided for aggregating user generated electronic data associated with a user from a plurality of computing machines located separately without user intervention. Metadata associated with the user generated electronic data is stored in an electronic record repository database to perform natural language processing and metadata analysis of the user generated electronic data to identify user verified data and user unverified data. A data object including query statements and approval options is generated and presented on a remotely located display unit accessible by the user. An input against each of the plurality of query statements is received. The system updates the unverified data based on the received input. The user generated electronic data is then pushed into the electronic transactional system which may communicate electronic data messages among a plurality of computer stations.
 
-## Images (12)
+### Images (12)
 
 <div class="center-elements">
 
@@ -136,8 +136,7 @@ A system is provided for aggregating user generated electronic data associated w
 **CROSS-REFERENCE TO RELATED APPLICATIONS**
 
 This application is a continuation-in-part of U.S. Ser. No. 14/686,684 filed Apr. 14, 2015 and entitled "Multi-Source Patient Generated Healthcare Data Integration in a Transactional System", which claims the benefit of U.S. Provisional Application No. 61/979,020, filed on Apr. 14, 2014 and entitled "Multi-Source Patient Generated Data Collection System and Method," the complete disclosures of which, in their entireties, are hereby incorporated by reference.
-
-### BACKGROUND
+### <span style="font-size:20px">BACKGROUND</span>
 
 Technical Field
 
@@ -153,7 +152,7 @@ Existing methods and systems provide a controlled access by users to electronic 
 
 In light of the above, there is a need for an improved system and method for ensuring reliability, trust, accuracy, and completeness of the UGED for integration in an electronic transactional system, wherein the UGED is derived from a variety of associated devices and user data sources but not directly entered or sourced from the user thereby causing a major concern for accuracy, reliability and completeness during integration with the electronic transactional system.
 
-## SUMMARY
+### <span style="font-size:20px">SUMMARY</span>
 
 In view of the foregoing, an embodiment herein provides a blockchain-enabled system that includes a plurality of wearable devices and a cloud gateway agent server. The cloud gateway agent server receives and aggregates user generated electronic data associated with a user and acquired without user intervention from one of the plurality of wearable devices located separately, wherein the user generated electronic data comprises a plurality of computer executable data files residing in the plurality of wearable devices. The system further includes an electronic record repository database communicatively coupled with the cloud gateway agent server and stores the plurality of computer executable data files and metadata associated with the plurality of computer executable data files. The system includes a processing circuit that performs natural language processing and metadata analysis of the plurality of computer executable data files to identify user verified computer executable data files and user unverified computer executable data files from among the plurality of computer executable data files. The processing circuit further generates a computer data object including a plurality of query statements and approval options corresponding to each of the unverified computer executable data files. The processing circuit transmits the computer data object to an external computing machine at the user along with the unverified computer executable data files outputted on a remotely located display unit connected operatively with the external computing machine through an automatically generated notification by the processing circuit, wherein the computer data object represents an integrated view of the user generated electronic data residing on the plurality of wearable devices. The processing circuit updates the unverified computer executable data files as new verified computer executable data files in the electronic record repository database based on an input received from the external computing machine signifying verification of the unverified computer executable data files by the user.
 
@@ -183,7 +182,7 @@ The system may further include a blockchain device that may include a specific b
 
 The processing circuit may prevent voice inputs from being received by the audio recognition device upon a predetermined number of unsuccessful voice inputs being entered into the audio recognition device and not authorized or identified by the processing circuit. The processing circuit may prevent visual inputs from being received by the image recognition device upon a predetermined number of unsuccessful visual inputs being entered into the image recognition device and not authorized or identified by the processing circuit. The processing circuit may transmit a user-access denial output signal upon not authenticating an identify of a user.
 
-## Claims (20)
+### Claims (20)
 
 What is claimed is:
 
@@ -335,7 +334,7 @@ a distributed trusted ledgers system that stores said distributed blockchain led
 
 </div>
 
-## BRIEF DESCRIPTION OF THE DRAWINGS
+### <span style="font-size:20px">BRIEF DESCRIPTION OF THE DRAWINGS </span>
 
 The features of the disclosed embodiments may become apparent from the following detailed description taken in conjunction with the accompanying drawings showing illustrative embodiments herein, in which:
 
@@ -379,8 +378,7 @@ FIG. 1 illustrates an ecosystem including an electronic transactional system for
 <a href="./#fig11">FIG. 11 illustrates generally, but not by the way of limitation, a computer system that may be used in accordance with the embodiments herein.
 </a>
 
-
-## DETAILED DESCRIPTION
+### <span style="font-size:20px">DETAILED DESCRIPTION </span>
 
 The embodiments herein and the various features and advantageous details thereof are explained more fully with reference to the non-limiting embodiments that are illustrated in the accompanying drawings and detailed in the following description. Descriptions of well-known components are omitted so as to not unnecessarily obscure the embodiments herein. The examples used herein are intended merely to facilitate an understanding of ways in which the embodiments herein may be practiced and to further enable those of skill in the art to practice the embodiments herein. Accordingly, the examples should not be construed as limiting the scope of the embodiments herein.
 
