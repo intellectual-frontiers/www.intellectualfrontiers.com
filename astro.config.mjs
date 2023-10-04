@@ -23,9 +23,6 @@ export default defineConfig({
         {
           label: "Our Intellectual Property (IP) Assets",
           link: "/our-intellectual-property-assets/",
-        },{
-          label: "Patents Listing",
-          link: "/patents-listing/",
         },
         {
           label: "Use Cases",
