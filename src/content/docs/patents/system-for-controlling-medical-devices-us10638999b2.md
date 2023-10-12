@@ -1,7 +1,7 @@
 ---
-title:  System for controlling medical devices
+title: System for controlling medical devices
 uspto-canonical-id-label: Patent
-uspto-patent-number: US-11006920-B2
+uspto-patent-number: US10638999B2
 inventor: Shah N. Shahid
 owner-current-assignee: INTELLECTUAL FRONTIERS LLC
 patent-owners-rights: 
@@ -11,7 +11,7 @@ application-date:
 issue-date: 
 expiry-date: 
 patent-status: Active
-url: "/ip/system-for-controlling-medical-devices"
+url: "/ip/system-for-controlling-medical-devices-us10638999b2"
 uspto-patent-pdf:
 uspto-patent-url:
 thumbnail: 
@@ -23,8 +23,7 @@ abstract-of-the-invention:
 problem-solved-by-the-invention:
 topics: 
 images: 
-
-external-links: https://patents.google.com/patent/US11006920B2/
+external-links: https://patents.google.com/patent/US10638999B2/
 downloadable-documents: 
   - anchor_text: Download PDF
     link_url: 
@@ -34,119 +33,125 @@ downloadable-documents:
 
 <div class="center-elements"> 
 
-![Figure 01](us11006920b2-image-01.jpg)
-
-![Figure 02](us11006920b2-image-02.jpg)
+![Figure 01](us10638999b2-image-001.png)
+![Figure 02](us10638999b2-image-002.png)
 
 </div>
-
 
 ### Abstract
 
 Controlling a multi-device module includes a physiological sensor configured to sense physiological characteristics of a subject and generate a signal indicative of an instantaneous physiological state. A first device is configured to generate a first signal indicative of an operating state of the first device. A second device is configured to generate a second signal indicative of an operating state of the second device. A remote-control device includes a repository for storing computer executable files aggregated from a plurality of changing private networks. The remote-control device includes an electronic record (ER) client to make a wireless connection with each of the private networks and to query ER database associated with the private networks for electronic records residing within the private networks.
 
-### Images (13)
+### Images (14)
 
 <div class="center-elements">
 
- <div id="fig1">
+<div id="fig01">
 
- ![Figure 001](us11006920b2-image-001.png)
- **Figure 1**
+![Figure 01](us10638999b2-image-01.png)
+**Figure 01**
 
- </div>
+</div>
 
- <div id="fig2">
+<div id="fig1">
 
- ![Figure 002](us11006920b2-image-002.png)
- **Figure 2**
+![Figure 1](us10638999b2-image-1.png)
+**Figure 1**
 
- </div>
+</div>
+
+<div id="fig2">
+
+![Figure 2](us10638999b2-image-2.png)
+**Figure 2**
+
+</div>
 
 <div id="fig3">
 
- ![Figure 003](us11006920b2-image-003.png)
- **Figure 3**
+![Figure 3](us10638999b2-image-3.png)
+**Figure 3**
 
- </div>
+</div>
 
 <div id="fig4">
 
- ![Figure 004](us11006920b2-image-004.png)
- **Figure 4**
+![Figure 4](us10638999b2-image-4.png)
+**Figure 4**
 
- </div>
+</div>
 
 <div id="fig5">
 
- ![Figure 005](us11006920b2-image-005.png)
- **Figure 5**
+![Figure 5](us10638999b2-image-5.png)
+**Figure 5**
 
- </div>
+</div>
 
 <div id="fig6">
 
- ![Figure 006](us11006920b2-image-006.png)
- **Figure 6**
+![Figure 6](us10638999b2-image-6.png)
+**Figure 6**
 
- </div>
+</div>
 
 <div id="fig7">
 
- ![Figure 007](us11006920b2-image-007.png)
- **Figure 7**
+![Figure 7](us10638999b2-image-7.png)
+**Figure 7**
 
- </div>
+</div>
 
 <div id="fig8">
 
- ![Figure 008](us11006920b2-image-008.png)
- **Figure 8**
+![Figure 8](us10638999b2-image-8.png)
+**Figure 8**
 
- </div>
+</div>
 
- <div id="fig9">
+<div id="fig9">
 
- ![Figure 009](us11006920b2-image-009.png)
- **Figure 9**
+![Figure 9](us10638999b2-image-9.png)
+**Figure 9**
 
- </div>
+</div>
 
 <div id="fig10">
 
- ![Figure 010](us11006920b2-image-010.png)
- **Figure 10**
+![Figure 10](us10638999b2-image-10.png)
+**Figure 10**
 
- </div>
+</div>
 
 <div id="fig11">
 
- ![Figure 011](us11006920b2-image-011.png)
- **Figure 11**
+![Figure 11](us10638999b2-image-11.png)
+**Figure 11**
 
- </div>
+</div>
 
 <div id="fig12">
 
- ![Figure 012](us11006920b2-image-012.png)
- **Figure 12**
+![Figure 12](us10638999b2-image-12.png)
+**Figure 12**
 
- </div>
+</div>
 
 <div id="fig13">
 
- ![Figure 013](us11006920b2-image-013.png)
- **Figure 13**
+![Figure 13](us10638999b2-image-13.png)
+**Figure 13**
 
 </div>
 
 </div>
+
 
 ### Description
 
-**CROSS-REFERENCE TO RELATED APPLICATIONS**
+CROSS-REFERENCE TO RELATED APPLICATIONS
 
-This application is a continuation of U.S. patent application Ser. No. 15/430,461 filed on Feb. 11, 2017, which is a continuation-in-part of U.S. patent application Ser. No. 13/756,445 filed on Jan. 31, 2013, which claims priority to U.S. provisional application No. 61/594,224, filed on Feb. 2, 2012, the complete disclosures of which, in their entireties, are hereby incorporated by reference.
+This application is a continuation-in-part of U.S. patent application Ser. No. 13/756,445 filed on Jan. 31, 2013, which claims priority to U.S. provisional application No. 61/594,224, filed on Feb. 2, 2012, the complete disclosures of which, in their entireties, are hereby incorporated by reference.
 
 ### <span style="font-size:20px">BACKGROUND</span>
 
@@ -182,110 +187,191 @@ The second medical device may comprise a life support system comprising an oxyge
 
 ### Claims (20)
 
-**What is claimed is** :
+What is claimed is:
+
+1. A system for controlling multiple devices, said system comprising:
 
 <div style="padding-left:60px">
 
-1. A system comprising:
+a physiological sensor associated with a body of a subject and configured to sense one or more physiological characteristics of said subject and generate a digital physiological signal indicative of an instantaneous physiological state of said subject;
+
+a first device configured for bi-directional wireless communication positioned proximate to said subject and comprising a first memory circuit and a first processor, wherein said first device is configured to generate a first signal indicative of an operating state of said first device, and wherein said operating state comprising one of a performing state and a non-performing state of said first device;
+
+a second device configured for bi-directional wireless communication positioned proximate to said subject and comprising a second memory circuit and a second processor, wherein said second device is configured to generate a second signal indicative of an operating state of said second device, wherein said operating state comprising one of a performing state and a non-performing state of said second device, and wherein said first device and said second device are configured to perform one of a therapeutic, diagnostic, and a medication delivery task on said subject in accordance with computer-enabled instructions;
+
+a computer with telemetry circuitry for communicating with said physiological sensor, said first device, and said second device; and
+
+a remote-control device positioned apart from said physiological sensor, said first device, and said second device, wherein said remote-control device comprising:
 
 </div>
 
-<div style="padding-left:110px">
+<div style="padding-left:90px">
 
-a sensor that senses one or more physiological characteristics of a physiological subject and generates a digital signal indicative of an instantaneous physiological state of the subject;
+a digital records repository comprising a memory circuit and a processing unit for storing dynamically updating computer executable files aggregated from a plurality of changing private networks wherein said computer executable files contain dynamically updating digitally recorded information indicative of a set of changing subject attributes and respective changing reference values associated with said subject;
 
-at least one electronic device that generates signals corresponding to an operating state of the at least one electronic device, wherein the at least one electronic device performs one of a therapeutic, diagnostic, and a medication delivery task on the subject based on a pre-programmed set of instructions;
+an electronic record (ER) client configured to make a wireless connection with each of said private networks and configured to query an ER database associated with each of said private networks for electronic records residing within said private networks;
 
-a database that stores changing computer-executable files aggregated from a plurality of changing private networks, wherein the computer-executable files contain dynamically updating digitally recorded information indicative of a set of changing subject attributes and respective changing reference values associated with the subject;
+a server machine configured for communicating with said physiological sensor, said first device, and said second device either directly or through said computer, wherein said server machine is configured for receiving said digital physiological signal indicative of said instantaneous physiological state of said subject and sending programmable operational parameters to said first device and said second device in response to a request for service from said computer and based on said instantaneous physiological state such that said operating parameters decides operating characteristics of said first device and operating characteristics of said second device and said operating characteristics of said first device and said operating characteristics of said second device are interdependent through a priority and interdependence relationship, wherein at least one of said physiological sensor, said first device, said second device, and said computer transforms said received operating parameters into a digital data structure readable by a scanner; and
 
-a server communicatively linked to the sensor and the at least one electronic device, wherein the server receives the digital signal indicative of the instantaneous physiological state of the subject and transmits programmable operational parameters to the at least one electronic device based on the instantaneous physiological state; and
+an identity validation device to verify an identity of said first device and said second device and associate a subject identifier uniquely representing said subject with said first device and said second device based on information contained within said physiological signal such that said operating parameters are calculated based on one or more of said reference values associated with said subject having said unique subject identifier as identified based on said physiological signal.
 
-an identity validation device that verifies an identity of the at least one electronic device and associates a subject identifier uniquely representing the subject with the at least one electronic device based on information contained within the digital signal such that the operational parameters are dependent on the reference values associated with the subject.
+</div>
+
+<div style="padding-left:65px;color:grey">
+
+2. The system of claim 1, wherein said physiological sensor is implanted within said body of said subject subcutaneously.
+
+3. The system of claim 1, wherein said physiological sensor is associated with said subject as an external device.
+
+4. The system of claim 1, wherein said physiological sensor is configured for said subject such that said digital physiological signal contains said subject identifier along with an information indicative of said instantaneous physiological state of said subject.
+
+5. The system of claim 4, wherein said remote-control device is configured to associate said subject identifier with said computer executable files stored in said digital records repository to retrieve said reference values associated with said subject and generate an output indicative of said operational parameters of said first device and said second device based on said physiological signal and said retrieved reference values associated with said subject.
+
+6. The system of claim 5, wherein said operational parameters comprise any of:
 
 </div>
 
 <div style="padding-left:130px;color:grey">
 
-2. The system of claim 1, comprising an interface communicatively linked to a social network platform to facilitate real-time communication associated with the operating state of the at least one electronic device.
+changing an operating state of said first device only for a first period of time;
 
-3. The system of claim 1, comprising an interface communicatively linked to a social network platform to facilitate real-time communication associated with the subject interacting with at least one electronic device.
+changing an operating state of said second device only for a second period of time;
 
-4. The system of claim 1, wherein communication to/from the least one electronic device occurs in a blockchain configuration.
+changing an operating state of both said first device and said second device for a third period of time; and
 
-5. The system of claim 1, wherein the at least one electronic device comprises:
+connecting a third device different from said first device and said second device by associating an operating state with said third device in association with said subject for a fourth period of time,
 
-</div>
-
-<div style="padding-left:200px;color:grey">
-
-a first electronic device that generates a first signal corresponding to an operating state of the first electronic device, wherein the first electronic device performs one of a therapeutic, diagnostic, and a medication delivery task on the subject based on a first selected set of instructions; and
-
-a second electronic device that generates a second signal corresponding to an operating state of the second electronic device, wherein the second electronic device performs one of a therapeutic, diagnostic, and a medication delivery task on the subject based on a second selected set of instructions.
-</div>
-
-<div style="padding-left:130px;color:grey">
-
-6. The system of claim 5, wherein the operating state of the first electronic device and the operating state of the second electronic device are interdependent such that the operating state of the first electronic device is non-performing when the operating state of the second electronic device is performing, and wherein the server is configured to retrieve information about interdependence of the first electronic device and the second electronic device from a lookup table stored in the database.
-
-7. The system of claim 1, wherein the at least one electronic device comprises a plurality of electronic devices that are communicatively integrated with each other.
-
-8. The system of claim 7, comprising a device manager that detects newly connected electronic devices communicatively linked with the at least one electronic device or with the server.
-
-9. The system of claim 1, comprising a device manager that detects updates affecting an operation of the at least one electronic device.
-
-10. The system of claim 1, wherein the at least one electronic device is configured to detect geo-locations of the at least one electronic device.
-
-11. The system of claim 1, wherein the server comprises a communication interface to communicate with the at least one electronic device.
-
-12. The system of claim 1, wherein the at least one electronic device comprises a medical device.
-
-13. The system of claim 1, comprising a remote-controlled device that controls an operation of the at least one electronic device for performing an action on the subject.
+wherein each of said first device, said second device, and said third device are uniquely identified by device identifiers such that said digital records repository stores said digital identifiers in a device manager in association with said subject identifier.
 
 </div>
 
-14. A system comprising:
+<div style="padding-left:65px;color:grey">
 
-<div style="padding-left:80px">
+7. The system of claim 6, wherein any of said server machine and said computer further comprise a switch matrix configured to cause switching of said operating state of said one or more of said first device, second device, and said third device upon receipt of said operational parameters from said remote-control device in accordance with said priority and interdependence relationships.
 
-a sensor that detects physiological data associated with a subject;
+8. The system of claim 7, wherein said remote-control device further comprises a time detection circuit configured to monitor said first period of time, second period of time, third period of time, and said fourth period of time.
 
-a plurality of electronic devices communicatively linked to the sensor, wherein the plurality of electronic devices generate a plurality of signals indicative of an operating state of the plurality of electronic devices, and wherein said operating state comprises one of a performing state and a non-performing state of the plurality of electronic devices;
+9. The system of claim 8, further comprising a device state detection circuit coupled to said time detection circuit and configured to identify an operating state of said first device, second device, and said third device after completion of said first period of time, said second period of time, said third period of time, and said fourth period of time.
 
-an integrated gateway device communicatively linked to each of the plurality of electronic devices, wherein the integrated gateway device transmits medical operation measurements of the subject in conformity with one or more operational parameters associated with the plurality of electronic devices;
+10. The system of claim 9, further comprising a fault detection circuit configured to generate a signal indicative of a fault when said device state detection circuit does not detect a change in operating states of either of said first device, second device, or said third device in accordance with said operational parameters transmitted by said remote-control device.
 
-at least one of a therapeutic delivery device, a medication delivery device, and a diagnosis device that perform one of a therapeutic, diagnostic, and a medication delivery task on the subject based on the one or more operational parameters associated with the plurality of electronic devices;
+11. The system of claim 1, wherein said first device comprises a ventilator and said second device comprises an X-ray machine such that said remote-control device causes said ventilator to perform a first action upon receipt and said X-ray machine to perform a second action upon receipt of said operational parameters.
 
-an identification module that contains digitally stored information for transmission to other electronic devices communicatively linked to the plurality of electronic devices; and
-
-a processor communicatively linked with the sensor and the plurality of electronic devices, wherein the processor:
+12. The system of claim 1, wherein said remote-control device comprises an electronic medical record (EMR) system configured to house a plurality of digital records associated with a plurality of subjects including said subject in the form of a plurality of digital files including said computer executable files associated with said subject, wherein said EMR system comprising:
 
 </div>
 
-<div style="padding-left:100px">
+<div style="padding-left:135px;color:grey">
 
-receives a signal from the sensor, wherein the signal contains the physiological data;
+said digital records repository;
 
-verifies an identity of the plurality of electronic devices based at least on the digitally stored information and associates a subject identifier uniquely representing the subject with at least one of the plurality of electronic devices based on information contained in the physiological data associated with a subject;
+said electronic record (ER) client;
 
-transmits the subject identifier and a plurality of electronic devices identifier associated along with a service request to a remote-control device positioned apart from the sensor, wherein the remote-control device fulfills the service request based on information contained in a plurality of dynamically updating computer-executable files from a plurality of digital data sources communicatively linked to the remote-control device; and
+a mobile point of care system to capture subject-associated digital data at a point of care wherein said point of care system is communicatively connected with said electronic record (ER) client so as to transmit said electronic records captured by said mobile point of care system from said private networks to said server machine;
 
-receives the one or more operational parameters from the remote-control device in response to the service request from the processor and based on an instantaneous physiological state as identified from the signal such that said one or more operating parameters decides operating characteristics of the plurality of electronic devices.
+a data interface, in communication with said mobile point of care system, to facilitate transmission of said electronic records to said server machine; and
+
+a web-based interactive graphical user interface for allowing said subject to enter said digital records manually from a distant location.
 
 </div>
 
-<div style="padding-left:100px;color:grey">
+<div style="padding-left:65px;color:grey">
 
-15. The system of claim 14, wherein the plurality of electronic devices and the integrated gateway device are communicatively linked through the Internet.
+13. The system of claim 1, wherein said digital data structure comprises a QR (quick response) code.
 
-16. The system of claim 14, wherein the plurality of electronic devices comprise medical devices.
+</div>
 
-17. The system of claim 14, comprising a sub-system that detects potential operational threats to the plurality of electronic devices or operational vulnerabilities of the plurality of electronic devices.
+<div style="padding-left:60px">
 
-18. The system of claim 17, wherein the sub-system establishes a trust factor associated with each of the plurality of electronic devices based on the detected potential operational threats and operational vulnerabilities associated with the plurality of electronic devices.
+14. A multi-device system comprising:
 
-19. The system of claim 18, wherein the trust factor determines whether a particular electronic device of the plurality of electronic devices is to be used.
+</div>
 
-20. The system of claim 14, wherein the remote-controlled device controls an operation of the plurality of electronic devices for performing an action on the subject.
+<div style="padding-left:120px">
+
+a first medical device configured for bi-directional wireless communication positioned proximate to a subject and comprising a first memory circuit and a first processor, wherein said first medical device is configured to generate a first signal indicative of an operating state of said first medical device, and wherein said operating state comprising one of a performing state and a non-performing state of said first medical device; and
+
+a second medical device configured for bi-directional wireless communication positioned proximate to said subject and comprising a second memory circuit and a second processor, wherein said second medical device is configured to generate a second signal indicative of an operating state of said second medical device, and wherein said operating state comprising one of a performing state and a non-performing state of said second medical device,
+
+wherein each of said first medical device and said second medical device comprising:
+
+</div>
+
+<div style="padding-left:160px">
+
+an integrated gateway device configured to have a multiple interface unit comprising data interface units configured to send medical operation measurements in conformity with one or more operational parameters received via any of a wired and wireless communication network;
+
+a medical device housing to contain device accessories and circuitry;
+
+one or more of a therapeutic delivery device, a medication delivery device, and a diagnosis device physically contained within said medical device housing and configured to perform one of a therapeutic, diagnostic, and a medication delivery task;
+
+an identification module to contain digitally stored information indicative of device identifier and configured to be transmitted to other devices upon request for device identification; and
+
+a computer with telemetry circuitry for communicating with a physiological sensor, said first device, and said second device, wherein said computer configured to:
+
+</div>
+
+<div style="padding-left:190px">
+
+receive a physiological signal from said associated physiological sensor configured for a subject;
+
+transmit a subject identifier, a first medical device identifier associated with said first medical device, and a second medical device identifier associated with said second medical device along with a service request to a remote-control device positioned apart from said physiological sensor, and wherein said remote-control device is configured to fulfill said service request based on information contained in a plurality of dynamically updating computer executable files from a plurality of digital data sources and stored in an EMR system configured within said remote-control device; and
+
+receive said one or more operational parameters from said remote-control device in response to a service request from said computer and based on an instantaneous physiological state as identified from said physiological signal such that said one or more operating parameters decides operating characteristics of said first medical device and operating characteristics of said second medical device, wherein said operating characteristics of said first medical device and said operating characteristics of said second medical device are interdependent through a priority and interdependence relationship.
+
+</div>
+
+<div style="padding-left:65px;color:grey">
+
+15. The system of claim 14, wherein said first medical device comprises a medical imaging machine for imaging of a target including a tissue or a bone structure within a body of a subject, said medical imaging machine comprising:
+
+</div>
+
+<div style="padding-left:135px;color:grey">
+
+a rotatable drive shaft;
+
+an imaging device supported on said rotatable drive shaft, said imaging device adapted to transmit energy toward said target;
+
+a position adjustment mechanism coupling with said rotatable shaft to allow adjustment of said rotatable drive shaft in order to focus transmission of said energy at said target;
+
+said integrated gateway device; and
+
+said identification module.
+
+</div>
+
+<div style="padding-left:65px;color:grey">
+
+16. The system of claim 15, wherein said energy comprises X-rays and said imaging machine comprises an X-Ray machine.
+
+17. The system of claim 14, wherein said second medical device comprises a life support system comprising:
+
+</div>
+
+<div style="padding-left:135px;color:grey">
+
+an oxygen source that includes a tank of pressurized gas;
+
+one or more control valves disposed over a channel connecting said oxygen source and said subject to allow said oxygen to flow from said tank to a laryngeal mask in a first state and to allow gas expelled from said subject to flow from said laryngeal mask to said atmosphere in a second state while preventing said oxygen from flowing from said oxygen source in a second state;
+
+said laryngeal mask disposed downstream from said inspiration control valve, said laryngeal mask configured to form an air seal with said subject's respiratory tract such that said oxygen flows from said oxygen source to said lungs of said subject;
+
+a timer for synchronizing actuation of said one or more control valves based on said operational parameters received from said remote-control device containing said EMR system;
+
+said integrated gateway device; and
+
+said identification module.
+
+</div>
+
+<div style="padding-left:65px;color:grey">
+
+18. The system of claim 17, wherein said life support system comprises a ventilator.
+
+19. The system of claim 14, wherein each of said first medical device and said second medical device comprising a respective (Global Positioning System) GPS-based device such that said GPS-based device is configured to detect geo-locations of said respective first medical device and said second medical device, wherein said remote-control device receives said detected geo-locations of said first medical device and said second medical device, and said remote-control device automatically correlates said subject identifier for said subject associated with said first medical device and said second medical device and initiates functioning in context of said subject as and when said EMR system is proximate to said subject associated with said first medical device and said second medical device.
+
+20. The system of claim 14, wherein said computer is configured to transform said operating parameters received from said remote-control device into a digital data structure, said system further comprising a scanner communicatively coupled to said computer such that said digital data structure is readable by said scanner.
 
 </div>
 
@@ -294,68 +380,31 @@ receives the one or more operational parameters from the remote-control device i
 The features of the disclosed embodiments may become apparent from the following detailed description taken in conjunction with the accompanying drawings showing illustrative embodiments herein, in which:
 
 <a href="./#fig1">
-FIG. 1 illustrates generally, but not by the way of limitation, among other things, an example of an operating environment in which an embodiment may operate;
-</a>
-<br>
-<br>
-<a href="./#fig2">
-FIG. 2 illustrates generally, but not by the way of limitation, among other things, an ER client such as described in FIG. 1, in accordance with an embodiment;
-</a>
-<br>
-<br>
-<a href="./#fig3">
-FIG. 3 is a schematic diagram that illustrates generally, but not by the way of limitation, an exemplary cloud computing architecture, in accordance with an exemplary embodiment;
-</a>
-<br>
-<br>
-<a href="./#fig4">
-FIG. 4 illustrates generally, but not by the way of limitation, a plurality of medical devices connected with an EMR system, in accordance with an embodiment;
-</a>
-<br>
-<br>
-<a href="./#fig5">
-FIG. 5 illustrates, generally but not by the way of limitation, a system for facilitating coordination and control among a plurality of medical devices, in accordance with an embodiment;
-</a>
-<br>
-<br>
-<a href="./#fig6">
-FIG. 6 illustrates, generally but not by the way of limitation, an example of a first medical device and a second medical device coordinating in a network before switching their operating states, in an embodiment;
-</a>
-<br>
-<br>
-<a href="./#fig7">
-FIG. 7 illustrates, generally but not by the way of limitation, an example of the first medical device and the second medical device coordinating in the network after switching their operating states, in accordance with an embodiment;
-</a>
-<br>
-<br>
-<a href="./#fig8">
-FIG. 8 illustrates an exemplary lookup table depicting interdependence among a plurality of medical devices, in accordance with an embodiment;
-</a>
-<br>
-<br>
-<a href="./#fig9">
-FIG. 9 illustrates a method for facilitating coordinated functioning of a plurality of medical devices, in accordance with an embodiment;
-</a>
-<br>
-<br>
-<a href="./#fig10">
-FIG. 10 illustrates an exemplary remote-control device in association with a multi-device module, in accordance with an embodiment;
-</a>
-<br>
-<br>
-<a href="./#fig11">
-FIG. 11 illustrates an exemplary multi-device module, in accordance with an embodiment;
-</a>
-<br>
-<br>
-<a href="./#fig12">
-FIG. 12 illustrates an exemplary centralized system linked with medical devices, in accordance with an embodiment; and
-</a>
-<br>
-<br>
-<a href="./#fig13">
-FIG. 13 illustrates generally, but not by the way of limitation, a computer system that may be used in accordance with the embodiments herein.
-</a>
+FIG. 1 illustrates generally, but not by the way of limitation, among other things, an example of an operating environment in which an embodiment may operate;</a>
+<br><br>
+<a href="./#fig2">FIG. 2 illustrates generally, but not by the way of limitation, among other things, an ER client such as described in FIG. 1, in accordance with an embodiment;</a>
+<br><br>
+<a href="./#fig3">FIG. 3 is a schematic diagram that illustrates generally, but not by the way of limitation, an exemplary cloud computing architecture, in accordance with an exemplary embodiment;</a>
+<br><br>
+<a href="./#fig4">FIG. 4 illustrates generally, but not by the way of limitation, a plurality of medical devices connected with an EMR system, in accordance with an embodiment;</a>
+<br><br>
+<a href="./#fig5">FIG. 5 illustrates, generally but not by the way of limitation, a system for facilitating coordination and control among a plurality of medical devices, in accordance with an embodiment;</a>
+<br><br>
+<a href="./#fig6">FIG. 6 illustrates, generally but not by the way of limitation, an example of a first medical device and a second medical device coordinating in a network before switching their operating states, in an embodiment;</a>
+<br><br>
+<a href="./#fig7">FIG. 7 illustrates, generally but not by the way of limitation, an example of the first medical device and the second medical device coordinating in the network after switching their operating states, in accordance with an embodiment;</a>
+<br><br>
+<a href="./#fig8">FIG. 8 illustrates an exemplary lookup table depicting interdependence among a plurality of medical devices, in accordance with an embodiment;</a>
+<br><br>
+<a href="./#fig9">FIG. 9 illustrates a method for facilitating coordinated functioning of a plurality of medical devices, in accordance with an embodiment;</a>
+<br><br>
+<a href="./#fig10">FIG. 10 illustrates an exemplary remote-control device in association with a multi-device module, in accordance with an embodiment;</a>
+<br><br>
+<a href="./#fig11">FIG. 11 illustrates an exemplary multi-device module, in accordance with an embodiment;</a>
+<br><br>
+<a href="./#fig12">FIG. 12 illustrates an exemplary centralized system linked with medical devices, in accordance with an embodiment;</a>
+<br><br>
+<a href="./#fig13">FIG. 13 illustrates generally, but not by the way of limitation, a computer system that may be used in accordance with the embodiments herein.</a>
 
 ### <span style="font-size:20px">DETAILED DESCRIPTION </span>
 
@@ -365,15 +414,19 @@ In the following detailed description, reference is made to the accompanying dra
 
 In this document, the terms "a" or "an" are used, as is common in patent documents, to include one or more than one. In this document, the term "or" is used to refer to a "nonexclusive or" unless otherwise indicated.
 
-In an exemplary embodiment, the various modules described herein and illustrated in the figures are embodied as hardware-enabled modules and may be configured as a plurality of overlapping or independent electronic circuits, devices, and discrete elements packaged onto a circuit board to provide data and signal processing functionality within a computer. An example might be a comparator, inverter, or flip-flop, which could include a plurality of transistors and other supporting devices and circuit elements. The modules that are configured with electronic circuits process computer logic instructions capable of providing digital and/or analog signals for performing various functions as described herein. The various functions can further be embodied and physically saved as any of data structures, data paths, data objects, data object models, object files, database components. For example, the data objects could be configured as a digital packet of structured data. The data structures could be configured as any of an array, tuple, map, union, variant, set, graph, tree, node, and an object, which may be stored and retrieved by computer memory and may be managed by processors, compilers, and other computer hardware components. The data paths can be configured as part of a computer CPU that performs operations and calculations as instructed by the computer logic instructions. The data paths could include digital electronic circuits, multipliers, registers, and buses capable of performing data processing operations and arithmetic operations (e.g., Add, Subtract, etc.), bitwise logical operations (AND, OR, XOR, etc.), bit shift operations (e.g., arithmetic, logical, complex operations (e.g., using single clock calculations, sequential calculations, iterative calculations, etc.). The data objects may be configured as physical locations in computer memory and can be a variable, a data structure, or a function. In the embodiments configured as relational databases (such Oracle® relational databases), the data objects can be configured as a table or column. Other configurations include specialized objects, distributed objects, object oriented programming objects, and semantic web objects, for example. The data object models can be configured as an application programming interface for creating HyperText Markup Language (HTML) and Extensible Markup Language (XML) electronic documents. The models can be further configured as any of a tree, graph, container, list, map, queue, set, stack, and variations thereof. The data object files are created by compilers and assemblers and contain generated binary code and data for a source file. The database components can include any of tables, indexes, views, stored procedures, and triggers.
+In an exemplary embodiment, the various modules described herein and illustrated in the figures are embodied as hardware-enabled modules and may be configured as a plurality of overlapping or independent electronic circuits, devices, and discrete elements packaged onto a circuit board to provide data and signal processing functionality within a computer. An example might be a comparator, inverter, or flip-flop, which could include a plurality of transistors and other supporting devices and circuit elements. The modules that are configured with electronic circuits process computer logic instructions capable of providing digital and/or analog signals for performing various functions as described herein. The various functions can further be embodied and physically saved as any of data structures, data paths, data objects, data object models, object files, database components. For example, the data objects could be configured as a digital packet of structured data. The data structures could be configured as any of an array, tuple, map, union., variant, set, graph, tree, node, and an object, which may be stored and retrieved by computer memory and may be managed by processors, compilers, and other computer hardware components. The data paths can be configured as part of a computer CPU that performs operations and calculations as instructed by the computer logic instructions. The data paths could include digital. electronic circuits, multipliers, registers, and buses capable of performing data processing operations and arithmetic; operations (e.g., Add, Subtract, etc.), bit se logical operations (AND, OR, XOR, etc.), bit shift operations arithmetic, logical, rotate, etc.), complex operations (e.g., using single clock calculations, sequential calculations, iterative calculations, etc.). The data objects may be configured as physical locations in computer memory and can be a. variable, a data structure, or a function. In the embodiments configured as relational databases (e.g., such Oracle® relational databases), the data objects can be configured as a table or column. Other configurations include specialized objects, distributed objects, object oriented programming objects, and semantic web objects, for example. The data object models can be configured as an application. programming interface for creating HyperText Markup Language (HTML) and Extensible Markup Language (XML) electronic documents. The models can be further configured as any of a tree, graph, container, list, map, queue, set, stack, and variations thereof. The data object files are created. by compilers and assemblers and contain generated binary code and data for a source file. The database components can include any of tables, indexes, views, stored procedures, and triggers.
 
-A method or a system for dynamically updating real-time digital data associated with one or more entities of an electronic medical record (EMR) system is provided herein. The system and method comprises an ER client to remotely collect the real-time digital data associated with the one or more entities over a communication network. The real-time digital data may include, for example data related to patient, clinician, labs and imaging center, clinical research center, healthcare financing institute, pharmacy, nursing, social services, clinical or medical devices and the like. The ER client analyses the collected digital data to update one or more repositories of the EMR system associated with the one or more entities in real-time. The EMR system may also run automated monitoring software to alert the one or more entities about the updated digital records and associated digital data.
+A method or a system for dynamically updating real-time digital data associated with one or more entities of an electronic medical record (EMR) system is provided herein. The system and method comprises an ER client to remotely collect the real-time digital data associated with the one or more entities over a communication network.
+
+The real-time digital data may include, for example data related to patient, clinician, labs and imaging center, clinical research center, healthcare financing institute, pharmacy, nursing, social services, clinical or medical devices and the like. The ER client analyses the collected digital data to update one or more repositories of the EMR system associated with the one or more entities in real-time. The EMR system may also run automated monitoring software to alert the one or more entities about the updated digital records and associated digital data.
 
 FIG. 1 illustrates generally, but not by the way of limitation, among other things, an exemplary operating environment  **100**  in which various embodiments may operate. The environment  **100**  provides a high-level view of one or more private networks  **102**  serving as digital data sources for the Electronic Medical Record (EMR) system  **108**  such that the digital data may be accessed by the EMR system  **108**  in real time over a communications network  **104**. These private networks  **102**  may be associated with a plurality of entities such that the entities can be various subjects (patients), healthcare providers, care takers, and the like. Each private network  **102**  is associated with a particular subject such that the digital data available in a particular private network  **102**  is accessible to only the subject and his care takers or care providers or any other entity allowed by the subject or his care taker or his care provider to access the private network  **102**. In accordance with the digital data associated with the subject, the EMR system  **108**  may also reserve rights such that the digital data accessed from the private network  **102**  of the subject is accessible according to privacy and ownership rights of the digital data by the subject. The private networks may be associated with local private digital databases wherein the digital data associated with the subjects may be stored. The private networks may also refer to manual entries of the digital data at least in part by the subjects or associated entities. The private networks may also refer to automated or manual pulling of the digital data from associated medical devices of the subjects.
 
 In an embodiment, the EMR system  **108**  may be coupled to social networks such as through the social network platform  **106**  which may also serve as a source of the digital data associated with the subjects. In an embodiment, the social networking platform  **106**  may generate a variety of data coming from various aggregators and user profiles comprising of a plurality of digital formats wherein each digital format may be associated with a specific structure different from other digital formats. The data originating from the social networking platform  **106**  may require complex mapping of fields and elements for transformation to a unified structure as per requirements. The social networking platform  **106**  may host information related to the subjects. For example, the social networking platform  **106**  may host social profiles of the subjects and/or related entities such as caretakers where they may store and update their personal, professional or other such details or may communicate in a social network with friends, relatives, family members, or other such networking contacts about healthcare information or patient or medical device generated information, in an example. The social networking platform  **106**  may be defined as a network with an arbitrary large number of networked computers accessing the social network  **106**  through registered social profiles of such as clinical data providers or subjects. The social networking platform  **106**  may facilitate posting and sharing online profiles, data, clinical reviews, patient generated data, device generated data, IoT data, sensors data etc., simultaneously viewable by each of the arbitrary large number of computers including such as a clinical provider computer, patient computer, and the like.
 
-The communication network  **104**  can provide a communicative interconnection of various nodes such as the private networks  **102** , social network platform  **106** , EMR system  **108** , or any other node in the communication network  **104**. The private networks  **102**  and the social network platform  **106**  are together referred to as digital data sources  **124**  associated with a subject. The digital data sources  **124**  may be connected with their respective computing devices. The communication network  **104**  may include one or more wireless communications network or one or more wire line communications network. The wireless communications network may include for example, but not limited to, a digital cellular network, such as Global System for Mobile Telecommunications (GSM) network, Personal Communication System (PCS) network, or any other wireless communications network. The wire line communications network may include for example, but not limited to, a Public Switched Telephone Network (PSTN), proprietary local and long distance communications network, or any other wire line communications network. In addition, the communication network  **104**  may include for example, digital data networks, such as one or more local area networks (LANS), one or more wide area networks (WANS), or both LANS and WANS to allow interaction among the digital data sources and the EMR system. One or more networks may be included in the communication network  **104**  and may include both public networks such as the Internet, and private networks and may utilize any networking technology and protocol, such as Ethernet, Token Ring, Transmission Control Protocol/Internet Protocol (TCP/IP), or the like to allow interaction among various nodes such as the digital data sources, and the EMR system  **108** , or any other node in the network  **104**.
+The communication network  **104**  can provide a communicative interconnection of various nodes such as the private networks  **102** , social network platform  **106** , EMR system  **108** , or any other node in the communication network  **104**. The private networks  **102**  and the social network platform  **106**  are together referred to as digital data sources  **124**  associated with a subject. The digital data sources  **124**  may be connected with their respective computing devices. The communication network  **104**  may include one or more wireless communications network or one or more wire line communications network.
+
+The wireless communications network may include for example, but not limited to, a digital cellular network, such as Global System for Mobile Telecommunications (GSM) network, Personal Communication System (PCS) network, or any other wireless communications network. The wire line communications network may include for example, but not limited to, a Public Switched Telephone Network (PSTN), proprietary local and long distance communications network, or any other wire line communications network. In addition, the communication network  **104**  may include for example, digital data networks, such as one or more local area networks (LANS), one or more wide area networks (WANS), or both LANS and WANS to allow interaction among the digital data sources and the EMR system. One or more networks may be included in the communication network  **104**  and may include both public networks such as the Internet, and private networks and may utilize any networking technology and protocol, such as Ethernet, Token Ring, Transmission Control Protocol/Internet Protocol (TCP/IP), or the like to allow interaction among various nodes such as the digital data sources, and the EMR system  **108** , or any other node in the network  **104**.
 
 The digital data sources  **124**  described herein may be connected with, for example, any type of electronic data processing system or communication device connected to the communications network  **104**. Examples of such an electronic data processing system include personal computer systems, such as desktop or laptop computers, workstation computer systems, server computer systems, networks of computer systems, personal digital assistants (PDAs), wireless communications devices, portable devices, or any other electronic data processing system. Likewise, the digital data sources  **124**  can connect to the communication network  **104**  through a wired or wireless connection, or a combination thereof, directly or indirectly. An "entity" is understood to mean an individual or a group of individual or an organization, or a platform such as for whom digital data is managed or who manages the digital data or who facilitate managing of the digital data in the EMR system  **108**. The entities may include for example, but not limited to a subject/patient, clinician or doctor, a lab and research organization, a biller, a hospital, an insurance corporation, an emergency resource such as ambulance, a marketer, an advertiser, an enterprise, a sponsor, an office professional, a social service organization, or any other individual or a group of individuals or an organization or a platform. Each subject can be associated with a unique subject identifier, usually comprising of a numeric or alphanumeric sequence that is unidentifiable outside the EMR system  **108**. In examples, the subject identifier may also be referred to as a medical record number or master patient index (MPI). The unique subject identifier can link and update all digital data associated with the subject. The detailed description about association of the digital data with the subject will be described in later paragraphs of the document.
 
@@ -495,7 +548,7 @@ The system  **1000**  includes a first device  **1004**  of the multi-device mod
 
 The system  **1000**  may include a remote-control device  **1010**  positioned apart from the physiological sensor  **515** , the first device  **1004** , and the second device  **1006**. In an example, the first device  **1004** , second device  **1006** , and the physiological sensor  **515**  may be connected with the computer  **1008**  such that the remote-control device  **1010**  is communicatively connected with the first device  **1004** , second device  **1006** , and the physiological sensor  **515**  through the computer  **1008**. The computer  **1008**  may be located at a remote location from the remote-control device  **1010**. The computer  **1008**  may include telemetry circuitry  **1012**  for communicating with the physiological sensor  **515** , the first device  **1004** , and the second device  **1006**.
 
-The remote-control device  **1010**  may include the EMR system  **108**  as discussed above. The EMR system  **108**  may include the digital records repository  **114**  which may include a memory circuit and a processing unit for storing dynamically updating computer executable files aggregated from the plurality of changing private networks and social networks or any other digital data sources  **124**. The computer executable files may contain dynamically updating digitally recorded information (the digital data as discussed earlier). The dynamically updating digitally recorded information or simply digital data may store information about a set of attributes associated with the subject that may reflect subject's vital and/or health parameters among other things. These medical parameters may be associated with changing reference values associated with the subject  **406**. For example, one of the attributes may be subject's cardiac rhythm recorded by an ECG machine such that reference values as identified in an ECG report may be defined along with the attribute. If the subject  **406**  or any associated entity repeats the ECG, new values may be associated with the attribute of the subject  **406**. These attributes and the associated reference values may change as new medical records of the subject  **406**  get added in the EMR system  **108**. The varying reference values of the subject  **406**  for the set of parameters are indicative of medical status of the subject  **406**  at a particular time. However, these reference values are subject to updating of the medical records from the digital data sources  **124**  or by the subject  **406**. The reference values associated with the attributes may in certain cases be different than the information aggregated in real-time from the physiological sensor  **515**  which may demand an immediate intervention as discussed hereafter.
+The remote-control device  **1010**  may include the EMR system  **108**  as discussed above. The EMR system  **108**  may include the digital records repository  **114**  which may include a memory circuit and a processing unit for storing dynamically updating computer executable files aggregated from the plurality of changing private networks and social networks or any other digital data sources  **124**. The computer executable files may contain dynamically updating digitally recorded information (the digital data as discussed earlier). The dynamically updating digitally recorded information or simply digital data may store information about a set of attributes associated with the subject that may reflect subject's vital and/or health parameters among other things. These medical parameters may be associated with changing reference values associated with the subject  **406**. For example, one of the attributes may be subject's cardiac rhythm recorded by an ECG machine such that reference values ass identified in an ECG report may be defined along with the attribute. If the subject  **406**  or any associated entity repeats the ECG, new values may be associated with the attribute of the subject  **406**. These attributes and the associated reference values may change as new medical records of the subject  **406**  get added in the EMR system  **108**. The varying reference values of the subject  **406**  for the set of parameters are indicative of medical status of the subject  **406**  at a particular time. However, these reference values are subject to updating of the medical records from the digital data sources  **124**  or by the subject  **406**. The reference values associated with the attributes may in certain cases be different than the information aggregated in real-time from the physiological sensor  **515**  which may demand an immediate intervention as discussed hereafter.
 
 The EMR system  **108**  may include the ER client  **122**. The EMR system  **108**  may include or be communicatively connected with the server machine  **404**  (also referred to as server simply) as discussed earlier. Among the various tasks the server machine  **404**  may perform, the server machine  **404**  may also be configured for communicating with the physiological sensor  **515** , the first device  **1004** , and the second device  **1006**  either directly or through the computer  **1008**  associated with the first device  **1004** , second device  **1006** , and the physiological sensor  **515**. In an example, the computer  **1008**  may send a request for service to the server machine  **404**  which may indicate a request for operation of any of the devices in association with the subject  **406**  for delivering a particular medical procedure, therapy, performing diagnosis, delivering medication, etc. The server machine  **404**  may be configured to receive the service request and also receive the physiological signal from the physiological sensor  **515**  either directly or through the computer  **1008**. The server machine  **404**  is configured for receiving the digital physiological signal indicative of the instantaneous physiological state of the subject  **406**  and sending programmable operational parameters to the first device  **1004**  and the second device  **1006**  in response to the request for service from the computer  **1008**  and based on the instantaneous physiological state. The operating parameters decide operating characteristics of the first device  **1004**  and operating characteristics of the second device  **1006**  such as whether the first device  **1004**  and/or the second device  **1006**  should execute certain tasks and for what duration and in which precedence and priority. The operating characteristics of the first device  **1004**  and the operating characteristics of the second device  **1006**  are interdependent through priority and interdependence relationships as discussed earlier.
 
@@ -529,7 +582,9 @@ The second device  **1006**  is the life support system. The life support system
 
 The oxygen source  **1120**  may contain pressurized oxygen which may be supplied as per requirements by controlling supply from such as a supply regulator and a pressure gauge (not shown). The oxygen source  **1120**  stores substantially pure oxygen under pressure. The pressure of oxygen within the oxygen source drops during use because gas is supplied to the subject but not returned to the oxygen source. In one aspect, a medical-grade compressed-oxygen cylinder is used. In an example, the life support system is a ventilator.
 
-In accordance with embodiments, a device such as the first device  **1004**  and second device  **1006**  may be provided or used for a particular subject such as  **406**. In an example, if the subject  **406**  is associated with the particular device, and when the EMR system  **108**  or the computer  **1008**  is used proximate to the device, the remote-control device  **1010**  automatically begins functioning in the context of the particular subject  **406**. In an embodiment, software can also be used to automatically connect to the subject  **406**  simply based on the device that the subject  **406**  is connected or associated with. In an embodiment, each of the first medical device  **1004**  and the second medical device  **1006**  may include respective (Global Positioning System) GPS-based devices  **1126**  and  **1128**  such that the GPS-based devices  **1126**  and  **1128**  are configured to detect geo-locations of the respective first medical device  **1004**  and the second medical device  **1006**. The remote-control device  **1010**  receives the detected geo-locations of the first medical device  **1004**  and the second medical device  **1006** , and the remote-control device  **1010**  automatically correlates the subject identifier for the subject  **406**  associated with the first medical device  **1004**  and the second medical device  **1006**  and initiates functioning in context of the subject  **406**  as and when the EMR system  **108**  or the computer  **1008**  is proximate to the subject  **406**  associated with the first medical device  **1004**  and the second medical device  **1006**.
+In accordance with embodiments, a device such as the first device  **1004**  and second device  **1006**  may be provided or used for a particular subject such as  **406**. In an example, if the subject  **406**  is associated with the particular device, and when the EMR system  **108**  or the computer  **1008**  is used proximate to the device, the remote-control device  **1010**  automatically begins functioning in the context of the particular subject  **406**. In an embodiment, software can also be used to automatically connect to the subject  **406**  simply based on the device that the subject  **406**  is connected or associated with. In an embodiment, each of the first medical device  **1004**  and the second medical device  **1006**  may include respective (Global Positioning System) GPS-based devices  **1126**  and  **1128**  such that the GPS-based devices  **1126**  and  **1128**  are configured to detect geo-locations of the respective first medical device  **1004**  and the second medical device  **1006**. The remote-control device  **1010**  receives the detected geo-locations of the first medical device  **1004**  and the second medical device  **1006** , and the remote-control device  **1010**  automatically correlates the subject identifier for the subject  **406**  associated with the first medical device  **1004**  and the second medical device  **1006**  and initiates functioning in context of the subject  **406**  as and when the
+
+EMR system  **108**  or the computer  **1008**  is proximate to the subject  **406**  associated with the first medical device  **1004**  and the second medical device  **1006**.
 
 FIG. 12 illustrates an example wherein a centralized management system is coupled operatively and/or communicatively with the medical devices  **1004**  and  **1006**. The medical devices  **1004**  and  **1006**  may be assessed by the centralized management system for any vulnerability, safety or security related aspect before the medical devices  **1004**  and  **1006**  are connected with the system  **500**  and the EMR  **108**  or server  **404**  so as to ensure that only reliable medical devices communicate with the system  **500**  or server  **404**. In an embodiment, the computer  **1008**  may include the centralized management system  **1202**. In an embodiment, the centralized management system  **1202**  may not be integrated within the computer  **1008** , instead, it may be enabled by an external third party system communicatively connected with the computer  **1008**  and/or the medical devices  **1004**  and  **1006**.
 
