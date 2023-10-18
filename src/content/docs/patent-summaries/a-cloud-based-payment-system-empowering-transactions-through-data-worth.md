@@ -1,5 +1,49 @@
 ---
 title:  A Cloud-Based Payment System Empowering Transactions Through Data Worth
+head: [
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'title',
+      content: 'Cloud-Based Payment System Redefining Digital Transactions',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'description',
+      content: 'Effortlessly manage payments and user data valuation with the Cloud-Based Payment System. Elevate your digital transaction experience.',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:title',
+      content: 'Cloud-Based Payment System Redefining Digital Transactions',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:description',
+      content: 'Effortlessly manage payments and user data valuation with the Cloud-Based Payment System. Elevate your digital transaction experience.',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:title',
+      content: 'Cloud-Based Payment System Redefining Digital Transactions',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:description',
+      content: 'Effortlessly manage payments and user data valuation with the Cloud-Based Payment System. Elevate your digital transaction experience.',
+    },
+  },
+]
 uspto-canonical-id-label: Patent
 uspto-patent-number: US11568401B2
 inventor: Shah N. Shahid
@@ -48,11 +92,11 @@ There's an evident requirement for a novel mode of payment to which the ideal so
 
 The continual change in the digital transaction space prompts the need for innovations that are more secure, dynamic, and individual-centric. As the quest continues, technologies that address these nuanced challenges are paramount to shaping the future of digital payments.
 
-## Functional Capabilities of the Digital Payment Technology
+## Functional Capabilities of the Cloud-Based Payment System
 
 ### Centralized Control in the Cloud
 
-The essence of this digital payment technology is anchored in its cloud-based central controlling entity. This pivotal hub plays multiple vital roles. It serves as a repository for computer executable files that carry structured user data. Furthermore, this central entity is adept at collecting and authenticating authorization codes, which is instrumental in upholding the authenticity of each digital transaction. A standout feature is its prowess in extracting structured data from computer files. In addition, it is equipped with a data worth valuation mechanism that meticulously evaluates the transactional value of the user's data.
+The essence of this digital payment technology is anchored in its central controlling entity, which is cloud-based. This pivotal hub, known as the "Cloud-based payment system," plays multiple vital roles. It serves as a repository for computer executable files that carry structured user data. Furthermore, this central entity is adept at collecting and authenticating authorization codes, which is instrumental in upholding the authenticity of each digital transaction. A standout feature is its prowess in extracting structured data from computer files. In addition, it is equipped with a data worth valuation mechanism that meticulously evaluates the transactional value of the user's data.
 
 ### Service Provider Interaction
 
@@ -76,6 +120,6 @@ A salient component of this technology is the pre-consenting subsystem. Distinct
 
 ### Payment Processing
 
-The culmination of this technology's capabilities is manifested in the payment engine. With a seamless integration to the cloud-based central entity, it boasts an array of functionalities. These include sophisticated digital payment processing techniques grounded on the transactional value of shared user data. Furthermore, the engine employs a nuanced payment calculation methodology encompassing service charges for digital services rendered, co-payment negotiations between users and third parties, and estimations of the transactional value of shared user data.
+The culmination of this technology's capabilities is manifested in the payment engine, referred to as the cloud-based payment system. With a seamless integration to the cloud-based central entity, it boasts an array of functionalities. These include sophisticated digital payment processing techniques grounded on the transactional value of shared user data. Furthermore, the engine employs a nuanced payment calculation methodology encompassing service charges for digital services rendered, co-payment negotiations between users and third parties, and estimations of the transactional value of shared user data..
 
 In essence, this digital payment technology is a tapestry of intricate functionalities and capabilities, setting a gold standard for seamless, transparent, and fortified transactions in the digital domain.
