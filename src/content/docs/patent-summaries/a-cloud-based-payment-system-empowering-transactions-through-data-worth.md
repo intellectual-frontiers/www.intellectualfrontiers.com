@@ -5,7 +5,7 @@ head: [
     tag: 'meta',
     attrs: {
       name: 'title',
-      content: 'Cloud-Based Payment System Redefining Digital Transactions',
+      content: 'Cloud-Based Payment System Redefining Digital Transactions | IntellectualFrontiers',
     },
   },
   {
@@ -19,7 +19,7 @@ head: [
     tag: 'meta',
     attrs: {
       property: 'og:title',
-      content: 'Cloud-Based Payment System Redefining Digital Transactions',
+      content: 'Cloud-Based Payment System Redefining Digital Transactions | IntellectualFrontiers	',
     },
   },
   {
@@ -33,7 +33,7 @@ head: [
     tag: 'meta',
     attrs: {
       name: 'twitter:title',
-      content: 'Cloud-Based Payment System Redefining Digital Transactions',
+      content: 'Cloud-Based Payment System Redefining Digital Transactions | IntellectualFrontiers	',
     },
   },
   {

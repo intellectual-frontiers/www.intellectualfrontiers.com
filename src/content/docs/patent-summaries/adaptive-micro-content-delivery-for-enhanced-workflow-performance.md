@@ -5,7 +5,7 @@ head: [
     tag: 'meta',
     attrs: {
       name: 'title',
-      content: 'Intelligent Workflow Automation for Precision Education',
+      content: 'Intelligent Workflow Automation for Precision Education | IntellectualFrontiers',
     },
   },
   {
@@ -19,7 +19,7 @@ head: [
     tag: 'meta',
     attrs: {
       property: 'og:title',
-      content: 'Intelligent Workflow Automation for Precision Education',
+      content: 'Intelligent Workflow Automation for Precision Education | IntellectualFrontiers',
     },
   },
   {
@@ -33,7 +33,7 @@ head: [
     tag: 'meta',
     attrs: {
       name: 'twitter:title',
-      content: 'Intelligent Workflow Automation for Precision Education',
+      content: 'Intelligent Workflow Automation for Precision Education |IntellectualFrontiers',
     },
   },
   {

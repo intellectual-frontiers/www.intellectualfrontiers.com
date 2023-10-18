@@ -1,5 +1,49 @@
 ---
 title: Aggregating Trustworthy Rating Indicators for Enhancing Reputation Management
+head: [
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'title',
+      content: 'Optimizing Aggregate Ratings: A Fraud-Resistant Approach | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'description',
+      content: 'Learn how to enhance your aggregate rating system. Safeguard against fraudulent ratings and improve the trustworthiness of your entity''s ratings.',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:title',
+      content: 'Optimizing Aggregate Ratings: A Fraud-Resistant Approach | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:description',
+      content: 'Learn how to enhance your aggregate rating system. Safeguard against fraudulent ratings and improve the trustworthiness of your entity''s ratings.',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:title',
+      content: 'Optimizing Aggregate Ratings: A Fraud-Resistant Approach | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:description',
+      content: 'Learn how to enhance your aggregate rating system. Safeguard against fraudulent ratings and improve the trustworthiness of your entity''s ratings.',
+    },
+  },
+]
 uspto-canonical-id-label: Patent
 uspto-patent-number: US9846896B2
 inventor: Shah N. Shahid
@@ -46,7 +90,7 @@ The proposed patented technology discussed in this article aims to address these
 
 ## Solving the Problem of Fraudulent and Biased Online Ratings and Reviews
 
-The patented technology tackles a significant problem in the world of online reviews and ratings. Essentially, it's a computer-based method and system designed to help people make better-informed decisions by providing a more accurate and trustworthy aggregate rating for various entities, such as businesses or professionals like doctors. The central challenge this technology addresses is the reliability of ratings and reviews found on the internet, which can vary widely due to factors like different reviewers' perspectives and potential fraudulent or biased reviews.
+The patented technology tackles a significant problem in the world of online reviews and ratings. Essentially, it's a computer-based method and system designed to help people make better-informed decisions by providing a more accurate and trustworthy aggregate rating, known as "Aggregate Ratings," for various entities, such as businesses or professionals like doctors.
 
 Imagine you're looking for a doctor and want to rely on online ratings. This technology doesn't just take the ratings at face value; it goes a step further. It searches various online sources where ratings and reviews are stored and collects all the data it finds about the doctor. This data includes not only the numerical ratings but also the sentiments expressed in reviews.
 
@@ -89,4 +133,4 @@ The key components of the technology are described herein:
 
 </div>
 
-While this technology is particularly useful in healthcare, where finding a reliable doctor is crucial, it's not limited to just one industry. It can be applied to various sectors where online ratings and reviews play a pivotal role in decision-making, such as restaurants, hotels, products, and services. By using this technology, consumers can make more informed choices and have greater confidence in their decisions, knowing that the ratings they rely on have undergone a rigorous process to ensure their trustworthiness.
+While this technology is particularly useful in healthcare, where finding a reliable doctor is crucial, it's not limited to just one industry. It can be applied to various sectors where online ratings and reviews play a pivotal role in decision-making, such as restaurants, hotels, products, and services. By using this technology, consumers can make more informed choices and have greater confidence in their decisions. It ensures that the aggregate ratings they rely on have undergone a rigorous process to ensure their trustworthiness, whether for healthcare professionals or other services.
