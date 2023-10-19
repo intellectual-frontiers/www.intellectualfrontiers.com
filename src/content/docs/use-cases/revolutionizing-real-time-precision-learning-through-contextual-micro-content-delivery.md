@@ -79,7 +79,7 @@ Traditional, one-size-fits-all training and education models are no
 longer sufficient to keep up with the rapid pace of change. Precision
 education and microlearning emerge as the answer to this pressing
 challenge. In a [recent
-study](https://www.thinkhdi.com/library/supportworld/2018/what-works-in-professional-development-forgetting-curve#:~:text=Students%20forget%2070%25%20of%20what%20they%20are%20taught,90%25%20of%20information%20is%20lost%20after%20one%20week.),
+study](https://www.thinkhdi.com/library/supportworld/2018/what-works-in-professional-development-forgetting-curve),
 it was revealed that employees forget nearly 70% of what they learn
 within 24 hours of training completion. However, when educational
 content is delivered in bite-sized, easily digestible formats - a
