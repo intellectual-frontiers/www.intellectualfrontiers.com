@@ -1,5 +1,49 @@
 ---
 title: Autonomous Authorization Mechanisms in Modern Communication Networks
+head: [
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'title',
+      content: 'Secure Computerized Record System and Autonomous Authorization in Healthcare | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'description',
+      content: 'Explore a secure computerized record system and the convenience of autonomous authorization in healthcare.',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:title',
+      content: 'Secure Computerized Record System and Autonomous Authorization in Healthcare | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:description',
+      content: 'Explore a secure computerized record system and the convenience of autonomous authorization in healthcare.',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:title',
+      content: 'Secure Computerized Record System and Autonomous Authorization in Healthcare | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:description',
+      content: 'Explore a secure computerized record system and the convenience of autonomous authorization in healthcare.',
+    },
+  },
+]
 uspto-canonical-id-label: Patent
 uspto-patent-number: US10963585B2
 inventor: Shah N. Shahid
@@ -31,13 +75,13 @@ downloadable-documents:
     link_url: 
 ---
 
-Modern communication networks are inevitably vulnerable to security threats, especially unauthorized access and malicious intrusions. There rises imperative need to devise robust mechanisms that can secure user-based operations without compromising on the usability and flexibility of network services.
+Modern communication networks are inevitably vulnerable to security threats, especially unauthorized access and malicious intrusions. There rises an imperative need to devise robust mechanisms, such as a computerized record system and autonomous authorization, that can secure user-based operations without compromising on the usability and flexibility of network services.
 
-Digital communication networks have grown to serve as the backbone of various services from online banking to virtual healthcare consultations. These usabilities have made them a primary target for cyber-attacks, leading to breaches, data theft, and unauthorized surveillance. Traditional methods of authentication and authorization have struggled to keep pace with the rapid advancements and diversification of threats and as a consequence, there is an escalating concern regarding the ability to assure the privacy and security of data as it travels across these networks.
+Digital communication networks have grown to serve as the backbone of various services, from online banking to virtual healthcare consultations. These usabilities have made them a primary target for cyber-attacks, leading to breaches, data theft, and unauthorized surveillance. Traditional methods of authentication and authorization have struggled to keep pace with the rapid advancements and diversification of threats, and as a consequence, there is an escalating concern regarding the ability to assure the privacy and security of data as it travels across these networks.
 
 Moreover, the advent of the Internet of Things (IoT) and interconnected smart devices have further compounded the challenge.
 
-## Challenges in Contemporary Digital Authorization Practices
+## Addressing Challenges in Contemporary Digital Autonomous Authorization Practices
 
 ### Inadequacy of Traditional Authorization Mechanisms
 
@@ -51,7 +95,7 @@ With the constant expansion of the digital universe, especially with the incorpo
 
 It is a challenging task to strike a balance between security and usability. Overly complex security can push users away, while weak security risks threats.
 
-## Innovative Approaches to Enhance Digital Authorization
+## Innovative Approaches to Enhance Digital Authorization with a Computerized Record System
 
 <div class="center-elements"> 
 
