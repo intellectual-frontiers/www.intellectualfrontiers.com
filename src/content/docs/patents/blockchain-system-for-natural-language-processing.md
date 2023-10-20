@@ -301,7 +301,7 @@ What is claimed is:
 1. A blockchain configured geographically distributed
 architecture-based system connected over a communication network for
 transforming an unstructured or semi-structured dataset to a structured
-computerized dataset fora blockchain configured records database
+computerized dataset for a blockchain configured records database
 communicatively coupled to a plurality of blockchain configured content
 based routers receiving said unstructured or semi-structured dataset
 from a plurality of data provider computers in a blockchain-enabled
