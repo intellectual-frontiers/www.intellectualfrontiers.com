@@ -1,5 +1,49 @@
 ---
 title: Reusable Software Development with Declarative Executable Specifications
+head: [
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'title',
+      content: 'Efficient Code Reusability in Software Development | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'description',
+      content: 'Discover declarable executable specifications for reusable software development. Create efficient applications with code reusability, testing, and security.',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:title',
+      content: 'Efficient Code Reusability in Software Development | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:description',
+      content: 'Discover declarable executable specifications for reusable software development. Create efficient applications with code reusability, testing, and security.',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:title',
+      content: 'Efficient Code Reusability in Software Development | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:description',
+      content: 'Discover declarable executable specifications for reusable software development. Create efficient applications with code reusability, testing, and security.',
+    },
+  },
+]
 uspto-canonical-id-label: Patent
 uspto-patent-number: US-7039898-B2
 inventor: Shah N. Shahid
