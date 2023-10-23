@@ -1,5 +1,49 @@
 ---
 title: Crowdsourcing-Driven Innovation Monitoring
+head: [
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'title',
+      content: 'Crowdsourcing Innovation: Revolutionizing Idea Management | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'description',
+      content: 'Discover how crowdsourcing innovation is transforming idea management. Explore a blockchain-based ecosystem for secure idea sharing, evaluation, and digital identity validation.' ,
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:title',
+      content: 'Crowdsourcing Innovation: Revolutionizing Idea Management | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:description',
+      content: 'Discover how crowdsourcing innovation is transforming idea management. Explore a blockchain-based ecosystem for secure idea sharing, evaluation, and digital identity validation.',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:title',
+      content: 'Crowdsourcing Innovation: Revolutionizing Idea Management | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:description',
+      content: 'Discover how crowdsourcing innovation is transforming idea management. Explore a blockchain-based ecosystem for secure idea sharing, evaluation, and digital identity validation.',
+    },
+  },
+]
 uspto-canonical-id-label: Patent
 uspto-patent-number: US11270263B2
 inventor: Shah N. Shahid
