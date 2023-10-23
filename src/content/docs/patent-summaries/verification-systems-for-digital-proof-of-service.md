@@ -1,5 +1,49 @@
 ---
 title:  Verification Systems for Digital Proof of Service
+head: [
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'title',
+      content: 'Enhance Proof of Service with Computer Control System | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'description',
+      content: 'Utilize a computer control system to strengthen proof of service and ensure reliable evidence of delivery. Improve your service verification process.',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:title',
+      content: 'Enhance Proof of Service with Computer Control System | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:description',
+      content: 'Utilize a computer control system to strengthen proof of service and ensure reliable evidence of delivery. Improve your service verification process.',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:title',
+      content: 'Enhance Proof of Service with Computer Control System |IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:description',
+      content: 'Utilize a computer control system to strengthen proof of service and ensure reliable evidence of delivery. Improve your service verification process.',
+    },
+  },
+]
 uspto-canonical-id-label: Patent
 uspto-patent-number: US11475441B2
 inventor: Shah N. Shahid
