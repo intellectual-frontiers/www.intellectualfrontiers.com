@@ -1,6 +1,5 @@
 ---
 title: Context-Sensitive Information Delivery for Improved Patient Navigation and Situational Awareness
-title: Blockchain-Powered Expertise-Driven Document Review and Scoring
 head: [
   {
     tag: 'meta',
