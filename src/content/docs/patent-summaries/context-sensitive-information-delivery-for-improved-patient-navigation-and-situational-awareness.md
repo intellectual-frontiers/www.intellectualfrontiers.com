@@ -1,5 +1,50 @@
 ---
 title: Context-Sensitive Information Delivery for Improved Patient Navigation and Situational Awareness
+title: Blockchain-Powered Expertise-Driven Document Review and Scoring
+head: [
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'title',
+      content: 'Patient Navigation in Electronic Medical Record Application Surveillance | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'description',
+      content: 'Surveillance system for Electronic Medical Record app navigation. Monitor and ensure consistency in patient navigation through EMR application interfaces.',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:title',
+      content: 'Patient Navigation in Electronic Medical Record Application Surveillance | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:description',
+      content: 'Surveillance system for Electronic Medical Record app navigation. Monitor and ensure consistency in patient navigation through EMR application interfaces.',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:title',
+      content: 'Patient Navigation in Electronic Medical Record Application Surveillance | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:description',
+      content: 'Surveillance system for Electronic Medical Record app navigation. Monitor and ensure consistency in patient navigation through EMR application interfaces.',
+    },
+  },
+]
 uspto-canonical-id-label: Patent
 uspto-patent-number: US10089492B2
 inventor: Shah N. Shahid
@@ -30,9 +75,9 @@ downloadable-documents:
   - anchor_text: Download Claim Summaries
     link_url: 
 ---
-## Navigational Challenges in Current EMR Systems
+## Navigational Challenges in Current Electronic Medical Record Application  Systems
 
-Electronic Medical Records (EMRs) have revolutionized modern healthcare, providing a streamlined mechanism to capture, maintain, and analyze patient data electronically. These digital platforms offer healthcare professionals the ability to access and modify patient records in real-time, even allowing multiple users to interact with the same patient profile concurrently. Furthermore, the ability to instantly evaluate patient data to discern patterns and correlations, and to interface with expansive medical databases for consultation, is undeniably transformative.
+Electronic Medical Records (EMRs) have revolutionized modern healthcare, providing a streamlined mechanism to capture, maintain, and analyze patient data electronically. These digital platforms offer healthcare professionals the ability to access and modify patient records in real-time, even allowing multiple users to interact with the same patient profile concurrently. Furthermore, the ability to instantly evaluate patient data to discern patterns and correlations, and to interface with expansive medical databases for consultation, is undeniably transformative. Electronic medical record application have played a pivotal role in this transformation.
 
 However, the inherent complexity and sensitivity of medical data bring forth several challenges. Patient medical records are a veritable treasure trove of sensitive information, necessitating stringent confidentiality measures. While these systems offer impressive functionalities, the very breadth and depth of the data they house can sometimes hinder smooth and intuitive navigation. Additionally, ensuring that only authorized individuals access pertinent segments of these records, while maintaining the sanctity of patient-doctor confidentiality, has been an enduring challenge.
 

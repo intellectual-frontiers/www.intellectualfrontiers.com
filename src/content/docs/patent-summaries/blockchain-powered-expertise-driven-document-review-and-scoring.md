@@ -1,5 +1,49 @@
 ---
 title: Blockchain-Powered Expertise-Driven Document Review and Scoring
+head: [
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'title',
+      content: 'Enhancing Review with Blockchain: Electronic Document Expertise | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'description',
+      content: 'Utilize blockchain for expert-driven electronic document reviews. Crowdsource expertise, reputation, and officiality to score documents accurately.',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:title',
+      content: 'Enhancing Review with Blockchain: Electronic Document Expertise | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:description',
+      content: 'Utilize blockchain for expert-driven electronic document reviews. Crowdsource expertise, reputation, and officiality to score documents accurately.',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:title',
+      content: 'Enhancing Review with Blockchain: Electronic Document Expertise | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:description',
+      content: 'Utilize blockchain for expert-driven electronic document reviews. Crowdsource expertise, reputation, and officiality to score documents accurately.',
+    },
+  },
+]
 uspto-canonical-id-label: Patent
 uspto-patent-number: US9870591B2
 inventor: Shah N. Shahid
