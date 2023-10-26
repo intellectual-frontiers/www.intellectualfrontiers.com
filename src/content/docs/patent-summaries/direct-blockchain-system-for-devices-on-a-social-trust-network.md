@@ -1,5 +1,49 @@
 ---
 title: Direct Blockchain System for Devices on a Social Trust Network
+head: [
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'title',
+      content: 'Blockchain for Multi-Faceted Communication in Healthcare | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'description',
+      content: 'Discover how blockchain ensures secure, real-time multi-faceted communication in healthcare data management' ,
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:title',
+      content: 'Blockchain for Multi-Faceted Communication in Healthcare | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:description',
+      content: 'Discover how blockchain ensures secure, real-time multi-faceted communication in healthcare data management.',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:title',
+      content: 'Blockchain for Multi-Faceted Communication in Healthcare | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:description',
+      content: 'Discover how blockchain ensures secure, real-time multi-faceted communication in healthcare data management.',
+    },
+  },
+]
 uspto-canonical-id-label: Patent
 uspto-patent-number: US10490304B2
 inventor: Shah N. Shahid
@@ -97,10 +141,7 @@ authentication that go beyond traditional password-based systems.
 
 ### Real-time Multi-faceted Communication
 
-With the blockchain framework, multiple entities can interact with the
-EHRDB simultaneously. The disintermediated nature of the blockchain
-ensures smooth interaction without any delays or inefficiencies from
-human intervention.
+With the blockchain framework, multiple entities can engage in multi-faceted communication with the EHRDB simultaneously. The disintermediated nature of the blockchain ensures smooth interaction without any delays or inefficiencies from human intervention.
 
 ## Embracing the Power of Blockchain in Data Integrity and Social Interaction
 

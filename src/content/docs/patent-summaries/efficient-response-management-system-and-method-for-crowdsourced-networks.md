@@ -1,5 +1,49 @@
 ---
 title: Efficient Response Management System and Method for Crowdsourced Networks
+head: [
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'title',
+      content: 'Efficient Response Management System for Crowdsourced Network | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'description',
+      content: 'Addressing the reliability challenge in crowdsourced network with an innovative response management system. Ensure trust in responses with credentialing and compliance.' ,
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:title',
+      content: 'Efficient Response Management System for Crowdsourced Network | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:description',
+      content: 'Addressing the reliability challenge in crowdsourced network with an innovative response management system. Ensure trust in responses with credentialing and compliance..',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:title',
+      content: 'Efficient Response Management System for Crowdsourced Network | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:description',
+      content: 'Addressing the reliability challenge in crowdsourced network with an innovative response management system. Ensure trust in responses with credentialing and compliance..',
+    },
+  },
+]
 uspto-canonical-id-label: Patent
 uspto-patent-number: US9418355B2
 inventor: Shah N. Shahid

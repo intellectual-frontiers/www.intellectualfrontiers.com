@@ -1,5 +1,49 @@
 ---
 title: Digital Payment Technology as a Seamless Facilitator of Transactions
+head: [
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'title',
+      content: 'Seamless Transactions: Digital Payment Technology | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'description',
+      content: 'Seamless Transactions: Explore digital payment technology revolutionizing transactions with data worth and user consent, ensuring a dynamic and secure experience in the evolving landscape.' ,
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:title',
+      content: 'Seamless Transactions: Digital Payment Technology | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:description',
+      content: 'Seamless Transactions: Explore digital payment technology revolutionizing transactions with data worth and user consent, ensuring a dynamic and secure experience in the evolving landscape.',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:title',
+      content: 'Seamless Transactions: Digital Payment Technology | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:description',
+      content: 'Seamless Transactions: Explore digital payment technology revolutionizing transactions with data worth and user consent, ensuring a dynamic and secure experience in the evolving landscape.',
+    },
+  },
+]
 uspto-canonical-id-label: Patent
 uspto-patent-number: US10643208B2
 inventor: Shah N. Shahid
@@ -48,15 +92,15 @@ To address the existing challenges and to transcend the limitations of the curre
 
 This component is adept at gathering predefined details about the user and the user's platform. The emphasis is not just on transaction details but also on the inherent worth of data owned by the user.
 
-### Digital Transactional Value Computation
+### Digital Transactional Value Computation for Seamless Transactions
 
 Central to this technology is a payment engine that operates on the principle of determining the digital transactional value. This value, which is reflective of the data worth tied to the user’s data and which has been greenlit for sharing, forms the basis for the digital payment.
 
 ### User Consent Mechanism
 
-A foundational aspect of this technology is the user’s autonomy. A pre-consenting mechanism is integrated, ensuring the user has full control over what data is shared and its consequent transactional value.
+"A foundational aspect of this technology is the user’s autonomy, ensuring seamless transactions. A pre-consenting mechanism is integrated, ensuring the user has full control over what data is shared and its consequent transactional value.
 
-The presented technology addresses the pressing need for a more dynamic, secure, and enhanced digital payment mode. Rooted in the potential of data worth and user consent, it promises a redefined experience for users in the service ecosystem, ensuring transactions are not just digital but also intrinsically valuable.
+The presented technology addresses the pressing need for a more dynamic, secure, and enhanced digital payment mode with a focus on seamless transactions. Rooted in the potential of data worth and user consent, it promises a redefined experience for users in the service ecosystem, ensuring transactions are not just digital but also intrinsically valuable."
 
 ## Service Interaction and Communication
 
