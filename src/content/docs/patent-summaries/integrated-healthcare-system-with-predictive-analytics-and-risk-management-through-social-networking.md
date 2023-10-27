@@ -1,5 +1,49 @@
 ---
 title: Integrated Healthcare System with Predictive Analytics and Risk Management through Social Networking
+head: [
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'title',
+      content: 'Healthcare Transformation with Predictive Analytics Engine and NFC Channel | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'description',
+      content: 'Witness a healthcare revolution with the integration of predictive analytics Engine and NFC channels, fostering device cooperation in a socially aware network.' ,
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:title',
+      content: 'Healthcare Transformation with Predictive Analytics Engine and NFC Channel | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:description',
+      content: 'Witness a healthcare revolution with the integration of predictive analytics Engine and NFC channels, fostering device cooperation in a socially aware network.',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:title',
+      content: 'Healthcare Transformation with Predictive Analytics Engine and NFC Channel | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:description',
+      content: 'Witness a healthcare revolution with the integration of predictive analytics Engine and NFC channels, fostering device cooperation in a socially aware network.',
+    },
+  },
+]
 uspto-canonical-id-label: Patent
 uspto-patent-number: US9525753B2
 inventor: Shah N. Shahid
@@ -31,18 +75,15 @@ downloadable-documents:
     link_url: 
 ---
 
-<!-- *Problem solved by invention* -->
-The existing landscape of device interaction and automation, spanning across various domains such as healthcare, manufacturing, and aviation, faces significant challenges. While there have been efforts to facilitate device interconnection and interaction, there remains a pressing need for more sophisticated systems and methods. These systems must not only streamline the communication between devices but also enable seamless integration into a socially aware network. The current state of device management falls short in providing comprehensive solutions to address these challenges.
+In the evolving landscape of device interaction and automation across domains like healthcare, manufacturing, and aviation, there's a growing demand for advanced solutions. These solutions aim to enhance device interconnection and interaction while fostering seamless integration into a socially aware network. The current state of device management falls short in providing comprehensive solutions for these challenges.
 
-In today's highly interconnected world, the demand for robust social networking services among devices has intensified. Devices are not isolated entities but integral components of complex systems that require efficient coordination and collaboration. The existing approaches often lack the ability to create and manage individual-centric profiles for devices within a socially aware network. This limitation hinders the identification of devices by both participants and networking servers, impeding the potential for meaningful interactions. To address these issues, a novel system and method is developed to enable effective device integration through a social networking platform, revolutionizing the way devices interact and collaborate across various domains.
+In today's highly interconnected world, there is a pressing need for robust social networking services among devices. Devices are no longer isolated entities; they are crucial components of complex systems that require efficient coordination and collaboration. However, existing approaches often struggle to create and manage individual-centric device profiles within a socially aware network. This limitation makes it difficult to identify devices for both participants and networking servers, thus hindering meaningful interactions.
 
-<!-- *Technical solution* -->
+To tackle these issues, the development of a novel system and method has become crucial. This innovation aims to facilitate effective device integration through a social networking platform. This approach has the potential to revolutionize the way devices interact and collaborate across various domains. By implementing a sophisticated predictive analytics engine and incorporating NFC channels, the fault detection capabilities can be significantly improved, making these systems even more robust and reliable for senior healthcare leaders and experts in their field.
 
 ## Technical Solution: A Revolution in Device Collaboration
 
 This revolutionary technology transforms the way devices collaborate within a socially aware network. It enables devices to seamlessly communicate, predict future behaviors, and manage faults. In healthcare, it monitors device health and seamlessly switches to alternatives when issues arise. This innovation opens new possibilities across various domains.
-
-<!-- *Summary* -->
 
 ## A Paradigm Shift in Device Interaction
 
