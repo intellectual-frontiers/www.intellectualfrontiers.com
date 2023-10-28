@@ -1,5 +1,49 @@
 ---
 title: Precision Education and Training Through Contextual Micro-Content Streaming
+head: [
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'title',
+      content: 'Adaptive Learning via Micro-Content Streaming | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'description',
+      content: 'Discover how micro-content adapts to your needs, ensuring the right knowledge at the right time.' ,
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:title',
+      content: 'Adaptive Learning via Micro-Content Streaming | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:description',
+      content: 'Discover how micro-content adapts to your needs, ensuring the right knowledge at the right time.',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:title',
+      content: 'Adaptive Learning via Micro-Content Streaming | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:description',
+      content: 'Discover how micro-content adapts to your needs, ensuring the right knowledge at the right time.',
+    },
+  },
+]
 uspto-canonical-id-label: Patent
 uspto-patent-number: US-11423500-B2
 inventor: Shah N. Shahid

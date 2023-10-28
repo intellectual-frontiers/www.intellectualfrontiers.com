@@ -1,5 +1,49 @@
 ---
 title: Optimizing Rating Aggregation - A Method for Creating Accurate Aggregate Rating Indicators
+head: [
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'title',
+      content: 'Improving Decision-Making with Accurate Aggregate Ratings | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'description',
+      content: 'Optimize your decision-making with accurate aggregate ratings. See how our methods improve reliability in rating aggregation, with a focus on sentiment analysis.' ,
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:title',
+      content: 'Improving Decision-Making with Accurate Aggregate Ratings | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:description',
+      content: 'Optimize your decision-making with accurate aggregate ratings. See how our methods improve reliability in rating aggregation, with a focus on sentiment analysis.',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:title',
+      content: 'Improving Decision-Making with Accurate Aggregate Ratings | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:description',
+      content: 'Optimize your decision-making with accurate aggregate ratings. See how our methods improve reliability in rating aggregation, with a focus on sentiment analysis.',
+    },
+  },
+]
 uspto-canonical-id-label: Patent
 uspto-patent-number: US10489830B2
 inventor: Shah N. Shahid

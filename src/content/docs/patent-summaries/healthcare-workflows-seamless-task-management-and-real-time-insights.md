@@ -1,5 +1,49 @@
 ---
 title:  Healthcare Workflows- Seamless Task Management and Real-time Insights
+head: [
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'title',
+      content: 'Healthcare Workflows & Automation in Healthcare: Streamlining Tasks | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'description',
+      content: 'Optimize healthcare workflows with seamless task management and real-time insights. Discover how automation in healthcare enhances patient care.' ,
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:title',
+      content: 'Healthcare Workflows & Automation in Healthcare: Streamlining Tasks| IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:description',
+      content: 'Optimize healthcare workflows with seamless task management and real-time insights. Discover how automation in healthcare enhances patient care..',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:title',
+      content: 'Healthcare Workflows & Automation in Healthcare: Streamlining Tasks | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:description',
+      content: 'Optimize healthcare workflows with seamless task management and real-time insights. Discover how automation in healthcare enhances patient care..',
+    },
+  },
+]
 uspto-canonical-id-label: Patent
 uspto-patent-number: US10403399B2
 inventor: Shah N. Shahid
@@ -79,12 +123,8 @@ downloadable-documents:
 Healthcare systems, medical devices, and software often operate in isolation, resulting in siloed patient information, interoperability hurdles, and limited real-time insights. This data fragmentation hampers effective patient care coordination, decision-making, and operational efficiency. In some cases, healthcare providers need something from patients regularly but do not necessarily want a special trip by the healthcare providers to visit the patients every time. However, the current methods and systems do not allow healthcare providers to take care of these issues without having them to visit the patients every time. 
 
 
-<!-- *Technical solution* -->
-
 This patented technology offers a transformative method and system for seamless task scheduling, execution, and monitoring, optimizing healthcare workflows. Employing predefined rules in certain environments, real-time notifications, and adaptive updates, it ensures efficient task management, empowering healthcare professionals for timely, patient-centric care without actually visiting the patients each time.
 
-
-<!-- *Innovative applications of the patent technology* -->
 
 The patented technology can find applications in several areas such as:
 
@@ -96,11 +136,9 @@ The patented technology can find applications in several areas such as:
 6. Medication management
 
 
-<!-- *Summary* -->
+## Streamlined Protocol Documentation and Automation in Healthcare
 
-## Streamlined Protocol Documentation and Automation
-
-The patented technology introduces a comprehensive computer-implemented system designed to revolutionize protocol documentation, automation, and compliance within the realm of safety-critical medical devices and patient care. This innovative ecosystem embodies a collaborative approach, addressing the intricate challenges faced by healthcare industries, life sciences, and medical devices. Its core function is to enable the streamlined management and execution of protocols and worklists across diverse medical devices, disciplines, and stakeholders.
+The patented technology introduces a comprehensive computer-implemented system designed to revolutionize protocol documentation, automation, and compliance within the realm of safety-critical medical devices and patient care. This innovative ecosystem embodies a collaborative approach, addressing the intricate challenges faced by healthcare industries, life sciences, and medical devices. Its core function is to enable the streamlined management and execution of protocols and worklists across diverse medical devices, disciplines, and stakeholders, focusing on automation in healthcare.
 
 <div class="center-elements"> 
 

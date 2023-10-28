@@ -1,5 +1,49 @@
 ---
 title: Improving Digital Learning with Reward-Based Progress Monitoring
+head: [
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'title',
+      content: 'Transform Your Digital Learning Ecosystem | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'description',
+      content: 'Transform your digital learning ecosystem with our pioneering approach, focusing on personalization and rewarding progress.' ,
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:title',
+      content: 'Transform Your Digital Learning Ecosystem | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:description',
+      content: 'Transform your digital learning ecosystem with our pioneering approach, focusing on personalization and rewarding progress..',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:title',
+      content: 'Transform Your Digital Learning Ecosystem | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:description',
+      content: 'Transform your digital learning ecosystem with our pioneering approach, focusing on personalization and rewarding progress..',
+    },
+  },
+]
 uspto-canonical-id-label: Patent
 uspto-patent-number: US-20210143982-A1
 inventor: Shah N. Shahid
