@@ -744,4 +744,4 @@ the technology, healthcare-focused incubators or accelerators can
 
 Check out the full original patent document [here](https://www.intellectualfrontiers.com/patents/system-for-controlling-medical-devices/).
 
-Check out the layman's language patent summary [here](https://www.intellectualfrontiers.com/patent-summaries/the-complexities-of-data-management-in-contemporary-healthcare/).
+Check out the layman's language patent summary [here](https://www.intellectualfrontiers.com/patent-summaries/the-complexities-of-data-management-in-contemporary-healthcare-solutions/).
