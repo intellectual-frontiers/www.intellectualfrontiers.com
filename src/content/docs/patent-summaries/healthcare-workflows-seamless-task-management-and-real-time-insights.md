@@ -1,5 +1,5 @@
 ---
-title: Tasks Scheduling Based on Triggering Event and Work Lists Management
+title:  Healthcare Workflows- Seamless Task Management and Real-time Insights
 uspto-canonical-id-label: Patent
 uspto-patent-number: US10403399B2
 inventor: Shah N. Shahid
@@ -11,7 +11,7 @@ application-date: 2015-11-19
 issue-date: 2019-09-03
 expiry-date: 2038-04-16
 patent-status: Active
-url: "/ip/tasks-scheduling-based-on-triggering-event-and-work-lists-management"
+url: "/ip/healthcare-workflows-seamless-task-management-and-real-time-insights"
 uspto-patent-pdf: "https://patentimages.storage.googleapis.com/2f/e7/27/f40f5ddb15d76e/US7039898.pdf"
 uspto-patent-url: https://patents.google.com/patent/US10403399B2
 thumbnail: "/assets-natural/brand/www.netspective.com/ip/us7039898.jpg"
@@ -76,9 +76,6 @@ downloadable-documents:
   - anchor_text: Download Claim Summaries
     link_url: 
 ---
-
-## Healthcare Workflows: Seamless Task Management and Real-time Insights
-
 Healthcare systems, medical devices, and software often operate in isolation, resulting in siloed patient information, interoperability hurdles, and limited real-time insights. This data fragmentation hampers effective patient care coordination, decision-making, and operational efficiency. In some cases, healthcare providers need something from patients regularly but do not necessarily want a special trip by the healthcare providers to visit the patients every time. However, the current methods and systems do not allow healthcare providers to take care of these issues without having them to visit the patients every time. 
 
 
