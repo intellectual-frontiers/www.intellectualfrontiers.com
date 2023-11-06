@@ -1,5 +1,49 @@
 ---
 title: Self-controlled digital authorization over communication networks
+head: [
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'title',
+      content: 'Self-controlled digital authorization over communication networks| IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'description',
+      content: 'Secure Data Access Patents: Licensing Opportunity |Intellectual Frontiers Patent Cited by  Nokia Technologies US11399076B2.',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:title',
+      content: 'Self-controlled digital authorization over communication networks| IntellectualFrontiers	',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:description',
+      content: 'Secure Data Access Patents: Licensing Opportunity |Intellectual Frontiers Patent Cited by  Nokia Technologies US11399076B2.',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:title',
+      content: 'Self-controlled digital authorization over communication networks| IntellectualFrontiers	',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:description',
+      content: 'Secure Data Access Patents: Licensing Opportunity |Intellectual Frontiers Patent Cited by  Nokia Technologies US11399076B2.',
+    },
+  },
+]
 uspto-canonical-id-label: Patent
 uspto-patent-number: US10963585B2
 inventor: Shah N. Shahid

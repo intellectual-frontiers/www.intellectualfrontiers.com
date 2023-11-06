@@ -1,5 +1,49 @@
 ---
 title: Distributed electronic document review in a blockchain system and computerized scoring based on textual and visual feedback
+head: [
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'title',
+      content: 'Distributed electronic document review in a blockchain system and computerized scoring based on textual and visual feedback| IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'description',
+      content: 'Digital Profile Reviews, Ratings, and Credentialing Patents: Licensing Opportunity | Intellectual Frontiers Patent Cited by IBM US10916253B2,US10825446B2',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:title',
+      content: 'Distributed electronic document review in a blockchain system and computerized scoring based on textual and visual feedback| IntellectualFrontiers	',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:description',
+      content: 'Digital Profile Reviews, Ratings, and Credentialing Patents: Licensing Opportunity | Intellectual Frontiers Patent Cited by IBM US10916253B2,US10825446B2',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:title',
+      content: 'Distributed electronic document review in a blockchain system and computerized scoring based on textual and visual feedback| IntellectualFrontiers	',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:description',
+      content: 'Digital Profile Reviews, Ratings, and Credentialing Patents: Licensing Opportunity | Intellectual Frontiers Patent Cited by IBM US10916253B2,US10825446B2',
+    },
+  },
+]
 uspto-canonical-id-label: Patent
 uspto-patent-number: US9870591B2
 inventor: Shah N. Shahid

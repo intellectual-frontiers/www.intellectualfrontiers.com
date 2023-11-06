@@ -1,5 +1,49 @@
 ---
 title:  Aggregation of rating indicators
+head: [
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'title',
+      content: 'Aggregation of rating indicators | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'description',
+      content: 'Ratings and Review Management Patents: Licensing Opportunity. Intellectual Frontiers Patent Cited by Yandex Europe and TrustScience US11086948B2, US11108802B2, US11323347B2, US11334559B2.',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:title',
+      content: 'Aggregation of rating indicators | IntellectualFrontiers	',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:description',
+      content: 'Ratings and Review Management Patents: Licensing Opportunity. Intellectual Frontiers Patent Cited by Yandex Europe and TrustScience US11086948B2, US11108802B2, US11323347B2, US11334559B2.',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:title',
+      content: 'Aggregation of rating indicators | IntellectualFrontiers	',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:description',
+      content: 'Ratings and Review Management Patents: Licensing Opportunity. Intellectual Frontiers Patent Cited by Yandex Europe and TrustScience US11086948B2, US11108802B2, US11323347B2, US11334559B2.',
+    },
+  },
+]
 uspto-canonical-id-label: Patent
 uspto-patent-number: US-9846896-B2
 inventor: Shah N. Shahid

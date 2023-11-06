@@ -1,5 +1,49 @@
 ---
 title:  Blockchain system for natural language processing
+head: [
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'title',
+      content: 'Blockchain system for natural language processing| IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'description',
+      content: 'Blockchain for NLP Patents: Licensing Opportunity |Intellectual Frontiers Cited by Nokia US11399076B2 ',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:title',
+      content: 'Blockchain system for natural language processing| IntellectualFrontiers	',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:description',
+      content: 'Blockchain for NLP Patents: Licensing Opportunity |Intellectual Frontiers Cited by Nokia US11399076B2 ',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:title',
+      content: 'Blockchain system for natural language processing| IntellectualFrontiers	',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:description',
+      content: 'Blockchain for NLP Patents: Licensing Opportunity |Intellectual Frontiers Cited by Nokia US11399076B2 ',
+    },
+  },
+]
 uspto-canonical-id-label: Patent
 uspto-patent-number: US-10984913-B2
 inventor: Shah N. Shahid

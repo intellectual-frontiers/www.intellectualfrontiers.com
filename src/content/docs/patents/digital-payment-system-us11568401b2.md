@@ -1,5 +1,49 @@
 ---
 title: Digital payment system
+head: [
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'title',
+      content: 'Digital payment system | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'description',
+      content: 'Digital Payment System Patents: Licensing Opportunity | Intellectual Frontiers Patent Cited by Hewlett Packard US11488160B2, US11270403B2',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:title',
+      content: 'Digital payment system | IntellectualFrontiers	',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:description',
+      content: 'Digital Payment System Patents: Licensing Opportunity | Intellectual Frontiers Patent Cited by Hewlett Packard US11488160B2, US11270403B2',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:title',
+      content: 'Digital payment system | IntellectualFrontiers	',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:description',
+      content: 'Digital Payment System Patents: Licensing Opportunity | Intellectual Frontiers Patent Cited by Hewlett Packard US11488160B2, US11270403B2',
+    },
+  },
+]
 uspto-canonical-id-label: Patent
 uspto-patent-number: US-11568401-B2
 inventor: Shah N. Shahid

@@ -1,5 +1,49 @@
 ---
 title: Patient navigation and situational awareness derived through context-sensitive information blocks delivery
+head: [
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'title',
+      content: 'Patient navigation and situational awareness derived through context-sensitive information blocks delivery',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'description',
+      content: 'Enhance EMR Navigation with Real-time Surveillance: Patents Licensing Opportunity  |Intellectual Frontiers Patent Cited by Brandon McCowan US20200410522A1',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:title',
+      content: 'Patient navigation and situational awareness derived through context-sensitive information blocks delivery',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:description',
+      content: 'Enhance EMR Navigation with Real-time Surveillance: Patents Licensing Opportunity  |Intellectual Frontiers Patent Cited by Brandon McCowan US20200410522A1',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:title',
+      content: 'Patient navigation and situational awareness derived through context-sensitive information blocks delivery	',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:description',
+      content: 'Enhance EMR Navigation with Real-time Surveillance: Patents Licensing Opportunity  |Intellectual Frontiers Patent Cited by Brandon McCowan US20200410522A1',
+    },
+  },
+]
 uspto-canonical-id-label: Patent
 uspto-patent-number: US-10089492-B2
 inventor: Shah N. Shahid
