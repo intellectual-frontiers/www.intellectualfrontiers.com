@@ -1,5 +1,49 @@
 ---
 title:  Computer-executable and traceable metric queues system
+head: [
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'title',
+      content: ' Computer-executable and traceable metric queues system | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'description',
+      content: 'Digital Metric Queue System: Evaluate, Analyze, Achieve Patents: Licensing Opportunity | Intellectual Frontiers Cited by Mores US11017123B1',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:title',
+      content: ' Computer-executable and traceable metric queues system | IntellectualFrontiers	',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:description',
+      content: 'Digital Metric Queue System: Evaluate, Analyze, Achieve Patents: Licensing Opportunity | Intellectual Frontiers Cited by Mores US11017123B1',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:title',
+      content: ' Computer-executable and traceable metric queues system | IntellectualFrontiers	',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:description',
+      content: 'Digital Metric Queue System: Evaluate, Analyze, Achieve Patents: Licensing Opportunity | Intellectual Frontiers Cited by Mores US11017123B1',
+    },
+  },
+]
 uspto-canonical-id-label: Patent
 uspto-patent-number: US11388077B2
 inventor: Shah N. Shahid

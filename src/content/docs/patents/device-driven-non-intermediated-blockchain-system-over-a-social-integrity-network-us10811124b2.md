@@ -1,5 +1,49 @@
 ---
 title:  Device-driven non-intermediated blockchain system over a social integrity network
+head: [
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'title',
+      content: 'Device-driven non-intermediated blockchain system over a social integrity network | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'description',
+      content: 'Blockchain Network Communication: Patents Licensing Opportunity | Intellectual Frontiers Cited by Causam Energy US9513648B2, US8849715B2',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:title',
+      content: 'Device-driven non-intermediated blockchain system over a social integrity network | IntellectualFrontiers	',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:description',
+      content: 'Blockchain Network Communication: Patents Licensing Opportunity | Intellectual Frontiers Cited by Causam Energy US9513648B2, US8849715B2',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:title',
+      content: 'Device-driven non-intermediated blockchain system over a social integrity network | IntellectualFrontiers	',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:description',
+      content: 'Blockchain Network Communication: Patents Licensing Opportunity | Intellectual Frontiers Cited by Causam Energy, US9513648B2, US8849715B2',
+    },
+  },
+]
 uspto-canonical-id-label: Patent
 uspto-patent-number: US1081124B2
 inventor: Shah N. Shahid

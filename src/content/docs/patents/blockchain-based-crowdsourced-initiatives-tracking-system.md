@@ -1,5 +1,49 @@
 ---
 title:  Blockchain-based crowdsourced initiatives tracking system
+head: [
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'title',
+      content: 'Blockchain-based crowdsourced initiatives tracking system | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'description',
+      content: 'Innovative Blockchain Crowdsourcing Patents: Licensing Opportunity |  Intellectual Frontiers Cited by Bank Of America Corporation US10498808B US11295402B2',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:title',
+      content: 'Blockchain-based crowdsourced initiatives tracking system | IntellectualFrontiers	',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:description',
+      content: 'Innovative Blockchain Crowdsourcing Patents: Licensing Opportunity |  Intellectual Frontiers Cited by Bank Of America Corporation US10498808B US11295402B2',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:title',
+      content: 'Blockchain-based crowdsourced initiatives tracking system | IntellectualFrontiers	',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:description',
+      content: 'Innovative Blockchain Crowdsourcing Patents: Licensing Opportunity |  Intellectual Frontiers Cited by Bank Of America Corporation US10498808B US11295402B2',
+    },
+  },
+]
 uspto-canonical-id-label: Patent
 uspto-patent-number: US11270263B2	
 inventor: Shah N. Shahid

@@ -1,5 +1,49 @@
 ---
 title: Device-driven non-intermediated blockchain system over a social integrity network
+head: [
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'title',
+      content: 'Device-driven non-intermediated blockchain system over a social integrity network | IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'description',
+      content: 'Blockchain for Social Integrity: Patents Licensing Opportunity | Intellectual Frontiers Cited by T-Mobile USA, Inc.US11539787B2 and US11418587B2',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:title',
+      content: 'Device-driven non-intermediated blockchain system over a social integrity network | IntellectualFrontiers	',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:description',
+      content: 'Blockchain for Social Integrity: Patents Licensing Opportunity | Intellectual Frontiers Cited by T-Mobile USA, Inc.US11539787B2 and US11418587B2',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:title',
+      content: 'Device-driven non-intermediated blockchain system over a social integrity network | IntellectualFrontiers	',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:description',
+      content: 'Blockchain for Social Integrity: Patents Licensing Opportunity | Intellectual Frontiers Cited by T-Mobile USA, Inc.US11539787B2 and US11418587B2',
+    },
+  },
+]
 uspto-canonical-id-label: Patent
 uspto-patent-number: US10490304B2
 inventor: Shah N. Shahid

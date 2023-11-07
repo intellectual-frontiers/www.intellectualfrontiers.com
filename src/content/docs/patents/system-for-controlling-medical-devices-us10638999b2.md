@@ -1,5 +1,49 @@
 ---
 title: System for controlling medical devices
+head: [
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'title',
+      content: 'System for controlling medical devices| IntellectualFrontiers',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'description',
+      content: 'Medical Device Control System Patents: Licensing Opportunity | Intellectual Frontiers Cited by Shanghai United Imaging Healthcare US10925570B2.',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:title',
+      content: 'System for controlling medical devices| IntellectualFrontiers	',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      property: 'og:description',
+      content: 'Medical Device Control System Patents: Licensing Opportunity | Intellectual Frontiers Cited by Shanghai United Imaging Healthcare US10925570B2.',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:title',
+      content: 'System for controlling medical devices| IntellectualFrontiers	',
+    },
+  },
+  {
+    tag: 'meta',
+    attrs: {
+      name: 'twitter:description',
+      content: 'Medical Device Control System Patents: Licensing Opportunity | Intellectual Frontiers Cited by Shanghai United Imaging Healthcare US10925570B2.',
+    },
+  },
+]
 uspto-canonical-id-label: Patent
 uspto-patent-number: US10638999B2
 inventor: Shah N. Shahid
