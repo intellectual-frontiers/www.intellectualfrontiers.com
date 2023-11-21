@@ -418,4 +418,4 @@ Read the original patent [here](https://intellectualfrontiers.com/patents/blockc
 
 Read layman patent summary [here](https://intellectualfrontiers.com/patent-summaries/verification-systems-for-digital-proof-of-service/).
 
-Should you be interested in licensing or purchasing this patent portfolio, or if you have any inquiries or require additional material, please contact us at <innovation@intellectualfrontiers.com>. 
+Should you be interested in licensing or purchasing this patent portfolio, or if you have any inquiries or require additional material, please contact us at <hello@intellectualfrontiers.com>. 
