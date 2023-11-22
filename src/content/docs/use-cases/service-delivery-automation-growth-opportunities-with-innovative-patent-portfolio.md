@@ -230,43 +230,43 @@ In recent years, the landscape of service delivery automation has undergone a si
 
 ### Microsoft Corp
 
-Over the past ten years, Microsoft Corp has demonstrated a commitment to service delivery automation innovation, with a marked escalation in patent publications. Starting from a modest one patent in 2014, Microsoft's portfolio has grown consistently, reaching 11 patents in 2023. This upward trend signifies a strategic alignment with the evolving needs of the industry, positioning Microsoft as a major player in shaping the future of service delivery automation.
-
-### Bizmodeline
-
-While Bizmodeline has been relatively dormant in the patent space until 2018, the sudden surge with 16 patents in that year reflects a strategic awakening. This surge underscores the company's recognition of the growing significance of service delivery automation. The initial burst in their patenting activity suggests an organizational shift towards prioritizing innovation in this domain.
-
-### China Construction Bank Corp: Bridging Banking and Automation
-
-In the financial sector, China Construction Bank Corp has made substantial strides in service delivery automation, especially evident in the past three years. With 11 patents in 2020, followed by 11 and 4 in 2021 and 2022 respectively, the bank is evidently channeling resources into merging financial services with cutting-edge automation technologies.
-
-### IBM Corp: Innovation Leadership
-
-IBM Corp maintains a consistent presence in service delivery automation innovation, with peaks in 2017 and 2019. The historical data underscores IBM's commitment to staying at the forefront of technological advancement.
+Microsoft Corp's journey in service delivery automation patents has been a gradual yet persistent ascent. While early years saw limited activity, the last decade witnessed a remarkable surge, with a notable spike in patents from 2014 onwards. The gradual increase underscores Microsoft's strategic commitment to the evolving landscape of service delivery automation.
 
 ### State Grid Corp of China
 
-A notable entrant into the automation space is the State Grid Corp of China, showcasing a gradual increase in patent publications. With a significant uptick in 2021 and 2022, the state-owned enterprise is evidently investing in the convergence of power grids and automation technologies.
+Although State Grid Corp of China started slow in patent activity, the recent surge from 2014 onwards indicates a strategic pivot towards automation. The substantial growth in patent numbers from 2017 onwards positions the company as a rising force in service delivery innovation, signaling a keen interest and investment in cutting-edge technologies.
 
-### Alphabet Inc: Google's Investment into Automation Patents
+### Huawei Investment & Holding Co Ltd
 
-Google's parent company, Alphabet Inc, has strategically entered the service delivery automation space. Notable peaks in 2017 and 2018 demonstrate a focused approach. The sporadic releases suggest ongoing interest in this transformative technology of service automation.
+Huawei stands as a testament to strategic foresight, consistently building a robust patent portfolio in service delivery automation. The company's proactive approach, particularly evident from 2014 to 2020, underscores a commitment to spearhead innovation in this critical domain.
 
-### Tencent Holding Ltd
+### Amazon Inc: The Intersection of Service and Innovation
 
-Tencent Holding Ltd has maintained a steady pace of innovation in service delivery automation. Notable peaks in 2017 and 2019 indicate a sustained commitment to staying competitive in this rapidly evolving landscape.
+Amazon's patent landscape reflects a nuanced approach to service delivery automation. The company's patents, scattered across the last decade, showcase a thoughtful integration of automation into its service offerings. The steady growth in patents, especially from 2017 to 2019, aligns with Amazon's commitment to enhancing service delivery through innovative technologies.
 
-### Baidu Inc
+### IBM Corp: Adapting to the Winds of Change
 
-Baidu Inc's patent landscape reveals a deliberate foray into service delivery automation, particularly in recent years. With a notable spike in 2020, followed by consistent publications, Baidu is positioning itself as a key player in shaping the future of automated service delivery.
+IBM's patent journey in service delivery automation exemplifies adaptability. While the early years saw sporadic activity, the company shifted gears from 2016 onwards, aligning its patent strategy with the growing importance of automation in service delivery.
 
-### Hancom Inc: Emerging Innovator
+### Siemens AG
 
-Hancom Inc, while relatively new to the patent space, has made significant strides in service delivery automation. The company's focus on innovation is evident, particularly in 2019 and 2020, marking it as an emerging innovator in the field.
+Siemens AG's patent portfolio reflects the evolution of a visionary approach to service delivery automation. The steady growth in patents from 2014 onwards showcases a commitment to staying at the forefront of technological advancements in this field.
 
-### Ping An Insurance Group: Bridging Finance and Automation
+### China Southern Power Grid Co Ltd
 
-Ping An Insurance Group has strategically integrated automation into its service delivery model, evident in the consistent growth of patents from 2018 to 2023. This confluence of finance and automation positions Ping An as a frontrunner in leveraging technology to enhance service delivery.
+China Southern Power Grid Co Ltd's patent trajectory underscores a steady course in service delivery automation. The company's consistent patent activity, especially in recent years, signals a strategic focus on harnessing automation for efficient service delivery.
+
+### Alphabet Inc.
+
+Alphabet Inc's patent journey  in the last five years, reflect a calculated approach to integrating automation into its service ecosystem.
+
+### Samsung Group
+
+The surge in patents from 2012 to 2018 signifies a strategic alignment with the evolving landscape of service delivery automation.
+
+### NCR Corp: Navigating the Waves of Innovation
+
+NCR Corp's patent journey reveals a significant increase in patents from 2017 onwards that showcases a commitment to staying abreast of the latest advancements in the field.
 
 ## Overcoming Top Challenges in Today’s Service Delivery Automation
 
