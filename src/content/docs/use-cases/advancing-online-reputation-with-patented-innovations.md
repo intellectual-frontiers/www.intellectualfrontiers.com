@@ -61,7 +61,7 @@ A significant part of any reputation strategy involves tracking mentions of the 
 
 Social media has a significant impact on purchasing decisions[. 76% of American consumers purchased](https://blog.reputationx.com/online-reputation-management-statistics) a product after seeing a brand’s social post.
 
-### _Market Segmentation_
+### Market Segmentation
 
 The ORM services market can be segmented into Review Management, Identity Monitoring, Search Engine Suppression, and Internet Removal. In terms of services, Review Management is the largest segment. Based on application, the market can be divided into small and medium-sized enterprises and Large Enterprises. In terms of application, Large Enterprises are the largest segment.
 
@@ -85,23 +85,19 @@ The following statistics chart the course of patenting trends in the industry, p
 
 </div>
 
-####
-
-#### **_Innovation Density_**
+### Innovation Density
 
 Despite a slight dip in the number of applications filed in recent years (which might be due to certain applications filed recently but not yet published), the industry maintains a robust innovation density, with 108 new patents filed and about 144 granted in 2023, suggesting a continuous focus on technological advancement.
 
-#### **_Grant Publication Patterns_**
+### Grant Publication Patterns
 
 The publication of granted patents has followed a consistent trajectory, indicating a timely and efficient approval process.
 
-### Strategic Implications:
-
-#### **_Opportunities for Collaboration:_**
+### Opportunities for Collaboration
 
 The patent trends suggest an industry ripe for collaboration. Companies with a robust patent or product portfolio in related topics can explore opportunities for licensing or strategic partnerships with patent owners who can drive significant business growth through expansion of the patent assets.
 
-#### **_Investment Appeal_**
+### Investment Appeal
 
 The consistent publication of patents showcases a solid foundation for potential investors. The industry's commitment to innovation is a compelling factor for those seeking stable and forward-looking investments.
 
@@ -184,7 +180,7 @@ Recognizing the diverse needs of businesses, patents in specialized business ser
 
 </div>
 
-### _Social Media Risks_
+### Social Media Risks
 
 Social media platforms are powerful tools for brand promotion, but they also pose significant risks. Negative comments, fake reviews, and misinformation can spread rapidly, impacting a company's image. There is a need of a technology that employs advanced algorithms to monitor and analyze social media content, enabling businesses to identify and address potential reputation threats in real-time.
 
