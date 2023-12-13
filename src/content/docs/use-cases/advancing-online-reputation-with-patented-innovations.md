@@ -11,7 +11,7 @@ application-date:
 issue-date:
 expiry-date:
 patent-status: Active
-url: "/ip/advancing-online-reputation-with-patented-innovations"
+url: "/use-cases/advancing-online-reputation-with-patented-innovations"
 uspto-patent-pdf:
 uspto-patent-url:
 thumbnail:
