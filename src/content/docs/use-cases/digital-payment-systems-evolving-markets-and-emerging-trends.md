@@ -1,35 +1,36 @@
 ---
-title:   Digital Payment Systems- Evolving Markets and Emerging Trends
+title: Digital Payment Systems- Evolving Markets and Emerging Trends
 uspto-canonical-id-label: Patent
 uspto-patent-number: US-10643208-B2
 inventor: Shah N. Shahid
 owner-current-assignee: Intellectual Frontiers LLC
-patent-owners-rights: 
+patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:
-application-date: 
-issue-date: 
-expiry-date: 
+application-date:
+issue-date:
+expiry-date:
 patent-status: Active
-url: "/ip/digital-payment-systems-evolving-markets-and-emerging-trends"
+url: "/use-cases/digital-payment-systems-evolving-markets-and-emerging-trends"
 uspto-patent-pdf:
 uspto-patent-url:
-thumbnail: 
-uspto-patent-citation-label: 
-forward-citations: 
+thumbnail:
+uspto-patent-citation-label:
+forward-citations:
 backward-citations:
-abstract-of-the-invention-label: 
-abstract-of-the-invention: 
+abstract-of-the-invention-label:
+abstract-of-the-invention:
 problem-solved-by-the-invention:
-topics: 
+topics:
 images:
 external-links: https://patents.google.com/patent/US10643208B2/
-downloadable-documents: 
+downloadable-documents:
   - anchor_text: Download PDF
-    link_url: 
+    link_url:
   - anchor_text: Download Claim Summaries
-    link_url: 
+    link_url:
 ---
+
 The Digital Payments market is set to witness significant growth in the
 coming years according to reports by
 [Statista](https://www.statista.com/outlook/dmo/fintech/digital-payments/worldwide),.
@@ -43,7 +44,7 @@ transaction value of US\$6.03 trillion in 2023. On a global scale, China
 stands out as a frontrunner in the digital payments landscape, expected
 to amass a total transaction value of US\$3,639.00 billion in 2023.
 
-<div class="center-elements"> 
+<div class="center-elements">
 
 ![Figure 1](use-cases-us-10643208-B2-1.png)
 
@@ -309,7 +310,7 @@ of life for residents. Predictions indicate that the smart city market
 will see substantial growth in the coming years due to data-driven
 innovations.
 
-<div class="center-elements"> 
+<div class="center-elements">
 
 ![Figure 1](use-cases-us-10643208-B2-2.png)
 
@@ -379,7 +380,7 @@ the tools, mechanisms, and frameworks necessary, the patent paves the
 way for a future where data could seamlessly serve as an alternative or
 complement to traditional currencies in the digital marketplace.
 
-## 
+##
 
 ## Leveraging Diverse Data for Enhanced Payment Solutions
 
@@ -554,18 +555,18 @@ flexibility and trust in digital transactions.
 
 <div style="background-color: #E5E8E8; padding-left: 8px">
 
-*"A computer-controlled payment system for facilitating seamless
+_"A computer-controlled payment system for facilitating seamless
 transactions from a user system to a buyer system via an intermediary
-system, the system comprising:*
+system, the system comprising:_
 
-*an electronic service provider system associated with a service
+_an electronic service provider system associated with a service
 provider and located physically in a service setting that includes one
 or more central servers, data stores, and cloud-based computing
 components for managing and processing delivery of a service in the
 service setting by the service provider to the user associated with the
-user system, wherein the service provider system comprising:*
+user system, wherein the service provider system comprising:_
 
-*a service interaction component to generate an electronic signal
+_a service interaction component to generate an electronic signal
 transmitted to the user system using a transmission circuit, and wherein
 the electronic signal allows communication between the user system and
 the service provider system, the service interaction component further
@@ -574,28 +575,28 @@ the associated user, the predefined information comprising at least a
 first computer-executable input indicative of an identifier of the user
 system and the associated user and a second computer-executable input
 indicative of a service sought for delivery in the service setting by
-the service provider; and*
+the service provider; and_
 
-*a payment engine for processing payments digitally based on data worth
+_a payment engine for processing payments digitally based on data worth
 associated with the data owned by the user and authorized for sharing by
 the service provider to the buyer system, wherein the payment engine
 calculates a payable amount payable digitally by the user to the service
-provider based on:*
+provider based on:_
 
-*a first digital transactional value indicative of a service charge for
-the service delivered digitally by the service provider;*
+_a first digital transactional value indicative of a service charge for
+the service delivered digitally by the service provider;_
 
-*a second digital transactional value indicative of a predefined co-pay
-between the user and a co-pay entity; and*
+_a second digital transactional value indicative of a predefined co-pay
+between the user and a co-pay entity; and_
 
-*a third digital transactional value indicative of the data worth
-associated with the data owned by the user and authorized for sharing,*
+_a third digital transactional value indicative of the data worth
+associated with the data owned by the user and authorized for sharing,_
 
-*wherein the data worth is calculated based on a set of predefined
+_wherein the data worth is calculated based on a set of predefined
 criteria specified by the buyer entity for a set of data types, data
-entities and data attributes; and*
+entities and data attributes; and_
 
-*a pre-consenting system located remotely from the user system and
+_a pre-consenting system located remotely from the user system and
 communicatively coupled to the service provider system in the service
 setting, wherein the pre-consenting system is configured to receive a
 digital signal containing a third computer-executable input for
@@ -603,14 +604,14 @@ authorizing sharing of the data owned by the user at least in part
 toward a digital purchase and delivery of the service from the service
 provider by the user such that the data owned by the user serves as a
 transactional value for the digital purchase and delivery of the service
-as and when the data is made available,*
+as and when the data is made available,_
 
-*wherein the pre-consenting system is further configured to generate a
+_wherein the pre-consenting system is further configured to generate a
 trigger that is initiated upon electronic receipt of the third
 computer-executable input by the pre-consenting system, the trigger
 containing a unique code referencing the user, the user system and
 authorized data of the user for storage, processing, and sharing of the
-authorized data."*
+authorized data."_
 
 </div>
 
@@ -627,7 +628,7 @@ into the digital transaction process, backed by robust consent
 management and communication systems, ensuring operational efficiency,
 security, and optimized value extraction.
 
-<div class="center-elements"> 
+<div class="center-elements">
 
 ![Figure 1](use-cases-us-10643208-B2-3.png)
 
@@ -682,9 +683,9 @@ security, and optimized value extraction.
     the tools or methodologies to accurately assess this, leading to
     potential undervaluation or missed revenue opportunities.
 
-## 
+##
 
-## The Strategic Role of Intellectual Property Assets in Payment System Technologies 
+## The Strategic Role of Intellectual Property Assets in Payment System Technologies
 
 The development and acquisition of intellectual property (IP) assets
 plays an important role in the competitive landscape of payment systems,
@@ -709,7 +710,7 @@ efficient payment solutions for the future.
 
 ## Leading Innovators in Digital Payment Systems: Key IP Developers of 2022 and Their Target Market and Synergy with Our Patented Portfolio
 
-<div class="center-elements"> 
+<div class="center-elements">
 
 ![Figure 1](use-cases-us-10643208-B2-01.png)
 
@@ -821,3 +822,9 @@ the forefront of the impending data-driven transactional revolution. In
 essence, this pioneering initiative epitomizes the synthesis of data
 science and digital commerce, marking a transformative phase in the
 realm of electronic transactions.
+
+Read the original patent [here](https://intellectualfrontiers.com/patents/digital-payment-system/).
+
+Read layman patent summary [here](https://www.intellectualfrontiers.com/patent-summaries/digital-payment-technology-as-a-seamless-facilitator-of-transactions/).
+
+Should you be interested in licensing or purchasing this patent portfolio to strengthen your position in this evolving technological landscape, or if you have any inquiries or require additional material, please contact us at <hello@intellectualfrontiers.com>.
