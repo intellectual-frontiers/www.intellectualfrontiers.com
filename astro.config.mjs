@@ -33,9 +33,13 @@ export default defineConfig({
           autogenerate: { directory: "patent-summaries" },
         },
         {
+          label: "Blogs",
+          autogenerate: { directory: "blogs" },
+        },
+        {
           label: "Patents",
           autogenerate: { directory: "patents" },
-        },        
+        },                
       ],
       head: [
         {
