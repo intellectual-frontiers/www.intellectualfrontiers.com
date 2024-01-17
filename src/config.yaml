@@ -1,6 +1,6 @@
 site:
   name: IntellectualFrontiers
-  site: 'https://intellectual-frontiers.deno.dev/'
+  site: 'https://www.intellectualfrontiers.com/'
   base: '/'
   trailingSlash: false
 
