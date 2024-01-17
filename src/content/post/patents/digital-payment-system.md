@@ -3,6 +3,25 @@ title: Digital payment system
 uspto-canonical-id-label: Patent
 sectiontype: patent
 publishDate: 2020-05-05
+metadata:
+  title: Digital payment system
+  description: Facilitate seamless digital payments with user-centric authorization. Pay securely based on data worth using our advanced payment engine.
+  robots:
+    index: true
+    follow: true
+  openGraph:
+    title: Digital payment system | IntellectualFrontiers
+    site_name: IntellectualFrontiers
+    description: Facilitate seamless digital payments with user-centric authorization. Pay securely based on data worth using our advanced payment engine.
+    images:
+      - url: '/images/patents/us10643208b2-image-001.png'
+        width: 1200
+        height: 628
+    type: website
+  twitter:
+    handle: ''
+    site: ''
+    cardType: ''
 patent-id: US10643208B2
 uspto-patent-number: US10643208B2
 inventor: Shah N. Shahid

@@ -4,6 +4,25 @@ excerpt: A computer-implemented method for scheduling, tracking, and executing p
 sectiontype: patent
 uspto-canonical-id-label: Patent
 publishDate: 2019-09-03
+metadata:
+  title: Tasks scheduling based on triggering event and work lists management
+  description: Effortlessly manage tasks with our method—schedule, track, and execute based on triggering events. Optimize work lists and boost productivity.
+  robots:
+    index: true
+    follow: true
+  openGraph:
+    title: Tasks scheduling based on triggering event and work lists management | IntellectualFrontiers
+    site_name: IntellectualFrontiers
+    description: Effortlessly manage tasks with our method—schedule, track, and execute based on triggering events. Optimize work lists and boost productivity.
+    images:
+      - url: '/images/patents/us10403399b2-image-001.png'
+        width: 1200
+        height: 628
+    type: website
+  twitter:
+    handle: ''
+    site: ''
+    cardType: ''
 patent-id: US10403399B2
 uspto-patent-number: US10403399B2
 inventor: Shah N. Shahid

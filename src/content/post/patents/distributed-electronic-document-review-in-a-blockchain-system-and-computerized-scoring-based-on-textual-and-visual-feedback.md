@@ -3,6 +3,25 @@ title: Distributed electronic document review in a blockchain system and compute
 excerpt: A blockchain configured system and a method for facilitating an expertise driven review and scoring of electronic documents in a crowdsourced environment.
 sectiontype: patent
 publishDate: 2018-01-16
+metadata:
+  title: Distributed electronic document review in a blockchain system and computerized scoring based on textual and visual feedback
+  description: 'Transform document review with blockchain: Expert-driven scoring, crowdsourced ratings, and credentialed expertise for precise evaluation.'
+  robots:
+    index: true
+    follow: true
+  openGraph:
+    title: Distributed electronic document review in a blockchain system and computerized scoring based on textual and visual feedback | IntellectualFrontiers
+    site_name: IntellectualFrontiers
+    description: 'Transform document review with blockchain: Expert-driven scoring, crowdsourced ratings, and credentialed expertise for precise evaluation.'
+    images:
+      - url: '/images/patents/us9870591b2-image-1.png'
+        width: 1200
+        height: 628
+    type: website
+  twitter:
+    handle: ''
+    site: ''
+    cardType: ''
 uspto-canonical-id-label: Patent
 patent-id: US9870591B2
 uspto-patent-number: US9870591B2

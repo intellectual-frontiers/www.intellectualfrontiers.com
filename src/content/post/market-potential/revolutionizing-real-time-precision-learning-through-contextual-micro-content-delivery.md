@@ -22,9 +22,9 @@ metadata:
         height: 628
     type: website
   twitter:
-    handle: '@twitter_user'
-    site: '@twitter_user'
-    cardType: summary_large_image
+    handle: ''
+    site: ''
+    cardType: ''
 uspto-canonical-id-label: Patent
 uspto-patent-number: US11651459B2
 inventor: Shah N. Shahid

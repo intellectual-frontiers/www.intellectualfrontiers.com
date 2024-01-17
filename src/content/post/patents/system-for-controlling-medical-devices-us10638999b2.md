@@ -4,6 +4,25 @@ excerpt: Controlling a multi-device module includes a physiological sensor confi
 sectiontype: patent
 uspto-canonical-id-label: Patent
 publishDate: 2020-05-05
+metadata:
+  title: System for controlling medical devices
+  description: Streamline medical device control effortlessly. Monitor physiological data, manage devices, and access secure electronic records with our advanced system.
+  robots:
+    index: true
+    follow: true
+  openGraph:
+    title: System for controlling medical devices | IntellectualFrontiers
+    site_name: IntellectualFrontiers
+    description: Streamline medical device control effortlessly. Monitor physiological data, manage devices, and access secure electronic records with our advanced system.
+    images:
+      - url: '/images/patents/us10638999b2-image-001.png'
+        width: 1200
+        height: 628
+    type: website
+  twitter:
+    handle: ''
+    site: ''
+    cardType: ''
 patent-id: US10638999B2
 uspto-patent-number: US10638999B2
 inventor: Shah N. Shahid

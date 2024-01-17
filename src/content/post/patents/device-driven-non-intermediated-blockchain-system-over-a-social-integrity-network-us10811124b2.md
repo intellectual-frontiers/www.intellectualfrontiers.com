@@ -3,6 +3,25 @@ title: Device-driven non-intermediated blockchain system over a social integrity
 excerpt: A blockchain configured device-driven disintermediated distributed system for facilitating multi-faceted communication over a network.
 sectiontype: patent
 publishDate: 2020-10-20
+metadata:
+  title: Device-driven non-intermediated blockchain system over a social integrity network
+  description: Experience decentralized communication with our device-driven blockchain system. Validate transactions via facial expression and geo-tagging for secure data exchange.
+  robots:
+    index: true
+    follow: true
+  openGraph:
+    title: Device-driven non-intermediated blockchain system over a social integrity network | IntellectualFrontiers
+    site_name: IntellectualFrontiers
+    description: Experience decentralized communication with our device-driven blockchain system. Validate transactions via facial expression and geo-tagging for secure data exchange.
+    images:
+      - url: '/images/patents/us10811124b2-image-001.png'
+        width: 1200
+        height: 628
+    type: website
+  twitter:
+    handle: ''
+    site: ''
+    cardType: ''
 uspto-canonical-id-label: Patent
 patent-id: US1081124B2
 uspto-patent-number: US1081124B2
@@ -15,7 +34,7 @@ application-date:
 issue-date:
 expiry-date:
 patent-status: Active
-url: '/patent/device-driven-non-intermediated-blockchain-system-over-a-social-integrity-network-us10811124b2'
+url: '/patents/device-driven-non-intermediated-blockchain-system-over-a-social-integrity-network-us10811124b2'
 uspto-patent-pdf:
 uspto-patent-url:
 thumbnail:

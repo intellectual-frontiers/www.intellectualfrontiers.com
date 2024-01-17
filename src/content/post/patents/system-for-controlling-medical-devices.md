@@ -4,6 +4,25 @@ excerpt: Controlling a multi-device module includes a physiological sensor confi
 sectiontype: patent
 uspto-canonical-id-label: Patent
 publishDate: 2021-05-18
+metadata:
+  title: System for controlling medical devices
+  description: Enhance healthcare with our multi-device module and remote control. Monitor physiological signals and access electronic records wirelessly for efficient management.
+  robots:
+    index: true
+    follow: true
+  openGraph:
+    title: System for controlling medical devices | IntellectualFrontiers
+    site_name: IntellectualFrontiers
+    description: Enhance healthcare with our multi-device module and remote control. Monitor physiological signals and access electronic records wirelessly for efficient management.
+    images:
+      - url: '/images/patents/us11006920b2-image-01.jpg'
+        width: 1200
+        height: 628
+    type: website
+  twitter:
+    handle: ''
+    site: ''
+    cardType: ''
 patent-id: US11006920B2
 uspto-patent-number: US11006920B2
 inventor: Shah N. Shahid

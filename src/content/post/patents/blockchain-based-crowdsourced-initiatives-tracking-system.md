@@ -3,6 +3,25 @@ title: Blockchain-based crowdsourced initiatives tracking system
 excerpt: An embodiment herein provides a blockchain configured crowdsourced initiatives exchange ecosystem that includes a plurality of computing terminals associated with respective plurality of innovators which serve as sources of initiatives identified as innovations and respective sub-innovations.
 uspto-canonical-id-label: Patent
 publishDate: 2022-03-08
+metadata:
+  title: Blockchain-based crowdsourced initiatives tracking system
+  description: Revolutionize innovation with our blockchain-driven crowdsourced initiatives tracking system. Secure, transparent, and efficient. Join the future of collaborative innovation.
+  robots:
+    index: true
+    follow: true
+  openGraph:
+    title: Blockchain-based crowdsourced initiatives tracking system | IntellectualFrontiers
+    site_name: IntellectualFrontiers
+    description: Revolutionize innovation with our blockchain-driven crowdsourced initiatives tracking system. Secure, transparent, and efficient. Join the future of collaborative innovation.
+    images:
+      - url: '/images/patents/us11270263b2-image-001.png'
+        width: 1200
+        height: 628
+    type: website
+  twitter:
+    handle: ''
+    site: ''
+    cardType: ''
 sectiontype: patent
 patent-id: US11270263B2
 uspto-patent-number: US11270263B2

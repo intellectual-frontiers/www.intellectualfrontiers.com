@@ -4,6 +4,25 @@ excerpt: A system is provided for aggregating user generated electronic data ass
 sectiontype: patent
 uspto-canonical-id-label: Patent
 publishDate: 2020-11-17
+metadata:
+  title: Multi-source user generated electronic data integration in a blockchain-based transactional system
+  description: Streamline data integration in a blockchain system. Aggregate, verify, and seamlessly push user-generated data to enhance electronic transactions.
+  robots:
+    index: true
+    follow: true
+  openGraph:
+    title: Multi-source user generated electronic data integration in a blockchain-based transactional system | IntellectualFrontiers
+    site_name: IntellectualFrontiers
+    description: Streamline data integration in a blockchain system. Aggregate, verify, and seamlessly push user-generated data to enhance electronic transactions.
+    images:
+      - url: '/images/patents/us10839020b2-image-001.png'
+        width: 1200
+        height: 628
+    type: website
+  twitter:
+    handle: ''
+    site: ''
+    cardType: ''
 patent-id: US10839020B2
 uspto-patent-number: US10839020B2
 inventor: Shah N. Shahid

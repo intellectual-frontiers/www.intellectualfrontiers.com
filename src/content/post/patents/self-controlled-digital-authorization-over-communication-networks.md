@@ -4,6 +4,25 @@ excerpt: A system for authorizing an external device to access computerized reco
 sectiontype: patent
 uspto-canonical-id-label: Patent
 publishDate: 2021-03-30
+metadata:
+  title: Self-controlled digital authorization over communication networks
+  description: Enable secure access to computerized records with our system. Custom rules, GPS tracking & analytics for self-controlled digital authorization over communication networks.
+  robots:
+    index: true
+    follow: true
+  openGraph:
+    title: Self-controlled digital authorization over communication networks | IntellectualFrontiers
+    site_name: IntellectualFrontiers
+    description: Enable secure access to computerized records with our system. Custom rules, GPS tracking & analytics for self-controlled digital authorization over communication networks.
+    images:
+      - url: '/images/patents/us10963585b2-image-01.png'
+        width: 1200
+        height: 628
+    type: website
+  twitter:
+    handle: ''
+    site: ''
+    cardType: ''
 patent-id: US10963585B2
 uspto-patent-number: US10963585B2
 inventor: Shah N. Shahid

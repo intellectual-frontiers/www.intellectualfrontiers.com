@@ -4,7 +4,26 @@ excerpt: An electronic evaluation device and method thereof for optimizing an op
 uspto-canonical-id-label: Patent
 sectiontype: patent
 publishDate: 2023-01-24
-oatent-id: US11561884B2
+patent-id: US11561884B2
+metadata:
+  title: Computer-controlled precision education and training
+  description: Enhance computer-controlled metrics with real-time feedback and precision training. Achieve goals efficiently using our electronic evaluation device and machine learning.
+  robots:
+    index: true
+    follow: true
+  openGraph:
+    title: Computer-controlled precision education and training | IntellectualFrontiers
+    site_name: IntellectualFrontiers
+    description: Enhance computer-controlled metrics with real-time feedback and precision training. Achieve goals efficiently using our electronic evaluation device and machine learning.
+    images:
+      - url: '/images/patents/us11561884b2-image-001.png'
+        width: 1200
+        height: 628
+    type: website
+  twitter:
+    handle: ''
+    site: ''
+    cardType: ''
 uspto-patent-number: US11561884B2
 inventor: Shah N. Shahid
 owner-current-assignee: INTELLECTUAL FRONTIERS LLC

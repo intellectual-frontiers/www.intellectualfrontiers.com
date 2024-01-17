@@ -4,6 +4,26 @@ excerpt: A system for streaming of contextual micro-content blocks for a workflo
 sectiontype: patent
 uspto-canonical-id-label: Patent
 publishDate: 2023-05-16
+metadata:
+  title: Computer-controlled precision education and training
+  description: Empower your workforce with our Precision Education System. Delivering contextual micro-content to optimize workflow tasks. Elevate efficiency in B2B education and training.
+  robots:
+    index: true
+    follow: true
+  openGraph:
+    title: Computer-controlled precision education and training | IntellectualFrontiers
+    site_name: IntellectualFrontiers
+    description: Empower your workforce with our Precision Education System. Delivering contextual micro-content to optimize workflow tasks. Elevate efficiency in B2B education and training.
+    images:
+      - url: '/images/patents/us11651459b2-image-001.png'
+        width: 1200
+        height: 628
+    type: website
+  twitter:
+    handle: ''
+    site: ''
+    cardType: ''
+
 patent-id: US11651459B2
 uspto-patent-number: US11651459B2
 inventor: Shah N. Shahid

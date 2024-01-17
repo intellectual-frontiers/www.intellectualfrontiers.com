@@ -4,6 +4,26 @@ excerpt: A response management system and method configured to allow management 
 sectiontype: patent
 uspto-canonical-id-label: Patent
 publishDate: 2016-08-16
+metadata:
+  title: Crowdsourced responses management to cases
+  description: "Crowdsourced response management for cases: Federate, route, integrate, and publish anonymously. Optimize your entity's engagement efficiently."
+  robots:
+    index: true
+    follow: true
+  openGraph:
+    title: Crowdsourced responses management to cases | IntellectualFrontiers
+    site_name: IntellectualFrontiers
+    description: "Crowdsourced response management for cases: Federate, route, integrate, and publish anonymously. Optimize your entity's engagement efficiently."
+    images:
+      - url: '/images/patents/us9418355b2-image-1.png'
+        width: 1200
+        height: 628
+    type: website
+  twitter:
+    handle: ''
+    site: ''
+    cardType: ''
+
 patent-id: US9418355B2
 uspto-patent-number: US9418355B2
 inventor: Shah N. Shahid
@@ -15,7 +35,7 @@ application-date:
 issue-date:
 expiry-date:
 patent-status: Active
-url: '/patent/crowdsourced-responses-management-to-cases'
+url: '/patents/crowdsourced-responses-management-to-cases'
 uspto-patent-pdf:
 uspto-patent-url:
 thumbnail:

@@ -4,6 +4,25 @@ excerpt: A blockchain configured device-driven disintermediated distributed syst
 sectiontype: patent
 uspto-canonical-id-label: Patent
 publishDate: 2019-11-26
+metadata:
+  title: Device-driven non-intermediated blockchain system over a social integrity network
+  description: Empower communication with our blockchain system. Secure data exchange over a social integrity network, featuring disintermediation and advanced validation devices.
+  robots:
+    index: true
+    follow: true
+  openGraph:
+    title: Device-driven non-intermediated blockchain system over a social integrity network | IntellectualFrontiers
+    site_name: IntellectualFrontiers
+    description: Empower communication with our blockchain system. Secure data exchange over a social integrity network, featuring disintermediation and advanced validation devices.
+    images:
+      - url: '/images/patents/us10490304b2-image-001.png'
+        width: 1200
+        height: 628
+    type: website
+  twitter:
+    handle: ''
+    site: ''
+    cardType: ''
 patent-id: US10490304B2
 uspto-patent-number: US10490304B2
 inventor: Shah N. Shahid

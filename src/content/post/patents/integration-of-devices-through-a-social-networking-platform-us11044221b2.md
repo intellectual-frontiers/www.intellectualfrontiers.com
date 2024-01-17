@@ -3,6 +3,25 @@ title: Integration of devices through a social networking platform
 sectiontype: patent
 uspto-canonical-id-label: Patent
 publishDate: 2021-06-22
+metadata:
+  title: Integration of devices through a social networking platform
+  description: Connect devices seamlessly with our social networking platform. Share social information and manage individual-centric profiles effortlessly.
+  robots:
+    index: true
+    follow: true
+  openGraph:
+    title: Integration of devices through a social networking platform | IntellectualFrontiers
+    site_name: IntellectualFrontiers
+    description: Connect devices seamlessly with our social networking platform. Share social information and manage individual-centric profiles effortlessly.
+    images:
+      - url: '/images/patents/us11044221b2-image-001.png'
+        width: 1200
+        height: 628
+    type: website
+  twitter:
+    handle: ''
+    site: ''
+    cardType: ''
 patent-id: US11044221B2
 uspto-patent-number: US11044221B2
 inventor: Shah N. Shahid

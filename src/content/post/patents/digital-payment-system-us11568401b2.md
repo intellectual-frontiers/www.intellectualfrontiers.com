@@ -3,6 +3,26 @@ title: Digital payment system
 uspto-canonical-id-label: Patent
 sectiontype: patent
 publishDate: 2023-01-31
+metadata:
+  title: Digital payment system
+  description: Effortless digital transactions with our advanced payment system. Seamlessly authorize and pay based on data worth. Experience secure and convenient transactions now.
+  robots:
+    index: true
+    follow: true
+  openGraph:
+    title: Digital payment system | IntellectualFrontiers
+    site_name: IntellectualFrontiers
+    description: Effortless digital transactions with our advanced payment system. Seamlessly authorize and pay based on data worth. Experience secure and convenient transactions now.
+    images:
+      - url: '/images/patents/us11568401b2-image-001.png'
+        width: 1200
+        height: 628
+    type: website
+  twitter:
+    handle: ''
+    site: ''
+    cardType: ''
+
 patent-id: US11568401B2
 uspto-patent-number: US11568401B2
 inventor: Shah N. Shahid

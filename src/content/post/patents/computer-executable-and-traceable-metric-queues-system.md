@@ -3,6 +3,26 @@ title: Computer-executable and traceable metric queues system
 excerpt: A computer-controlled system for digitally evaluating one or more computer-executable and traceable metrics associated with a machine at a node.
 sectiontype: patent
 publishDate: 2022-07-12
+metadata:
+  title: Computer-executable and traceable metric queues system
+  description: Enhance machine performance with our traceable metric queues system. Collect, analyze, and optimize metrics wirelessly for superior results.
+  robots:
+    index: true
+    follow: true
+  openGraph:
+    title: Computer-executable and traceable metric queues system | IntellectualFrontiers
+    site_name: IntellectualFrontiers
+    description: Enhance machine performance with our traceable metric queues system. Collect, analyze, and optimize metrics wirelessly for superior results.
+    images:
+      - url: '/images/patents/us11388077b2-image-001.png'
+        width: 1200
+        height: 628
+    type: website
+  twitter:
+    handle: ''
+    site: ''
+    cardType: ''
+
 uspto-canonical-id-label: Patent
 patent-id: US11388077B2
 uspto-patent-number: US11388077B2

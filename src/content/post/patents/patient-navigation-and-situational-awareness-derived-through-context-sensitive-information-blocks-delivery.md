@@ -4,6 +4,25 @@ excerpt: A surveillance system for monitoring of Electronic Medical Record (EMR)
 sectiontype: patent
 uspto-canonical-id-label: Patent
 publishDate: 2018-10-02
+metadata:
+  title: Patient navigation and situational awareness derived through context-sensitive information blocks delivery
+  description: Enhance patient navigation with context-sensitive information blocks in real-time EMR monitoring. Improve situational awareness for efficient workflow events.
+  robots:
+    index: true
+    follow: true
+  openGraph:
+    title: Patient navigation and situational awareness derived through context-sensitive information blocks delivery | IntellectualFrontiers
+    site_name: IntellectualFrontiers
+    description: Enhance patient navigation with context-sensitive information blocks in real-time EMR monitoring. Improve situational awareness for efficient workflow events.
+    images:
+      - url: '/images/patents/us10089492b2-image.png'
+        width: 1200
+        height: 628
+    type: website
+  twitter:
+    handle: ''
+    site: ''
+    cardType: ''
 patent-id: US10089492B2
 uspto-patent-number: US10089492B2
 inventor: Shah N. Shahid

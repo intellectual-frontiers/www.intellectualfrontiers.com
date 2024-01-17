@@ -3,6 +3,25 @@ title: Aggregation of rating indicators
 excerpt: A computer-implemented method and system for publishing an aggregate rating indicator based on a plurality of discrete rating indicators associated with a rated entity.
 sectiontype: patent
 publishDate: 2017-12-19
+metadata:
+  title: Aggregation of rating indicators
+  description: Revolutionary method for accurate aggregate rating indicators. Filter out fraud for reliable results. Uncover the true essence of any entity with our innovative approach.
+  robots:
+    index: true
+    follow: true
+  openGraph:
+    title: Aggregation of rating indicators | IntellectualFrontiers
+    site_name: IntellectualFrontiers
+    description: Revolutionary method for accurate aggregate rating indicators. Filter out fraud for reliable results. Uncover the true essence of any entity with our innovative approach.
+    images:
+      - url: '/images/patents/us9846896b2-image-001.png'
+        width: 1200
+        height: 628
+    type: website
+  twitter:
+    handle: ''
+    site: ''
+    cardType: ''
 uspto-canonical-id-label: Patent
 patent-id: US9846896B2
 uspto-patent-number: US9846896B2

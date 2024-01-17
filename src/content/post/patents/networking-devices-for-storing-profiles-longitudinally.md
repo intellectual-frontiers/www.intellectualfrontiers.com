@@ -4,6 +4,25 @@ excerpt: A method and networking device for tracking change in a computer execut
 sectiontype: patent
 uspto-canonical-id-label: Patent
 publishDate: 2020-03-10
+metadata:
+  title: Networking devices for storing profiles longitudinally
+  description: Track changes in profiles with our devices. Efficiently store, manage, and update in cloud repositories. Enhance your profiling process effortlessly.
+  robots:
+    index: true
+    follow: true
+  openGraph:
+    title: Networking devices for storing profiles longitudinally | IntellectualFrontiers
+    site_name: IntellectualFrontiers
+    description: Track changes in profiles with our devices. Efficiently store, manage, and update in cloud repositories. Enhance your profiling process effortlessly.
+    images:
+      - url: '/images/patents/us10586069b2-image-001.png'
+        width: 1200
+        height: 628
+    type: website
+  twitter:
+    handle: ''
+    site: ''
+    cardType: ''
 patent-id: US10586069B2
 uspto-patent-number: US10586069B2
 inventor: Shah N. Shahid

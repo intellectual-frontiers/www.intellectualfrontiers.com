@@ -20,9 +20,9 @@ metadata:
         height: 628
     type: website
   twitter:
-    handle: '@twitter_user'
-    site: '@twitter_user'
-    cardType: summary_large_image
+    handle: ''
+    site: ''
+    cardType: ''
 publishDate: 2023-10-18
 uspto-canonical-id-label: Patent
 uspto-patent-number: US11568401B2

@@ -3,6 +3,25 @@ title: Integration of devices through a social networking platform
 sectiontype: patent
 uspto-canonical-id-label: Patent
 publishDate: 2019-06-11
+metadata:
+  title: Integration of devices through a social networking platform
+  description: Effortlessly connect devices with our social networking platform. Exchange social info and manage individual-centric profiles within the socially aware network. Join today.
+  robots:
+    index: true
+    follow: true
+  openGraph:
+    title: Integration of devices through a social networking platform | IntellectualFrontiers
+    site_name: IntellectualFrontiers
+    description: Effortlessly connect devices with our social networking platform. Exchange social info and manage individual-centric profiles within the socially aware network. Join today.
+    images:
+      - url: '/images/patents/us10320735b2-image-01.png'
+        width: 1200
+        height: 628
+    type: website
+  twitter:
+    handle: ''
+    site: ''
+    cardType: ''
 patent-id: US10320735B2
 uspto-patent-number: US10320735B2
 inventor: Shah N. Shahid
