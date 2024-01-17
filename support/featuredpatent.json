@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Tasks scheduling based on triggering event and work lists management",
+    "description": "A computer-implemented method for scheduling, tracking, and executing performance of a set of tasks includes defining a time series, associating a current time occurrence on the time series, and associating a future time occurrence on the time series.<a style=color:blue; href =/patents/tasks-scheduling-based-on-triggering-event-and-work-lists-management> <b>Read More...</b></a>",
+    "icon": "/images/patents/us10403399b2-image-001.png"
+  },
+  {
+    "title": "Self-controlled digital authorization over communication networks",
+    "description": "A system for authorizing an external device to access computerized records. The system includes a server. The server includes a computerized records data-store.<a style=color:blue; href =/patents/self-controlled-digital-authorization-over-communication-networks> <b>Read More...</b></a>",
+    "icon": "/images/patents/us10963585b2-image-01.png" 
+  },
+  {
+    "title": "Patient navigation and situational awareness derived through context-sensitive information blocks delivery",
+    "description": "A surveillance system for monitoring of Electronic Medical Record (EMR) application navigation through a plurality of navigation interfaces of an EMR application.<a style=color:blue; href =/patents/patient-navigation-and-situational-awareness-derived-through-context-sensitive-information-blocks-delivery> <b>Read More...</b></a>",
+    "icon": "/images/patents/us10089492b2-image.png"
+  },
+  {
+    "title": "Networking devices for storing profiles longitudinally",
+    "description": "A method and networking device for tracking change in a computer executable profile includes retrieving computer executable profile information.<a style=color:blue; href =/patents/networking-devices-for-storing-profiles-longitudinally/> <b>Read More...</b></a>",
+    "icon": "/images/patents/us10586069b2-image-001.png"
+  }
+  
+]

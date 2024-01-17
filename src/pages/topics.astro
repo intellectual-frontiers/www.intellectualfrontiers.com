@@ -1,0 +1,40 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import FeaturestopicInnerPage from '~/components/widgets/FeaturestopicInnerPage.astro';
+
+const metadata = {
+  title: 'Topics',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+  <FeaturestopicInnerPage
+    title="Topics"
+    subtitle=""
+    tagline="Topics"
+    classes={{ container: 'max-w-6xl' }}
+    items={[
+      {
+        title: 'Precision Learning',
+        description:
+          'Tailored Intellectual Development harnesses advanced technologies and data analytics, offering a nuanced educational experience for professionals to master complex facets of intellectual property and innovation.',
+      },
+      {
+        title: 'Digital Reputation Management',
+        description:
+          "Proactively shaping a positive digital presence, Online Image Optimization involves strategic measures to enhance and safeguard an entity's online reputation.",
+      },
+      {
+        title: 'Medical Device Integration',
+        description:
+          'Seamless incorporation of medical devices into interconnected systems, Medical Device Integration optimizes healthcare workflows, fostering efficient data exchange and enhancing patient care.',
+      },
+      {
+        title: 'Service Automation',
+        description:
+          'Service Automation streamlines operational workflows by leveraging advanced technologies, optimizing efficiency, and ensuring seamless, error-free execution of routine tasks within a business environment.',
+      },
+    ]}
+  />
+</Layout>

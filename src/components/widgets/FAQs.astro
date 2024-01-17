@@ -1,0 +1,39 @@
+---
+import Headline from '~/components/ui/Headline.astro';
+import ItemGrid from '~/components/ui/ItemGrid.astro';
+import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
+import type { Faqs } from '~/types';
+
+
+const {
+  title = '',
+  subtitle = '',
+  tagline = '',
+  items = [],
+  columns = 2,
+
+  id,
+  isDark = false,
+  classes = {},
+  bg = await Astro.slots.render('bg'),
+} = Astro.props as Faqs;
+
+---
+
+<WidgetWrapper id={id} isDark={isDark} containerClass={`max-w-7xl mx-auto ${classes?.container ?? ''}`} bg={bg}>
+  <Headline title={title} subtitle={subtitle} tagline={tagline} />
+  <ItemGrid
+    items={items}
+    columns={columns}
+    defaultIcon="tabler:chevron-right"
+    classes={{
+      container: `${columns === 1 ? 'max-w-4xl' : ''} gap-y-8 md:gap-y-12`,
+      panel: 'max-w-none',
+      icon: 'flex-shrink-0 mt-1 w-6 h-6 text-primary',
+    }}
+  />
+
+<div class="text-center mt-10">
+  <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 " ><a href="/faq">Load More</a></button>
+</div>
+</WidgetWrapper>

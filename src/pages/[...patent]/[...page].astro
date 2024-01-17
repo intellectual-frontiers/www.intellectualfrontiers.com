@@ -1,0 +1,55 @@
+---
+import Layout from '../../layouts/PageLayout.astro';
+import BlogList from '../../components/blog/List.astro';
+import Headline from '../../components/blog/Headline.astro';
+import Pagination from '../../components/blog/Pagination.astro';
+// import PostTags from "~/components/blog /Tags.astro";
+
+import { blogListRobots, getStaticPathsPatentList } from '../../utils/patent';
+
+export const prerender = true;
+
+export async function getStaticPaths({ paginate }) {
+  return await getStaticPathsPatentList({ paginate });
+}
+
+//console.log('-patent---',Astro.props)
+
+const { page } = Astro.props;
+//console.log(88888,page)
+
+const currentPage = page.currentPage ?? 1;
+
+// const allCategories = await findCategories();
+// const allTags = await findTags();
+
+const metadata = {
+  title: `Patent Assets${currentPage > 1 ? ` — Page ${currentPage}` : ''}`,
+  robots: {
+    index: blogListRobots?.index && currentPage === 1,
+    follow: blogListRobots?.follow,
+  },
+  openGraph: {
+    type: 'patent',
+  },
+  ignoreTitleTemplate: true,
+};
+
+//const a = page.data.filter(item => item.id.includes('patents'));
+---
+
+<Layout metadata={metadata}>
+  <section class="px-6 sm:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
+    <Headline
+      subtitle="The patent portfolio showcases a decade of technological advancements and inventive breakthroughs by our lead inventor, Shahid Shah. You will find a wealth of intellectual assets ripe for acquisition, each providing a unique avenue to enhance and expand your business's technological capabilities."
+    >
+      Intellectual Frontiers lists patented inventions for sale or license
+    </Headline>
+    <BlogList posts={page.data} />
+    <Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />
+    <!--
+      <PostTags tags={allCategories} class="mb-2" title="Search by Categories:" isCategory />
+      <PostTags tags={allTags}  title="Search by Tags:" />
+    -->
+  </section>
+</Layout>

@@ -1,64 +1,87 @@
-import { defineConfig } from "astro/config";
-import starlight from "@astrojs/starlight";
-import * as ameRPU from "astro-markdown-experience/rewrite-previewable-url";
-import robotsTxt from "astro-robots-txt";
+import path from 'path';
+import { fileURLToPath } from 'url';
 
+import { defineConfig } from 'astro/config';
 
+import sitemap from '@astrojs/sitemap';
+import tailwind from '@astrojs/tailwind';
+import mdx from '@astrojs/mdx';
+import partytown from '@astrojs/partytown';
+import compress from 'astro-compress';
+import icon from 'astro-icon';
+import tasks from './src/utils/tasks';
 
-// https://astro.build/config
+import { readingTimeRemarkPlugin, responsiveTablesRehypePlugin } from './src/utils/frontmatter.mjs';
+
+import { ANALYTICS, SITE } from './src/utils/config.ts';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+const whenExternalScripts = (items = []) =>
+  ANALYTICS.vendors.googleAnalytics.id && ANALYTICS.vendors.googleAnalytics.partytown
+    ? Array.isArray(items)
+      ? items.map((item) => item())
+      : [items()]
+    : [];
+
 export default defineConfig({
-  markdown: {
-    remarkPlugins: [ameRPU.typicalRemarkRewritePreviewableURLsPlugin({})],
-  },
-  site: "https://www.intellectualfrontiers.com/",
+  site: SITE.site,
+  base: SITE.base,
+  trailingSlash: SITE.trailingSlash ? 'always' : 'never',
+
+  output: 'static',
+
   integrations: [
-    robotsTxt(),
-    starlight({
-      title: "Intellectual Frontiers",
-      customCss: ["./src/styles/custom.css"],
-      social: {
-        github: "https://github.com/intellectual-frontiers",
+    tailwind({
+      applyBaseStyles: false,
+    }),
+    sitemap(),
+    mdx(),
+    icon({
+      include: {
+        tabler: ['*'],
+        'flat-color-icons': [
+          'template',
+          'gallery',
+          'approval',
+          'document',
+          'advertising',
+          'currency-exchange',
+          'voice-presentation',
+          'business-contact',
+          'database',
+        ],
       },
-      sidebar: [
-        {
-          label: "Our Intellectual Property (IP) Assets",
-          link: "/our-intellectual-property-assets/",
-        },
-        {
-          label: "Use Cases",
-          autogenerate: { directory: "use-cases" },
-        },
-        {
-          label: "Patent Summaries",
-          autogenerate: { directory: "patent-summaries" },
-        },
-        {
-          label: "Blogs",
-          autogenerate: { directory: "blogs" },
-        },
-        {
-          label: "Patents",
-          autogenerate: { directory: "patents" },
-        },                
-      ],
-      head: [
-        {
-          tag: "meta",
-          attrs: {
-            name: "google-site-verification",
-            content: "BbkYCQaDnpMzS3hZLItIMBOQUDoJWkJilmNH5XwORto",
-            defer: true,
-          },
-        },
-        {
-          tag: "script",
-          content: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PCFBB6RZ');`,
-        },
-      ],
+    }),
+
+    ...whenExternalScripts(() =>
+      partytown({
+        config: { forward: ['dataLayer.push'] },
+      })
+    ),
+
+    tasks(),
+
+    compress({
+      CSS: true,
+      HTML: false,
+      Image: false,
+      JavaScript: true,
+      SVG: true,
+      Logger: 1,
     }),
   ],
+
+  markdown: {
+    remarkPlugins: [readingTimeRemarkPlugin],
+    rehypePlugins: [responsiveTablesRehypePlugin],
+  },
+
+  vite: {
+    resolve: {
+      alias: {
+        '~': path.resolve(__dirname, './src'),
+      },
+    },
+  },
 });
