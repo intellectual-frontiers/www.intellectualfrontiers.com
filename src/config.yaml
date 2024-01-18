@@ -23,9 +23,9 @@ metadata:
         height: 628
     type: website
   twitter:
-    handle: '@onwidget'
-    site: '@onwidget'
-    cardType: summary_large_image
+    handle: ''
+    site: ''
+    cardType:
 
 i18n:
   language: en
