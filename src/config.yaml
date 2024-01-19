@@ -18,7 +18,7 @@ metadata:
   openGraph:
     site_name: IntellectualFrontiers
     images:
-      - url: '~/assets/images/default.png'
+      - url: '/images/IF-logo.svg'
         width: 1200
         height: 628
     type: website
