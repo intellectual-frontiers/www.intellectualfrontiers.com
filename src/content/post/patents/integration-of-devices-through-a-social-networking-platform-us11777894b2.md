@@ -3,7 +3,7 @@ title: Integration of devices through a social networking platform
 excerpt: A system and method for providing a social networking service to a plurality of devices. A social networking server for facilitating social information exchange among the plurality of devices through a socially aware network.
 sectiontype: patent
 uspto-canonical-id-label: Patent
-publishDate: 2024-01-19
+publishDate: 2023-10-03
 metadata:
   title: Integration of devices through a social networking platform
   description: Connect devices seamlessly with our social networking platform. Exchange social info through individual-centric profiles. Enhance your network experience today.

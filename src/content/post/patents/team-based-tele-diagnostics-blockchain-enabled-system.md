@@ -3,7 +3,7 @@ title: Team-based tele-diagnostics blockchain-enabled system
 excerpt: A computer-controlled diagnostic network system. The system includes diagnostic devices and diagnostician devices located at different locations in a distributed secured network.
 sectiontype: patent
 uspto-canonical-id-label: Patent
-publishDate: 2023-10-03
+publishDate: 2023-09-26
 metadata:
   title: Team-based tele-diagnostics blockchain-enabled system
   description: Discover precision diagnostics with our blockchain-enabled tele-diagnostics system. Secure, distributed network for efficient processing. Join the future now!
