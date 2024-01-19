@@ -59,6 +59,8 @@ downloadable-documents:
 
 A computer-controlled diagnostic network system. The system includes diagnostic devices and diagnostician devices located at different locations in a distributed secured network. The system includes a computer-controlled central blockchain server for storing and processing details obtained from the diagnostic devices and the diagnostician devices. The computer-controlled central blockchain server is communicatively coupled to a data extraction device for retrieving a plurality of computer-executable files stored at discrete distributed locations associated with one or more users of the distributed secured network. The computer-controlled central blockchain server is communicatively coupled to a blockchain device to process blockchain tasks through blockchain-enabled and computer-controlled software and hardware tools. The computer-controlled central blockchain server is located at a location remote from the locations of the diagnostic devices and the diagnostician devices.
 
+### Images (12)
+
 <div class="center-elements">
 
 <div id="fig1">
