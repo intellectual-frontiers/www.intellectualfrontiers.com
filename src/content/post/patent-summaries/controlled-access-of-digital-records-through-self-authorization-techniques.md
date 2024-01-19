@@ -2,7 +2,7 @@
 title: Controlled Access of Digital Records Through Self Authorization Techniques
 excerpt: Electronic records signify digitally documented information specific to individual users or owners. Such records, ranging from financial and healthcare data to information services, are curated by professionals, including physicians, analysts, and specialists.
 sectiontype: article
-image: '/images/patents/us10963585b2-image-01.png'
+image: '/images/patent-summaries/controlled-access-of-digital-records-through-self-authorization-techniques-thumbnail.png'
 patent-id: US10963585B2
 category: Patent Summaries
 metadata:
@@ -16,7 +16,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: Learn how digital authorization methods bolster access control and data security in the modern digital landscape.
     images:
-      - url: '/images/no-image.jpg'
+      - url: '/images/patent-summaries/controlled-access-of-digital-records-through-self-authorization-techniques-thumbnail.png'
         width: 1200
         height: 628
     type: website
