@@ -76,10 +76,10 @@ export const footerData = {
     { text: 'Privacy Policy', href: getPermalink('/privacy') },
   ],
   socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
-    { ariaLabel: 'RSS', icon: 'tabler:rss', href: '#' },
+    { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://twitter.com/IntelFrontiers' },
+    // { ariaLabel: 'Flipboard', icon: 'tabler:brand-flipboard', href: '#' },
+    // { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: '#' },
+    // { ariaLabel: 'RSS', icon: 'tabler:rss', href: '#' },
    
   ],
   footNote: `
