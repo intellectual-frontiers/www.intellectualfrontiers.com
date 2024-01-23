@@ -37,7 +37,22 @@ export default defineConfig({
     }),
     sitemap(
       {
-        filter: (page) => page !== 'https://www.intellectualfrontiers.com/landing/sales',
+        filter: (page) => 
+        page !== 'https://www.intellectualfrontiers.com/landing/sales' &&
+        page !== 'https://www.intellectualfrontiers.com/blog/' &&
+        page !== 'https://www.intellectualfrontiers.com/click-through' &&
+        page !== 'https://www.intellectualfrontiers.com/homes/mobile-app' &&
+        page !== 'https://www.intellectualfrontiers.com/homes/personal' &&
+        page !== 'https://www.intellectualfrontiers.com/homes/saas' &&
+        page !== 'https://www.intellectualfrontiers.com/homes/startup' &&
+        page !== 'https://www.intellectualfrontiers.com/landing/click-through' &&
+        page !== 'https://www.intellectualfrontiers.com/landing/lead-generation' &&
+        page !== 'https://www.intellectualfrontiers.com/landing/pre-launch' &&
+        page !== 'https://www.intellectualfrontiers.com/landing/product' &&
+        page !== 'https://www.intellectualfrontiers.com/landing/subscription' &&
+        page !== 'https://www.intellectualfrontiers.com/pricing' &&
+        page !== 'https://www.intellectualfrontiers.com/resources' &&
+        page !== 'https://www.intellectualfrontiers.com/services',
       }
     ),
     mdx(),
