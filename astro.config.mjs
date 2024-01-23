@@ -35,7 +35,11 @@ export default defineConfig({
     tailwind({
       applyBaseStyles: false,
     }),
-    sitemap(),
+    sitemap(
+      {
+        filter: (page) => page !== 'https://www.intellectualfrontiers.com/landing/sales',
+      }
+    ),
     mdx(),
     icon({
       include: {
