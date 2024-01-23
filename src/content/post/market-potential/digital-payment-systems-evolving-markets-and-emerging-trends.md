@@ -313,7 +313,7 @@ innovations.
 
 <div class="flex justify-center">
 
-![Figure 1](/images/market-potential/market-potential-us-10643208-B2-2.png)
+![Figure 2](/images/market-potential/market-potential-us-10643208-B2-2.png)
 
 </div>
 
@@ -631,7 +631,7 @@ security, and optimized value extraction.
 
 <div class="flex justify-center">
 
-![Figure 1](/images/market-potential/market-potential-us-10643208-B2-3.png)
+![Figure 3](/images/market-potential/market-potential-us-10643208-B2-3.png)
 
 </div>
 
@@ -713,7 +713,7 @@ efficient payment solutions for the future.
 
 <div class="flex flex-col items-center">
 
-![Figure 1](/images/market-potential/market-potential-us-10643208-B2-01.png)
+![Figure 4](/images/market-potential/market-potential-us-10643208-B2-01.png)
 
 <p><strong><u>[Source: Intellectual Frontiers Innovation Report]</u></strong></p>
 

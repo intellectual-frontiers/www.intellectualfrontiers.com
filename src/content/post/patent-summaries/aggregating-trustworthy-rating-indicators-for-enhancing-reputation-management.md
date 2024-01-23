@@ -80,7 +80,7 @@ Once it has this data, the system uses a special computer program to filter out 
 
 <div class="text-center">
 
-![Figure 2](/images/patent-summaries/us9846896b2-image-01.png)
+![Figure 1](/images/patent-summaries/us9846896b2-image-01.png)
 
 </div>
 
