@@ -55,12 +55,12 @@ downloadable-documents:
     link_url:
 ---
 
-<div class="center-elements">
+<!-- <div class="center-elements">
 
 ![Figure 1](/images/patents/us9870591b2-image-1.png)
 ![Figure 2](/images/patents/us9870591b2-image-2.png)
 
-</div>
+</div> -->
 
 ### Abstract
 

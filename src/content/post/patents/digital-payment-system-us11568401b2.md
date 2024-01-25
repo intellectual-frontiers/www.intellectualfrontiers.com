@@ -57,9 +57,9 @@ downloadable-documents:
 
 <div class="center-elements">
 
-![Figure 001](/images/patents/us11568401b2-image-001.png)
+<!-- ![Figure 001](/images/patents/us11568401b2-image-001.png)
 
-![Figure 002](/images/patents/us11568401b2-image-002.png)
+![Figure 002](/images/patents/us11568401b2-image-002.png) -->
 
 </div>
 
