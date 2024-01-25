@@ -6,24 +6,24 @@ category: Blogs
 image: '/images/blogs/reimagining-innovation-a-practical-guide-to-licensing-inventions-from-independent-inventors.webp'
 patent-id: US11568401B2
 metadata:
-  title: ''
-  description: ''
+  title: Guide to Patent Licensing from Independent Inventors
+  description: "Explore our guide on harnessing independent inventors' patents for corporate innovation, offering a competitive edge with practical insights and strategies"
   robots:
     index: true
     follow: true
   openGraph:
-    title: ''
+    title: Guide to Patent Licensing from Independent Inventors
     site_name: 'IntellectualFrontiers'
-    description: ''
+    description: "Explore our guide on harnessing independent inventors' patents for corporate innovation, offering a competitive edge with practical insights and strategies"
     images:
       - url: '/images/blogs/reimagining-innovation-a-practical-guide-to-licensing-inventions-from-independent-inventors.webp'
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: ''
-    site: ''
-    cardType: ''
+    handle: '@IntelFrontiers'
+    site: '@IntelFrontiers'
+    cardType: summary_large_image
 url: '/blogs/reimagining-innovation-a-practical-guide-to-licensing-inventions-from-independent-inventors/'
 publishDate: 2024-01-25
 ---
