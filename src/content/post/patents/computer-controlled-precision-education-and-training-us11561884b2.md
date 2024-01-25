@@ -21,9 +21,9 @@ metadata:
         height: 628
     type: website
   twitter:
-    handle: ''
-    site: ''
-    cardType: ''
+    handle: '@IntelFrontiers'
+    site: '@IntelFrontiers'
+    cardType: summary_large_image
 uspto-patent-number: US11561884B2
 inventor: Shah N. Shahid
 owner-current-assignee: INTELLECTUAL FRONTIERS LLC

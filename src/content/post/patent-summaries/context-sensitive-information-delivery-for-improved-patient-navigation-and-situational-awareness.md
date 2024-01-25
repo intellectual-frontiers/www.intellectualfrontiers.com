@@ -20,10 +20,9 @@ metadata:
         width: 1200
         height: 628
     type: website
-  twitter:
-    handle: ''
-    site: ''
-    cardType: ''
+    handle: '@IntelFrontiers'
+    site: '@IntelFrontiers'
+    cardType: summary_large_image
 publishDate: 2023-10-25
 uspto-canonical-id-label: Patent
 uspto-patent-number: US10089492B2

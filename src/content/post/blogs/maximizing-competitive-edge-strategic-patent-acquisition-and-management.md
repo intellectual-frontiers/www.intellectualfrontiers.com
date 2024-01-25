@@ -21,9 +21,9 @@ metadata:
         height: 628
     type: website
   twitter:
-    handle: ''
-    site: ''
-    cardType: ''
+    handle: '@IntelFrontiers'
+    site: '@IntelFrontiers'
+    cardType: summary_large_image
 url: '/blogs/maximizing-competitive-edge-strategic-patent-acquisition-and-management/'
 publishDate: 2024-01-04
 ---

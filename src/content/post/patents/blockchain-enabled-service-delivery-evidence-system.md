@@ -19,10 +19,9 @@ metadata:
         height: 628
     type: website
   twitter:
-    handle: ''
-    site: ''
-    cardType: ''
-
+    handle: '@IntelFrontiers'
+    site: '@IntelFrontiers'
+    cardType: summary_large_image
 sectiontype: patent
 patent-id: US11475441B2
 uspto-patent-number: US11475441B2

@@ -21,9 +21,9 @@ metadata:
         height: 628
     type: website
   twitter:
-    handle: ''
-    site: ''
-    cardType: ''
+    handle: '@IntelFrontiers'
+    site: '@IntelFrontiers'
+    cardType: summary_large_image
 publishDate: 2023-10-26
 uspto-canonical-id-label: Patent
 uspto-patent-number: US10643208B2
