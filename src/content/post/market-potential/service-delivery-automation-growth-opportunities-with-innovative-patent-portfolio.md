@@ -5,6 +5,25 @@ sectiontype: article
 category: Market Potential
 publishDate: 2023-11-22
 patent-id: US11475441B2
+metadata:
+  title: ''
+  description: ''
+  robots:
+    index: true
+    follow: true
+  openGraph:
+    title: ''
+    site_name: 'IntellectualFrontiers'
+    description: ''
+    images:
+      - url: '/images/no-image.jpg'
+        width: 1200
+        height: 628
+    type: website
+  twitter:
+    handle: '@IntelFrontiers'
+    site: '@IntelFrontiers'
+    cardType: summary_large_image
 uspto-canonical-id-label: Patent
 uspto-patent-number: US11475441B2
 inventor: Shah N. Shahid

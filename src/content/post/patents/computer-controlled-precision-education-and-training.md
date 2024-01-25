@@ -20,10 +20,9 @@ metadata:
         height: 628
     type: website
   twitter:
-    handle: ''
-    site: ''
-    cardType: ''
-
+    handle: '@IntelFrontiers'
+    site: '@IntelFrontiers'
+    cardType: summary_large_image
 patent-id: US11423500B2
 uspto-patent-number: US11423500B2
 inventor: Shah N. Shahid

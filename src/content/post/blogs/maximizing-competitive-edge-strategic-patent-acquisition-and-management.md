@@ -12,7 +12,7 @@ metadata:
     index: true
     follow: true
   openGraph:
-    title: Guide to Patent Acquisition for Tech Advancement
+    title: Guide to Patent Acquisition for Tech Advancement | IntellectualFrontiers
     site_name: 'IntellectualFrontiers'
     description: Discover the ultimate guide to patent acquisition in technology. Learn strategies for market leadership and innovation in our comprehensive guide.
     images:

@@ -5,6 +5,25 @@ sectiontype: article
 category: Market Potential
 publishDate: 2023-12-13
 patent-id: US10489830B2
+metadata:
+  title: Online Reputation Management Technology
+  description: "Discover how patented online reputation management and review innovations can safeguard and enhance your business's online image, driving trust and growth in the digital era"
+  robots:
+    index: true
+    follow: true
+  openGraph:
+    title: Online Reputation Management Technology | IntellectualFrontiers
+    site_name: 'IntellectualFrontiers'
+    description: "Discover how patented online reputation management and review innovations can safeguard and enhance your business's online image, driving trust and growth in the digital era."
+    images:
+      - url: '/images/blogs/reimagining-innovation-a-practical-guide-to-licensing-inventions-from-independent-inventors.webp'
+        width: 1200
+        height: 628
+    type: website
+  twitter:
+    handle: '@IntelFrontiers'
+    site: '@IntelFrontiers'
+    cardType: summary_large_image
 uspto-canonical-id-label: Patent
 uspto-patent-number: US10489830B2
 inventor: Shah N. Shahid

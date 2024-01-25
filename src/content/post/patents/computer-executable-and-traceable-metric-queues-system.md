@@ -19,10 +19,9 @@ metadata:
         height: 628
     type: website
   twitter:
-    handle: ''
-    site: ''
-    cardType: ''
-
+    handle: '@IntelFrontiers'
+    site: '@IntelFrontiers'
+    cardType: summary_large_image
 uspto-canonical-id-label: Patent
 patent-id: US11388077B2
 uspto-patent-number: US11388077B2

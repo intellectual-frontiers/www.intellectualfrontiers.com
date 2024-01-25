@@ -12,7 +12,7 @@ metadata:
     index: true
     follow: true
   openGraph:
-    title: Guide to Patent Licensing from Independent Inventors
+    title: Guide to Patent Licensing from Independent Inventors | IntellectualFrontiers
     site_name: 'IntellectualFrontiers'
     description: "Explore our guide on harnessing independent inventors' patents for corporate innovation, offering a competitive edge with practical insights and strategies"
     images:
