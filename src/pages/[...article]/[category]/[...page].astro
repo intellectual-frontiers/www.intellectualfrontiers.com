@@ -23,12 +23,20 @@ const metadata = {
   title: `${
     category === 'market-potential'
       ? 'Market Potential of Intellectual Frontiers Leading Patents'
-      : category.replaceAll('-', ' ')
+      : category === 'patent-summaries'
+        ? 'Simplified Patent Summaries of Intellectual Frontiers for Strategic Technology Investment'
+        : category === 'blogs'
+          ? 'Blogs of Intellectual Frontiers'
+          : category.replaceAll('-', ' ')
   } ${currentPage > 1 ? ` — Page ${currentPage}` : ''}`,
   description:
     category === 'market-potential'
       ? 'Access in-depth market analysis of patents with our Strategic Patent Insights, offering a clear view of market potentials and technological impact of Intellectual Frontiers Patents'
-      : '',
+      : category === 'patent-summaries'
+        ? 'Patent Summaries of Intellectual Frontiers'
+        : category === 'blogs'
+          ? 'Blogs of Intellectual Frontiers'
+          : '',
   robots: {
     index: blogCategoryRobots?.index,
     follow: blogCategoryRobots?.follow,
