@@ -1,9 +1,9 @@
 ---
-import Headline from '~/components/ui/Headline.astro';
+// import Headline from '~/components/ui/Headline.astro';
 import ItemGrid from '~/components/ui/ItemGrid.astro';
 import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
 import type { Faqs } from '~/types';
-
+import H1Headline from '../ui/H1Headline.astro';
 
 const {
   title = '',
@@ -17,11 +17,12 @@ const {
   classes = {},
   bg = await Astro.slots.render('bg'),
 } = Astro.props as Faqs;
-
 ---
 
 <WidgetWrapper id={id} isDark={isDark} containerClass={`max-w-7xl mx-auto ${classes?.container ?? ''}`} bg={bg}>
-  <Headline title={title} subtitle={subtitle} tagline={tagline} />
+  <!-- <Headline title={title} subtitle={subtitle} tagline={tagline} /> -->
+  <!-- Use the Headline component with "H1" tag -->
+  <H1Headline title={title} subtitle={subtitle} tagline={tagline} />
   <ItemGrid
     items={items}
     columns={columns}
