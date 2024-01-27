@@ -26,7 +26,7 @@ const metadata = {
       : category === 'patent-summaries'
         ? 'Simplified Patent Summaries of Intellectual Frontiers for Strategic Technology Investment'
         : category === 'blogs'
-          ? 'Blogs of Intellectual Frontiers'
+          ? 'Intellectual Frontiers Blog: Insights on Patent Acquisition & IP Investment'
           : category.replaceAll('-', ' ')
   } ${currentPage > 1 ? ` — Page ${currentPage}` : ''}`,
   description:
@@ -35,7 +35,7 @@ const metadata = {
       : category === 'patent-summaries'
         ? 'Patent Summaries of Intellectual Frontiers'
         : category === 'blogs'
-          ? 'Blogs of Intellectual Frontiers'
+          ? 'Explore the Intellectual Frontiers Blog for authoritative insights on patent acquisition and IP strategies'
           : '',
   robots: {
     index: blogCategoryRobots?.index,
@@ -49,7 +49,11 @@ const metadata = {
     <Headline
       subtitle={category === 'market-potential'
         ? 'Access in-depth market analysis of patents with our Strategic Patent Insights, offering a clear view of market potentials and technological impact'
-        : ''}
+        : category === 'patent-summaries'
+          ? ''
+          : category === 'blogs'
+            ? 'Mastering IP Acquisitions: Expert Analyses and Resources in Patent Investment'
+            : ''}
     >
       <span class="capitalize"
         >{
@@ -57,7 +61,9 @@ const metadata = {
             ? 'Market Potential of Leading Patents'
             : category === 'patent-summaries'
               ? 'Simplified Patent Summaries for Strategic Technology Investment'
-              : category.replaceAll('-', ' ')
+              : category === 'blogs'
+                ? 'Blogs'
+                : category.replaceAll('-', ' ')
         }</span
       >
     </Headline>
