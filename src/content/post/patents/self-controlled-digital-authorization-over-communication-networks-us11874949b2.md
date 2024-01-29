@@ -34,7 +34,7 @@ application-date:
 issue-date:
 expiry-date:
 patent-status: Active
-url: '/patent/self-controlled-digital-authorization-over-communication-networks'
+url: '/patent/self-controlled-digital-authorization-over-communication-networks-us11874949b2'
 uspto-patent-pdf:
 uspto-patent-url:
 thumbnail:
