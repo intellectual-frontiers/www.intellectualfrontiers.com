@@ -2,7 +2,7 @@
 title: Digital Payment Technology as a Seamless Facilitator of Transactions
 excerpt: With the currently evolving Digital Landscape, digital payment methods seeing profound shifts and with the integration of technologies and conventional banking systems, the digital payment domain has been under consistent metamorphosis.
 sectiontype: article
-image: '/images/patents/us10643208b2-image-001.png'
+image: '/images/patent-summaries/digital-payment-system-thumbnail.webp'
 patent-id: US10643208B2
 category: Patent Summaries
 metadata:
@@ -16,7 +16,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: 'Seamless Transactions: Explore digital payment technology revolutionizing transactions with data worth and user consent, ensuring a dynamic and secure experience in the evolving landscape'
     images:
-      - url: '/images/no-image.jpg'
+      - url: '/images/patent-summaries/digital-payment-system-thumbnail.webp'
         width: 1200
         height: 628
     type: website

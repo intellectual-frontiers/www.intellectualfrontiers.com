@@ -2,7 +2,7 @@
 title: Efficient Method for Tracking Changes in User Profiles Over Time
 excerpt: From social networking sites to professional platforms, profiles act as a digital representation of individuals and entities, which is why web-based profiles are considered ubiquitous.
 sectiontype: article
-image: '/images/patents/us10586069b2-image-001.png'
+image: '/images/patent-summaries/networking-devices-for-storing-profiles-longitudinally.webp'
 patent-id: US10586069B2
 category: Patent Summaries
 metadata:
@@ -16,7 +16,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: Discover the groundbreaking profile tracker technology for tracking and verifying online profiles, vital for healthcare and recruitment sectors
     images:
-      - url: '/images/no-image.jpg'
+      - url: '/images/patent-summaries/networking-devices-for-storing-profiles-longitudinally.webp'
         width: 1200
         height: 628
     type: website

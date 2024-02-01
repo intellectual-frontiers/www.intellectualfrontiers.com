@@ -2,7 +2,7 @@
 title: Efficient Response Management System and Method for Crowdsourced Networks
 excerpt: In the rapidly evolving digital era, people increasingly turn to online crowdsourced networks to find answers and solutions to a wide array of queries and challenges.
 sectiontype: article
-image: '/images/patents/us9418355b2-image-1.png'
+image: '/images/patent-summaries/crowdsourced-responses-management-to-cases.webp'
 patent-id: US9418355B2
 category: Patent Summaries
 metadata:
@@ -16,7 +16,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: Addressing the reliability challenge in crowdsourced network with an innovative response management system. Ensure trust in responses with credentialing and compliance.
     images:
-      - url: '/images/no-image.jpg'
+      - url: '/images/patent-summaries/crowdsourced-responses-management-to-cases.webp'
         width: 1200
         height: 628
     type: website
