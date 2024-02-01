@@ -15,7 +15,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: Effortlessly manage payments and user data valuation with the Cloud-Based Payment System. Elevate your digital transaction experience
     images:
-      - url: '/images/no-image.jpg'
+      - url: '/images/patent-summaries/digital-payment-system-thumbnail.webp'
         width: 1200
         height: 628
     type: website
@@ -53,7 +53,7 @@ downloadable-documents:
     link_url:
   - anchor_text: Download Claim Summaries
     link_url:
-image: '/images/patents/us11568401b2-image-001.png'
+image: '/images/patent-summaries/digital-payment-system-thumbnail.webp'
 ---
 
 In the domain of digital transaction mechanisms, there's a significant push towards optimizing interoperability between end-users and purchasers and the progression in this sector underscores the imperative of engineering and advanced methodology for payment facilitation.This entails a unique technology where a service provider interacts with a user, garnering predefined information. This information collection is intrinsically linked to the digital valuation of the user's data. The subsequent payment process is then based on the transactional worth of this data, ensuring a precise, digital transactional value.
