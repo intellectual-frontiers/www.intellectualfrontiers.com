@@ -1,7 +1,7 @@
 ---
 title: Blockchain-Powered Healthcare Data for Natural Language Processing (NLP)- Collection, Storage, and Standardization
 excerpt: The integration of blockchain presents an innovative solution to longstanding problems in the medical data management sector, particularly in the context of natural language processing in healthcare.
-image: '/images/patents/us10984913b2-image-001.png'
+image: '/images/patent-summaries/blockchain-system-for-natural-language-processing.webp'
 sectiontype: article
 patent-id: US10984913B2
 category: Patent Summaries
@@ -16,7 +16,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: Explore how Natural Language Processing in healthcare optimizes data management, collection, storage, and standardization.
     images:
-      - url: '/images/no-image.jpg'
+      - url: '/images/patent-summaries/blockchain-system-for-natural-language-processing.webp'
         width: 1200
         height: 628
     type: website

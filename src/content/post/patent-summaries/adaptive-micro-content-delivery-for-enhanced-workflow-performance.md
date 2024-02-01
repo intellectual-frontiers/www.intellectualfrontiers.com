@@ -17,7 +17,7 @@ metadata:
     description:
       content: Elevate task performance with contextual micro-content streaming. Achieve precision education through intelligent workflow automation.
     images:
-      - url: '/images/no-image.jpg'
+      - url: '/images/patent-summaries/computer-controlled-precision-education-and-training.webp'
         width: 1200
         height: 628
     type: website
@@ -55,7 +55,7 @@ downloadable-documents:
     link_url:
   - anchor_text: Download Claim Summaries
     link_url:
-image: '/images/patents/us11651459b2-image-001.png'
+image: '/images/patent-summaries/computer-controlled-precision-education-and-training.webp'
 ---
 
 ## Addressing the Challenge in Modern Education and Training

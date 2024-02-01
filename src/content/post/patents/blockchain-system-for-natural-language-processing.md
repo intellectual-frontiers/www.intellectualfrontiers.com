@@ -33,7 +33,7 @@ application-date:
 issue-date:
 expiry-date:
 patent-status: Active
-url: '/ip/blockchain-system-for-natural-language-processing'
+url: '/patents/blockchain-system-for-natural-language-processing'
 uspto-patent-pdf:
 uspto-patent-url:
 thumbnail:
