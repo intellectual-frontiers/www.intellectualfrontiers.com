@@ -2,7 +2,7 @@
 title: Integrated Healthcare System with Predictive Analytics and Risk Management through Social Networking
 excerpt: In the evolving landscape of device interaction and automation across domains like healthcare, manufacturing, and aviation, there's a growing demand for advanced solutions.
 sectiontype: article
-image: '/images/patents/us9525753b2-image-001.png'
+image: '/images/patent-summaries/integration-of-devices-through-a-social-networking-platform-us9525753b2.webp'
 patent-id: US9525753B2
 category: Patent Summaries
 metadata:
@@ -16,7 +16,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: Witness a healthcare revolution with the integration of predictive analytics Engine and NFC channels, fostering device cooperation in a socially aware network
     images:
-      - url: '/images/no-image.jpg'
+      - url: '/images/patent-summaries/integration-of-devices-through-a-social-networking-platform-us9525753b2.webp'
         width: 1200
         height: 628
     type: website

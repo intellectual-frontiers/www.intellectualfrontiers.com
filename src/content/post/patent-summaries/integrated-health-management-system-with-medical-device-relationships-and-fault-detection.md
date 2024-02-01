@@ -2,7 +2,7 @@
 title: Integrated Health Management System with Medical Device Relationships and Fault Detection
 excerpt: In today's increasingly interconnected world, the need for efficient device management and interaction has become paramount across various industries, including healthcare, manufacturing, and aviation.
 sectiontype: article
-image: '/images/patents/us10320735b2-image-01.png'
+image: '/images/patent-summaries/integration-of-devices-through-a-social-networking-platform.webp'
 patent-id: US10320735B2
 category: Patent Summaries
 metadata:
@@ -16,7 +16,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: Explore health management system with fault detection, enabling seamless device interaction and advanced fault resolution in interconnected networks.
     images:
-      - url: '/images/no-image.jpg'
+      - url: '/images/patent-summaries/integration-of-devices-through-a-social-networking-platform.webp'
         width: 1200
         height: 628
     type: website
