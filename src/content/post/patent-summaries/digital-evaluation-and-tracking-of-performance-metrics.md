@@ -2,7 +2,7 @@
 title: Digital Evaluation and Tracking of Performance Metrics
 excerpt: The technology described herein offers an innovation that digitally evaluates computer-executable and traceable performance metrics.
 sectiontype: article
-image: '/images/patents/us11388077b2-image-001.png'
+image: '/images/patent-summaries/computer-executable-and-traceable-metric-queues-system.webp'
 patent-id: US11388077B2
 category: Patent Summaries
 metadata:
@@ -16,7 +16,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: Explore cutting-edge digital evaluation metrics technology for accurate performance tracking. Enhance quality measures with automated assessment. Learn more.
     images:
-      - url: '/images/no-image.jpg'
+      - url: '/images/patent-summaries/computer-executable-and-traceable-metric-queues-system.webp'
         width: 1200
         height: 628
     type: website
