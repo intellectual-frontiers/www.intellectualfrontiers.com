@@ -2,7 +2,7 @@
 title: Optimization of Performance Metrics Based on Real-Time Feedback and Artificial Intelligence / Machine Learning
 excerpt: In the age of rapid technological advancements, devices play a pivotal role across diverse environments—be it medical, manufacturing, or avionics.
 sectiontype: article
-image: '/images/patents/us11561884b2-image-001.png'
+image: '/images/patent-summaries/computer-controlled-precision-education-and-training.webp'
 patent-id: US11561884B2
 category: Patent Summaries
 metadata:
@@ -16,7 +16,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: Harness the power of AI and machine learning for real-time feedback and fault detection to optimize network performance and digital metrics
     images:
-      - url: '/images/no-image.jpg'
+      - url: '/images/patent-summaries/computer-controlled-precision-education-and-training.webp'
         width: 1200
         height: 628
     type: website

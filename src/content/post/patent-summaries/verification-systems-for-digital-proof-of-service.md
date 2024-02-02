@@ -2,7 +2,7 @@
 title: Verification Systems for Digital Proof of Service
 sectiontype: article
 excerpt: When a service is rendered by a service provider to a beneficiary, and the payment claim is directed to a third entity, the critical quandary arises on how one can reliably validate that the service was provided on a genuine ground.
-image: '/images/patents/us11475441b2-image-001.png'
+image: '/images/patent-summaries/blockchain-enabled-service-delivery-evidence-system.webp'
 category: Patent Summaries
 publishDate: 2023-10-25
 metadata:
@@ -16,7 +16,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: Utilize a computer control system to strengthen proof of service and ensure reliable evidence of delivery. Improve your service verification process.
     images:
-      - url: '/images/no-image.jpg'
+      - url: '/images/patent-summaries/blockchain-enabled-service-delivery-evidence-system.webp'
         width: 1200
         height: 628
     type: website

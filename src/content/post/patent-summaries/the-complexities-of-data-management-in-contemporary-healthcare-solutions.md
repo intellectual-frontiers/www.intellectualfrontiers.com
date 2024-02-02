@@ -2,7 +2,7 @@
 title: The Complexities of Data Management in Contemporary Healthcare Solutions
 excerpt: Modern healthcare centers, from sprawling hospitals to intimate nursing homes, meticulously maintain an extensive cache of medical data about their patients.
 sectiontype: article
-image: '/images/patents/us11006920b2-image-01.jpg'
+image: '/images/patent-summaries/system-for-controlling-medical-devices-us11006920b2.webp'
 patent-id: US11006920B2
 category: Patent Summaries
 metadata:
@@ -16,7 +16,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: Unlock the power of contemporary healthcare solutions for efficient data management and real-time patient care in modern medical facilities
     images:
-      - url: '/images/no-image.jpg'
+      - url: '/images/patent-summaries/system-for-controlling-medical-devices-us11006920b2.webp'
         width: 1200
         height: 628
     type: website

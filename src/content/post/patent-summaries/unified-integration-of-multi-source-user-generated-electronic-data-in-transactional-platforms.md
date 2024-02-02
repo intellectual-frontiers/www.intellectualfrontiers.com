@@ -2,7 +2,7 @@
 title: Unified Integration of Multi-Source User-Generated Electronic Data in Transactional Platforms
 excerpt: User Generated Electronic Data (UGED), termed as Consumer Generated Electronic Data (CGED), and also commonly referred to as user-generated data, forms a pivotal component in the vast electronic transactional aspect.
 sectiontype: article
-image: '/images/patents/us10839020b2-image-001.png'
+image: '/images/patent-summaries/multi-source-user-generated-electronic-data-integration-in-a-blockchain-based-transactional-system.webp'
 patent-id: US10839020B2
 category: Patent Summaries
 metadata:
@@ -16,7 +16,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: Explore advanced technology for seamless integration and trust in multi-source user-generated data, revolutionizing electronic transactions
     images:
-      - url: '/images/no-image.jpg'
+      - url: '/images/patent-summaries/multi-source-user-generated-electronic-data-integration-in-a-blockchain-based-transactional-system.webp'
         width: 1200
         height: 628
     type: website

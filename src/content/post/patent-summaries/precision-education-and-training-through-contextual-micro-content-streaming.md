@@ -2,7 +2,7 @@
 title: Precision Education and Training Through Contextual Micro-Content Streaming
 excerpt: Modern education faces the challenge of personalizing content to fit individual learner needs and contexts. The traditional models of education, while effective in their own rights, might not always align with the rapidly evolving technological needs and dynamic environments.
 sectiontype: article
-image: '/images/patents/us11423500b2-image-001.png'
+image: '/images/patent-summaries/computer-controlled-precision-education-and-training.webp'
 patent-id: US11423500B2
 category: Patent Summaries
 metadata:
@@ -16,7 +16,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: Discover how micro-content adapts to your needs, ensuring the right knowledge at the right time
     images:
-      - url: '/images/no-image.jpg'
+      - url: '/images/patent-summaries/computer-controlled-precision-education-and-training.webp'
         width: 1200
         height: 628
     type: website

@@ -2,7 +2,7 @@
 title: The Future of Digital Exchanges and Data Ownership Management in a Marketplace Network
 excerpt: In a world driven by the digital marketplace, where data reigns supreme, this groundbreaking patented technology promises to transform the way we navigate this vast terrain.
 sectiontype: article
-image: '/images/patent-summaries/us20200250719a1-image-001.png'
+image: '/images/patent-summaries/computer-controlled-marketplace-network-for-digital-transactions-us20200250719a1.webp'
 patent-id: US20200250719A1
 category: Patent Summaries
 metadata:
@@ -16,7 +16,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: Explore innovative digital transaction management technology revolutionizing digital exchanges and data ownership in marketplace networks. Enhance security and streamline transactions with cutting-edge solutions
     images:
-      - url: '/images/no-image.jpg'
+      - url: '/images/patent-summaries/computer-controlled-marketplace-network-for-digital-transactions-us20200250719a1.webp'
         width: 1200
         height: 628
     type: website
