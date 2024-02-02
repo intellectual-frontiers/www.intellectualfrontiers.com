@@ -1,7 +1,7 @@
 ---
 title: Autonomous Authorization Mechanisms in Modern Communication Networks
 excerpt: Modern communication networks are inevitably vulnerable to security threats, especially unauthorized access and malicious intrusions.
-image: '/images/patent-summaries/self-controlled-digital-authorization-over-communication-networks-us11874949b2-thumbnail.webp'
+image: '/images/patent-summaries/self-controlled-digital-authorization-over-communication-networks-us11874949b2.webp'
 sectiontype: article
 patent-id: US10963585B2
 category: Patent Summaries
@@ -16,7 +16,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: Explore a secure computerized record system and the convenience of autonomous authorization in healthcare.
     images:
-      - url: '/images/patent-summaries/self-controlled-digital-authorization-over-communication-networks-us11874949b2-thumbnail.webp'
+      - url: '/images/patent-summaries/self-controlled-digital-authorization-over-communication-networks-us11874949b2.webp'
         width: 1200
         height: 628
     type: website
