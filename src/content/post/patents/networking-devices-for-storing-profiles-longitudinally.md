@@ -23,7 +23,7 @@ metadata:
     handle: '@IntelFrontiers'
     site: '@IntelFrontiers'
     cardType: summary_large_image
-patent-id: US10586069B2
+patentId: US10586069B2
 uspto-patent-number: US10586069B2
 inventor: Shah N. Shahid
 owner-current-assignee: INTELLECTUAL FRONTIERS LLC

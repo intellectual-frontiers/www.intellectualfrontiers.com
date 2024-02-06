@@ -4,7 +4,7 @@ excerpt: An electronic evaluation device and method thereof for optimizing an op
 uspto-canonical-id-label: Patent
 sectiontype: patent
 publishDate: 2023-01-24
-patent-id: US11561884B2
+patentId: US11561884B2
 metadata:
   title: Computer-controlled precision education and training
   description: Enhance computer-controlled metrics with real-time feedback and precision training. Achieve goals efficiently using our electronic evaluation device and machine learning.

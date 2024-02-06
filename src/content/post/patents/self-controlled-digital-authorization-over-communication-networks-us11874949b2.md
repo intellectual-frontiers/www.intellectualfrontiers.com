@@ -23,7 +23,7 @@ metadata:
     handle: '@IntelFrontiers'
     site: '@IntelFrontiers'
     cardType: summary_large_image
-patent-id: US11874949B2
+patentId: US11874949B2
 uspto-patent-number: US11874949B2
 inventor: Shah N. Shahid
 owner-current-assignee: Netspective Communications LLC

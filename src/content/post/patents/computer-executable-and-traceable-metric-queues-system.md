@@ -23,7 +23,7 @@ metadata:
     site: '@IntelFrontiers'
     cardType: summary_large_image
 uspto-canonical-id-label: Patent
-patent-id: US11388077B2
+patentId: US11388077B2
 uspto-patent-number: US11388077B2
 inventor: Shah N. Shahid
 owner-current-assignee: INTELLECTUAL FRONTIERS LLC
