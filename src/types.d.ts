@@ -45,6 +45,8 @@ export interface Post {
   /**  */
   readingTime?: number;
 
+  //The patent id number
+  patentId?: string;
   
 }
 

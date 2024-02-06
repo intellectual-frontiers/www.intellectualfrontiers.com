@@ -61,6 +61,7 @@ const postCollection = defineCollection({
     author: z.string().optional(),
 
     metadata: metadataDefinition(),
+    patentId: z.string().optional(),
   }),
 });
 

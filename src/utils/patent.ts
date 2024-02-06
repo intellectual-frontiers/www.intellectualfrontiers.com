@@ -88,6 +88,8 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     // or 'content' in case you consume from API
 
     readingTime: remarkPluginFrontmatter?.readingTime,
+    //The patent id number
+    patentId: post.data.patentId,
   };
 };
 
