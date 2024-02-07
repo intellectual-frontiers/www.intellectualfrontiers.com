@@ -449,7 +449,7 @@ and presenting digitally one or more of the tasks to the plurality of diagnostic
 
 </div>
 
-DETAILED DESCRIPTION
+**DETAILED DESCRIPTION**
 
 [0032]
 
