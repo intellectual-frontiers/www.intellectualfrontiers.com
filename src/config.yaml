@@ -116,7 +116,7 @@ apps:
 analytics:
   vendors:
     googleAnalytics:
-      id: "GTM-PCFBB6RZ"
+      id: 'PzzkYHo6wnpKWMfQ4m9V3uiQkOcmKG1hn-upo0ykcpQ'
       #id: null # or "G-XXXXXXXXXX"
 
 ui:
