@@ -44,7 +44,7 @@ A vast array of offerings spans from conceptual ideas and patents to fully devel
 
 ![The External Sourcing Continuum Image](/images/blogs/the-invisible-inventors-how-lesser-known-patents-can-drive-industry-change-image.webp)
 
-<a href="https://hbr.org/2007/06/a-buyers-guide-to-the-innovation-bazaar" target="_blank" rel="noopener noreferrer">Source</a>
+<a class="text-base" href="https://hbr.org/2007/06/a-buyers-guide-to-the-innovation-bazaar" target="_blank" rel="noopener noreferrer">Source: A Buyer’s Guide to the Innovation Bazaar (Harvard Business Review)</a>
 
 </div>
 
