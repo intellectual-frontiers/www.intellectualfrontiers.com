@@ -1,6 +1,6 @@
 ---
 title: 'The Invisible Inventors: How Lesser-Known Patents Can Drive Industry Change'
-excerpt: In 2021, international patent filings experienced a yearly growth of 0.9%, reaching 278 million. Specifically focusing on the United States, the period since the beginning of the pandemic witnessed a remarkable surge in new business formations.
+excerpt: 'The innovation landscape is heavily influenced by lesser-known, independent inventors whose contributions drive significant industry changes and technological advancements. Despite the overshadowing presence of large corporations, these inventors challenge existing paradigms and introduce novel solutions. Even after a shift to corporate patent dominance post-1950, individual inventors have remained a crucial, prolific source of patents, underscoring their ongoing impact.'
 sectiontype: article
 category: Blogs
 image: '/images/blogs/the-invisible-inventors-how-lesser-known-patents-can-drive-industry-change-thumbnail.webp'
