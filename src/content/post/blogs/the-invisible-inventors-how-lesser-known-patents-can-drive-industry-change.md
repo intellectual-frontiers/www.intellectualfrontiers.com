@@ -28,8 +28,6 @@ url: '/blogs/the-invisible-inventors-how-lesser-known-patents-can-drive-industry
 publishDate: 2024-02-08
 ---
 
-# **The Invisible Inventors: How Lesser-Known Patents Can Drive Industry Change**
-
 In 2021, international patent filings experienced a yearly growth of 0.9%, reaching 278 million. Specifically focusing on the United States, the period since the beginning of the pandemic witnessed a remarkable [surge in new business formations](https://eig.org/2022-business-formation/). After the notable year of 2020, applications from employers likely to hire hit a record 1.8 million in 2021 – marking the highest annual figure to date. In 2022, the trend continued with 1.7 million applications, constituting the second-largest annual total on record and reflecting an almost 30% rise from the pre-pandemic baseline.
 
 ## **Recognizing potential of independent and small company inventors**
