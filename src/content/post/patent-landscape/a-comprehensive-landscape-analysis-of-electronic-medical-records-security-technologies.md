@@ -4,7 +4,7 @@ excerpt: 'Electronic Medical Records (EMR) systems are used for efficient and ef
 sectiontype: article
 category: Patent Landscape
 image: '/images/patent-landscape/a-comprehensive-landscape-analysis-of-electronic-medical-records-security-technologies-image-2.webp'
-patent-id: US11568401B2
+patent-id: US10089492B2
 metadata:
   title: 'EMR Security Technologies: Trends and Innovation Landscape'
   description: 'Explore a rigorous analysis of the Electronic Medical Records (EMR) security patent landscape. This report delves into technological advancements, prevalent challenges, and strategic opportunities within EMR cybersecurity.'

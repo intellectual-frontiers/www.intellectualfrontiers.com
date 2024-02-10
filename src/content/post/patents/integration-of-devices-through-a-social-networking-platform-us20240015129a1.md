@@ -452,6 +452,7 @@ The features of the disclosed embodiments may become apparent from the following
 <a href="#fig2">FIG. 2 illustrates a social networking server for implementing a social networking platform in accordance with an embodiment herein;</a><br>
 
 [0017]
+
 <a href="#fig3">FIG. 3 illustrates an exemplary embodiment of social profiles of devices and non-device participants in an embodiment herein;</a><br>
 
 [0018]

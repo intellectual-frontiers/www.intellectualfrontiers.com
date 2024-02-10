@@ -54,6 +54,7 @@ export const footerData = {
       title: 'Categories',
       links: [
         { text: 'Patent Assets', href: '/patent' },
+        { text: 'Patent Landscape', href: '/category/patent-landscape' },
         { text: 'Patent Summaries', href: '/category/patent-summaries' },
         { text: 'Market Potential', href: '/category/market-potential' },
         { text: 'Blogs', href: '/category/blogs' },
