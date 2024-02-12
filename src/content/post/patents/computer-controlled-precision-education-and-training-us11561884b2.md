@@ -33,8 +33,8 @@ uspto-patent-family-members-publication-numbers:
 application-date:
 issue-date:
 expiry-date:
-patent-status: Active
-url: '/patent/computer-controlled-precision-education-and-training-us11561884b2'
+patentStatus: Active - Granted
+url: '/patents/computer-controlled-precision-education-and-training-us11561884b2'
 uspto-patent-pdf:
 uspto-patent-url:
 thumbnail:

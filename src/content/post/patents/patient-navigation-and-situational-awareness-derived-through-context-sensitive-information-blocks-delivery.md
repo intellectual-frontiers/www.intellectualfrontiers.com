@@ -33,8 +33,8 @@ uspto-patent-family-members-publication-numbers:
 application-date:
 issue-date:
 expiry-date:
-patent-status: Active
-url: '/patent/patient-navigation-and-situational-awareness-derived-through-context-sensitive-information-blocks-delivery'
+patentStatus: Active - Granted
+url: '/patents/patient-navigation-and-situational-awareness-derived-through-context-sensitive-information-blocks-delivery'
 uspto-patent-pdf:
 uspto-patent-url:
 thumbnail:

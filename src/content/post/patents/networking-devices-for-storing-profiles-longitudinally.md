@@ -33,8 +33,8 @@ uspto-patent-family-members-publication-numbers:
 application-date:
 issue-date:
 expiry-date:
-patent-status: Active
-url: '/patent/networking-devices-for-storing-profiles-longitudinally'
+patentStatus: Active - Granted
+url: '/patents/networking-devices-for-storing-profiles-longitudinally'
 uspto-patent-pdf:
 uspto-patent-url:
 thumbnail:

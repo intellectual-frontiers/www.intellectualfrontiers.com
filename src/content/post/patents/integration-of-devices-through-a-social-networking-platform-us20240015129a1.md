@@ -33,8 +33,8 @@ uspto-patent-family-members-publication-numbers:
 application-date:
 issue-date:
 expiry-date:
-patent-status: Active - Applied
-url: '/patent/integration-of-devices-through-a-social-networking-platform-us20240015129a1'
+patentStatus: Active - Applied
+url: '/patents/integration-of-devices-through-a-social-networking-platform-us20240015129a1'
 uspto-patent-pdf:
 uspto-patent-url:
 thumbnail:

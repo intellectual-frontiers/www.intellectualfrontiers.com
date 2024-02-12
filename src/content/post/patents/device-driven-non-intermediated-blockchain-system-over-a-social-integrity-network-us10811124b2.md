@@ -33,7 +33,7 @@ uspto-patent-family-members-publication-numbers:
 application-date:
 issue-date:
 expiry-date:
-patent-status: Active
+patentStatus: Active - Granted
 url: '/patents/device-driven-non-intermediated-blockchain-system-over-a-social-integrity-network-us10811124b2'
 uspto-patent-pdf:
 uspto-patent-url:

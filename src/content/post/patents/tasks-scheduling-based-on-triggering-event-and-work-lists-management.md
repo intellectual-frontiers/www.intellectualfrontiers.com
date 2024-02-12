@@ -33,8 +33,8 @@ uspto-patent-family-members-publication-numbers:
 application-date:
 issue-date:
 expiry-date:
-patent-status: Active
-url: '/patent/tasks-scheduling-based-on-triggering-event-and-work-lists-management'
+patentStatus: Active - Granted
+url: '/patents/tasks-scheduling-based-on-triggering-event-and-work-lists-management'
 uspto-patent-pdf:
 uspto-patent-url:
 thumbnail:

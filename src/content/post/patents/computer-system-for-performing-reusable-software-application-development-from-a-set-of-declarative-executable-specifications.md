@@ -33,7 +33,7 @@ uspto-patent-family-members-publication-numbers:
 application-date:
 issue-date:
 expiry-date:
-patent-status: Active
+patentStatus: Active - Granted
 url: '/patents/computer-system-for-performing-reusable-software-application-development-from-a-set-of-declarative-executable-specifications'
 uspto-patent-pdf:
 uspto-patent-url:

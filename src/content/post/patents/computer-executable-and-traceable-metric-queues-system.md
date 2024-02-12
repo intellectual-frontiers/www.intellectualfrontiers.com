@@ -33,8 +33,8 @@ uspto-patent-family-members-publication-numbers:
 application-date:
 issue-date:
 expiry-date:
-patent-status: Active
-url: '/patent/computer-executable-and-traceable-metric-queues-system'
+patentStatus: Active - Granted
+url: '/patents/computer-executable-and-traceable-metric-queues-system'
 uspto-patent-pdf:
 uspto-patent-url:
 thumbnail:

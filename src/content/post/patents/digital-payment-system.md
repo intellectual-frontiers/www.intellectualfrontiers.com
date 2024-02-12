@@ -32,8 +32,8 @@ uspto-patent-family-members-publication-numbers:
 application-date:
 issue-date:
 expiry-date:
-patent-status: Active
-url: '/patent/digital-payment-system'
+patentStatus: Active - Granted
+url: '/patents/digital-payment-system'
 uspto-patent-pdf:
 uspto-patent-url:
 thumbnail:

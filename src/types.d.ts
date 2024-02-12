@@ -47,6 +47,8 @@ export interface Post {
 
   //The patent id number
   patentId?: string;
+  //The patent status
+  patentStatus?: string;
   
 }
 

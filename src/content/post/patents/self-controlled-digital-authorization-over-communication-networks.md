@@ -33,8 +33,8 @@ uspto-patent-family-members-publication-numbers:
 application-date:
 issue-date:
 expiry-date:
-patent-status: Active
-url: '/patent/self-controlled-digital-authorization-over-communication-networks'
+patentStatus: Active - Granted
+url: '/patents/self-controlled-digital-authorization-over-communication-networks'
 uspto-patent-pdf:
 uspto-patent-url:
 thumbnail:

@@ -32,7 +32,7 @@ uspto-patent-family-members-publication-numbers:
 application-date:
 issue-date:
 expiry-date:
-patent-status: Active
+patentStatus: Active - Granted
 url: '/patents/blockchain-system-for-natural-language-processing'
 uspto-patent-pdf:
 uspto-patent-url:

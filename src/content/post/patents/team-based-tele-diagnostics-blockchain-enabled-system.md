@@ -33,8 +33,8 @@ uspto-patent-family-members-publication-numbers:
 application-date:
 issue-date:
 expiry-date:
-patent-status: Active
-url: '/patent/team-based-tele-diagnostics-blockchain-enabled-system'
+patentStatus: Active - Granted
+url: '/patents/team-based-tele-diagnostics-blockchain-enabled-system'
 uspto-patent-pdf:
 uspto-patent-url:
 thumbnail:

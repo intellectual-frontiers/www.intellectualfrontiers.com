@@ -33,8 +33,8 @@ uspto-patent-family-members-publication-numbers:
 application-date:
 issue-date:
 expiry-date:
-patent-status: Active
-url: '/patent/blockchain-enabled-service-delivery-evidence-system'
+patentStatus: Active - Granted
+url: '/patents/blockchain-enabled-service-delivery-evidence-system'
 uspto-patent-pdf:
 uspto-patent-url:
 thumbnail:

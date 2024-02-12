@@ -33,8 +33,8 @@ application-date:
 issue-date:
 expiry-date:
 excerpt: A system and method for providing a social networking service to a plurality of devices. A social networking server for facilitating social information exchange among the plurality of devices through a socially aware network.
-patent-status: Active
-url: '/patent/integration-of-devices-through-a-social-networking-platform-us9525753b2'
+patentStatus: Active - Granted
+url: '/patents/integration-of-devices-through-a-social-networking-platform-us9525753b2'
 uspto-patent-pdf:
 uspto-patent-url:
 thumbnail:

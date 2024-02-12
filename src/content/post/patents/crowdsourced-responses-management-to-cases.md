@@ -33,7 +33,7 @@ uspto-patent-family-members-publication-numbers:
 application-date:
 issue-date:
 expiry-date:
-patent-status: Active
+patentStatus: Active - Granted
 url: '/patents/crowdsourced-responses-management-to-cases'
 uspto-patent-pdf:
 uspto-patent-url:

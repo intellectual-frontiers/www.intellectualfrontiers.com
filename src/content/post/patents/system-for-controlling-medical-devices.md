@@ -33,8 +33,8 @@ uspto-patent-family-members-publication-numbers:
 application-date:
 issue-date:
 expiry-date:
-patent-status: Active
-url: '/patent/system-for-controlling-medical-devices'
+patentStatus: Active - Granted
+url: '/patents/system-for-controlling-medical-devices'
 uspto-patent-pdf:
 uspto-patent-url:
 thumbnail:

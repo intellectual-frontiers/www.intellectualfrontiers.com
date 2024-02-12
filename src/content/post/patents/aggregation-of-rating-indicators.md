@@ -33,8 +33,8 @@ uspto-patent-family-members-publication-numbers:
 application-date:
 issue-date:
 expiry-date:
-patent-status: Active
-url: '/patent/aggregation-of-rating-indicators'
+patentStatus: Active - Granted
+url: '/patents/aggregation-of-rating-indicators'
 uspto-patent-pdf:
 uspto-patent-url:
 thumbnail:

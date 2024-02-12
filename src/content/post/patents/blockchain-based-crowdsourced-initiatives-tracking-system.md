@@ -33,8 +33,8 @@ uspto-patent-family-members-publication-numbers:
 application-date:
 issue-date:
 expiry-date:
-patent-status: Active
-url: '/patent/blockchain-based-crowdsourced-initiatives-tracking-system'
+patentStatus: Active - Granted
+url: '/patents/blockchain-based-crowdsourced-initiatives-tracking-system'
 uspto-patent-pdf:
 uspto-patent-url:
 thumbnail:

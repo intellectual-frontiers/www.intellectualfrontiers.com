@@ -33,8 +33,8 @@ uspto-patent-family-members-publication-numbers:
 application-date:
 issue-date:
 expiry-date:
-patent-status: Active
-url: '/patent/distributed-electronic-document-review-in-a-blockchain-system-and-computerized-scoring-based-on-textual-and-visual-feedback'
+patentStatus: Active - Granted
+url: '/patents/distributed-electronic-document-review-in-a-blockchain-system-and-computerized-scoring-based-on-textual-and-visual-feedback'
 uspto-patent-pdf:
 uspto-patent-url:
 thumbnail:
