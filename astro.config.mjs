@@ -35,6 +35,10 @@ export default defineConfig({
     '/market-potential': '/category/market-potential',
     '/patent-landscape/': '/category/patent-landscape',
     '/blogs/': '/category/blogs',
+    '/category': {
+      status: 302,
+      destination: '/article'
+    }
   },
   integrations: [
     tailwind({
