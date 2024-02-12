@@ -2,16 +2,16 @@
 import Layout from '~/layouts/PageLayout.astro';
 
 import Hero from '~/components/widgets/Hero.astro';
-import Note from '~/components/widgets/Note.astro';
+// import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Featurestopic from '~/components/widgets/Featurestopic.astro';
-import Steps from '~/components/widgets/Steps.astro';
-import Content from '~/components/widgets/Content.astro';
-import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+// import Steps from '~/components/widgets/Steps.astro';
+// import Content from '~/components/widgets/Content.astro';
+// import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
-import Stats from '~/components/widgets/Stats.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
+// import Stats from '~/components/widgets/Stats.astro';
+// import CallToAction from '~/components/widgets/CallToAction.astro';
 import FeaturedpatentContent from '../../support/featuredpatent.json';
 import FeaturedTopics from '../../support/featuredtopics.json';
 import MostViewedPatent from '../../support/mostviewpatent.json';
@@ -25,7 +25,8 @@ const metadata = {
 };
 ---
 
-<Layout metadata={metadata}>
+<!-- Hide the breadcrumb in the homepage with  hideBreadcrumbs set to true-->
+<Layout metadata={metadata} hideBreadcrumbs={true}>
   <!-- Hero Widget ******************* -->
 
   <Hero
