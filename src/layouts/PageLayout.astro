@@ -2,8 +2,9 @@
 import Layout from '~/layouts/Layout.astro';
 import Header from '~/components/widgets/Header.astro';
 import Footer from '~/components/widgets/Footer.astro';
-import Announcement from '~/components/widgets/Announcement.astro';
-
+// import Announcement from '~/components/widgets/Announcement.astro';
+import { Breadcrumbs } from 'astro-breadcrumbs';
+import '../assets/styles/astro-breadcrumbs-config.scss';
 import { headerData, footerData } from '~/navigation';
 
 import type { MetaData } from '~/types';
@@ -22,6 +23,24 @@ const { metadata } = Astro.props;
   <slot name="header">
     <Header {...headerData} isSticky showRssFeed showToggleTheme />
   </slot>
+  <div style="margin-top:50px" class="zsa-30 relative max-w-6xl mx-auto px-4 sm:px-4">
+    <Breadcrumbs ariaLabel="Site navigation" truncated={true} ellipsisAriaLabel="Show more breadcrumbs">
+      <svg
+        slot="separator"
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0  0  24  24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <polyline points="9  18  15  12  9  6"></polyline>
+      </svg>
+    </Breadcrumbs>
+  </div>
   <main>
     <slot />
   </main>
