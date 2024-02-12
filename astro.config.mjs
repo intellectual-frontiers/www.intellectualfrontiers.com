@@ -30,7 +30,12 @@ export default defineConfig({
   trailingSlash: SITE.trailingSlash ? 'always' : 'never',
 
   output: 'static',
-
+  redirects: {
+    '/patents': '/patent',
+    '/market-potential': '/category/market-potential',
+    '/patent-landscape/': '/category/patent-landscape',
+    '/blogs/': '/category/blogs',
+  },
   integrations: [
     tailwind({
       applyBaseStyles: false,
