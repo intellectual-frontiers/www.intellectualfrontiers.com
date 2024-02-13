@@ -25,7 +25,7 @@ metadata:
     cardType: summary_large_image
 patentId: US2024006038A1
 uspto-patent-number: US2024006038A1
-inventor: Shah N. Shahid
+inventor: Shahid N. Shah
 owner-current-assignee: INTELLECTUAL FRONTIERS LLC
 patent-owners-rights:
 territorial-scope: US

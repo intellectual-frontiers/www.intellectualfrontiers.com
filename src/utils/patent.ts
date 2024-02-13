@@ -92,6 +92,8 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     patentId: post.data.patentId,
     //The patent status
     patentStatus: post.data.patentStatus,
+    //The inventor name
+    inventor: post.data.inventor,
   };
 };
 

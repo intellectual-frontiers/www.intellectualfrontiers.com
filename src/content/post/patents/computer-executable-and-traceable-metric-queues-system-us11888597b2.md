@@ -1,6 +1,6 @@
 ---
 title: Computer-executable and traceable metric queues system
-excerpt: A computer-controlled system for digitally evaluating one or more computer-executable and traceable metrics associated with a machine at a node. The system includes a computerized data collection wireless device for collecting digital data stored in the form of a plurality of computer-executable files from the machine.
+excerpt: A computer-controlled system for digitally evaluating one or more computer-executable and traceable metrics associated with a machine at a node.
 sectiontype: patent
 publishDate: 2024-01-30
 metadata:
@@ -25,7 +25,7 @@ metadata:
 uspto-canonical-id-label: Patent
 patentId: US11888597B2
 uspto-patent-number: US11888597B2
-inventor: Shah N. Shahid
+inventor: Shahid N. Shah
 owner-current-assignee: INTELLECTUAL FRONTIERS LLC
 patent-owners-rights:
 territorial-scope: US

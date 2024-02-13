@@ -25,7 +25,7 @@ metadata:
 sectiontype: patent
 patentId: US11270263B2
 uspto-patent-number: US11270263B2
-inventor: Shah N. Shahid
+inventor: Shahid N. Shah
 owner-current-assignee: INTELLECTUAL FRONTIERS LLC
 patent-owners-rights:
 territorial-scope: US

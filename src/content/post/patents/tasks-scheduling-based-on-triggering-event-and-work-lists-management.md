@@ -25,7 +25,7 @@ metadata:
     cardType: summary_large_image
 patentId: US10403399B2
 uspto-patent-number: US10403399B2
-inventor: Shah N. Shahid
+inventor: Shahid N. Shah
 owner-current-assignee: INTELLECTUAL FRONTIERS LLC
 patent-owners-rights:
 territorial-scope: US

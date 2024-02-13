@@ -24,7 +24,7 @@ metadata:
     cardType: summary_large_image
 patentId: US10320735B2
 uspto-patent-number: US10320735B2
-inventor: Shah N. Shahid
+inventor: Shahid N. Shah
 owner-current-assignee: Netspective Communications LLC
 patent-owners-rights:
 territorial-scope: US

@@ -97,8 +97,17 @@ const link = APP_BLOG?.post?.isEnabled ? getPermalink(post.permalink, 'post') : 
         }
       </h2>
     </header>
-
-    {post.excerpt && <p class="flex-grow text-muted dark:text-slate-400 text-lg">{post.excerpt}</p>}
+    {post.excerpt && <p class="flex-grow text-muted dark:text-slate-400 text-lg mb-3">{post.excerpt}</p>}
+    {
+      post.inventor && (
+        <>
+          <span class="font-medium">Inventor:</span>
+          <span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">
+            {post.inventor}
+          </span>
+        </>
+      )
+    }
     <footer class="mt-5">
       <PostTags tags={post.tags} />
     </footer>

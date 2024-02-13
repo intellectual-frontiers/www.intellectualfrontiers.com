@@ -25,7 +25,7 @@ metadata:
 uspto-canonical-id-label: Patent
 patentId: US9846896B2
 uspto-patent-number: US9846896B2
-inventor: Shah N. Shahid
+inventor: Shahid N. Shah
 owner-current-assignee: Netspective Communications LLC
 patent-owners-rights:
 territorial-scope: US

@@ -49,7 +49,8 @@ export interface Post {
   patentId?: string;
   //The patent status
   patentStatus?: string;
-  
+  //The inventor name
+  inventor?: string;
 }
 
 export interface MetaData {
