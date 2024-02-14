@@ -2,7 +2,7 @@
 title: Blockchain-enabled service delivery evidence system
 excerpt: A system is provided for automated recording of evidence of delivery of a service in a service setting. The system includes a mobile communication device, a web-based interaction component, and a service control system.
 uspto-canonical-id-label: Patent
-publishDate: 2012-10-18
+publishDate: 2022-10-18
 metadata:
   title: Blockchain-enabled service delivery evidence system
   description: Revolutionize service delivery with our Blockchain-enabled system. Automated evidence recording via mobile and web, ensuring secure and transparent transactions.

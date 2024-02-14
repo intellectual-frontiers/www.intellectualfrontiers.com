@@ -2,7 +2,7 @@
 title: Computer system for performing reusable software application development from a set of declarative executable specifications
 excerpt: A computer system executing a method for performing reusable software application development comprises integrating a data processing system, providing a set of keywords and attributes.
 sectiontype: patent
-publishDate: 2005-05-02
+publishDate: 2006-05-02
 metadata:
   title: Computer system for performing reusable software application development from a set of declarative executable specifications
   description: Revolutionize software development with our computer system - seamlessly integrate, declare specifications, generate code, and deliver measurable results.

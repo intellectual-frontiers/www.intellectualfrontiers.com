@@ -45,7 +45,7 @@ abstract-of-the-invention:
 problem-solved-by-the-invention:
 topics:
 images:
-publishDate: 2017-12-19
+publishDate: 2021-04-20
 image: '/images/patents/us10984913b2-image-001.png'
 external-links: https://patents.google.com/patent/US10984913B2/
 downloadable-documents:
