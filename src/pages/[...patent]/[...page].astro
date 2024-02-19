@@ -24,13 +24,21 @@ const currentPage = page.currentPage ?? 1;
 // const allTags = await findTags();
 
 const metadata = {
-  title: `Patent Assets${currentPage > 1 ? ` — Page ${currentPage}` : ''}`,
+  title: `Patents for Sale${currentPage > 1 ? ` — Page ${currentPage}` : ''}`,
+  description: `Intellectual Frontiers lists patented inventions for sale or license`,
   robots: {
     index: blogListRobots?.index && currentPage === 1,
     follow: blogListRobots?.follow,
   },
   openGraph: {
     type: 'patent',
+    images: [
+      {
+        url: '/images/patents-for-sale.webp',
+        width: 1200,
+        height: 628,
+      },
+    ],
   },
   ignoreTitleTemplate: true,
 };
