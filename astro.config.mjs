@@ -31,7 +31,7 @@ export default defineConfig({
 
   output: 'static',
   redirects: {
-    '/patents': '/patent',
+    '/patent': '/patents',
     '/market-potential': '/category/market-potential',
     '/patent-landscape/': '/category/patent-landscape',
     '/blogs/': '/category/blogs',

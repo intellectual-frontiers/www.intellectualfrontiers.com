@@ -29,8 +29,8 @@ export const headerData = {
       href: '/about',
     },
     {
-      text: 'Patent Assets',
-      href: getPatentPermalink('/patent'),
+      text: 'Patents for Sale',
+      href: getPatentPermalink('/patents'),
     },
     {
       text: 'FAQs',
@@ -53,7 +53,7 @@ export const footerData = {
     {
       title: 'Categories',
       links: [
-        { text: 'Patent Assets', href: '/patent' },
+        { text: 'Patents for Sale', href: '/patents' },
         { text: 'Patent Landscape', href: '/category/patent-landscape' },
         { text: 'Patent Summaries', href: '/category/patent-summaries' },
         { text: 'Market Potential', href: '/category/market-potential' },
