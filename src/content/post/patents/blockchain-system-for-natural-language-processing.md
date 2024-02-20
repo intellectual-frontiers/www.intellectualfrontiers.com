@@ -25,6 +25,9 @@ metadata:
 patentId: US10984913B2
 uspto-patent-number: US10984913B2
 inventor: Shahid N. Shah
+tags:
+  - Blockchain
+  - 'Artificial Intelligence & Machine Learning'
 owner-current-assignee: INTELLECTUAL FRONTIERS LLC
 patent-owners-rights:
 territorial-scope: US

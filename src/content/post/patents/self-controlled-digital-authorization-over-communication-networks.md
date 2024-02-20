@@ -26,6 +26,8 @@ metadata:
 patentId: US10963585B2
 uspto-patent-number: US10963585B2
 inventor: Shahid N. Shah
+tags:
+  - 'Authorization & Data Privacy'
 owner-current-assignee: Netspective Communications LLC
 patent-owners-rights:
 territorial-scope: US

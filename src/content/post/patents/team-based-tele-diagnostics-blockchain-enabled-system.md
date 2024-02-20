@@ -26,6 +26,8 @@ metadata:
 patentId: US11769573B2
 uspto-patent-number: US11769573B2
 inventor: Shahid N. Shah
+tags:
+  - Remote Diagnostics
 owner-current-assignee: INTELLECTUAL FRONTIERS LLC
 patent-owners-rights:
 territorial-scope: US
