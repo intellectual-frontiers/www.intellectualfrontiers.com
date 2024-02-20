@@ -35,7 +35,7 @@ issue-date:
 expiry-date:
 patentStatus: Active - Granted
 url: '/patents/team-based-tele-diagnostics-blockchain-enabled-system'
-uspto-patent-pdf:
+category: Patents
 uspto-patent-url:
 thumbnail:
 uspto-patent-citation-label:

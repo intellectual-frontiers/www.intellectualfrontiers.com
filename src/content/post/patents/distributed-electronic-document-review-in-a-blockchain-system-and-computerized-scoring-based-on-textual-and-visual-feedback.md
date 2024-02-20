@@ -35,7 +35,7 @@ issue-date:
 expiry-date:
 patentStatus: Active - Granted
 url: '/patents/distributed-electronic-document-review-in-a-blockchain-system-and-computerized-scoring-based-on-textual-and-visual-feedback'
-uspto-patent-pdf:
+category: Patents
 uspto-patent-url:
 thumbnail:
 uspto-patent-citation-label:

@@ -35,7 +35,7 @@ issue-date:
 expiry-date:
 patentStatus: Active - Granted
 url: '/patents/integration-of-devices-through-a-social-networking-platform-us11777894b2'
-uspto-patent-pdf:
+category: Patents
 uspto-patent-url:
 thumbnail:
 uspto-patent-citation-label:

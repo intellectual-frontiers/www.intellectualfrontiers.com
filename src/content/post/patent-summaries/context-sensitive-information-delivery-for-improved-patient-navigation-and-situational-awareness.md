@@ -27,6 +27,8 @@ publishDate: 2023-10-25
 uspto-canonical-id-label: Patent
 uspto-patent-number: US10089492B2
 inventor: Shah N. Shahid
+tags:
+  - US10089492B2
 owner-current-assignee: Netspective Communications LLC
 patent-owners-rights:
 territorial-scope: US

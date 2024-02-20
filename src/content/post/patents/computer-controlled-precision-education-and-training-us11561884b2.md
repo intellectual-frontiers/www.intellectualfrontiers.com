@@ -35,7 +35,7 @@ issue-date:
 expiry-date:
 patentStatus: Active - Granted
 url: '/patents/computer-controlled-precision-education-and-training-us11561884b2'
-uspto-patent-pdf:
+category: Patents
 uspto-patent-url:
 thumbnail:
 uspto-patent-citation-label:

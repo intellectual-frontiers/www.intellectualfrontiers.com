@@ -35,7 +35,7 @@ issue-date:
 expiry-date:
 patentStatus: Active - Granted
 url: '/patents/multi-source-user-generated-electronic-data-integration-in-a-blockchain-based-transactional-system'
-uspto-patent-pdf:
+category: Patents
 uspto-patent-url:
 thumbnail:
 uspto-patent-citation-label:

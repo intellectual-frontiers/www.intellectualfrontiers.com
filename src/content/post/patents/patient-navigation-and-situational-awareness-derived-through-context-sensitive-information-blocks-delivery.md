@@ -2,8 +2,9 @@
 title: Patient navigation and situational awareness derived through context-sensitive information blocks delivery
 excerpt: A surveillance system for monitoring of Electronic Medical Record (EMR) application navigation through a plurality of navigation interfaces of an EMR application. The system includes an EMR system that includes the EMR application.
 sectiontype: patent
-uspto-canonical-id-label: Patent
+uspto-canonical-id-label: Patents
 publishDate: 2018-10-02
+category: Patents
 metadata:
   title: Patient navigation and situational awareness derived through context-sensitive information blocks delivery
   description: Enhance patient navigation with context-sensitive information blocks in real-time EMR monitoring. Improve situational awareness for efficient workflow events.
@@ -26,6 +27,8 @@ metadata:
 patentId: US10089492B2
 uspto-patent-number: US10089492B2
 inventor: Shahid N. Shah
+tags:
+  - US10089492B2
 owner-current-assignee: Netspective Communications LLC
 patent-owners-rights:
 territorial-scope: US
@@ -35,7 +38,6 @@ issue-date:
 expiry-date:
 patentStatus: Active - Granted
 url: '/patents/patient-navigation-and-situational-awareness-derived-through-context-sensitive-information-blocks-delivery'
-uspto-patent-pdf:
 uspto-patent-url:
 thumbnail:
 uspto-patent-citation-label:

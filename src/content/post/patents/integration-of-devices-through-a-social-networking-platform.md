@@ -34,7 +34,7 @@ issue-date:
 expiry-date:
 patentStatus: Active - Granted
 url: '/patents/integration-of-devices-through-a-social-networking-platform'
-uspto-patent-pdf:
+category: Patents
 uspto-patent-url:
 thumbnail:
 excerpt: A system and method for providing a social networking service to a plurality of devices. A social networking server for facilitating social information exchange among the plurality of devices through a socially aware network.
