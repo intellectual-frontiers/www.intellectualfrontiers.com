@@ -32,6 +32,7 @@ export default defineConfig({
   output: 'static',
   redirects: {
     '/patent': '/patents',
+    '/tag': '/topics',
     '/market-potential': '/category/market-potential',
     '/patent-landscape/': '/category/patent-landscape',
     '/blogs/': '/category/blogs',
