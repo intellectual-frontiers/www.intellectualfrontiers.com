@@ -52,18 +52,18 @@ const link = APP_BLOG?.post?.isEnabled ? getPermalink(post.permalink, 'post') : 
             <time datetime={String(post.publishDate)} class="inline-block font-medium"
               >Publication Date: {getFormattedDate(post.publishDate)}</time
             >
+            {
+              post.category && (
+                <>
+                  {' '}
+                  ·{' '}
+                  <a class="capitalize hover:underline" href="/patents">
+                    {post.category.replaceAll('-', ' ')}
+                  </a>
+                </>
+              )
+            }
           </div>
-          {
-            post.category && (
-              <>
-                {' '}
-                ·{' '}
-                <a class="capitalize hover:underline" href={getPermalink(post.category, 'category')}>
-                  {post.category.replaceAll('-', ' ')}
-                </a>
-              </>
-            )
-          }
           {
             post.patentId && (
               <>

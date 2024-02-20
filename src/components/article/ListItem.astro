@@ -54,9 +54,17 @@ const link = APP_ARTICLE?.post?.isEnabled ? getPermalink(post.permalink, 'post')
               <>
                 {' '}
                 ·{' '}
-                <a class="capitalize hover:underline" href={getPermalink(post.category, 'category')}>
-                  {post.category.replaceAll('-', ' ')}
-                </a>
+                {post.category === 'patents' ? (
+                  <>
+                    <a class="capitalize hover:underline" href="/patents">
+                      {post.category.replaceAll('-', ' ')}
+                    </a>
+                  </>
+                ) : (
+                  <a class="capitalize hover:underline" href={getPermalink(post.category, 'category')}>
+                    {post.category.replaceAll('-', ' ')}
+                  </a>
+                )}
               </>
             )
           }

@@ -117,6 +117,20 @@ export const blogTagRobots = APP_ARTICLE.tag.robots;
 
 export const blogPostsPerPage = APP_ARTICLE?.postsPerPage;
 
+/*Return all the posts irrespective of section type */
+export const fetchTaggedPosts = async (): Promise<Array<Post>> => {
+  if (!_posts) {
+    _posts = await load();
+  }
+
+  //return article posts
+  //return _posts ? _posts.filter(item => item.sectiontype ===('article')) : [];
+
+  //return all posts;
+  return _posts ? _posts : [];
+};
+
+
 /** */
 export const fetchPosts = async (): Promise<Array<Post>> => {
   if (!_posts) {
@@ -219,7 +233,7 @@ export const getStaticPathsArticleCategory = async ({ paginate }: { paginate: Pa
 export const getStaticPathsArticleTag = async ({ paginate }: { paginate: PaginateFunction }) => {
   if (!isBlogEnabled || !isBlogTagRouteEnabled) return [];
 
-  const posts = await fetchPosts();
+  const posts = await fetchTaggedPosts();
   const tags = new Set<string>();
   posts.map((post) => {
     Array.isArray(post.tags) && post.tags.map((tag) => tags.add(tag.toLowerCase()));
