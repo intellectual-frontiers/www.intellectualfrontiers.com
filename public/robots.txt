@@ -1,4 +1,8 @@
 User-agent: *
+
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /tmp/
 Disallow: /blog/
 Disallow: /click-through
 Disallow: /homes/mobile-app
@@ -14,3 +18,5 @@ Disallow: /pricing
 Disallow: /resources
 Disallow: /services
 Disallow: /sales
+
+Sitemap: https://www.intellectualfrontiers.com/sitemap.xml
