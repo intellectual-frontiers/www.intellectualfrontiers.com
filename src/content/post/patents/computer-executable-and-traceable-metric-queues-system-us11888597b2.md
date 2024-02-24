@@ -47,7 +47,7 @@ problem-solved-by-the-invention:
 topics:
 images:
 image: '/images/patents/us11888597b2/us11888597b2-patent.png'
-external-links: https://patents.google.com/patent/US11388077B2/
+external-links: https://patents.google.com/patent/US11888597B2/
 downloadable-documents:
   - anchor_text: Download PDF
     link_url:

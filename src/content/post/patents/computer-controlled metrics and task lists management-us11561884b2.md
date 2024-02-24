@@ -1,5 +1,5 @@
 ---
-title: Computer-controlled precision education and training
+title: Computer-controlled metrics and task lists management
 excerpt: An electronic evaluation device and method thereof for optimizing an operation of computer-controlled metric appliances in a network.
 uspto-canonical-id-label: Patent
 sectiontype: patent
@@ -124,11 +124,11 @@ An electronic evaluation device and method thereof for optimizing an operation o
 
 ### <span style="font-size:20px">BACKGROUND</span>
 
-Technical Field
+**Technical Field**
 
 The embodiments herein relate to networked systems and, more particularly to a device and method for optimizing operation of networked and computer-controlled appliances generating certain metrics.
 
-Description of the Related Art
+**Description of the Related Art**
 
 Conventionally, automated devices perform operations based on predefined programmable instructions assigned for them. These instructions allow some tasks to be performed irrespective of whether an outcome achieved is desired or not. The instructions take care of performance metrics but not the desired outcome expected from these devices. In many cases, these devices may have to be operated manually or differently based on real-time situations which may cause actual performance metrics to deviate from predefined metrics defined for them. Accordingly, there is a need of a system that is capable of optimizing performance of devices in a network based on contextual situations in which they have to operate.
 
