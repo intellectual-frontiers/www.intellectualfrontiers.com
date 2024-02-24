@@ -46,6 +46,11 @@ abstract-of-the-invention:
 problem-solved-by-the-invention:
 topics:
 images:
+tags:
+  - Near Field Communication (NFC)
+  - Medical Device Interactions
+  - Device Health Monitoring
+  - Medical Device Automation
 image: '/images/patents/us11777894b2-image-patent.png'
 external-links: https://patents.google.com/patent/US11777894B2/
 downloadable-documents:

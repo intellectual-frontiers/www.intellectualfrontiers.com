@@ -29,6 +29,8 @@ uspto-patent-number: US10089492B2
 inventor: Shahid N. Shah
 tags:
   - US10089492B2
+  - Data Management
+  - Electronic Medical Records (EMR)
 owner-current-assignee: Netspective Communications LLC
 patent-owners-rights:
 territorial-scope: US

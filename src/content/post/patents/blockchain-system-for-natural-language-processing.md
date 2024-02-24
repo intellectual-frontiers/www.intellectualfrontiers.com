@@ -27,7 +27,8 @@ uspto-patent-number: US10984913B2
 inventor: Shahid N. Shah
 tags:
   - Blockchain
-  - 'Artificial Intelligence & Machine Learning'
+  - Electronic Medical Records (EMR)
+  - Natural Language Processing
 owner-current-assignee: INTELLECTUAL FRONTIERS LLC
 patent-owners-rights:
 territorial-scope: US

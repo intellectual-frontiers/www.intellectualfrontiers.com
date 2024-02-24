@@ -46,6 +46,8 @@ abstract-of-the-invention:
 problem-solved-by-the-invention:
 topics:
 images:
+tags:
+  - Blockchain
 image: '/images/patents/us9870591b2-image-1.png'
 external-links: https://patents.google.com/patent/US9870591B2/
 downloadable-documents:

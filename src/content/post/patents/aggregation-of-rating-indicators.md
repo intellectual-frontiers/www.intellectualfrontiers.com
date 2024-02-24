@@ -46,6 +46,9 @@ abstract-of-the-invention:
 problem-solved-by-the-invention:
 topics:
 images:
+tags:
+  - Digital Reputation Management
+  - Sentiment Analysis
 image: '/images/patents/us10489830b2-image-01.png'
 external-links: https://patents.google.com/patent/US10489830B2/
 downloadable-documents:

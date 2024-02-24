@@ -46,6 +46,10 @@ abstract-of-the-invention:
 problem-solved-by-the-invention:
 topics:
 images:
+tags:
+  - Precision Learning
+  - Blockchain
+  - Artificial Intelligence and Machine Learning
 image: '/images/patents/us11423500b2-image-001.png'
 external-links: https://patents.google.com/patent/US11423500B2/
 downloadable-documents:

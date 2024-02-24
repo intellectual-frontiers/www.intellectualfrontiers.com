@@ -53,6 +53,11 @@ downloadable-documents:
     link_url:
   - anchor_text: Download Claim Summaries
     link_url:
+tags:
+  - Device Health Monitoring
+  - Device Fault Detection
+  - Medical Device Automation
+  - Near Field Communication (NFC)
 ---
 
 <!-- <div class="center-elements">

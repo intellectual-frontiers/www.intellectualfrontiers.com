@@ -46,6 +46,10 @@ abstract-of-the-invention:
 problem-solved-by-the-invention:
 topics:
 images:
+tags:
+  - Artificial Intelligence and Machine Learning
+  - Device Fault Detection
+  - Software Development
 image: '/images/patents/us11561884b2-image-001.png'
 external-links: https://patents.google.com/patent/US11561884B2/
 downloadable-documents:

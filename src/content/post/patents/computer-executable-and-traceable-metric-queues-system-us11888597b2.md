@@ -46,6 +46,11 @@ abstract-of-the-invention:
 problem-solved-by-the-invention:
 topics:
 images:
+tags:
+  - Blockchain
+  - Artificial Intelligence and Machine Learning
+  - Data Management
+  - Software Development
 image: '/images/patents/us11888597b2/us11888597b2-patent.png'
 external-links: https://patents.google.com/patent/US11888597B2/
 downloadable-documents:

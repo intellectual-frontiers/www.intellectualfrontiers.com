@@ -26,8 +26,6 @@ metadata:
 patentId: US11769573B2
 uspto-patent-number: US11769573B2
 inventor: Shahid N. Shah
-tags:
-  - Remote Diagnostics
 owner-current-assignee: INTELLECTUAL FRONTIERS LLC
 patent-owners-rights:
 territorial-scope: US
@@ -48,6 +46,11 @@ abstract-of-the-invention:
 problem-solved-by-the-invention:
 topics:
 images:
+tags:
+  - Blockchain
+  - Remote Diagnostics
+  - Artificial Intelligence and Machine Learning
+  - Telemedicine
 image: '/images/patents/us11769573b2-image-patent.png'
 external-links: https://patents.google.com/patent/US11769573B2/
 downloadable-documents:

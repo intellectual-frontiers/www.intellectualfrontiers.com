@@ -46,6 +46,8 @@ abstract-of-the-invention:
 problem-solved-by-the-invention:
 topics:
 images:
+tags:
+  - Digital Reputation Management
 image: '/images/patents/us10586069b2-image-001.png'
 external-links: https://patents.google.com/patent/US10586069B2/
 downloadable-documents:

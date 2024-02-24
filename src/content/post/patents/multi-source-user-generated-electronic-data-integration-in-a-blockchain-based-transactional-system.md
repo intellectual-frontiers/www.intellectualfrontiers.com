@@ -46,6 +46,10 @@ abstract-of-the-invention:
 problem-solved-by-the-invention:
 topics:
 images:
+tags:
+  - Blockchain
+  - Data Aggregation
+  - Natural Language Processing
 image: '/images/patents/us10839020b2-image-001.png'
 external-links: https://patents.google.com/patent/US10839020B2/
 downloadable-documents:

@@ -46,6 +46,11 @@ abstract-of-the-invention:
 problem-solved-by-the-invention:
 topics:
 images:
+tags:
+  - Artificial Intelligence and Machine Learning
+  - Blockchain
+  - Remote Diagnostics
+  - Telemedicine
 image: '/images/patents/us20240006038a1/us20240006038a1-image-patent.png'
 external-links: https://patents.google.com/patent/US20240006038A1/
 downloadable-documents:

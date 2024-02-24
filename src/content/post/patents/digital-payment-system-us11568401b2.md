@@ -45,6 +45,10 @@ abstract-of-the-invention:
 problem-solved-by-the-invention:
 topics:
 images:
+tags:
+  - Digital Payment
+  - Data Valuation
+  - Blockchain
 image: '/images/patents/us11568401b2-image-001.png'
 excerpt: A digital payment system for facilitating seamless transactions from a user system to a buyer system. The system includes a service provider system which further includes a service interaction component.
 external-links: https://patents.google.com/patent/US11568401B2/

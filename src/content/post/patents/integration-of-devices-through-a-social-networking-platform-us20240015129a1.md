@@ -46,6 +46,13 @@ abstract-of-the-invention:
 problem-solved-by-the-invention:
 topics:
 images:
+tags:
+  - Device Fault Detection
+  - Device Profiles Management
+  - Near Field Communication (NFC)
+  - Medical Device Interactions
+  - Medical Device Automation
+  - Device Health Monitoring
 image: '/images/patents/us20240015129a1/us20240015129a1-patent.png'
 external-links: https://patents.google.com/patent/US20240015129A1/
 downloadable-documents:

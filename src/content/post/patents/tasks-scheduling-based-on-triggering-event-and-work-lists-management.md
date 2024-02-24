@@ -46,6 +46,11 @@ abstract-of-the-invention:
 problem-solved-by-the-invention:
 topics:
 images:
+tags:
+  - Tasks Automation
+  - Remote Patient Monitoring
+  - Authorization and Data Privacy
+  - Electronic Medical Records (EMR)
 image: '/images/patents/us10403399b2-image-001.png'
 external-links: https://patents.google.com/patent/US10403399B2/
 downloadable-documents:
