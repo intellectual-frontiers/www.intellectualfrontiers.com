@@ -17,7 +17,7 @@ metadata:
     site_name: 'IntellectualFrontiers'
     description: Discover the transformative power of advanced precision learning, driving groundbreaking innovations across diverse industry landscapes
     images:
-      - url: '/images/no-image.jpg'
+      - url: '/images/market-potential/market-potential-us11651459b2-1.jpg'
         width: 1200
         height: 628
     type: website

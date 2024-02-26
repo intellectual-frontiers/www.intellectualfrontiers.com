@@ -6,17 +6,17 @@ category: Market Potential
 publishDate: 2023-10-28
 patent-id: US11006920B2
 metadata:
-  title: ''
-  description: ''
+  title: 'Revolutionizing Healthcare - The Future of Medical Devices Operation Automation'
+  description: 'Many medical devices still require manual setup and operation, which introduces the potential for human error.'
   robots:
     index: true
     follow: true
   openGraph:
-    title: ''
+    title: 'Revolutionizing Healthcare - The Future of Medical Devices Operation Automation'
     site_name: 'IntellectualFrontiers'
-    description: ''
+    description: 'Many medical devices still require manual setup and operation, which introduces the potential for human error.'
     images:
-      - url: '/images/no-image.jpg'
+      - url: '/images/market-potential/market-potential-us-11006920-b2-1.png'
         width: 1200
         height: 628
     type: website

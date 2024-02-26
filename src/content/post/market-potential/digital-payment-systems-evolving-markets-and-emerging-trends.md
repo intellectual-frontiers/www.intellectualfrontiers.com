@@ -6,17 +6,17 @@ category: Market Potential
 publishDate: 2023-12-19
 patent-id: US10643208B2
 metadata:
-  title: ''
-  description: ''
+  title: 'Digital Payment Systems - Evolving Markets and Emerging Trends'
+  description: 'The Digital Payments market is set to witness significant growth in the coming years according to reports by Statista'
   robots:
     index: true
     follow: true
   openGraph:
-    title: ''
+    title: 'Digital Payment Systems - Evolving Markets and Emerging Trends'
     site_name: 'IntellectualFrontiers'
-    description: ''
+    description: 'The Digital Payments market is set to witness significant growth in the coming years according to reports by Statista'
     images:
-      - url: '/images/no-image.jpg'
+      - url: '/images/market-potential/market-potential-us-10643208-B2-1.png'
         width: 1200
         height: 628
     type: website
