@@ -1,7 +1,7 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import FAQsInnerpage from '~/components/widgets/FAQsInnerpage.astro';
-
+import { Schema } from 'astro-seo-schema';
 const metadata = {
   title: 'FAQs',
   ignoreTitleTemplate: true,
@@ -9,6 +9,54 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
+  <Schema
+    item={{
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: [
+        {
+          '@type': 'Question',
+          name: 'What types of patents are included in Intellectual Frontiers’ portfolio?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Our portfolio spans a diverse range of industries. It includes breakthrough patents in various high-growth areas, offering innovative solutions and cutting-edge technology applicable across multiple sectors.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'What is the process for acquiring a patent from Intellectual Frontiers?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'To initiate the acquisition process, simply contact us through our website. Our team will guide you through the necessary steps, including discussions on licensing terms, pricing, and any other specific requirements you may have.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'What support does IntellectualFrontiers.com offer after a patent is acquired?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Post-acquisition, we provide comprehensive support including legal documentation, transfer processes, and, if needed, consultation on implementation and development. Our goal is to ensure a smooth transition and successful integration of the patent into your business operations.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'How can I explore the specific patents available for acquisition?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'You can easily browse our patent listings on our website. Each listing is accompanied by a detailed profile, including descriptions, potential applications, and visual aids, to help you understand the full potential of each patent.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'Can IntellectualFrontiers.com assist in understanding how a specific patent can be integrated into my business?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Absolutely. Our expert team is available to discuss how our patents can be adapted to your business needs, offering insights into practical applications and integration strategies.',
+          },
+        },
+      ],
+    }}
+  />
   <FAQsInnerpage
     title="Frequently Asked Questions"
     subtitle=""
