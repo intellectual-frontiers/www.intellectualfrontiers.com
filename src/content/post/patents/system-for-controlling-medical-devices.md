@@ -47,7 +47,6 @@ problem-solved-by-the-invention:
 topics:
 images:
 tags:
-  - Medical Device Interactions
   - Blockchain
   - Medical Device Automation
 image: '/images/patents/us11006920b2-image-01.jpg'

@@ -48,7 +48,7 @@ topics:
 images:
 tags:
   - Artificial Intelligence and Machine Learning
-  - Device Fault Detection
+  - Device Health Monitoring
   - Software Development
 image: '/images/patents/us11561884b2-image-001.png'
 external-links: https://patents.google.com/patent/US11561884B2/

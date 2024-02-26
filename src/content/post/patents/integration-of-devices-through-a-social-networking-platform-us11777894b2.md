@@ -48,7 +48,6 @@ topics:
 images:
 tags:
   - Near Field Communication (NFC)
-  - Medical Device Interactions
   - Device Health Monitoring
   - Medical Device Automation
 image: '/images/patents/us11777894b2-image-patent.png'

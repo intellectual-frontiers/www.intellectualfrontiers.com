@@ -47,7 +47,6 @@ problem-solved-by-the-invention:
 topics:
 images:
 tags:
-  - Medical Device Interactions
   - Medical Device Automation
 image: '/images/patents/us10638999b2-image-001.png'
 external-links: https://patents.google.com/patent/US10638999B2/

@@ -48,8 +48,6 @@ topics:
 images:
 tags:
   - Near Field Communication (NFC)
-  - Medical Device Interactions
-  - Device Profiles Management
   - Medical Device Automation
 image: '/images/patents/us9525753b2-image-001.png'
 external-links: https://patents.google.com/patent/US9525753B2/

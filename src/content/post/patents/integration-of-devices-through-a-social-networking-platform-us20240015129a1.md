@@ -47,10 +47,7 @@ problem-solved-by-the-invention:
 topics:
 images:
 tags:
-  - Device Fault Detection
-  - Device Profiles Management
   - Near Field Communication (NFC)
-  - Medical Device Interactions
   - Medical Device Automation
   - Device Health Monitoring
 image: '/images/patents/us20240015129a1/us20240015129a1-patent.png'

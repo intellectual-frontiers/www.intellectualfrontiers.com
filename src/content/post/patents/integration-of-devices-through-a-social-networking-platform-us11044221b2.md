@@ -55,7 +55,6 @@ downloadable-documents:
     link_url:
 tags:
   - Device Health Monitoring
-  - Device Fault Detection
   - Medical Device Automation
   - Near Field Communication (NFC)
 ---
