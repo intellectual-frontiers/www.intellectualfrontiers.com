@@ -5,6 +5,16 @@ import { Schema } from 'astro-seo-schema';
 const metadata = {
   title: 'FAQs',
   ignoreTitleTemplate: true,
+  openGraph: {
+    type: 'website',
+    images: [
+      {
+        url: '/images/patents/faqs.webp',
+        width: 1200,
+        height: 628,
+      },
+    ],
+  },
 };
 ---
 
