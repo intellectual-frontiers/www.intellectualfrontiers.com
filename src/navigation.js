@@ -65,6 +65,16 @@ export const footerData = {
       ],
     },
     {
+      title: 'Quick Links',
+      links: [        
+        { text: 'Patents for Sale', href: '/patents' },
+        { text: 'All Topics', href: '/topics' },
+        { text: 'FAQs', href: '/faq' },
+        { text: 'Articles', href: '/article' },        
+        { text: 'About Us', href: '/about' },       
+      ],
+    },
+    {
       title: 'Contact',
       links: [
         // { text: 'consectetur adipiscing elit.', href: '#' },
