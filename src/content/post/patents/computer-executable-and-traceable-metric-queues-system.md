@@ -50,7 +50,7 @@ tags:
   - Blockchain
   - Artificial Intelligence and Machine Learning
   - Data Management
-  - Software Development
+  - Software
 image: '/images/patents/us11388077b2-image-001.png'
 external-links: https://patents.google.com/patent/US11388077B2/
 downloadable-documents:

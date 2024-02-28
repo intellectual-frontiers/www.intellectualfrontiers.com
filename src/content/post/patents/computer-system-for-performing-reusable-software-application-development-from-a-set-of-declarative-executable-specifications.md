@@ -54,7 +54,7 @@ downloadable-documents:
   - anchor_text: Download Claim Summaries
     link_url:
 tags:
-  - Software Development
+  - Software
 ---
 
 <!-- <div class="center-elements">
