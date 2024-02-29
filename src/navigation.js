@@ -33,6 +33,10 @@ export const headerData = {
       href: getPatentPermalink('/patents'),
     },
     {
+      text: 'Topics',
+      href: '/topics',
+    },
+    {
       text: 'FAQs',
       href: '/faq',
     },

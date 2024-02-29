@@ -28,7 +28,7 @@ const titleText = isPatentNumber
   : tag.replaceAll('-', ' ').replace(/\s[a-z]|^[a-z]/gi, (a) => a.toUpperCase());
 
 const metadata = {
-  title: `Posts by tag '${titleText}'${currentPage > 1 ? ` — Page ${currentPage} ` : ''}`,
+  title: `Posts with topic '${titleText}'${currentPage > 1 ? ` — Page ${currentPage} ` : ''}`,
   robots: {
     index: blogTagRobots?.index,
     follow: blogTagRobots?.follow,
