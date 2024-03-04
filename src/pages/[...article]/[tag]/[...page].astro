@@ -42,8 +42,9 @@ const metadata = {
       <!-- {page.data.length}
       {page.data.length > 1 ? ' Matches' : ' Match'} Across Categories for Tag - -->
       <span class={isPatentNumber ? 'uppercase' : 'capitalize'}>
-        {tag.replaceAll('-', ' ')} Topic
+        {tag.replaceAll('-', ' ')}
       </span>
+       Topic
     </Headline>
     <BlogList posts={page.data} />
     <Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />
