@@ -1,6 +1,7 @@
 ---
 import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
-import ItemGrid from '~/components/ui/ItemGrid.astro';
+import ItemGridTopics from '~/components/ui/ItemGridTopics.astro';
+// import ItemGrid from '~/components/ui/ItemGrid.astro';
 // import Headline from '~/components/ui/Headline.astro';
 import type { Features } from '~/types';
 import H1Headline from '../ui/H1Headline.astro';
@@ -30,7 +31,7 @@ const {
   /> -->
   <!-- Use the Headline element with H1 tag -->
   <H1Headline title={title} subtitle={subtitle} tagline={tagline} classes={classes?.headline} />
-  <ItemGrid
+  <ItemGridTopics
     items={items}
     columns={columns}
     defaultIcon={defaultIcon}

@@ -1,0 +1,83 @@
+---
+import { twMerge } from 'tailwind-merge';
+import type { ItemGrid } from '../../types';
+import Button from './Button.astro';
+import { Icon } from 'astro-icon/components';
+
+const { items = [], columns, defaultIcon = '', classes = {} } = Astro.props as ItemGrid;
+
+const {
+  container: containerClass = '',
+  panel: panelClass = '',
+  title: titleClass = '',
+  description: descriptionClass = '',
+  icon: defaultIconClass = 'text-primary',
+  action: actionClass = '',
+} = classes;
+//console.log('jbhghg');
+---
+
+{
+  items && (
+    <div
+      class={twMerge(
+        `grid mx-auto gap-8 md:gap-y-12 ${
+          columns === 4
+            ? 'lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2'
+            : columns === 3
+              ? 'lg:grid-cols-3 sm:grid-cols-2'
+              : columns === 2
+                ? 'sm:grid-cols-2 '
+                : ''
+        }`,
+        containerClass
+      )}
+    >
+      {items.map(({ title, description, icon, link, callToAction, classes: itemClasses = {} }) => (
+        <div>
+          <div class={twMerge('flex flex-row max-w-md', panelClass, itemClasses?.panel)}>
+            <div class="flex justify-center">
+              {(icon || defaultIcon) && (
+                <Icon
+                  name={icon || defaultIcon}
+                  class={twMerge('w-7 h-7 mr-2 rtl:mr-0 rtl:ml-2', defaultIconClass, itemClasses?.icon)}
+                />
+              )}
+            </div>
+            <div class="mt-0.5">
+              {title && (
+                <h3 class={twMerge('text-xl font-bold', titleClass, itemClasses?.title)}>
+                  <a href={link} class="hover:text-[#214EA2]">
+                    {title}
+                  </a>
+                </h3>
+              )}
+              {description && (
+                <>
+                  <p
+                    class={twMerge(`${title ? 'mt-3' : ''} text-muted`, descriptionClass, itemClasses?.description)}
+                    set:html={description}
+                  />
+                  <div class="pt-2">
+                    <a href={link} class="text-[#214EA2]">
+                      Read More
+                      <Icon
+                        name="tabler:arrow-narrow-right"
+                        class="w-5 h-5 ml-1 -mr-1.5 rtl:mr-1 rtl:-ml-1.5 inline-block"
+                      />
+                    </a>
+                  </div>
+                </>
+              )}
+              {callToAction && (
+                <div class={twMerge(`${title || description ? 'mt-3' : ''}`, actionClass, itemClasses?.actionClass)}>
+                  <Button variant="link" {...callToAction} />
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  )
+}
