@@ -28,7 +28,7 @@ const titleText = isPatentNumber
   : tag.replaceAll('-', ' ').replace(/\s[a-z]|^[a-z]/gi, (a) => a.toUpperCase());
 
 const metadata = {
-  title: `Posts with topic '${titleText}'${currentPage > 1 ? ` — Page ${currentPage} ` : ''}`,
+  title: `${titleText} Topic ${currentPage > 1 ? ` — Page ${currentPage} ` : ''}`,
   robots: {
     index: blogTagRobots?.index,
     follow: blogTagRobots?.follow,
@@ -37,13 +37,12 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <section class="px-4 md:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
+  <section class="px-4 md:px-6 pb-12 sm:pb-16 lg:pb-20 pt-6 sm:pt-6 lg:pt-6 mx-auto max-w-4xl">
     <Headline>
       <!-- {page.data.length}
       {page.data.length > 1 ? ' Matches' : ' Match'} Across Categories for Tag - -->
-       Showing Results for Topic -
       <span class={isPatentNumber ? 'uppercase' : 'capitalize'}>
-        {tag.replaceAll('-', ' ')}
+        {tag.replaceAll('-', ' ')} Topic
       </span>
     </Headline>
     <BlogList posts={page.data} />
