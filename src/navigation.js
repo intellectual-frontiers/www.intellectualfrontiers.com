@@ -79,10 +79,10 @@ export const footerData = {
       ],
     },
     {
-      title: 'Contact',
+      title: 'Contact Info',
       links: [
-        // { text: 'consectetur adipiscing elit.', href: '#' },
         { text: 'hello@intellectualfrontiers.com', href: 'mailto:hello@intellectualfrontiers.com' },
+        { text: 'Contact Us', href: '/contact' },
       ],
     },
   ],
