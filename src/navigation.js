@@ -49,7 +49,7 @@ export const headerData = {
       href: getPermalink('/article'),
     }
   ],
-  // actions: [{ text: 'Contact/Chatbot', href: '/contact' }],
+  actions: [{ text: 'Contact Us', href: '/contact' }],
 };
 
 export const footerData = {
@@ -75,14 +75,15 @@ export const footerData = {
         { text: 'All Topics', href: '/topics' },
         { text: 'FAQs', href: '/faq' },
         { text: 'Articles', href: '/article' },        
-        { text: 'About Us', href: '/about' },       
+        { text: 'About Us', href: '/about' },
+        { text: 'Contact Us', href: '/contact' },       
       ],
     },
     {
       title: 'Contact Info',
       links: [
         { text: 'hello@intellectualfrontiers.com', href: 'mailto:hello@intellectualfrontiers.com' },
-        { text: 'Contact Us', href: '/contact' },
+        // { text: 'Contact Us', href: '/contact' },
       ],
     },
   ],
