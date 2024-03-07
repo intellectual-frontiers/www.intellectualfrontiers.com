@@ -50,6 +50,7 @@ tags:
   - Blockchain
   - Natural Language Processing
 image: '/images/patents/us10839020b2-image-001.png'
+altText: blockchain transactional system
 external-links: https://patents.google.com/patent/US10839020B2/
 downloadable-documents:
   - anchor_text: Download PDF

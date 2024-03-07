@@ -49,6 +49,7 @@ problem-solved-by-the-invention:
 topics:
 images:
 image: '/images/patents/us9418355b2-image-1.png'
+altText: crowdsourced response patents
 external-links: https://patents.google.com/patent/US9418355B2/
 downloadable-documents:
   - anchor_text: Download PDF

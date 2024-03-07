@@ -51,6 +51,7 @@ tags:
   - Medical Device Automation
   - Device Health Monitoring
 image: '/images/patents/us20240015129a1/us20240015129a1-patent.png'
+altText: medical device automation
 external-links: https://patents.google.com/patent/US20240015129A1/
 downloadable-documents:
   - anchor_text: Download PDF

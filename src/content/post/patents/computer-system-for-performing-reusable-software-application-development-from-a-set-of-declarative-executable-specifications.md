@@ -47,6 +47,7 @@ problem-solved-by-the-invention:
 topics:
 images:
 image: '/images/patents/us7039898b2-image-01.jpg'
+altText: software application development patent
 external-links: https://patents.google.com/patent/US7039898B2/
 downloadable-documents:
   - anchor_text: Download PDF

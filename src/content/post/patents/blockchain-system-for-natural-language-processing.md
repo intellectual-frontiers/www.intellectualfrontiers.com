@@ -51,6 +51,7 @@ topics:
 images:
 publishDate: 2021-04-20
 image: '/images/patents/us10984913b2-image-001.png'
+altText: natural language processing
 external-links: https://patents.google.com/patent/US10984913B2/
 downloadable-documents:
   - anchor_text: Download PDF

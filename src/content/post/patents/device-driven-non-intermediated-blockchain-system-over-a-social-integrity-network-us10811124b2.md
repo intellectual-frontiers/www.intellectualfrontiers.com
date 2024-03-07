@@ -50,6 +50,7 @@ tags:
   - Blockchain
   - Natural Language Processing
 image: '/images/patents/us10811124b2-image-001.png'
+altText: natural language processing patent
 external-links: https://patents.google.com/patent/US1081124B2/
 downloadable-documents:
   - anchor_text: Download PDF

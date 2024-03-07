@@ -51,6 +51,7 @@ tags:
   - Blockchain
   - Artificial Intelligence and Machine Learning
 image: '/images/patents/us11423500b2-image-001.png'
+altText: AI in education patent
 external-links: https://patents.google.com/patent/US11423500B2/
 downloadable-documents:
   - anchor_text: Download PDF

@@ -50,6 +50,7 @@ tags:
   - Digital Reputation Management
   - Sentiment Analysis
 image: '/images/patents/us9846896b2-image-001.png'
+altText: patent on online reputation management
 external-links: https://patents.google.com/patent/US9846896B2/
 downloadable-documents:
   - anchor_text: Download PDF

@@ -51,6 +51,7 @@ problem-solved-by-the-invention:
 topics:
 images:
 image: '/images/patents/us10089492b2-image.png'
+altText: future of electronic medical records
 external-links: https://patents.google.com/patent/US10089492B2/
 downloadable-documents:
   - anchor_text: Download PDF

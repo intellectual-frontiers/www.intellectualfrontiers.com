@@ -52,6 +52,7 @@ tags:
   - Artificial Intelligence and Machine Learning
   - Telemedicine
 image: '/images/patents/us11769573b2-image-patent.png'
+altText: patent on blockchain technology
 external-links: https://patents.google.com/patent/US11769573B2/
 downloadable-documents:
   - anchor_text: Download PDF

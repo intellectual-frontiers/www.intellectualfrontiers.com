@@ -50,6 +50,7 @@ tags:
   - Blockchain
   - Natural Language Processing
 image: '/images/patents/us10490304b2-image-001.png'
+altText: blockchain technology patent
 external-links: https://patents.google.com/patent/US10490304B2/
 downloadable-documents:
   - anchor_text: Download PDF

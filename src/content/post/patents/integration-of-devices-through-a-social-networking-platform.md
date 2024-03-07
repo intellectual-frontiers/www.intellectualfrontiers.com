@@ -47,6 +47,7 @@ problem-solved-by-the-invention:
 topics:
 images:
 image: '/images/patents/us10320735b2-image-01.png'
+altText: NFC patent
 external-links: https://patents.google.com/patent/US10320735B2/
 downloadable-documents:
   - anchor_text: Download PDF

@@ -50,6 +50,7 @@ tags:
   - Blockchain
   - Service Automation
 image: '/images/patents/us11475441b2-image-001.png'
+altText: service automation patent
 external-links: https://patents.google.com/patent/US11475441B2/
 downloadable-documents:
   - anchor_text: Download PDF

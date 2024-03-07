@@ -34,6 +34,7 @@ issue-date:
 expiry-date:
 patentStatus: Active - Granted
 url: '/patents/digital-payment-system-us11568401b2'
+altText: digital payment system patent
 category: Patents
 uspto-patent-url:
 thumbnail:

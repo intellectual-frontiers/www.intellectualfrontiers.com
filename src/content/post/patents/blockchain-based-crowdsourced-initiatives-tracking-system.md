@@ -35,6 +35,7 @@ issue-date:
 expiry-date:
 patentStatus: Active - Granted
 url: '/patents/blockchain-based-crowdsourced-initiatives-tracking-system'
+altText: blockchain crowdbased tracking patent
 category: Patents
 uspto-patent-url:
 thumbnail:

@@ -47,6 +47,7 @@ problem-solved-by-the-invention:
 topics:
 images:
 image: '/images/patents/us11044221b2-image-001.png'
+altText: medical device integration
 external-links: https://patents.google.com/patent/US11044221B2/
 downloadable-documents:
   - anchor_text: Download PDF

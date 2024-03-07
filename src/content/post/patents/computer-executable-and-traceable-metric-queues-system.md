@@ -35,6 +35,7 @@ issue-date:
 expiry-date:
 patentStatus: Active - Granted
 url: '/patents/computer-executable-and-traceable-metric-queues-system'
+altText: artificial intelligence patent
 category: Patents
 uspto-patent-url:
 thumbnail:

@@ -52,6 +52,7 @@ tags:
   - Remote Diagnostics
   - Telemedicine
 image: '/images/patents/us20240006038a1/us20240006038a1-image-patent.png'
+altText: blockchain technology patents
 external-links: https://patents.google.com/patent/US20240006038A1/
 downloadable-documents:
   - anchor_text: Download PDF

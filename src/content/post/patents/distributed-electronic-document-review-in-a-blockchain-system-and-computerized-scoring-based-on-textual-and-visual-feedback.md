@@ -49,6 +49,7 @@ images:
 tags:
   - Blockchain
 image: '/images/patents/us9870591b2-image-1.png'
+altText: patent on blockchain system
 external-links: https://patents.google.com/patent/US9870591B2/
 downloadable-documents:
   - anchor_text: Download PDF
