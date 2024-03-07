@@ -51,6 +51,8 @@ export interface Post {
   patentStatus?: string;
   //The inventor name
   inventor?: string;
+  //Alt image text for the cover image in patent detailed view
+  altText?: string;
 }
 
 export interface MetaData {

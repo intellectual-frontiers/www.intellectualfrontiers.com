@@ -64,6 +64,7 @@ const postCollection = defineCollection({
     patentId: z.string().optional(),
     patentStatus: z.string().optional(),
     inventor: z.string().optional(),
+    altText: z.string().optional(),
   }),
 });
 
