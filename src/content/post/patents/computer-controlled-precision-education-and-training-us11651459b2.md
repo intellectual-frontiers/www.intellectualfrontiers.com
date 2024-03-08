@@ -50,6 +50,7 @@ tags:
   - Precision Learning
   - Blockchain
   - Artificial Intelligence and Machine Learning
+  - US11651459B2
 image: '/images/patents/us11651459b2-image-001.png'
 altText: precision learning technology patent
 external-links: https://patents.google.com/patent/US11651459B2/

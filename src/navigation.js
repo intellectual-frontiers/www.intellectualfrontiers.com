@@ -61,6 +61,7 @@ export const footerData = {
         { text: 'Patent Landscape', href: '/category/patent-landscape' },
         { text: 'Patent Summaries', href: '/category/patent-summaries' },
         { text: 'Market Potential', href: '/category/market-potential' },
+        { text: 'Use Cases', href: '/category/use-cases' },
         { text: 'Blogs', href: '/category/blogs' },
         // { text: 'Privacy Policy', href: '#' },
         // { text: 'Terms of Use', href: '#' },

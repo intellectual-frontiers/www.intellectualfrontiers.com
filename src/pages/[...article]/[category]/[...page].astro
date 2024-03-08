@@ -27,7 +27,9 @@ const metadata = {
         ? 'Simplified Patent Summaries for Strategic Investment'
         : category === 'blogs'
           ? 'Intellectual Frontiers Blog: Insights on Patent Acquisition & IP Investment'
-          : category.replaceAll('-', ' ')
+          : category === 'use-cases'
+            ? 'Use Cases'
+            : category.replaceAll('-', ' ')
   } ${currentPage > 1 ? ` — Page ${currentPage}` : ''}`,
   description:
     category === 'market-potential'
@@ -36,7 +38,9 @@ const metadata = {
         ? 'Explore easy-to-understand overviews of tech patents with our Simplified Patent Summaries. Ideal for making informed technology investment decisions'
         : category === 'blogs'
           ? 'Explore the Intellectual Frontiers Blog for authoritative insights on patent acquisition and IP strategies'
-          : '',
+          : category === 'use-cases'
+            ? 'Uses Cases'
+            : '',
   robots: {
     index: blogCategoryRobots?.index,
     follow: blogCategoryRobots?.follow,
