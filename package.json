@@ -10,7 +10,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "format": "prettier -w .",
-    "lint:eslint": "eslint . --ext .js,.ts,.astro"
+    "lint:eslint": "eslint . --ext .js,.ts,.astro",
+    "deno-deploy": "npm install pnpm -g && pnpm install && pnpm run build && mv dist/ deno-deploy"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.1",
