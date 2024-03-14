@@ -48,6 +48,10 @@ abstract-of-the-invention:
 problem-solved-by-the-invention:
 topics:
 images:
+tags:
+  - US10811124B2
+  - Blockchain
+  - Natural Language Processing
 external-links: https://patents.google.com/patent/US10811124B2/
 downloadable-documents:
   - anchor_text: Download PDF

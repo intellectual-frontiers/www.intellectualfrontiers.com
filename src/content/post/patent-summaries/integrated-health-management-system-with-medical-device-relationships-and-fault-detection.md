@@ -48,6 +48,11 @@ abstract-of-the-invention:
 problem-solved-by-the-invention:
 topics:
 images:
+tags:
+  - US10320735B2
+  - Device Health Monitoring
+  - Medical Device Automation
+  - Near Field Communication (NFC)
 external-links: https://patents.google.com/patent/US10320735B2/
 downloadable-documents:
   - anchor_text: Download PDF

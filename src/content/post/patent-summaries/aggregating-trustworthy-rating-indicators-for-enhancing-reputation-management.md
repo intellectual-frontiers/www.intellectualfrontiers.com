@@ -48,6 +48,10 @@ abstract-of-the-invention:
 problem-solved-by-the-invention:
 topics:
 images:
+tags:
+  - US9846896B2
+  - Digital Reputation Management
+  - Sentiment Analysis
 external-links: https://patents.google.com/patent/US9846896B2
 downloadable-documents:
   - anchor_text: Download PDF

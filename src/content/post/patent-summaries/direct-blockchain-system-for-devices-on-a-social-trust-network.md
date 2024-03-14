@@ -49,6 +49,10 @@ problem-solved-by-the-invention:
 topics:
 images:
 external-links:
+tags:
+  - US10490304B2
+  - Blockchain
+  - Natural Language Processing
 downloadable-documents:
   - anchor_text: Download PDF
     link_url:

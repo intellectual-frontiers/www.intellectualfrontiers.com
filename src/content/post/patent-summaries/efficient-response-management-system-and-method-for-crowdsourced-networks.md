@@ -49,6 +49,9 @@ problem-solved-by-the-invention:
 topics:
 images:
 external-links:
+tags:
+  - US9418355B2
+  - Feedback Management
 downloadable-documents:
   - anchor_text: Download PDF
     link_url: https://patents.google.com/patent/US9418355B2

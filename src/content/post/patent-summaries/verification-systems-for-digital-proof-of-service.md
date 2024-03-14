@@ -48,6 +48,10 @@ abstract-of-the-invention:
 problem-solved-by-the-invention:
 topics:
 images:
+tags:
+  - US11475441B2
+  - Blockchain
+  - Service Automation
 external-links: https://patents.google.com/patent/US11475441B2/
 downloadable-documents:
   - anchor_text: Download PDF

@@ -48,6 +48,11 @@ abstract-of-the-invention:
 problem-solved-by-the-invention:
 topics:
 images:
+tags:
+  - US10643208B2
+  - Digital Payment
+  - Data Valuation
+  - Blockchain
 external-links: https://patents.google.com/patent/US10643208B2/
 downloadable-documents:
   - anchor_text: Download PDF

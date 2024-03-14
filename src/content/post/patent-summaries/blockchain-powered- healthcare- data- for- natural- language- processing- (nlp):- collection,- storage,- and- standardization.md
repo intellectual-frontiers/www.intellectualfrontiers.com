@@ -48,6 +48,11 @@ abstract-of-the-invention:
 problem-solved-by-the-invention:
 topics:
 images:
+tags:
+  - US10984913B2
+  - Blockchain
+  - Electronic Medical Records (EMR)
+  - Natural Language Processing
 external-links: https://patents.google.com/patent/US10984913B2/
 downloadable-documents:
   - anchor_text: Download PDF

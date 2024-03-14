@@ -48,6 +48,11 @@ abstract-of-the-invention:
 problem-solved-by-the-invention:
 topics:
 images:
+tags:
+  - US10963585B2
+  - Authorization and Data Privacy
+  - Medical Device Automation
+  - Near Field Communication (NFC)
 external-links: https://patents.google.com/patent/US10963585B2/
 downloadable-documents:
   - anchor_text: Download PDF

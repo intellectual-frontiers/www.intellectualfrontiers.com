@@ -48,6 +48,10 @@ abstract-of-the-invention:
 problem-solved-by-the-invention:
 topics:
 images:
+tags:
+  - US9525753B2
+  - Near Field Communication (NFC)
+  - Medical Device Automation
 external-links: https://patents.google.com/patent/US9525753B2
 downloadable-documents:
   - anchor_text: Download PDF

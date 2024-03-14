@@ -48,6 +48,11 @@ abstract-of-the-invention:
 problem-solved-by-the-invention:
 topics:
 images:
+tags:
+  - US11561884B2
+  - Artificial Intelligence and Machine Learning
+  - Device Health Monitoring
+  - Software
 external-links: https://patents.google.com/patent/US11561884B2/
 downloadable-documents:
   - anchor_text: Download PDF

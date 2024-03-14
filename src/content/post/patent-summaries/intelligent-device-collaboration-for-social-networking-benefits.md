@@ -48,6 +48,11 @@ abstract-of-the-invention:
 problem-solved-by-the-invention:
 topics:
 images:
+tags:
+  - US11044221B2
+  - Device Health Monitoring
+  - Medical Device Automation
+  - Near Field Communication (NFC)
 external-links:
 downloadable-documents:
   - anchor_text: Download PDF

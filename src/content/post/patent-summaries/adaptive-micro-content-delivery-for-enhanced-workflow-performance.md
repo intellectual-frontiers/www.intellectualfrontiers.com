@@ -56,6 +56,11 @@ downloadable-documents:
   - anchor_text: Download Claim Summaries
     link_url:
 image: '/images/patent-summaries/computer-controlled-precision-education-and-training.webp'
+tags:
+  - US11651459B2
+  - Precision Learning
+  - Blockchain
+  - Artificial Intelligence and Machine Learning
 ---
 
 ## Addressing the Challenge in Modern Education and Training

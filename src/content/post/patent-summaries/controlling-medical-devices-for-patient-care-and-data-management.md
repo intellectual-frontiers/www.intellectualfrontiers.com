@@ -48,6 +48,9 @@ abstract-of-the-invention:
 problem-solved-by-the-invention:
 topics:
 images:
+tags:
+  - US10638999B2
+  - Medical Device Automation
 external-links: https://patents.google.com/patent/US10638999B2/
 downloadable-documents:
   - anchor_text: Download PDF

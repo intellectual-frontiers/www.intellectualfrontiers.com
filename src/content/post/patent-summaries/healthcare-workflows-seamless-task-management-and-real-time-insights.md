@@ -36,6 +36,12 @@ application-date: 2015-11-19
 issue-date: 2019-09-03
 expiry-date: 2038-04-16
 patent-status: Active
+tags:
+  - US10403399B2
+  - Tasks Automation
+  - Remote Patient Monitoring
+  - Authorization and Data Privacy
+  - Electronic Medical Records (EMR)
 url: '/patent-summaries/healthcare-workflows-seamless-task-management-and-real-time-insights'
 uspto-patent-pdf: 'https://patentimages.storage.googleapis.com/2f/e7/27/f40f5ddb15d76e/US7039898.pdf'
 uspto-patent-url: https://patents.google.com/patent/US10403399B2

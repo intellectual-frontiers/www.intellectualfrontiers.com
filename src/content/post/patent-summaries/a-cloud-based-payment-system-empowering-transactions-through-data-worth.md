@@ -54,6 +54,11 @@ downloadable-documents:
   - anchor_text: Download Claim Summaries
     link_url:
 image: '/images/patent-summaries/digital-payment-system-thumbnail.webp'
+tags:
+  - US11568401B2
+  - Digital Payment
+  - Data Valuation
+  - Blockchain
 ---
 
 In the domain of digital transaction mechanisms, there's a significant push towards optimizing interoperability between end-users and purchasers and the progression in this sector underscores the imperative of engineering and advanced methodology for payment facilitation.This entails a unique technology where a service provider interacts with a user, garnering predefined information. This information collection is intrinsically linked to the digital valuation of the user's data. The subsequent payment process is then based on the transactional worth of this data, ensuring a precise, digital transactional value.

@@ -48,6 +48,12 @@ abstract-of-the-invention:
 problem-solved-by-the-invention:
 topics:
 images:
+tags:
+  - US11388077B2
+  - Blockchain
+  - Artificial Intelligence and Machine Learning
+  - Data Management
+  - Software
 external-links: https://patents.google.com/patent/US11388077B2/
 downloadable-documents:
   - anchor_text: Download PDF
