@@ -47,6 +47,7 @@ problem-solved-by-the-invention:
 topics:
 images:
 tags:
+  - US11475441B2
   - Blockchain
   - Service Automation
 image: '/images/patents/us11475441b2-image-001.png'

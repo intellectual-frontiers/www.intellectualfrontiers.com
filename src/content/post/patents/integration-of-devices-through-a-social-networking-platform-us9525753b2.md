@@ -47,6 +47,7 @@ problem-solved-by-the-invention:
 topics:
 images:
 tags:
+  - US9525753B2
   - Near Field Communication (NFC)
   - Medical Device Automation
 image: '/images/patents/us9525753b2-image-001.png'

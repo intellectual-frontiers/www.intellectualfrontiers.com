@@ -26,6 +26,7 @@ patentId: US10984913B2
 uspto-patent-number: US10984913B2
 inventor: Shahid N. Shah
 tags:
+  - US10984913B2
   - Blockchain
   - Electronic Medical Records (EMR)
   - Natural Language Processing

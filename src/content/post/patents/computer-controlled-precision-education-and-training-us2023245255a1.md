@@ -47,6 +47,7 @@ problem-solved-by-the-invention:
 topics:
 images:
 tags:
+  - US20230245255A1
   - Precision Learning
   - Blockchain
   - Artificial Intelligence and Machine Learning

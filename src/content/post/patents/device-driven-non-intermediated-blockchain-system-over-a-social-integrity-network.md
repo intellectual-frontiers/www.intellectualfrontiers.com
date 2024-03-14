@@ -47,6 +47,7 @@ problem-solved-by-the-invention:
 topics:
 images:
 tags:
+  - US10490304B2
   - Blockchain
   - Natural Language Processing
 image: '/images/patents/us10490304b2-image-001.png'

@@ -47,6 +47,7 @@ problem-solved-by-the-invention:
 topics:
 images:
 tags:
+  - US11769573B2
   - Blockchain
   - Remote Diagnostics
   - Artificial Intelligence and Machine Learning

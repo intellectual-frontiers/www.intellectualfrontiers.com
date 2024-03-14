@@ -46,6 +46,7 @@ problem-solved-by-the-invention:
 topics:
 images:
 tags:
+  - US10643208B2
   - Digital Payment
   - Data Valuation
   - Blockchain

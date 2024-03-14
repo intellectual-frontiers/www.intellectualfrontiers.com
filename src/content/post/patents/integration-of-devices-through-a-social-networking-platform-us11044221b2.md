@@ -55,6 +55,7 @@ downloadable-documents:
   - anchor_text: Download Claim Summaries
     link_url:
 tags:
+  - US11044221B2
   - Device Health Monitoring
   - Medical Device Automation
   - Near Field Communication (NFC)

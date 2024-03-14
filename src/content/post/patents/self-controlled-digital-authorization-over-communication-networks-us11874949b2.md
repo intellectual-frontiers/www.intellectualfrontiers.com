@@ -47,6 +47,7 @@ problem-solved-by-the-invention:
 topics:
 images:
 tags:
+  - US11874949B2
   - Authorization and Data Privacy
 image: '/images/patents/us11874949b2-image-patent.png'
 altText: patents in data privacy

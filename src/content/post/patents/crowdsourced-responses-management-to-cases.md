@@ -27,6 +27,7 @@ patentId: US9418355B2
 uspto-patent-number: US9418355B2
 inventor: Shahid N. Shah
 tags:
+  - US9418355B2
   - Feedback Management
 owner-current-assignee: Netspective Communications LLC
 patent-owners-rights:

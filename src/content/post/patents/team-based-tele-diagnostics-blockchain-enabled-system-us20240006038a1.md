@@ -47,6 +47,7 @@ problem-solved-by-the-invention:
 topics:
 images:
 tags:
+  - US2024006038A1
   - Artificial Intelligence and Machine Learning
   - Blockchain
   - Remote Diagnostics

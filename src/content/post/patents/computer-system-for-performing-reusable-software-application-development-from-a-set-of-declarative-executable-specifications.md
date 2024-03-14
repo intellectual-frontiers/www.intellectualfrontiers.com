@@ -55,6 +55,7 @@ downloadable-documents:
   - anchor_text: Download Claim Summaries
     link_url:
 tags:
+  - US7039898B2
   - Software
 ---
 

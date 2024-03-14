@@ -48,6 +48,7 @@ problem-solved-by-the-invention:
 topics:
 images:
 tags:
+  - US11388077B2
   - Blockchain
   - Artificial Intelligence and Machine Learning
   - Data Management

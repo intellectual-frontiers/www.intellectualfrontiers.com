@@ -47,6 +47,7 @@ problem-solved-by-the-invention:
 topics:
 images:
 tags:
+  - US10638999B2
   - Medical Device Automation
 image: '/images/patents/us10638999b2-image-001.png'
 altText: patent in medical devices

@@ -47,6 +47,7 @@ problem-solved-by-the-invention:
 topics:
 images:
 tags:
+  - US9870591B2
   - Blockchain
 image: '/images/patents/us9870591b2-image-1.png'
 altText: patent on blockchain system

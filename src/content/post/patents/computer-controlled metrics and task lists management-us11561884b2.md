@@ -47,6 +47,7 @@ problem-solved-by-the-invention:
 topics:
 images:
 tags:
+  - US11561884B2
   - Artificial Intelligence and Machine Learning
   - Device Health Monitoring
   - Software

@@ -48,6 +48,7 @@ problem-solved-by-the-invention:
 topics:
 images:
 tags:
+  - US11270263B2
   - Blockchain
 image: '/images/patents/us11270263b2-image-001.png'
 external-links: https://patents.google.com/patent/US11270263B2/

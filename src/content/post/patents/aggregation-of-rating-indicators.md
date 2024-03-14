@@ -47,6 +47,7 @@ problem-solved-by-the-invention:
 topics:
 images:
 tags:
+  - US10489830B2
   - Digital Reputation Management
   - Sentiment Analysis
 image: '/images/patents/us10489830b2-image-01.png'

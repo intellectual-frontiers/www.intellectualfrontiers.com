@@ -47,6 +47,7 @@ problem-solved-by-the-invention:
 topics:
 images:
 tags:
+  - US10586069B2
   - Digital Reputation Management
 image: '/images/patents/us10586069b2-image-001.png'
 altText: online reputation management

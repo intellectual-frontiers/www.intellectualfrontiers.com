@@ -47,6 +47,7 @@ problem-solved-by-the-invention:
 topics:
 images:
 tags:
+  - US20240015129A1
   - Near Field Communication (NFC)
   - Medical Device Automation
   - Device Health Monitoring

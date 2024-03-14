@@ -47,6 +47,7 @@ problem-solved-by-the-invention:
 topics:
 images:
 tags:
+  - US10403399B2
   - Tasks Automation
   - Remote Patient Monitoring
   - Authorization and Data Privacy

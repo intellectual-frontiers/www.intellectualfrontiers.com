@@ -47,6 +47,7 @@ problem-solved-by-the-invention:
 topics:
 images:
 tags:
+  - US11777894B2
   - Near Field Communication (NFC)
   - Device Health Monitoring
   - Medical Device Automation
