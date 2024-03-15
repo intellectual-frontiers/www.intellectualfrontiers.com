@@ -7,6 +7,9 @@ import BlogList from '~/components/article/List.astro';
 import Headline from '~/components/article/Headline.astro';
 import Pagination from '~/components/article/Pagination.astro';
 
+//Import the meta data json file
+import TopicsMetaData from '../../../../support/topicsmetadata.json';
+
 export const prerender = true;
 
 export const getStaticPaths = (async ({ paginate }) => {
@@ -27,12 +30,22 @@ const titleText = isPatentNumber
   ? tag.toUpperCase()
   : tag.replaceAll('-', ' ').replace(/\s[a-z]|^[a-z]/gi, (a) => a.toUpperCase());
 
+//Get the associated value for the tag
+const topicMetadataEntry = TopicsMetaData[tag];
+//Construct the meta tilte for the page
+const title =
+  topicMetadataEntry?.metaTitle ?? `Topic '${titleText}'${currentPage > 1 ? ` — Page ${currentPage} ` : ''}`;
+//Construct the meta description for the page
+const description = topicMetadataEntry?.metaDescription ?? '';
+//Update the metadata object
 const metadata = {
-  title: `${titleText} Topic ${currentPage > 1 ? ` — Page ${currentPage} ` : ''}`,
+  title,
+  description,
   robots: {
     index: blogTagRobots?.index,
     follow: blogTagRobots?.follow,
   },
+  ignoreTitleTemplate: true,
 };
 ---
 
@@ -42,7 +55,7 @@ const metadata = {
       <!-- {page.data.length}
       {page.data.length > 1 ? ' Matches' : ' Match'} Across Categories for Tag - -->
       <span class={isPatentNumber ? 'uppercase' : 'capitalize'}>
-        {tag.replaceAll('-', ' ')}
+        {topicMetadataEntry?.displayName ?? tag.replace(/-/g, ' ')}
       </span>
        Topic
     </Headline>
