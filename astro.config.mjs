@@ -35,7 +35,9 @@ export default defineConfig({
     '/tag': '/topics',
     '/market-potential': '/category/market-potential',
     '/patent-landscape/': '/category/patent-landscape',
-    '/blogs/': '/category/blogs',
+    '/blogs': '/category/blogs',
+    '/patent-summaries': '/category/patent-summaries',
+    '/use-cases': '/category/use-cases',
     '/category': {
       status: 302,
       destination: '/article'
