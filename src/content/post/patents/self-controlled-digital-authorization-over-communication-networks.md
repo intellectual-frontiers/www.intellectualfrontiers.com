@@ -27,6 +27,7 @@ patentId: US10963585B2
 uspto-patent-number: US10963585B2
 inventor: Shahid N. Shah
 tags:
+  - US10963585B2
   - Authorization and Data Privacy
   - Medical Device Automation
   - Near Field Communication (NFC)
