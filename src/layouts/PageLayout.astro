@@ -27,7 +27,12 @@ const { metadata, hideBreadcrumbs } = Astro.props;
   {
     !hideBreadcrumbs && (
       <div style="margin-top:50px" class="z-30 relative max-w-6xl mx-auto px-4 sm:px-4">
-        <Breadcrumbs ariaLabel="Site navigation" truncated={true} ellipsisAriaLabel="Show more breadcrumbs">
+        <Breadcrumbs
+          trailingSlash={false}
+          ariaLabel="Site navigation"
+          truncated={true}
+          ellipsisAriaLabel="Show more breadcrumbs"
+        >
           <svg
             slot="separator"
             xmlns="http://www.w3.org/2000/svg"
