@@ -16,6 +16,10 @@ module.exports = {
         serif: ['var(--aw-font-serif)', ...defaultTheme.fontFamily.serif],
         heading: ['var(--aw-font-heading)', ...defaultTheme.fontFamily.sans],
       },
+      lineClamp: {
+        7: '7',
+        8: '8',
+      },
     },
   },
   plugins: [require('@tailwindcss/typography')],
