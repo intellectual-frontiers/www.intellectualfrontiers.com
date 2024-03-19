@@ -9,6 +9,7 @@ import Featurestopic from '~/components/widgets/Featurestopic.astro';
 // import Steps from '~/components/widgets/Steps.astro';
 // import Content from '~/components/widgets/Content.astro';
 // import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import ArticleLatestPosts from '~/components/widgets/ArticleLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 // import Stats from '~/components/widgets/Stats.astro';
 // import CallToAction from '~/components/widgets/CallToAction.astro';
@@ -287,6 +288,11 @@ const metadata = {
   </Features2>
 
   <!-- HighlightedPosts Widget ******* -->
+
+  <ArticleLatestPosts
+    title="Latest Articles"
+    information={`Gain new perspectives through our latest articles, offering insights and expert guidance.`}
+  />
 
   <!-- <BlogLatestPosts
     title="Blog"
