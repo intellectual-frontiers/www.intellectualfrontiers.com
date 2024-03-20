@@ -32,12 +32,21 @@ export default defineConfig({
   output: 'static',
   redirects: {
     '/patent': '/patents',
+    '/category/patents': '/patents',
     '/tag': '/topics',
     '/market-potential': '/category/market-potential',
     '/patent-landscape/': '/category/patent-landscape',
     '/blogs': '/category/blogs',
     '/patent-summaries': '/category/patent-summaries',
     '/use-cases': '/category/use-cases',
+    '/use-cases/revolutionizing-healthcare-the-future-of-medical-devices-operation-automation': '/market-potential/revolutionizing-healthcare-the-future-of-medical-devices-operation-automation',
+    '/use-cases/revolutionizing-healthcare-the-future-of-medical-devices-operation-automation/': '/market-potential/revolutionizing-healthcare-the-future-of-medical-devices-operation-automation',
+    '/use-cases/digital-payment-systems-evolving-markets-and-emerging-trends': '/market-potential/digital-payment-systems-evolving-markets-and-emerging-trends',
+    '/use-cases/digital-payment-systems-evolving-markets-and-emerging-trends/': '/market-potential/digital-payment-systems-evolving-markets-and-emerging-trends',
+    '/patent-summaries/the-complexities-of-data-management-in-contemporary-healthcare': '/patent-summaries/the-complexities-of-data-management-in-contemporary-healthcare-solutions',
+    '/patent-summaries/the-complexities-of-data-management-in-contemporary-healthcare/': '/patent-summaries/the-complexities-of-data-management-in-contemporary-healthcare-solutions',
+    '/patent-summaries/tasks-scheduling-based-on-triggering-event-and-work-lists-management': '/patents/tasks-scheduling-based-on-triggering-event-and-work-lists-management',
+    '/patent-summaries/tasks-scheduling-based-on-triggering-event-and-work-lists-management/': '/patents/tasks-scheduling-based-on-triggering-event-and-work-lists-management',
     '/category': {
       status: 302,
       destination: '/article'
