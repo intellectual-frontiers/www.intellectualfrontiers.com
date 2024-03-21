@@ -28,7 +28,7 @@ const { metadata, hideBreadcrumbs } = Astro.props;
     !hideBreadcrumbs && (
       <div style="margin-top:50px" class="z-30 relative max-w-6xl mx-auto px-4 sm:px-4">
         <Breadcrumbs
-          trailingSlash={false}
+          linkTextFormat="capitalized"
           ariaLabel="Site navigation"
           truncated={true}
           ellipsisAriaLabel="Show more breadcrumbs"

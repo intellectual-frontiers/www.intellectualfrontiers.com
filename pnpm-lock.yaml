@@ -24,8 +24,8 @@ dependencies:
     specifier: ^4.0.3
     version: 4.0.3(sass@1.70.0)(typescript@5.3.3)
   astro-breadcrumbs:
-    specifier: ^2.0.2
-    version: 2.0.2(astro@4.0.3)
+    specifier: ^2.2.0
+    version: 2.2.0(astro@4.0.3)
   astro-icon:
     specifier: ^1.0.0-next.2
     version: 1.0.0-next.2
@@ -1827,8 +1827,8 @@ packages:
     hasBin: true
     dev: true
 
-  /astro-breadcrumbs@2.0.2(astro@4.0.3):
-    resolution: {integrity: sha512-tKhTHH0N70G1+8FO7Rg/gE6ZRLIS//kZO5SR0jzLJpMgWeigzBN8L5VKXx3Ur1p/QW99y2Qc+ewQ0YhdkTgnEw==}
+  /astro-breadcrumbs@2.2.0(astro@4.0.3):
+    resolution: {integrity: sha512-+qI0nAmoTJTbywZl/ql/PSVkBQG/HG2yPur5Gwb/3u5XiCRXuukwJAMpGLEUbySxtiUw4Q6IuKYm2PKzpGeq5Q==}
     peerDependencies:
       astro: ^2.0.0-beta.0 || ^3.0.0 || ^4.0.0
     dependencies:
