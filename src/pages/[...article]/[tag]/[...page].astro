@@ -54,10 +54,10 @@ const metadata = {
     <Headline>
       <!-- {page.data.length}
       {page.data.length > 1 ? ' Matches' : ' Match'} Across Categories for Tag - -->
-      <span class={isPatentNumber ? 'uppercase' : 'capitalize'}>
-        {topicMetadataEntry?.displayName ?? tag.replace(/-/g, ' ')}
+      <span class={isPatentNumber ? 'uppercase' : ''}>
+        {topicMetadataEntry?.displayName ?? "'" + tag.replace(/-/g, ' ') + "'"}
       </span>
-       Topic
+      {isPatentNumber && 'Patents and Insights'}
     </Headline>
     <BlogList posts={page.data} />
     <Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />
