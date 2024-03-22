@@ -1,20 +1,20 @@
 ---
 title: Precision Learning Patenting Trends (2014-2024)
-excerpt: Precision learning, characterized by its personalized and adaptive approach to educational delivery, has emerged as a significant opportunity in modern education.
+excerpt: Over a decade of innovation in precision learning and education has led to a significant surge in patent activity, with filings growing from 85 in 2014 to 1145 in 2023, marking a clear trend towards increased innovation and investment in this sector. Driven by a surge in demand for remote learning solutions during the COVID-19 pandemic, the precision learning sector has witnessed an unprecedented focus on developing and commercializing e-learning platforms recently, which is visible in patenting trends as well.
 sectiontype: article
 category: Patent Landscape
 image: '/images/patent-landscape/precision-learning-patenting-trends-cover.webp'
 patent-id: US11651459B2
 metadata:
   title: 'Precision Learning Patenting Trends'
-  description: 'Precision learning, characterized by its personalized and adaptive approach to educational delivery, has emerged as a significant opportunity in modern education.'
+  description: 'Over a decade of innovation in precision learning and education has led to a significant surge in patent activity, with filings growing from 85 in 2014 to 1145 in 2023, marking a clear trend towards increased innovation and investment in this sector. Driven by a surge in demand for remote learning solutions during the COVID-19 pandemic, the precision learning sector has witnessed an unprecedented focus on developing and commercializing e-learning platforms recently, which is visible in patenting trends as well.'
   robots:
     index: true
     follow: true
   openGraph:
     title: 'Precision Learning Patenting Trends | IntellectualFrontiers'
     site_name: 'IntellectualFrontiers'
-    description: Precision learning, characterized by its personalized and adaptive approach to educational delivery, has emerged as a significant opportunity in modern education.
+    description: Over a decade of innovation in precision learning and education has led to a significant surge in patent activity, with filings growing from 85 in 2014 to 1145 in 2023, marking a clear trend towards increased innovation and investment in this sector. Driven by a surge in demand for remote learning solutions during the COVID-19 pandemic, the precision learning sector has witnessed an unprecedented focus on developing and commercializing e-learning platforms recently, which is visible in patenting trends as well.
     images:
       - url: '/images/patent-landscape/precision-learning-patenting-trends-cover.webp'
         width: 1200
