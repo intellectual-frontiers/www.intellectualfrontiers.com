@@ -29,6 +29,8 @@ url: '/use-cases/enhancing-education-with-ai-chatbots-powered-by-real-time-conte
 image: '/images/use-cases/enhancing-education-with-ai-chatbots-powered-by-real-time-contextual-micro-content-streaming.webp'
 tags:
   - US11651459B2
+  - US11423500B2
+  - US20230245255A1
   - Precision Learning
 ---
 

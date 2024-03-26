@@ -28,6 +28,8 @@ url: '/patent-landscape/a-comprehensive-landscape-analysis-of-electronic-medical
 publishDate: 2024-02-10
 tags:
   - US10089492B2
+  - US10984913B2
+  - US10403399B2
   - Electronic Medical Records (EMR)
 ---
 
