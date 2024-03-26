@@ -39,14 +39,20 @@ This analysis of the patented technologies in precision learning over the last 1
 
 Our objective extends beyond mere dissemination of information. We look forward to fostering collaborative endeavours and facilitate strategic decision-making processes across the industry possibly helping companies make patent purchase decisions. Through identification of growth prospects, identification of untapped avenues, and delineation of future research and development trajectories, our aim is to equip stakeholders such as investors and technology corporations with the insights necessary to understand the landscape of precision learning with confidence and foresight.
 
-<br>
-
-<span class="italic text-sky-800 font-semibold">
+<!-- <span class="italic text-sky-800 font-semibold">
 This analysis offers a comprehensive examination of the patent landscape concerning Precision Learning and Precision Education. Initially, a corpus of approximately 10,281 distinct patent families, totalling 7,135 patents, underwent thorough scrutiny. Through triaging and relevance assessment, 4,178 unique patent families relevant to precision learning were identified and evaluated for preparing this analysis. Originating from diverse jurisdictions worldwide, these patents encapsulate a decade of advancements leading up to February 2024. This provides a panoramic insight into the technological progression and unexplored territories within this area, offering valuable opportunities for enterprises interested in acquiring or developing patents in this burgeoning sector.
-</span>
+</span> -->
 
-<br>
-<br>
+<hr class="w-48 h-1 mx-auto my-4 bg-gray-200 border-0 rounded md:my-10 dark:bg-gray-700">
+
+<div class=" text-center items-start">
+<p class="text-gray-800 sm:text-xl dark:text-white !mt-0" style="word-spacing: 1px;"><i style="line-height:10px">
+<svg xmlns="http://www.w3.org/2000/svg"  class="max-[600px]:w-5 w-6 max-[600px]:!pt-0" style="padding-top:0px; display:inline !important; margin-top: -5px;" fill="none" stroke="#f00505" stroke-width="0.00024000000000000003" viewBox="7 9 10.13 5.61"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.192"></g><g id="SVGRepo_iconCarrier"> <path d="M9.13456 9H12.1346L10 14.6075H7L9.13456 9Z" fill="#d10000"></path> <path d="M14.1346 9H17.1346L15 14.6075H12L14.1346 9Z" fill="#d10000"></path> </g></svg>
+<span class="text-sky-800 font-semibold">This analysis offers a comprehensive examination of the patent landscape concerning Precision Learning and Precision Education. Initially, a corpus of approximately 10,281 distinct patent families, totalling 7,135 patents, underwent thorough scrutiny. Through triaging and relevance assessment, 4,178 unique patent families relevant to precision learning were identified and evaluated for preparing this analysis. Originating from diverse jurisdictions worldwide, these patents encapsulate a decade of advancements leading up to February 2024. This provides a panoramic insight into the technological progression and unexplored territories within this area, offering valuable opportunities for enterprises interested in acquiring or developing patents in this burgeoning sector.
+</i></span></p>
+</div>
+
+<hr class="w-48 h-1 mx-auto my-4 bg-gray-200 border-0 rounded md:my-10 dark:bg-gray-700">
 
 The graphical representation below depicts the quantity of unique patent families published annually concerning precision learning and education. Spanning from 2014 to Feb 2024, this data underscores a discernible pattern in patent filing activity across the years.
 
