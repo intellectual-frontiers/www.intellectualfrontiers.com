@@ -35,9 +35,9 @@ const topicMetadataEntry = TopicsMetaData[tag];
 //Construct the meta tilte for the page
 const title =
   topicMetadataEntry?.metaTitle ??
-  `${titleText} Patents and Insights ${currentPage > 1 ? ` — Page ${currentPage} ` : ''}`;
+  `${titleText} Patent and Insights ${currentPage > 1 ? ` — Page ${currentPage} ` : ''}`;
 //Construct the meta description for the page
-const description = topicMetadataEntry?.metaDescription ?? `${titleText} Patents and Insights`;
+const description = topicMetadataEntry?.metaDescription ?? `${titleText} Patent and Insights`;
 //Update the metadata object
 const metadata = {
   title,
@@ -52,13 +52,19 @@ const metadata = {
 
 <Layout metadata={metadata}>
   <section class="px-4 md:px-6 pb-12 sm:pb-16 lg:pb-20 pt-6 sm:pt-6 lg:pt-6 mx-auto max-w-4xl">
-    <Headline>
+    <Headline
+      subtitle={topicMetadataEntry?.shortDescription ??
+        `Access the patent <span class="uppercase">${tag.replace(
+          /-/g,
+          ' '
+        )}</span> available for acquisition. This collection includes detailed patent information, use cases, landscape analyses, market studies, informative articles, and additional resources to support informed decision-making.`}
+    >
       <!-- {page.data.length}
       {page.data.length > 1 ? ' Matches' : ' Match'} Across Categories for Tag - -->
       <span class={isPatentNumber ? 'uppercase' : ''}>
         {topicMetadataEntry?.displayName ?? "'" + tag.replace(/-/g, ' ') + "'"}
       </span>
-      {isPatentNumber && 'Patents and Insights'}
+      {isPatentNumber && 'Patent and Insights'}
     </Headline>
     <BlogList posts={page.data} />
     <Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />
