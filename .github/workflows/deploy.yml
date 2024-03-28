@@ -1,39 +1,42 @@
-name: Deploy
+```name: CI/CD Workflow
 on:
   push:
-    branches: main
-  pull_request:
-    branches: main
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
-  deploy:
-    name: Deploy
+  build-and-deploy:
     runs-on: ubuntu-latest
 
-    permissions:
-      id-token: write # Needed for auth with Deno Deploy
-      contents: read # Needed to clone the repository
-
     steps:
-      - name: Clone repository
-        uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-      - name: Install Deno
-        uses: denoland/setup-deno@v1
-        with:
-          deno-version: v1.x
+      - name: Install SSH Client
+        run: |
+          sudo apt update
+          sudo apt install openssh-client -y
 
-      - name: Install Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: lts/*
+      - name: Set up SSH agent
+        run: |
+          eval $(ssh-agent -s)
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          echo -e "${{ secrets.SSH_PRIVATE_KEY_PROD }}" >> ~/.ssh/id_rsa
+          chmod 400 ~/.ssh/id_rsa
 
-      - name: Build step
-        run: "npm install pnpm -g && pnpm run deno-deploy" # 📝 Update the build command(s) if necessary
+      - name: Install dependencies and build using npm
+        run: "npm run deno-deploy"
 
-      - name: Upload to Deno Deploy
-        uses: denoland/deployctl@v1
-        with:
-          project: "intellectualfrontiers"
-          entrypoint: "server.ts" # 📝 Update the entrypoint if necessary
-          root: "deno-deploy" # 📝 Update the root if necessary
+      - name: Archive build artifacts
+        run: |
+          tar -czvf intellectualfrontiers.tar.gz deno-deploy
+
+      - name: Copy build artifacts to the production server
+        run: |
+          scp -P22 -o StrictHostKeyChecking=no intellectualfrontiers.tar.gz "${{ secrets.PRODUCTION_DEPLOYMENT_USER }}@${{ secrets.PRODUCTION_DEPLOYMENT_SERVER_IP }}:"
+
+      - name: Deploy to production server
+        run: |
+          ssh -p22 -o StrictHostKeyChecking=no -t ${{ secrets.PRODUCTION_DEPLOYMENT_USER }}@${{ secrets.PRODUCTION_DEPLOYMENT_SERVER_IP }} "bash -i intellectual-frontiers.sh"
