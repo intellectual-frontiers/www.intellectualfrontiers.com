@@ -24,7 +24,9 @@ const currentPage = page.currentPage ?? 1;
 // const allTags = await findTags();
 
 const metadata = {
-  title: `Article${currentPage > 1 ? ` — Page ${currentPage}` : ''}`,
+  title: `Patents and Innovation Insights - Intellectual Frontiers`,
+  description:
+    'Explore key insights into technological innovations at Intellectual Frontiers. Dive into our latest articles for actionable guidance to strengthen your intellectual property.',
   robots: {
     index: blogListRobots?.index && currentPage === 1,
     follow: blogListRobots?.follow,

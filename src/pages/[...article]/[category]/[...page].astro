@@ -22,29 +22,34 @@ const currentPage = page.currentPage ?? 1;
 const metadata = {
   title: `${
     category === 'market-potential'
-      ? 'Market Potential of Intellectual Frontiers Leading Patents'
+      ? 'Technology Patent Growth & Market Potential | Intellectual Frontiers'
       : category === 'patent-summaries'
-        ? 'Simplified Patent Summaries for Strategic Investment'
+        ? 'Patent Summaries - Trending Patents Simplified | Intellectual Frontiers'
         : category === 'blogs'
-          ? 'Intellectual Frontiers Blog: Insights on Patent Acquisition & IP Investment'
+          ? 'Intellectual Frontiers Blogs: Insights & Analysis'
           : category === 'use-cases'
-            ? 'Use Cases'
-            : category.replaceAll('-', ' ')
+            ? 'Practical Patent Applications | Use Cases at Intellectual Frontiers'
+            : category === 'patent-landscape'
+              ? 'Patent Landscape Insights | Intellectual Frontiers'
+              : category.replaceAll('-', ' ')
   } ${currentPage > 1 ? ` — Page ${currentPage}` : ''}`,
   description:
     category === 'market-potential'
-      ? 'Access in-depth market analysis of patents with our Strategic Patent Insights, offering a clear view of market potentials and technological impact of Intellectual Frontiers Patents'
+      ? 'Explore in-depth growth analysis and market potential for technology patents listed on Intellectual Frontiers. Gain strategic insights before making patent purchase decisions.'
       : category === 'patent-summaries'
-        ? 'Explore easy-to-understand overviews of tech patents with our Simplified Patent Summaries. Ideal for making informed technology investment decisions'
+        ? 'Explore layman patent summaries of most-trending high-growth patents at Intellectual Frontiers. Check out expert insights and analysis.'
         : category === 'blogs'
-          ? 'Explore the Intellectual Frontiers Blog for authoritative insights on patent acquisition and IP strategies'
+          ? 'Engage with Intellectual Frontiers Blogs for the latest insights and comprehensive analysis on patents purchase, sale or licensing, technology trends, and innovation strategies.'
           : category === 'use-cases'
-            ? 'Uses Cases'
-            : '',
+            ? 'Explore the diverse use cases of cutting-edge patents on Intellectual Frontiers. Gain actionable insights into how innovative technologies are transforming industries.'
+            : category === 'patent-landscape'
+              ? 'Discover key insights and trends in the patent landscape with Intellectual Frontiers. Gain a competitive edge in innovation and IP management.'
+              : '',
   robots: {
     index: blogCategoryRobots?.index,
     follow: blogCategoryRobots?.follow,
   },
+  ignoreTitleTemplate: true,
 };
 ---
 
