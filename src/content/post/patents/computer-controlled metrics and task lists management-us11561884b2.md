@@ -34,7 +34,7 @@ application-date:
 issue-date:
 expiry-date:
 patentStatus: Active - Granted
-url: '/patents/computer-controlled-precision-education-and-training-us11561884b2'
+url: '/patents/computer-controlled-metrics-and-task-lists-management-us11561884b2'
 category: Patents
 uspto-patent-url:
 thumbnail:
