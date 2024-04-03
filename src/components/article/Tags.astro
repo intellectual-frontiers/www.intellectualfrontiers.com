@@ -4,6 +4,9 @@ import { getPermalink } from '../../utils/permalinks';
 import { APP_ARTICLE } from '../../utils/config';
 import type { Post } from '../../types';
 
+//Import the patent urls json file
+import patenturl from '../../../support/patenturls.json';
+
 export interface Props {
   tags: Post['tags'];
   class?: string;
@@ -39,8 +42,13 @@ const { tags, class: className = 'text-sm', title = undefined, isCategory = fals
               {!APP_ARTICLE?.tag?.isEnabled ? (
                 tag
               ) : (
+                //If the tag is of type patent number, then change the anchor link so that clicking on it user is directed to the respective patent page
                 <a
-                  href={getPermalink(tag, isCategory ? 'category' : 'tag')}
+                  href={
+                    isPatentNumber
+                      ? '/patents/' + patenturl[tag.replaceAll('-', ' ').toUpperCase()]?.url
+                      : getPermalink(tag, isCategory ? 'category' : 'tag')
+                  }
                   class="text-muted dark:text-slate-300 hover:text-primary dark:hover:text-gray-200"
                 >
                   {tag.replaceAll('-', ' ')}
