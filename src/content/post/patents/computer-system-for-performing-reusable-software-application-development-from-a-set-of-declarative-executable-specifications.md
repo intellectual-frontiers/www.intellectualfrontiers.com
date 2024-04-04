@@ -26,13 +26,13 @@ uspto-canonical-id-label: Patent
 patentId: US7039898B2
 uspto-patent-number: US7039898B2
 inventor: Shahid N. Shah
-owner-current-assignee: Netspective Communications LLC
+currentAssignee: Netspective Communications LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:
-application-date:
+applicationDate:
 issue-date:
-expiry-date:
+expiryDate:
 patentStatus: Active - Granted
 url: '/patents/computer-system-for-performing-reusable-software-application-development-from-a-set-of-declarative-executable-specifications'
 category: Patents
@@ -44,7 +44,7 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-topics:
+patentSummaryLink:
 images:
 image: '/images/patents/us7039898b2-image-01.jpg'
 altText: software application development patent

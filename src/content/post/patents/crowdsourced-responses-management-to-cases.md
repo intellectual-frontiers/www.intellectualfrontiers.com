@@ -29,13 +29,13 @@ inventor: Shahid N. Shah
 tags:
   - US9418355B2
   - Feedback Management
-owner-current-assignee: Netspective Communications LLC
+currentAssignee: Netspective Communications LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:
-application-date:
+applicationDate:
 issue-date:
-expiry-date:
+expiryDate:
 patentStatus: Active - Granted
 url: '/patents/crowdsourced-responses-management-to-cases'
 category: Patents
@@ -47,7 +47,7 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-topics:
+patentSummaryLink:
 images:
 image: '/images/patents/us9418355b2-image-1.png'
 altText: crowdsourced response patents

@@ -26,13 +26,13 @@ metadata:
 patentId: US20240015129A1
 uspto-patent-number: US20240015129A1
 inventor: Shahid N. Shah
-owner-current-assignee: Netspective Communications LLC
+currentAssignee: Netspective Communications LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:
-application-date:
+applicationDate:
 issue-date:
-expiry-date:
+expiryDate:
 patentStatus: Active - Applied
 url: '/patents/integration-of-devices-through-a-social-networking-platform-us20240015129a1'
 category: Patents
@@ -44,7 +44,7 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-topics:
+patentSummaryLink:
 images:
 tags:
   - US20240015129A1

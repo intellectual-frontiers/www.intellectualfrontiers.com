@@ -26,13 +26,13 @@ uspto-canonical-id-label: Patent
 patentId: US11888597B2
 uspto-patent-number: US11888597B2
 inventor: Shahid N. Shah
-owner-current-assignee: INTELLECTUAL FRONTIERS LLC
+currentAssignee: INTELLECTUAL FRONTIERS LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:
-application-date:
+applicationDate:
 issue-date:
-expiry-date:
+expiryDate:
 patentStatus: Active - Granted
 url: '/patents/computer-executable-and-traceable-metric-queues-system-us11888597b2'
 category: Patents
@@ -44,7 +44,7 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-topics:
+patentSummaryLink:
 images:
 tags:
   - US11888597B2

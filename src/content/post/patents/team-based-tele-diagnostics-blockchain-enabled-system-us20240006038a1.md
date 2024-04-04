@@ -26,13 +26,13 @@ metadata:
 patentId: US2024006038A1
 uspto-patent-number: US2024006038A1
 inventor: Shahid N. Shah
-owner-current-assignee: INTELLECTUAL FRONTIERS LLC
+currentAssignee: INTELLECTUAL FRONTIERS LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:
-application-date:
+applicationDate:
 issue-date:
-expiry-date:
+expiryDate:
 patentStatus: Active - Applied
 url: '/patents/team-based-tele-diagnostics-blockchain-enabled-system-us20240006038a1'
 category: Patents
@@ -44,7 +44,7 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-topics:
+patentSummaryLink:
 images:
 tags:
   - US2024006038A1

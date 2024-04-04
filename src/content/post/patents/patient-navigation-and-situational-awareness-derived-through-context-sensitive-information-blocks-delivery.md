@@ -31,13 +31,13 @@ tags:
   - US10089492B2
   - Data Management
   - Electronic Medical Records (EMR)
-owner-current-assignee: Netspective Communications LLC
+currentAssignee: Netspective Communications LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:
-application-date:
+applicationDate:
 issue-date:
-expiry-date:
+expiryDate:
 patentStatus: Active - Granted
 url: '/patents/patient-navigation-and-situational-awareness-derived-through-context-sensitive-information-blocks-delivery'
 uspto-patent-url:
@@ -48,7 +48,7 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-topics:
+patentSummaryLink:
 images:
 image: '/images/patents/us10089492b2-image.png'
 altText: future of electronic medical records

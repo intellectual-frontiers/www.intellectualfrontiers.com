@@ -26,13 +26,13 @@ uspto-canonical-id-label: Patent
 patentId: US9846896B2
 uspto-patent-number: US9846896B2
 inventor: Shahid N. Shah
-owner-current-assignee: Netspective Communications LLC
+currentAssignee: Netspective Communications LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:
-application-date:
+applicationDate:
 issue-date:
-expiry-date:
+expiryDate:
 patentStatus: Active - Granted
 url: '/patents/aggregation-of-rating-indicators-us9846896b2'
 category: Patents
@@ -44,7 +44,7 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-topics:
+patentSummaryLink:
 images:
 tags:
   - US9846896B2

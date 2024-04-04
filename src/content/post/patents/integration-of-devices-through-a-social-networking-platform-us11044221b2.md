@@ -25,13 +25,13 @@ metadata:
 patentId: US11044221B2
 uspto-patent-number: US11044221B2
 inventor: Shahid N. Shah
-owner-current-assignee: INTELLECTUAL FRONTIERS LLC
+currentAssignee: INTELLECTUAL FRONTIERS LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:
-application-date:
+applicationDate:
 issue-date:
-expiry-date:
+expiryDate:
 excerpt: A system and method for providing a social networking service to a plurality of devices. A social networking server for facilitating social information exchange among the plurality of devices through a socially aware network.
 patentStatus: Active - Granted
 url: '/patents/integration-of-devices-through-a-social-networking-platform-us11044221b2'
@@ -44,7 +44,7 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-topics:
+patentSummaryLink:
 images:
 image: '/images/patents/us11044221b2-image-001.png'
 altText: medical device integration

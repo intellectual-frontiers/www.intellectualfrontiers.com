@@ -26,13 +26,13 @@ metadata:
 patentId: US10490304B2
 uspto-patent-number: US10490304B2
 inventor: Shahid N. Shah
-owner-current-assignee: Netspective Communications LLC
+currentAssignee: Netspective Communications LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:
-application-date:
+applicationDate:
 issue-date:
-expiry-date:
+expiryDate:
 patentStatus: Active - Granted
 url: '/patents/device-driven-non-intermediated-blockchain-system-over-a-social-integrity-network'
 category: Patents
@@ -44,7 +44,7 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-topics:
+patentSummaryLink:
 images:
 tags:
   - US10490304B2

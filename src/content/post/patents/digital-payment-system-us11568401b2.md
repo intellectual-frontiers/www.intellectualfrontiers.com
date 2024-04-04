@@ -25,13 +25,13 @@ metadata:
 patentId: US11568401B2
 uspto-patent-number: US11568401B2
 inventor: Shahid N. Shah
-owner-current-assignee: INTELLECTUAL FRONTIERS LLC
+currentAssignee: INTELLECTUAL FRONTIERS LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:
-application-date:
+applicationDate:
 issue-date:
-expiry-date:
+expiryDate:
 patentStatus: Active - Granted
 url: '/patents/digital-payment-system-us11568401b2'
 altText: digital payment system patent
@@ -44,7 +44,7 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-topics:
+patentSummaryLink:
 images:
 tags:
   - US11568401B2

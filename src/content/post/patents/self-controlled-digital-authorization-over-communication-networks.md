@@ -31,13 +31,13 @@ tags:
   - Authorization and Data Privacy
   - Medical Device Automation
   - Near Field Communication (NFC)
-owner-current-assignee: Netspective Communications LLC
+currentAssignee: Netspective Communications LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:
-application-date:
+applicationDate:
 issue-date:
-expiry-date:
+expiryDate:
 patentStatus: Active - Granted
 url: '/patents/self-controlled-digital-authorization-over-communication-networks'
 category: Patents
@@ -49,7 +49,7 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-topics:
+patentSummaryLink:
 images:
 image: '/images/patents/us10963585b2-image-01.png'
 altText: patents in authorization and data privacy
