@@ -11,6 +11,15 @@ const formatter: Intl.DateTimeFormat =
 
 export const getFormattedDate = (date: Date): string => (date ? formatter.format(date) : '');
 
+//For displaying long month name
+const formatterLongMonth: Intl.DateTimeFormat = new Intl.DateTimeFormat('en', {
+  year: 'numeric',
+  month: 'long', // Use 'long' for the new formatter
+  day: 'numeric',
+  timeZone: 'UTC',
+});
+export const getFormattedDateWithLongMonth = (date: Date): string => (date ? formatterLongMonth.format(date) : '');
+
 export const trim = (str = '', ch?: string) => {
   let start = 0,
     end = str.length || 0;
