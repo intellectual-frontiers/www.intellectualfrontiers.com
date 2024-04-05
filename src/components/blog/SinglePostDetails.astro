@@ -7,7 +7,7 @@ import SocialShare from '~/components/common/SocialShare.astro';
 
 import { getPermalink } from '~/utils/permalinks';
 import { getFormattedDate } from '~/utils/utils';
-// import {getFormattedDateWithLongMonth} from '~/utils/utils';
+import { getFormattedDateWithLongMonth } from '~/utils/utils';
 
 import type { Post } from '~/types';
 
@@ -29,7 +29,7 @@ const { Content } = post;
   <section class="w-full md:w-2/3 flex flex-col items-center px-3 rounded-md">
     <article class="flex flex-col shadow my-4">
       <!-- Article Image -->
-      <a href="#" class="hover:opacity-75 mt-4">
+      <a href="#" class="mt-4">
         {
           post.image ? (
             <Image
@@ -69,10 +69,10 @@ const { Content } = post;
         <p class="text-2xl font-bold pt-3 pb-1">{post.patentId}</p>
         <p class="text-md font-bold pb-3 text-emerald-600 uppercase">{post.patentStatus}</p>
       </div>
-      <p class="pb-2 p-2 font-bold">Brief Summary</p>
+      <!-- <p class="pb-2 p-2 font-bold">Brief Summary</p>
       <p class="pb-2 p-2">
         {post?.excerpt}
-      </p>
+      </p> -->
       <div class="px-2 pb-6">
         <!-- <a
           href={downloadFile}
@@ -93,7 +93,9 @@ const { Content } = post;
         <p class="pb-1 pa-2"><strong>Inventor:</strong> {post.inventor}</p>
         <!-- <p class="pb-1 ap-2"><strong>Current Assignee:</strong>{post.currentAssignee}</p>
         <p class="pb-1 ap-2"><strong>Application Date:</strong>{getFormattedDateWithLongMonth(post.applicationDate)}</p> -->
-        <p class="pb-1 pa-2"><strong>Publication Date:&nbsp;</strong>{getFormattedDate(post.publishDate)}</p>
+        <p class="pb-1 pa-2">
+          <strong>Publication Date:&nbsp;</strong>{getFormattedDateWithLongMonth(post.publishDate)}
+        </p>
         <!-- <p class="pb-1 ap-2"><strong>Expiry Date:</strong>{getFormattedDateWithLongMonth(post.expiryDate)}</p> -->
         <!-- <p class="pb-2 pd-2"><strong>Family Members:</strong> None</p>
         <p>
@@ -113,7 +115,7 @@ const { Content } = post;
         </p> -->
       </div>
     </div>
-    <div class="flex !justify-start pt-4" style="justify-content: flex-start !important;">
+    <div class="flex !justify-start pt-4">
       <PostTags tags={post.tags} class="text-lg justify-start" />
     </div>
   </aside>
