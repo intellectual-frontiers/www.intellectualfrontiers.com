@@ -49,7 +49,9 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-patentSummaryLink:
+patentSummaryLinks:
+  - summaryTitle: 'Autonomous Authorization Mechanisms in Modern Communication Networks'
+    link: 'https://www.intellectualfrontiers.com/patent-summaries/autonomous-authorization-mechanisms-in-modern-communication-networks'
 images:
 image: '/images/patents/us10963585b2-image-01.png'
 altText: patents in authorization and data privacy

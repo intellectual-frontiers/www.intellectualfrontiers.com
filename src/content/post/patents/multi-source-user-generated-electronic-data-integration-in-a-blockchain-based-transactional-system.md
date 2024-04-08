@@ -44,7 +44,9 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-patentSummaryLink:
+patentSummaryLinks:
+  - summaryTitle: 'Unified Integration of Multi-Source User-Generated Electronic Data in Transactional Platforms'
+    link: 'https://www.intellectualfrontiers.com/patent-summaries/unified-integration-of-multi-source-user-generated-electronic-data-in-transactional-platforms'
 images:
 tags:
   - US10839020B2

@@ -44,7 +44,9 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-patentSummaryLink:
+patentSummaryLinks:
+  - summaryTitle: 'Intelligent Device Collaboration for Social Networking Benefits'
+    link: 'https://www.intellectualfrontiers.com/patent-summaries/intelligent-device-collaboration-for-social-networking-benefits'
 images:
 image: '/images/patents/us11044221b2-image-001.png'
 altText: medical device integration

@@ -44,7 +44,9 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-patentSummaryLink:
+patentSummaryLinks:
+  - summaryTitle: 'Efficient Method for Tracking Changes in User Profiles Over Time'
+    link: 'https://www.intellectualfrontiers.com/patent-summaries/efficient-method-for-tracking-changes-in-user-profiles-over-time'
 images:
 tags:
   - US10586069B2

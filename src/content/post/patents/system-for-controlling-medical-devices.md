@@ -44,7 +44,9 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-patentSummaryLink:
+patentSummaryLinks:
+  - summaryTitle: 'The Complexities of Data Management in Contemporary Healthcare Solutions'
+    link: 'https://www.intellectualfrontiers.com/patent-summaries/the-complexities-of-data-management-in-contemporary-healthcare-solutions'
 images:
 tags:
   - US11006920B2

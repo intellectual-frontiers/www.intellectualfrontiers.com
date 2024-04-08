@@ -44,7 +44,9 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-patentSummaryLink:
+patentSummaryLinks:
+  - summaryTitle: 'Integrated Healthcare System with Predictive Analytics and Risk Management through Social Networking'
+    link: 'https://www.intellectualfrontiers.com/patent-summaries/integrated-healthcare-system-with-predictive-analytics-and-risk-management-through-social-networking'
 images:
 image: '/images/patents/us10320735b2-image-01.png'
 altText: NFC patent

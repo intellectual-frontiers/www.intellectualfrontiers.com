@@ -44,7 +44,9 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-patentSummaryLink:
+patentSummaryLinks:
+  - summaryTitle: 'Healthcare Workflows- Seamless Task Management and Real-time Insights'
+    link: 'https://www.intellectualfrontiers.com/patent-summaries/healthcare-workflows-seamless-task-management-and-real-time-insights'
 images:
 tags:
   - US10403399B2

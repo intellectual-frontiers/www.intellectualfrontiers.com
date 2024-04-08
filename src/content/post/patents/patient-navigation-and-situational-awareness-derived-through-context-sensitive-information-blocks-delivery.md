@@ -48,7 +48,9 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-patentSummaryLink:
+patentSummaryLinks:
+  - summaryTitle: 'Context-Sensitive Information Delivery for Improved Patient Navigation and Situational Awareness'
+    link: 'https://www.intellectualfrontiers.com/patent-summaries/context-sensitive-information-delivery-for-improved-patient-navigation-and-situational-awareness'
 images:
 image: '/images/patents/us10089492b2-image.png'
 altText: future of electronic medical records

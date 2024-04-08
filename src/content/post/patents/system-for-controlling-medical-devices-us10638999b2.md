@@ -44,7 +44,9 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-patentSummaryLink:
+patentSummaryLinks:
+  - summaryTitle: 'Controlling Medical Devices for Patient Care and Data Management'
+    link: 'https://www.intellectualfrontiers.com/patent-summaries/controlling-medical-devices-for-patient-care-and-data-management'
 images:
 tags:
   - US10638999B2
