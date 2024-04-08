@@ -44,7 +44,9 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-patentSummaryLink:
+patentSummaryLinks:
+  - summaryTitle: 'Reusable Software Development with Declarative Executable Specifications'
+    link: 'https://www.intellectualfrontiers.com/patent-summaries/reusable-software-development-with-declarative-executable-specifications'
 images:
 image: '/images/patents/us7039898b2-image-01.jpg'
 altText: software application development patent

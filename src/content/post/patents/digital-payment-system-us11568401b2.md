@@ -44,7 +44,9 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-patentSummaryLink:
+patentSummaryLinks:
+  - summaryTitle: 'A Cloud-Based Payment System Empowering Transactions Through Data Worth'
+    link: 'https://www.intellectualfrontiers.com/patent-summaries/a-cloud-based-payment-system-empowering-transactions-through-data-worth'
 images:
 tags:
   - US11568401B2

@@ -44,7 +44,9 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-patentSummaryLink:
+patentSummaryLinks:
+  - summaryTitle: 'Integrated Health Management System with Medical Device Relationships and Fault Detection'
+    link: 'https://www.intellectualfrontiers.com/patent-summaries/integrated-health-management-system-with-medical-device-relationships-and-fault-detection'
 images:
 tags:
   - US9525753B2

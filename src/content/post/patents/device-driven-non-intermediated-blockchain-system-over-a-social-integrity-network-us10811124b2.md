@@ -44,7 +44,9 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-patentSummaryLink:
+patentSummaryLinks:
+  - summaryTitle: 'Device-Driven Social Integrity Network with Data Validation and Identity Verification'
+    link: 'https://www.intellectualfrontiers.com/patent-summaries/device-driven-social-integrity-network-with-data-validation-and-identity-verification'
 images:
 tags:
   - US10811124B2

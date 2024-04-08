@@ -44,7 +44,9 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-patentSummaryLink:
+patentSummaryLinks:
+  - summaryTitle: 'Adaptive Micro-Content Delivery for Enhanced Workflow Performance'
+    link: 'https://www.intellectualfrontiers.com/patent-summaries/adaptive-micro-content-delivery-for-enhanced-workflow-performance'
 images:
 tags:
   - US11651459B2

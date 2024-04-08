@@ -47,7 +47,9 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-patentSummaryLink:
+patentSummaryLinks:
+  - summaryTitle: 'Efficient Response Management System and Method for Crowdsourced Networks'
+    link: 'https://www.intellectualfrontiers.com/patent-summaries/efficient-response-management-system-and-method-for-crowdsourced-networks'
 images:
 image: '/images/patents/us9418355b2-image-1.png'
 altText: crowdsourced response patents

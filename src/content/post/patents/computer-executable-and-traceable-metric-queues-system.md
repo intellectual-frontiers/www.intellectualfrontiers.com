@@ -45,7 +45,9 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-patentSummaryLink:
+patentSummaryLinks:
+  - summaryTitle: 'Digital Evaluation and Tracking of Performance Metrics'
+    link: 'https://www.intellectualfrontiers.com/patent-summaries/digital-evaluation-and-tracking-of-performance-metrics'
 images:
 tags:
   - US11388077B2

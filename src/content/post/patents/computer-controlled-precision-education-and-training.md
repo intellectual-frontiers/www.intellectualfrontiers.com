@@ -44,7 +44,9 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-patentSummaryLink:
+patentSummaryLinks:
+  - summaryTitle: 'Precision Education and Training Through Contextual Micro-Content Streaming'
+    link: 'https://www.intellectualfrontiers.com/patent-summaries/precision-education-and-training-through-contextual-micro-content-streaming'
 images:
 tags:
   - US11423500B2

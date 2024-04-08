@@ -44,7 +44,9 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-patentSummaryLink:
+patentSummaryLinks:
+  - summaryTitle: 'Direct Blockchain System for Devices on a Social Trust Network'
+    link: 'https://www.intellectualfrontiers.com/patent-summaries/direct-blockchain-system-for-devices-on-a-social-trust-network'
 images:
 tags:
   - US10490304B2

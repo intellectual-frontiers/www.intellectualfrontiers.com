@@ -44,7 +44,9 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-patentSummaryLink:
+patentSummaryLinks:
+  - summaryTitle: 'Blockchain-Powered Expertise-Driven Document Review and Scoring'
+    link: 'https://www.intellectualfrontiers.com/patent-summaries/blockchain-powered-expertise-driven-document-review-and-scoring'
 images:
 tags:
   - US9870591B2

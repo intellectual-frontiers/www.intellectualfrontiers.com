@@ -43,7 +43,9 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-patentSummaryLink:
+patentSummaryLinks:
+  - summaryTitle: 'Digital Payment Technology as a Seamless Facilitator of Transactions'
+    link: 'https://www.intellectualfrontiers.com/patent-summaries/digital-payment-technology-as-a-seamless-facilitator-of-transactions'
 images:
 tags:
   - US10643208B2

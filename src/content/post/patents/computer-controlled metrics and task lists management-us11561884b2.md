@@ -44,7 +44,9 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-patentSummaryLink:
+patentSummaryLinks:
+  - summaryTitle: 'Optimization of Performance Metrics Based on Real-Time Feedback and Artificial Intelligence / Machine Learning'
+    link: 'https://www.intellectualfrontiers.com/patent-summaries/optimization-of-performance-metrics-based-on-real-time-feedback-and-artificial-intelligence-machine-learning'
 images:
 tags:
   - US11561884B2
