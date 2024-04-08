@@ -45,6 +45,11 @@ const metadataDefinition = () =>
     })
     .optional();
 
+    const patentSummaryLinksDef = z.object({
+      summaryTitle: z.string(),
+      link: z.string().url(),
+    })
+
 const postCollection = defineCollection({
   schema: z.object({
     publishDate: z.date().optional(),
@@ -65,6 +70,7 @@ const postCollection = defineCollection({
     patentStatus: z.string().optional(),
     inventor: z.string().optional(),
     altText: z.string().optional(),
+    patentSummaryLinks: z.array(patentSummaryLinksDef).optional(),
   }),
 });
 

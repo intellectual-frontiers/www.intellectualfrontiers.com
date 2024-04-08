@@ -53,7 +53,14 @@ export interface Post {
   inventor?: string;
   //Alt image text for the cover image in patent detailed view
   altText?: string;
+  //All the patent summaries
+  patentSummaryLinks?: PatentSummaryLinks[];
 }
+
+export interface PatentSummaryLinks {
+  summaryTitle: string;
+  link: string;
+}[]
 
 export interface MetaData {
   title?: string;

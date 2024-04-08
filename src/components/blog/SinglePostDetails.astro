@@ -73,6 +73,24 @@ const { Content } = post;
       <p class="pb-2 p-2">
         {post?.excerpt}
       </p> -->
+      {
+        post.patentSummaryLinks && post.patentSummaryLinks.length > 0 && (
+          <>
+            <p class="pb-2 p-2 font-bold">
+              {post.patentSummaryLinks.length === 1 ? 'Patent Summary' : 'Patent Summaries'}
+            </p>
+            <ul class="list-inside list-disc pl-4">
+              {post.patentSummaryLinks.map((link) => (
+                <li class="pb-2">
+                  <a class="text-sky-700" href={link.link} target="_blank">
+                    {link.summaryTitle}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </>
+        )
+      }
       <div class="px-2 pb-6">
         <!-- <a
           href={downloadFile}
