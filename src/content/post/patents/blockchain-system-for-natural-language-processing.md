@@ -48,7 +48,9 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-patentSummaryLink:
+patentSummaryLinks:
+  - summaryTitle: 'Blockchain-Powered Healthcare Data for Natural Language Processing (NLP)- Collection, Storage, and Standardization'
+    link: 'https://www.intellectualfrontiers.com/patent-summaries/blockchain-powered-healthcare-data-for-natural-language-processing-nlp-collection-storage-and-standardization'
 images:
 publishDate: 2021-04-20
 image: '/images/patents/us10984913b2-image-001.png'

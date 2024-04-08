@@ -44,7 +44,9 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-patentSummaryLink:
+patentSummaryLinks:
+  - summaryTitle: 'Optimizing Rating Aggregation - A Method for Creating Accurate Aggregate Rating Indicators'
+    link: 'https://www.intellectualfrontiers.com/patent-summaries/optimizing-rating-aggregation-a-method-for-creating-accurate-aggregate-rating-indicators'
 images:
 tags:
   - US10489830B2

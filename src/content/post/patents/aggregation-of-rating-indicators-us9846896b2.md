@@ -44,7 +44,9 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-patentSummaryLink:
+patentSummaryLinks:
+  - summaryTitle: Aggregating Trustworthy Rating Indicators for Enhancing Reputation Management
+    link: 'https://www.intellectualfrontiers.com/patent-summaries/aggregating-trustworthy-rating-indicators-for-enhancing-reputation-management'
 images:
 tags:
   - US9846896B2

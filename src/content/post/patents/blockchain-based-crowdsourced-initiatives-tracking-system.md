@@ -45,7 +45,9 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-patentSummaryLink:
+patentSummaryLinks:
+  - summaryTitle: 'Crowdsourcing-Driven Innovation Monitoring'
+    link: 'https://www.intellectualfrontiers.com/patent-summaries/crowdsourcing-driven-innovation-monitoring'
 images:
 tags:
   - US11270263B2

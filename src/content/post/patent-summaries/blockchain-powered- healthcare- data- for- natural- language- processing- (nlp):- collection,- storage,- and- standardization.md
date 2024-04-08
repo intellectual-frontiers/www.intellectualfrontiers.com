@@ -36,7 +36,7 @@ application-date:
 issue-date:
 expiry-date:
 patent-status: Active
-url: '/patent-summaries/blockchain-powered- healthcare- data- for- natural- language- processing- (nlp)- collection,- storage,- and- standardization'
+url: '/patent-summaries/blockchain-powered-healthcare-data-for-natural-language-processing-nlp-collection-storage-and-standardization'
 uspto-patent-pdf:
 uspto-patent-url:
 thumbnail:

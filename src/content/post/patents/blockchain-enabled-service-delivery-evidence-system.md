@@ -44,7 +44,9 @@ backward-citations:
 abstract-of-the-invention-label:
 abstract-of-the-invention:
 problem-solved-by-the-invention:
-patentSummaryLink:
+patentSummaryLinks:
+  - summaryTitle: 'Verification Systems for Digital Proof of Service'
+    link: 'https://www.intellectualfrontiers.com/patent-summaries/verification-systems-for-digital-proof-of-service'
 images:
 tags:
   - US11475441B2
