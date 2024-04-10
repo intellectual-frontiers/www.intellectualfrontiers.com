@@ -55,7 +55,10 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     draft = false,
     metadata = {},
     sectiontype,
-    patentSummaryLinks = []
+    patentSummaryLinks = [],
+    applicationDate,
+    priorityDate,
+    expiryDate
   } = data;
 
   const slug = cleanSlug(rawSlug); // cleanSlug(rawSlug.split('/').pop());
@@ -99,6 +102,9 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     //The image alt text for cover image
     altText: post.data.altText,
     patentSummaryLinks: patentSummaryLinks,
+    applicationDate: applicationDate,
+    priorityDate: priorityDate,
+    expiryDate: expiryDate,
   };
 };
 

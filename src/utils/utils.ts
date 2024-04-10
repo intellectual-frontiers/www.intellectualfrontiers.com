@@ -18,7 +18,13 @@ const formatterLongMonth: Intl.DateTimeFormat = new Intl.DateTimeFormat('en', {
   day: 'numeric',
   timeZone: 'UTC',
 });
-export const getFormattedDateWithLongMonth = (date: Date): string => (date ? formatterLongMonth.format(date) : '');
+// export const getFormattedDateWithLongMonth = (date: Date): string => (date ? formatterLongMonth.format(date) : '');
+export const getFormattedDateWithLongMonth = (date: Date | null | undefined): string => {
+  if (!date) {
+    return '';
+  }
+  return formatterLongMonth.format(date);
+};
 
 export const trim = (str = '', ch?: string) => {
   let start = 0,

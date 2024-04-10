@@ -55,6 +55,12 @@ export interface Post {
   altText?: string;
   //All the patent summaries
   patentSummaryLinks?: PatentSummaryLinks[];
+  //The application date of patent
+  applicationDate?: Date;
+  //The prority date of patent
+  priorityDate?: Date;
+  //The expiry date of the patent
+  expiryDate?: Date;
 }
 
 export interface PatentSummaryLinks {

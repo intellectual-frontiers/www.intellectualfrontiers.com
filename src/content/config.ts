@@ -71,6 +71,9 @@ const postCollection = defineCollection({
     inventor: z.string().optional(),
     altText: z.string().optional(),
     patentSummaryLinks: z.array(patentSummaryLinksDef).optional(),
+    applicationDate: z.date().optional(),
+    priorityDate: z.date().optional(),
+    expiryDate: z.date().optional(),
   }),
 });
 
