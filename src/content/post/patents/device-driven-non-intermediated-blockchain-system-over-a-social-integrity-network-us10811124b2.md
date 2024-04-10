@@ -30,9 +30,9 @@ currentAssignee: INTELLECTUAL FRONTIERS LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:
-applicationDate:
-issue-date:
-expiryDate:
+applicationDate: 2019-07-22
+priorityDate: 2012-01-26
+expiryDate: 2033-01-14
 patentStatus: Active - Granted
 url: '/patents/device-driven-non-intermediated-blockchain-system-over-a-social-integrity-network-us10811124b2'
 category: Patents

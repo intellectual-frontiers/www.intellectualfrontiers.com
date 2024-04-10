@@ -29,9 +29,9 @@ currentAssignee: INTELLECTUAL FRONTIERS LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:
-applicationDate:
-issue-date:
-expiryDate:
+applicationDate: 2019-02-24
+priorityDate: 2019-02-24
+expiryDate: 2039-02-24
 patentStatus: Active - Granted
 url: '/patents/digital-payment-system'
 category: Patents

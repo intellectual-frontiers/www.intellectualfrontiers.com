@@ -34,9 +34,9 @@ currentAssignee: INTELLECTUAL FRONTIERS LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:
-applicationDate:
-issue-date:
-expiryDate:
+applicationDate: 2016-12-22
+priorityDate: 2012-04-27
+expiryDate: 2034-09-05
 patentStatus: Active - Granted
 url: '/patents/blockchain-system-for-natural-language-processing'
 category: Patents

@@ -35,9 +35,9 @@ currentAssignee: Netspective Communications LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:
-applicationDate:
-issue-date:
-expiryDate:
+applicationDate: 2016-05-24
+priorityDate: 2015-05-25
+expiryDate: 2036-10-30
 patentStatus: Active - Granted
 url: '/patents/patient-navigation-and-situational-awareness-derived-through-context-sensitive-information-blocks-delivery'
 uspto-patent-url:

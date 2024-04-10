@@ -30,9 +30,9 @@ currentAssignee: Netspective Communications LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:
-applicationDate:
-issue-date:
-expiryDate:
+applicationDate: 2016-12-08
+priorityDate: 2012-01-26
+expiryDate: 2034-06-10
 patentStatus: Active - Granted
 url: '/patents/device-driven-non-intermediated-blockchain-system-over-a-social-integrity-network'
 category: Patents

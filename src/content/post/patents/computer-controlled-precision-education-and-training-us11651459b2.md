@@ -30,9 +30,9 @@ currentAssignee: INTELLECTUAL FRONTIERS LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:
-applicationDate:
-issue-date:
-expiryDate:
+applicationDate: 2022-07-14
+priorityDate: 2019-12-12
+expiryDate: 2039-12-12
 patentStatus: Active - Granted
 url: '/patents/computer-controlled-precision-education-and-training-us11651459b2'
 category: Patents

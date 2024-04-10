@@ -30,9 +30,9 @@ currentAssignee: INTELLECTUAL FRONTIERS LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:
-applicationDate:
-issue-date:
-expiryDate:
+applicationDate: 2022-06-11
+priorityDate: 2019-10-30
+expiryDate: 2039-12-24
 patentStatus: Active - Granted
 url: '/patents/computer-executable-and-traceable-metric-queues-system-us11888597b2'
 category: Patents

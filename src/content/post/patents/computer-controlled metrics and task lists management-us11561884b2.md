@@ -30,9 +30,9 @@ currentAssignee: INTELLECTUAL FRONTIERS LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:
-applicationDate:
-issue-date:
-expiryDate:
+applicationDate: 2020-11-18
+priorityDate: 2020-11-18
+expiryDate: 2041-03-24
 patentStatus: Active - Granted
 url: '/patents/computer-controlled-metrics-and-task-lists-management-us11561884b2'
 category: Patents

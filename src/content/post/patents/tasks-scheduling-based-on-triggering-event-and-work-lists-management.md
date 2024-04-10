@@ -30,9 +30,9 @@ currentAssignee: INTELLECTUAL FRONTIERS LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:
-applicationDate:
-issue-date:
-expiryDate:
+applicationDate: 2015-11-19
+priorityDate: 2014-11-20
+expiryDate: 2038-04-16
 patentStatus: Active - Granted
 url: '/patents/tasks-scheduling-based-on-triggering-event-and-work-lists-management'
 category: Patents

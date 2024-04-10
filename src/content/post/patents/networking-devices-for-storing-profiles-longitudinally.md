@@ -30,9 +30,9 @@ currentAssignee: INTELLECTUAL FRONTIERS LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:
-applicationDate:
-issue-date:
-expiryDate:
+applicationDate: 2016-05-24
+priorityDate: 2016-05-24
+expiryDate: 2039-01-10
 patentStatus: Active - Granted
 url: '/patents/networking-devices-for-storing-profiles-longitudinally'
 category: Patents

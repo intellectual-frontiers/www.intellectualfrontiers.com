@@ -30,9 +30,9 @@ currentAssignee: Netspective Communications LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:
-applicationDate:
-issue-date:
-expiryDate:
+applicationDate: 2018-07-29
+priorityDate: 2014-04-14
+expiryDate: 2036-04-06
 patentStatus: Active - Granted
 url: '/patents/multi-source-user-generated-electronic-data-integration-in-a-blockchain-based-transactional-system'
 category: Patents

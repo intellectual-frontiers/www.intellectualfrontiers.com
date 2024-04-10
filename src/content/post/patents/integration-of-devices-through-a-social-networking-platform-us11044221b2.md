@@ -29,9 +29,9 @@ currentAssignee: INTELLECTUAL FRONTIERS LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:
-applicationDate:
-issue-date:
-expiryDate:
+applicationDate: 2019-04-11
+priorityDate: 2012-12-12
+expiryDate: 2034-08-26
 excerpt: A system and method for providing a social networking service to a plurality of devices. A social networking server for facilitating social information exchange among the plurality of devices through a socially aware network.
 patentStatus: Active - Granted
 url: '/patents/integration-of-devices-through-a-social-networking-platform-us11044221b2'

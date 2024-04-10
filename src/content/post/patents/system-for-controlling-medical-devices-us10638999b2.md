@@ -30,9 +30,9 @@ currentAssignee: INTELLECTUAL FRONTIERS LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:
-applicationDate:
-issue-date:
-expiryDate:
+applicationDate: 2017-02-11
+priorityDate: 2012-02-02
+expiryDate: 2034-12-25
 patentStatus: Active - Granted
 url: '/patents/system-for-controlling-medical-devices-us10638999b2'
 category: Patents

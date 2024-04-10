@@ -30,9 +30,9 @@ currentAssignee: INTELLECTUAL FRONTIERS LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:
-applicationDate:
-issue-date:
-expiryDate:
+applicationDate: 2018-10-16
+priorityDate: 2018-10-16
+expiryDate: 2040-07-06
 patentStatus: Active - Granted
 url: '/patents/team-based-tele-diagnostics-blockchain-enabled-system'
 category: Patents

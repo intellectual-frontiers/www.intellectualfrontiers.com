@@ -30,9 +30,9 @@ currentAssignee: INTELLECTUAL FRONTIERS LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:
-applicationDate:
-issue-date:
-expiryDate:
+applicationDate: 2022-10-18
+priorityDate: 2018-07-25
+expiryDate: 2039-02-16
 patentStatus: Active - Granted
 url: '/patents/blockchain-enabled-service-delivery-evidence-system'
 category: Patents

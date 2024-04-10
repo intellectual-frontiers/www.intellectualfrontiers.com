@@ -30,9 +30,9 @@ currentAssignee: Netspective Communications LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:
-applicationDate:
-issue-date:
-expiryDate:
+applicationDate: 2016-12-21
+priorityDate: 2013-09-12
+expiryDate: 2033-09-12
 patentStatus: Active - Granted
 url: '/patents/distributed-electronic-document-review-in-a-blockchain-system-and-computerized-scoring-based-on-textual-and-visual-feedback'
 category: Patents

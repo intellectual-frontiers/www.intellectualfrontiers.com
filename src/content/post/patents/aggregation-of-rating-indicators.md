@@ -30,9 +30,9 @@ currentAssignee: Netspective Communications LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:
-applicationDate:
-issue-date:
-expiryDate:
+applicationDate: 2017-11-14
+priorityDate: 2014-06-22
+expiryDate: 2036-03-13
 patentStatus: Active - Granted
 url: '/patents/aggregation-of-rating-indicators'
 category: Patents

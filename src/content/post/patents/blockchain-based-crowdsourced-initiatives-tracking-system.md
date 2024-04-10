@@ -30,9 +30,9 @@ currentAssignee: INTELLECTUAL FRONTIERS LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:
-applicationDate:
-issue-date:
-expiryDate:
+applicationDate: 2017-05-04
+priorityDate: 2013-09-12
+expiryDate: 2036-01-24
 patentStatus: Active - Granted
 url: '/patents/blockchain-based-crowdsourced-initiatives-tracking-system'
 altText: blockchain crowdbased tracking patent
@@ -71,6 +71,27 @@ downloadable-documents:
 ### Abstract
 
 An embodiment herein provides a blockchain configured crowdsourced initiatives exchange ecosystem that includes a plurality of computing terminals associated with respective plurality of innovators which serve as sources of initiatives identified as innovations and respective sub-innovations. The ecosystem includes a distributed trusted ledgers system, a computing device communicatively connected to the plurality of computing terminals and configured to access the plurality of computing terminals and monitor the innovations, and a processing circuit that includes an initiatives tracking device that tracks the innovations associated with the plurality of computing terminals. The processing circuit includes a central initiatives management device. The ecosystem includes a hardware-based identity validation appliance to verify integrity of the plurality of computing terminals and the associated innovators to authorize a secured access of the plurality of computing terminals and to associate metadata with the innovations defining a digital ownership identity, a digital time identity, a digital geographical identity.
+
+<div class="flex flex-nowrap overflow-x-auto scroll-smooth">
+  <div class="flex-shrink-0 mr-4">
+    <figure>
+      <img src="/images/patents/us11270263b2-image-01.png" alt="Figure 01" class="max-h-[300px]" />
+      <figcaption class="text-center">Figure 01</figcaption>
+    </figure>
+  </div>
+  <div class="flex-shrink-0 mr-4">
+    <figure>
+      <img src="/images/patents/us11270263b2-image-1.png" alt="Figure 1" class="max-h-[300px]" />
+      <figcaption class="text-center">Figure 1</figcaption>
+    </figure>
+  </div>
+  <div class="flex-shrink-0 mr-4">
+    <figure>
+      <img src="/images/patents/us11270263b2-image-2.png" alt="Figure 2" class="max-h-[300px]" />
+      <figcaption class="text-center">Figure 2</figcaption>
+    </figure>
+  </div>
+</div>
 
 ### Images (11)
 

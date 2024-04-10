@@ -30,9 +30,9 @@ currentAssignee: Netspective Communications LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:
-applicationDate:
-issue-date:
-expiryDate:
+applicationDate: 2021-02-24
+priorityDate: 2021-02-24
+expiryDate: 2033-04-09
 patentStatus: Active - Granted
 url: '/patents/self-controlled-digital-authorization-over-communication-networks-us11874949b2'
 category: Patents

@@ -30,9 +30,9 @@ currentAssignee: Netspective Communications LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:
-applicationDate:
-issue-date:
-expiryDate:
+applicationDate: 2002-07-12
+priorityDate: 2002-07-12
+expiryDate: 2024-02-11
 patentStatus: Active - Granted
 url: '/patents/computer-system-for-performing-reusable-software-application-development-from-a-set-of-declarative-executable-specifications'
 category: Patents

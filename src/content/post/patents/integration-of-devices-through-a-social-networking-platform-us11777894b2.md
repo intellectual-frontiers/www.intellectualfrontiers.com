@@ -30,9 +30,9 @@ currentAssignee: Netspective Communications LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:
-applicationDate:
-issue-date:
-expiryDate:
+applicationDate: 2021-05-22
+priorityDate: 2013-12-11
+expiryDate: 2034-09-14
 patentStatus: Active - Granted
 url: '/patents/integration-of-devices-through-a-social-networking-platform-us11777894b2'
 category: Patents
