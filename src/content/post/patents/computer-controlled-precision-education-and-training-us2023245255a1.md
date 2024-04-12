@@ -26,7 +26,7 @@ metadata:
 patentId: US20230245255A1
 uspto-patent-number: US20230245255A1
 inventor: Shahid N. Shah
-currentAssignee: INTELLECTUAL FRONTIERS LLC
+currentAssignee: Intellectual Frontiers LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:

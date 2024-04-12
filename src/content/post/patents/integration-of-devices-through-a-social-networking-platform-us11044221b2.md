@@ -25,7 +25,7 @@ metadata:
 patentId: US11044221B2
 uspto-patent-number: US11044221B2
 inventor: Shahid N. Shah
-currentAssignee: INTELLECTUAL FRONTIERS LLC
+currentAssignee: Netspective Communications LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:

@@ -26,7 +26,7 @@ metadata:
 patentId: US20240015129A1
 uspto-patent-number: US20240015129A1
 inventor: Shahid N. Shah
-currentAssignee: Netspective Communications LLC
+currentAssignee: Intellectual Frontiers LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:

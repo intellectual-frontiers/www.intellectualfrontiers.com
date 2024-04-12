@@ -30,7 +30,7 @@ tags:
   - Blockchain
   - Electronic Medical Records (EMR)
   - Natural Language Processing
-currentAssignee: INTELLECTUAL FRONTIERS LLC
+currentAssignee: Netspective Communications LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:

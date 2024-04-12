@@ -26,7 +26,7 @@ uspto-canonical-id-label: Patent
 patentId: US10811124B2
 uspto-patent-number: US10811124B2
 inventor: Shahid N. Shah
-currentAssignee: INTELLECTUAL FRONTIERS LLC
+currentAssignee: Netspective Communications LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:

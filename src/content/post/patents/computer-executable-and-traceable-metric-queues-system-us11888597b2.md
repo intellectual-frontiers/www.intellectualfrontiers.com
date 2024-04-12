@@ -26,7 +26,7 @@ uspto-canonical-id-label: Patent
 patentId: US11888597B2
 uspto-patent-number: US11888597B2
 inventor: Shahid N. Shah
-currentAssignee: INTELLECTUAL FRONTIERS LLC
+currentAssignee: Intellectual Frontiers LLC
 patent-owners-rights:
 territorial-scope: US
 uspto-patent-family-members-publication-numbers:
