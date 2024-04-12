@@ -74,6 +74,7 @@ const postCollection = defineCollection({
     applicationDate: z.date().optional(),
     priorityDate: z.date().optional(),
     expiryDate: z.date().optional(),
+    currentAssignee: z.string().optional(),
   }),
 });
 

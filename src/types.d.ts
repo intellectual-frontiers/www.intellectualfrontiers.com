@@ -61,6 +61,8 @@ export interface Post {
   priorityDate?: Date;
   //The expiry date of the patent
   expiryDate?: Date;
+  //The current assignee of the patent
+  currentAssignee?: string;
 }
 
 export interface PatentSummaryLinks {
