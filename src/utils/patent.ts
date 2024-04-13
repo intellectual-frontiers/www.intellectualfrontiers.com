@@ -59,7 +59,8 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     applicationDate,
     priorityDate,
     expiryDate,
-    currentAssignee
+    currentAssignee,
+    externalLinks = [],
   } = data;
 
   const slug = cleanSlug(rawSlug); // cleanSlug(rawSlug.split('/').pop());
@@ -108,6 +109,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     expiryDate: expiryDate,
     //The current assignee of the patent
     currentAssignee: currentAssignee,
+    externalLinks: externalLinks,
   };
 };
 

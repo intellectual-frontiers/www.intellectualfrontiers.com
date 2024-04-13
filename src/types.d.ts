@@ -63,10 +63,16 @@ export interface Post {
   expiryDate?: Date;
   //The current assignee of the patent
   currentAssignee?: string;
+  externalLinks?: ExternalLinks[];
 }
 
 export interface PatentSummaryLinks {
   summaryTitle: string;
+  link: string;
+}[]
+
+export interface ExternalLinks {
+  sourceText: string;
   link: string;
 }[]
 

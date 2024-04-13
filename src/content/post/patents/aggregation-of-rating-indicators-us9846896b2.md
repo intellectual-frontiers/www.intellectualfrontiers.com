@@ -54,7 +54,9 @@ tags:
   - Sentiment Analysis
 image: '/images/patents/us9846896b2-image-001.png'
 altText: patent on online reputation management
-external-links: https://patents.google.com/patent/US9846896B2/
+externalLinks:
+  - sourceText: 'USPTO Patent Center'
+    link: 'https://patentcenter.uspto.gov/applications/14744697'
 downloadable-documents:
   - anchor_text: Download PDF
     link_url:

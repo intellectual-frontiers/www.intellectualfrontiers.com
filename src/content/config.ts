@@ -50,6 +50,11 @@ const metadataDefinition = () =>
       link: z.string().url(),
     })
 
+    const externalLinksDef = z.object({
+      sourceText: z.string(),
+      link: z.string().url(),
+    })
+
 const postCollection = defineCollection({
   schema: z.object({
     publishDate: z.date().optional(),
@@ -75,6 +80,7 @@ const postCollection = defineCollection({
     priorityDate: z.date().optional(),
     expiryDate: z.date().optional(),
     currentAssignee: z.string().optional(),
+    externalLinks: z.array(externalLinksDef).optional(),
   }),
 });
 

@@ -54,7 +54,9 @@ tags:
   - Sentiment Analysis
 image: '/images/patents/us10489830b2-image-01.png'
 altText: online review management
-external-links: https://patents.google.com/patent/US10489830B2/
+externalLinks:
+  - sourceText: 'USPTO Patent Center'
+    link: 'https://patentcenter.uspto.gov/applications/15813109'
 downloadable-documents:
   - anchor_text: Download PDF
     link_url:
