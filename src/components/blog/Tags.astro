@@ -6,6 +6,8 @@ import type { Post } from '~/types';
 
 //Import the patent urls json file
 import patenturl from '../../../support/patenturls.json';
+//Import the meta data json file
+import TopicsMetaData from '../../../support/topicsmetadata.json';
 
 export interface Props {
   tags: Post['tags'];
@@ -33,13 +35,16 @@ const { tags, class: className = 'text-sm', title = undefined, isCategory = fals
           const patentNumberPattern = /^[A-Za-z]+\d+[A-Za-z]+\d+$/;
           const isPatentNumber = patentNumberPattern.test(tag);
 
+          //Get the associated value for the tag
+          const topicMetadataEntry = TopicsMetaData[tag];
+
           // Capitalize the tag if it's a patent number
           //const displayTag = isPatentNumber ? tag.toUpperCase() : tag;
 
           return (
             <li
               class={`bg-gray-100 dark:bg-slate-700 inline-block mr-2 rtl:mr-0 rtl:ml-2 mb-2 py-0.5 px-2 font-medium ${
-                isPatentNumber ? 'uppercase' : 'capitalize'
+                isPatentNumber ? 'uppercase' : ''
               }`}
             >
               {!APP_BLOG?.tag?.isEnabled ? (
@@ -54,7 +59,7 @@ const { tags, class: className = 'text-sm', title = undefined, isCategory = fals
                   }
                   class="text-muted dark:text-slate-300 hover:text-primary dark:hover:text-gray-200"
                 >
-                  {tag.replaceAll('-', ' ')}
+                  {isPatentNumber ? tag : topicMetadataEntry.tagDisplayLabel}
                 </a>
               )}
             </li>
