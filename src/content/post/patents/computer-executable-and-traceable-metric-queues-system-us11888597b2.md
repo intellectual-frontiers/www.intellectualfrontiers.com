@@ -54,7 +54,9 @@ tags:
   - Software
 image: '/images/patents/us11888597b2/us11888597b2-patent.png'
 altText: patents in Data Management
-external-links: https://patents.google.com/patent/US11888597B2/
+externalLinks:
+  - sourceText: 'USPTO Patent Center'
+    link: 'https://patentcenter.uspto.gov/applications/17838198'
 downloadable-documents:
   - anchor_text: Download PDF
     link_url:

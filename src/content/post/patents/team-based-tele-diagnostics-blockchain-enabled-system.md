@@ -54,7 +54,9 @@ tags:
   - Telemedicine
 image: '/images/patents/us11769573b2-image-patent.png'
 altText: patent on blockchain technology
-external-links: https://patents.google.com/patent/US11769573B2/
+externalLinks:
+  - sourceText: 'USPTO Patent Center'
+    link: 'https://patentcenter.uspto.gov/applications/1616184'
 downloadable-documents:
   - anchor_text: Download PDF
     link_url:

@@ -55,7 +55,9 @@ tags:
 excerpt: A digital payment system for facilitating seamless transactions from a user system to a buyer system.
 image: '/images/patents/us10643208b2-image-001.png'
 altText: digital payment system
-external-links: https://patents.google.com/patent/US10643208B2/
+externalLinks:
+  - sourceText: 'USPTO Patent Center'
+    link: 'https://patentcenter.uspto.gov/applications/16283802'
 downloadable-documents:
   - anchor_text: Download PDF
     link_url:

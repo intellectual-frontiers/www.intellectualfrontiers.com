@@ -53,7 +53,9 @@ tags:
   - Medical Device Automation
 image: '/images/patents/us10638999b2-image-001.png'
 altText: patent in medical devices
-external-links: https://patents.google.com/patent/US10638999B2/
+externalLinks:
+  - sourceText: 'USPTO Patent Center'
+    link: 'https://patentcenter.uspto.gov/applications/15430461'
 downloadable-documents:
   - anchor_text: Download PDF
     link_url:

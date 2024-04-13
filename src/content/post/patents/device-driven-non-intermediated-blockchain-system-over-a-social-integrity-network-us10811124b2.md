@@ -54,7 +54,9 @@ tags:
   - Natural Language Processing
 image: '/images/patents/us10811124b2-image-001.png'
 altText: natural language processing patent
-external-links: https://patents.google.com/patent/US1081124B2/
+externalLinks:
+  - sourceText: 'USPTO Patent Center'
+    link: 'https://patentcenter.uspto.gov/applications/16517975'
 downloadable-documents:
   - anchor_text: Download PDF
     link_url:

@@ -54,7 +54,9 @@ patentSummaryLinks:
 images:
 image: '/images/patents/us10089492b2-image.png'
 altText: future of electronic medical records
-external-links: https://patents.google.com/patent/US10089492B2/
+externalLinks:
+  - sourceText: 'USPTO Patent Center'
+    link: 'https://patentcenter.uspto.gov/applications/15163662'
 downloadable-documents:
   - anchor_text: Download PDF
     link_url:

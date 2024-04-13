@@ -55,7 +55,9 @@ tags:
   - Blockchain
 image: '/images/patents/us11568401b2-image-001.png'
 excerpt: A digital payment system for facilitating seamless transactions from a user system to a buyer system. The system includes a service provider system which further includes a service interaction component.
-external-links: https://patents.google.com/patent/US11568401B2/
+externalLinks:
+  - sourceText: 'USPTO Patent Center'
+    link: 'https://patentcenter.uspto.gov/applications/16835289'
 downloadable-documents:
   - anchor_text: Download PDF
     link_url:

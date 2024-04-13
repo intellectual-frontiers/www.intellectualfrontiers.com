@@ -55,7 +55,9 @@ images:
 publishDate: 2021-04-20
 image: '/images/patents/us10984913b2-image-001.png'
 altText: natural language processing
-external-links: https://patents.google.com/patent/US10984913B2/
+externalLinks:
+  - sourceText: 'USPTO Patent Center'
+    link: 'https://patentcenter.uspto.gov/applications/15389243'
 downloadable-documents:
   - anchor_text: Download PDF
     link_url:

@@ -50,7 +50,9 @@ patentSummaryLinks:
 images:
 image: '/images/patents/us11044221b2-image-001.png'
 altText: medical device integration
-external-links: https://patents.google.com/patent/US11044221B2/
+externalLinks:
+  - sourceText: 'USPTO Patent Center'
+    link: 'https://patentcenter.uspto.gov/applications/16381772'
 downloadable-documents:
   - anchor_text: Download PDF
     link_url:

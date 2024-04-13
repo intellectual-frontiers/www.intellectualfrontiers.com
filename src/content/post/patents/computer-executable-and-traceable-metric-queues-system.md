@@ -56,7 +56,9 @@ tags:
   - Data Management
   - Software
 image: '/images/patents/us11388077b2-image-001.png'
-external-links: https://patents.google.com/patent/US11388077B2/
+externalLinks:
+  - sourceText: 'USPTO Patent Center'
+    link: 'https://patentcenter.uspto.gov/applications/16669496'
 downloadable-documents:
   - anchor_text: Download PDF
     link_url:

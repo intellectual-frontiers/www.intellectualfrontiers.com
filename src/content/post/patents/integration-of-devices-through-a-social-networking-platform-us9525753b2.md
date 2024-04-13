@@ -54,7 +54,9 @@ tags:
   - Medical Device Automation
 image: '/images/patents/us9525753b2-image-001.png'
 altText: integration of devices patent
-external-links: https://patents.google.com/patent/US9525753B2/
+externalLinks:
+  - sourceText: 'USPTO Patent Center'
+    link: 'https://patentcenter.uspto.gov/applications/14103098'
 downloadable-documents:
   - anchor_text: Download PDF
     link_url:

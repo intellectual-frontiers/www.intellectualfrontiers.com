@@ -52,7 +52,9 @@ tags:
   - Artificial Intelligence and Machine Learning
 image: '/images/patents/us2023245255a1/us2023245255a1-patent.png'
 altText: patent on blockchain
-external-links: https://patents.google.com/patent/US20230245255A1/
+externalLinks:
+  - sourceText: 'USPTO Patent Center'
+    link: 'https://patentcenter.uspto.gov/applications/18131648'
 downloadable-documents:
   - anchor_text: Download PDF
     link_url:

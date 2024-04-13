@@ -53,7 +53,9 @@ patentSummaryLinks:
 images:
 image: '/images/patents/us9418355b2-image-1.png'
 altText: crowdsourced response patents
-external-links: https://patents.google.com/patent/US9418355B2/
+externalLinks:
+  - sourceText: 'USPTO Patent Center'
+    link: 'https://patentcenter.uspto.gov/applications/14032368'
 downloadable-documents:
   - anchor_text: Download PDF
     link_url:

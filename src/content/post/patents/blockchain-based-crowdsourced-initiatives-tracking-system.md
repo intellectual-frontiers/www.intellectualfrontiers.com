@@ -53,7 +53,9 @@ tags:
   - US11270263B2
   - Blockchain
 image: '/images/patents/us11270263b2-image-001.png'
-external-links: https://patents.google.com/patent/US11270263B2/
+externalLinks:
+  - sourceText: 'USPTO Patent Center'
+    link: 'https://patentcenter.uspto.gov/applications/15587202'
 downloadable-documents:
   - anchor_text: Download PDF
     link_url:

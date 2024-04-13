@@ -52,7 +52,9 @@ tags:
   - Device Health Monitoring
 image: '/images/patents/us20240015129a1/us20240015129a1-patent.png'
 altText: medical device automation
-external-links: https://patents.google.com/patent/US20240015129A1/
+externalLinks:
+  - sourceText: 'USPTO Patent Center'
+    link: 'https://patentcenter.uspto.gov/applications/18235327'
 downloadable-documents:
   - anchor_text: Download PDF
     link_url:

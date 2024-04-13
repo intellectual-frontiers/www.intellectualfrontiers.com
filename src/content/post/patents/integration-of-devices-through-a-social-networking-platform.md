@@ -50,7 +50,9 @@ patentSummaryLinks:
 images:
 image: '/images/patents/us10320735b2-image-01.png'
 altText: NFC patent
-external-links: https://patents.google.com/patent/US10320735B2/
+externalLinks:
+  - sourceText: 'USPTO Patent Center'
+    link: 'https://patentcenter.uspto.gov/applications/15275463'
 downloadable-documents:
   - anchor_text: Download PDF
     link_url:

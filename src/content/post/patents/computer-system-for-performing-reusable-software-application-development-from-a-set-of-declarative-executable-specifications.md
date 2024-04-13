@@ -50,7 +50,9 @@ patentSummaryLinks:
 images:
 image: '/images/patents/us7039898b2-image-01.jpg'
 altText: software application development patent
-external-links: https://patents.google.com/patent/US7039898B2/
+externalLinks:
+  - sourceText: 'USPTO Patent Center'
+    link: 'https://patentcenter.uspto.gov/applications/10194646'
 downloadable-documents:
   - anchor_text: Download PDF
     link_url:

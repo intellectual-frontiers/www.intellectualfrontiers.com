@@ -51,7 +51,9 @@ tags:
   - Authorization and Data Privacy
 image: '/images/patents/us11874949b2-image-patent.png'
 altText: patents in data privacy
-external-links: https://patents.google.com/patent/US11874949B2/
+externalLinks:
+  - sourceText: 'USPTO Patent Center'
+    link: 'https://patentcenter.uspto.gov/applications/17184255'
 downloadable-documents:
   - anchor_text: Download PDF
     link_url:

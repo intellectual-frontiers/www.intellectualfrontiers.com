@@ -53,7 +53,9 @@ tags:
   - Digital Reputation Management
 image: '/images/patents/us10586069b2-image-001.png'
 altText: online reputation management
-external-links: https://patents.google.com/patent/US10586069B2/
+externalLinks:
+  - sourceText: 'USPTO Patent Center'
+    link: 'https://patentcenter.uspto.gov/applications/15163667'
 downloadable-documents:
   - anchor_text: Download PDF
     link_url:

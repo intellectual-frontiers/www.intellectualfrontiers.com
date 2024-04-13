@@ -55,7 +55,9 @@ tags:
   - Artificial Intelligence and Machine Learning
 image: '/images/patents/us11423500b2-image-001.png'
 altText: AI in education patent
-external-links: https://patents.google.com/patent/US11423500B2/
+externalLinks:
+  - sourceText: 'USPTO Patent Center'
+    link: 'https://patentcenter.uspto.gov/applications/16712213'
 downloadable-documents:
   - anchor_text: Download PDF
     link_url:

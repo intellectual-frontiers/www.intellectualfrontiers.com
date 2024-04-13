@@ -56,7 +56,9 @@ tags:
   - Electronic Medical Records (EMR)
 image: '/images/patents/us10403399b2-image-001.png'
 altText: tasks automation patents
-external-links: https://patents.google.com/patent/US10403399B2/
+externalLinks:
+  - sourceText: 'USPTO Patent Center'
+    link: 'https://patentcenter.uspto.gov/applications/14946702'
 downloadable-documents:
   - anchor_text: Download PDF
     link_url:
