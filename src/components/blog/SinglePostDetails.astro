@@ -117,7 +117,9 @@ const { Content } = post;
             name="tabler:point-filled"
             class="w-3 h-3 inline-block -mt-0.5 text-sky-700 dark:text-gray-400"
           />
-          <span class="pl-1"> {post.inventor}</span>
+          <a class="text-sky-700 hover:text-sky-600" href="https://www.shahidshah.com/" target="_blank"
+            ><span class="pl-1">{post.inventor}</span></a
+          >
         </div>
         <div
           class="bg-slate-100 shadow px-2 pt-[6px] pb-[6px] rounded mt-1 mb-[8px] border-b border-grey hover:bg-grey-lighter"
@@ -126,7 +128,18 @@ const { Content } = post;
           <div class="flex items-start">
             <span class="pr-1 font-semibold leading-tight">Current Assignee&nbsp;</span>
             <Icon name="tabler:point-filled" class="w-3 h-3 inline-block mt-[3px] text-sky-700 dark:text-gray-400" />
-            <span class="pl-1 flex-1 break-words leading-tight" id="value"> {post.currentAssignee}</span>
+            <span class="pl-1 flex-1 break-words leading-tight" id="value">
+              {
+                // If the assignee is Netspective Communications LLC then hyperlink to Netspective website
+                post.currentAssignee === 'Netspective Communications LLC' ? (
+                  <a class="text-sky-700 hover:text-sky-600" href="https://www.netspective.com/" target="_blank">
+                    {post.currentAssignee}
+                  </a>
+                ) : (
+                  post.currentAssignee
+                )
+              }
+            </span>
           </div>
         </div>
         <div
