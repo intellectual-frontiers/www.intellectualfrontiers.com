@@ -76,94 +76,52 @@ A computer-implemented method and system for publishing an aggregate rating indi
 
 ### Images (15)
 
-<div class="center-elements">
-
-<div id="fig1">
-
-![Figure 001](/images/patents/us10489830b2-image-001.png)
-**Figure 1**
-
+<div class="flex overflow-x-auto gap-4 bg-slate-50 cursor-pointer patentimages scroll-smooth">
+<div class="flex-shrink-0 p-2" id="fig1">
+    <img src="/images/patents/us10489830b2-image-001.png" alt="Figure 001" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig2">
-
-![Figure 002](/images/patents/us10489830b2-image-002.png)
-**Figure 2**
-
+<div class="flex-shrink-0 p-2" id="fig2">
+    <img src="/images/patents/us10489830b2-image-002.png" alt="Figure 002" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig3">
-
-![Figure 003](/images/patents/us10489830b2-image-003.png)
-**Figure 3**
-
+<div class="flex-shrink-0 p-2" id="fig3">
+    <img src="/images/patents/us10489830b2-image-003.png" alt="Figure 003" class="w-64 max-h-[250px] !my-0" />
 </div>
-
-<div id="fig4">
-
-![Figure 004](/images/patents/us10489830b2-image-004.png)
-**Figure 4**
-
+<div class="flex-shrink-0 p-2" id="fig4">
+    <img src="/images/patents/us10489830b2-image-004.png" alt="Figure 004" class="w-64 max-h-[250px] !my-0" />
 </div>
-
-<div id="fig5-7">
-
-![Figure 005](/images/patents/us10489830b2-image-005.png)
-**Figure 5**
-
-![Figure 006](/images/patents/us10489830b2-image-006.png)
-**Figure 6**
-
-![Figure 007](/images/patents/us10489830b2-image-007.png)
-**Figure 7**
-
+<div class="flex-shrink-0 p-2" id="fig5">
+    <img src="/images/patents/us10489830b2-image-005.png" alt="Figure 005" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig8ab">
-
-![Figure 08a](/images/patents/us10489830b2-image-08a.png)
-**Figure 8a**
-
-![Figure 08b](/images/patents/us10489830b2-image-08b.png)
-**Figure 8b**
-
+<div class="flex-shrink-0 p-2" id="fig6">
+    <img src="/images/patents/us10489830b2-image-006.png" alt="Figure 006" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig9">
-
-![Figure 09](/images/patents/us10489830b2-image-009.png)
-**Figure 9**
-
+<div class="flex-shrink-0 p-2" id="fig7">
+    <img src="/images/patents/us10489830b2-image-007.png" alt="Figure 007" class="w-64 max-h-[250px] !my-0" />
 </div>
-
-<div id="fig10">
-
-![Figure 010](/images/patents/us10489830b2-image-010.png)
-**Figure 10**
-
+<div class="flex-shrink-0 p-2" id="fig8a">
+    <img src="/images/patents/us10489830b2-image-08a.png" alt="Figure 08a" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig11">
-
-![Figure 011](/images/patents/us10489830b2-image-011.png)
-**Figure 11**
-
+<div class="flex-shrink-0 p-2" id="fig8b">
+    <img src="/images/patents/us10489830b2-image-08b.png" alt="Figure 08b" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig12">
-
-![Figure 012](/images/patents/us10489830b2-image-012.png)
-**Figure 12**
-
+<div class="flex-shrink-0 p-2" id="fig9">
+    <img src="/images/patents/us10489830b2-image-009.png" alt="Figure 009" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig13">
-
-![Figure 013](/images/patents/us10489830b2-image-013.png)
-**Figure 13**
-
+<div class="flex-shrink-0 p-2" id="fig10">
+    <img src="/images/patents/us10489830b2-image-010.png" alt="Figure 010" class="w-64 h-auto !my-0" />
 </div>
-
+<div class="flex-shrink-0 p-2" id="fig11">
+    <img src="/images/patents/us10489830b2-image-011.png" alt="Figure 011" class="w-64 h-auto !my-0" />
+</div>
+<div class="flex-shrink-0 p-2" id="fig12">
+    <img src="/images/patents/us10489830b2-image-012.png" alt="Figure 012" class="w-64 h-auto !my-0" />
+</div>
+<div class="flex-shrink-0 p-2" id="fig13">
+    <img src="/images/patents/us10489830b2-image-013.png" alt="Figure 013" class="w-64 h-auto !my-0" />
+</div>
+</div>
+<div class="flex items-center justify-center pt-2">
+ <span class="text-xs italic text-muted">Click the images to expand them and view in full screen</span>
 </div>
 
 ### Description
@@ -314,48 +272,48 @@ and displaying the plurality of pixels on a display unit of a communication devi
 
 In the drawings, like numerals describe similar components substantially throughout the several views. The drawings illustrate generally, by way of an example, but not by a way of limitation, various embodiments.
 
-<a href="./#fig1">
+<a href="#fig1">
 FIG. 1 illustrates an exemplary architecture for establishing ratings in accordance with an embodiment herein.
 </a>
 <br>
 <br>
-<a href="./#fig2">FIG. 2 illustrates an exemplary environment depicting a process of aggregation of ratings acquired from a plurality of publishers in accordance with an embodiment herein;
+<a href="#fig2">FIG. 2 illustrates an exemplary environment depicting a process of aggregation of ratings acquired from a plurality of publishers in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig3">FIG. 3 illustrates a system block diagram of the rating aggregator in accordance with an embodiment herein;
+<a href="#fig3">FIG. 3 illustrates a system block diagram of the rating aggregator in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig4">FIG. 4 illustrates an example of a rating aggregator in accordance with another embodiment herein;
+<a href="#fig4">FIG. 4 illustrates an example of a rating aggregator in accordance with another embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig5-7">FIGS. 5-7 illustrate examples of user interfaces for facilitating interactions with a rating aggregator in accordance with an embodiment herein;
+<a href="#fig5">FIGS. 5-7 illustrate examples of user interfaces for facilitating interactions with a rating aggregator in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig8ab">FIGS. 8A and 8B illustrate examples of financial information and profile information retrieved by a rating aggregator for use in comparative determination of associated aggregated ratings of physicians in accordance with an embodiment herein;
+<a href="#fig8a">FIGS. 8A and 8B illustrate examples of financial information and profile information retrieved by a rating aggregator for use in comparative determination of associated aggregated ratings of physicians in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig9">FIG. 9 illustrates a sentiment analysis engine, a filtering engine, and a rating evaluation unit communicatively connected with a plurality of rating sources, in accordance with an embodiment herein;
+<a href="#fig9">FIG. 9 illustrates a sentiment analysis engine, a filtering engine, and a rating evaluation unit communicatively connected with a plurality of rating sources, in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig10">FIG. 10 illustrates a method diagram for aggregation of rating indicators and publishing of an aggregate rating indicator, in accordance with an embodiment herein;
+<a href="#fig10">FIG. 10 illustrates a method diagram for aggregation of rating indicators and publishing of an aggregate rating indicator, in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig11">FIG. 11 illustrates an exemplary architecture involving a plurality of computing devices connected over the network, in accordance with an embodiment herein;
+<a href="#fig11">FIG. 11 illustrates an exemplary architecture involving a plurality of computing devices connected over the network, in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig12">FIG. 12 illustrates an example of filtering of the rating indicators that are obtained from various types of sources through use of a multi-layer filtering approach, in accordance with an embodiment herein;
+<a href="#fig12">FIG. 12 illustrates an example of filtering of the rating indicators that are obtained from various types of sources through use of a multi-layer filtering approach, in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig13">FIG. 13 illustrates a computer system that may be used in accordance with the embodiments herein.
+<a href="#fig13">FIG. 13 illustrates a computer system that may be used in accordance with the embodiments herein.
 </a>
 
 ### <span style="font-size:20px">DETAILED DESCRIPTION </span>N
