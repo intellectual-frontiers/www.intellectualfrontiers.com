@@ -239,4 +239,57 @@ const { Content } = post;
       };
     }
   </script>
+  <script>
+    // Get all the img elements in the grid
+    var images = document.querySelectorAll('.patentimages img');
+
+    // Loop through each img element
+    images.forEach(function (img) {
+      // Add a click event listener to each img element
+      img.addEventListener('click', function () {
+        showModal(img.src);
+      });
+    });
+
+    // Get the modal by id
+    var modal = document.getElementById('patentimagemodal');
+    // Get the modal image tag
+    var modalImg = document.getElementById('modal-img');
+    // Get the close button
+    var closeModalBtn = document.getElementById('close-modal');
+
+    // This function is called when a small image is clicked
+    function showModal(src) {
+      modal.style.display = 'flex';
+      modalImg.src = src;
+    }
+
+    // This function is called when the close button is clicked
+    closeModalBtn.addEventListener('click', function () {
+      modal.style.display = 'none';
+    });
+  </script>
+
+  <!-- The Modal -->
+  <div
+    id="patentimagemodal"
+    class="fixed inset-0 z-50 flex items-center justify-center hidden"
+    style="display: none; background-color: rgba(0, 0, 0, 0.5);"
+  >
+    <!-- Modal Content -->
+    <div class="bg-white rounded-lg shadow-lg p-5 relative">
+      <!-- Close Button -->
+      <button
+        title="Close"
+        id="close-modal"
+        class="absolute top-1 right-3 bg-slate-50 rounded text-red-500 hover:text-red-700 z-90"
+      >
+        <Icon name="tabler:square-x" class="w-6 h-6 inline-block -mt-0.5" />
+      </button>
+      <!-- Image Display -->
+      <div class="flex justify-center items-center w-full h-full mt-3">
+        <img id="modal-img" class="w-full h-auto object-contain max-w-[850px]" />
+      </div>
+    </div>
+  </div>
 </div>

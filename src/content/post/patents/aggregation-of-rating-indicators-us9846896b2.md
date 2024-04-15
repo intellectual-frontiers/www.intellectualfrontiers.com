@@ -76,101 +76,55 @@ A computer-implemented method and system for publishing an aggregate rating indi
 
 ### Images (15)
 
-<div class="center-elements">
-
-<div id="fig01">
-
-![Figure 01](/images/patents/us9846896b2-image-01.png)
-**Figure 01**
-
+<div class="flex overflow-x-auto gap-4 bg-slate-50 cursor-pointer patentimages">
+<div class="flex-shrink-0 p-2" id="fig01">
+    <img src="/images/patents/us9846896b2-image-01.png" alt="Figure 01" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig1">
-
-![Figure 1](/images/patents/us9846896b2-image-1.png)
-**Figure 1**
-
+<div class="flex-shrink-0 p-2" id="fig1">
+    <img src="/images/patents/us9846896b2-image-1.png" alt="Figure 1" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig2">
-
-![Figure 2](/images/patents/us9846896b2-image-2.png)
-**Figure 2**
-
+<div class="flex-shrink-0 p-2" id="fig2">
+    <img src="/images/patents/us9846896b2-image-2.png" alt="Figure 2" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig3">
-
-![Figure 3](/images/patents/us9846896b2-image-3.png)
-**Figure 3**
-
+<div class="flex-shrink-0 p-2" id="fig3">
+    <img src="/images/patents/us9846896b2-image-3.png" alt="Figure 3" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig4">
-
-![Figure 4](/images/patents/us9846896b2-image-4.png)
-**Figure 4**
-
+<div class="flex-shrink-0 p-2" id="fig4">
+    <img src="/images/patents/us9846896b2-image-4.png" alt="Figure 4" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig5-7">
-
-![Figure 5](/images/patents/us9846896b2-image-5.png)
-**Figure 5**
-
-![Figure 6](/images/patents/us9846896b2-image-6.png)
-**Figure 6**
-
-![Figure 7](/images/patents/us9846896b2-image-7.png)
-**Figure 7**
-
+<div class="flex-shrink-0 p-2" id="fig5">
+    <img src="/images/patents/us9846896b2-image-5.png" alt="Figure 5" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig8a-8b">
-
-![Figure 8a](/images/patents/us9846896b2-image-8a.png)
-**Figure 8a**
-
-![Figure 8b](/images/patents/us9846896b2-image-8b.png)
-**Figure 8b**
-
+<div class="flex-shrink-0 p-2" id="fig6">
+    <img src="/images/patents/us9846896b2-image-6.png" alt="Figure 6" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig9">
-
-![Figure 9](/images/patents/us9846896b2-image-9.png)
-**Figure 9**
-
+<div class="flex-shrink-0 p-2" id="fig7">
+    <img src="/images/patents/us9846896b2-image-7.png" alt="Figure 7" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig10">
-
-![Figure 10](/images/patents/us9846896b2-image-10.png)
-**Figure 10**
-
+<div class="flex-shrink-0 p-2" id="fig8a">
+    <img src="/images/patents/us9846896b2-image-8a.png" alt="Figure 8a" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig11">
-
-![Figure 11](/images/patents/us9846896b2-image-11.png)
-**Figure 11**
-
+<div class="flex-shrink-0 p-2" id="fig8b">
+    <img src="/images/patents/us9846896b2-image-8b.png" alt="Figure 8b" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig12">
-
-![Figure 12](/images/patents/us9846896b2-image-12.png)
-**Figure 12**
-
+<div class="flex-shrink-0 p-2" id="fig9">
+    <img src="/images/patents/us9846896b2-image-9.png" alt="Figure 9" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig13">
-
-![Figure 13](/images/patents/us9846896b2-image-13.png)
-**Figure 13**
-
+<div class="flex-shrink-0 p-2" id="fig10">
+    <img src="/images/patents/us9846896b2-image-10.png" alt="Figure 10" class="w-64 h-auto !my-0" />
 </div>
-
+<div class="flex-shrink-0 p-2" id="fig11">
+    <img src="/images/patents/us9846896b2-image-11.png" alt="Figure 11" class="w-64 h-auto !my-0" />
+</div>
+<div class="flex-shrink-0 p-2" id="fig12">
+    <img src="/images/patents/us9846896b2-image-12.png" alt="Figure 12" class="w-64 h-auto !my-0" />
+</div>
+<div class="flex-shrink-0 p-2" id="fig13">
+    <img src="/images/patents/us9846896b2-image-13.png" alt="Figure 13" class="w-64 h-auto !my-0" />
+</div>
+</div>
+<div class="flex items-center justify-center pt-2">
+ <span class="text-xs italic text-muted">Click the images to expand them and view in full screen</span>
 </div>
 
 ### Description
@@ -439,56 +393,56 @@ the signal converter is further configured to convert the electric signal into a
 
 In the drawings, like numerals describe similar components substantially throughout the several views. The drawings illustrate generally, by way of an example, but not by a way of limitation, various embodiments.
 
-<a href="./#fig1">
+<a href="#fig1">
 FIG. 1 illustrates an exemplary architecture for establishing ratings in accordance with an embodiment herein;</a>
 <br>
 <br>
-<a href="./#fig2">
+<a href="#fig2">
 FIG. 2 illustrates an exemplary environment depicting a process of aggregation of ratings acquired from a plurality of publishers in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig3">
+<a href="#fig3">
 FIG. 3 illustrates a system block diagram of the rating aggregator in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig4">
+<a href="#fig4">
 FIG. 4 illustrates an example of a rating aggregator in accordance with another embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig5-7">
+<a href="#fig5">
 FIGS. 5-7 illustrate examples of user interfaces for facilitating interactions with a rating aggregator in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig8a-8b">
+<a href="#fig8a">
 FIGS. 8A and 8B illustrate examples of financial information and profile information retrieved by a rating aggregator for use in comparative determination of associated aggregated ratings of physicians in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig9">
+<a href="#fig9">
 FIG. 9 illustrates a sentiment analysis engine, a filtering engine, and a rating evaluation unit communicatively connected with a plurality of rating sources, in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig10">
+<a href="#fig10">
 FIG. 10 illustrates a method diagram for aggregation of rating indicators and publishing of an aggregate rating indicator, in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig11">
+<a href="#fig11">
 FIG. 11 illustrates an exemplary architecture involving a plurality of computing devices connected over the network, in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig12">
+<a href="#fig12">
 FIG. 12 illustrates an example of filtering of the rating indicators that are obtained from various types of sources through use of a multi-layer filtering approach, in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig13">
+<a href="#fig13">
 FIG. 13 illustrates a computer system that may be used in accordance with the embodiments herein.
 </a>
 
