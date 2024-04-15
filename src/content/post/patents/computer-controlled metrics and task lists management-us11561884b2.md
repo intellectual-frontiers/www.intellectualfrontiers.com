@@ -65,69 +65,40 @@ downloadable-documents:
     link_url:
 ---
 
-<!--
-<div class="center-elements">
-
-![Figure 001](/images/patents/us11561884b2-image-001.png)
-
-</div> -->
-
 ### Abstract
 
 An electronic evaluation device and method thereof for optimizing an operation of computer-controlled metric appliances in a network. The method includes determining whether a fault associated with computer-controlled metric appliance is valid based on a feedback received in real time from a validation entity and updating pre-defined programmable instructions assigned to the computer-controlled metric appliance in response to determining that the fault is invalid. The predefined programmable instructions are used to determine whether the computer-executable metric is achieved or not. The method includes applying a machine learning model on the plurality of parameters and the computer-executable goal to determine a computer-executable task list to be assigned to the computer-controlled metric appliance in order to achieve the computer-executable goal.
 
 ### Images (8)
 
-<div class="center-elements">
-
-<div id="fig01">
-
-![Figure 01](/images/patents/us11561884b2-image-01.png)
-**Figure 01**
-
+<div class="flex overflow-x-auto gap-4 bg-slate-50 cursor-pointer patentimages scroll-smooth">
+<div class="flex-shrink-0 p-2" id="fig01">
+    <img src="/images/patents/us11561884b2-image-01.png" alt="Figure 01" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig1">
-
-![Figure 1](/images/patents/us11561884b2-image-1.png)
-**Figure 1**
-
+<div class="flex-shrink-0 p-2" id="fig1">
+    <img src="/images/patents/us11561884b2-image-1.png" alt="Figure 1" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig2-3">
-
-![Figure 2-3](/images/patents/us11561884b2-image-2-3.png)
-**Figure 2-3**
-
+<div class="flex-shrink-0 p-2" id="fig2-3">
+    <img src="/images/patents/us11561884b2-image-2-3.png" alt="Figure 2-3" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig4">
-
-![Figure 4](/images/patents/us11561884b2-image-4.png)
-**Figure 4**
-
+<div class="flex-shrink-0 p-2" id="fig4">
+    <img src="/images/patents/us11561884b2-image-4.png" alt="Figure 4" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig5a-c">
-
-![Figure 5A](/images/patents/us11561884b2-image-5a.png)
-**Figure 5A**
-
-![Figure 5B](/images/patents/us11561884b2-image-5b.png)
-**Figure 5B**
-
-![Figure 5C](/images/patents/us11561884b2-image-5c.png)
-**Figure 5C**
-
+<div class="flex-shrink-0 p-2" id="fig5a">
+    <img src="/images/patents/us11561884b2-image-5a.png" alt="Figure 5a" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig6">
-
-![Figure 6](/images/patents/us11561884b2-image-6.png)
-**Figure 6**
-
+<div class="flex-shrink-0 p-2" id="fig5b">
+    <img src="/images/patents/us11561884b2-image-5b.png" alt="Figure 5b" class="w-64 h-auto !my-0" />
 </div>
-
+<div class="flex-shrink-0 p-2" id="fig5c">
+    <img src="/images/patents/us11561884b2-image-5c.png" alt="Figure 5c" class="w-64 h-auto !my-0" />
+</div>
+<div class="flex-shrink-0 p-2" id="fig6">
+    <img src="/images/patents/us11561884b2-image-6.png" alt="Figure 6" class="w-64 h-auto !my-0" />
+</div>
+</div>
+<div class="flex items-center justify-center pt-2">
+<span class="text-xs italic text-muted">Click the images to expand them and view in full screen</span>
 </div>
 
 ### Description
@@ -618,17 +589,17 @@ The embodiments herein will be better understood from the following detailed des
 
 Certainly, here's the code for the provided content:
 
-<a href="./#fig1">FIG. 1 illustrates a high-level overview of a system, according to embodiments as disclosed herein;</a>
+<a href="#fig1">FIG. 1 illustrates a high-level overview of a system, according to embodiments as disclosed herein;</a>
 <br><br>
-<a href="./#fig2-3">FIG. 2 illustrates a block diagram of an electronic evaluation device, according to embodiments as disclosed herein;</a>
+<a href="#fig2-3">FIG. 2 illustrates a block diagram of an electronic evaluation device, according to embodiments as disclosed herein;</a>
 <br><br>
-<a href="./#fig2-3">FIG. 3 illustrates a block diagram of a worklist management system, according to embodiments as disclosed herein;</a>
+<a href="#fig2-3">FIG. 3 illustrates a block diagram of a worklist management system, according to embodiments as disclosed herein;</a>
 <br><br>
-<a href="./#fig4">FIG. 4 illustrates working of a machine learning system, according to embodiments as disclosed herein;</a>
+<a href="#fig4">FIG. 4 illustrates working of a machine learning system, according to embodiments as disclosed herein;</a>
 <br><br>
-<a href="./#fig5a-c">FIGS. 5A-5C illustrate a method for optimizing an operation of computer-controlled metric appliances;</a>
+<a href="#fig5a">FIGS. 5A-5C illustrate a method for optimizing an operation of computer-controlled metric appliances;</a>
 <br><br>
-<a href="./#fig6">FIG. 6 is a block diagram illustrating a computer system according to an embodiment herein.</a>
+<a href="#fig6">FIG. 6 is a block diagram illustrating a computer system according to an embodiment herein.</a>
 
 ### <span style="font-size:20px">DETAILED DESCRIPTION </span>
 

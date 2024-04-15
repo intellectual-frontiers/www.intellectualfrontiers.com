@@ -76,64 +76,33 @@ A system is provided for automated recording of evidence of delivery of a servic
 
 ### Images (8)
 
-<div class="center-elements">
-
-<div id="fig01">
-
-![Figure 01](/images/patents/us11475441b2-image-01.png)
-**Figure 01**
-
+<div class="flex overflow-x-auto gap-4 bg-slate-50 cursor-pointer patentimages scroll-smooth pb-3">
+<div class="flex-shrink-0 p-2" id="fig01">
+    <img src="/images/patents/us11475441b2-image-01.png" alt="Figure 01" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig1">
-
-![Figure 1](/images/patents/us11475441b2-image-1.png)
-**Figure 1**
-
+<div class="flex-shrink-0 p-2" id="fig1">
+    <img src="/images/patents/us11475441b2-image-1.png" alt="Figure 1" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig2">
-
-![Figure 2](/images/patents/us11475441b2-image-2.png)
-**Figure 2**
-
+<div class="flex-shrink-0 p-2" id="fig2">
+    <img src="/images/patents/us11475441b2-image-2.png" alt="Figure 2" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig3">
-
-![Figure 3](/images/patents/us11475441b2-image-3.png)
-**Figure 3**
-
+<div class="flex-shrink-0 p-2" id="fig3">
+    <img src="/images/patents/us11475441b2-image-3.png" alt="Figure 3" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig4">
-
-![Figure 4](/images/patents/us11475441b2-image-4.png)
-**Figure 4**
-
+<div class="flex-shrink-0 p-2" id="fig4">
+    <img src="/images/patents/us11475441b2-image-4.png" alt="Figure 4" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig5">
-
-![Figure 5](/images/patents/us11475441b2-image-5.png)
-**Figure 5**
-
+<div class="flex-shrink-0 p-2" id="fig5">
+    <img src="/images/patents/us11475441b2-image-5.png" alt="Figure 5" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig6">
-
-![Figure 6](/images/patents/us11475441b2-image-6.png)
-**Figure 6**
-
+<div class="flex-shrink-0 p-2" id="fig6">
+    <img src="/images/patents/us11475441b2-image-6.png" alt="Figure 6" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig7">
-
-![Figure 7](/images/patents/us11475441b2-image-7.png)
-**Figure 7**
-
-</div>
-
+<div class="flex-shrink-0 p-2" id="fig7">
+    <img src="/images/patents/us11475441b2-image-7.png" alt="Figure 7" class="w-64 h-auto !my-0" />
+</div></div>
+<div class="flex items-center justify-center pt-2">
+<span class="text-xs italic text-muted">Click the images to expand them and view in full screen</span>
 </div>
 
 ### Description
@@ -312,32 +281,32 @@ a plurality of data elements comprising a proof of transaction as said evidence 
 
 The embodiments herein will be better understood from the following detailed description with reference to the drawings, in which:
 
-<a href="./#fig1">
+<a href="#fig1">
 FIG. 1 illustrates, among other things, an example of an environment or architecture in which various embodiments herein may operate.
 </a>
 <br>
 <br>
-<a href="./#fig2">FIG. 2 illustrates a computer-controlled evidence system among other components according to an embodiment herein;
+<a href="#fig2">FIG. 2 illustrates a computer-controlled evidence system among other components according to an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig3">FIG. 3 illustrates a computer-controlled evidence system among other components according to an embodiment herein;
+<a href="#fig3">FIG. 3 illustrates a computer-controlled evidence system among other components according to an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig4">FIG. 4 illustrates a flowchart depicting a method for recording of evidence digitally in a computer-executable format with the use of a computer-controlled system according to an embodiment herein;
+<a href="#fig4">FIG. 4 illustrates a flowchart depicting a method for recording of evidence digitally in a computer-executable format with the use of a computer-controlled system according to an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig5">FIG. 5 illustrates a use case of service delivery according to an embodiment herein;
+<a href="#fig5">FIG. 5 illustrates a use case of service delivery according to an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig6">FIG. 6 illustrates blockchain computer architecture of the system of FIG. 1 along with other systems in accordance with an embodiment herein;
+<a href="#fig6">FIG. 6 illustrates blockchain computer architecture of the system of FIG. 1 along with other systems in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig7">FIG. 7 is a block diagram illustrating a computer system according to an embodiment herein.
+<a href="#fig7">FIG. 7 is a block diagram illustrating a computer system according to an embodiment herein.
 </a>
 
 ### <span style="font-size:20px">DETAILED DESCRIPTION </span>

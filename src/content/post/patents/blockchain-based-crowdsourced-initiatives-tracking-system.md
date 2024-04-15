@@ -74,108 +74,45 @@ downloadable-documents:
 
 An embodiment herein provides a blockchain configured crowdsourced initiatives exchange ecosystem that includes a plurality of computing terminals associated with respective plurality of innovators which serve as sources of initiatives identified as innovations and respective sub-innovations. The ecosystem includes a distributed trusted ledgers system, a computing device communicatively connected to the plurality of computing terminals and configured to access the plurality of computing terminals and monitor the innovations, and a processing circuit that includes an initiatives tracking device that tracks the innovations associated with the plurality of computing terminals. The processing circuit includes a central initiatives management device. The ecosystem includes a hardware-based identity validation appliance to verify integrity of the plurality of computing terminals and the associated innovators to authorize a secured access of the plurality of computing terminals and to associate metadata with the innovations defining a digital ownership identity, a digital time identity, a digital geographical identity.
 
-<div class="flex flex-nowrap overflow-x-auto scroll-smooth">
-  <div class="flex-shrink-0 mr-4">
-    <figure>
-      <img src="/images/patents/us11270263b2-image-01.png" alt="Figure 01" class="max-h-[300px]" />
-      <figcaption class="text-center">Figure 01</figcaption>
-    </figure>
-  </div>
-  <div class="flex-shrink-0 mr-4">
-    <figure>
-      <img src="/images/patents/us11270263b2-image-1.png" alt="Figure 1" class="max-h-[300px]" />
-      <figcaption class="text-center">Figure 1</figcaption>
-    </figure>
-  </div>
-  <div class="flex-shrink-0 mr-4">
-    <figure>
-      <img src="/images/patents/us11270263b2-image-2.png" alt="Figure 2" class="max-h-[300px]" />
-      <figcaption class="text-center">Figure 2</figcaption>
-    </figure>
-  </div>
-</div>
-
 ### Images (11)
 
-<div class="center-elements">
-
-<div id="fig01">
-
-![Figure 01](/images/patents/us11270263b2-image-01.png)
-**Figure 01**
-
+<div class="flex overflow-x-auto gap-4 bg-slate-50 cursor-pointer patentimages scroll-smooth" >
+<div class="flex-shrink-0 p-2" id="fig01">
+    <img src="/images/patents/us11270263b2-image-01.png" alt="Figure 01" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig1">
-
-![Figure 1](/images/patents/us11270263b2-image-1.png)
-**Figure 1**
-
+<div class="flex-shrink-0 p-2" id="fig1">
+    <img src="/images/patents/us11270263b2-image-1.png" alt="Figure 1" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig2">
-
-![Figure 2](/images/patents/us11270263b2-image-2.png)
-**Figure 2**
-
+<div class="flex-shrink-0 p-2" id="fig2">
+    <img src="/images/patents/us11270263b2-image-2.png" alt="Figure 2" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig3">
-
-![Figure 3](/images/patents/us11270263b2-image-3.png)
-**Figure 3**
-
+<div class="flex-shrink-0 p-2" id="fig3">
+    <img src="/images/patents/us11270263b2-image-3.png" alt="Figure 3" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig4">
-
-![Figure 4](/images/patents/us11270263b2-image-4.png)
-**Figure 4**
-
+<div class="flex-shrink-0 p-2" id="fig4">
+    <img src="/images/patents/us11270263b2-image-4.png" alt="Figure 4" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig5">
-
-![Figure 5](/images/patents/us11270263b2-image-5.png)
-**Figure 5**
-
+<div class="flex-shrink-0 p-2" id="fig5">
+    <img src="/images/patents/us11270263b2-image-5.png" alt="Figure 5" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig6">
-
-![Figure 6](/images/patents/us11270263b2-image-6.png)
-**Figure 6**
-
+<div class="flex-shrink-0 p-2" id="fig6">
+    <img src="/images/patents/us11270263b2-image-6.png" alt="Figure 6" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig7">
-
-![Figure 7](/images/patents/us11270263b2-image-7.png)
-**Figure 7**
-
+<div class="flex-shrink-0 p-2" id="fig7">
+    <img src="/images/patents/us11270263b2-image-7.png" alt="Figure 7" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig8">
-
-![Figure 8](/images/patents/us11270263b2-image-8.png)
-**Figure 8**
-
+<div class="flex-shrink-0 p-2" id="fig8">
+    <img src="/images/patents/us11270263b2-image-8.png" alt="Figure 8" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig9">
-
-![Figure 9](/images/patents/us11270263b2-image-9.png)
-**Figure 9**
-
+<div class="flex-shrink-0 p-2" id="fig9">
+    <img src="/images/patents/us11270263b2-image-9.png" alt="Figure 9" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig10">
-
-![Figure 10](/images/patents/us11270263b2-image-10.png)
-**Figure 10**
-
+<div class="flex-shrink-0 p-2" id="fig10">
+    <img src="/images/patents/us11270263b2-image-10.png" alt="Figure 10" class="w-64 h-auto !my-0" />
 </div>
-
+</div>
+<div class="flex items-center justify-center pt-2">
+<span class="text-xs italic text-muted">Click the images to expand them and view in full screen</span>
 </div>
 
 ### Description
@@ -324,36 +261,36 @@ wherein said hardware-based identity validation appliance further comprises a fa
 
 The embodiments herein will be better understood from the following detailed description with reference to the drawings, in which:
 
-<a href="./#fig1">
+<a href="#fig1">
 FIG. 1 illustrates generally, but not by way of limitation, an exemplary computerized ecosystem in which various embodiments may operate.
 </a>
 <br>
 <br>
-<a href="./#fig2">FIG. 2 illustrates an example of a computerized central initiatives management system in accordance with an embodiment herein;
+<a href="#fig2">FIG. 2 illustrates an example of a computerized central initiatives management system in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig3">FIGS. 3 through 5 depict exemplary embodiments of a computerized credentialing system in accordance with various embodiments;
+<a href="#fig3">FIGS. 3 through 5 depict exemplary embodiments of a computerized credentialing system in accordance with various embodiments;
 </a>
 <br>
 <br>
-<a href="./#fig6">FIG. 6 illustrates an exemplary computerized initiatives tracking device in accordance with an embodiment herein;
+<a href="#fig6">FIG. 6 illustrates an exemplary computerized initiatives tracking device in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig7">FIG. 7 is a flowchart illustrating a method in accordance with an embodiment herein;
+<a href="#fig7">FIG. 7 is a flowchart illustrating a method in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig8">FIG. 8 illustrates a blockchain computer architecture of the ecosystem of FIG. 1 in accordance with an embodiment herein;
+<a href="#fig8">FIG. 8 illustrates a blockchain computer architecture of the ecosystem of FIG. 1 in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig9">FIG. 9 illustrates a computerized identity validation appliance in accordance with an embodiment herein;
+<a href="#fig9">FIG. 9 illustrates a computerized identity validation appliance in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig10">FIG. 10 illustrates a computer system used in accordance with an embodiment herein.
+<a href="#fig10">FIG. 10 illustrates a computer system used in accordance with an embodiment herein.
 </a>
 
 ### <span style="font-size:20px">DETAILED DESCRIPTION </span>
