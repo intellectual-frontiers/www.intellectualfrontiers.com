@@ -63,99 +63,63 @@ downloadable-documents:
     link_url:
 ---
 
-<!-- <div class="center-elements">
-
-![Figure 01](/images/patents/us9418355b2-image-1.png)
-
-</div> -->
-
 ### Abstract
 
 A response management system and method configured to allow management of responses to a case submitted by an entity in a crowdsourced network. The system includes a processing circuit that receives, from the entity over the crowdsourced network, the case. The processing circuit federates the case, into a plurality of federated cases, based on one or more parameters. The processing circuit routes the federated cases to the crowd of respondents in the network. The processing circuit receives responses from the crowd for each of the federated cases. The processing circuit integrates responses for each of the federated cases to yield a single integrated response for the case. The processing circuit publishes the integrated response anonymously that is viewable publicly.
 
 ### Images (12)
 
-<div class="center-elements">
-
-<div id="fig001">
-
-![Figure 001](/images/patents/us9418355b2-image-001.png)
-
+<div class="flex overflow-x-auto gap-4 bg-slate-50 cursor-pointer patentimages scroll-smooth">
+<div class="flex-shrink-0 p-2" id="fig001">
+    <img src="/images/patents/us9418355b2-image-001.png" alt="Figure 001" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig1">
-
-![Figure 01](/images/patents/us9418355b2-image-01.png)
-**Figure 1**
-
+<div class="flex-shrink-0 p-2" id="fig1">
+    <img src="/images/patents/us9418355b2-image-01.png" alt="Figure 01" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 1</span>
 </div>
-
-<div id="fig2">
-
-![Figure 02](/images/patents/us9418355b2-image-02.png)
-**Figure 2**
-
+<div class="flex-shrink-0 p-2" id="fig2">
+    <img src="/images/patents/us9418355b2-image-02.png" alt="Figure 02" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 2</span>
 </div>
-
-<div id="fig3">
-
-![Figure 03](/images/patents/us9418355b2-image-03.png)
-**Figure 3**
-
+<div class="flex-shrink-0 p-2" id="fig3">
+    <img src="/images/patents/us9418355b2-image-03.png" alt="Figure 03" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 3</span>
 </div>
-
-<div id="fig4">
-
-![Figure 04](/images/patents/us9418355b2-image-04.png)
-**Figure 4**
-
+<div class="flex-shrink-0 p-2" id="fig4">
+    <img src="/images/patents/us9418355b2-image-04.png" alt="Figure 04" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 4</span>
 </div>
-
-<div id="fig5">
-
-![Figure 05](/images/patents/us9418355b2-image-05.png)
-**Figure 5**
-
+<div class="flex-shrink-0 p-2" id="fig5">
+    <img src="/images/patents/us9418355b2-image-05.png" alt="Figure 05" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 5</span>
 </div>
-
-<div id="fig6">
-
-![Figure 06](/images/patents/us9418355b2-image-06.png)
-**Figure 6**
-
+<div class="flex-shrink-0 p-2" id="fig6">
+    <img src="/images/patents/us9418355b2-image-06.png" alt="Figure 06" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 6</span>
 </div>
-
-<div id="fig7">
-
-![Figure 07](/images/patents/us9418355b2-image-07.png)
-**Figure 7**
-
+<div class="flex-shrink-0 p-2" id="fig7">
+    <img src="/images/patents/us9418355b2-image-07.png" alt="Figure 07" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 7</span>
 </div>
-
-<div id="fig8">
-
-![Figure 08](/images/patents/us9418355b2-image-08.png)
-**Figure 8**
-
+<div class="flex-shrink-0 p-2" id="fig8">
+    <img src="/images/patents/us9418355b2-image-08.png" alt="Figure 08" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 8</span>
 </div>
-
-<div id="fig9ab">
-
-![Figure 9a](/images/patents/us9418355b2-image-9a.png)
-**Figure 9a**
-
-![Figure 9b](/images/patents/us9418355b2-image-9b.png)
-**Figure 9b**
-
+<div class="flex-shrink-0 p-2" id="fig9a">
+    <img src="/images/patents/us9418355b2-image-9a.png" alt="Figure 9a" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 9a</span>
 </div>
-
-<div id="fig10">
-
-![Figure 010](/images/patents/us9418355b2-image-10.png)
-**Figure 10**
-
+<div class="flex-shrink-0 p-2" id="fig9b">
+    <img src="/images/patents/us9418355b2-image-9b.png" alt="Figure 9b" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 9b</span>
 </div>
-
+<div class="flex-shrink-0 p-2" id="fig10">
+    <img src="/images/patents/us9418355b2-image-10.png" alt="Figure 10" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 10</span>
+</div>
+</div>
+<div class="flex items-center justify-center pt-2">
+<span class="text-xs italic text-muted">Click the images to expand them and view in full screen</span>
 </div>
 
 ### Description
@@ -346,43 +310,43 @@ publishing said integrated response anonymously that is viewable publicly.
 
 The features of the disclosed embodiments may become apparent from the following detailed description taken in conjunction with the accompanying drawings showing illustrative embodiments herein, in which:
 
-<a href="./#fig1">
+<a href="#fig1">
 FIG. 1 illustrates an example of an ecosystem to allow management of responses to cases submitted by an entity in a crowdsourced network according to an embodiment herein.
 </a>
 <br>
 <br>
-<a href="./#fig2">FIG. 2 illustrates an example of a server in accordance with an embodiment herein;
+<a href="#fig2">FIG. 2 illustrates an example of a server in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig3">FIG. 3 illustrates an example of a processing circuit 204 in accordance with an embodiment herein;
+<a href="#fig3">FIG. 3 illustrates an example of a processing circuit 204 in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig4">FIG. 4 illustrates generally, but not by the way of limitation, among other things, an exemplary operating environment for crowdsourced credentialing of respondents;
+<a href="#fig4">FIG. 4 illustrates generally, but not by the way of limitation, among other things, an exemplary operating environment for crowdsourced credentialing of respondents;
 </a>
 <br>
 <br>
-<a href="./#fig5">FIG. 5 illustrates a credentialing system in accordance with an embodiment herein;
+<a href="#fig5">FIG. 5 illustrates a credentialing system in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig6">FIG. 6 illustrates a credentialing system in accordance with another embodiment herein;</a>
+<a href="#fig6">FIG. 6 illustrates a credentialing system in accordance with another embodiment herein;</a>
 <br>
 <br>
-<a href="./#fig7">FIG. 7 illustrates a response scoring module in accordance with an exemplary embodiment herein;
+<a href="#fig7">FIG. 7 illustrates a response scoring module in accordance with an exemplary embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig8">FIG. 8 illustrates a method flowchart for management of responses to cases submitted by a plurality of entities in a crowdsourced network in accordance with an embodiment herein;
+<a href="#fig8">FIG. 8 illustrates a method flowchart for management of responses to cases submitted by a plurality of entities in a crowdsourced network in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig9ab">FIGS. 9A and 9B illustrate user searchable interfaces to access various cases and responses in accordance with an embodiment herein;
+<a href="#fig9a">FIGS. 9A and 9B illustrate user searchable interfaces to access various cases and responses in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig10">FIG. 10 illustrates generally, but not by the way of limitation, a computer system that may be used in accordance with the embodiments herein.
+<a href="#fig10">FIG. 10 illustrates generally, but not by the way of limitation, a computer system that may be used in accordance with the embodiments herein.
 </a>
 
 ### <span style="font-size:20px">DETAILED DESCRIPTION </span>

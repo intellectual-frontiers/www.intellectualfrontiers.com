@@ -64,102 +64,63 @@ downloadable-documents:
     link_url:
 ---
 
-<!-- <div class="center-elements">
-
-![Figure 01](/images/patents/us10811124b2-image-001.png)
-
-![Figure 02](/images/patents/us10811124b2-image-002.png)
-
-</div> -->
-
 ### Abstract
 
 A blockchain configured device-driven disintermediated distributed system for facilitating multi-faceted communication over a network. The system includes entities connected with a communications network. Each of the entities and associated devices and sensors and networks serve as a source of data records. The system includes a blockchain configured data bank accessible by each of the plurality of entities based on rules and preferences of the entities upon authorization by the blockchain configured data bank. The blockchain configured data bank includes a processing component for executing stored instructions to process the data records of the entities over the communications network. The system includes a blockchain configured component communicatively coupled to the blockchain configured data bank and adapted to be accessible by each of the plurality of entities. The system includes a validation device including a facial expression-based validation device and a geo-tagging-based validation device.
 
 ### Images (12)
 
-<div class="center-elements">
-
-<div id="fig01">
-
-![Figure 01](/images/patents/us10811124b2-image-01.png)
-**Figure 01**
-
+<div class="flex overflow-x-auto gap-4 bg-slate-50 cursor-pointer patentimages scroll-smooth">
+<div class="flex-shrink-0 p-2" id="fig01">
+    <img src="/images/patents/us10811124b2-image-01.png" alt="Figure 1" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig1">
-
-![Figure 1](/images/patents/us10811124b2-image-1.png)
-**Figure 1**
-
+<div class="flex-shrink-0 p-2" id="fig1">
+    <img src="/images/patents/us10811124b2-image-1.png" alt="Figure 1" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 1</span>
 </div>
-
-<div id="fig2">
-
-![Figure 2](/images/patents/us10811124b2-image-2.png)
-**Figure 2**
-
+<div class="flex-shrink-0 p-2" id="fig2">
+    <img src="/images/patents/us10811124b2-image-2.png" alt="Figure 2" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 2</span>
 </div>
-
-<div id="fig3A-B">
-
-![Figure 3A](/images/patents/us10811124b2-image-3a.png)
-**Figure 3A**
-
-![Figure 3B](/images/patents/us10811124b2-image-3b.png)
-**Figure 3B**
-
+<div class="flex-shrink-0 p-2" id="fig3a">
+    <img src="/images/patents/us10811124b2-image-3a.png" alt="Figure 3A" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 3A</span>
 </div>
-
-<div id="fig4">
-
-![Figure 4](/images/patents/us10811124b2-image-4.png)
-**Figure 4**
-
+<div class="flex-shrink-0 p-2" id="fig3b">
+    <img src="/images/patents/us10811124b2-image-3b.png" alt="Figure 3B" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 3B</span>
 </div>
-
-<div id="fig5">
-
-![Figure 5](/images/patents/us10811124b2-image-5.png)
-**Figure 5**
-
+<div class="flex-shrink-0 p-2" id="fig4">
+    <img src="/images/patents/us10811124b2-image-4.png" alt="Figure 4" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 4</span>
 </div>
-
-<div id="fig6">
-
-![Figure 6](/images/patents/us10811124b2-image-6.png)
-**Figure 6**
-
+<div class="flex-shrink-0 p-2" id="fig5">
+    <img src="/images/patents/us10811124b2-image-5.png" alt="Figure 5" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 5</span>
 </div>
-
-<div id="fig7">
-
-![Figure 7](/images/patents/us10811124b2-image-7.png)
-**Figure 7**
-
+<div class="flex-shrink-0 p-2" id="fig6">
+    <img src="/images/patents/us10811124b2-image-6.png" alt="Figure 6" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 6</span>
 </div>
-
-<div id="fig8">
-
-![Figure 8](/images/patents/us10811124b2-image-8.png)
-**Figure 8**
-
+<div class="flex-shrink-0 p-2" id="fig7">
+    <img src="/images/patents/us10811124b2-image-7.png" alt="Figure 7" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 7</span>
 </div>
-
-<div id="fig9">
-
-![Figure 9](/images/patents/us10811124b2-image-9.png)
-**Figure 9**
-
+<div class="flex-shrink-0 p-2" id="fig8">
+    <img src="/images/patents/us10811124b2-image-8.png" alt="Figure 8" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 8</span>
 </div>
-
-<div id="fig10">
-
-![Figure 10](/images/patents/us10811124b2-image-10.png)
-**Figure 10**
-
+<div class="flex-shrink-0 p-2" id="fig9">
+    <img src="/images/patents/us10811124b2-image-9.png" alt="Figure 9" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 9</span>
 </div>
-
+<div class="flex-shrink-0 p-2" id="fig10">
+    <img src="/images/patents/us10811124b2-image-10.png" alt="Figure 10" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 10</span>
+</div>
+</div>
+<div class="flex items-center justify-center pt-2">
+<span class="text-xs italic text-muted">Click the images to expand them and view in full screen</span>
 </div>
 
 ### Description
@@ -302,52 +263,52 @@ a geo-tagging device to obtain geographical coordinates from respective global p
 
 In the drawings, like numerals describe similar components substantially throughout the several views. The drawings illustrate generally, by way of an example, but not by a way of limitation, various embodiments.
 
-<a href="./#fig1">
+<a href="#fig1">
 FIG. 1 illustrates generally, but not by the way of limitation, among other things, a schematic diagram depicting a communications environment, in which some embodiments herein may operate;
 </a>
 <br
 ><br>
-<a href="./#fig2">
+<a href="#fig2">
 FIG. 2 illustrates generally, but not by the way of limitation, among other things, an example of an interactive social users interface display of a multi-faceted social health care component, in accordance with embodiments herein;
 </a>
 <br>
 <br>
-<a href="./#fig3A-B">
+<a href="#fig3a">
 FIGS. 3A and 3B illustrate generally, but not by the way of limitation, a sequence diagram depicting a method for restricting access to the multi-faceted social health care component based on the determined policy-based restrictions, in accordance with embodiments herein;
 </a>
 <br>
 <br>
-<a href="./#fig4">
+<a href="#fig4">
 FIG. 4 illustrates generally, but not by the way of limitation, among other things, a schematic diagram depicting a communications environment, in which some embodiments herein may operate;
 </a>
 <br>
 <br>
-<a href="./#fig5">
+<a href="#fig5">
 FIG. 5 illustrates a method flowchart for accessing a social health care component by an entity, in accordance with embodiments herein;
 </a>
 <br>
 <br>
-<a href="./#fig6">
+<a href="#fig6">
 FIG. 6 illustrates a device-driven non-intermediated blockchain configured digital ecosystem in a social integration network, in accordance with embodiments herein;
 </a>
 <br>
 <br>
-<a href="./#fig7">
+<a href="#fig7">
 FIG. 7 illustrates an architecture for enabling health care transactions and accessing of social records by the entities in accordance with the blockchain configured digital ecosystem of FIG. 6, in accordance with embodiments herein;
 </a>
 <br>
 <br>
-<a href="./#fig8">
+<a href="#fig8">
 FIG. 8 illustrates exemplary on-chain data sources and off-chain data sources generating data for storage in and/or accessible through a blockchain configured social health record data bank (SHRDB), in accordance with embodiments herein;
 </a>
 <br>
 <br>
-<a href="./#fig9">
+<a href="#fig9">
 FIG. 9 illustrates another view of a portion of a blockchain configured digital ecosystem illustrating multiple entities and associated networks, devices, and systems, in accordance with embodiments herein;
 </a>
 <br>
 <br>
-<a href="./#fig10">
+<a href="#fig10">
 FIG. 10 illustrates a computer system that may be used in accordance with the embodiments herein.
 </a>
 
