@@ -63,119 +63,71 @@ downloadable-documents:
     link_url:
 ---
 
-<!-- <div class="center-elements">
-
-![Figure 01](/images/patents/us10638999b2-image-001.png)
-![Figure 02](/images/patents/us10638999b2-image-002.png)
-
-</div> -->
-
 ### Abstract
 
 Controlling a multi-device module includes a physiological sensor configured to sense physiological characteristics of a subject and generate a signal indicative of an instantaneous physiological state. A first device is configured to generate a first signal indicative of an operating state of the first device. A second device is configured to generate a second signal indicative of an operating state of the second device. A remote-control device includes a repository for storing computer executable files aggregated from a plurality of changing private networks. The remote-control device includes an electronic record (ER) client to make a wireless connection with each of the private networks and to query ER database associated with the private networks for electronic records residing within the private networks.
 
 ### Images (14)
 
-<div class="center-elements">
-
-<div id="fig01">
-
-![Figure 01](/images/patents/us10638999b2-image-01.png)
-**Figure 01**
-
+<div class="flex overflow-x-auto gap-4 bg-slate-50 cursor-pointer patentimages scroll-smooth">
+<div class="flex-shrink-0 p-2" id="fig01">
+    <img src="/images/patents/us10638999b2-image-01.png" alt="Figure 01" class="w-64 max-h-[250px] !my-0" />
 </div>
-
-<div id="fig1">
-
-![Figure 1](/images/patents/us10638999b2-image-1.png)
-**Figure 1**
-
+<div class="flex-shrink-0 p-2" id="fig1">
+    <img src="/images/patents/us10638999b2-image-1.png" alt="Figure 1" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 1</span>
 </div>
-
-<div id="fig2">
-
-![Figure 2](/images/patents/us10638999b2-image-2.png)
-**Figure 2**
-
+<div class="flex-shrink-0 p-2" id="fig2">
+    <img src="/images/patents/us10638999b2-image-2.png" alt="Figure 2" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 2</span>
 </div>
-
-<div id="fig3">
-
-![Figure 3](/images/patents/us10638999b2-image-3.png)
-**Figure 3**
-
+<div class="flex-shrink-0 p-2" id="fig3">
+    <img src="/images/patents/us10638999b2-image-3.png" alt="Figure 3" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 3</span>
 </div>
-
-<div id="fig4">
-
-![Figure 4](/images/patents/us10638999b2-image-4.png)
-**Figure 4**
-
+<div class="flex-shrink-0 p-2" id="fig4">
+    <img src="/images/patents/us10638999b2-image-4.png" alt="Figure 4" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 4</span>
 </div>
-
-<div id="fig5">
-
-![Figure 5](/images/patents/us10638999b2-image-5.png)
-**Figure 5**
-
+<div class="flex-shrink-0 p-2" id="fig5">
+    <img src="/images/patents/us10638999b2-image-5.png" alt="Figure 5" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 5</span>
 </div>
-
-<div id="fig6">
-
-![Figure 6](/images/patents/us10638999b2-image-6.png)
-**Figure 6**
-
+<div class="flex-shrink-0 p-2" id="fig6">
+    <img src="/images/patents/us10638999b2-image-6.png" alt="Figure 6" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 6</span>
 </div>
-
-<div id="fig7">
-
-![Figure 7](/images/patents/us10638999b2-image-7.png)
-**Figure 7**
-
+<div class="flex-shrink-0 p-2" id="fig7">
+    <img src="/images/patents/us10638999b2-image-7.png" alt="Figure 7" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 7</span>
 </div>
-
-<div id="fig8">
-
-![Figure 8](/images/patents/us10638999b2-image-8.png)
-**Figure 8**
-
+<div class="flex-shrink-0 p-2" id="fig8">
+    <img src="/images/patents/us10638999b2-image-8.png" alt="Figure 8" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 8</span>
 </div>
-
-<div id="fig9">
-
-![Figure 9](/images/patents/us10638999b2-image-9.png)
-**Figure 9**
-
+<div class="flex-shrink-0 p-2" id="fig9">
+    <img src="/images/patents/us10638999b2-image-9.png" alt="Figure 9" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 9</span>
 </div>
-
-<div id="fig10">
-
-![Figure 10](/images/patents/us10638999b2-image-10.png)
-**Figure 10**
-
+<div class="flex-shrink-0 p-2" id="fig10">
+    <img src="/images/patents/us10638999b2-image-10.png" alt="Figure 10" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 10</span>
 </div>
-
-<div id="fig11">
-
-![Figure 11](/images/patents/us10638999b2-image-11.png)
-**Figure 11**
-
+<div class="flex-shrink-0 p-2" id="fig11">
+    <img src="/images/patents/us10638999b2-image-11.png" alt="Figure 11" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 11</span>
 </div>
-
-<div id="fig12">
-
-![Figure 12](/images/patents/us10638999b2-image-12.png)
-**Figure 12**
-
+<div class="flex-shrink-0 p-2" id="fig12">
+    <img src="/images/patents/us10638999b2-image-12.png" alt="Figure 12" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 12</span>
 </div>
-
-<div id="fig13">
-
-![Figure 13](/images/patents/us10638999b2-image-13.png)
-**Figure 13**
-
+<div class="flex-shrink-0 p-2" id="fig13">
+    <img src="/images/patents/us10638999b2-image-13.png" alt="Figure 13" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 13</span>
 </div>
-
+</div>
+<div class="flex items-center justify-center pt-2">
+<span class="text-xs italic text-muted">Click the images to expand them and view in full screen</span>
 </div>
 
 ### Description
@@ -410,32 +362,32 @@ said identification module.
 
 The features of the disclosed embodiments may become apparent from the following detailed description taken in conjunction with the accompanying drawings showing illustrative embodiments herein, in which:
 
-<a href="./#fig1">
+<a href="#fig1">
 FIG. 1 illustrates generally, but not by the way of limitation, among other things, an example of an operating environment in which an embodiment may operate;</a>
 <br><br>
-<a href="./#fig2">FIG. 2 illustrates generally, but not by the way of limitation, among other things, an ER client such as described in FIG. 1, in accordance with an embodiment;</a>
+<a href="#fig2">FIG. 2 illustrates generally, but not by the way of limitation, among other things, an ER client such as described in FIG. 1, in accordance with an embodiment;</a>
 <br><br>
-<a href="./#fig3">FIG. 3 is a schematic diagram that illustrates generally, but not by the way of limitation, an exemplary cloud computing architecture, in accordance with an exemplary embodiment;</a>
+<a href="#fig3">FIG. 3 is a schematic diagram that illustrates generally, but not by the way of limitation, an exemplary cloud computing architecture, in accordance with an exemplary embodiment;</a>
 <br><br>
-<a href="./#fig4">FIG. 4 illustrates generally, but not by the way of limitation, a plurality of medical devices connected with an EMR system, in accordance with an embodiment;</a>
+<a href="#fig4">FIG. 4 illustrates generally, but not by the way of limitation, a plurality of medical devices connected with an EMR system, in accordance with an embodiment;</a>
 <br><br>
-<a href="./#fig5">FIG. 5 illustrates, generally but not by the way of limitation, a system for facilitating coordination and control among a plurality of medical devices, in accordance with an embodiment;</a>
+<a href="#fig5">FIG. 5 illustrates, generally but not by the way of limitation, a system for facilitating coordination and control among a plurality of medical devices, in accordance with an embodiment;</a>
 <br><br>
-<a href="./#fig6">FIG. 6 illustrates, generally but not by the way of limitation, an example of a first medical device and a second medical device coordinating in a network before switching their operating states, in an embodiment;</a>
+<a href="#fig6">FIG. 6 illustrates, generally but not by the way of limitation, an example of a first medical device and a second medical device coordinating in a network before switching their operating states, in an embodiment;</a>
 <br><br>
-<a href="./#fig7">FIG. 7 illustrates, generally but not by the way of limitation, an example of the first medical device and the second medical device coordinating in the network after switching their operating states, in accordance with an embodiment;</a>
+<a href="#fig7">FIG. 7 illustrates, generally but not by the way of limitation, an example of the first medical device and the second medical device coordinating in the network after switching their operating states, in accordance with an embodiment;</a>
 <br><br>
-<a href="./#fig8">FIG. 8 illustrates an exemplary lookup table depicting interdependence among a plurality of medical devices, in accordance with an embodiment;</a>
+<a href="#fig8">FIG. 8 illustrates an exemplary lookup table depicting interdependence among a plurality of medical devices, in accordance with an embodiment;</a>
 <br><br>
-<a href="./#fig9">FIG. 9 illustrates a method for facilitating coordinated functioning of a plurality of medical devices, in accordance with an embodiment;</a>
+<a href="#fig9">FIG. 9 illustrates a method for facilitating coordinated functioning of a plurality of medical devices, in accordance with an embodiment;</a>
 <br><br>
-<a href="./#fig10">FIG. 10 illustrates an exemplary remote-control device in association with a multi-device module, in accordance with an embodiment;</a>
+<a href="#fig10">FIG. 10 illustrates an exemplary remote-control device in association with a multi-device module, in accordance with an embodiment;</a>
 <br><br>
-<a href="./#fig11">FIG. 11 illustrates an exemplary multi-device module, in accordance with an embodiment;</a>
+<a href="#fig11">FIG. 11 illustrates an exemplary multi-device module, in accordance with an embodiment;</a>
 <br><br>
-<a href="./#fig12">FIG. 12 illustrates an exemplary centralized system linked with medical devices, in accordance with an embodiment;</a>
+<a href="#fig12">FIG. 12 illustrates an exemplary centralized system linked with medical devices, in accordance with an embodiment;</a>
 <br><br>
-<a href="./#fig13">FIG. 13 illustrates generally, but not by the way of limitation, a computer system that may be used in accordance with the embodiments herein.</a>
+<a href="#fig13">FIG. 13 illustrates generally, but not by the way of limitation, a computer system that may be used in accordance with the embodiments herein.</a>
 
 ### <span style="font-size:20px">DETAILED DESCRIPTION </span>
 

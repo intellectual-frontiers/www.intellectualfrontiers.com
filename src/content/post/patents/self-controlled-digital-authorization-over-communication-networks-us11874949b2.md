@@ -67,98 +67,61 @@ A system for authorizing an external device to access computerized records. The 
 
 ### Images (13)
 
-<div class="center-elements">
-
-<div id="fig0">
-
-![Figure 0](/images/patents/us11874949b2-image-0.png)
-
+<div class="flex overflow-x-auto gap-4 bg-slate-50 cursor-pointer patentimages scroll-smooth">
+<div class="flex-shrink-0 p-2" id="fig0">
+    <img src="/images/patents/us11874949b2-image-0.png" alt="Figure 0" class="w-64 max-h-[250px] !my-0" />
 </div>
-
-<div id="fig1">
-
-![Figure 1](/images/patents/us11874949b2-image-1.png)
-**Figure 1**
-
+<div class="flex-shrink-0 p-2" id="fig1">
+    <img src="/images/patents/us11874949b2-image-1.png" alt="Figure 1" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 1</span>
 </div>
-
-<div id="fig2">
-
-![Figure 2](/images/patents/us11874949b2-image-2.png)
-**Figure 2**
-
+<div class="flex-shrink-0 p-2" id="fig2">
+    <img src="/images/patents/us11874949b2-image-2.png" alt="Figure 2" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 2</span>
 </div>
-
-<div id="fig3">
-
-![Figure 3](/images/patents/us11874949b2-image-3.png)
-**Figure 3**
-
+<div class="flex-shrink-0 p-2" id="fig3">
+    <img src="/images/patents/us11874949b2-image-3.png" alt="Figure 3" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 3</span>
 </div>
-
-<div id="fig4">
-
-![Figure 4](/images/patents/us11874949b2-image-4.png)
-**Figure 4**
-
+<div class="flex-shrink-0 p-2" id="fig4">
+    <img src="/images/patents/us11874949b2-image-4.png" alt="Figure 4" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 4</span>
 </div>
-
-<div id="fig5">
-
-![Figure 5](/images/patents/us11874949b2-image-5.png)
-**Figure 5**
-
+<div class="flex-shrink-0 p-2" id="fig5">
+    <img src="/images/patents/us11874949b2-image-5.png" alt="Figure 5" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 5</span>
 </div>
-
-<div id="fig6">
-
-![Figure 6](/images/patents/us11874949b2-image-6.png)
-**Figure 6**
-
+<div class="flex-shrink-0 p-2" id="fig6">
+    <img src="/images/patents/us11874949b2-image-6.png" alt="Figure 6" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 6</span>
 </div>
-
-<div id="fig7">
-
-![Figure 7](/images/patents/us11874949b2-image-7.png)
-**Figure 7**
-
+<div class="flex-shrink-0 p-2" id="fig7">
+    <img src="/images/patents/us11874949b2-image-7.png" alt="Figure 7" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 7</span>
 </div>
-
-<div id="fig8">
-
-![Figure 8](/images/patents/us11874949b2-image-8.png)
-**Figure 8**
-
+<div class="flex-shrink-0 p-2" id="fig8">
+    <img src="/images/patents/us11874949b2-image-8.png" alt="Figure 8" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 8</span>
 </div>
-
-<div id="fig9">
-
-![Figure 9](/images/patents/us11874949b2-image-9.png)
-**Figure 9**
-
+<div class="flex-shrink-0 p-2" id="fig9">
+    <img src="/images/patents/us11874949b2-image-9.png" alt="Figure 9" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 9</span>
 </div>
-
-<div id="fig10">
-
-![Figure 10](/images/patents/us11874949b2-image-10.png)
-**Figure 10**
-
+<div class="flex-shrink-0 p-2" id="fig10">
+    <img src="/images/patents/us11874949b2-image-10.png" alt="Figure 10" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 10</span>
 </div>
-
-<div id="fig11">
-
-![Figure 11](/images/patents/us11874949b2-image-11.png)
-**Figure 11**
-
+<div class="flex-shrink-0 p-2" id="fig11">
+    <img src="/images/patents/us11874949b2-image-11.png" alt="Figure 11" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 11</span>
 </div>
-
-<div id="fig12">
-
-![Figure 12](/images/patents/us11874949b2-image-12.png)
-**Figure 12**
-
+<div class="flex-shrink-0 p-2" id="fig12">
+    <img src="/images/patents/us11874949b2-image-12.png" alt="Figure 12" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 12</span>
 </div>
-
+</div>
+<div class="flex items-center justify-center pt-2">
+<span class="text-xs italic text-muted">Click the images to expand them and view in full screen</span>
 </div>
 
 ### DESCRIPTION
@@ -310,62 +273,62 @@ and a scanner operatively connected to the external device, wherein the digital 
 
 The embodiments herein will be better understood from the following detailed description with reference to the drawings, in which:
 
-<a href="./#fig1">
+<a href="#fig1">
 FIG. 1 illustrates generally, but not by way of limitation, among other things, an example of an environment or architecture in which various embodiments herein may operate;
 </a>
 <br>
 <br>
-<a href="./#fig2">
+<a href="#fig2">
 FIG. 2 illustrates generally, but not by way of limitation, among other things, a specific example of an environment or architecture in which at least some embodiments herein may operate;
 </a>
 <br>
 <br>
-<a href="./#fig3">
+<a href="#fig3">
 FIG. 3 illustrates a system for storing and creating computerized records, and authorizing access to an external device, at least in part, for the computerized records according to the embodiments herein;
 </a>
 <br>
 <br>
-<a href="./#fig4">
+<a href="#fig4">
 FIG. 4 illustrates a network of several devices representing as similar to the external device that are connected with a subject according to the embodiments herein;
 </a>
 <br>
 <br>
-<a href="./#fig5">
+<a href="#fig5">
 FIG. 5 illustrates generally, but not by way of limitation, an example of an interface providing a capability to the external device such as to access the server for requesting the authorization to access or create the computerized records, at least in part, stored at the server according to the embodiments herein;
 </a>
 <br>
 <br>
-<a href="./#fig6">
+<a href="#fig6">
 FIG. 6 is a flowchart illustrating a method for sharing the computerized records by the subjects with the server for the purpose of such as authorizing the external device to access the computerized records according to the embodiments herein;
 </a>
 <br>
 <br>
-<a href="./#fig7">
+<a href="#fig7">
 FIG. 7 is a flowchart illustrating a method of granting access or authorizing the external device for the computerized records, at least in part, by the server or the subject according to the embodiments herein;
 </a>
 <br>
 <br>
-<a href="./#fig8">
+<a href="#fig8">
 FIG. 8 illustrates a contextual authorization device, according to some embodiments herein;
 </a>
 <br>
 <br>
-<a href="./#fig9">
+<a href="#fig9">
 FIG. 9 illustrates an example of credentialing engine, according to the embodiments herein;
 </a>
 <br>
 <br>
-<a href="./#fig10">
+<a href="#fig10">
 FIG. 10 illustrates an integrated chip, according to some embodiments herein;
 </a>
 <br>
 <br>
-<a href="./#fig11">
+<a href="#fig11">
 FIG. 11 illustrates an exemplary portable device encapsulating the integrated chip connected with the external device, according to some embodiments herein; and
 </a>
 <br>
 <br>
-<a href="./#fig12">
+<a href="#fig12">
 FIG. 12 illustrates a representative hardware environment for practicing various embodiments herein.
 </a>
 <br>

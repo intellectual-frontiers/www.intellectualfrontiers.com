@@ -70,91 +70,58 @@ A computer-controlled diagnostic network system. The system includes diagnostic 
 
 ### Images (12)
 
-<div class="center-elements">
-
-<div id="fig1">
-
-![Figure 1](/images/patents/us11769573b2-image-1.png)
-
+<div class="flex overflow-x-auto gap-4 bg-slate-50 cursor-pointer patentimages scroll-smooth">
+<div class="flex-shrink-0 p-2" id="fig1">
+    <img src="/images/patents/us11769573b2-image-1.png" alt="Figure 1" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 1</span>
 </div>
-
-<div id="fig2">
-
-![Figure 2](/images/patents/us11769573b2-image-2.png)
-**Figure 1**
-
+<div class="flex-shrink-0 p-2" id="fig2">
+    <img src="/images/patents/us11769573b2-image-2.png" alt="Figure 2" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 2</span>
 </div>
-
-<div id="fig3">
-
-![Figure 3](/images/patents/us11769573b2-image-3.png)
-**Figure 2**
-
+<div class="flex-shrink-0 p-2" id="fig3">
+    <img src="/images/patents/us11769573b2-image-3.png" alt="Figure 3" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 3</span>
 </div>
-
-<div id="fig4">
-
-![Figure 4](/images/patents/us11769573b2-image-4.png)
-**Figure 3**
-
+<div class="flex-shrink-0 p-2" id="fig4">
+    <img src="/images/patents/us11769573b2-image-4.png" alt="Figure 4" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 4</span>
 </div>
-
-<div id="fig5">
-
-![Figure 5](/images/patents/us11769573b2-image-5.png)
-**Figure 4**
-
+<div class="flex-shrink-0 p-2" id="fig5">
+    <img src="/images/patents/us11769573b2-image-5.png" alt="Figure 5" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 5</span>
 </div>
-
-<div id="fig6">
-
-![Figure 6](/images/patents/us11769573b2-image-6.png)
-**Figure 5**
-
+<div class="flex-shrink-0 p-2" id="fig6">
+    <img src="/images/patents/us11769573b2-image-6.png" alt="Figure 6" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 6</span>
 </div>
-
-<div id="fig7">
-
-![Figure 7](/images/patents/us11769573b2-image-7.png)
-**Figure 6**
-
+<div class="flex-shrink-0 p-2" id="fig7">
+    <img src="/images/patents/us11769573b2-image-7.png" alt="Figure 7" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 7</span>
 </div>
-
-<div id="fig8">
-
-![Figure 8](/images/patents/us11769573b2-image-8.png)
-**Figure 7**
-
+<div class="flex-shrink-0 p-2" id="fig8">
+    <img src="/images/patents/us11769573b2-image-8.png" alt="Figure 8" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 8</span>
 </div>
-
-<div id="fig9">
-
-![Figure 9](/images/patents/us11769573b2-image-9.png)
-**Figure 8**
-
+<div class="flex-shrink-0 p-2" id="fig9">
+    <img src="/images/patents/us11769573b2-image-9.png" alt="Figure 9" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 9</span>
 </div>
-
-<div id="fig10">
-
-![Figure 10](/images/patents/us11769573b2-image-10.png)
-**Figure 9**
-
+<div class="flex-shrink-0 p-2" id="fig10">
+    <img src="/images/patents/us11769573b2-image-10.png" alt="Figure 10" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 10</span>
 </div>
-
-<div id="fig11">
-
-![Figure 11](/images/patents/us11769573b2-image-11.png)
-**Figure 10**
-
+<div class="flex-shrink-0 p-2" id="fig11">
+    <img src="/images/patents/us11769573b2-image-11.png" alt="Figure 11" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 11</span>
 </div>
-
-<div id="fig12">
-
-![Figure 12](/images/patents/us11769573b2-image-12.png)
-**Figure 11**
-
+<div class="flex-shrink-0 p-2" id="fig12">
+    <img src="/images/patents/us11769573b2-image-12.png" alt="Figure 12" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 12</span>
 </div>
-
+</div>
+<div class="flex items-center justify-center pt-2">
+<span class="text-xs italic text-muted">Click the images to expand them and view in full screen</span>
 </div>
 
 ### Description

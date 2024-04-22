@@ -63,99 +63,59 @@ downloadable-documents:
     link_url:
 ---
 
-<!-- <div class="center-elements">
-
-![Figure 001](/images/patents/us10586069b2-image-001.png)
-
-![Figure 002](/images/patents/us10586069b2-image-002.png)
-
-</div> -->
-
 ### Abstract
 
 A method and networking device for tracking change in a computer executable profile includes retrieving computer executable profile information. The method and device may include staging the computer executable profile information in cloud staging repositories. The method and device may include splitting the computer executable profile information into constituent data types. The method and device may include defining a plurality of computer executable profile fields and corresponding profile information components. The method and device may include storing the computer executable profile information as initial computer executable profile information in a database. The method and device may include retrieving second computer executable profile information at a later time. The method and device may include mapping the initial computer executable profile information with the second computer executable profile information to identify changes.
 
 ### Images (11)
 
-<div class="center-elements">
-
-<div id="fig01">
-
-![Figure 01](/images/patents/us10586069b2-image-01.png)
-**Figure 01**
-
+<div class="flex overflow-x-auto gap-4 bg-slate-50 cursor-pointer patentimages scroll-smooth">
+<div class="flex-shrink-0 p-2" id="fig01">
+    <img src="/images/patents/us10586069b2-image-01.png" alt="Figure 01" class="w-64 max-h-[250px] !my-0" />
 </div>
-
-<div id="fig1">
-
-![Figure 1](/images/patents/us10586069b2-image-1.png)
-**Figure 1**
-
+<div class="flex-shrink-0 p-2" id="fig1">
+    <img src="/images/patents/us10586069b2-image-1.png" alt="Figure 1" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 1</span>
 </div>
-
-<div id="fig2">
-
-![Figure 2](/images/patents/us10586069b2-image-2.png)
-**Figure 2**
-
+<div class="flex-shrink-0 p-2" id="fig2">
+    <img src="/images/patents/us10586069b2-image-2.png" alt="Figure 2" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 2</span>
 </div>
-
-<div id="fig3">
-
-![Figure 3](/images/patents/us10586069b2-image-3.png)
-**Figure 3**
-
+<div class="flex-shrink-0 p-2" id="fig3">
+    <img src="/images/patents/us10586069b2-image-3.png" alt="Figure 3" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 3</span>
 </div>
-
-<div id="fig4">
-
-![Figure 4](/images/patents/us10586069b2-image-4.png)
-**Figure 4**
-
+<div class="flex-shrink-0 p-2" id="fig4">
+    <img src="/images/patents/us10586069b2-image-4.png" alt="Figure 4" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 4</span>
 </div>
-
-<div id="fig5">
-
-![Figure 5](/images/patents/us10586069b2-image-5.png)
-**Figure 5**
-
+<div class="flex-shrink-0 p-2" id="fig5">
+    <img src="/images/patents/us10586069b2-image-5.png" alt="Figure 5" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 5</span>
 </div>
-
-<div id="fig6">
-
-![Figure 6](/images/patents/us10586069b2-image-6.png)
-**Figure 6**
-
+<div class="flex-shrink-0 p-2" id="fig6">
+    <img src="/images/patents/us10586069b2-image-6.png" alt="Figure 6" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 6</span>
 </div>
-
-<div id="fig7">
-
-![Figure 7](/images/patents/us10586069b2-image-7.png)
-**Figure 7**
-
+<div class="flex-shrink-0 p-2" id="fig7">
+    <img src="/images/patents/us10586069b2-image-7.png" alt="Figure 7" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 7</span>
 </div>
-
-<div id="fig8">
-
-![Figure 8](/images/patents/us10586069b2-image-8.png)
-**Figure 8**
-
+<div class="flex-shrink-0 p-2" id="fig8">
+    <img src="/images/patents/us10586069b2-image-8.png" alt="Figure 8" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 8</span>
 </div>
-
-<div id="fig9">
-
-![Figure 9](/images/patents/us10586069b2-image-9.png)
-**Figure 9**
-
+<div class="flex-shrink-0 p-2" id="fig9">
+    <img src="/images/patents/us10586069b2-image-9.png" alt="Figure 9" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 9</span>
 </div>
-
-<div id="fig10">
-
-![Figure 10](/images/patents/us10586069b2-image-10.png)
-**Figure 10**
-
+<div class="flex-shrink-0 p-2" id="fig10">
+    <img src="/images/patents/us10586069b2-image-10.png" alt="Figure 10" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 10</span>
 </div>
-
+</div>
+<div class="flex items-center justify-center pt-2">
+<span class="text-xs italic text-muted">Click the images to expand them and view in full screen</span>
 </div>
 
 ### Description
@@ -318,44 +278,44 @@ a processing circuit to allow said first signal port, said second signal port, s
 
 In the drawings, like numerals describe similar components substantially throughout the several views. The drawings illustrate generally, by way of an example, but not by a way of limitation, various embodiments.
 
-<a href="./#fig1">
+<a href="#fig1">
 FIG. 1 illustrates a flow diagram of a method for tracking change in a computer executable profile associated with a registered clinician in accordance with an embodiment herein.
 </a>
 <br>
 <br>
-<a href="./#fig2">FIG. 2 illustrates a schematic diagram of a computer-controlled system for tracking change in a computer executable profile, in accordance with an embodiment herein;
+<a href="#fig2">FIG. 2 illustrates a schematic diagram of a computer-controlled system for tracking change in a computer executable profile, in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig3">FIG. 3 illustrates exemplary structured computer executable profile information generated at different instances of time and stored in a database;
+<a href="#fig3">FIG. 3 illustrates exemplary structured computer executable profile information generated at different instances of time and stored in a database;
 </a>
 <br>
 <br>
-<a href="./#fig4">FIG. 4 illustrates organization of a computer executable profile information within a database linked to various information sources to aggregate information components, in accordance with an embodiment herein;
+<a href="#fig4">FIG. 4 illustrates organization of a computer executable profile information within a database linked to various information sources to aggregate information components, in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig5">FIG. 5 illustrates various components of a processing circuit, in accordance with an embodiment herein;
+<a href="#fig5">FIG. 5 illustrates various components of a processing circuit, in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig6">FIG. 6 illustrates visualization of an exemplary timeline view and a computer executable profile information, in accordance with an embodiment herein;
+<a href="#fig6">FIG. 6 illustrates visualization of an exemplary timeline view and a computer executable profile information, in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig7">FIG. 7 is a schematic architecture diagram illustrating transmission and signaling of information across various components, in accordance with an embodiment herein;
+<a href="#fig7">FIG. 7 is a schematic architecture diagram illustrating transmission and signaling of information across various components, in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig8">FIG. 8 illustrates a computer system that may be used in accordance with the embodiments herein;
+<a href="#fig8">FIG. 8 illustrates a computer system that may be used in accordance with the embodiments herein;
 </a>
 <br>
 <br>
-<a href="./#fig9">FIG. 9 is a schematic diagram illustrating a hardware-based appliance (appliance) stored behind a firewall and communicatively and operatively connected with an external network and a client device, in accordance with the embodiments herein;
+<a href="#fig9">FIG. 9 is a schematic diagram illustrating a hardware-based appliance (appliance) stored behind a firewall and communicatively and operatively connected with an external network and a client device, in accordance with the embodiments herein;
 </a>
 <br>
 <br>
-<a href="./#fig10">FIG. 10 is a schematic diagram of a networking device and linked components according to an embodiment herein.
+<a href="#fig10">FIG. 10 is a schematic diagram of a networking device and linked components according to an embodiment herein.
 </a>
 
 ### <span style="font-size:20px">DETAILED DESCRIPTION </span>

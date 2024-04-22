@@ -64,113 +64,68 @@ downloadable-documents:
     link_url:
 ---
 
-<!-- <div class="center-elements">
-
-![Figure 01](/images/patents/us11006920b2-image-01.jpg)
-
-![Figure 02](/images/patents/us11006920b2-image-02.jpg)
-
-</div> -->
-
 ### Abstract
 
 Controlling a multi-device module includes a physiological sensor configured to sense physiological characteristics of a subject and generate a signal indicative of an instantaneous physiological state. A first device is configured to generate a first signal indicative of an operating state of the first device. A second device is configured to generate a second signal indicative of an operating state of the second device. A remote-control device includes a repository for storing computer executable files aggregated from a plurality of changing private networks. The remote-control device includes an electronic record (ER) client to make a wireless connection with each of the private networks and to query ER database associated with the private networks for electronic records residing within the private networks.
 
 ### Images (13)
 
-<div class="center-elements">
-
- <div id="fig1">
-
-![Figure 001](/images/patents/us11006920b2-image-001.png)
-**Figure 1**
-
- </div>
-
- <div id="fig2">
-
-![Figure 002](/images/patents/us11006920b2-image-002.png)
-**Figure 2**
-
- </div>
-
-<div id="fig3">
-
-![Figure 003](/images/patents/us11006920b2-image-003.png)
-**Figure 3**
-
- </div>
-
-<div id="fig4">
-
-![Figure 004](/images/patents/us11006920b2-image-004.png)
-**Figure 4**
-
- </div>
-
-<div id="fig5">
-
-![Figure 005](/images/patents/us11006920b2-image-005.png)
-**Figure 5**
-
- </div>
-
-<div id="fig6">
-
-![Figure 006](/images/patents/us11006920b2-image-006.png)
-**Figure 6**
-
- </div>
-
-<div id="fig7">
-
-![Figure 007](/images/patents/us11006920b2-image-007.png)
-**Figure 7**
-
- </div>
-
-<div id="fig8">
-
-![Figure 008](/images/patents/us11006920b2-image-008.png)
-**Figure 8**
-
- </div>
-
- <div id="fig9">
-
-![Figure 009](/images/patents/us11006920b2-image-009.png)
-**Figure 9**
-
- </div>
-
-<div id="fig10">
-
-![Figure 010](/images/patents/us11006920b2-image-010.png)
-**Figure 10**
-
- </div>
-
-<div id="fig11">
-
-![Figure 011](/images/patents/us11006920b2-image-011.png)
-**Figure 11**
-
- </div>
-
-<div id="fig12">
-
-![Figure 012](/images/patents/us11006920b2-image-012.png)
-**Figure 12**
-
- </div>
-
-<div id="fig13">
-
-![Figure 013](/images/patents/us11006920b2-image-013.png)
-**Figure 13**
-
+<div class="flex overflow-x-auto gap-4 bg-slate-50 cursor-pointer patentimages scroll-smooth">
+<div class="flex-shrink-0 p-2" id="fig1">
+    <img src="/images/patents/us11006920b2-image-001.png" alt="Figure 001" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 1</span>
 </div>
-
+<div class="flex-shrink-0 p-2" id="fig2">
+    <img src="/images/patents/us11006920b2-image-002.png" alt="Figure 002" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 2</span>
+</div>
+<div class="flex-shrink-0 p-2" id="fig3">
+    <img src="/images/patents/us11006920b2-image-003.png" alt="Figure 003" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 3</span>
+</div>
+<div class="flex-shrink-0 p-2" id="fig4">
+    <img src="/images/patents/us11006920b2-image-004.png" alt="Figure 004" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 4</span>
+</div>
+<div class="flex-shrink-0 p-2" id="fig5">
+    <img src="/images/patents/us11006920b2-image-005.png" alt="Figure 005" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 5</span>
+</div>
+<div class="flex-shrink-0 p-2" id="fig6">
+    <img src="/images/patents/us11006920b2-image-006.png" alt="Figure 006" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 6</span>
+</div>
+<div class="flex-shrink-0 p-2" id="fig7">
+    <img src="/images/patents/us11006920b2-image-007.png" alt="Figure 007" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 7</span>
+</div>
+<div class="flex-shrink-0 p-2" id="fig8">
+    <img src="/images/patents/us11006920b2-image-008.png" alt="Figure 008" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 8</span>
+</div>
+<div class="flex-shrink-0 p-2" id="fig9">
+    <img src="/images/patents/us11006920b2-image-009.png" alt="Figure 009" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 9</span>
+</div>
+<div class="flex-shrink-0 p-2" id="fig10">
+    <img src="/images/patents/us11006920b2-image-010.png" alt="Figure 010" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 10</span>
+</div>
+<div class="flex-shrink-0 p-2" id="fig11">
+    <img src="/images/patents/us11006920b2-image-011.png" alt="Figure 011" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 11</span>
+</div>
+<div class="flex-shrink-0 p-2" id="fig12">
+    <img src="/images/patents/us11006920b2-image-012.png" alt="Figure 012" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 12</span>
+</div>
+<div class="flex-shrink-0 p-2" id="fig13">
+    <img src="/images/patents/us11006920b2-image-013.png" alt="Figure 013" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 13</span>
+</div>
+</div>
+<div class="flex items-center justify-center pt-2">
+<span class="text-xs italic text-muted">Click the images to expand them and view in full screen</span>
 </div>
 
 ### Description

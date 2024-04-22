@@ -64,89 +64,59 @@ downloadable-documents:
     link_url:
 ---
 
-<!-- <div class="center-elements">
-
-![Figure 01](/images/patents/us10089492b2-image.png)
-
-</div> -->
-
 ### Abstract
 
 A surveillance system for monitoring of Electronic Medical Record (EMR) application navigation through a plurality of navigation interfaces of an EMR application. The system includes an EMR system that includes the EMR application. The system includes a context-sensitive engine that includes an agent device to record EMR application navigation data in real time and contextual data comprising application sensitive, user sensitive and context sensitive data. The system includes an information management server to facilitate serving of information blocks to the EMR system from a plurality of distributed databases in real-time. The system includes a processing that analyzes the plurality of navigation interfaces associated with the EMR application during a workflow event, maps the analyzed navigation data and the contextual information with actual information pre-stored in a separate database connected with the EMR system, and determine an inconsistency in a navigation workflow during the workflow event based on the mapping.
 
 ### Images ( 11 )
 
-<div class="center-elements">
-
-<div id="fig1a">
-
-![Figure 001](/images/patents/us10089492b2-image-01.png)
-**Figure 1a**
-
+<div class="flex overflow-x-auto gap-4 bg-slate-50 cursor-pointer patentimages scroll-smooth">
+<div class="flex-shrink-0 p-2" id="fig01">
+    <img src="/images/patents/us10089492b2-image-01.png" alt="Figure 01" class="w-64 max-h-[250px] !my-0" />
 </div>
-
-<div id="fig1">
-
-![Figure 001](/images/patents/us10089492b2-image-001.png)
-**Figure 1**
-
+<div class="flex-shrink-0 p-2" id="fig1">
+    <img src="/images/patents/us10089492b2-image-001.png" alt="Figure 001" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 1</span>
 </div>
-
-<div id="fig2">
-
-![Figure 002](/images/patents/us10089492b2-image-002.png)
-**Figure 2**
-
+<div class="flex-shrink-0 p-2" id="fig2">
+    <img src="/images/patents/us10089492b2-image-002.png" alt="Figure 002" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 2</span>
 </div>
-
-<div id="fig3">
-
-![Figure 003](/images/patents/us10089492b2-image-003.png)
-**Figure 3**
-
+<div class="flex-shrink-0 p-2" id="fig3">
+    <img src="/images/patents/us10089492b2-image-003.png" alt="Figure 003" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 3</span>
 </div>
-
-<div id="fig4-6">
-
-![Figure 004](/images/patents/us10089492b2-image-004.png)
-**Figure 4**
-
-![Figure 005](/images/patents/us10089492b2-image-005.png)
-**Figure 5**
-
-![Figure 006](/images/patents/us10089492b2-image-006.png)
-**Figure 6**
-
+<div class="flex-shrink-0 p-2" id="fig4">
+    <img src="/images/patents/us10089492b2-image-004.png" alt="Figure 004" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 4</span>
 </div>
-
-<div id="fig7">
-
-![Figure 007](/images/patents/us10089492b2-image-007.png)
-**Figure 7**
-
+<div class="flex-shrink-0 p-2" id="fig5">
+    <img src="/images/patents/us10089492b2-image-005.png" alt="Figure 005" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 5</span>
 </div>
-
-<div id="fig8">
-
-![Figure 08](/images/patents/us10089492b2-image-008.png)
-**Figure 8**
-
+<div class="flex-shrink-0 p-2" id="fig6">
+    <img src="/images/patents/us10089492b2-image-006.png" alt="Figure 006" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 6</span>
 </div>
-
-<div id="fig9">
-
-![Figure 009](/images/patents/us10089492b2-image-009.png)
-**Figure 9**
-
+<div class="flex-shrink-0 p-2" id="fig7">
+    <img src="/images/patents/us10089492b2-image-007.png" alt="Figure 007" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 7</span>
 </div>
-
-<div id="fig10">
-
-![Figure 010](/images/patents/us10089492b2-image-010.png)
-**Figure 10**
-
+<div class="flex-shrink-0 p-2" id="fig8">
+    <img src="/images/patents/us10089492b2-image-008.png" alt="Figure 008" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 8</span>
 </div>
-
+<div class="flex-shrink-0 p-2" id="fig9">
+    <img src="/images/patents/us10089492b2-image-009.png" alt="Figure 009" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 9</span>
+</div>
+<div class="flex-shrink-0 p-2" id="fig10">
+    <img src="/images/patents/us10089492b2-image-010.png" alt="Figure 010" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 10</span>
+</div>
+</div>
+<div class="flex items-center justify-center pt-2">
+<span class="text-xs italic text-muted">Click the images to expand them and view in full screen</span>
 </div>
 
 ### Description
@@ -397,36 +367,36 @@ generating an electric signal comprising a computer executable file signifying s
 
 In the drawings, like numerals describe similar components substantially throughout the several views. The drawings illustrate generally, by way of an example, but not by a way of limitation, various embodiments.
 
-<a href="./#fig1">
+<a href="#fig1">
 FIG. 1 illustrates architecture for managing and delivering context-based information blocks in accordance with an embodiment herein.
 </a>
 <br>
 <br>
-<a href="./#fig2">FIG. 2 illustrates an EMR system including or communicatively and/or operatively coupled with a context engine in accordance with an embodiment herein;
+<a href="#fig2">FIG. 2 illustrates an EMR system including or communicatively and/or operatively coupled with a context engine in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig3">FIG. 3 illustrates an information management server in accordance with an embodiment herein;
+<a href="#fig3">FIG. 3 illustrates an information management server in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig4-6">FIGS. 4-6 illustrate exemplary information blocks presented to a user screen associated with an EMR application by an information management server in accordance with an embodiment herein;
+<a href="#fig4">FIGS. 4-6 illustrate exemplary information blocks presented to a user screen associated with an EMR application by an information management server in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig7">FIG. 7 illustrates an exemplary ecosystem for activity and behavior tracking in accordance with an embodiment herein;
+<a href="#fig7">FIG. 7 illustrates an exemplary ecosystem for activity and behavior tracking in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig8">FIG. 8 illustrates a flow chart for a computer-implemented surveillance method for monitoring and surveillance of EMR application navigation;
+<a href="#fig8">FIG. 8 illustrates a flow chart for a computer-implemented surveillance method for monitoring and surveillance of EMR application navigation;
 </a>
 <br>
 <br>
-<a href="./#fig9">FIG. 9 illustrates an information management server and other connected devices configured as a hardware-based appliance or a kiosk in accordance with an embodiment herein;
+<a href="#fig9">FIG. 9 illustrates an information management server and other connected devices configured as a hardware-based appliance or a kiosk in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig10">FIG. 10 illustrates a computer system that may be used in accordance with the embodiments herein.
+<a href="#fig10">FIG. 10 illustrates a computer system that may be used in accordance with the embodiments herein.
 </a>
 
 ### <span style="font-size:20px">DETAILED DESCRIPTION </span>

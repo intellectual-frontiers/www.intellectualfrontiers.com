@@ -66,155 +66,91 @@ downloadable-documents:
     link_url:
 ---
 
-<!-- <div class="center-elements">
-
-![Figure 001](/images/patents/us10403399b2-image-001.png)
-
-![Figure 002](/images/patents/us10403399b2-image-002.png)
-
-</div> -->
-
 ### Abstract
 
 A computer-implemented method for scheduling, tracking, and executing performance of a set of tasks includes defining a time series, associating a current time occurrence on the time series, and associating a future time occurrence on the time series. The method includes creating a tasks list including the set of tasks. The method includes defining an interaction zone rule in association with the time series and triggering events to initiate the set of tasks. The method includes scheduling a task from the set of tasks at the future time occurrence relative to the current time occurrence based on occurrence of a triggering event in view of the interaction zone rule. The method includes receiving an output from an event monitor at a control server. The method includes notifying a remote device for performance of the scheduled task at the future time occurrence upon detection of the triggering event.
 
 ### Images (19)
 
-<div class="center-elements">
-
-<div id="fig01">
-
-![Figure 01](/images/patents/us10403399b2-image-01.png)
-**Figure 01**
-
+<div class="flex overflow-x-auto gap-4 bg-slate-50 cursor-pointer patentimages scroll-smooth">
+<div class="flex-shrink-0 p-2" id="fig01">
+    <img src="/images/patents/us10403399b2-image-01.png" alt="Figure 01" class="w-64 max-h-[250px] !my-0" />
 </div>
-
-<div id="fig1a">
-
-![Figure 1a](/images/patents/us10403399b2-image-1a.png)
-**Figure 1a**
-
+<div class="flex-shrink-0 p-2" id="fig1a">
+    <img src="/images/patents/us10403399b2-image-1a.png" alt="Figure 1a" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 1a</span>
 </div>
-
-<div id="fig1b">
-
-![Figure 1b](/images/patents/us10403399b2-image-1b.png)
-**Figure 1b**
-
+<div class="flex-shrink-0 p-2" id="fig1b">
+    <img src="/images/patents/us10403399b2-image-1b.png" alt="Figure 1b" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 1a</span>
 </div>
-
-<div id="fig2">
-
-![Figure 2](/images/patents/us10403399b2-image-2.png)
-**Figure 2**
-
+<div class="flex-shrink-0 p-2" id="fig2">
+    <img src="/images/patents/us10403399b2-image-2.png" alt="Figure 2" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 2</span>
 </div>
-
-<div id="fig3">
-
-![Figure 3](/images/patents/us10403399b2-image-3.png)
-**Figure 3**
-
+<div class="flex-shrink-0 p-2" id="fig3">
+    <img src="/images/patents/us10403399b2-image-3.png" alt="Figure 3" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 3</span>
 </div>
-
-<div id="fig4">
-
-![Figure 4](/images/patents/us10403399b2-image-4.png)
-**Figure 4**
-
+<div class="flex-shrink-0 p-2" id="fig4">
+    <img src="/images/patents/us10403399b2-image-4.png" alt="Figure 4" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 4</span>
 </div>
-
-<div id="fig5">
-
-![Figure 5](/images/patents/us10403399b2-image-5.png)
-**Figure 5**
-
+<div class="flex-shrink-0 p-2" id="fig5">
+    <img src="/images/patents/us10403399b2-image-5.png" alt="Figure 5" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 5</span>
 </div>
-
-<div id="fig6">
-
-![Figure 6](/images/patents/us10403399b2-image-6.png)
-**Figure 6**
-
+<div class="flex-shrink-0 p-2" id="fig6">
+    <img src="/images/patents/us10403399b2-image-6.png" alt="Figure 6" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 6</span>
 </div>
-
-<div id="fig7">
-
-![Figure 7](/images/patents/us10403399b2-image-7.png)
-**Figure 7**
-
+<div class="flex-shrink-0 p-2" id="fig7">
+    <img src="/images/patents/us10403399b2-image-7.png" alt="Figure 7" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 7</span>
 </div>
-
-<div id="fig8">
-
-![Figure 8](/images/patents/us10403399b2-image-8.png)
-**Figure 8**
-
+<div class="flex-shrink-0 p-2" id="fig8">
+    <img src="/images/patents/us10403399b2-image-8.png" alt="Figure 8" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 8</span>
 </div>
-
-<div id="fig9">
-
-![Figure 9](/images/patents/us10403399b2-image-9.png)
-**Figure 9**
-
+<div class="flex-shrink-0 p-2" id="fig9">
+    <img src="/images/patents/us10403399b2-image-9.png" alt="Figure 9" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 9</span>
 </div>
-
-<div id="fig10">
-
-![Figure 10](/images/patents/us10403399b2-image-10.png)
-**Figure 10**
-
+<div class="flex-shrink-0 p-2" id="fig10">
+    <img src="/images/patents/us10403399b2-image-10.png" alt="Figure 10" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 10</span>
 </div>
-
-<div id="fig11">
-
-![Figure 11](/images/patents/us10403399b2-image-11.png)
-**Figure 11**
-
+<div class="flex-shrink-0 p-2" id="fig11">
+    <img src="/images/patents/us10403399b2-image-11.png" alt="Figure 11" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 11</span>
 </div>
-
-<div id="fig12">
-
-![Figure 12](/images/patents/us10403399b2-image-12.png)
-**Figure 12**
-
+<div class="flex-shrink-0 p-2" id="fig12">
+    <img src="/images/patents/us10403399b2-image-12.png" alt="Figure 12" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 12</span>
 </div>
-
-<div id="fig13">
-
-![Figure 13](/images/patents/us10403399b2-image-13.png)
-**Figure 13**
-
+<div class="flex-shrink-0 p-2" id="fig13">
+    <img src="/images/patents/us10403399b2-image-13.png" alt="Figure 13" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 13</span>
 </div>
-
-<div id="fig14">
-
-![Figure 14](/images/patents/us10403399b2-image-14.png)
-**Figure 14**
-
+<div class="flex-shrink-0 p-2" id="fig14">
+    <img src="/images/patents/us10403399b2-image-14.png" alt="Figure 14" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 14</span>
 </div>
-
-<div id="fig15">
-
-![Figure 15](/images/patents/us10403399b2-image-15.png)
-**Figure 15**
-
+<div class="flex-shrink-0 p-2" id="fig15">
+    <img src="/images/patents/us10403399b2-image-15.png" alt="Figure 15" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 15</span>
 </div>
-
-<div id="fig16">
-
-![Figure 16](/images/patents/us10403399b2-image-16.png)
-**Figure 16**
-
+<div class="flex-shrink-0 p-2" id="fig16">
+    <img src="/images/patents/us10403399b2-image-16.png" alt="Figure 16" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 16</span>
 </div>
-
-<div id="fig17">
-
-![Figure 17](/images/patents/us10403399b2-image-17.png)
-**Figure 17**
-
+<div class="flex-shrink-0 p-2" id="fig17">
+    <img src="/images/patents/us10403399b2-image-17.png" alt="Figure 17" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 17</span>
 </div>
-
+</div>
+<div class="flex items-center justify-center pt-2">
+<span class="text-xs italic text-muted">Click the images to expand them and view in full screen</span>
 </div>
 
 ### <span style="font-size:20px">SUMMARY</span>
@@ -489,41 +425,41 @@ generating a report based on execution of said shared baseline protocol in assoc
 
 In the drawings, like numerals describe similar components substantially throughout the several views. The drawings illustrate generally, by way of an example, but not by a way of limitation, various embodiments.
 
-<a href="./#fig1a">FIG. 1A illustrates an exemplary architecture for managing healthcare functions in accordance with an embodiment herein;</a>
+<a href="#fig1a">FIG. 1A illustrates an exemplary architecture for managing healthcare functions in accordance with an embodiment herein;</a>
 <br><br>
-<a href="./#fig1b">FIG. 1B illustrates an exemplary architecture for managing healthcare functions in accordance with an embodiment herein;</a>
+<a href="#fig1b">FIG. 1B illustrates an exemplary architecture for managing healthcare functions in accordance with an embodiment herein;</a>
 <br><br>
-<a href="./#fig2">FIG. 2 illustrates a detailed block diagram of a processing circuit among other things, in accordance with an embodiment herein;</a>
+<a href="#fig2">FIG. 2 illustrates a detailed block diagram of a processing circuit among other things, in accordance with an embodiment herein;</a>
 <br><br>
-<a href="./#fig3">FIG. 3 illustrates a method flowchart for facilitating scheduling and performance of a healthcare task, in accordance with an embodiment herein;</a>
+<a href="#fig3">FIG. 3 illustrates a method flowchart for facilitating scheduling and performance of a healthcare task, in accordance with an embodiment herein;</a>
 <br><br>
-<a href="./#fig4">FIG. 4 illustrates a block diagram of a work lists management system communicatively coupled with a processing circuit or a processor, in accordance with an embodiment herein;</a>
+<a href="#fig4">FIG. 4 illustrates a block diagram of a work lists management system communicatively coupled with a processing circuit or a processor, in accordance with an embodiment herein;</a>
 <br><br>
-<a href="./#fig5">FIG. 5 illustrates a dashboard configured to provide an interface for interacting with the work lists management system to allow a user to navigate through different options for work lists creation and management, in accordance with an embodiment herein;</a>
+<a href="#fig5">FIG. 5 illustrates a dashboard configured to provide an interface for interacting with the work lists management system to allow a user to navigate through different options for work lists creation and management, in accordance with an embodiment herein;</a>
 <br><br>
-<a href="./#fig6">FIG. 6 illustrates another interface that provides detailed information about check lists or work lists associated with a user who attended in a defined time duration, in accordance with an embodiment herein;</a>
+<a href="#fig6">FIG. 6 illustrates another interface that provides detailed information about check lists or work lists associated with a user who attended in a defined time duration, in accordance with an embodiment herein;</a>
 <br><br>
-<a href="./#fig7">FIG. 7 illustrates another section of a user interface that provides libraries and tabs for accessing various libraries contained within the work lists management system, in accordance with an embodiment herein;</a>
+<a href="#fig7">FIG. 7 illustrates another section of a user interface that provides libraries and tabs for accessing various libraries contained within the work lists management system, in accordance with an embodiment herein;</a>
 <br><br>
-<a href="./#fig8">FIG. 8 illustrates another section of a user interface that provides libraries and tabs for accessing various libraries contained within the work lists management system, in accordance with an embodiment herein;</a>
+<a href="#fig8">FIG. 8 illustrates another section of a user interface that provides libraries and tabs for accessing various libraries contained within the work lists management system, in accordance with an embodiment herein;</a>
 <br><br>
-<a href="./#fig9">FIG. 9 depicts exemplary activities that may be managed with the use of the work lists management system, in accordance with an embodiment herein;</a>
+<a href="#fig9">FIG. 9 depicts exemplary activities that may be managed with the use of the work lists management system, in accordance with an embodiment herein;</a>
 <br><br>
-<a href="./#fig10">FIG. 10 illustrates different components of architecture of a work lists management system that may provide a distributed arrangement and functionality of work lists management across a plurality of organizations or across a plurality of departments in a single organization, in accordance with an embodiment herein;</a>
+<a href="#fig10">FIG. 10 illustrates different components of architecture of a work lists management system that may provide a distributed arrangement and functionality of work lists management across a plurality of organizations or across a plurality of departments in a single organization, in accordance with an embodiment herein;</a>
 <br><br>
-<a href="./#fig11">FIG. 11 illustrates components of a system architecture according to an embodiment herein;</a>
+<a href="#fig11">FIG. 11 illustrates components of a system architecture according to an embodiment herein;</a>
 <br><br>
-<a href="./#fig12">FIG. 12 illustrates components of a system architecture according to an embodiment herein;</a>
+<a href="#fig12">FIG. 12 illustrates components of a system architecture according to an embodiment herein;</a>
 <br><br>
-<a href="./#fig13">FIG. 13 illustrates an ecosystem and components thereof of a work lists management system interacting with a variety of systems or devices within an interaction zone, in accordance with an embodiment herein;</a>
+<a href="#fig13">FIG. 13 illustrates an ecosystem and components thereof of a work lists management system interacting with a variety of systems or devices within an interaction zone, in accordance with an embodiment herein;</a>
 <br><br>
-<a href="./#fig14">FIG. 14 illustrates components of a system architecture according to an embodiment herein;</a>
+<a href="#fig14">FIG. 14 illustrates components of a system architecture according to an embodiment herein;</a>
 <br><br>
-<a href="./#fig15">FIG. 15 illustrates components of a system architecture according to an embodiment herein;</a>
+<a href="#fig15">FIG. 15 illustrates components of a system architecture according to an embodiment herein;</a>
 <br><br>
-<a href="./#fig16">FIG. 16 illustrates components of a system architecture according to an embodiment herein;</a>
+<a href="#fig16">FIG. 16 illustrates components of a system architecture according to an embodiment herein;</a>
 <br><br>
-<a href="./#fig17">FIG. 17 illustrates a computer system used in accordance with the embodiments herein.</a>
+<a href="#fig17">FIG. 17 illustrates a computer system used in accordance with the embodiments herein.</a>
 
 ### <span style="font-size:20px">DETAILED DESCRIPTION </span>
 
