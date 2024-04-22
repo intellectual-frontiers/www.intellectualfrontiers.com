@@ -65,13 +65,6 @@ downloadable-documents:
     link_url:
 ---
 
-<div class="center-elements">
-
-<!-- ![Figure 001](/images/patents/us11651459b2-image-001.png)
-![Figure 002](/images/patents/us11651459b2-image-002.png) -->
-
-</div>
-
 ### Abstract
 
 A system for streaming of contextual micro-content blocks for a workflow task to facilitate task performance by a user. The system includes a context sensing engine that processes one or more context inputs and generates an output based on the context inputs received from a front-end context monitoring appliance. The system includes a processing circuit having a navigation engine to navigate through digital information sources and search for information that matches one or more parameters of relevance for the workflow task. The processing circuit extracts computer-executable information files from the digital information sources that matches the one or more parameters of relevance for the workflow task and digitally processes the collected computer-executable information files into processed information blocks. The processing circuit includes a micro-content blocks creator for generating the contextual micro-content blocks from the processed information blocks. The micro-content blocks are delivered to the user when the micro-tasks are beginning.

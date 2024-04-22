@@ -65,13 +65,6 @@ downloadable-documents:
     link_url:
 ---
 
-<!-- <div class="center-elements">
-
-![Figure 001](/images/patents/us10984913b2-image-001.png)
-![Figure 002](/images/patents/us10984913b2-image-002.png)
-
-</div> -->
-
 ### Abstract
 
 A blockchain configured system includes a router and a blockchain
@@ -662,44 +655,44 @@ said transformation to said structured computerized dataset.
 The embodiments herein will be better understood from the following
 detailed description with reference to the drawings, in which:
 
-<a href="./#fig1">
+<a href="#fig1">
 FIG. 1 is a schematic diagram illustrating a high-level system architecture according to an embodiment herein.
 </a>
 <br>
 <br>
-<a href="./#fig2">FIG. 2 is a schematic diagram illustrating a functional overview of the system architecture of FIG. 1 according to an embodiment herein;
+<a href="#fig2">FIG. 2 is a schematic diagram illustrating a functional overview of the system architecture of FIG. 1 according to an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig3">FIG. 3 is a flow chart illustrating a method of creating natural language-based data processing capabilities from metadata facilitated by proxy database drivers according to an embodiment herein;
+<a href="#fig3">FIG. 3 is a flow chart illustrating a method of creating natural language-based data processing capabilities from metadata facilitated by proxy database drivers according to an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig4">FIG. 4 is a schematic diagram illustrating a high-level system architecture with a record bank communicatively coupled to a master data validation system and a metadata validation system according to an embodiment herein;
+<a href="#fig4">FIG. 4 is a schematic diagram illustrating a high-level system architecture with a record bank communicatively coupled to a master data validation system and a metadata validation system according to an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig5">FIG. 5 illustrates a detailed architecture diagram of the master data validation system according to an embodiment herein;
+<a href="#fig5">FIG. 5 illustrates a detailed architecture diagram of the master data validation system according to an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig6">FIG. 6 illustrates a detailed architecture diagram of the metadata validation system according to an embodiment herein;
+<a href="#fig6">FIG. 6 illustrates a detailed architecture diagram of the metadata validation system according to an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig7">FIG. 7 illustrates a diagram of a machine learning system according to an embodiment herein;
+<a href="#fig7">FIG. 7 illustrates a diagram of a machine learning system according to an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig8">FIG. 8 illustrates a local hardware-based device associated with a clinical data provider computer to allow access, retrieval, and syndication of a portion of structured dataset locally according to an embodiment herein;
+<a href="#fig8">FIG. 8 illustrates a local hardware-based device associated with a clinical data provider computer to allow access, retrieval, and syndication of a portion of structured dataset locally according to an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig9">FIG. 9 illustrates a blockchain-configured ecosystem according to an embodiment herein;
+<a href="#fig9">FIG. 9 illustrates a blockchain-configured ecosystem according to an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig10">FIG. 10 is a schematic diagram illustrating a computer system according to an embodiment herein.
+<a href="#fig10">FIG. 10 is a schematic diagram illustrating a computer system according to an embodiment herein.
 </a>
 
 ### <span style="font-size:20px">DETAILED DESCRIPTION </span>

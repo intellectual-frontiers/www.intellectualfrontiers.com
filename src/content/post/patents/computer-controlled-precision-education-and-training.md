@@ -65,13 +65,6 @@ downloadable-documents:
     link_url:
 ---
 
-<!-- <div class="center-elements">
-
-![Figure 001](/images/patents/us11423500b2-image-001.png)
-![Figure 002](/images/patents/us11423500b2-image-002.png)
-
-</div> -->
-
 ### Abstract
 
 A system for streaming of contextual micro-content blocks for a workflow
@@ -118,7 +111,7 @@ when the micro-tasks are beginning.
     <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 5</span>
 </div>
 </div>
-<div class='flex items-center justify-center pt-2">
+<div class="flex items-center justify-center pt-2">
 <span class="text-xs italic text-muted">Click the images to expand them and view in full screen</span>
 </div>
 
@@ -456,24 +449,24 @@ contextual pattern to the processor.
 The embodiments herein will be better understood from the following
 detailed description with reference to the drawings, in which:
 
-<a href="./#fig1">
+<a href="#fig1">
 FIG. 1 illustrates an example of a computer architecture in which various embodiments herein may operate.
 </a>
 <br>
 <br>
-<a href="./#fig2">FIG. 2 illustrates a schematic diagram of an information management server in accordance with an embodiment herein;
+<a href="#fig2">FIG. 2 illustrates a schematic diagram of an information management server in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig3">FIG. 3 illustrates a front-end context monitoring appliance connected with a context sensing engine in accordance with an embodiment herein;
+<a href="#fig3">FIG. 3 illustrates a front-end context monitoring appliance connected with a context sensing engine in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig4">FIG. 4 illustrates a blockchain-configured ecosystem architecture containing one or more components of the system of FIG. 1 in accordance with an embodiment herein;
+<a href="#fig4">FIG. 4 illustrates a blockchain-configured ecosystem architecture containing one or more components of the system of FIG. 1 in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig5">FIG. 5 is a block diagram illustrating a computer system used in accordance with the embodiments herein.
+<a href="#fig5">FIG. 5 is a block diagram illustrating a computer system used in accordance with the embodiments herein.
 </a>
 
 ### <span style="font-size:20px">DETAILED DESCRIPTION </span>

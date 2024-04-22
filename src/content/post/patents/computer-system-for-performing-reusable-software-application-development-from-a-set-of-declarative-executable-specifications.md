@@ -63,90 +63,59 @@ tags:
   - Software
 ---
 
-<!-- <div class="center-elements">
-
-![Figure 01](/images/patents/us7039898b2-image-01.jpg)
-
-</div> -->
-
 ### Abstract
 
 A computer system executing a method for performing reusable software application development comprises integrating a data processing system, providing a set of keywords and attributes, and declaring a set of executable specifications using the keywords and attributes, further comprising generating a program code, instantiating an object code, generating a testable functionality result, generating at least one unit test, generating an implementation documentation output, generating a performance statistics output, and generating a project metrics in the data processing system. The step of providing a set of keywords and attributes comprises generating a set of user interface forms, fields, and validation rules, generating a library of structured query language statements, generating a library of rules for generating dynamic structured query language statements, generating one of a web browser report, a file-based report, and a portable document format report, generating a library of security rules and permission statements, and generating database schemata.
 
 ### Images (11)
 
-<div class="center-elements">
-
- <div id="fig1">
-
-![Figure 001](/images/patents/us7039898b2-image-001.png)
-**Figure 1**
-
- </div>
-
- <div id="fig2">
-
-![Figure 002](/images/patents/us7039898b2-image-002.png)
-**Figure 2**
-
- </div>
-
-<div id="fig3">
-
-![Figure 003](/images/patents/us7039898b2-image-003.png)
-**Figure 3**
-
- </div>
-
-<div id="fig4-5">
-
-![Figure 004-005](/images/patents/us7039898b2-image-004-005.png)
-**Figure 4-5**
-
- </div>
-
-<div id="fig6">
-
-![Figure 006](/images/patents/us7039898b2-image-006.png)
-**Figure 6**
-
- </div>
-
-<div id="fig7">
-
-![Figure 007](/images/patents/us7039898b2-image-007.png)
-**Figure 7**
-
- </div>
-
-<div id="fig8">
-
-![Figure 008](/images/patents/us7039898b2-image-008.png)
-**Figure 8**
-
- </div>
-
-<div id="fig9-11">
-
-![Figure 09-10-11](/images/patents/us7039898b2-image-09-10-11.png)
-**Figure 9-11**
-
- </div>
-
- <div id="fig12-13">
-
-![Figure 012-013](/images/patents/us7039898b2-image-012-013.png)
-**Figure 12-13**
-
- </div>
-
-<div id="fig14">
-
-![Figure 014](/images/patents/us7039898b2-image-014.png)
-**Figure 14**
-
- </div>
-
+<div class="flex overflow-x-auto gap-4 bg-slate-50 cursor-pointer patentimages scroll-smooth">
+<div class="flex-shrink-0 p-2" id="fig01">
+    <img src="/images/patents/us7039898b2-image.png" alt="Figure" class="w-64 h-auto !my-0" />
+</div>
+<div class="flex-shrink-0 p-2" id="fig1">
+    <img src="/images/patents/us7039898b2-image-001.png" alt="Figure 001" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 1</span>
+</div>
+<div class="flex-shrink-0 p-2" id="fig2">
+    <img src="/images/patents/us7039898b2-image-002.png" alt="Figure 002" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 2</span>
+</div>
+<div class="flex-shrink-0 p-2" id="fig3">
+    <img src="/images/patents/us7039898b2-image-003.png" alt="Figure 003" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 3</span>
+</div>
+<div class="flex-shrink-0 p-2" id="fig4-5">
+    <img src="/images/patents/us7039898b2-image-004-005.png" alt="Figure 004-005" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 4-5</span>
+</div>
+<div class="flex-shrink-0 p-2" id="fig6">
+    <img src="/images/patents/us7039898b2-image-006.png" alt="Figure 006" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 6</span>
+</div>
+<div class="flex-shrink-0 p-2" id="fig7">
+    <img src="/images/patents/us7039898b2-image-007.png" alt="Figure 007" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 7</span>
+</div>
+<div class="flex-shrink-0 p-2" id="fig8">
+    <img src="/images/patents/us7039898b2-image-008.png" alt="Figure 008" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 8</span>
+</div>
+<div class="flex-shrink-0 p-2" id="fig9-11">
+    <img src="/images/patents/us7039898b2-image-09-10-11.png" alt="Figure 09-10-11" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 9-11</span>
+</div>
+<div class="flex-shrink-0 p-2" id="fig12-13">
+    <img src="/images/patents/us7039898b2-image-012-013.png" alt="Figure 12-13" class="w-64 max-h-[250px] !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 12-13</span>
+</div>
+<div class="flex-shrink-0 p-2" id="fig14">
+    <img src="/images/patents/us7039898b2-image-014.png" alt="Figure 14" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 14</span>
+</div>
+</div>
+<div class="flex items-center justify-center pt-2">
+<span class="text-xs italic text-muted">Click the images to expand them and view in full screen</span>
 </div>
 
 ### Description
@@ -376,72 +345,72 @@ wherein said method enables said operator to describe database access rules and 
 
 The foregoing and other objects, aspects and advantages will be better understood from the following detailed description of a preferred embodiment(s) of the invention with reference to the drawings, in which:
 
-<a href="./#fig1">
+<a href="#fig1">
 FIG. 1 is a system diagram illustrating a preferred embodiment of the present invention;
 </a>
 <br>
 <br>
-<a href="./#fig2">
+<a href="#fig2">
 FIG. 2 is a system diagram illustrating a preferred embodiment of the present invention;
 </a>
 <br>
 <br>
-<a href="./#fig3">
+<a href="#fig3">
 FIG. 3 is a system diagram illustrating a preferred embodiment of the present invention;
 </a>
 <br>
 <br>
-<a href="./#fig4-5">
+<a href="#fig4-5">
 FIG. 4 is a system diagram illustrating a preferred embodiment of the present invention;
 </a>
 <br>
 <br>
-<a href="./#fig4-5">
+<a href="#fig4-5">
 FIG. 5 is a system diagram illustrating a preferred embodiment of the present invention;
 </a>
 <br>
 <br>
-<a href="./#fig6">
+<a href="#fig6">
 FIG. 6 is a system diagram illustrating a preferred embodiment of the present invention;
 </a>
 <br>
 <br>
-<a href="./#fig7">
+<a href="#fig7">
 FIG. 7 is a flow diagram illustrating a preferred method of the present invention;
 </a>
 <br>
 <br>
-<a href="./#fig8">
+<a href="#fig8">
 FIG. 8 is a flow diagram illustrating a preferred method of the present invention;
 </a>
 <br>
 <br>
-<a href="./#fig9-11">
+<a href="#fig9-11">
 FIG. 9 is a flow diagram illustrating a preferred method of the present invention;
 </a>
 <br>
 <br>
-<a href="./#fig9-11">
+<a href="#fig9-11">
 FIG. 10 is a flow diagram illustrating a preferred method of the present invention;
 </a>
 <br>
 <br>
-<a href="./#fig9-11">
+<a href="#fig9-11">
 FIG. 11 is a flow diagram illustrating a preferred method of the present invention;
 </a>
 <br>
 <br>
-<a href="./#fig12-13">
+<a href="#fig12-13">
 FIG. 12 is a flow diagram illustrating a preferred method of the present invention;
 </a>
 <br>
 <br>
-<a href="./#fig12-13">
+<a href="#fig12-13">
 FIG. 13 is a flow diagram illustrating a preferred method of the present invention;
 </a>
 <br>
 <br>
-<a href="./#fig14">
+<a href="#fig14">
 FIG. 14 is a system diagram according to the present invention;
 </a>
 

@@ -66,71 +66,43 @@ downloadable-documents:
     link_url:
 ---
 
-<!-- <div class="center-elements">
-
-![Figure 001](/images/patents/us11388077b2-image-001.png)
-
-![Figure 002](/images/patents/us11388077b2-image-002.png)
-
-</div> -->
-
 ### Abstract
 
 A computer-controlled system for digitally evaluating one or more computer-executable and traceable metrics associated with a machine at a node. The system includes a computerized data collection wireless device for collecting digital data stored in the form of a plurality of computer-executable files from the machine. The computerized data collection wireless device includes a metric logistics device that generates a metric queue containing a plurality of computer-executable metric components storing information indicative of at least one of a date, time, geo-coordinates, machine identification details, and computer readable and executable performance data associated with the machine. The system includes a data aggregator and a computer-controlled metric appliance communicatively coupled to the data aggregator and receives the metric queue from the data aggregator. The computer-controlled metric appliance analyzes and processes the metric queue to generate an output that is indicative of whether the metric is achieved or not by the machine.
 
 ### Images (7)
 
-<div class="center-elements">
-
-<div id="fig01">
-
-![Figure 01](/images/patents/us11388077b2-image-01.png)
-**Figure 01**
-
+<div class="flex overflow-x-auto gap-4 bg-slate-50 cursor-pointer patentimages scroll-smooth">
+<div class="flex-shrink-0 p-2" id="fig01">
+    <img src="/images/patents/us11388077b2-image-01.png" alt="Figure 01" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig1">
-
-![Figure 1](/images/patents/us11388077b2-image-1.png)
-**Figure 1**
-
+<div class="flex-shrink-0 p-2" id="fig1">
+    <img src="/images/patents/us11388077b2-image-1.png" alt="Figure 1" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 1</span>
 </div>
-
-<div id="fig2">
-
-![Figure 2](/images/patents/us11388077b2-image-2.png)
-**Figure 2**
-
+<div class="flex-shrink-0 p-2" id="fig2">
+    <img src="/images/patents/us11388077b2-image-2.png" alt="Figure 2" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 2</span>
 </div>
-
-<div id="fig3">
-
-![Figure 3](/images/patents/us11388077b2-image-3.png)
-**Figure 3**
-
+<div class="flex-shrink-0 p-2" id="fig3">
+    <img src="/images/patents/us11388077b2-image-3.png" alt="Figure 3" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 3</span>
 </div>
-
-<div id="fig4">
-
-![Figure 4](/images/patents/us11388077b2-image-4.png)
-**Figure 4**
-
+<div class="flex-shrink-0 p-2" id="fig4">
+    <img src="/images/patents/us11388077b2-image-4.png" alt="Figure 4" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 4</span>
 </div>
-
-<div id="fig5">
-
-![Figure 5](/images/patents/us11388077b2-image-5.png)
-**Figure 5**
-
+<div class="flex-shrink-0 p-2" id="fig5">
+    <img src="/images/patents/us11388077b2-image-5.png" alt="Figure 5" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 5</span>
 </div>
-
-<div id="fig6">
-
-![Figure 6](/images/patents/us11388077b2-image-6.png)
-**Figure 6**
-
+<div class="flex-shrink-0 p-2" id="fig6">
+    <img src="/images/patents/us11388077b2-image-6.png" alt="Figure 6" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 6</span>
 </div>
-
+</div>
+<div class="flex items-center justify-center pt-2">
+<span class="text-xs italic text-muted">Click the images to expand them and view in full screen</span>
 </div>
 
 ### Description
@@ -255,28 +227,28 @@ wherein the metric identifier device converts raw data into metric queues and st
 
 The embodiments herein will be better understood from the following detailed description with reference to the drawings, in which:
 
-<a href="./#fig1">
+<a href="#fig1">
 FIG. 1 illustrates an example of a computer environment or architecture in which various embodiments herein may operate.
 </a>
 <br>
 <br>
-<a href="./#fig2">FIG. 2 illustrates a schematic diagram of a computer system for facilitating evaluation and digital management of one or more computer-executable and traceable metrics in accordance with an embodiment herein;
+<a href="#fig2">FIG. 2 illustrates a schematic diagram of a computer system for facilitating evaluation and digital management of one or more computer-executable and traceable metrics in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig3">FIG. 3 illustrates a schematic diagram of a computer-controlled metric appliance connected with an artificial intelligence/machine learning system in accordance with an embodiment herein;
+<a href="#fig3">FIG. 3 illustrates a schematic diagram of a computer-controlled metric appliance connected with an artificial intelligence/machine learning system in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig4">FIG. 4 illustrates another example of the computer system of FIG. 2 in accordance with an embodiment herein;
+<a href="#fig4">FIG. 4 illustrates another example of the computer system of FIG. 2 in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig5">FIG. 5 illustrates a blockchain computer architecture of the system of FIG. 2 along with other systems in accordance with an embodiment herein;
+<a href="#fig5">FIG. 5 illustrates a blockchain computer architecture of the system of FIG. 2 along with other systems in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig6">FIG. 6 is a block diagram illustrating a computer system according to an embodiment herein.
+<a href="#fig6">FIG. 6 is a block diagram illustrating a computer system according to an embodiment herein.
 </a>
 
 ### <span style="font-size:20px">DETAILED DESCRIPTION </span>
