@@ -78,50 +78,28 @@ A system for streaming of contextual micro-content blocks for a workflow task to
 
 ### Images (6)
 
-<div class="center-elements">
-
-<div id="fig01">
-
-![Figure 01](/images/patents/us11651459b2-image-01.png)
-**Figure 01**
-
+<div class="flex overflow-x-auto gap-4 bg-slate-50 cursor-pointer patentimages scroll-smooth">
+<div class="flex-shrink-0 p-2" id="fig01">
+    <img src="/images/patents/us11651459b2-image-01.png" alt="Figure 01" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig1">
-
-![Figure 1](/images/patents/us11651459b2-image-1.png)
-**Figure 1**
-
+<div class="flex-shrink-0 p-2" id="fig1">
+    <img src="/images/patents/us11651459b2-image-1.png" alt="Figure 1" class="w-64 h-auto !my-0" /> 
 </div>
-
-<div id="fig2">
-
-![Figure 2](/images/patents/us11651459b2-image-2.png)
-**Figure 2**
-
+<div class="flex-shrink-0 p-2" id="fig2">
+    <img src="/images/patents/us11651459b2-image-2.png" alt="Figure 2" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig3">
-
-![Figure 3](/images/patents/us11651459b2-image-3.png)
-**Figure 3**
-
+<div class="flex-shrink-0 p-2" id="fig3">
+    <img src="/images/patents/us11651459b2-image-3.png" alt="Figure 3" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig4">
-
-![Figure 4](/images/patents/us11651459b2-image-4.png)
-**Figure 4**
-
+<div class="flex-shrink-0 p-2" id="fig4">
+    <img src="/images/patents/us11651459b2-image-4.png" alt="Figure 4" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig5">
-
-![Figure 5](/images/patents/us11651459b2-image-5.png)
-**Figure 5**
-
+<div class="flex-shrink-0 p-2" id="fig5">
+    <img src="/images/patents/us11651459b2-image-5.png" alt="Figure 5" class="w-64 h-auto !my-0" />
 </div>
-
+</div>
+<div class="flex items-center justify-center pt-2">
+<span class="text-xs italic text-muted">Click the images to expand them and view in full screen</span>
 </div>
 
 ### Description
@@ -296,15 +274,15 @@ transmit one or more micro-content blocks to the user device based on at least o
 
 The embodiments herein will be better understood from the following detailed description with reference to the drawings, in which:
 
-<a href="./#fig1">FIG. 1 illustrates an example of a computer architecture in which various embodiments herein may operate;</a>
+<a href="#fig1">FIG. 1 illustrates an example of a computer architecture in which various embodiments herein may operate;</a>
 <br><br>
-<a href="./#fig2">FIG. 2 illustrates a schematic diagram of an information management server in accordance with an embodiment herein;</a>
+<a href="#fig2">FIG. 2 illustrates a schematic diagram of an information management server in accordance with an embodiment herein;</a>
 <br><br>
-<a href="./#fig3">FIG. 3 illustrates a front-end context monitoring appliance connected with a context sensing engine in accordance with an embodiment herein;</a>
+<a href="#fig3">FIG. 3 illustrates a front-end context monitoring appliance connected with a context sensing engine in accordance with an embodiment herein;</a>
 <br><br>
-<a href="./#fig4">FIG. 4 illustrates a blockchain-configured ecosystem architecture containing one or more components of the system of FIG. 1 in accordance with an embodiment herein;</a>
+<a href="#fig4">FIG. 4 illustrates a blockchain-configured ecosystem architecture containing one or more components of the system of FIG. 1 in accordance with an embodiment herein;</a>
 <br><br>
-<a href="./#fig5">FIG. 5 is a block diagram illustrating a computer system used in accordance with the embodiments herein.</a>
+<a href="#fig5">FIG. 5 is a block diagram illustrating a computer system used in accordance with the embodiments herein.</a>
 
 ### <span style="font-size:20px">DETAILED DESCRIPTION </span>
 
