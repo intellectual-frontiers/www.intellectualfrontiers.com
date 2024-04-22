@@ -93,50 +93,33 @@ when the micro-tasks are beginning.
 
 ### Images (6)
 
-<div class="center-elements">
-
-<div id="fig01">
-
-![Figure 01](/images/patents/us11423500b2-image-01.png)
-**Figure 01**
-
+<div class="flex overflow-x-auto gap-4 bg-slate-50 cursor-pointer patentimages scroll-smooth">
+<div class="flex-shrink-0 p-2" id="fig01">
+    <img src="/images/patents/us11423500b2-image-01.png" alt="Figure 01" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig1">
-
-![Figure 1](/images/patents/us11423500b2-image-1.png)
-**Figure 1**
-
+<div class="flex-shrink-0 p-2" id="fig1">
+    <img src="/images/patents/us11423500b2-image-1.png" alt="Figure 1" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 1</span>
 </div>
-
-<div id="fig2">
-
-![Figure 2](/images/patents/us11423500b2-image-2.png)
-**Figure 2**
-
+<div class="flex-shrink-0 p-2" id="fig2">
+    <img src="/images/patents/us11423500b2-image-2.png" alt="Figure 2" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 2</span>
 </div>
-
-<div id="fig3">
-
-![Figure 3](/images/patents/us11423500b2-image-3.png)
-**Figure 3**
-
+<div class="flex-shrink-0 p-2" id="fig3">
+    <img src="/images/patents/us11423500b2-image-3.png" alt="Figure 3" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 3</span>
 </div>
-
-<div id="fig4">
-
-![Figure 4](/images/patents/us11423500b2-image-4.png)
-**Figure 4**
-
+<div class="flex-shrink-0 p-2" id="fig4">
+    <img src="/images/patents/us11423500b2-image-4.png" alt="Figure 4" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 4</span>
 </div>
-
-<div id="fig5">
-
-![Figure 5](/images/patents/us11423500b2-image-5.png)
-**Figure 5**
-
+<div class="flex-shrink-0 p-2" id="fig5">
+    <img src="/images/patents/us11423500b2-image-5.png" alt="Figure 5" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 5</span>
 </div>
-
+</div>
+<div class='flex items-center justify-center pt-2">
+<span class="text-xs italic text-muted">Click the images to expand them and view in full screen</span>
 </div>
 
 ### Description
