@@ -63,119 +63,71 @@ downloadable-documents:
     link_url:
 ---
 
-<!-- <div class="center-elements">
-
-![Figure 1](/images/patents/us9870591b2-image-1.png)
-![Figure 2](/images/patents/us9870591b2-image-2.png)
-
-</div> -->
-
 ### Abstract
 
 A blockchain configured system and a method for facilitating an expertise driven review and scoring of electronic documents in a crowdsourced environment. The system includes a server computer, a memory circuit and a processing circuit. The processing circuit is coupled to the memory circuit and includes or is coupled to a credentialing engine. The system further includes an expert scoring module. The system further includes a document reviewing and scoring engine coupled to the processing circuit. The document review and scoring module associates an aggregate score to the electronic document based on aggregation of the review ratings by crowdsourced experts and aggregate scores of each of the crowdsourced experts based on the set of attributes including one or more of the credentialed expertise, reputation of the expert, and the officiality.
 
 ### Images (14)
 
-<div class="center-elements">
-
-<div id="fig001">
-
-![Figure 001](/images/patents/us9870591b2-image-001.png)
-**Figure 001**
-
+<div class="flex overflow-x-auto gap-4 bg-slate-50 cursor-pointer patentimages scroll-smooth">
+<div class="flex-shrink-0 p-2" id="fig001">
+    <img src="/images/patents/us9870591b2-image-001.png" alt="Figure 001" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig1">
-
-![Figure 1](/images/patents/us9870591b2-image-01.png)
-**Figure 1**
-
+<div class="flex-shrink-0 p-2" id="fig1">
+    <img src="/images/patents/us9870591b2-image-01.png" alt="Figure 1" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 1</span>
 </div>
-
-<div id="fig2">
-
-![Figure 2](/images/patents/us9870591b2-image-02.png)
-**Figure 2**
-
+<div class="flex-shrink-0 p-2" id="fig2">
+    <img src="/images/patents/us9870591b2-image-02.png" alt="Figure 2" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 2</span>
 </div>
-
-<div id="fig3">
-
-![Figure 3](/images/patents/us9870591b2-image-03.png)
-**Figure 3**
-
+<div class="flex-shrink-0 p-2" id="fig3">
+    <img src="/images/patents/us9870591b2-image-03.png" alt="Figure 3" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 3</span>
 </div>
-
-<div id="fig4">
-
-![Figure 4](/images/patents/us9870591b2-image-04.png)
-**Figure 4**
-
+<div class="flex-shrink-0 p-2" id="fig4">
+    <img src="/images/patents/us9870591b2-image-04.png" alt="Figure 4" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 4</span>
 </div>
-
-<div id="fig5">
-
-![Figure 5](/images/patents/us9870591b2-image-05.png)
-**Figure 5**
-
+<div class="flex-shrink-0 p-2" id="fig5">
+    <img src="/images/patents/us9870591b2-image-05.png" alt="Figure 5" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 5</span>
 </div>
-
-<div id="fig6">
-
-![Figure 6](/images/patents/us9870591b2-image-06.png)
-**Figure 6**
-
+<div class="flex-shrink-0 p-2" id="fig6">
+    <img src="/images/patents/us9870591b2-image-06.png" alt="Figure 6" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 6</span>
 </div>
-
-<div id="fig7">
-
-![Figure 7](/images/patents/us9870591b2-image-07.png)
-**Figure 7**
-
+<div class="flex-shrink-0 p-2" id="fig7">
+    <img src="/images/patents/us9870591b2-image-07.png" alt="Figure 7" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 7</span>
 </div>
-
-<div id="fig8">
-
-![Figure 8](/images/patents/us9870591b2-image-08.png)
-**Figure 8**
-
+<div class="flex-shrink-0 p-2" id="fig8">
+    <img src="/images/patents/us9870591b2-image-08.png" alt="Figure 8" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 8</span>
 </div>
-
-<div id="fig9">
-
-![Figure 9](/images/patents/us9870591b2-image-09.png)
-**Figure 9**
-
+<div class="flex-shrink-0 p-2" id="fig9">
+    <img src="/images/patents/us9870591b2-image-09.png" alt="Figure 9" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 9</span>
 </div>
-
-<div id="fig10">
-
-![Figure 10](/images/patents/us9870591b2-image-10.png)
-**Figure 10**
-
+<div class="flex-shrink-0 p-2" id="fig10">
+    <img src="/images/patents/us9870591b2-image-10.png" alt="Figure 10" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 10</span>
 </div>
-
-<div id="fig11">
-
-![Figure 11](/images/patents/us9870591b2-image-11.png)
-**Figure 11**
-
+<div class="flex-shrink-0 p-2" id="fig11">
+    <img src="/images/patents/us9870591b2-image-11.png" alt="Figure 11" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 11</span>
 </div>
-
-<div id="fig12">
-
-![Figure 12](/images/patents/us9870591b2-image-12.png)
-**Figure 12**
-
+<div class="flex-shrink-0 p-2" id="fig12">
+    <img src="/images/patents/us9870591b2-image-12.png" alt="Figure 12" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 12</span>
 </div>
-
-<div id="fig13">
-
-![Figure 13](/images/patents/us9870591b2-image-13.png)
-**Figure 13**
-
+<div class="flex-shrink-0 p-2" id="fig13">
+    <img src="/images/patents/us9870591b2-image-13.png" alt="Figure 13" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 13</span>
 </div>
-
+</div>
+<div class="flex items-center justify-center pt-2">
+<span class="text-xs italic text-muted">Click the images to expand them and view in full screen</span>
 </div>
 
 ### Description
@@ -370,36 +322,36 @@ CI=2.5, when R=9-10 experts.
 
 The features of the disclosed embodiments may become apparent from the following detailed description taken in conjunction with the accompanying drawings showing illustrative embodiments herein, in which:
 
-<a href="./#fig1">
+<a href="#fig1">
 FIG. 1 illustrates architecture for managing and delivering context-based information blocks in accordance with an embodiment herein.
 </a>
 <br>
 <br>
-<a href="./#fig2">FIG. 2 illustrates an EMR system including or communicatively and/or operatively coupled with a context engine in accordance with an embodiment herein;
+<a href="#fig2">FIG. 2 illustrates an EMR system including or communicatively and/or operatively coupled with a context engine in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig3">FIG. 3 illustrates an information management server in accordance with an embodiment herein;
+<a href="#fig3">FIG. 3 illustrates an information management server in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig4">FIGS. 4-6 illustrate exemplary information blocks presented to a user screen associated with an EMR application by an information management server in accordance with an embodiment herein;
+<a href="#fig4">FIGS. 4-6 illustrate exemplary information blocks presented to a user screen associated with an EMR application by an information management server in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig5">FIG. 7 illustrates an exemplary ecosystem for activity and behavior tracking in accordance with an embodiment herein;
+<a href="#fig5">FIG. 7 illustrates an exemplary ecosystem for activity and behavior tracking in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig6">FIG. 8 illustrates a flow chart for a computer-implemented surveillance method for monitoring and surveillance of EMR application navigation;
+<a href="#fig6">FIG. 8 illustrates a flow chart for a computer-implemented surveillance method for monitoring and surveillance of EMR application navigation;
 </a>
 <br>
 <br>
-<a href="./#fig7">FIG. 9 illustrates an information management server and other connected devices configured as a hardware-based appliance or a kiosk in accordance with an embodiment herein;
+<a href="#fig7">FIG. 9 illustrates an information management server and other connected devices configured as a hardware-based appliance or a kiosk in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig8">FIG. 10 illustrates a computer system that may be used in accordance with the embodiments herein.
+<a href="#fig8">FIG. 10 illustrates a computer system that may be used in accordance with the embodiments herein.
 </a>
 
 ### <span style="font-size:20px">DETAILED DESCRIPTION </span>

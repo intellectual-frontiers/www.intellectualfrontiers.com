@@ -65,78 +65,47 @@ downloadable-documents:
     link_url:
 ---
 
-<div class="center-elements">
-
-<!-- ![Figure 001](/images/patents/us11568401b2-image-001.png)
-
-![Figure 002](/images/patents/us11568401b2-image-002.png) -->
-
-</div>
-
 ### Abstract
 
 A digital payment system for facilitating seamless transactions from a user system to a buyer system. The system includes a service provider system which further includes a service interaction component. The service interaction component is configured to collect predefined information about the user system and the associated user. The service provider system also includes a payment engine for processing payments digitally based on data worth associated with the data owned by the user and authorized for sharing by the service provider to the buyer system. The payment engine calculates a payable amount payable digitally by the user to the service provider based on a digital transactional value indicative of the data worth associated with the data owned by the user and authorized for sharing, among other things. The system further includes a pre-consenting system configured to facilitate user authorization.
 
 ### Images (8)
 
-<div class="center-elements">
-
-<div id="fig01">
-
-![Figure 01](/images/patents/us11568401b2-image-01.png)
-**Figure 01**
-
+<div class="flex overflow-x-auto gap-4 bg-slate-50 cursor-pointer patentimages scroll-smooth">
+<div class="flex-shrink-0 p-2" id="fig01">
+    <img src="/images/patents/us11568401b2-image-01.png" alt="Figure 01" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig1">
-
-![Figure 1](/images/patents/us11568401b2-image-1.png)
-**Figure 1**
-
+<div class="flex-shrink-0 p-2" id="fig1">
+    <img src="/images/patents/us11568401b2-image-1.png" alt="Figure 1" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 1</span>
 </div>
-
-<div id="fig2">
-
-![Figure 2](/images/patents/us11568401b2-image-2.png)
-**Figure 2**
-
+<div class="flex-shrink-0 p-2" id="fig2">
+    <img src="/images/patents/us11568401b2-image-2.png" alt="Figure 2" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 2</span>
 </div>
-
-<div id="fig3">
-
-![Figure 3](/images/patents/us11568401b2-image-3.png)
-**Figure 3**
-
+<div class="flex-shrink-0 p-2" id="fig3">
+    <img src="/images/patents/us11568401b2-image-3.png" alt="Figure 3" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 3</span>
 </div>
-
-<div id="fig4">
-
-![Figure 4](/images/patents/us11568401b2-image-4.png)
-**Figure 4**
-
+<div class="flex-shrink-0 p-2" id="fig4">
+    <img src="/images/patents/us11568401b2-image-4.png" alt="Figure 4" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 4</span>
 </div>
-
-<div id="fig5">
-
-![Figure 5](/images/patents/us11568401b2-image-5.png)
-**Figure 5**
-
+<div class="flex-shrink-0 p-2" id="fig5">
+    <img src="/images/patents/us11568401b2-image-5.png" alt="Figure 5" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 5</span>
 </div>
-
-<div id="fig6">
-
-![Figure 6](/images/patents/us11568401b2-image-6.png)
-**Figure 6**
-
+<div class="flex-shrink-0 p-2" id="fig6">
+    <img src="/images/patents/us11568401b2-image-6.png" alt="Figure 6" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 6</span>
 </div>
-
-<div id="fig7">
-
-![Figure 7](/images/patents/us11568401b2-image-7.png)
-**Figure 7**
-
+<div class="flex-shrink-0 p-2" id="fig7">
+    <img src="/images/patents/us11568401b2-image-7.png" alt="Figure 7" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 7</span>
 </div>
-
+</div>
+<div class="flex items-center justify-center pt-2">
+<span class="text-xs italic text-muted">Click the images to expand them and view in full screen</span>
 </div>
 
 ### Description
@@ -283,19 +252,19 @@ a payment engine communicatively connected to the cloud-based central controllin
 
 The embodiments herein will be better understood from the following detailed description with reference to the drawings, in which:
 
-<a href="./#fig1">FIG. 1 illustrates an example of an environment or architecture in which various embodiments herein may operate;</a>
+<a href="#fig1">FIG. 1 illustrates an example of an environment or architecture in which various embodiments herein may operate;</a>
 <br><br>
-<a href="./#fig2">FIG. 2 illustrates a schematic diagram of a cloud-based central controlling system interacting with a pre-consenting device, a service provider system, and a user system in accordance with an embodiment herein;</a>
+<a href="#fig2">FIG. 2 illustrates a schematic diagram of a cloud-based central controlling system interacting with a pre-consenting device, a service provider system, and a user system in accordance with an embodiment herein;</a>
 <br><br>
-<a href="./#fig3">FIG. 3 illustrates a schematic diagram of the pre-consenting device such as shown in FIG. 2 in accordance with an embodiment herein;</a>
+<a href="#fig3">FIG. 3 illustrates a schematic diagram of the pre-consenting device such as shown in FIG. 2 in accordance with an embodiment herein;</a>
 <br><br>
-<a href="./#fig4">FIG. 4 illustrates blockchain computer architecture of the system of FIG. 1 along with other systems in accordance with an embodiment herein;</a>
+<a href="#fig4">FIG. 4 illustrates blockchain computer architecture of the system of FIG. 1 along with other systems in accordance with an embodiment herein;</a>
 <br><br>
-<a href="./#fig5">FIG. 5 illustrates an exemplary blockchain device in accordance with an embodiment herein;</a>
+<a href="#fig5">FIG. 5 illustrates an exemplary blockchain device in accordance with an embodiment herein;</a>
 <br><br>
-<a href="./#fig6">FIG. 6 is a flowchart illustrating a method for facilitating digital transactions in a service setting in accordance with an embodiment herein;</a>
+<a href="#fig6">FIG. 6 is a flowchart illustrating a method for facilitating digital transactions in a service setting in accordance with an embodiment herein;</a>
 <br><br>
-<a href="./#fig7">FIG. 7 is a block diagram illustrating a computer system according to an embodiment herein.</a>
+<a href="#fig7">FIG. 7 is a block diagram illustrating a computer system according to an embodiment herein.</a>
 
 ### <span style="font-size:20px">DETAILED DESCRIPTION </span>
 

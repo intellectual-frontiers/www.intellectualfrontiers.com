@@ -64,102 +64,63 @@ downloadable-documents:
     link_url:
 ---
 
-<!-- <div class="center-elements">
-
-![Figure 01](/images/patents/us10839020b2-image-001.png)
-
-![Figure 02](/images/patents/us10839020b2-image-002.png)
-
-</div> -->
-
 ### Abstract
 
 A system is provided for aggregating user generated electronic data associated with a user from a plurality of computing machines located separately without user intervention. Metadata associated with the user generated electronic data is stored in an electronic record repository database to perform natural language processing and metadata analysis of the user generated electronic data to identify user verified data and user unverified data. A data object including query statements and approval options is generated and presented on a remotely located display unit accessible by the user. An input against each of the plurality of query statements is received. The system updates the unverified data based on the received input. The user generated electronic data is then pushed into the electronic transactional system which may communicate electronic data messages among a plurality of computer stations.
 
 ### Images (12)
 
-<div class="center-elements">
-
-<div id="fig01">
-
-![Figure 01](/images/patents/us10839020b2-image-01.png)
-**Figure 01**
-
+<div class="flex overflow-x-auto gap-4 bg-slate-50 cursor-pointer patentimages scroll-smooth">
+<div class="flex-shrink-0 p-2" id="fig01">
+    <img src="/images/patents/us10839020b2-image-01.png" alt="Figure 01" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig1">
-
-![Figure 1](/images/patents/us10839020b2-image-1.png)
-**Figure 1**
-
+<div class="flex-shrink-0 p-2" id="fig1">
+    <img src="/images/patents/us10839020b2-image-1.png" alt="Figure 1" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 1</span>
 </div>
-
-<div id="fig2">
-
-![Figure 2](/images/patents/us10839020b2-image-2.png)
-**Figure 2**
-
+<div class="flex-shrink-0 p-2" id="fig2">
+    <img src="/images/patents/us10839020b2-image-2.png" alt="Figure 2" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 2</span>
 </div>
-
-<div id="fig3">
-
-![Figure 3](/images/patents/us10839020b2-image-3.png)
-**Figure 3**
-
+<div class="flex-shrink-0 p-2" id="fig3">
+    <img src="/images/patents/us10839020b2-image-3.png" alt="Figure 3" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 3</span>
 </div>
-
-<div id="fig4-5">
-
-![Figure 4](/images/patents/us10839020b2-image-4.png)
-**Figure 4**
-
-![Figure 5](/images/patents/us10839020b2-image-5.png)
-**Figure 5**
-
+<div class="flex-shrink-0 p-2" id="fig4">
+    <img src="/images/patents/us10839020b2-image-4.png" alt="Figure 4" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 4</span>
 </div>
-
-<div id="fig6">
-
-![Figure 6](/images/patents/us10839020b2-image-6.png)
-**Figure 6**
-
+<div class="flex-shrink-0 p-2" id="fig5">
+    <img src="/images/patents/us10839020b2-image-5.png" alt="Figure 5" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 5</span>
 </div>
-
-<div id="fig7">
-
-![Figure 7](/images/patents/us10839020b2-image-7.png)
-**Figure 7**
-
+<div class="flex-shrink-0 p-2" id="fig6">
+    <img src="/images/patents/us10839020b2-image-6.png" alt="Figure 6" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 6</span>
 </div>
-
-<div id="fig8">
-
-![Figure 8](/images/patents/us10839020b2-image-8.png)
-**Figure 8**
-
+<div class="flex-shrink-0 p-2" id="fig7">
+    <img src="/images/patents/us10839020b2-image-7.png" alt="Figure 7" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 7</span>
 </div>
-
-<div id="fig9">
-
-![Figure 9](/images/patents/us10839020b2-image-9.png)
-**Figure 9**
-
+<div class="flex-shrink-0 p-2" id="fig8">
+    <img src="/images/patents/us10839020b2-image-8.png" alt="Figure 8" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 8</span>
 </div>
-
-<div id="fig10">
-
-![Figure 10](/images/patents/us10839020b2-image-10.png)
-**Figure 10**
-
+<div class="flex-shrink-0 p-2" id="fig9">
+    <img src="/images/patents/us10839020b2-image-9.png" alt="Figure 9" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 9</span>
 </div>
-
-<div id="fig11">
-
-![Figure 11](/images/patents/us10839020b2-image-11.png)
-**Figure 11**
-
+<div class="flex-shrink-0 p-2" id="fig10">
+    <img src="/images/patents/us10839020b2-image-10.png" alt="Figure 10" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 10</span>
 </div>
-
+<div class="flex-shrink-0 p-2" id="fig11">
+    <img src="/images/patents/us10839020b2-image-11.png" alt="Figure 11" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 11</span>
+</div>
+</div>
+<div class="flex items-center justify-center pt-2">
+<span class="text-xs italic text-muted">Click the images to expand them and view in full screen</span>
 </div>
 
 ### Description
@@ -370,44 +331,44 @@ a distributed trusted ledgers system that stores said distributed blockchain led
 
 The features of the disclosed embodiments may become apparent from the following detailed description taken in conjunction with the accompanying drawings showing illustrative embodiments herein, in which:
 
-<a href="./#fig1">
+<a href="#fig1">
 FIG. 1 illustrates an ecosystem including an electronic transactional system for integration of user-generated electronic data (UGED) in accordance with an embodiment herein.
 </a>
 <br>
 <br>
-<a href="./#fig2">FIG. 2 illustrates a method for integration of the UGED in accordance with an embodiment herein;
+<a href="#fig2">FIG. 2 illustrates a method for integration of the UGED in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig3">FIG. 3 illustrates an exemplary electronic transactional system, in accordance with an embodiment herein;
+<a href="#fig3">FIG. 3 illustrates an exemplary electronic transactional system, in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig4-5">FIGS. 4 and 5 illustrate exemplary user interfaces for allowing a user to interact with a cloud gateway agent server for verification of the UGED in accordance with the embodiments herein;
+<a href="#fig4">FIGS. 4 and 5 illustrate exemplary user interfaces for allowing a user to interact with a cloud gateway agent server for verification of the UGED in accordance with the embodiments herein;
 </a>
 <br>
 <br>
-<a href="./#fig6">FIG. 6 illustrates the cloud gateway agent server and the electronic transactional system connected together and with other devices in a blockchain environment in accordance with the embodiments herein;
+<a href="#fig6">FIG. 6 illustrates the cloud gateway agent server and the electronic transactional system connected together and with other devices in a blockchain environment in accordance with the embodiments herein;
 </a>
 <br>
 <br>
-<a href="./#fig7">FIG. 7 illustrates the cloud gateway agent server and the processing circuit among other components in accordance with the embodiments herein;
+<a href="#fig7">FIG. 7 illustrates the cloud gateway agent server and the processing circuit among other components in accordance with the embodiments herein;
 </a>
 <br>
 <br>
-<a href="./#fig8">FIG. 8 illustrates an exemplary audio recognition device, in accordance with the embodiments herein;
+<a href="#fig8">FIG. 8 illustrates an exemplary audio recognition device, in accordance with the embodiments herein;
 </a>
 <br>
 <br>
-<a href="./#fig9">FIG. 9 illustrates an exemplary image recognition device, in accordance with the embodiments herein;
+<a href="#fig9">FIG. 9 illustrates an exemplary image recognition device, in accordance with the embodiments herein;
 </a>
 <br>
 <br>
-<a href="./#fig10">FIG. 10 illustrates an architecture for enabling an authentication, an access, and a verification mechanism to access and verify digital records (UGED), in accordance with the embodiments herein;
+<a href="#fig10">FIG. 10 illustrates an architecture for enabling an authentication, an access, and a verification mechanism to access and verify digital records (UGED), in accordance with the embodiments herein;
 </a>
 <br>
 <br>
-<a href="./#fig11">FIG. 11 illustrates generally, but not by the way of limitation, a computer system that may be used in accordance with the embodiments herein.
+<a href="#fig11">FIG. 11 illustrates generally, but not by the way of limitation, a computer system that may be used in accordance with the embodiments herein.
 </a>
 
 ### <span style="font-size:20px">DETAILED DESCRIPTION </span>

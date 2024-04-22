@@ -65,182 +65,107 @@ tags:
   - Near Field Communication (NFC)
 ---
 
-<!-- <div class="center-elements">
-
-![Figure 1](/images/patents/us11044221b2-image-001.png)
-![Figure 2](/images/patents/us11044221b2-image-002.png)
-
-</div> -->
-
 ### Abstract
 
 A system and method for providing a social networking service to a plurality of devices. A social networking server for facilitating social information exchange among the plurality of devices through a socially aware network. A social profiles manager is coupled to the social networking server that creates and manages individual centric profiles of the plurality of devices. The individual centric profiles of the plurality of devices are social representation of individual devices within the socially aware network. The plurality of devices are identifiable by other participants and the social networking server through their social profiles.
 
 ### Images (23)
 
-<div class="center-elements">
-
-<div id="fig01">
-
-![Figure 01](/images/patents/us11044221b2-image-01.png)
-**Figure 01**
-
+<div class="flex overflow-x-auto gap-4 bg-slate-50 cursor-pointer patentimages scroll-smooth">
+<div class="flex-shrink-0 p-2" id="fig01">
+    <img src="/images/patents/us11044221b2-image-01.png" alt="Figure 01" class="w-64 h-auto !my-0" />
 </div>
-
-<div id="fig1">
-
-![Figure 1](/images/patents/us11044221b2-image-1.png)
-**Figure 1**
-
+<div class="flex-shrink-0 p-2" id="fig1">
+    <img src="/images/patents/us11044221b2-image-1.png" alt="Figure 1" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 1</span>
 </div>
-
-<div id="fig2">
-
-![Figure 2](/images/patents/us11044221b2-image-2.png)
-**Figure 2**
-
+<div class="flex-shrink-0 p-2" id="fig2">
+    <img src="/images/patents/us11044221b2-image-2.png" alt="Figure 2" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 2</span>
 </div>
-
-<div id="fig3">
-
-![Figure 3](/images/patents/us11044221b2-image-3.png)
-**Figure 3**
-
+<div class="flex-shrink-0 p-2" id="fig3">
+    <img src="/images/patents/us11044221b2-image-3.png" alt="Figure 3" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 3</span>
 </div>
-
-<div id="fig4">
-
-![Figure 4](/images/patents/us11044221b2-image-4.png)
-**Figure 4**
-
+<div class="flex-shrink-0 p-2" id="fig4">
+    <img src="/images/patents/us11044221b2-image-4.png" alt="Figure 4" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 4</span>
 </div>
-
-<div id="fig5">
-
-![Figure 5](/images/patents/us11044221b2-image-5.png)
-**Figure 5**
-
+<div class="flex-shrink-0 p-2" id="fig5">
+    <img src="/images/patents/us11044221b2-image-5.png" alt="Figure 5" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 5</span>
 </div>
-
-<div id="fig6">
-
-![Figure 6](/images/patents/us11044221b2-image-6.png)
-**Figure 6**
-
+<div class="flex-shrink-0 p-2" id="fig6">
+    <img src="/images/patents/us11044221b2-image-6.png" alt="Figure 6" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 6</span>
 </div>
-
-<div id="fig7">
-
-![Figure 7](/images/patents/us11044221b2-image-7.png)
-**Figure 7**
-
+<div class="flex-shrink-0 p-2" id="fig7">
+    <img src="/images/patents/us11044221b2-image-7.png" alt="Figure 7" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 7</span>
 </div>
-
-<div id="fig8">
-
-![Figure 8](/images/patents/us11044221b2-image-8.png)
-**Figure 8**
-
+<div class="flex-shrink-0 p-2" id="fig8">
+    <img src="/images/patents/us11044221b2-image-8.png" alt="Figure 8" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 8</span>
 </div>
-
-<div id="fig9">
-
-![Figure 9](/images/patents/us11044221b2-image-9.png)
-**Figure 9**
-
+<div class="flex-shrink-0 p-2" id="fig9">
+    <img src="/images/patents/us11044221b2-image-9.png" alt="Figure 9" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 9</span>
 </div>
-
-<div id="fig10">
-
-![Figure 10](/images/patents/us11044221b2-image-10.png)
-**Figure 10**
-
+<div class="flex-shrink-0 p-2" id="fig10">
+    <img src="/images/patents/us11044221b2-image-10.png" alt="Figure 10" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 10</span>
 </div>
-
-<div id="fig11">
-
-![Figure 11](/images/patents/us11044221b2-image-11.png)
-**Figure 11**
-
+<div class="flex-shrink-0 p-2" id="fig11">
+    <img src="/images/patents/us11044221b2-image-11.png" alt="Figure 11" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 11</span>
 </div>
-
-<div id="fig12">
-
-![Figure 12](/images/patents/us11044221b2-image-12.png)
-**Figure 12**
-
+<div class="flex-shrink-0 p-2" id="fig12">
+    <img src="/images/patents/us11044221b2-image-12.png" alt="Figure 12" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 12</span>
 </div>
-
-<div id="fig13">
-
-![Figure 13](/images/patents/us11044221b2-image-13.png)
-**Figure 13**
-
+<div class="flex-shrink-0 p-2" id="fig13">
+    <img src="/images/patents/us11044221b2-image-13.png" alt="Figure 13" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 13</span>
 </div>
-
-<div id="fig14">
-
-![Figure 14](/images/patents/us11044221b2-image-14.png)
-**Figure 14**
-
+<div class="flex-shrink-0 p-2" id="fig14">
+    <img src="/images/patents/us11044221b2-image-14.png" alt="Figure 14" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 14</span>
 </div>
-
-<div id="fig15">
-
-![Figure 15](/images/patents/us11044221b2-image-15.png)
-**Figure 15**
-
+<div class="flex-shrink-0 p-2" id="fig15">
+    <img src="/images/patents/us11044221b2-image-15.png" alt="Figure 15" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 15</span>
 </div>
-
-<div id="fig16">
-
-![Figure 16](/images/patents/us11044221b2-image-16.png)
-**Figure 16**
-
+<div class="flex-shrink-0 p-2" id="fig16">
+    <img src="/images/patents/us11044221b2-image-16.png" alt="Figure 16" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 16</span>
 </div>
-
-<div id="fig17">
-
-![Figure 17](/images/patents/us11044221b2-image-17.png)
-**Figure 17**
-
+<div class="flex-shrink-0 p-2" id="fig17">
+    <img src="/images/patents/us11044221b2-image-17.png" alt="Figure 17" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 17</span>
 </div>
-
-<div id="fig18">
-
-![Figure 18](/images/patents/us11044221b2-image-18.png)
-**Figure 18**
-
+<div class="flex-shrink-0 p-2" id="fig18">
+    <img src="/images/patents/us11044221b2-image-18.png" alt="Figure 18" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 18</span>
 </div>
-
-<div id="fig19">
-
-![Figure 19](/images/patents/us11044221b2-image-19.png)
-**Figure 19**
-
+<div class="flex-shrink-0 p-2" id="fig19">
+    <img src="/images/patents/us11044221b2-image-19.png" alt="Figure 19" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 19</span>
 </div>
-
-<div id="fig20">
-
-![Figure 20](/images/patents/us11044221b2-image-20.png)
-**Figure 20**
-
+<div class="flex-shrink-0 p-2" id="fig20">
+    <img src="/images/patents/us11044221b2-image-20.png" alt="Figure 20" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 20</span>
 </div>
-
-<div id="fig21">
-
-![Figure 21](/images/patents/us11044221b2-image-21.png)
-**Figure 21**
-
+<div class="flex-shrink-0 p-2" id="fig21">
+    <img src="/images/patents/us11044221b2-image-21.png" alt="Figure 21" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 21</span>
 </div>
-
-<div id="fig22">
-
-![Figure 22](/images/patents/us11044221b2-image-22.png)
-**Figure 22**
-
+<div class="flex-shrink-0 p-2" id="fig22">
+    <img src="/images/patents/us11044221b2-image-22.png" alt="Figure 22" class="w-64 h-auto !my-0" />
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 22</span>
 </div>
-
+</div>
+<div class="flex items-center justify-center pt-2">
+<span class="text-xs italic text-muted">Click the images to expand them and view in full screen</span>
 </div>
 
 ### Description
@@ -399,82 +324,82 @@ wherein said first device uses said second device from among said shortlisted so
 
 The features of the disclosed embodiments may become apparent from the following detailed description taken in conjunction with the accompanying drawings showing illustrative embodiments herein, in which:
 
-<a href="./#fig1">
+<a href="#fig1">
 FIG. 1 illustrates an exemplary ecosystem of participants interconnected over a socially aware network through a social networking platform, in an embodiment of an embodiment herein.
 </a>
 <br>
 <br>
-<a href="./#fig2">FIG. 2 illustrates a social networking server for implementing a social networking platform in accordance with an embodiment herein;
+<a href="#fig2">FIG. 2 illustrates a social networking server for implementing a social networking platform in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig3">FIG. 3 illustrates an exemplary embodiment of social profiles of devices and non-device participants in an embodiment herein;
+<a href="#fig3">FIG. 3 illustrates an exemplary embodiment of social profiles of devices and non-device participants in an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig4">FIG. 4 illustrates a social networking server among other things in an embodiment herein;
+<a href="#fig4">FIG. 4 illustrates a social networking server among other things in an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig5">FIG. 5 illustrates a multi-profile architecture for creating device-specific multiple social profiles in accordance with an embodiment herein;
+<a href="#fig5">FIG. 5 illustrates a multi-profile architecture for creating device-specific multiple social profiles in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig6">FIG. 6 illustrates a communication network for exchange of social content between devices in accordance with an embodiment herein;
+<a href="#fig6">FIG. 6 illustrates a communication network for exchange of social content between devices in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig7">FIG. 7 illustrates an implantable medical device (IMD) fitted inside a body of a patient and communicatively coupled to a server for social networking service in accordance with an embodiment herein;
+<a href="#fig7">FIG. 7 illustrates an implantable medical device (IMD) fitted inside a body of a patient and communicatively coupled to a server for social networking service in accordance with an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig8">FIG. 8 illustrates a method flowchart for integration of a plurality of participants in an embodiment herein;
+<a href="#fig8">FIG. 8 illustrates a method flowchart for integration of a plurality of participants in an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig9">FIG. 9 illustrates a method flowchart for integration of a plurality of participants in an embodiment of an embodiment herein;
+<a href="#fig9">FIG. 9 illustrates a method flowchart for integration of a plurality of participants in an embodiment of an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig10">FIG. 10 illustrates an ecosystem for facilitating sequential, synchronous and automatically coordinated operation of the plurality of devices through interactive elements involving a chain of tasks and devices, in an embodiment herein;
+<a href="#fig10">FIG. 10 illustrates an ecosystem for facilitating sequential, synchronous and automatically coordinated operation of the plurality of devices through interactive elements involving a chain of tasks and devices, in an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig11">FIG. 11 illustrates an example of a device interconnected with a social networking platform in an embodiment herein;
+<a href="#fig11">FIG. 11 illustrates an example of a device interconnected with a social networking platform in an embodiment herein;
 </a>
 <br>
 <br>
-<a href="./#fig12">FIG. 12 illustrates a list of exemplary social activities that a server may be programmed to allow a plurality of devices to perform in accordance with an embodiment herein;</a>
+<a href="#fig12">FIG. 12 illustrates a list of exemplary social activities that a server may be programmed to allow a plurality of devices to perform in accordance with an embodiment herein;</a>
 <br>
 <br>
-<a href="./#fig13">FIG. 13 illustrates an example of a social map showing interconnection of exemplary devices through the social map in accordance with an embodiment herein;</a>
+<a href="#fig13">FIG. 13 illustrates an example of a social map showing interconnection of exemplary devices through the social map in accordance with an embodiment herein;</a>
 <br>
 <br>
-<a href="./#fig14">FIG. 14 illustrates a method flowchart for facilitating sequential, synchronous and automatically coordinated operation of a plurality of devices through interactive elements involving a chain of tasks and the devices in accordance with an embodiment herein;</a>
+<a href="#fig14">FIG. 14 illustrates a method flowchart for facilitating sequential, synchronous and automatically coordinated operation of a plurality of devices through interactive elements involving a chain of tasks and the devices in accordance with an embodiment herein;</a>
 <br>
 <br>
-<a href="./#fig15">FIG. 15 illustrates interconnection of tasks and devices and their interaction with a social networking server, in an embodiment herein;</a>
+<a href="#fig15">FIG. 15 illustrates interconnection of tasks and devices and their interaction with a social networking server, in an embodiment herein;</a>
 <br>
 <br>
-<a href="./#fig16">FIG. 16 illustrates an exemplary social profile depicting social health profile and social specification profile of an exemplary infusion pump in accordance with an embodiment herein;</a>
+<a href="#fig16">FIG. 16 illustrates an exemplary social profile depicting social health profile and social specification profile of an exemplary infusion pump in accordance with an embodiment herein;</a>
 <br>
 <br>
-<a href="./#fig17">FIG. 17 illustrates another embodiment of an ecosystem of devices and respective tasks and social profiles interconnected through a social platform implemented by a social networking server for the purpose of health management of the devices, in an embodiment herein;</a>
+<a href="#fig17">FIG. 17 illustrates another embodiment of an ecosystem of devices and respective tasks and social profiles interconnected through a social platform implemented by a social networking server for the purpose of health management of the devices, in an embodiment herein;</a>
 <br>
 <br>
-<a href="./#fig18">FIG. 18 illustrates the ecosystem of FIG. 17 with alternative devices interconnected and bypassing faulty devices, in an embodiment herein;</a>
+<a href="#fig18">FIG. 18 illustrates the ecosystem of FIG. 17 with alternative devices interconnected and bypassing faulty devices, in an embodiment herein;</a>
 <br>
 <br>
-<a href="./#fig19">FIG. 19 illustrates a method flowchart for health management of a device interconnected with a plurality of devices through a social networking server in accordance with an embodiment herein;</a>
+<a href="#fig19">FIG. 19 illustrates a method flowchart for health management of a device interconnected with a plurality of devices through a social networking server in accordance with an embodiment herein;</a>
 <br>
 <br>
-<a href="./#fig20">FIG. 20 illustrates an interconnection of the devices through a chain of tasks and devices in an embodiment herein;</a>
+<a href="#fig20">FIG. 20 illustrates an interconnection of the devices through a chain of tasks and devices in an embodiment herein;</a>
 <br>
 <br>
-<a href="./#fig21">FIG. 21 illustrates a system coupled communicatively to or included in a device for allowing the device to communicate with a social networking server in accordance with an embodiment herein;</a>
+<a href="#fig21">FIG. 21 illustrates a system coupled communicatively to or included in a device for allowing the device to communicate with a social networking server in accordance with an embodiment herein;</a>
 <br>
 <br>
-<a href="./#fig22">FIG. 22 is a block diagram illustrating an exemplary hardware environment for practicing the embodiments depicted in FIGS. 1-21.</a>
+<a href="#fig22">FIG. 22 is a block diagram illustrating an exemplary hardware environment for practicing the embodiments depicted in FIGS. 1-21.</a>
 
 ### <span style="font-size:20px">DETAILED DESCRIPTION </span>
 
