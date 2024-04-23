@@ -67,47 +67,32 @@ downloadable-documents:
 
 ### Abstract
 
-A system for streaming of contextual micro-content blocks for a workflow
-task to facilitate task performance by a user. The system includes a
-context sensing engine that processes one or more context inputs and
-generates an output based on the context inputs received from a
-front-end context monitoring appliance. The system includes a processing
-circuit having a navigation engine to navigate through digital
-information sources and search for information that matches one or more
-parameters of relevance for the workflow task. The processing circuit
-extracts computer-executable information files from the digital
-information sources that matches the one or more parameters of relevance
-for the workflow task and digitally processes the collected
-computer-executable information files into processed information blocks.
-The processing circuit includes a micro-content blocks creator for
-generating the contextual micro-content blocks from the processed
-information blocks. The micro-content blocks are delivered to the user
-when the micro-tasks are beginning.
+A system for streaming of contextual micro-content blocks for a workflow task to facilitate task performance by a user. The system includes a context sensing engine that processes one or more context inputs and generates an output based on the context inputs received from a front-end context monitoring appliance. The system includes a processing circuit having a navigation engine to navigate through digital information sources and search for information that matches one or more parameters of relevance for the workflow task. The processing circuit extracts computer-executable information files from the digital information sources that matches the one or more parameters of relevance for the workflow task and digitally processes the collected computer-executable information files into processed information blocks. The processing circuit includes a micro-content blocks creator for generating the contextual micro-content blocks from the processed information blocks. The micro-content blocks are delivered to the user when the micro-tasks are beginning.
 
 ### Images (6)
 
 <div class="flex overflow-x-auto gap-4 bg-slate-50 cursor-pointer patentimages scroll-smooth">
 <div class="flex-shrink-0 p-2" id="fig01">
-    <img src="/images/patents/us11423500b2-image-01.png" alt="Figure 01" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us11423500b2-image-01.png" alt="Figure 01" class="w-64 max-h-[250px] !my-0" />
 </div>
 <div class="flex-shrink-0 p-2" id="fig1">
-    <img src="/images/patents/us11423500b2-image-1.png" alt="Figure 1" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us11423500b2-image-1.png" alt="Figure 1" class="w-64 max-h-[250px] !my-0" />
     <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 1</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig2">
-    <img src="/images/patents/us11423500b2-image-2.png" alt="Figure 2" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us11423500b2-image-2.png" alt="Figure 2" class="w-64 max-h-[250px] !my-0" />
     <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 2</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig3">
-    <img src="/images/patents/us11423500b2-image-3.png" alt="Figure 3" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us11423500b2-image-3.png" alt="Figure 3" class="w-64 max-h-[250px] !my-0" />
     <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 3</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig4">
-    <img src="/images/patents/us11423500b2-image-4.png" alt="Figure 4" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us11423500b2-image-4.png" alt="Figure 4" class="w-64 max-h-[250px] !my-0" />
     <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 4</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig5">
-    <img src="/images/patents/us11423500b2-image-5.png" alt="Figure 5" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us11423500b2-image-5.png" alt="Figure 5" class="w-64 max-h-[250px] !my-0" />
     <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 5</span>
 </div>
 </div>

@@ -73,28 +73,35 @@ An electronic evaluation device and method thereof for optimizing an operation o
 
 <div class="flex overflow-x-auto gap-4 bg-slate-50 cursor-pointer patentimages scroll-smooth">
 <div class="flex-shrink-0 p-2" id="fig01">
-    <img src="/images/patents/us11561884b2-image-01.png" alt="Figure 01" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us11561884b2-image-01.png" alt="Figure 01" class="w-64 max-h-[250px] !my-0" />
 </div>
 <div class="flex-shrink-0 p-2" id="fig1">
-    <img src="/images/patents/us11561884b2-image-1.png" alt="Figure 1" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us11561884b2-image-1.png" alt="Figure 1" class="w-64 max-h-[250px] !my-0" />        
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 1</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig2-3">
-    <img src="/images/patents/us11561884b2-image-2-3.png" alt="Figure 2-3" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us11561884b2-image-2-3.png" alt="Figure 2-3" class="w-64 max-h-[250px] !my-0" />    
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 2-3</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig4">
-    <img src="/images/patents/us11561884b2-image-4.png" alt="Figure 4" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us11561884b2-image-4.png" alt="Figure 4" class="w-64 max-h-[250px] !my-0" />    
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 4</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig5a">
-    <img src="/images/patents/us11561884b2-image-5a.png" alt="Figure 5a" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us11561884b2-image-5a.png" alt="Figure 5a" class="w-64 max-h-[250px] !my-0" />    
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 5a</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig5b">
-    <img src="/images/patents/us11561884b2-image-5b.png" alt="Figure 5b" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us11561884b2-image-5b.png" alt="Figure 5b" class="w-64 max-h-[250px] !my-0" />    
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 5b</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig5c">
-    <img src="/images/patents/us11561884b2-image-5c.png" alt="Figure 5c" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us11561884b2-image-5c.png" alt="Figure 5c" class="w-64 max-h-[250px] !my-0" />    
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 5c</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig6">
-    <img src="/images/patents/us11561884b2-image-6.png" alt="Figure 6" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us11561884b2-image-6.png" alt="Figure 6" class="w-64 max-h-[250px] !my-0" />    
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 6</span>
 </div>
 </div>
 <div class="flex items-center justify-center pt-2">
