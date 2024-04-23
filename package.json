@@ -22,6 +22,7 @@
     "astro": "^4.6.2",
     "astro-breadcrumbs": "^2.2.0",
     "astro-icon": "^1.0.0-next.2",
+    "astro-page-insight": "^0.6.3",
     "astro-seo-schema": "^4.0.0",
     "limax": "4.1.0",
     "lodash.merge": "^4.6.2",

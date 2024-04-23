@@ -1,8 +1,6 @@
 import path from 'path';
 import { fileURLToPath } from 'url';
-
 import { defineConfig } from 'astro/config';
-
 import sitemap from '@astrojs/sitemap';
 import tailwind from '@astrojs/tailwind';
 import mdx from '@astrojs/mdx';
@@ -10,25 +8,17 @@ import partytown from '@astrojs/partytown';
 import compress from 'astro-compress';
 import icon from 'astro-icon';
 import tasks from './src/utils/tasks';
-
 import { readingTimeRemarkPlugin, responsiveTablesRehypePlugin } from './src/utils/frontmatter.mjs';
-
 import { ANALYTICS, SITE } from './src/utils/config.ts';
-
+import pageInsight from "astro-page-insight";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const whenExternalScripts = (items = []) => ANALYTICS.vendors.googleAnalytics.id && ANALYTICS.vendors.googleAnalytics.partytown ? Array.isArray(items) ? items.map(item => item()) : [items()] : [];
 
-const whenExternalScripts = (items = []) =>
-  ANALYTICS.vendors.googleAnalytics.id && ANALYTICS.vendors.googleAnalytics.partytown
-    ? Array.isArray(items)
-      ? items.map((item) => item())
-      : [items()]
-    : [];
-
+// https://astro.build/config
 export default defineConfig({
   site: SITE.site,
   base: SITE.base,
   trailingSlash: SITE.trailingSlash ? 'always' : 'never',
-
   output: 'static',
   redirects: {
     '/patent': '/patents',
@@ -46,7 +36,7 @@ export default defineConfig({
     '/patent-summaries/the-complexities-of-data-management-in-contemporary-healthcare': '/patent-summaries/the-complexities-of-data-management-in-contemporary-healthcare-solutions',
     '/patent-summaries/the-complexities-of-data-management-in-contemporary-healthcare/': '/patent-summaries/the-complexities-of-data-management-in-contemporary-healthcare-solutions',
     '/patent-summaries/tasks-scheduling-based-on-triggering-event-and-work-lists-management': '/patents/tasks-scheduling-based-on-triggering-event-and-work-lists-management',
-    '/patent-summaries/tasks-scheduling-based-on-triggering-event-and-work-lists-management/': '/patents/tasks-scheduling-based-on-triggering-event-and-work-lists-management',    
+    '/patent-summaries/tasks-scheduling-based-on-triggering-event-and-work-lists-management/': '/patents/tasks-scheduling-based-on-triggering-event-and-work-lists-management',
     '/topics/us10489830b2': '/patents/aggregation-of-rating-indicators',
     '/topics/us9846896b2': '/patents/aggregation-of-rating-indicators-us9846896b2',
     "/topics/us11270263b2": "/patents/blockchain-based-crowdsourced-initiatives-tracking-system",
@@ -83,78 +73,85 @@ export default defineConfig({
     '/category': {
       status: 302,
       destination: '/article'
-    },
+    }
   },
-  integrations: [
-    tailwind({
-      applyBaseStyles: false,
-    }),
-    // sitemap(
-    //   {
-    //     filter: (page) => 
-    //     page !== 'https://www.intellectualfrontiers.com/landing/sales' &&
-    //     page !== 'https://www.intellectualfrontiers.com/blog/' &&
-    //     page !== 'https://www.intellectualfrontiers.com/click-through' &&
-    //     page !== 'https://www.intellectualfrontiers.com/homes/mobile-app' &&
-    //     page !== 'https://www.intellectualfrontiers.com/homes/personal' &&
-    //     page !== 'https://www.intellectualfrontiers.com/homes/saas' &&
-    //     page !== 'https://www.intellectualfrontiers.com/homes/startup' &&
-    //     page !== 'https://www.intellectualfrontiers.com/landing/click-through' &&
-    //     page !== 'https://www.intellectualfrontiers.com/landing/lead-generation' &&
-    //     page !== 'https://www.intellectualfrontiers.com/landing/pre-launch' &&
-    //     page !== 'https://www.intellectualfrontiers.com/landing/product' &&
-    //     page !== 'https://www.intellectualfrontiers.com/landing/subscription' &&
-    //     page !== 'https://www.intellectualfrontiers.com/pricing' &&
-    //     page !== 'https://www.intellectualfrontiers.com/resources' &&
-    //     page !== 'https://www.intellectualfrontiers.com/services',
-    //   }
-    // ),
-    mdx(),
-    icon({
-      include: {
-        tabler: ['*'],
-        'flat-color-icons': [
-          'template',
-          'gallery',
-          'approval',
-          'document',
-          'advertising',
-          'currency-exchange',
-          'voice-presentation',
-          'business-contact',
-          'database',
-        ],
-      },
-    }),
-
-    ...whenExternalScripts(() =>
-      partytown({
-        config: { forward: ['dataLayer.push'] },
-      })
-    ),
-
-    tasks(),
-
-    compress({
-      CSS: true,
-      HTML: false,
-      Image: false,
-      JavaScript: true,
-      SVG: true,
-      Logger: 1,
-    }),
-  ],
-
+  integrations: [tailwind({
+    applyBaseStyles: false
+  }),
+  // sitemap(
+  //   {
+  //     filter: (page) => 
+  //     page !== 'https://www.intellectualfrontiers.com/landing/sales' &&
+  //     page !== 'https://www.intellectualfrontiers.com/blog/' &&
+  //     page !== 'https://www.intellectualfrontiers.com/click-through' &&
+  //     page !== 'https://www.intellectualfrontiers.com/homes/mobile-app' &&
+  //     page !== 'https://www.intellectualfrontiers.com/homes/personal' &&
+  //     page !== 'https://www.intellectualfrontiers.com/homes/saas' &&
+  //     page !== 'https://www.intellectualfrontiers.com/homes/startup' &&
+  //     page !== 'https://www.intellectualfrontiers.com/landing/click-through' &&
+  //     page !== 'https://www.intellectualfrontiers.com/landing/lead-generation' &&
+  //     page !== 'https://www.intellectualfrontiers.com/landing/pre-launch' &&
+  //     page !== 'https://www.intellectualfrontiers.com/landing/product' &&
+  //     page !== 'https://www.intellectualfrontiers.com/landing/subscription' &&
+  //     page !== 'https://www.intellectualfrontiers.com/pricing' &&
+  //     page !== 'https://www.intellectualfrontiers.com/resources' &&
+  //     page !== 'https://www.intellectualfrontiers.com/services',
+  //   }
+  // ),
+  mdx(), icon({
+    include: {
+      tabler: ['*'],
+      'flat-color-icons': ['template', 'gallery', 'approval', 'document', 'advertising', 'currency-exchange', 'voice-presentation', 'business-contact', 'database']
+    }
+  }), ...whenExternalScripts(() => partytown({
+    config: {
+      forward: ['dataLayer.push']
+    }
+  })), tasks(), compress({
+    CSS: true,
+    HTML: false,
+    Image: false,
+    JavaScript: true,
+    SVG: true,
+    Logger: 1
+  }), pageInsight({
+    lh: {  // Lighthouse Config
+      // `weight` is the threshold value in the audit.
+      // All audit items have weights assigned by lighthouse and can be filtered by thresholds(`weight`).
+      // Default: 0
+      weight: 0,
+      // `breakPoint` is used to determine whether on mobile or desktop.
+      // if the viewport width is less than the `breakPoint`, the lighthouse will run as a mobile device.
+      // Default: 767
+      breakPoint: 1024,
+      // `pwa` is used to determine whether to include the PWA audit.
+      // Default: false
+      pwa: true,
+    },
+    // `firstFetch` is used for when to do the first fetch.
+    // Default: "none"
+    firstFetch: "none", // ["load", "open", "none"]
+    // `cache` is used to enable the cache feature.
+    // Default: false
+    cache: true,
+    build: { // Build time Config
+      // `bundle` is used to determine whether to bundle the page insight.
+      // Default: false
+      bundle: true,
+      // `showOnLoad` is used to determine whether to show the page insight on page load.
+      // Default: false
+      showOnLoad: true,
+    },
+  })],
   markdown: {
     remarkPlugins: [readingTimeRemarkPlugin],
-    rehypePlugins: [responsiveTablesRehypePlugin],
+    rehypePlugins: [responsiveTablesRehypePlugin]
   },
-
   vite: {
     resolve: {
       alias: {
-        '~': path.resolve(__dirname, './src'),
-      },
-    },
-  },
+        '~': path.resolve(__dirname, './src')
+      }
+    }
+  }
 });
