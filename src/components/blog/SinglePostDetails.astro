@@ -93,13 +93,19 @@ const { Content } = post;
           </>
         )
       }
-      <div class="px-2 pb-3">
-        <!-- <a
-          href="#"
-          class="p-6 w-full bg-red-500 text-white font-bold text-base ufppercase rounded hover:bg-red-700 flex items-center justify-center px-2 py-3 mt-4"
-        >
-          <Icon name="tabler:file-download" class="mb-0.5 dark:text-gray-400" />&nbsp;Download Full PDF
-        </a> -->
+      <div class="px-2 pb-3 flex items-center justify-center">
+        {
+          post.downloadableDocuments && (
+            <a
+              href={post.downloadableDocuments?.pdfLink}
+              target="_blank"
+              class="p-6 w-11/12 bg-sky-600 text-white font-bold text-base rounded hover:bg-sky-500 flex items-center justify-center px-2 py-2.5 mt-4 shadow-md"
+            >
+              <Icon name="tabler:file-download" class="mb-0.5" />
+              &nbsp;Download Full PDF
+            </a>
+          )
+        }
         <!-- <a
           href={post.patentSummaryLink}
           class="p-6 w-full bg-blue-400 text-white font-bold text-base upxpercase rounded hover:bg-blue-700 flex items-center justify-center px-2 py-3 mt-4"

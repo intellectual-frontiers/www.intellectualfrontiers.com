@@ -55,6 +55,11 @@ const metadataDefinition = () =>
       link: z.string().url(),
     })
 
+    const downloadableDocumentssDef = z.object({
+      pdfLink: z.string().url().optional(),
+      claimSummaryLink: z.string().url().optional(),
+    });
+
 const postCollection = defineCollection({
   schema: z.object({
     publishDate: z.date().optional(),
@@ -81,6 +86,7 @@ const postCollection = defineCollection({
     expiryDate: z.date().optional(),
     currentAssignee: z.string().optional(),
     externalLinks: z.array(externalLinksDef).optional(),
+    downloadableDocuments: downloadableDocumentssDef.optional(),
   }),
 });
 

@@ -64,6 +64,7 @@ export interface Post {
   //The current assignee of the patent
   currentAssignee?: string;
   externalLinks?: ExternalLinks[];
+  downloadableDocuments?: downloadableDocuments;
 }
 
 export interface PatentSummaryLinks {
@@ -75,6 +76,12 @@ export interface ExternalLinks {
   sourceText: string;
   link: string;
 }[]
+
+// Define a new interface for the downloadableDocuments object
+export interface downloadableDocuments {
+  pdfLink?: string;
+  claimSummaryLink?: string;
+}
 
 export interface MetaData {
   title?: string;
