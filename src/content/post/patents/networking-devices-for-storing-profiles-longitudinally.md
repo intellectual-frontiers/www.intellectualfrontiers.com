@@ -56,11 +56,8 @@ altText: online reputation management
 externalLinks:
   - sourceText: 'USPTO Patent Center'
     link: 'https://patentcenter.uspto.gov/applications/15163667'
-downloadable-documents:
-  - anchor_text: Download PDF
-    link_url:
-  - anchor_text: Download Claim Summaries
-    link_url:
+downloadableDocuments:
+  pdfLink: 'https://patentimages.storage.googleapis.com/28/56/67/1c0e7c5abe9517/US10586069.pdf'
 ---
 
 ### Abstract

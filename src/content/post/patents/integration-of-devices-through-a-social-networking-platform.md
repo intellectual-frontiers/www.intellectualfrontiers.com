@@ -53,11 +53,8 @@ altText: NFC patent
 externalLinks:
   - sourceText: 'USPTO Patent Center'
     link: 'https://patentcenter.uspto.gov/applications/15275463'
-downloadable-documents:
-  - anchor_text: Download PDF
-    link_url:
-  - anchor_text: Download Claim Summaries
-    link_url:
+downloadableDocuments:
+  pdfLink: 'https://patentimages.storage.googleapis.com/c9/fe/38/05eaaa831697a7/US10320735.pdf'
 tags:
   - US10320735B2
   - Device Health Monitoring

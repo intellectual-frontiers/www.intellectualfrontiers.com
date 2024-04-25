@@ -53,11 +53,8 @@ altText: medical device integration
 externalLinks:
   - sourceText: 'USPTO Patent Center'
     link: 'https://patentcenter.uspto.gov/applications/16381772'
-downloadable-documents:
-  - anchor_text: Download PDF
-    link_url:
-  - anchor_text: Download Claim Summaries
-    link_url:
+downloadableDocuments:
+  pdfLink: 'https://patentimages.storage.googleapis.com/b5/f8/89/3dd9e3b489839e/US11044221.pdf'
 tags:
   - US11044221B2
   - Device Health Monitoring

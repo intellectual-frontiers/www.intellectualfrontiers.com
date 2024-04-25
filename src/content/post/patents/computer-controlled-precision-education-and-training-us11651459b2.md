@@ -58,11 +58,8 @@ altText: precision learning technology patent
 externalLinks:
   - sourceText: 'USPTO Patent Center'
     link: 'https://patentcenter.uspto.gov/applications/17865173'
-downloadable-documents:
-  - anchor_text: Download PDF
-    link_url:
-  - anchor_text: Download Claim Summaries
-    link_url:
+downloadableDocuments:
+  pdfLink: 'https://patentimages.storage.googleapis.com/74/18/e8/8e2292a13b0fef/US11651459.pdf'
 ---
 
 ### Abstract

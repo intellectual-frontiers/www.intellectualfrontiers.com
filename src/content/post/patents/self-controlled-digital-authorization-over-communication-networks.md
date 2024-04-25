@@ -58,11 +58,8 @@ altText: patents in authorization and data privacy
 externalLinks:
   - sourceText: 'USPTO Patent Center'
     link: 'https://patentcenter.uspto.gov/applications/15434942'
-downloadable-documents:
-  - anchor_text: Download PDF
-    link_url:
-  - anchor_text: Download Claim Summaries
-    link_url:
+downloadableDocuments:
+  pdfLink: 'https://patentimages.storage.googleapis.com/fa/68/4e/06f50719226ff1/US10963585.pdf'
 ---
 
 ### Abstract

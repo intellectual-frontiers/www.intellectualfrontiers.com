@@ -57,11 +57,8 @@ altText: integration of devices patent
 externalLinks:
   - sourceText: 'USPTO Patent Center'
     link: 'https://patentcenter.uspto.gov/applications/14103098'
-downloadable-documents:
-  - anchor_text: Download PDF
-    link_url:
-  - anchor_text: Download Claim Summaries
-    link_url:
+downloadableDocuments:
+  pdfLink: 'https://patentimages.storage.googleapis.com/76/ee/aa/2ab3ea701b8ea9/US9525753.pdf'
 ---
 
 ### Abstract

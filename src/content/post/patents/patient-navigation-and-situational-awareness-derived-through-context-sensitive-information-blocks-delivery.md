@@ -57,11 +57,8 @@ altText: future of electronic medical records
 externalLinks:
   - sourceText: 'USPTO Patent Center'
     link: 'https://patentcenter.uspto.gov/applications/15163662'
-downloadable-documents:
-  - anchor_text: Download PDF
-    link_url:
-  - anchor_text: Download Claim Summaries
-    link_url:
+downloadableDocuments:
+  pdfLink: 'https://patentimages.storage.googleapis.com/ff/04/53/696fcba5f8b748/US10089492.pdf'
 ---
 
 ### Abstract

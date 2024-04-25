@@ -57,11 +57,8 @@ altText: patents in Data Management
 externalLinks:
   - sourceText: 'USPTO Patent Center'
     link: 'https://patentcenter.uspto.gov/applications/17838198'
-downloadable-documents:
-  - anchor_text: Download PDF
-    link_url:
-  - anchor_text: Download Claim Summaries
-    link_url:
+downloadableDocuments:
+  pdfLink: 'https://patentimages.storage.googleapis.com/be/97/e6/886c87cb880709/US11888597.pdf'
 ---
 
 ### Abstract

@@ -56,11 +56,8 @@ altText: patent in medical devices
 externalLinks:
   - sourceText: 'USPTO Patent Center'
     link: 'https://patentcenter.uspto.gov/applications/15430461'
-downloadable-documents:
-  - anchor_text: Download PDF
-    link_url:
-  - anchor_text: Download Claim Summaries
-    link_url:
+downloadableDocuments:
+  pdfLink: 'https://patentimages.storage.googleapis.com/fa/32/83/3bb567467f3175/US10638999.pdf'
 ---
 
 ### Abstract

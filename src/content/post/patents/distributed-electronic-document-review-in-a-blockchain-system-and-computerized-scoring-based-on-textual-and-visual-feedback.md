@@ -56,11 +56,8 @@ altText: patent on blockchain system
 externalLinks:
   - sourceText: 'USPTO Patent Center'
     link: 'https://patentcenter.uspto.gov/applications/15386846'
-downloadable-documents:
-  - anchor_text: Download PDF
-    link_url:
-  - anchor_text: Download Claim Summaries
-    link_url:
+downloadableDocuments:
+  pdfLink: 'https://patentimages.storage.googleapis.com/96/71/16/d3520ba76ca720/US9870591.pdf'
 ---
 
 ### Abstract

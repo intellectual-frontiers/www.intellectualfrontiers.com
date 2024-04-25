@@ -57,11 +57,8 @@ altText: patent on online reputation management
 externalLinks:
   - sourceText: 'USPTO Patent Center'
     link: 'https://patentcenter.uspto.gov/applications/14744697'
-downloadable-documents:
-  - anchor_text: Download PDF
-    link_url:
-  - anchor_text: Download Claim Summaries
-    link_url:
+downloadableDocuments:
+  pdfLink: 'https://patentimages.storage.googleapis.com/b8/17/f8/9fe36b7991db27/US9846896.pdf'
 ---
 
 ### Abstract

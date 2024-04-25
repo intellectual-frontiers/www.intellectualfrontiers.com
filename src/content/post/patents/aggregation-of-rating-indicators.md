@@ -57,11 +57,8 @@ altText: online review management
 externalLinks:
   - sourceText: 'USPTO Patent Center'
     link: 'https://patentcenter.uspto.gov/applications/15813109'
-downloadable-documents:
-  - anchor_text: Download PDF
-    link_url:
-  - anchor_text: Download Claim Summaries
-    link_url:
+downloadableDocuments:
+  pdfLink: 'https://patentimages.storage.googleapis.com/68/df/0e/2ca94ab83c9534/US10489830.pdf'
 ---
 
 <!-- <div class="center-elements">

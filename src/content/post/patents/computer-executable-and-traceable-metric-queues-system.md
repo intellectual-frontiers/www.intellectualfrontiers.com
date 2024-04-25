@@ -59,11 +59,8 @@ image: '/images/patents/us11388077b2-image-001.png'
 externalLinks:
   - sourceText: 'USPTO Patent Center'
     link: 'https://patentcenter.uspto.gov/applications/16669496'
-downloadable-documents:
-  - anchor_text: Download PDF
-    link_url:
-  - anchor_text: Download Claim Summaries
-    link_url:
+downloadableDocuments:
+  pdfLink: 'https://patentimages.storage.googleapis.com/d7/cd/ee/6f61489027a2ab/US11388077.pdf'
 ---
 
 ### Abstract

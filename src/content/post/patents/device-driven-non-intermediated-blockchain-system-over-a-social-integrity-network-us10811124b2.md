@@ -57,11 +57,8 @@ altText: natural language processing patent
 externalLinks:
   - sourceText: 'USPTO Patent Center'
     link: 'https://patentcenter.uspto.gov/applications/16517975'
-downloadable-documents:
-  - anchor_text: Download PDF
-    link_url:
-  - anchor_text: Download Claim Summaries
-    link_url:
+downloadableDocuments:
+  pdfLink: 'https://patentimages.storage.googleapis.com/57/bc/0f/5c11441ba4fb9b/US10811124.pdf'
 ---
 
 ### Abstract

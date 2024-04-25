@@ -58,11 +58,8 @@ excerpt: A digital payment system for facilitating seamless transactions from a 
 externalLinks:
   - sourceText: 'USPTO Patent Center'
     link: 'https://patentcenter.uspto.gov/applications/16835289'
-downloadable-documents:
-  - anchor_text: Download PDF
-    link_url:
-  - anchor_text: Download Claim Summaries
-    link_url:
+downloadableDocuments:
+  pdfLink: 'https://patentimages.storage.googleapis.com/01/ec/49/f51cfcb9fa921b/US11568401.pdf'
 ---
 
 ### Abstract

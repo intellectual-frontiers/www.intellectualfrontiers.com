@@ -58,11 +58,8 @@ altText: natural language processing
 externalLinks:
   - sourceText: 'USPTO Patent Center'
     link: 'https://patentcenter.uspto.gov/applications/15389243'
-downloadable-documents:
-  - anchor_text: Download PDF
-    link_url:
-  - anchor_text: Download Claim Summaries
-    link_url:
+downloadableDocuments:
+  pdfLink: 'https://patentimages.storage.googleapis.com/0e/e3/2a/a4ec99d2900250/US10984913.pdf'
 ---
 
 ### Abstract

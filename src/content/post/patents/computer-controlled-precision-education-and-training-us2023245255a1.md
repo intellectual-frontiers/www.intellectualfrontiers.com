@@ -55,11 +55,8 @@ altText: patent on blockchain
 externalLinks:
   - sourceText: 'USPTO Patent Center'
     link: 'https://patentcenter.uspto.gov/applications/18131648'
-downloadable-documents:
-  - anchor_text: Download PDF
-    link_url:
-  - anchor_text: Download Claim Summaries
-    link_url:
+downloadableDocuments:
+  pdfLink: 'https://patentimages.storage.googleapis.com/2e/94/c0/044a28acb68572/US20230245255A1.pdf'
 ---
 
 ### Abstract

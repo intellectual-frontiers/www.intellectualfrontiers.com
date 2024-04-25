@@ -58,11 +58,8 @@ altText: device health monitoring patent
 externalLinks:
   - sourceText: 'USPTO Patent Center'
     link: 'https://patentcenter.uspto.gov/applications/16952063'
-downloadable-documents:
-  - anchor_text: Download PDF
-    link_url:
-  - anchor_text: Download Claim Summaries
-    link_url:
+downloadableDocuments:
+  pdfLink: 'https://patentimages.storage.googleapis.com/e3/9b/2e/8cd22b461a2b78/US11561884.pdf'
 ---
 
 ### Abstract

@@ -59,11 +59,8 @@ altText: tasks automation patents
 externalLinks:
   - sourceText: 'USPTO Patent Center'
     link: 'https://patentcenter.uspto.gov/applications/14946702'
-downloadable-documents:
-  - anchor_text: Download PDF
-    link_url:
-  - anchor_text: Download Claim Summaries
-    link_url:
+downloadableDocuments:
+  pdfLink: 'https://patentimages.storage.googleapis.com/28/32/0a/6f98f67c215065/US10403399.pdf'
 ---
 
 ### Abstract

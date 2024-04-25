@@ -57,18 +57,9 @@ altText: service automation patent
 externalLinks:
   - sourceText: 'USPTO Patent Center'
     link: 'https://patentcenter.uspto.gov/applications/16045530'
-downloadable-documents:
-  - anchor_text: Download PDF
-    link_url:
-  - anchor_text: Download Claim Summaries
-    link_url:
+downloadableDocuments:
+  pdfLink: 'https://patentimages.storage.googleapis.com/d8/f9/aa/75b84e961d5636/US11475441.pdf'
 ---
-
-<!-- <div class="center-elements">
-
-![Figure 001](/images/patents/us11475441b2-image-001.png)
-
-</div> -->
 
 ### Abstract
 

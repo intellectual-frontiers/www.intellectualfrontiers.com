@@ -58,11 +58,8 @@ altText: digital payment system
 externalLinks:
   - sourceText: 'USPTO Patent Center'
     link: 'https://patentcenter.uspto.gov/applications/16283802'
-downloadable-documents:
-  - anchor_text: Download PDF
-    link_url:
-  - anchor_text: Download Claim Summaries
-    link_url:
+downloadableDocuments:
+  pdfLink: 'https://patentimages.storage.googleapis.com/e5/4b/a8/22010101a565bb/US10643208.pdf'
 ---
 
 ### Abstract
