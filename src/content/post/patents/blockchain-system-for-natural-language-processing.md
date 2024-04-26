@@ -33,7 +33,6 @@ tags:
 currentAssignee: Netspective Communications LLC
 patent-owners-rights:
 territorial-scope: US
-uspto-patent-family-members-publication-numbers:
 applicationDate: 2016-12-22
 priorityDate: 2012-04-27
 expiryDate: 2034-09-05

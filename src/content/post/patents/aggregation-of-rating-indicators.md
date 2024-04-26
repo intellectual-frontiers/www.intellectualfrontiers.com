@@ -29,7 +29,8 @@ inventor: Shahid N. Shah
 currentAssignee: Netspective Communications LLC
 patent-owners-rights:
 territorial-scope: US
-uspto-patent-family-members-publication-numbers:
+patentFamilyMembers:
+  - US9846896B2
 applicationDate: 2017-11-14
 priorityDate: 2014-06-22
 expiryDate: 2036-03-13
@@ -61,12 +62,6 @@ downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/68/df/0e/2ca94ab83c9534/US10489830.pdf'
 ---
 
-<!-- <div class="center-elements">
-
-![Figure 01](/images/patents/us10489830b2-image-01.png)
-
-</div> -->
-
 ### Abstract
 
 A computer-implemented method and system for publishing an aggregate rating indicator based on a plurality of discrete rating indicators associated with a rated entity. The method includes searching a plurality of repositories containing the plurality of discrete rating indicators associated with the rated entity. The method may include retrieving a first rating indicator, a second rating indicator, and a third rating indicator. At least one of the first rating indicator, the second rating indicator, and the third rating indicator may be a fraudulent rating indicator. The method may include filtering out the fraudulent rating indicator from among the first, second, and third rating indicators, wherein the fraudulent rating indicator is determined based on a combination of parameters. The method may include aggregating the first, second, and third rating indicators after filtering out the fraudulent rating indicator such that the aggregation results in an aggregate rating indicator.
@@ -75,46 +70,60 @@ A computer-implemented method and system for publishing an aggregate rating indi
 
 <div class="flex overflow-x-auto gap-4 bg-slate-50 cursor-pointer patentimages scroll-smooth">
 <div class="flex-shrink-0 p-2" id="fig1">
-    <img src="/images/patents/us10489830b2-image-001.png" alt="Figure 001" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us10489830b2-image-001.png" alt="Figure 001" class="w-64 h-auto !my-0" />   
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 1</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig2">
-    <img src="/images/patents/us10489830b2-image-002.png" alt="Figure 002" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us10489830b2-image-002.png" alt="Figure 002" class="w-64 h-auto !my-0" />   
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 2</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig3">
-    <img src="/images/patents/us10489830b2-image-003.png" alt="Figure 003" class="w-64 max-h-[250px] !my-0" />
+    <img src="/images/patents/us10489830b2-image-003.png" alt="Figure 003" class="w-64 max-h-[250px] !my-0" />   
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 3</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig4">
-    <img src="/images/patents/us10489830b2-image-004.png" alt="Figure 004" class="w-64 max-h-[250px] !my-0" />
+    <img src="/images/patents/us10489830b2-image-004.png" alt="Figure 004" class="w-64 max-h-[250px] !my-0" />   
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 4</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig5">
-    <img src="/images/patents/us10489830b2-image-005.png" alt="Figure 005" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us10489830b2-image-005.png" alt="Figure 005" class="w-64 h-auto !my-0" />   
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 5</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig6">
-    <img src="/images/patents/us10489830b2-image-006.png" alt="Figure 006" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us10489830b2-image-006.png" alt="Figure 006" class="w-64 h-auto !my-0" />   
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 6</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig7">
-    <img src="/images/patents/us10489830b2-image-007.png" alt="Figure 007" class="w-64 max-h-[250px] !my-0" />
+    <img src="/images/patents/us10489830b2-image-007.png" alt="Figure 007" class="w-64 max-h-[250px] !my-0" />   
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 7</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig8a">
-    <img src="/images/patents/us10489830b2-image-08a.png" alt="Figure 08a" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us10489830b2-image-08a.png" alt="Figure 08a" class="w-64 h-auto !my-0" />   
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 8a</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig8b">
-    <img src="/images/patents/us10489830b2-image-08b.png" alt="Figure 08b" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us10489830b2-image-08b.png" alt="Figure 08b" class="w-64 h-auto !my-0" />   
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 8b</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig9">
-    <img src="/images/patents/us10489830b2-image-009.png" alt="Figure 009" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us10489830b2-image-009.png" alt="Figure 009" class="w-64 h-auto !my-0" />   
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 9</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig10">
-    <img src="/images/patents/us10489830b2-image-010.png" alt="Figure 010" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us10489830b2-image-010.png" alt="Figure 010" class="w-64 h-auto !my-0" />   
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 10</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig11">
-    <img src="/images/patents/us10489830b2-image-011.png" alt="Figure 011" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us10489830b2-image-011.png" alt="Figure 011" class="w-64 h-auto !my-0" />   
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 11</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig12">
-    <img src="/images/patents/us10489830b2-image-012.png" alt="Figure 012" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us10489830b2-image-012.png" alt="Figure 012" class="w-64 h-auto !my-0" />   
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 12</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig13">
-    <img src="/images/patents/us10489830b2-image-013.png" alt="Figure 013" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us10489830b2-image-013.png" alt="Figure 013" class="w-64 h-auto !my-0" />   
+    <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 13</span>
 </div>
 </div>
 <div class="flex items-center justify-center pt-2">

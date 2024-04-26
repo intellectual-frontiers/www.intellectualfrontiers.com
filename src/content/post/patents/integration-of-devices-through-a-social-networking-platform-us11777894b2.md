@@ -29,7 +29,11 @@ inventor: Shahid N. Shah
 currentAssignee: Netspective Communications LLC
 patent-owners-rights:
 territorial-scope: US
-uspto-patent-family-members-publication-numbers:
+patentFamilyMembers:
+  - US10320735B2
+  - US11044221B2
+  - US9525753B2
+  - US2024015129A1
 applicationDate: 2021-05-22
 priorityDate: 2013-12-11
 expiryDate: 2034-09-14

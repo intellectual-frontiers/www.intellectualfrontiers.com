@@ -29,7 +29,8 @@ inventor: Shahid N. Shah
 currentAssignee: Intellectual Frontiers LLC
 patent-owners-rights:
 territorial-scope: US
-uspto-patent-family-members-publication-numbers:
+patentFamilyMembers:
+  - US10963585B2
 applicationDate: 2021-02-24
 priorityDate: 2021-02-24
 expiryDate: 2033-04-09
