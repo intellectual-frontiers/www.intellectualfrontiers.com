@@ -87,6 +87,7 @@ const postCollection = defineCollection({
     currentAssignee: z.string().optional(),
     externalLinks: z.array(externalLinksDef).optional(),
     downloadableDocuments: downloadableDocumentssDef.optional(),
+    patentFamilyMembers: z.array(z.string()).optional(),
   }),
 });
 

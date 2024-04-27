@@ -65,6 +65,7 @@ export interface Post {
   currentAssignee?: string;
   externalLinks?: ExternalLinks[];
   downloadableDocuments?: downloadableDocuments;
+  patentFamilyMembers?: Array<string>;
 }
 
 export interface PatentSummaryLinks {

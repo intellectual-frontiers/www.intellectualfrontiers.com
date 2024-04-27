@@ -10,6 +10,8 @@ import { getFormattedDate } from '~/utils/utils';
 import { getFormattedDateWithLongMonth } from '~/utils/utils';
 
 import type { Post } from '~/types';
+//Import the patent urls json file
+import patenturl from '../../../support/patenturls.json';
 
 export interface Props {
   post: Post;
@@ -184,7 +186,31 @@ const { Content } = post;
             </div>
           )
         }
-        <!-- <p class="pb-2 pd-2"><strong>Family Members:</strong> None</p> -->
+        {
+          post.patentFamilyMembers &&
+            Array.isArray(post.patentFamilyMembers) &&
+            post.patentFamilyMembers.length > 0 && (
+              <div class="bg-slate-100 shadow px-2 pt-[6px] pb-[6px] rounded mt-1 mb-[8px] border-b border-grey hover:bg-grey-lighter">
+                <div class="flex items-start">
+                  <span class="pr-1 font-semibold">Family Members&nbsp;</span>
+                  <Icon
+                    name="tabler:point-filled"
+                    class="w-3 h-3 inline-block mt-[5px] text-sky-700 dark:text-gray-400"
+                  />
+                  <span class="pl-1 pt-0.5 flex-1 break-words leading-tight">
+                    {post.patentFamilyMembers.map((item, index, arr) => (
+                      <>
+                      {/* The empty paranthesis below is to stop the logic block of index calculation getting pushed to the next line which in turn causes an extra space to be shown in the UI before the comma. This is because of VScode automatic formatting which formats and pushes the logic block to next line*/}
+                        <a class="text-sky-700  hover:text-sky-600" href={patenturl[item].url}>
+                          {item}{}{index !== arr.length - 1 && <span>,</span>}
+                        </a>
+                      </>
+                    ))}
+                  </span>
+                </div>
+              </div>
+            )
+        }
         {
           post.externalLinks && post.externalLinks.length > 0 && (
             <div class="bg-slate-100 shadow px-2 pt-[6px] pb-[6px] rounded mt-1 mb-[8px] border-b border-grey hover:bg-grey-lighter">
