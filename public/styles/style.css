@@ -9,3 +9,59 @@
 .hoverTextMenu{position: relative;}
 .hoverTextMenu:after{content: ''; position: absolute; bottom: 0.5rem; width: 0; height: 2px ; background-color: #214ea2; left: 1rem;  right: 1rem; transition: 0.5s ease-in-out; text-align: center !important;}
 .hoverTextMenu:hover:after{width: calc(100% - 2rem); }
+
+button#prev-btn {
+    position: absolute;
+    top: 50%;
+    /* / left: 15px; / */
+    width: 40px; height: 40px;
+    background: #fff;
+    transform: translateY(-50%);
+    border: 1px solid;
+    border-radius: 50%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+button#next-btn {
+    position: absolute;
+    top: 50%;
+    /*right: 15px; */
+    width: 40px; height: 40px;
+    background: #fff;
+    transform: translateY(-50%);
+    border: 1px solid;
+    border-radius: 50%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+button#prev-btn span{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    line-height: 32px;
+    /* / height: 20px; / */
+    font-size: 40px;
+}
+button#next-btn span{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    line-height: 32px;
+    /* / height: 20px; / */
+    font-size: 40px;
+  }
+  button[disabled] {
+    opacity: 0.5; 
+}
+
+@media screen and (max-width:680px){
+    button#next-btn{
+        top:unset;
+        bottom:0;
+        right: 35%;
+    }
+    button#prev-btn{
+        top:unset;
+        bottom:0;
+        left: 35%;
+    }
+}
