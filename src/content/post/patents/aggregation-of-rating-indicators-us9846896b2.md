@@ -14,7 +14,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: Revolutionary method for accurate aggregate rating indicators. Filter out fraud for reliable results. Uncover the true essence of any entity with our innovative approach.
     images:
-      - url: '/images/patents/us9846896b2-image-001.png'
+      - url: '/images/patents/us9846896b2/us9846896b2-patent.webp'
         width: 1200
         height: 628
     type: website
@@ -53,7 +53,7 @@ tags:
   - US9846896B2
   - Digital Reputation Management
   - Sentiment Analysis
-image: '/images/patents/us9846896b2-image-001.png'
+image: '/images/patents/us9846896b2/us9846896b2-patent.webp'
 altText: patent on online reputation management
 externalLinks:
   - sourceText: 'USPTO Patent Center'
