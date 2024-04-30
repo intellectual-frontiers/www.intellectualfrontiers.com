@@ -14,7 +14,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: Revolutionize innovation with our blockchain-driven crowdsourced initiatives tracking system. Secure, transparent, and efficient. Join the future of collaborative innovation.
     images:
-      - url: '/images/patents/us11270263b2-image-001.png'
+      - url: '/images/patents/us11270263b2/us11270263b2-patent.webp'
         width: 1200
         height: 628
     type: website
@@ -51,7 +51,7 @@ images:
 tags:
   - US11270263B2
   - Blockchain
-image: '/images/patents/us11270263b2-image-001.png'
+image: '/images/patents/us11270263b2/us11270263b2-patent.webp'
 externalLinks:
   - sourceText: 'USPTO Patent Center'
     link: 'https://patentcenter.uspto.gov/applications/15587202'

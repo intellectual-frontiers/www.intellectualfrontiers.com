@@ -14,7 +14,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: Revolutionize service delivery with our Blockchain-enabled system. Automated evidence recording via mobile and web, ensuring secure and transparent transactions.
     images:
-      - url: '/images/patents/us11475441b2-image-001.png'
+      - url: '/images/patents/us11475441b2/us11475441b2-patent.webp'
         width: 1200
         height: 628
     type: website
@@ -51,7 +51,7 @@ tags:
   - US11475441B2
   - Blockchain
   - Service Automation
-image: '/images/patents/us11475441b2-image-001.png'
+image: '/images/patents/us11475441b2/us11475441b2-patent.webp'
 altText: service automation patent
 externalLinks:
   - sourceText: 'USPTO Patent Center'
