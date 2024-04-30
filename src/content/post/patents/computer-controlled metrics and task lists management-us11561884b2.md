@@ -16,7 +16,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: Enhance computer-controlled metrics with real-time feedback and precision training. Achieve goals efficiently using our electronic evaluation device and machine learning.
     images:
-      - url: '/images/patents/us11561884b2-image-001.png'
+      - url: '/images/patents/us11561884b2/us11561884b2-patent.webp'
         width: 1200
         height: 628
     type: website
@@ -52,7 +52,7 @@ tags:
   - Artificial Intelligence and Machine Learning
   - Device Health Monitoring
   - Software
-image: '/images/patents/us11561884b2-image-001.png'
+image: '/images/patents/us11561884b2/us11561884b2-patent.webp'
 altText: device health monitoring patent
 externalLinks:
   - sourceText: 'USPTO Patent Center'

@@ -14,7 +14,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: Enhance data security and streamline natural language processing with our blockchain system. Router, record bank, and advanced features for seamless integration.
     images:
-      - url: '/images/patents/us10984913b2-image-001.png'
+      - url: '/images/patents/us10984913b2/us10984913b2-patent.webp'
         width: 1200
         height: 628
     type: website
@@ -52,7 +52,7 @@ patentSummaryLinks:
     link: 'https://www.intellectualfrontiers.com/patent-summaries/blockchain-powered-healthcare-data-for-natural-language-processing-nlp-collection-storage-and-standardization'
 images:
 publishDate: 2021-04-20
-image: '/images/patents/us10984913b2-image-001.png'
+image: '/images/patents/us10984913b2/us10984913b2-patent.webp'
 altText: natural language processing
 externalLinks:
   - sourceText: 'USPTO Patent Center'

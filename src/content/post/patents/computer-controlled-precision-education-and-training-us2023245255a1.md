@@ -15,7 +15,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: 'Explore the synergy of telehealth and value-based models for proactive preventative care. Enhance patient outcomes through innovative healthcare approaches. Learn more.'
     images:
-      - url: '/images/patents/us2023245255a1/us2023245255a1-patent.png'
+      - url: '/images/patents/us2023245255a1/us2023245255a1-patent.webp'
         width: 1200
         height: 628
     type: website
@@ -52,7 +52,7 @@ tags:
   - Precision Learning
   - Blockchain
   - Artificial Intelligence and Machine Learning
-image: '/images/patents/us2023245255a1/us2023245255a1-patent.png'
+image: '/images/patents/us2023245255a1/us2023245255a1-patent.webp'
 altText: patent on blockchain
 externalLinks:
   - sourceText: 'USPTO Patent Center'

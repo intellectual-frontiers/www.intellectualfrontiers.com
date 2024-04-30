@@ -15,7 +15,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: Empower your workforce with our Precision Education System. Delivering contextual micro-content to optimize workflow tasks. Elevate efficiency in B2B education and training.
     images:
-      - url: '/images/patents/us11651459b2-image-001.png'
+      - url: '/images/patents/us11651459b2/us11651459b2-patent.webp'
         width: 1200
         height: 628
     type: website
@@ -55,7 +55,7 @@ tags:
   - Precision Learning
   - Blockchain
   - Artificial Intelligence and Machine Learning
-image: '/images/patents/us11651459b2-image-001.png'
+image: '/images/patents/us11651459b2/us11651459b2-patent.webp'
 altText: precision learning technology patent
 externalLinks:
   - sourceText: 'USPTO Patent Center'
