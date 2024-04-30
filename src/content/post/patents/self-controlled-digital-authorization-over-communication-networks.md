@@ -33,7 +33,7 @@ tags:
   - Near Field Communication (NFC)
 currentAssignee: Netspective Communications LLC
 patent-owners-rights:
-territorial-scope: US
+territorialScope: United States
 patentFamilyMembers:
   - US11874949B2
 applicationDate: 2017-02-16

@@ -33,7 +33,7 @@ tags:
   - Electronic Medical Records (EMR)
 currentAssignee: Netspective Communications LLC
 patent-owners-rights:
-territorial-scope: US
+territorialScope: United States
 applicationDate: 2016-05-24
 priorityDate: 2015-05-25
 expiryDate: 2036-10-30

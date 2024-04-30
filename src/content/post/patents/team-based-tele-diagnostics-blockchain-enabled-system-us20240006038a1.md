@@ -28,7 +28,7 @@ uspto-patent-number: US2024006038A1
 inventor: Shahid N. Shah
 currentAssignee: Intellectual Frontiers LLC
 patent-owners-rights:
-territorial-scope: US
+territorialScope: United States
 patentFamilyMembers:
   - US11769573B2
 applicationDate: 2023-08-09

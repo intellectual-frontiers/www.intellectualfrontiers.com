@@ -28,7 +28,7 @@ uspto-patent-number: US10638999B2
 inventor: Shahid N. Shah
 currentAssignee: Netspective Communications LLC
 patent-owners-rights:
-territorial-scope: US
+territorialScope: United States
 patentFamilyMembers:
   - US11006920B2
 applicationDate: 2017-02-11

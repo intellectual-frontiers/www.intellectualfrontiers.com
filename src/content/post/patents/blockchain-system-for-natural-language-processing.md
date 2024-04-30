@@ -32,7 +32,7 @@ tags:
   - Natural Language Processing
 currentAssignee: Netspective Communications LLC
 patent-owners-rights:
-territorial-scope: US
+territorialScope: United States
 applicationDate: 2016-12-22
 priorityDate: 2012-04-27
 expiryDate: 2034-09-05
