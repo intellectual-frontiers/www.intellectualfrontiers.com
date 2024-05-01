@@ -4,7 +4,7 @@ excerpt: Businesses across the globe, recognizing the crucial role of trust in O
 sectiontype: article
 category: Market Potential
 publishDate: 2023-12-13
-patent-id: US10489830B2
+patentId: US10489830B2
 metadata:
   title: Online Reputation Management Technology
   description: "Discover how patented online reputation management and review innovations can safeguard and enhance your business's online image, driving trust and growth in the digital era"

@@ -4,7 +4,7 @@ excerpt: Many medical devices still require manual setup and operation, which in
 sectiontype: article
 category: Market Potential
 publishDate: 2023-10-28
-patent-id: US11006920B2
+patentId: US11006920B2
 metadata:
   title: 'Revolutionizing Healthcare - The Future of Medical Devices Operation Automation'
   description: 'Many medical devices still require manual setup and operation, which introduces the potential for human error.'

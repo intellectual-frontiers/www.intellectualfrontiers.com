@@ -4,7 +4,7 @@ excerpt: Online learning has emerged as a fundamental component of contemporary 
 sectiontype: article
 category: Use Cases
 publishDate: 2024-03-08
-patent-id: US11651459B2
+patentId: US11651459B2
 metadata:
   title: Enhancing Education with AI Chatbots Powered by Real-Time Contextual Micro-Content Streaming
   description: Online learning has emerged as a fundamental component of contemporary education, reshaping traditional pedagogical methods.

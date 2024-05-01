@@ -4,7 +4,7 @@ excerpt: Service delivery market is poised for unprecedented growth with an astr
 sectiontype: article
 category: Market Potential
 publishDate: 2023-11-22
-patent-id: US11475441B2
+patentId: US11475441B2
 metadata:
   title: 'Service Delivery Automation - Growth Opportunities with Innovative Patent Portfolio'
   description: 'Service delivery market is poised for unprecedented growth with an astronomical surge signifying not just a trend but a transformative shift in how enterprises operate and deliver services.'

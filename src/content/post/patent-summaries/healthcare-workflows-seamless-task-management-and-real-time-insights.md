@@ -3,7 +3,7 @@ title: Healthcare Workflows- Seamless Task Management and Real-time Insights
 excerpt: Healthcare systems, medical devices, and software often operate in isolation, resulting in siloed patient information, interoperability hurdles, and limited real-time insights.
 sectiontype: article
 image: '/images/patent-summaries/tasks-scheduling-based-on-triggering-event-and-work-lists-management.webp'
-patent-id: US10403399B2
+patentId: US10403399B2
 category: Patent Summaries
 metadata:
   title: 'Healthcare Workflows & Automation in Healthcare: Streamlining Tasks'

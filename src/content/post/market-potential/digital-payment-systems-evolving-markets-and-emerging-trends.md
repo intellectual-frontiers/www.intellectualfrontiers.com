@@ -4,7 +4,7 @@ excerpt: The Digital Payments market is set to witness significant growth in the
 sectiontype: article
 category: Market Potential
 publishDate: 2023-12-19
-patent-id: US10643208B2
+patentId: US10643208B2
 metadata:
   title: 'Digital Payment Systems - Evolving Markets and Emerging Trends'
   description: 'The Digital Payments market is set to witness significant growth in the coming years according to reports by Statista'

@@ -4,7 +4,7 @@ excerpt: Licensing inventions from independent inventors offers a unique opportu
 sectiontype: article
 category: Blogs
 image: '/images/blogs/reimagining-innovation-a-practical-guide-to-licensing-inventions-from-independent-inventors.webp'
-patent-id: US11568401B2
+patentId: US11568401B2
 metadata:
   title: Guide to Patent Licensing from Independent Inventors
   description: "Explore our guide on harnessing independent inventors' patents for corporate innovation, offering a competitive edge with practical insights and strategies"

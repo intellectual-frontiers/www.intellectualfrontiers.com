@@ -4,7 +4,7 @@ excerpt: 'The innovation landscape is heavily influenced by lesser-known, indepe
 sectiontype: article
 category: Blogs
 image: '/images/blogs/the-invisible-inventors-how-lesser-known-patents-can-drive-industry-change-thumbnail.webp'
-patent-id: US11568401B2
+patentId: US11568401B2
 metadata:
   title: 'How Do Patents from Independent Inventors Drive Innovation?'
   description: "Explore how independent inventors' patents transform industries, overcome challenges, and foster market diversity and innovation."

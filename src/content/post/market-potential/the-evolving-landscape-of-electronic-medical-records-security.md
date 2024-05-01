@@ -4,7 +4,7 @@ excerpt: The global healthcare cybersecurity market is projected to reach $35.3 
 sectiontype: article
 category: Market Potential
 publishDate: 2024-01-22
-patent-id: US10089492B2
+patentId: US10089492B2
 metadata:
   title: EMR Security Trends & HIPAA Updates
   description: Explore our report on EMR security trends, data breach impacts, HIPAA developments, and the market potential for healthcare cybersecurity solutions
