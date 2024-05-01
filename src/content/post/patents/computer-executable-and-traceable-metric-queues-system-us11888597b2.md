@@ -14,7 +14,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: 'Discover a computer-controlled system for digitally evaluating machine metrics. Analyze performance data with traceable metric queues. Achieve efficiency with our technology.'
     images:
-      - url: '/images/patents/us11888597b2/us11888597b2-patent.png'
+      - url: '/images/patents/us11888597b2/us11888597b2-patent.webp'
         width: 1200
         height: 628
     type: website
@@ -53,7 +53,7 @@ tags:
   - Artificial Intelligence and Machine Learning
   - Data Management
   - Software
-image: '/images/patents/us11888597b2/us11888597b2-patent.png'
+image: '/images/patents/us11888597b2/us11888597b2-patent.webp'
 altText: patents in Data Management
 externalLinks:
   - sourceText: 'USPTO Patent Center'

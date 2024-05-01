@@ -15,7 +15,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: "Crowdsourced response management for cases: Federate, route, integrate, and publish anonymously. Optimize your entity's engagement efficiently."
     images:
-      - url: '/images/patents/us9418355b2-image-1.png'
+      - url: '/images/patents/us9418355b2/us9418355b2-patent.webp'
         width: 1200
         height: 628
     type: website
@@ -50,7 +50,7 @@ patentSummaryLinks:
   - summaryTitle: 'Efficient Response Management System and Method for Crowdsourced Networks'
     link: 'https://www.intellectualfrontiers.com/patent-summaries/efficient-response-management-system-and-method-for-crowdsourced-networks'
 images:
-image: '/images/patents/us9418355b2-image-1.png'
+image: '/images/patents/us9418355b2/us9418355b2-patent.webp'
 altText: crowdsourced response patents
 externalLinks:
   - sourceText: 'USPTO Patent Center'

@@ -14,7 +14,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: Revolutionize software development with our computer system - seamlessly integrate, declare specifications, generate code, and deliver measurable results.
     images:
-      - url: '/images/patents/us7039898b2-image-01.jpg'
+      - url: '/images/patents/us7039898b2/us7039898b2-patent.webp'
         width: 1200
         height: 628
     type: website
@@ -47,7 +47,7 @@ patentSummaryLinks:
   - summaryTitle: 'Reusable Software Development with Declarative Executable Specifications'
     link: 'https://www.intellectualfrontiers.com/patent-summaries/reusable-software-development-with-declarative-executable-specifications'
 images:
-image: '/images/patents/us7039898b2-image-01.jpg'
+image: '/images/patents/us7039898b2/us7039898b2-patent.webp'
 altText: software application development patent
 externalLinks:
   - sourceText: 'USPTO Patent Center'

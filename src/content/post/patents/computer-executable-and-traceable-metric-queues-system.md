@@ -14,7 +14,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: Enhance machine performance with our traceable metric queues system. Collect, analyze, and optimize metrics wirelessly for superior results.
     images:
-      - url: '/images/patents/us11388077b2-image-001.png'
+      - url: '/images/patents/us11388077b2/us11388077b2-patent.webp'
         width: 1200
         height: 628
     type: website
@@ -56,7 +56,7 @@ tags:
   - Artificial Intelligence and Machine Learning
   - Data Management
   - Software
-image: '/images/patents/us11388077b2-image-001.png'
+image: '/images/patents/us11388077b2/us11388077b2-patent.webp'
 externalLinks:
   - sourceText: 'USPTO Patent Center'
     link: 'https://patentcenter.uspto.gov/applications/16669496'
