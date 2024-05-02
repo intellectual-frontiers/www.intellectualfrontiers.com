@@ -15,7 +15,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: Empower communication with our blockchain system. Secure data exchange over a social integrity network, featuring disintermediation and advanced validation devices.
     images:
-      - url: '/images/patents/us10490304b2-image-001.png'
+      - url: '/images/patents/us10490304b2/us10490304b2-patent.webp'
         width: 1200
         height: 628
     type: website
@@ -53,7 +53,7 @@ tags:
   - US10490304B2
   - Blockchain
   - Natural Language Processing
-image: '/images/patents/us10490304b2-image-001.png'
+image: '/images/patents/us10490304b2/us10490304b2-patent.webp'
 altText: blockchain technology patent
 externalLinks:
   - sourceText: 'USPTO Patent Center'
@@ -70,50 +70,50 @@ A blockchain configured device-driven disintermediated distributed system for fa
 
 <div class="flex overflow-x-auto gap-4 bg-slate-50 cursor-pointer patentimages scroll-smooth">
 <div class="flex-shrink-0 p-2" id="fig01">
-    <img src="/images/patents/us10490304b2-image-01.png" alt="Figure 1" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us10490304b2-image-01.png" alt="Figure 1" class="w-64 max-h-[250px] !my-0" />
 </div>
 <div class="flex-shrink-0 p-2" id="fig1">
-    <img src="/images/patents/us10490304b2-image-1.png" alt="Figure 1" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us10490304b2-image-1.png" alt="Figure 1" class="w-64 max-h-[250px] !my-0" />
     <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 1</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig2">
-    <img src="/images/patents/us10490304b2-image-2.png" alt="Figure 2" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us10490304b2-image-2.png" alt="Figure 2" class="w-64 max-h-[250px] !my-0" />
     <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 2</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig3a">
-    <img src="/images/patents/us10490304b2-image-3a.png" alt="Figure 3A" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us10490304b2-image-3a.png" alt="Figure 3A" class="w-64 max-h-[250px] !my-0" />
     <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 3A</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig3b">
-    <img src="/images/patents/us10490304b2-image-3b.png" alt="Figure 3B" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us10490304b2-image-3b.png" alt="Figure 3B" class="w-64 max-h-[250px] !my-0" />
     <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 3B</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig4">
-    <img src="/images/patents/us10490304b2-image-4.png" alt="Figure 4" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us10490304b2-image-4.png" alt="Figure 4" class="w-64 max-h-[250px] !my-0" />
     <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 4</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig5">
-    <img src="/images/patents/us10490304b2-image-5.png" alt="Figure 5" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us10490304b2-image-5.png" alt="Figure 5" class="w-64 max-h-[250px] !my-0" />
     <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 5</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig6">
-    <img src="/images/patents/us10490304b2-image-6.png" alt="Figure 6" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us10490304b2-image-6.png" alt="Figure 6" class="w-64 max-h-[250px] !my-0" />
     <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 6</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig7">
-    <img src="/images/patents/us10490304b2-image-7.png" alt="Figure 7" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us10490304b2-image-7.png" alt="Figure 7" class="w-64 max-h-[250px] !my-0" />
     <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 7</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig8">
-    <img src="/images/patents/us10490304b2-image-8.png" alt="Figure 8" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us10490304b2-image-8.png" alt="Figure 8" class="w-64 max-h-[250px] !my-0" />
     <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 8</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig9">
-    <img src="/images/patents/us10490304b2-image-9.png" alt="Figure 9" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us10490304b2-image-9.png" alt="Figure 9" class="w-64 max-h-[250px] !my-0" />
     <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 9</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig10">
-    <img src="/images/patents/us10490304b2-image-10.png" alt="Figure 10" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us10490304b2-image-10.png" alt="Figure 10" class="w-64 max-h-[250px] !my-0" />
     <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 10</span>
 </div>
 </div>
