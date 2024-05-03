@@ -15,7 +15,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: Track changes in profiles with our devices. Efficiently store, manage, and update in cloud repositories. Enhance your profiling process effortlessly.
     images:
-      - url: '/images/patents/us10586069b2-image-001.png'
+      - url: '/images/patents/us10586069b2/us10586069b2-patent.webp'
         width: 1200
         height: 628
     type: website
@@ -50,7 +50,7 @@ images:
 tags:
   - US10586069B2
   - Digital Reputation Management
-image: '/images/patents/us10586069b2-image-001.png'
+image: '/images/patents/us10586069b2/us10586069b2-patent.webp'
 altText: online reputation management
 externalLinks:
   - sourceText: 'USPTO Patent Center'
