@@ -15,7 +15,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: Effortlessly manage tasks with our method—schedule, track, and execute based on triggering events. Optimize work lists and boost productivity.
     images:
-      - url: '/images/patents/us10403399b2-image-001.png'
+      - url: '/images/patents/us10403399b2/us10403399b2-patent.webp'
         width: 1200
         height: 628
     type: website
@@ -53,7 +53,7 @@ tags:
   - Remote Patient Monitoring
   - Authorization and Data Privacy
   - Electronic Medical Records (EMR)
-image: '/images/patents/us10403399b2-image-001.png'
+image: '/images/patents/us10403399b2/us10403399b2-patent.webp'
 altText: tasks automation patents
 externalLinks:
   - sourceText: 'USPTO Patent Center'

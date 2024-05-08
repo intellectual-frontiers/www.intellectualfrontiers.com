@@ -15,7 +15,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: Explore our tele-diagnostics blockchain system, revolutionizing healthcare with secure data processing across distributed locations.
     images:
-      - url: '/images/patents/us20240006038a1/us20240006038a1-image-patent.png'
+      - url: '/images/patents/us20240006038a1/us20240006038a1-patent.webp'
         width: 1200
         height: 628
     type: website
@@ -52,7 +52,7 @@ tags:
   - Blockchain
   - Remote Diagnostics
   - Telemedicine
-image: '/images/patents/us20240006038a1/us20240006038a1-image-patent.png'
+image: '/images/patents/us20240006038a1/us20240006038a1-patent.webp'
 altText: blockchain technology patents
 externalLinks:
   - sourceText: 'USPTO Patent Center'

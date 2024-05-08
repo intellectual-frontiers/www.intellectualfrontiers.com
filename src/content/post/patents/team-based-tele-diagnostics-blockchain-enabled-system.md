@@ -15,7 +15,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: Discover precision diagnostics with our blockchain-enabled tele-diagnostics system. Secure, distributed network for efficient processing. Join the future now!
     images:
-      - url: '/images/patents/us11769573b2-image-patent.png'
+      - url: '/images/patents/us11769573b2/us11769573b2-patent.webp'
         width: 1200
         height: 628
     type: website
@@ -53,7 +53,7 @@ tags:
   - Remote Diagnostics
   - Artificial Intelligence and Machine Learning
   - Telemedicine
-image: '/images/patents/us11769573b2-image-patent.png'
+image: '/images/patents/us11769573b2/us11769573b2-patent.webp'
 altText: patent on blockchain technology
 externalLinks:
   - sourceText: 'USPTO Patent Center'

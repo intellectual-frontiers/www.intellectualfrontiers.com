@@ -15,7 +15,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: Grant secure access to computerized records with a robust contextual authorization system. Custom rules, GPS tracking, credentialing, and behavior analytics for enhanced security.
     images:
-      - url: '/images/patents/us11874949b2-image-patent.png'
+      - url: '/images/patents/us11874949b2/us11874949b2-patent.webp'
         width: 1200
         height: 628
     type: website
@@ -50,7 +50,7 @@ images:
 tags:
   - US11874949B2
   - Authorization and Data Privacy
-image: '/images/patents/us11874949b2-image-patent.png'
+image: '/images/patents/us11874949b2/us11874949b2-patent.webp'
 altText: patents in data privacy
 externalLinks:
   - sourceText: 'USPTO Patent Center'

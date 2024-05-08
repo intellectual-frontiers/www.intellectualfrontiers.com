@@ -16,7 +16,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: Enhance patient navigation with context-sensitive information blocks in real-time EMR monitoring. Improve situational awareness for efficient workflow events.
     images:
-      - url: '/images/patents/us10089492b2-image.png'
+      - url: '/images/patents/us10089492b2/us10089492b2-patent.webp'
         width: 1200
         height: 628
     type: website
@@ -51,7 +51,7 @@ patentSummaryLinks:
   - summaryTitle: 'Context-Sensitive Information Delivery for Improved Patient Navigation and Situational Awareness'
     link: 'https://www.intellectualfrontiers.com/patent-summaries/context-sensitive-information-delivery-for-improved-patient-navigation-and-situational-awareness'
 images:
-image: '/images/patents/us10089492b2-image.png'
+image: '/images/patents/us10089492b2/us10089492b2-patent.webp'
 altText: future of electronic medical records
 externalLinks:
   - sourceText: 'USPTO Patent Center'

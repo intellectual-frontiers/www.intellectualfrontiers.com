@@ -15,7 +15,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: Enhance healthcare with our multi-device module and remote control. Monitor physiological signals and access electronic records wirelessly for efficient management.
     images:
-      - url: '/images/patents/us11006920b2-image-01.jpg'
+      - url: '/images/patents/us11006920b2/us11006920b2-patent.webp'
         width: 1200
         height: 628
     type: website
@@ -53,7 +53,7 @@ tags:
   - US11006920B2
   - Blockchain
   - Medical Device Automation
-image: '/images/patents/us11006920b2-image-01.jpg'
+image: '/images/patents/us11006920b2/us11006920b2-patent.webp'
 altText: medical devices patent
 externalLinks:
   - sourceText: 'USPTO Patent Center'
