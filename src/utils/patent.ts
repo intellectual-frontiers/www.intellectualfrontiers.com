@@ -256,3 +256,70 @@ export const getStaticPathsBlogTag = async ({ paginate }: { paginate: PaginateFu
     )
   );
 };
+
+
+/* Function to fetch all posts that are categorized as articles */
+export const fetchPosts = async (): Promise<Array<Post>> => {
+  // Check if the posts have already been loaded
+  if (!_posts) {
+    // If not, load the posts
+    _posts = await load();
+  }
+
+  // Filter the posts to include only those that are categorized as 'article' and not 'patent-summaries'
+  // This ensures that the returned posts are specifically articles and excludes patent summaries
+  return _posts? _posts.filter(item => item.sectiontype === 'article' && item.category!== 'patent-summaries') : [];
+};
+
+// Function to filter out all the posts that are related to the patent ID passed as an argument
+export const getRelatedPosts = async (id?: string) => {
+  // Fetch all posts
+  const posts = await fetchPosts();
+
+  // Filter the posts to exclude those with the category "blog"
+  const related = posts.filter(post => {
+    // Exclude posts categorized as "blog" to focus on patent-related content
+    if (post.category!== 'blogs') {
+      // If the post is not a blog, check if its patentId matches the provided ID
+      return post.patentId === id;
+    }
+    // If the post is a blog, exclude it from the related posts
+    return false;
+  }).map(post => {
+    // Transform each filtered post into a simplified object structure
+    return {
+      title: post.title, // The title of the post
+      url: post.permalink, // The URL where the post can be found
+      category: post.category, // The category of the post
+      excerpt: post.excerpt, // A brief summary of the post content
+      thumbnail: post.image, // The URL of the post's featured image
+      publishedDate: post.publishDate, // The date the post was published
+    };
+  });
+
+  // Return the array of related posts in the simplified object structure
+  return related;
+}
+
+// Function to retrieve the latest 4 blog posts
+export const getBlogPosts = async () => {
+  // Fetch all posts
+  const posts = await fetchPosts();
+
+  // Filter the posts to include only those with the category "blog"
+  const blogPosts = posts.filter(post => post.category === 'blogs')
+   .slice(0, 4) // Limit the result to the latest 4 blog posts
+   .map(post => { // Transform each post into a simplified object structure
+      return {
+        title: post.title, // The title of the post
+        url: post.permalink, // The URL where the post can be found
+        category: post.category, // The category of the post
+        excerpt: post.excerpt, // A brief summary of the post content
+        thumbnail: post.image, // The URL of the post's featured image
+        publishedDate: post.publishDate, // The date the post was published
+      };
+    });
+
+  // Return the array of the latest 4 blog posts in the simplified object structure
+  return blogPosts;
+}
