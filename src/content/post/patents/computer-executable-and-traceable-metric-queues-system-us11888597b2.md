@@ -70,30 +70,30 @@ A computer-controlled system for digitally evaluating one or more computer-execu
 
 <div class="flex overflow-x-auto gap-4 bg-slate-50 cursor-pointer patentimages scroll-smooth">
 <div class="flex-shrink-0 p-2" id="fig01">
-    <img src="/images/patents/us11888597b2/us11888597b2-image.png" alt="Figure 01" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us11888597b2/us11888597b2-image.png" alt="Figure 01" class="w-64 max-h-[250px] !my-0" />
 </div>
 <div class="flex-shrink-0 p-2" id="fig1">
-    <img src="/images/patents/us11888597b2/us11888597b2-image-1.png" alt="Figure 1" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us11888597b2/us11888597b2-image-1.png" alt="Figure 1" class="w-64 max-h-[250px] !my-0" />
     <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 1</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig2">
-    <img src="/images/patents/us11888597b2/us11888597b2-image-2.png" alt="Figure 2" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us11888597b2/us11888597b2-image-2.png" alt="Figure 2" class="w-64 max-h-[250px] !my-0" />
     <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 2</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig3">
-    <img src="/images/patents/us11888597b2/us11888597b2-image-3.png" alt="Figure 3" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us11888597b2/us11888597b2-image-3.png" alt="Figure 3" class="w-64 max-h-[250px] !my-0" />
     <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 3</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig4">
-    <img src="/images/patents/us11888597b2/us11888597b2-image-4.png" alt="Figure 4" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us11888597b2/us11888597b2-image-4.png" alt="Figure 4" class="w-64 max-h-[250px] !my-0" />
     <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 4</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig5">
-    <img src="/images/patents/us11888597b2/us11888597b2-image-5.png" alt="Figure 5" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us11888597b2/us11888597b2-image-5.png" alt="Figure 5" class="w-64 max-h-[250px] !my-0" />
     <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 5</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig6">
-    <img src="/images/patents/us11888597b2/us11888597b2-image-6.png" alt="Figure 6" class="w-64 h-auto !my-0" />
+    <img src="/images/patents/us11888597b2/us11888597b2-image-6.png" alt="Figure 6" class="w-64 max-h-[250px] !my-0" />
     <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 6</span>
 </div>
 </div>
@@ -103,27 +103,27 @@ A computer-controlled system for digitally evaluating one or more computer-execu
 
 ### DESCRIPTION
 
-**CROSS-REFERENCE TO RELATED APPLICATIONS**
+CROSS-REFERENCE TO RELATED APPLICATIONS
 
 [0001]
 
 This application is a continuation of U.S. patent application Ser. No. 16/669,496 filed on Oct. 30, 2019, the complete disclosure of which, in its entirety, is hereby incorporated by reference.
 
-### BACKGROUND
+### <span style="font-size:20px">BACKGROUND</span>
 
-**Technical Field**
+Technical Field
 
 [0002]
 
 The embodiments herein generally relate to computer-controlled systems, and more particularly to a computer-controlled workflow system for monitoring digitally generated tasks measurements over a network.
 
-**Description of the Related Art**
+Description of the Related Art
 
 [0003]
 
 There are a lot of tasks that are supposed to be performed at particular times or over a particular period of time at a particular location. These tasks require various kinds of equipment, devices, systems etc. for execution. Successful execution of these tasks is necessary for achieving certain metrics defined for their performance. Today, in order to determine quality measures or metrics for these tasks, people try to determine how well these tasks are performed by various devices or people manually. This usually results in building a quality measure that says if something is performed in a particular manner, it will create a particular type of quality index. All these measures today are typically manually collected and there is not a suitable way to ensure an error-free output because of human intervention. Therefore, in the light of the above, there is a need of a new intelligent system that may allow monitoring and evaluation of metrics in a network of nodes.
 
-### SUMMARY
+### <span style="font-size:20px">SUMMARY</span>
 
 [0004]
 
@@ -209,7 +209,9 @@ The computerized data collection wireless device may further include a metric id
 
 These and other aspects of the embodiments herein will be better appreciated and understood when considered in conjunction with the following description and the accompanying drawings. It should be understood, however, that the following descriptions, while indicating preferred embodiments and numerous specific details thereof, are given by way of illustration and not of limitation. Many changes and modifications may be made within the scope of the embodiments herein without departing from the spirit thereof, and the embodiments herein include all such modifications.
 
-### CLAIMS
+### Claims (15)
+
+What is claimed is:
 
 1. A computer-controlled system for digitally evaluating one or more computer-executable and traceable metrics associated with a machine at a node, the system comprising: a computerized data collection wireless device for collecting digital data stored in the form of a plurality of computer-executable files from the machine associated with the node in a physical setting, wherein the computer data collection wireless device comprises: a time tracking device comprising a computerized digital clock that: tracks a time of an entry or exit of data related to one or more computer-executable tasks associated with the machine at the node or event occurrences at the node;
 
@@ -319,9 +321,9 @@ FIG. 5 illustrates a blockchain computer architecture of the system of FIG. 2 al
 [0031]
 
 <a href="#fig6">
-FIG. 6 is a block diagram illustrating a computer system according to an embodiment herein.</a><br>
+FIG. 6 is a block diagram illustrating a computer system according to an embodiment herein.</a>
 
-### DETAILED DESCRIPTION
+### <span style="font-size:20px">DETAILED DESCRIPTION </span>
 
 [0032]
 
