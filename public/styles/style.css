@@ -65,3 +65,13 @@ button#next-btn span{
         left: 35%;
     }
 }
+
+.postimg_home:after{
+    content:'';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background:linear-gradient(to bottom, rgba(169,208,113,0),rgba(0,0,0,0.7));
+    bottom: 0;
+}

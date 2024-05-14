@@ -175,6 +175,10 @@ export interface Item {
   callToAction?: CallToAction;
   image?: Image;  
   link?: string;
+  patentId?: string;
+  patentStatus?: string;
+  inventor?: string;
+  viewCount?: string;
 }
 
 export interface Price {

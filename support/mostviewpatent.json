@@ -1,42 +1,63 @@
 [
-    {
-      "title": "Aggregation of rating indicators",
-      "description": "A computer-implemented method and system for publishing an aggregate rating indicator based on a plurality of discrete rating indicators associated with a rated entity.<a style=color:blue; href =/patents/aggregation-of-rating-indicators> <b>Read More...</b></a>",
-      "icon": "/images/patents/us10489830b2-image-01.png",
-      "count":"10"
-      
-    },
-    {
-      "title": "Computer-controlled precision education and training",
-      "description": "A system for streaming of contextual micro-content blocks for a workflow task to facilitate task performance by a user.<a style=color:blue; href =/patents/computer-controlled-precision-education-and-training> <b>Read More...</b></a>",
-      "icon": "/images/patents/us11423500b2-image-001.png",
-      "count":"20"
-    },
-    {
-      "title": "System for controlling medical devices",
-      "description": "Controlling a multi-device module includes a physiological sensor configured to sense physiological characteristics of a subject and generate...<a style=color:blue; href =/patents/system-for-controlling-medical-devices> <b>Read More...</b></a>",
-      "icon": "/images/patents/us11006920b2-image-01.jpg",
-      "count":"30"
-    },
-    {
-      "title": "Digital payment system",
-      "description": "A digital payment system for facilitating seamless transactions from a user system to a buyer system. The system includes a service provider system which further includes a service interaction component...<a style=color:blue; href =/patents/digital-payment-system> <b>Read More...</b></a>",
-      "icon": "/images/patents/us10643208b2-image-001.png",
-      "count":"40"
-    },
-    {
-      "title": "Networking devices for storing profiles longitudinally",
-      "description": "A method and networking device for tracking change in a computer executable profile includes retrieving computer executable profile information....<a style=color:blue; href =/patents/networking-devices-for-storing-profiles-longitudinally> <b>Read More...</b></a>",
-      "icon": "/images/patents/us10586069b2-image-001.png",
-      "count":"50"
-    },
-    {
-      "title": "Crowdsourced responses management to cases",
-      "description": "A response management system and method configured to allow management of responses to a case submitted by an entity in a crowdsourced network.<a style=color:blue; href =/patents/crowdsourced-responses-management-to-cases> <b>Read More...</b></a>",
-      "icon": "/images/patents/us9418355b2-image-1.png",
-      "count":"60"
-      
-    }
-    
+  {
+    "title": "Computer-controlled precision education and training",
+    "patentId": "US11651459B2",
+    "inventor":"Shahid N. Shah",
+    "description": "A system for streaming of contextual micro-content blocks for a workflow task to facilitate task performance by a user. The system includes a context sensing engine that processes one or more context inputs and generates an output based on the context inputs received from a front-end context monitoring appliance. The system includes a processing circuit having a navigation engine to navigate through digital information sources and search for information that matches one or more parameters of relevance for the workflow task.",
+    "icon": "/images/patents/us11651459b2/us11651459b2-patent.webp",
+    "viewCount":"356",
+    "link": "/patents/computer-controlled-precision-education-and-training-us11651459b2",
+    "patentStatus": "ACTIVE - GRANTED"
+  },  
+  {
+    "title": "Computer-executable and traceable metric queues system",
+    "patentId": "US11888597B2",
+    "inventor":"Shahid N. Shah",
+    "description": "A computer-controlled system for digitally evaluating one or more computer-executable and traceable metrics associated with a machine at a node. The system includes a computerized data collection wireless device for collecting digital data stored in the form of a plurality of computer-executable files from the machine. The computerized data collection wireless device includes a metric logistics device that generates a metric queue containing a plurality of computer-executable metric components storing information indicative of at least one of a date, time, geo-coordinates, machine identification details, and computer readable and executable performance data associated with the machine.",
+    "icon": "/images/patents/us11888597b2/us11888597b2-patent.webp",
+    "viewCount":"347",
+    "link": "/patents/computer-executable-and-traceable-metric-queues-system-us11888597b2",
+    "patentStatus": "ACTIVE - GRANTED"
+  }, 
+  {
+    "title": "Self-controlled digital authorization over communication networks",
+    "patentId": "US11874949B2",
+    "inventor":"Shahid N. Shah",
+    "description": "A system for authorizing an external device to access computerized records. The system includes a server. The server includes a computerized records data-store. The computerized records data-store stores multiple computer executable files associated with subjects. The system includes a communication network which facilitates communication between at least two of the subjects, the server, and the external device.",
+    "icon": "/images/patents/us11874949b2/us11874949b2-patent.webp",
+    "viewCount":"325",
+    "link": "/patents/self-controlled-digital-authorization-over-communication-networks-us11874949b2",
+    "patentStatus": "ACTIVE - GRANTED"
+  },
+  {
+    "title": "Aggregation of rating indicators",
+    "patentId": "US9846896B2",
+    "inventor":"Shahid N. Shah",
+    "description": "A computer-implemented method and system for publishing an aggregate rating indicator based on a plurality of discrete rating indicators associated with a rated entity. The method includes searching a plurality of repositories containing the plurality of discrete rating indicators associated with the rated entity. The method may include retrieving a first rating indicator, a second rating indicator, and a third rating indicator.",
+    "icon": "/images/patents/us9846896b2/us9846896b2-patent.webp",
+    "viewCount":"281",
+    "link": "/patents/aggregation-of-rating-indicators-us9846896b2",
+    "patentStatus": "ACTIVE - GRANTED"
+  },
+  {
+    "title": "Aggregation of rating indicators",
+    "patentId": "US10489830B2",
+    "inventor":"Shahid N. Shah",
+    "description": "A computer-implemented method and system for publishing an aggregate rating indicator based on a plurality of discrete rating indicators associated with a rated entity. The method includes searching a plurality of repositories containing the plurality of discrete rating indicators associated with the rated entity. The method may include retrieving a first rating indicator, a second rating indicator, and a third rating indicator.",
+    "icon": "/images/patents/us10489830b2/us10489830b2-patent.webp",
+    "viewCount":"138",
+    "link": "/patents/aggregation-of-rating-indicators",
+    "patentStatus": "ACTIVE - GRANTED"
+  },    
+  {
+    "title": "Tasks scheduling based on triggering event and work lists management",
+    "patentId": "US10403399B2",
+    "inventor":"Shahid N. Shah",
+    "description": "A computer-implemented method for scheduling, tracking, and executing performance of a set of tasks includes defining a time series, associating a current time occurrence on the time series, and associating a future time occurrence on the time series. The method includes creating a tasks list including the set of tasks. The method includes defining an interaction zone rule in association with the time series and triggering events to initiate the set of tasks.",
+    "icon": "/images/patents/us10403399b2/us10403399b2-patent.webp",
+    "viewCount":"111",
+    "link": "/patents/tasks-scheduling-based-on-triggering-event-and-work-lists-management/",
+    "patentStatus": "ACTIVE - GRANTED"
+  }
   ]
   
