@@ -1,23 +1,38 @@
 [
   {
     "title": "Tasks scheduling based on triggering event and work lists management",
-    "description": "A computer-implemented method for scheduling, tracking, and executing performance of a set of tasks includes defining a time series, associating a current time occurrence on the time series, and associating a future time occurrence on the time series.<a style=color:blue; href =/patents/tasks-scheduling-based-on-triggering-event-and-work-lists-management> <b>Read More...</b></a>",
-    "icon": "/images/patents/us10403399b2-image-001.png"
+    "description": "A computer-implemented method for scheduling, tracking, and executing performance of a set of tasks includes defining a time series, associating a current time occurrence on the time series, and associating a future time occurrence on the time series. The method includes creating a tasks list including the set of tasks. The method includes defining an interaction zone rule in association with the time series and triggering events to initiate the set of tasks. The method includes scheduling a task from the set of tasks at the future time occurrence relative to the current time occurrence based on occurrence of a triggering event in view of the interaction zone rule.",
+    "icon": "/images/patents/us10403399b2/us10403399b2-patent.webp",
+    "link":"/patents/tasks-scheduling-based-on-triggering-event-and-work-lists-management",
+    "patentId": "US10403399B2",
+    "inventor":"Shahid N. Shah",
+    "patentStatus": "ACTIVE - GRANTED"
   },
   {
     "title": "Self-controlled digital authorization over communication networks",
-    "description": "A system for authorizing an external device to access computerized records. The system includes a server. The server includes a computerized records data-store.<a style=color:blue; href =/patents/self-controlled-digital-authorization-over-communication-networks> <b>Read More...</b></a>",
-    "icon": "/images/patents/us10963585b2-image-01.png" 
+    "description": "A system for authorizing an external device to access computerized records. The system includes a server. The server includes a computerized records data-store. The computerized records data-store stores multiple computer executable files associated with subjects. The system includes a communication network which facilitates communication between at least two of the subjects, the server, and the external device. The system includes a contextual authorization device for authorizing access to the external device for the computerized records. The contextual authorization device includes a database storing a set of custom rules.",
+    "icon": "/images/patents/us10963585b2/us10963585b2-patent.webp" ,
+    "link": "/patents/self-controlled-digital-authorization-over-communication-networks",
+    "patentId": "US10963585B2",
+    "inventor":"Shahid N. Shah",
+    "patentStatus": "ACTIVE - GRANTED"
   },
   {
     "title": "Patient navigation and situational awareness derived through context-sensitive information blocks delivery",
-    "description": "A surveillance system for monitoring of Electronic Medical Record (EMR) application navigation through a plurality of navigation interfaces of an EMR application.<a style=color:blue; href =/patents/patient-navigation-and-situational-awareness-derived-through-context-sensitive-information-blocks-delivery> <b>Read More...</b></a>",
-    "icon": "/images/patents/us10089492b2-image.png"
+    "description": "A surveillance system for monitoring of Electronic Medical Record (EMR) application navigation through a plurality of navigation interfaces of an EMR application. The system includes an EMR system that includes the EMR application. The system includes a context-sensitive engine that includes an agent device to record EMR application navigation data in real time and contextual data comprising application sensitive, user sensitive and context sensitive data. The system includes an information management server to facilitate serving of information blocks to the EMR system from a plurality of distributed databases in real-time.",
+    "icon": "/images/patents/us10089492b2/us10089492b2-patent.webp",
+    "link":"/patents/patient-navigation-and-situational-awareness-derived-through-context-sensitive-information-blocks-delivery",
+    "patentId": "US10089492B2",
+    "inventor":"Shahid N. Shah",
+    "patentStatus": "ACTIVE - GRANTED"
   },
   {
     "title": "Networking devices for storing profiles longitudinally",
-    "description": "A method and networking device for tracking change in a computer executable profile includes retrieving computer executable profile information.<a style=color:blue; href =/patents/networking-devices-for-storing-profiles-longitudinally/> <b>Read More...</b></a>",
-    "icon": "/images/patents/us10586069b2-image-001.png"
-  }
-  
+    "description": "A method and networking device for tracking change in a computer executable profile includes retrieving computer executable profile information. The method and device may include staging the computer executable profile information in cloud staging repositories. The method and device may include splitting the computer executable profile information into constituent data types. The method and device may include defining a plurality of computer executable profile fields and corresponding profile information components. The method and device may include storing the computer executable profile information as initial computer executable profile information in a database.",
+    "icon": "/images/patents/us10586069b2/us10586069b2-patent.webp",
+    "link":"/patents/networking-devices-for-storing-profiles-longitudinally/",
+    "patentId": "US10586069B2",
+    "inventor":"Shahid N. Shah",
+    "patentStatus": "ACTIVE - GRANTED"
+  }  
 ]
