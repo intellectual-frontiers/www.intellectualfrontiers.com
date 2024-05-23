@@ -3,7 +3,7 @@ title: Optimization of Performance Metrics Based on Real-Time Feedback and Artif
 excerpt: In the age of rapid technological advancements, devices play a pivotal role across diverse environments—be it medical, manufacturing, or avionics.
 sectiontype: article
 image: '/images/patent-summaries/computer-controlled-precision-education-and-training.webp'
-patent-id: US11561884B2
+patentId: US11561884B2
 category: Patent Summaries
 metadata:
   title: AI-Enhanced Real-Time Feedback and Fault Detection for Network Optimization

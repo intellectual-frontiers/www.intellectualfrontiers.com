@@ -3,7 +3,7 @@ title: Controlling Medical Devices for Patient Care and Data Management
 excerpt: The evolving framework of health care informatics faces multiple technological hurdles. Predominantly, medical institutions, encompassing tertiary care hospitals, geriatric care facilities, and ambulatory clinics, curate an expansive databank of patient-centric records.
 sectiontype: article
 image: '/images/patent-summaries/system-for-controlling-medical-devices.webp'
-patent-id: US10638999B2
+patentId: US10638999B2
 category: Patent Summaries
 metadata:
   title: 'Efficiency Meets Care: Real-time Health Monitoring and Medical Device Management'

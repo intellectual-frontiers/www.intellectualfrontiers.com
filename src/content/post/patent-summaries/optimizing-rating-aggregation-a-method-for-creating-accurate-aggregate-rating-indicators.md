@@ -3,7 +3,7 @@ title: Optimizing Rating Aggregation - A Method for Creating Accurate Aggregate 
 excerpt: Existing methods and systems for rating aggregation face significant challenges in providing accurate and reliable aggregate scores for entities, such as professionals or businesses.
 sectiontype: article
 image: '/images/patent-summaries/aggregation-of-rating-indicators.webp'
-patent-id: US10489830B2
+patentId: US10489830B2
 category: Patent Summaries
 metadata:
   title: Improving Decision-Making with Accurate Aggregate Ratings

@@ -3,7 +3,7 @@ title: Blockchain-Powered Expertise-Driven Document Review and Scoring
 excerpt: This inventive technology described in this content addresses a critical problem faced by organizations when it comes to evaluating electronic documents, particularly in the context of selecting valuable ideas for financial aid or rewards.
 sectiontype: article
 image: '/images/patent-summaries/distributed-electronic-document-review-in-a-blockchain-system-and-computerized-scoring-based-on-textual-and-visual-feedback.webp'
-patent-id: US9870591B2
+patentId: US9870591B2
 category: Patent Summaries
 metadata:
   title: 'Enhancing Review with Blockchain: Electronic Document Expertise'

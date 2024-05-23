@@ -3,7 +3,7 @@ title: Device-Driven Social Integrity Network with Data Validation and Identity 
 excerpt: In healthcare organizations, the maintenance and accessibility of patient data stand as an essential element for effective medical care.
 sectiontype: article
 image: '/images/patent-summaries/device-driven-non-intermediated-blockchain-system-over-a-social-integrity-network.webp'
-patent-id: US10811124B2
+patentId: US10811124B2
 category: Patent Summaries
 metadata:
   title: 'Data Integrity Reinvented: Social Networking Integration Solution'

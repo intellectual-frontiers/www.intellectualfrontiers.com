@@ -3,7 +3,7 @@ title: Reusable Software Development with Declarative Executable Specifications
 excerpt: In the progression of computer software applications, the primary objective has always been enhancing the productivity of entities, ranging from individual professionals to vast enterprises.
 sectiontype: article
 image: '/images/patent-summaries/computer-system-for-performing-reusable-software-application-development-from-a-set-of-declarative-executable-specifications.webp'
-patent-id: US7039898B2
+patentId: US7039898B2
 category: Patent Summaries
 metadata:
   title: Efficient Code Reusability in Software Development

@@ -3,7 +3,7 @@ title: Direct Blockchain System for Devices on a Social Trust Network
 excerpt: Blockchain technology, with its inherent security and decentralization features, has dramatically evolved beyond its initial application in cryptocurrencies.
 sectiontype: article
 image: '/images/patent-summaries/device-driven-non-intermediated-blockchain-system-over-a-social-integrity-network.webp'
-patent-id: US10490304B2
+patentId: US10490304B2
 category: Patent Summaries
 metadata:
   title: Blockchain for Multi-Faceted Communication in Healthcare

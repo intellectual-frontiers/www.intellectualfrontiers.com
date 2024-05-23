@@ -3,7 +3,7 @@ title: Efficient Method for Tracking Changes in User Profiles Over Time
 excerpt: From social networking sites to professional platforms, profiles act as a digital representation of individuals and entities, which is why web-based profiles are considered ubiquitous.
 sectiontype: article
 image: '/images/patent-summaries/networking-devices-for-storing-profiles-longitudinally.webp'
-patent-id: US10586069B2
+patentId: US10586069B2
 category: Patent Summaries
 metadata:
   title: Enhance Credibility with Profile Tracker

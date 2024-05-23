@@ -3,7 +3,7 @@ title: Context-Sensitive Information Delivery for Improved Patient Navigation an
 excerpt: Electronic Medical Records (EMRs) have revolutionized modern healthcare, providing a streamlined mechanism to capture, maintain, and analyze patient data electronically.
 sectiontype: article
 image: '/images/patent-summaries/patient-navigation-and-situational-awareness-derived-through-context-sensitive-information-blocks-delivery.webp'
-patent-id: US10089492B2
+patentId: US10089492B2
 category: Patent Summaries
 metadata:
   title: Patient Navigation in Electronic Medical Record Application Surveillance

@@ -3,7 +3,7 @@ title: Intelligent Device Collaboration for Social Networking Benefits
 excerpt: In the age of rapid technological advancements, devices play a pivotal role across diverse environments—be it medical, manufacturing, or avionics.
 sectiontype: article
 image: '/images/patent-summaries/integration-of-devices-through-a-social-networking-platform.webp'
-patent-id: US11044221B2
+patentId: US11044221B2
 category: Patent Summaries
 metadata:
   title: 'Elevating Device Collaboration: Benefits of Social Networking'

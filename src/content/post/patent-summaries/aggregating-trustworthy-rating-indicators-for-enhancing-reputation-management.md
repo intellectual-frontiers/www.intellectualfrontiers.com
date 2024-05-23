@@ -3,7 +3,7 @@ title: Aggregating Trustworthy Rating Indicators for Enhancing Reputation Manage
 excerpt: The existing landscape of online rating and review platforms is fraught with significant challenges in ensuring the accuracy, reliability, and authenticity of the information presented.
 image: '/images/patent-summaries/aggregation-of-rating-indicators.webp'
 sectiontype: article
-patent-id: US9846896B2
+patentId: US9846896B2
 category: Patent Summaries
 metadata:
   title: 'Optimizing Aggregate Ratings for Reputation Management: A Fraud-Resistant Approach'

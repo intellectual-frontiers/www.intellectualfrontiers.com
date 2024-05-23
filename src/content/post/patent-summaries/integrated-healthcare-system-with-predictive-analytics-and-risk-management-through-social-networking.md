@@ -3,7 +3,7 @@ title: Integrated Healthcare System with Predictive Analytics and Risk Managemen
 excerpt: In the evolving landscape of device interaction and automation across domains like healthcare, manufacturing, and aviation, there's a growing demand for advanced solutions.
 sectiontype: article
 image: '/images/patent-summaries/integration-of-devices-through-a-social-networking-platform-us9525753b2.webp'
-patent-id: US9525753B2
+patentId: US9525753B2
 category: Patent Summaries
 metadata:
   title: Healthcare Transformation with Predictive Analytics Engine and NFC Channel
