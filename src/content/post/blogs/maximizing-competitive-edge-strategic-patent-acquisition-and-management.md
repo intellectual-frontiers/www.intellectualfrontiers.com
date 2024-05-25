@@ -26,6 +26,8 @@ metadata:
     cardType: summary_large_image
 url: '/blogs/maximizing-competitive-edge-strategic-patent-acquisition-and-management/'
 publishDate: 2024-01-04
+tags:
+  - Strategic Patent Acquisition
 ---
 
 Patents represent not just inventions, but strategic assets that can significantly alter the competitive landscape of industries. Patents are not just protective shields; they can also be lucrative assets. Through licensing agreements, companies can monetize their patented technologies, allowing others to use or implement them for a fee. This revenue stream can significantly contribute to a company's financial health. In 2020, as revealed by Ocean Tomo data (via Visual Capitalist), intangible assets make up [90% of the index's total assets](https://www.visualcapitalist.com/the-soaring-value-of-intangible-assets-in-the-sp-500/).

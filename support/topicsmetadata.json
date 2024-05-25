@@ -145,5 +145,19 @@
     "shortDescription": "Access an inventory of patents available for acquisition in the field of Artificial Intelligence And Machine Learning. This collection includes detailed patent information, use cases, landscape analyses, market studies, informative articles, and additional resources to support informed decision-making.",
     "displayName": "'Artificial Intelligence and Machine Learning' Patents and Insights",
     "tagDisplayLabel": "Artificial Intelligence and Machine Learning"
+  },
+  "strategic-patent-acquisition": {
+    "metaTitle": "Strategic Patent Acquisition - Intellectual Frontiers",
+    "metaDescription": "Strategic Patent Acquisition - Intellectual Frontiers",
+    "shortDescription": "",
+    "displayName": "Strategic Patent Acquisition",
+    "tagDisplayLabel": "Strategic Patent Acquisition"
+  },
+  "intellectual-property-asset-management": {
+    "metaTitle": "Intellectual Property Asset Management - Intellectual Frontiers",
+    "metaDescription": "Intellectual Property Asset Management - Intellectual Frontiers",
+    "shortDescription": "",
+    "displayName": "Intellectual Property Asset Management",
+    "tagDisplayLabel": "Intellectual Property Asset Management"
   }
 }
