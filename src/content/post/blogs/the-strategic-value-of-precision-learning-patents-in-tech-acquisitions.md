@@ -63,7 +63,7 @@ On the other hand, broad claims are very short and have their own weaknesses. Th
 
 ## The Balanced Approach to Patent Strategy
 
-The key to a successful patent lies in balance. At Intellectual Frontiers, our strategy involves extensive research and precision in crafting claims before filing patent applications or before acquisition for sale and listing in our marketplace. We spend significant time on the claims to ensure they are both enforceable and strategically advantageous. Our<a href="/patents/computer-controlled-precision-education-and-training-us2023245255a1"> precision learning patent</a> is a prime example of this approach. It is written to cover critical aspects of the technology while leaving minimal room for competitors to design around it.
+The key to a successful patent lies in balance. At Intellectual Frontiers, our strategy involves extensive research and precision in crafting claims before filing patent applications or before acquisition for sale and listing in our marketplace. We spend significant time on the claims to ensure they are both enforceable and strategically advantageous. Our <a href="/patents/computer-controlled-precision-education-and-training-us2023245255a1">precision learning patent</a> is a prime example of this approach. It is written to cover critical aspects of the technology while leaving minimal room for competitors to design around it.
 
 <div style="background:#f1f1f1; padding-left:10px; padding-right: 10px; padding-top: 5px; padding-bottom: 5px; border-radius:5px; font-size: 19px; font-style: italic;">
 
@@ -129,4 +129,4 @@ Most patents are filed because inventors seek recognition. Common wisdom and pri
 
 This strategic approach ensures that our patents, such as the one in precision learning referenced herein, are not just legal protections but business tools for buyers. They provide buyers with a significant competitive edge and ensure that their innovations are protected in a way that maximizes business value for their companies.
 
-For decision-makers in the tech space, understanding these subtleties is important for a successful patent filing and acquisition strategy. The right patents can safeguard innovations and provide a strategic advantage that drives long-term success. At he same time, bad patents can burden you with a liability.
+For decision-makers in the tech space, understanding these subtleties is important for a successful patent filing and acquisition strategy. The right patents can safeguard innovations and provide a strategic advantage that drives long-term success. At the same time, bad patents can burden you with a liability.
