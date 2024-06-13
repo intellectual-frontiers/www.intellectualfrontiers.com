@@ -87,6 +87,9 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     // or 'content' in case you consume from API
 
     readingTime: remarkPluginFrontmatter?.readingTime,
+
+      //The patent id number
+    patentId: post.data.patentId,
   };
 };
 
@@ -249,4 +252,82 @@ export const getStaticPathsArticleTag = async ({ paginate }: { paginate: Paginat
       }
     )
   );
+};
+
+/* Function to fetch all posts that are categorized as articles */
+export const fetchPatentPosts = async (): Promise<Array<Post>> => {
+  // Check if the posts have already been loaded
+  if (!_posts) {
+    // If not, load the posts
+    _posts = await load();
+  }
+
+  // Filter the posts to include only those that are categorized as 'article' and not 'patent-summaries'
+  // This ensures that the returned posts are specifically articles and excludes patent summaries
+  return _posts? _posts.filter(item => item.sectiontype === 'patent') : [];
+};
+
+export const getPatents = async (id?: string, tags?: string[], category?: string) => {
+  const posts = await fetchPatentPosts();
+  
+  // Define a helper function to transform post data
+  const transformPostData = (post) => ({
+    patentId: post.patentId,
+    title: post.title,
+    url: post.permalink,
+    category: post.category!,
+    excerpt: post.excerpt || '',
+    thumbnail: post.image,
+    tags: post.tags || [],
+  });
+
+  let filteredPosts;
+
+  if (category === "blogs") {
+    // Filter blogs based on tags
+    filteredPosts = posts.filter((post) => 
+      post.tags?.length && post.tags.some(tag => tags?.includes(tag.toLowerCase()))
+    ).map(transformPostData);
+  } else {
+    // Filter patents based on ID
+    filteredPosts = posts.filter(post => post.patentId === id).map(transformPostData);
+  }
+
+  return filteredPosts;
+};
+
+
+export const getFurtherReadingArticles = async (id?: string, tags?: string[], category?: string, slug?: string) => {
+  const posts = await fetchPosts();
+
+  // Filter posts into two arrays: blogPosts and otherPosts
+  const blogPosts = posts.filter(post => post.category === "blogs" && post.permalink !== slug);
+  const otherPosts = posts.filter(post => post.category !== "blogs" && post.permalink !== slug);
+
+  // Transform post data
+  const transformPostData = (post) => ({
+    title: post.title,
+    url: post.permalink,
+    category: post.category!,
+    excerpt: post.excerpt || '',
+    thumbnail: post.image,
+    tags: post.tags || [],
+  });
+
+  // Transform blogPosts
+  const transformedBlogPosts = blogPosts.map(transformPostData);
+
+  let filteredOtherPosts;
+  if (category !== "blogs") {
+    // Filter patents based on ID
+    filteredOtherPosts = otherPosts.filter(post => post.patentId === id).map(transformPostData);
+  } else {
+    // Filter other posts based on tags since blog posts are not specific to patents
+    filteredOtherPosts = otherPosts.filter((post) =>
+      post.tags?.length && post.tags.some(tag => tags?.includes(tag.toLowerCase()))
+    ).map(transformPostData);
+  }
+
+  // You can now use transformedBlogPosts and filteredOtherPosts separately
+  return { blogPosts: transformedBlogPosts, otherPosts: filteredOtherPosts };
 };

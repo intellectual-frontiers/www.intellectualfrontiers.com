@@ -4,8 +4,9 @@ import type { InferGetStaticPropsType, GetStaticPaths } from 'astro';
 import merge from 'lodash.merge';
 import type { ImageMetadata } from 'astro';
 import Layout from '~/layouts/PageLayout.astro';
-import SinglePost from '~/components/article/SinglePost.astro';
-import ToBlogLink from '~/components/article/ToBlogLink.astro';
+// import SinglePost from '~/components/article/SinglePost.astro';
+import BackButton from '~/components/article/BackButton.astro';
+import SinglePostWithResources from '~/components/article/SinglePostWithResources.astro';
 
 import { getCanonical, getPermalink } from '~/utils/permalinks';
 import { getStaticPathsArticlePost, blogPostRobots } from '~/utils/article';
@@ -35,7 +36,9 @@ const metadata = merge(
     },
     openGraph: {
       type: 'article',
-      ...(image ? { images: [{ url: image, width: (image as ImageMetadata)?.width, height: (image as ImageMetadata)?.height }] } : {}),
+      ...(image
+        ? { images: [{ url: image, width: (image as ImageMetadata)?.width, height: (image as ImageMetadata)?.height }] }
+        : {}),
     },
   },
   { ...(post?.metadata ? { ...post.metadata, canonical: post.metadata?.canonical || url } : {}) }
@@ -43,6 +46,6 @@ const metadata = merge(
 ---
 
 <Layout metadata={metadata}>
-  <SinglePost post={{ ...post, image: image }} url={url} />
-  <ToBlogLink />
+  <SinglePostWithResources post={{ ...post, image: image }} url={url} />
+  <BackButton category={post.category} />
 </Layout>
