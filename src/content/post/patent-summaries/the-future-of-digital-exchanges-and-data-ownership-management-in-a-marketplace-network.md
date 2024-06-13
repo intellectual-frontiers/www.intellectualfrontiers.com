@@ -3,7 +3,7 @@ title: The Future of Digital Exchanges and Data Ownership Management in a Market
 excerpt: In a world driven by the digital marketplace, where data reigns supreme, this groundbreaking patented technology promises to transform the way we navigate this vast terrain.
 sectiontype: article
 image: '/images/patent-summaries/computer-controlled-marketplace-network-for-digital-transactions-us20200250719a1.webp'
-patentId: US20200250719A1
+patentId: US11880882B2
 category: Patent Summaries
 metadata:
   title: Digital Transaction Management in Marketplace Networks
@@ -26,7 +26,7 @@ metadata:
     cardType: summary_large_image
 publishDate: 2023-10-28
 uspto-canonical-id-label: Patent
-uspto-patent-number: US20200250719A1
+uspto-patent-number: US11880882B2
 inventor: Shah N. Shahid
 owner-current-assignee: INTELLECTUAL FRONTIERS LLC
 patent-owners-rights:
@@ -48,7 +48,7 @@ abstract-of-the-invention:
 problem-solved-by-the-invention:
 topics:
 images:
-external-links: https://patents.google.com/patent/US20200250719A1/
+external-links: https://patents.google.com/patent/US11880882B2
 downloadable-documents:
   - anchor_text: Download PDF
     link_url:
