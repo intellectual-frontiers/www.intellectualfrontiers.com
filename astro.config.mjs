@@ -70,6 +70,12 @@ export default defineConfig({
     "/topics/us10403399b2": "/patents/tasks-scheduling-based-on-triggering-event-and-work-lists-management",
     "/topics/us2024006038a1": "/patents/team-based-tele-diagnostics-blockchain-enabled-system-us20240006038a1",
     "/topics/us11769573b2": "/patents/team-based-tele-diagnostics-blockchain-enabled-system",
+    '/patents/computer-controlled-precision-education-and-training-us11561884b2': '/patents/computer-controlled-precision-education-and-training',
+    '/patents/computer-controlled-precision-education-and-training-us11561884b2/': '/patents/computer-controlled-precision-education-and-training',
+    '/topics/software-development': '/topics/software',
+    '/patent-summaries/blockchain-powered--healthcare--data--for--natural--language--processing--nlp--collection--storage--and--standardization/': '/patent-summaries/blockchain-powered-healthcare-data-for-natural-language-processing-nlp-collection-storage-and-standardization',
+    '/our-intellectual-property-assets': '/about',
+    '/patents/-system-for-controlling-medical-devices/': '/patents/system-for-controlling-medical-devices',
     '/category': {
       status: 302,
       destination: '/article'
