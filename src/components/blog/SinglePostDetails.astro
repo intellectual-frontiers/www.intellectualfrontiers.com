@@ -234,9 +234,6 @@ const blogPosts = await getBlogPosts()
         }
       </div>
     </div>
-    <div class="flex !justify-start pt-4">
-      <PostTags tags={post.tags} class="text-lg justify-start" />
-    </div>
       <!-- Further Read Block -->
       {
         relatedPosts.length > 0 && (
@@ -358,6 +355,10 @@ const blogPosts = await getBlogPosts()
             </div>
           </>
         )}
+        
+    <div class="flex !justify-start pt-4">
+      <PostTags tags={post.tags} class="text-lg justify-start" />
+    </div>
   </aside>
   <SocialShare url={url} text={post.title} class="px-3 mt-5 sm:mt-1 align-middle text-gray-500 dark:text-slate-600" />
 
