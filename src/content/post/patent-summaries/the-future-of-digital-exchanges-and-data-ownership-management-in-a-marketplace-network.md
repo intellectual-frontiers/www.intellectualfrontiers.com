@@ -19,7 +19,7 @@ metadata:
       - url: '/images/patent-summaries/computer-controlled-marketplace-network-for-digital-transactions-us20200250719a1.webp'
         width: 1200
         height: 628
-    type: website
+    type: article
   twitter:
     handle: '@IntelFrontiers'
     site: '@IntelFrontiers'
@@ -48,6 +48,8 @@ abstract-of-the-invention:
 problem-solved-by-the-invention:
 topics:
 images:
+tags:
+  - US11880882B2
 external-links: https://patents.google.com/patent/US11880882B2
 downloadable-documents:
   - anchor_text: Download PDF
