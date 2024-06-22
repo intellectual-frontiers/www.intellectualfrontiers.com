@@ -1,4 +1,4 @@
-import { getPermalink, /*getBlogPermalink, getAsset,*/getPatentPermalink,getArticlePermalink } from './utils/permalinks';
+import { getPermalink, /*getBlogPermalink, getAsset,*/getPatentPermalink, getArticlePermalink } from './utils/permalinks';
 
 export const headerData = {
   links: [
@@ -52,7 +52,7 @@ export const headerData = {
       text: 'Articles',
       links: [
         {
-          text: 'Patent Landscape',
+          text: 'Patent Landscapes',
           href: getPermalink('/category/patent-landscape'),
         },
         {
