@@ -44,10 +44,36 @@ export const headerData = {
     //   //text: 'Blog',
     //   //href: getPermalink('/blog'),
     // },
+    // {
+    //   text: 'Articles',
+    //   href: getPermalink('/article'),
+    // },
     {
       text: 'Articles',
-      href: getPermalink('/article'),
-    }
+      links: [
+        {
+          text: 'Patent Landscape',
+          href: getPermalink('/category/patent-landscape'),
+        },
+        {
+          text: 'Patent Summaries',
+          href: getPermalink('/category/patent-summaries'),
+        },
+        {
+          text: 'Market Potential',
+          href: getPermalink('/category/market-potential'),
+        },
+        {
+          text: 'Use Cases',
+          href: getPermalink('/category/use-cases'),
+        },
+        {
+          text: 'Blogs',
+          href: getPermalink('/category/blogs'),
+        },
+      ],
+      href: '/',
+    },
   ],
   actions: [{ text: 'Contact Us', href: '/contact' }],
 };
