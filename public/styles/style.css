@@ -75,3 +75,23 @@ button#next-btn span{
     background:linear-gradient(to bottom, rgba(169,208,113,0),rgba(0,0,0,0.7));
     bottom: 0;
 }
+/* Search Functanality */
+.dropshadow{
+    background-color: rgba(0,0,0,0.7);  
+}
+
+.searchb{display: none;}
+.activesearch{display: block;}
+
+@media screen and (max-width:420px){
+    .mobile_logo{max-width: 90%;}
+    .closebtn{right: 0 !important; top: 0 !important;}
+    .closebtn .iconbtnclose{width: 2rem !important; height: 2rem !important;}
+}
+
+.pagefind-ui__drawer.svelte-e9gkc3{  height: 26rem;   overflow-y: auto;
+   }
+
+.no-scroll{
+    overflow: hidden;
+}

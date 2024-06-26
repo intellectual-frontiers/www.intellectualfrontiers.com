@@ -1,7 +1,8 @@
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { defineConfig } from 'astro/config';
-import sitemap from '@astrojs/sitemap';
+//import sitemap from '@astrojs/sitemap';
+import pagefind from "astro-pagefind";
 import tailwind from '@astrojs/tailwind';
 import mdx from '@astrojs/mdx';
 import partytown from '@astrojs/partytown';
@@ -84,6 +85,7 @@ export default defineConfig({
   integrations: [tailwind({
     applyBaseStyles: false
   }),
+  pagefind(),
   // sitemap(
   //   {
   //     filter: (page) => 

@@ -5,7 +5,7 @@ import ToggleTheme from '~/components/common/ToggleTheme.astro';
 import ToggleMenu from '~/components/common/ToggleMenu.astro';
 import Button from '~/components/ui/Button.astro';
 import Image from '~/components/common/Image.astro';
-
+import Search from 'astro-pagefind/components/Search';
 import { getHomePermalink } from '~/utils/permalinks';
 import { trimSlash, getAsset } from '~/utils/permalinks';
 import type { CallToAction } from '~/types';
@@ -51,6 +51,19 @@ const {
 const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
 ---
 
+<div class="searchb" id="searchbox">
+  <div class="divsearch fixed z-[100] top-8 left-0 w-5/6 right-0 m-auto overflow-auto">
+    <Search
+      id="search"
+      className="pagefind-ui bg-white outline-0 rounded-md p-4 border-0  h-full"
+      uiOptions={{ showImages: false }}
+    />
+  </div>
+  <div class="dropshadow z-50 fixed top-0 left-0 right-0 bottom-0 h-full w-full"></div>
+  <div class="closebtn fixed top-6 right-4 z-50 cursor-pointer text-white text-lg" id="searchclose">
+    <span><Icon name="tabler:x" class="w-12 h-12 ml-0.5 rtl:ml-0 rtl:mr-0.5 md:inline iconbtnclose" /></span>
+  </div>
+</div>
 <header
   class:list={[
     { sticky: isSticky, relative: !isSticky, dark: isDark },
@@ -74,6 +87,11 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
         <img src="/images/IF-logo.svg" style="width:315px" alt="intellectual-frontiers-logo" />
       </a>
       <div class="flex items-center md:hidden">
+        <Icon
+          name="tabler:search"
+          class="w-5 h-5 ml-0.5 rtl:ml-0 rtl:mr-0.5 md:inline me-4 cursor-pointer"
+          id="searchiconmob"
+        />
         <ToggleMenu />
       </div>
     </div>
@@ -132,7 +150,12 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
       ]}
     >
       <div class="items-center flex justify-between w-full md:w-auto">
-        <div class="flex">
+        <div class="flex items-center">
+          <Icon
+            name="tabler:search"
+            class="w-5 h-5 ml-0.5 rtl:ml-0 rtl:mr-0.5 me-5 hidden md:inline cursor-pointer"
+            id="searchicon"
+          />
           {showToggleTheme && <ToggleTheme iconClass="w-6 h-6 md:w-5 md:h-5 md:inline-block" />}
           <!-- {
             showRssFeed && (
@@ -159,3 +182,20 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
     </div>
   </div>
 </header>
+<script>
+  var search = document.getElementById('searchicon');
+  var searchmob = document.getElementById('searchiconmob');
+  var searchbox = document.getElementById('searchbox');
+  var searchclose = document.getElementById('searchclose');
+  search.addEventListener('click', searchboxes);
+  searchmob.addEventListener('click', searchboxes);
+  searchclose.addEventListener('click', searchboxesclose);
+  function searchboxes() {
+    searchbox.classList.add('activesearch');
+    document.body.classList.add('no-scroll');
+  }
+  function searchboxesclose() {
+    searchbox.classList.remove('activesearch');
+    document.body.classList.remove('no-scroll');
+  }
+</script>
