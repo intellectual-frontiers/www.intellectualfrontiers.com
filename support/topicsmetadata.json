@@ -159,5 +159,12 @@
     "shortDescription": "",
     "displayName": "Intellectual Property Asset Management",
     "tagDisplayLabel": "Intellectual Property Asset Management"
+  },
+  "patent-licensing": {
+    "metaTitle": "Patent Licensing - Intellectual Frontiers",
+    "metaDescription": "Patent Licensing - Intellectual Frontiers",
+    "shortDescription": "",
+    "displayName": "Patent Licensing",
+    "tagDisplayLabel": "Patent Licensing"
   }
 }
