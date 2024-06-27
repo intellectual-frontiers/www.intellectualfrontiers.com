@@ -1,6 +1,6 @@
 ---
 title: 'Patent Licensing: A Blueprint for Business Growth and Innovation'
-excerpt: The patent licensing business model is not a new phenomenon in the commercialization of patented innovation in the marketplace. Many people do not know that Thomas Edison was an exemplar of the patent licensing business model, and he certainly meets the definition of an “NPE” employed in the patent policy debates today.
+excerpt: ''
 sectiontype: article
 category: Blogs
 image: '/images/blogs/patent-licensing-a-blueprint-for-business-growth-and-innovation.webp'
