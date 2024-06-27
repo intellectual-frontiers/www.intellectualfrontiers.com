@@ -1,6 +1,6 @@
 ---
 title: 'Patent Licensing: A Blueprint for Business Growth and Innovation'
-excerpt: ''
+excerpt: 'As a licensee, it is critical to identify and pursue patent portfolios that hold significant value and relevance to your business. The most advantageous portfolios are those with substantial numbers of open patent families that apply to high-value industries. The broader the portfolio’s diversification across multiple technologies and industries, the better your chances of finding patents that can be repeatedly leveraged for various applications.'
 sectiontype: article
 category: Blogs
 image: '/images/blogs/patent-licensing-a-blueprint-for-business-growth-and-innovation.webp'
