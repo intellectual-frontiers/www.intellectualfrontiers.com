@@ -4,11 +4,12 @@ import { Icon } from 'astro-icon/components';
 import Image from '~/components/common/Image.astro';
 import PostTags from '../../components/article/Tags.astro';
 import SocialShare from '~/components/common/SocialShare.astro';
-import { getFormattedDateWithLongMonth } from '~/utils/utils';
+import { getFormattedDateWithLongMonth, getFormattedDateYYYYMMDD } from '~/utils/utils';
 import { getPermalink } from '~/utils/permalinks';
 import { getPatents, getFurtherReadingArticles } from '~/utils/article';
 import featuredPatents from '../../../support/featuredpatent.json';
 import type { Post } from '~/types';
+import { Schema } from 'astro-seo-schema';
 
 export interface Props {
   post: Post;
@@ -20,8 +21,34 @@ const { Content } = post;
 
 const relatedPatent = await getPatents(post.patentId, post.tags, post.category);
 const { blogPosts, otherPosts } = await getFurtherReadingArticles(post.patentId, post.tags, post.category, post.slug);
+
+const SITE_HREF = Astro.site?.href; //returns 'https://www.intellectualfrontiers.com/'
+const SITE_ORIGIN = Astro.site?.origin; //returns 'https://www.intellectualfrontiers.com'
 ---
 
+<Schema
+  item={{
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': SITE_HREF + post.permalink,
+    },
+    headline: post.title,
+    description: post.excerpt,
+    image: SITE_ORIGIN + post.image,
+    publisher: {
+      '@type': 'Organization',
+      name: 'Intellectual Frontiers',
+      logo: {
+        '@type': 'ImageObject',
+        url: SITE_ORIGIN + '/images/IF-logo.svg',
+      },
+    },
+    datePublished: getFormattedDateYYYYMMDD(post.publishDate),
+    dateModified: getFormattedDateYYYYMMDD(post.publishDate),
+  }}
+/>
 <!-- The component is designed and be used to display all the patent related information in a specific format. This is mainly to be used in the patent pages -->
 <div class="container mx-auto flex flex-wrap py-6 px-2">
   <h1 class="lg:px-6 sm:px-6 mx-auto text-4xl md:text-5xl font-bold leading-tighter tracking-tighter font-heading">

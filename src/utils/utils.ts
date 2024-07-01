@@ -26,6 +26,13 @@ export const getFormattedDateWithLongMonth = (date: Date | null | undefined): st
   return formatterLongMonth.format(date);
 };
 
+export const getFormattedDateYYYYMMDD = (date: Date | null | undefined): string => {
+  if (!date) {
+    return '';
+  }
+  return date.toISOString().split('T')[0];
+};
+
 export const trim = (str = '', ch?: string) => {
   let start = 0,
     end = str.length || 0;
