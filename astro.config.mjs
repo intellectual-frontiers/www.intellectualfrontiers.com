@@ -80,7 +80,8 @@ export default defineConfig({
     '/category': {
       status: 302,
       destination: '/article'
-    }
+    },
+    '/patents/m': '/patents',
   },
   integrations: [tailwind({
     applyBaseStyles: false
