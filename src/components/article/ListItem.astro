@@ -62,7 +62,7 @@ const link = APP_ARTICLE?.post?.isEnabled ? getPermalink(post.permalink, 'post')
                     </a>
                   </>
                 ) : (
-                  <a class="capitalize hover:underline" href={getPermalink(post.category, 'category')}>
+                  <a class="capitalize hover:underline" href={getPermalink(post.category, '')}>
                     {post.category.replaceAll('-', ' ')}
                   </a>
                 )}

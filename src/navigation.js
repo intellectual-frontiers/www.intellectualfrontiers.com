@@ -53,23 +53,23 @@ export const headerData = {
       links: [
         {
           text: 'Patent Landscapes',
-          href: getPermalink('/category/patent-landscape'),
+          href: getPermalink('/patent-landscape'),
         },
         {
           text: 'Patent Summaries',
-          href: getPermalink('/category/patent-summaries'),
+          href: getPermalink('/patent-summaries'),
         },
         {
           text: 'Market Potential',
-          href: getPermalink('/category/market-potential'),
+          href: getPermalink('/market-potential'),
         },
         {
           text: 'Use Cases',
-          href: getPermalink('/category/use-cases'),
+          href: getPermalink('/use-cases'),
         },
         {
           text: 'Blogs',
-          href: getPermalink('/category/blogs'),
+          href: getPermalink('/blogs'),
         },
       ],
       href: '/',
@@ -84,11 +84,11 @@ export const footerData = {
       title: 'Categories',
       links: [
         { text: 'Patents for Sale', href: '/patents' },
-        { text: 'Patent Landscape', href: '/category/patent-landscape' },
-        { text: 'Patent Summaries', href: '/category/patent-summaries' },
-        { text: 'Market Potential', href: '/category/market-potential' },
-        { text: 'Use Cases', href: '/category/use-cases' },
-        { text: 'Blogs', href: '/category/blogs' },
+        { text: 'Patent Landscape', href: '/patent-landscape' },
+        { text: 'Patent Summaries', href: '/patent-summaries' },
+        { text: 'Market Potential', href: '/market-potential' },
+        { text: 'Use Cases', href: '/use-cases' },
+        { text: 'Blogs', href: '/blogs' },
         // { text: 'Privacy Policy', href: '#' },
         // { text: 'Terms of Use', href: '#' },
         // { text: 'Pricing', href: '#' },
