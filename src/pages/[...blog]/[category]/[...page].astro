@@ -15,7 +15,7 @@ export const getStaticPaths = (async ({ paginate }) => {
 
 type Props = InferGetStaticPropsType<typeof getStaticPaths> & { category: string };
 
-const { page, category } = Astro.props as Props;
+const { page, category, totalpages } = Astro.props as Props;
 
 const currentPage = page.currentPage ?? 1;
 

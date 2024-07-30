@@ -124,7 +124,7 @@ export const fetchPosts = async (): Promise<Array<Post>> => {
   }
 
   //return _posts;
-  return _posts ? _posts.filter(item => item.sectiontype ===('blog')) : [];
+  return _posts ? _posts.filter(item => item.sectiontype === ('blog')) : [];
 };
 
 /** */
@@ -161,12 +161,13 @@ export const findLatestPosts = async ({ count }: { count?: number }): Promise<Ar
   const posts = await fetchPosts();
 
   //return posts ? posts.slice(0, _count) : [];
-  return posts ? posts.filter(item => item.sectiontype===('blog')).slice(0, _count) : [];
+  return posts ? posts.filter(item => item.sectiontype === ('blog')).slice(0, _count) : [];
 };
 
 /** */
 export const getStaticPathsBlogList = async ({ paginate }: { paginate: PaginateFunction }) => {
   if (!isBlogEnabled || !isBlogListRouteEnabled) return [];
+
   return paginate(await fetchPosts(), {
     params: { blog: BLOG_BASE || undefined },
     pageSize: blogPostsPerPage,
@@ -207,6 +208,28 @@ export const getStaticPathsBlogCategory = async ({ paginate }: { paginate: Pagin
 };
 
 /** */
+// export const getStaticPathsBlogTag = async ({ paginate }: { paginate: PaginateFunction }) => {
+//   if (!isBlogEnabled || !isBlogTagRouteEnabled) return [];
+
+//   const posts = await fetchPosts();
+//   const tags = new Set<string>();
+//   posts.map((post) => {
+//     Array.isArray(post.tags) && post.tags.map((tag) => tags.add(tag.toLowerCase()));
+//   });
+
+//   return Array.from(tags).flatMap((tag) =>
+//     paginate(
+//       posts.filter((post) => Array.isArray(post.tags) && post.tags.find((elem) => elem.toLowerCase() === tag)),
+//       {
+//         params: { tag: tag, blog: TAG_BASE || undefined },
+//         pageSize: blogPostsPerPage,
+//         props: { tag },
+//       }
+//     )
+//   );
+// };
+
+
 export const getStaticPathsBlogTag = async ({ paginate }: { paginate: PaginateFunction }) => {
   if (!isBlogEnabled || !isBlogTagRouteEnabled) return [];
 
@@ -216,14 +239,15 @@ export const getStaticPathsBlogTag = async ({ paginate }: { paginate: PaginateFu
     Array.isArray(post.tags) && post.tags.map((tag) => tags.add(tag.toLowerCase()));
   });
 
-  return Array.from(tags).flatMap((tag) =>
-    paginate(
-      posts.filter((post) => Array.isArray(post.tags) && post.tags.find((elem) => elem.toLowerCase() === tag)),
-      {
-        params: { tag: tag, blog: TAG_BASE || undefined },
-        pageSize: blogPostsPerPage,
-        props: { tag },
-      }
-    )
-  );
+  return Array.from(tags).flatMap((tag) => {
+    const filteredPosts = posts.filter((post) => Array.isArray(post.tags) && post.tags.find((elem) => elem.toLowerCase() === tag));
+    const totalPages = Math.ceil(filteredPosts.length / blogPostsPerPage);
+
+    return paginate(filteredPosts, {
+      params: { tag: tag, blog: TAG_BASE || undefined },
+      pageSize: blogPostsPerPage,
+      props: { tag, totalPages },
+    });
+  });
 };
+

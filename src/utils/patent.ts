@@ -2,19 +2,19 @@ import type { PaginateFunction } from 'astro';
 import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import type { Post } from '~/types';
-import { APP_BLOG ,APP_PATENT} from '~/utils/config';
-import { cleanSlug, trimSlash, BLOG_BASE, POST_PERMALINK_PATTERN, CATEGORY_BASE, TAG_BASE,PATENT_BASE,POST_PATENT_PERMALINK_PATTERN } from './permalinks';
+import { APP_BLOG, APP_PATENT } from '~/utils/config';
+import { cleanSlug, trimSlash, BLOG_BASE, POST_PERMALINK_PATTERN, CATEGORY_BASE, TAG_BASE, PATENT_BASE, POST_PATENT_PERMALINK_PATTERN } from './permalinks';
 
 const generatePermalink = async ({
   id,
   slug,
   publishDate,
-  
+
 }: {
   id: string;
   slug: string;
   publishDate: Date;
- 
+
 }) => {
   const year = String(publishDate.getFullYear()).padStart(4, '0');
   const month = String(publishDate.getMonth() + 1).padStart(2, '0');
@@ -96,7 +96,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     // or 'content' in case you consume from API
 
     readingTime: remarkPluginFrontmatter?.readingTime,
-    
+
     //The patent id number
     patentId: post.data.patentId,
     //The patent status
@@ -153,7 +153,7 @@ export const fetchPatentPosts = async (): Promise<Array<Post>> => {
   }
 
   //return _posts;
-  return _posts ? _posts.filter(item => item.sectiontype===('patent')) : [];
+  return _posts ? _posts.filter(item => item.sectiontype === ('patent')) : [];
 };
 
 /** */
@@ -190,15 +190,27 @@ export const findLatestPatentPosts = async ({ count }: { count?: number }): Prom
   const posts = await fetchPatentPosts();
 
   //return posts ? posts.slice(0, _count) : [];
-  return posts ? posts.filter(item => item.sectiontype===('patent')).slice(0, _count) : [];
+  return posts ? posts.filter(item => item.sectiontype === ('patent')).slice(0, _count) : [];
 };
 
 /** */
+// export const getStaticPathsPatentList = async ({ paginate }: { paginate: PaginateFunction }) => {
+//   if (!isBlogEnabled || !isBlogListRouteEnabled) return [];
+//   return paginate(await fetchPatentPosts(), {
+//     params: { patent: PATENT_BASE || undefined },
+//     pageSize: blogPostsPerPage,
+//   });
+// };
 export const getStaticPathsPatentList = async ({ paginate }: { paginate: PaginateFunction }) => {
   if (!isBlogEnabled || !isBlogListRouteEnabled) return [];
-  return paginate(await fetchPatentPosts(), {
+
+  const posts = await fetchPatentPosts();
+  const totalPages = Math.ceil(posts.length / blogPostsPerPage);
+
+  return paginate(posts, {
     params: { patent: PATENT_BASE || undefined },
     pageSize: blogPostsPerPage,
+    props: { totalPages },
   });
 };
 
@@ -256,6 +268,26 @@ export const getStaticPathsBlogTag = async ({ paginate }: { paginate: PaginateFu
     )
   );
 };
+// export const getStaticPathsBlogTag = async ({ paginate }: { paginate: PaginateFunction }) => {
+//   if (!isBlogEnabled || !isBlogTagRouteEnabled) return [];
+
+//   const posts = await fetchPatentPosts();
+//   const tags = new Set<string>();
+//   posts.map((post) => {
+//     Array.isArray(post.tags) && post.tags.map((tag) => tags.add(tag.toLowerCase()));
+//   });
+
+//   return Array.from(tags).flatMap((tag) => {
+//     const filteredPosts = posts.filter((post) => Array.isArray(post.tags) && post.tags.find((elem) => elem.toLowerCase() === tag));
+//     const totalPages = Math.ceil(filteredPosts.length / blogPostsPerPage);
+
+//     return paginate(filteredPosts, {
+//       params: { tag: tag, blog: TAG_BASE || undefined },
+//       pageSize: blogPostsPerPage,
+//       props: { tag, totalPages },
+//     });
+//   });
+// };
 
 
 /* Function to fetch all posts that are categorized as articles */
@@ -268,7 +300,7 @@ export const fetchPosts = async (): Promise<Array<Post>> => {
 
   // Filter the posts to include only those that are categorized as 'article' and not 'patent-summaries'
   // This ensures that the returned posts are specifically articles and excludes patent summaries
-  return _posts? _posts.filter(item => item.sectiontype === 'article' && item.category!== 'patent-summaries') : [];
+  return _posts ? _posts.filter(item => item.sectiontype === 'article' && item.category !== 'patent-summaries') : [];
 };
 
 // Function to filter out all the posts that are related to the patent ID passed as an argument
@@ -279,7 +311,7 @@ export const getRelatedPosts = async (id?: string) => {
   // Filter the posts to exclude those with the category "blog"
   const related = posts.filter(post => {
     // Exclude posts categorized as "blog" to focus on patent-related content
-    if (post.category!== 'blogs') {
+    if (post.category !== 'blogs') {
       // If the post is not a blog, check if its patentId matches the provided ID
       return post.patentId === id;
     }
@@ -308,8 +340,8 @@ export const getBlogPosts = async () => {
 
   // Filter the posts to include only those with the category "blog"
   const blogPosts = posts.filter(post => post.category === 'blogs')
-   .slice(0, 4) // Limit the result to the latest 4 blog posts
-   .map(post => { // Transform each post into a simplified object structure
+    .slice(0, 4) // Limit the result to the latest 4 blog posts
+    .map(post => { // Transform each post into a simplified object structure
       return {
         title: post.title, // The title of the post
         url: post.permalink, // The URL where the post can be found

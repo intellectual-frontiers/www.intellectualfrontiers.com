@@ -1,36 +1,94 @@
 ---
 import { Icon } from 'astro-icon/components';
-import { getPermalink } from '~/utils/permalinks';
-import Button from '~/components/ui/Button.astro';
+import Button from '../../components/ui/Button.astro';
 
 export interface Props {
-  prevUrl?: string;
-  nextUrl?: string;
-  prevText?: string;
-  nextText?: string;
+  page: {
+    currentPage: number;
+    lastPage: number;
+    url: {
+      current: string;
+      prev: string | undefined;
+      next: string | undefined;
+    };
+  };
 }
 
-const { prevUrl, nextUrl, prevText = 'Previous', nextText = 'Next' } = Astro.props;
----
+const { page } = Astro.props;
 
-{
-  (prevUrl || nextUrl) && (
-    <div class="container flex">
-      <div class="flex flex-row mx-auto container justify-between">
+const MAX_VISIBLE_PAGES = 5;
+
+function generatePagination(current: number, total: number) {
+  if (total <= MAX_VISIBLE_PAGES) {
+    return Array.from({ length: total }, (_, i) => i + 1);
+  }
+
+  if (current <= 3) {
+    return [1, 2, 3, 4, '...', total];
+  }
+
+  if (current >= total - 2) {
+    return [1, '...', total - 3, total - 2, total - 1, total];
+  }
+
+  return [1, '...', current - 1, current, current + 1, '...', total];
+}
+
+const pages = generatePagination(page.currentPage, page.lastPage);
+
+function getPageUrl(pageNum: number) {
+  if (pageNum === page.currentPage) return page.url.current;
+  if (pageNum === page.currentPage - 1 && page.url.prev) return page.url.prev;
+  if (pageNum === page.currentPage + 1 && page.url.next) return page.url.next;
+
+  // For other pages, we need to construct the URL
+  const urlParts = page.url.current.split('/');
+  const lastPart = urlParts[urlParts.length - 1];
+
+  if (pageNum === 1) {
+    // Remove the page number if it exists
+    return urlParts.slice(0, -1).join('/');
+  } else {
+    // If the last part is a number, replace it; otherwise, add the new page number
+    if (!isNaN(Number(lastPart))) {
+      urlParts[urlParts.length - 1] = pageNum.toString();
+    } else {
+      urlParts.push(pageNum.toString());
+    }
+    return urlParts.join('/');
+  }
+}
+
+const firstPageUrl = getPageUrl(1);
+const lastPageUrl = getPageUrl(page.lastPage);
+
+--- 
+
+<nav class="flex justify-center items-center mt-8 space-x-2">
+  <Button variant="tertiary" class="px-3 py-2" href={firstPageUrl} disabled={page.currentPage === 1}>
+    <Icon name="tabler:chevrons-left" class="w-6 h-6" />
+    <span class="sr-only">First</span>
+  </Button>
+
+  {
+    pages.map((pageNum) =>
+      pageNum === '...' ? (
+        <span class="px-3 py-2">...</span>
+      ) : (
         <Button
-          variant="tertiary"
-          class={`md:px-3 px-3 mr-2 ${!prevUrl ? 'invisible' : ''}`}
-          href={getPermalink(prevUrl)}
+          variant={pageNum === page.currentPage ? 'primary' : 'tertiary'}
+          class="px-3 py-2"
+          href={getPageUrl(pageNum as number)}
         >
-          <Icon name="tabler:chevron-left" class="w-6 h-6" />
-          <p class="ml-2">{prevText}</p>
+        {pageNum}
         </Button>
+      )
+    )
+  }
 
-        <Button variant="tertiary" class={`md:px-3 px-3 ${!nextUrl ? 'invisible' : ''}`} href={getPermalink(nextUrl)}>
-          <span class="mr-2">{nextText}</span>
-          <Icon name="tabler:chevron-right" class="w-6 h-6" />
-        </Button>
-      </div>
-    </div>
-  )
-}
+  <Button variant="tertiary" class="px-3 py-2" href={lastPageUrl} disabled={page.currentPage === page.lastPage}>
+    <Icon name="tabler:chevrons-right" class="w-6 h-6" />
+    <span class="sr-only">Last</span>
+  </Button>
+
+</nav>

@@ -15,7 +15,7 @@ export async function getStaticPaths({ paginate }) {
 
 //console.log('-patent---',Astro.props)
 
-const { page } = Astro.props;
+const { page, totalPages } = Astro.props;
 //console.log(88888,page)
 
 const currentPage = page.currentPage ?? 1;
@@ -55,7 +55,7 @@ const metadata = {
       Intellectual Frontiers lists patented inventions for sale or license
     </Headline>
     <BlogList posts={page.data} />
-    <Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />
+    <Pagination page={page} />
     <!--
       <PostTags tags={allCategories} class="mb-2" title="Search by Categories:" isCategory />
       <PostTags tags={allTags}  title="Search by Tags:" />
