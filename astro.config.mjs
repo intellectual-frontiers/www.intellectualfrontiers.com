@@ -77,6 +77,12 @@ export default defineConfig({
     '/patent-summaries/blockchain-powered--healthcare--data--for--natural--language--processing--nlp--collection--storage--and--standardization/': '/patent-summaries/blockchain-powered-healthcare-data-for-natural-language-processing-nlp-collection-storage-and-standardization',
     '/our-intellectual-property-assets': '/about',
     '/patents/-system-for-controlling-medical-devices/': '/patents/system-for-controlling-medical-devices',
+    '/tag/artificial-intelligence-and-machine-learning': '/topics/artificial-intelligence-and-machine-learning',
+    '/tag/authorization-and-data-privacy': '/topics/authorization-and-data-privacy',
+    '/tag/feedback-management': '/topics/feedback-management',
+    '/tag/blockchain': '/topics/blockchain',
+    '/tag/us10089492b2': '/topics/us10089492b2',
+    '/tag/remote-diagnostics': '/topics/remote-diagnostics',
     '/category': {
       status: 302,
       destination: '/article'

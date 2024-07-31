@@ -43,12 +43,12 @@ const posts = APP_ARTICLE.isEnabled ? await findLatestPosts({ count }) : [];
               class="text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none group font-heading mb-2"
               set:html={title}
             />
-            {APP_ARTICLE.list.isEnabled && linkText && linkUrl && (
+            {/* {APP_ARTICLE.list.isEnabled && linkText && linkUrl && (
               <Button variant="link" href={linkUrl}>
                 {' '}
                 {linkText} »
               </Button>
-            )}
+            )} */}
           </div>
         )}
 
