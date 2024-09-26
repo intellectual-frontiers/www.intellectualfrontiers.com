@@ -31,6 +31,37 @@ tags:
   - US11423500B2
   - US20230245255A1
   - Precision Learning
+blogCitations:
+  - citationNumber: 1
+    author: "Vasilyeva, Pechenizkiy, and Puuronen"
+    name: "Knowledge Management Challenges in Web-Based Adaptive e-Learning Systems"
+    publisher: "University of Jyväskylä, Finland"
+    datePublished: "2005"
+    about: "Conference paper presented from June 29-July 1, 2005."
+  - citationNumber: 2
+    author: "Khan, M. A., Nabi, M. K., Khojah, M., & Tahir, M."
+    name: "Students’ Perception towards E-Learning during COVID-19 Pandemic in India: An Empirical Study"
+    publisher: "Sustainability"
+    datePublished: "2021"
+    about: "Journal article, Volume 13, Issue 1, Page 57."
+  - citationNumber: 3
+    author: "Adly, I., Fadel, M., El-Baz, A. and Amin, H."
+    name: "Interactive mobile learning platform at the British university in Egypt"
+    publisher: "Proceedings of the 7th International Conference on Software and Information Engineering"
+    datePublished: "2018"
+    about: "Conference paper presented in May 2018."
+  - citationNumber: 4
+    author: "Al-Hunaiyyan, A., Al-Sharhan, S., & Alhajri, R."
+    name: "A New Mobile Learning Model in the Context of Smart Classroom Environment: A Holistic Approach"
+    publisher: "International journal of interactive mobile technologies"
+    datePublished: "2017"
+    about: "Journal article, Volume 11, Issue 3."
+  - citationNumber: 5
+    author: "Sottilare"
+    name: "Challenges in Moving Adaptive Training & Education from State-of-Art to State-of-Practice"
+    publisher: "CEUR Workshop Proceedings"
+    datePublished: "2015"
+    about: "Conference paper."
 ---
 Precision learning stands as a promising innovation that tailors educational and supervision experiences to individual learner needs, optimizing outcomes and efficiency. Yet, despite its potential, the widespread adoption of precision learning systems faces significant hurdles. These barriers, rooted in resistance, cost, and misaligned priorities, pose challenges not just for educational and corporate institutions utilize these, but also for the companies developing these advanced systems.
 
@@ -76,26 +107,36 @@ To overcome these barriers, precision learning companies must adopt a multifacet
 
 The hurdles facing precision learning are significant, but they are not insurmountable. Innovators can address resistance, cost, and misaligned priorities head-on in the precision learning space and leverage the full potential of this transformative technology by carefully addressing the underlying barriers and challenges. For companies and educational institutions, the adoption of precision learning represents an opportunity to provide more personalized, effective, and engaging learning experiences for students. For innovators who are involved in developing these technologies and advancing innovation, it offers a pathway to making a meaningful impact on academic education and corporate training while also capturing a share of a growing market.
 
-<h3 class="text-gray-700 pt-6 !text-large">Bibliography</h3>
+<h3 class="text-gray-700 pt-6 text-lg">Bibliography</h3>
 
-<div class="ml-5 text-base text-muted font-semibold">
-<div id="ref_1" style="position: relative; top: -100px;"></div>
+<div class="text-base text-gray-500 font-semibold space-y-2">
+  <div id="ref_1" style="position: relative; top: -100px;"></div>
+  <div class="flex">
+    <span class="mr-2 flex-shrink-0">1.</span>
+    <span>Vasilyeva, Pechenizkiy, and Puuronen, Knowledge Management Challenges in Web-Based Adaptive e-Learning Systems, University of Jyväskylä, Finland, June 29-July 1, 2005</span>
+  </div>
 
-<span class="text-gray-600">1\.</span> Vasilyeva, Pechenizkiy, and Puuronen, Knowledge Management Challenges in Web-Based Adaptive e-Learning Systems, University of Jyväskylä, Finland, June 29-July 1, 2005
+  <div id="ref_2" style="position: relative; top: -100px;"></div>
+  <div class="flex">
+    <span class="mr-2 flex-shrink-0">2.</span>
+    <span>Khan, M. A., Nabi, M. K., Khojah, M., & Tahir, M., Students' Perception towards E-Learning during COVID-19 Pandemic in India: An Empirical Study. Sustainability, 2021, 13(1), 57.</span>
+  </div>
 
-<div id="ref_2" style="position: relative; top: -100px;"></div>
+  <div id="ref_3" style="position: relative; top: -100px;"></div>
+  <div class="flex">
+    <span class="mr-2 flex-shrink-0">3.</span>
+    <span>Adly, I., Fadel, M., El-Baz, A. and Amin, H., Interactive mobile learning platform at the British university in Egypt. In Proceedings of the 7th International Conference on Software and Information Engineering, May 2018.</span>
+  </div>
 
-<span class="text-gray-600">2\.</span> Khan, M. A., Nabi, M. K., Khojah, M., & Tahir, M., Students’ Perception towards E-Learning during COVID-19 Pandemic in India: An Empirical Study. Sustainability, 2021, 13(1), 57.
+  <div id="ref_4" style="position: relative; top: -100px;"></div>
+  <div class="flex">
+    <span class="mr-2 flex-shrink-0">4.</span>
+    <span>Al-Hunaiyyan, A., Al-Sharhan, S., & Alhajri, R., A New Mobile Learning Model in the Context of Smart Classroom Environment: A Holistic Approach. International journal of interactive mobile technologies, 2017, 11(3).</span>
+  </div>
 
-<div id="ref_3" style="position: relative; top: -100px;"></div>
-
-<span class="text-gray-600">3\.</span> Adly, I., Fadel, M., El-Baz, A. and Amin, H., Interactive mobile learning platform at the British university in Egypt. In Proceedings of the 7th International Conference on Software and Information Engineering, May 2018.
-
-<div id="ref_4" style="position: relative; top: -100px;"></div>
-
-<span class="text-gray-600">4\.</span> Al-Hunaiyyan, A., Al-Sharhan, S., & Alhajri, R., A New Mobile Learning Model in the Context of Smart Classroom Environment: A Holistic Approach. International journal of interactive mobile technologies, 2017, 11(3).
-
-<div id="ref_5" style="position: relative; top: -100px;"></div>
-
-<span class="text-gray-600">5\.</span> Sottilare, Challenges in Moving Adaptive Training & Education from State-of-Art to State-of-Practice, CEUR Workshop Proceedings, 2015
+  <div id="ref_5" style="position: relative; top: -100px;"></div>
+  <div class="flex">
+    <span class="mr-2 flex-shrink-0">5.</span>
+    <span>Sottilare, Challenges in Moving Adaptive Training & Education from State-of-Art to State-of-Practice, CEUR Workshop Proceedings, 2015</span>
+  </div>
 </div>

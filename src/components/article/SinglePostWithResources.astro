@@ -25,7 +25,6 @@ const { blogPosts, otherPosts } = await getFurtherReadingArticles(post.patentId,
 const SITE_HREF = Astro.site?.href; //returns 'https://www.intellectualfrontiers.com/'
 const SITE_ORIGIN = Astro.site?.origin; //returns 'https://www.intellectualfrontiers.com'
 ---
-
 <Schema
   item={{
     '@context': 'https://schema.org',
@@ -47,6 +46,18 @@ const SITE_ORIGIN = Astro.site?.origin; //returns 'https://www.intellectualfront
     },
     datePublished: getFormattedDateYYYYMMDD(post.publishDate),
     dateModified: getFormattedDateYYYYMMDD(post.publishDate),
+    ...(post.blogCitations && post.blogCitations.length > 0
+      ? {
+          citation: post.blogCitations.map((item) => ({
+            '@type': 'CreativeWork',
+            author: item.author || '',
+            name: item.name || '',
+            publisher: item.publisher || '',
+            datePublished: item.datePublished || '',
+            about: item.about || ''
+          }))
+        }
+      : {})
   }}
 />
 <!-- The component is designed and be used to display all the patent related information in a specific format. This is mainly to be used in the patent pages -->

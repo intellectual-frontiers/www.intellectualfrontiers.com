@@ -55,7 +55,8 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     author,
     draft = false,
     metadata = {},
-    sectiontype
+    sectiontype,
+    blogCitations = [],
   } = data;
 
   const slug = cleanSlug(rawSlug); // cleanSlug(rawSlug.split('/').pop());
@@ -88,8 +89,9 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
 
     readingTime: remarkPluginFrontmatter?.readingTime,
 
-      //The patent id number
+    //The patent id number
     patentId: post.data.patentId,
+    blogCitations: blogCitations,
   };
 };
 
@@ -141,7 +143,7 @@ export const fetchPosts = async (): Promise<Array<Post>> => {
   }
 
   //return _posts;
-  return _posts ? _posts.filter(item => item.sectiontype ===('article')) : [];
+  return _posts ? _posts.filter(item => item.sectiontype === ('article')) : [];
 };
 
 export const fetchArticlePosts = async (): Promise<Array<Post>> => {
@@ -150,7 +152,7 @@ export const fetchArticlePosts = async (): Promise<Array<Post>> => {
   }
 
   //return _posts;
-  return _posts ? _posts.filter(item => item.sectiontype ===('article')) : [];
+  return _posts ? _posts.filter(item => item.sectiontype === ('article')) : [];
 };
 
 /** */
@@ -187,7 +189,7 @@ export const findLatestPosts = async ({ count }: { count?: number }): Promise<Ar
   const posts = await fetchPosts();
 
   //return posts ? posts.slice(0, _count) : [];
-  return posts ? posts.filter(item => item.sectiontype===('article')).slice(0, _count) : [];
+  return posts ? posts.filter(item => item.sectiontype === ('article')).slice(0, _count) : [];
 };
 
 /** */
@@ -264,12 +266,12 @@ export const fetchPatentPosts = async (): Promise<Array<Post>> => {
 
   // Filter the posts to include only those that are categorized as 'article' and not 'patent-summaries'
   // This ensures that the returned posts are specifically articles and excludes patent summaries
-  return _posts? _posts.filter(item => item.sectiontype === 'patent') : [];
+  return _posts ? _posts.filter(item => item.sectiontype === 'patent') : [];
 };
 
 export const getPatents = async (id?: string, tags?: string[], category?: string) => {
   const posts = await fetchPatentPosts();
-  
+
   // Define a helper function to transform post data
   const transformPostData = (post) => ({
     patentId: post.patentId,
@@ -285,7 +287,7 @@ export const getPatents = async (id?: string, tags?: string[], category?: string
 
   if (category === "blogs") {
     // Filter blogs based on tags
-    filteredPosts = posts.filter((post) => 
+    filteredPosts = posts.filter((post) =>
       post.tags?.length && post.tags.some(tag => tags?.includes(tag.toLowerCase()))
     ).map(transformPostData);
   } else {

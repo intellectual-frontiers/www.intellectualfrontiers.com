@@ -24,7 +24,7 @@ export interface Post {
   image?: ImageMetadata | string;
 
   /**  */
- sectiontype ?: string;
+  sectiontype?: string;
   /**  */
   category?: string;
   /**  */
@@ -66,6 +66,7 @@ export interface Post {
   externalLinks?: ExternalLinks[];
   downloadableDocuments?: downloadableDocuments;
   patentFamilyMembers?: Array<string>;
+  blogCitations?: BlogCitations[];
 }
 
 export interface PatentSummaryLinks {
@@ -76,6 +77,15 @@ export interface PatentSummaryLinks {
 export interface ExternalLinks {
   sourceText: string;
   link: string;
+}[]
+
+export interface BlogCitations {
+  citationNumber: number;
+  author: string;
+  name: string;
+  publisher: string;
+  datePublished: string;
+  about: string;
 }[]
 
 // Define a new interface for the downloadableDocuments object
@@ -173,7 +183,7 @@ export interface Item {
   icon?: string;
   classes?: Record<string, string>;
   callToAction?: CallToAction;
-  image?: Image;  
+  image?: Image;
   link?: string;
   patentId?: string;
   patentStatus?: string;
@@ -233,7 +243,7 @@ export interface ItemGrid {
   columns?: number;
   defaultIcon?: string;
   classes?: Record<string, string>;
-  count:number;
+  count: number;
 }
 
 export interface Collapse {
@@ -325,4 +335,4 @@ export interface Content extends Headline, Widget {
   callToAction?: CallToAction;
 }
 
-export interface Contact extends Headline, Form, Widget {}
+export interface Contact extends Headline, Form, Widget { }

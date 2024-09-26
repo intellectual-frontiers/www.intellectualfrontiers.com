@@ -45,20 +45,29 @@ const metadataDefinition = () =>
     })
     .optional();
 
-    const patentSummaryLinksDef = z.object({
-      summaryTitle: z.string(),
-      link: z.string().url(),
-    })
+const patentSummaryLinksDef = z.object({
+  summaryTitle: z.string(),
+  link: z.string().url(),
+})
 
-    const externalLinksDef = z.object({
-      sourceText: z.string(),
-      link: z.string().url(),
-    })
+const externalLinksDef = z.object({
+  sourceText: z.string(),
+  link: z.string().url(),
+})
 
-    const downloadableDocumentssDef = z.object({
-      pdfLink: z.string().url().optional(),
-      claimSummaryLink: z.string().url().optional(),
-    });
+const downloadableDocumentssDef = z.object({
+  pdfLink: z.string().url().optional(),
+  claimSummaryLink: z.string().url().optional(),
+});
+
+const blogCitationsDef = z.object({
+  citationNumber: z.number().optional(),
+  author: z.string().optional(),
+  name: z.string().optional(),
+  publisher: z.string().optional(),
+  datePublished: z.string().optional(),
+  about: z.string().optional(),
+});
 
 const postCollection = defineCollection({
   schema: z.object({
@@ -88,6 +97,7 @@ const postCollection = defineCollection({
     externalLinks: z.array(externalLinksDef).optional(),
     downloadableDocuments: downloadableDocumentssDef.optional(),
     patentFamilyMembers: z.array(z.string()).optional(),
+    blogCitations: z.array(blogCitationsDef).optional(),
   }),
 });
 
