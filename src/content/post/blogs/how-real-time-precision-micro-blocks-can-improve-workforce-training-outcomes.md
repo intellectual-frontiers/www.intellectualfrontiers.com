@@ -135,3 +135,9 @@ Real-time precision content blocks represent a significant advancement in workfo
     <span>Asad, Rimsha, et al. "Achieving Personalized Precision Education Using the Catboost Model during the COVID-19 Lockdown Period in Pakistan." MDPI journals, February 2, 2023</span>
   </div>
 </div>
+
+<style>
+  a {
+    text-decoration: none !important;
+  }
+</style>
