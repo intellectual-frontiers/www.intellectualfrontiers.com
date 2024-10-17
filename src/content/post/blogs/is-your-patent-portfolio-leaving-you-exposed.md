@@ -33,30 +33,35 @@ blogCitations:
     publisher: "Richardson Oliver Law Group LLP"
     datePublished: "2024"
     about: "Case study examining LinkedIn's patent strategy."
+    citationText: '"Setting Patent Strategy to Reduce Risk – LinkedIn Case Study," Richardson Oliver Law Group LLP, 2024'
   - citationNumber: 2
     author: "Huang, Li, Shen, and Wang"
     name: "Escaping the Patent Trolls: The Impact of Non-Practicing Entity Litigation on Firm Innovation Strategies"
     publisher: "Wiley"
     datePublished: "2024-04-19"
     about: "Research article published on 19 April 2024"
+    citationText: 'Huang, Li, Shen, and Wang, "Escaping the patent trolls: The impact of non-practicing entity litigation on firm innovation strategies," Wiley, April 19, 2024'
   - citationNumber: 3
     author: "Johns, Stewart"
     name: "The Patent Flywheel: Driving a Culture of Innovation"
     publisher: "Finnegan"
     datePublished: "2023-02-07"
     about: "Article published on 7 February 2023"
+    citationText: 'Johns, Stewart, "The Patent Flywheel: Driving a Culture of Innovation," Finnegan, February 7, 2023'
   - citationNumber: 4
     author: "Kato, Onishi, and Honjo"
     name: "Does Patenting Always Help New Firm Survival? Understanding Heterogeneity Among Exit Routes"
     publisher: "NCBI"
     datePublished: "2021-05-25"
     about: "Journal article published on 25 May 2021"
+    citationText: 'Kato, Onishi, and Honjo, "Does patenting always help new firm survival? Understanding heterogeneity among exit routes," NCBI, May 25, 2021'
   - citationNumber: 5
     author: "Krajec"
     name: "Management of Patent Risk"
     publisher: "BlueIron IP"
     datePublished: "2021-12-06"
     about: "Whitepaper published on 6 December 2021"
+    citationText: 'Krajec, "Management of Patent Risk," BlueIron IP, December 6, 2021'
 ---
 
 When LinkedIn launched the first professional social network in May 2003, its focus was primarily on growing its user base and establishing itself as a leader in the social media space. By 2012, LinkedIn had achieved remarkable success, with annual revenues reaching nearly $1 billion and a growth rate of 86%. However, despite its impressive growth, LinkedIn had only one issued U.S. patent and 35 pending applications<a href="#ref_1" id="1" class="no-underline" title="Setting Patent Strategy to Reduce Risk – LinkedIn Case Study, Richardson Oliver Law Group LLP, 2024"><sup>[1]</sup></a>. This left the company highly vulnerable to patent assertions from competitors and non-practicing entities (NPEs)<a href="#ref_2" class="no-underline" title="Huang, Li, Shen, and Wang, 'Escaping the patent trolls: The impact of non-practicing entity litigation on firm innovation strategies,' Wiley, April 19, 2024"><sup>[2]</sup></a>, which could potentially derail its growth trajectory.
@@ -108,37 +113,3 @@ Companies must be proactive in managing their patent portfolios. This includes r
 LinkedIn’s experience highlights the critical importance of having a well-rounded patent strategy that includes both organic filings and targeted acquisitions. For companies operating in high-tech industries, a weak patent portfolio can leave them vulnerable to patent assertions and limit their ability to compete effectively. New firms with a higher stock of patents are less likely to go bankrupt. Conversely, new firms with a higher stock of patents are more likely to exit via merger<a href="#ref_4" class="no-underline" title="Kato, Onishi, and Honjo, 'Does patenting always help new firm survival? Understanding heterogeneity among exit routes,' NCBI, May 25, 2021"><sup>[4]</sup></a>. By taking a proactive approach to patent management and building a strong patent culture within the organization, companies can reduce their risk profiles<a href="#ref_5" class="no-underline" title="Krajec, 'Management of Patent Risk,' BlueIron IP, December 6, 2021"><sup>[5]</sup></a> and ensure that they are well-positioned to protect their innovations and drive future growth.
 
 If you find yourself facing challenges related to risk management and lack a robust patent portfolio, especially in tech-driven sectors where complex patents are critical, it's essential to consider strategic patent acquisitions. Whether you're dealing with limited or no patents, securing high-growth patents from our [marketplace](https://www.intellectualfrontiers.com/) can help mitigate risks and position your company for success. Intellectual Frontiers offers a [curated selection of patents](/patents), complete with evaluations to guide your decisions. Explore Intellectual Frontiers to find patents that align with your business needs and ensure you're protected as you innovate.
-
-<h3 class="text-gray-700 pt-6 text-lg">Bibliography</h3>
-
-<div class="text-base text-gray-500 font-semibold space-y-2">
-  <div id="ref_1" style="position: relative; top: -100px;"></div>
-  <div class="flex">
-    <span class="mr-2 flex-shrink-0">1.</span>
-    <span>"Setting Patent Strategy to Reduce Risk – LinkedIn Case Study," Richardson Oliver Law Group LLP, 2024</span>
-  </div>
-
-  <div id="ref_2" style="position: relative; top: -100px;"></div>
-  <div class="flex">
-    <span class="mr-2 flex-shrink-0">2.</span>
-    <span>Huang, Li, Shen, and Wang, "Escaping the patent trolls: The impact of non-practicing entity litigation on firm innovation strategies," Wiley, April 19, 2024</span>
-  </div>
-
-  <div id="ref_3" style="position: relative; top: -100px;"></div>
-  <div class="flex">
-    <span class="mr-2 flex-shrink-0">3.</span>
-    <span>Johns, Stewart, "The Patent Flywheel: Driving a Culture of Innovation," Finnegan, February 7, 2023</span>
-  </div>
-
-  <div id="ref_4" style="position: relative; top: -100px;"></div>
-  <div class="flex">
-    <span class="mr-2 flex-shrink-0">4.</span>
-    <span>Kato, Onishi, and Honjo, "Does patenting always help new firm survival? Understanding heterogeneity among exit routes," NCBI, May 25, 2021</span>
-  </div>
-
-  <div id="ref_5" style="position: relative; top: -100px;"></div>
-  <div class="flex">
-    <span class="mr-2 flex-shrink-0">5.</span>
-    <span>Krajec, "Management of Patent Risk," BlueIron IP, December 6, 2021</span>
-  </div>
-</div>

@@ -123,6 +123,22 @@ const SITE_ORIGIN = Astro.site?.origin; //returns 'https://www.intellectualfront
           class="mx-auto !leading-normal w-full prose prose-lg lg:prose-xl dark:prose-invert dark:prose-headings:text-slate-300 prose-md prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary dark:prose-a:text-blue-400 prose-img:rounded-md prose-img:shadow-lg mt-8 prose-headings:scroll-mt-[80px]"
         >
           {Content ? <Content /> : <Fragment set:html={post.content || ''} />}
+          {post.blogCitations && post.blogCitations.length > 0 && (
+            <>
+              <h3 class="text-gray-700 pt-6 text-lg">Bibliography</h3>
+              <div class="text-base text-gray-500 font-semibold space-y-2">
+                {post.blogCitations.map(item => (
+                  <>
+                    <div id={`ref_${item.citationNumber}`} style="position: relative; top: -100px;"></div>
+                    <div class="flex">
+                      <span class="mr-2 flex-shrink-0">{item.citationNumber}.</span>
+                      <span>{item.citationText}</span>
+                    </div>
+                  </>
+                ))}
+              </div>
+            </>
+          )}
         </div>
       </div>
     </article>

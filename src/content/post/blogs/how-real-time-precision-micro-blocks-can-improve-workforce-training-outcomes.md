@@ -38,30 +38,35 @@ blogCitations:
     publisher: "Forbes"
     datePublished: "2020-07-14"
     about: "Research article published on 14 July 2020"
+    citationText: 'Ferose, V. R. "The Dire Need for Precision Learning." Forbes. Last modified July 14, 2020.'
   - citationNumber: 2
     author: "Garibaldi, Brian T., et al."
     name: "Navigating the Precision Education: Insights From On-the-Ground Initiatives"
     publisher: "NCBI"
     datePublished: "2023-12-18"
     about: "Research article published on 18 December 2023"
+    citationText: 'Garibaldi, Brian T., et al. "Navigating the Landscape of Precision Education: Insights From On-the-Ground Initiatives." NCBI, December 18, 2023.'
   - citationNumber: 3
     author: "Clearwater, Liberty"
     name: "Understanding the Science Behind Learning Retention"
     publisher: "Indenege"
     datePublished: "2024-09-19"
     about: "Research article published on 19 September 2024"
+    citationText: 'Clearwater, Liberty. "Understanding the Science Behind Learning Retention." Indegene. Accessed September 19, 2024.'
   - citationNumber: 4
     author: "Smith, Timothy M."
     name: "Precision Education: What It Is and How It’s Advancing Med Ed"
     publisher: "American Medical Association"
     datePublished: "2024-03-06"
     about: "Research article published on 6 March 2024"
+    citationText: 'Smith, Timothy M. “Precision Education: What It Is and How It’s Advancing Med Ed.” American Medical Association, March 6, 2024.'
   - citationNumber: 5
     author: "Asad, Rimsha, et al."
     name: "Achieving Personalized Precision Education Using the Catboost Model during the COVID-19 Lockdown Period in Pakistan"
     publisher: "MDPI journals"
     datePublished: "2023-02-02"
     about: "Research article published on 2 February 2023"
+    citationText: 'Asad, Rimsha, et al. "Achieving Personalized Precision Education Using the Catboost Model during the COVID-19 Lockdown Period in Pakistan." MDPI journals, February 2, 2023'
 ---
 
 Traditional workforce training programs have often relied on a one-size-fits-all model, where employees passively consume large volumes of information in lengthy sessions. Despite the global training industry being worth $370 billion[<sup>\[1\]</sup>](#ref_1 "Ferose, V. R. \"The Dire Need for Precision Learning.\" Forbes. Last modified July 14, 2020.") in 2019, with $50 billion allocated to leadership alone, there is little evidence that these conventional methods yield measurable improvements in employee performance. A significant flaw in most training programs is the lack of evidence-based outcomes. Feedback is often anecdotal, and tracking employee progress in a precise and actionable way remains a challenge. Precision education (PE) seeks to solve this[<sup>\[2\]</sup>](#ref_2 "Garibaldi, Brian T., et al. \"Navigating the Landscape of Precision Education: Insights From On-the-Ground Initiatives.\" NCBI, December 18, 2023.") by delivering highly personalized educational interventions through real-time precision content blocks — small, targeted segments of training content designed for immediate application. These micro-blocks improve retention, personalization, and adaptability, offering a revolutionary approach to [workforce training](https://www.intellectualfrontiers.com/blogs/precision-learning-is-the-answer-to-future-workforce-development) that corporate decision-makers in HR and training departments should prioritize.
@@ -101,40 +106,6 @@ Precision education has proven highly effective in enhancing student performance
 ## The Bottomline
 
 Real-time precision content blocks represent a significant advancement in workforce training, offering a tailored, efficient, and adaptable learning experience. By delivering just-in-time content that aligns with individual learning styles and immediate job requirements, these micro-blocks enhance retention, improve task performance, and reduce costly errors. For businesses seeking to innovate in this space, our platform, Intellectual Frontiers, offer access to cutting-edge patents in precision learning technology, such as ["Micro Content Based Context Aware Precision Learning."](https://www.intellectualfrontiers.com/patents/computer-controlled-precision-education-and-training-us11651459b2) Decision-makers should explore these opportunities to drive training innovation and improve their organization's competitive advantage in the market.
-
-<h3 class="text-gray-700 pt-6 text-lg">Bibliography</h3>
-
-<div class="text-base text-gray-500 font-semibold space-y-2">
-  <div id="ref_1" style="position: relative; top: -100px;"></div>
-  <div class="flex">
-    <span class="mr-2 flex-shrink-0">1.</span>
-    <span>Ferose, V. R. "The Dire Need for Precision Learning." Forbes. Last modified July 14, 2020.</span>
-  </div>
-
-  <div id="ref_2" style="position: relative; top: -100px;"></div>
-  <div class="flex">
-    <span class="mr-2 flex-shrink-0">2.</span>
-    <span>Garibaldi, Brian T., et al. "Navigating the Landscape of Precision Education: Insights From On-the-Ground Initiatives." NCBI, December 18, 2023.</span>
-  </div>
-
-  <div id="ref_3" style="position: relative; top: -100px;"></div>
-  <div class="flex">
-    <span class="mr-2 flex-shrink-0">3.</span>
-    <span>Clearwater, Liberty. "Understanding the Science Behind Learning Retention." Indegene. Accessed September 19, 2024.</span>
-  </div>
-
-  <div id="ref_4" style="position: relative; top: -100px;"></div>
-  <div class="flex">
-    <span class="mr-2 flex-shrink-0">4.</span>
-    <span>Smith, Timothy M. “Precision Education: What It Is and How It’s Advancing Med Ed.” American Medical Association, March 6, 2024.</span>
-  </div>
-
-  <div id="ref_5" style="position: relative; top: -100px;"></div>
-  <div class="flex">
-    <span class="mr-2 flex-shrink-0">5.</span>
-    <span>Asad, Rimsha, et al. "Achieving Personalized Precision Education Using the Catboost Model during the COVID-19 Lockdown Period in Pakistan." MDPI journals, February 2, 2023</span>
-  </div>
-</div>
 
 <style>
   a {

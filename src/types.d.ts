@@ -86,6 +86,7 @@ export interface BlogCitations {
   publisher: string;
   datePublished: string;
   about: string;
+  citationText: string;
 }[]
 
 // Define a new interface for the downloadableDocuments object

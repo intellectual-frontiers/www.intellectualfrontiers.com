@@ -67,6 +67,7 @@ const blogCitationsDef = z.object({
   publisher: z.string().optional(),
   datePublished: z.string().optional(),
   about: z.string().optional(),
+  citationText: z.string().optional(),
 });
 
 const postCollection = defineCollection({
