@@ -12,6 +12,18 @@
   .bg-light {
     background-color: var(--aw-color-bg-page);
   }
+  .bg-primary {
+    background-color: var(--aw-color-primary); /* Define this variable */
+  }
+  .bg-secondary {
+    background-color: var(--aw-color-secondary); /* Define this variable */
+  }
+  .border-primary {
+    border-color: var(--aw-color-primary); /* Define this variable */
+  }
+  .border-secondary {
+    border-color: var(--aw-color-secondary); /* Define this variable */
+  }
   .text-page {
     color: var(--aw-color-text-page);
   }
@@ -19,6 +31,24 @@
     color: var(--aw-color-text-muted);
   }
 }
+
+/* @layer utilities {
+  .bg-page {
+    background-color: var(--aw-color-bg-page);
+  }
+  .bg-dark {
+    background-color: var(--aw-color-bg-page-dark);
+  }
+  .bg-light {
+    background-color: var(--aw-color-bg-page);
+  }
+  .text-page {
+    color: var(--aw-color-text-page);
+  }
+  .text-muted {
+    color: var(--aw-color-text-muted);
+  }
+} */
 
 @layer components {
   .btn {

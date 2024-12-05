@@ -1,0 +1,31 @@
+---
+const { title, subtitle } = Astro.props;
+---
+
+<div class="card min-w-full bg-base-100 shadow-md md:pb-3 w-full">
+  <div class="aspect-[3/1] mt-5 w-full">
+    <div class="relative inline-block w-full">
+      <img src="/images/podcasts/banner.webp" alt="banner" class="object-cover w-full aspect-[3/1]" />
+      <div
+        class="absolute top-0 left-0 items-center justify-center w-full h-full bg-gradient-to-t from-gray-900 to-50% to-transparent"
+      >
+        <div class="flex flex-col absolute bottom-0 left-32 md:left-52 px-3">
+          <p class="mb-1 text-xs font-medium text-white">{subtitle}</p>
+          <h1 class="mb-3 text-lg md:text-4xl font-black text-white">{title}</h1>
+        </div>
+      </div>
+    </div>
+    <img
+      alt="cover"
+      class="-mt-28 mx-6 md:-mt-28 border-4 z-10 relative border-base-100 rounded-lg md:mx-11 w-24 h-24 md:h-40 md:w-40"
+      src="/images/podcasts/cover.jpg"
+    />
+  </div>
+
+  <div class="flex md:-mt-12 px-4 md:pl-52">
+    <a href="/" class="px-4 py-4 font-semibold uppercase"> Home</a>
+    <a href="/about" class="px-4 py-4 font-semibold uppercase"> About</a>
+
+    <div class="grow"></div>
+  </div>
+</div>

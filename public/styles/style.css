@@ -95,3 +95,8 @@ button#next-btn span{
 .no-scroll{
     overflow: hidden;
 }
+/* -- */
+html {
+  font-family: 'inter Variable', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol', 'Noto Color Emoji' !important;
+}
