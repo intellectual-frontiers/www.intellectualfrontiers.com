@@ -113,13 +113,29 @@ const blogPosts = await getBlogPosts()
             </a>
           )
         }
-        <!-- <a
-          href={post.patentSummaryLink}
-          class="p-6 w-full bg-blue-400 text-white font-bold text-base upxpercase rounded hover:bg-blue-700 flex items-center justify-center px-2 py-3 mt-4"
-        >
-          <Icon name="tabler:external-link" class="mb-0.5 dark:text-gray-400" />&nbsp;Read Patent Summary
-        </a> -->
       </div>
+      {post.notebookLMResources?.audioPath && (
+        <div class="px-2 pb-3 flex items-center justify-center">
+          <button id="play-detail-button"  data-audio-url={post.notebookLMResources?.audioPath}
+            class="p-6 w-full bg-blue-800 text-white font-bold text-base rounded hover:bg-blue-900 flex items-center justify-center px-2 py-2.5 shadow-md"
+          >
+          <Icon name="tabler:microphone" class="mb-0.5" />&nbsp;Listen to Podcast
+        </button>
+        </div>
+      )}
+
+      {post.notebookLMResources?.externalLink && (
+        <div class="px-2 pb-3 flex items-center justify-center">
+          <a
+            href={post.notebookLMResources?.externalLink}
+            target="_blank"
+            class="p-6 w-full bg-blue-900 text-white font-bold text-base rounded hover:bg-blue-950 flex items-center justify-center px-2 py-2.5 shadow-md"
+          >
+            <Icon name="tabler:microphone" class="mb-0.5" />
+            &nbsp;Ask Notebook LM
+          </a>
+        </div>
+      )}
       <hr />
       <hr class="px-3" />
       <div class="pb-2 p-2.5 text-sm">
@@ -495,3 +511,45 @@ const blogPosts = await getBlogPosts()
         <button id="next-btn" onclick="nextImage()" class="max-sm:right-0 right-6"><span>&#x203A;</span> </button>
       </div>
     </div>
+
+
+<script>
+  const playButton = document.getElementById('play-detail-button');
+  const audioPlayer = document.getElementById('audio-player-container');
+  const audioElement = audioPlayer?.querySelector('audio');
+  const playIconContainer = document.getElementById('play-icon');
+  const audioLoading = document.getElementById('audio-loading');
+  const audioControl = document.getElementById('audio-control');
+  const durationContainer = document.getElementById('duration');
+  const currentTimeContainer = document.getElementById('current-time');
+  const audioDownloadLink = document.getElementById('audio-download-link');
+
+  playButton?.addEventListener('click', () => {
+    const audioUrl = playButton.dataset.audioUrl;
+
+    // Remove 'hidden' and 'opacity-0', and add 'flex' to make the player visible
+    audioPlayer?.classList.remove('hidden', 'opacity-0');
+    audioPlayer?.classList.add('flex');
+    
+    // Optionally remove 'opacity-0' to handle fade-in effect
+    setTimeout(() => audioPlayer?.classList.remove('opacity-0'), 100);
+
+    // Show loading spinner
+    audioLoading?.classList.remove('hidden');
+    audioControl?.classList.add('hidden');
+
+    // Reset the UI components to initial states
+    durationContainer.textContent = '0:00';
+    currentTimeContainer.textContent = '0:00';
+
+    // Set audio source and download link
+    audioElement.src = audioUrl;
+    audioDownloadLink.href = audioUrl;
+
+    // Play the audio
+    audioElement.play();
+
+    // Optionally, toggle the play button (change the icon or other UI behavior)
+    playIconContainer.checked = true;
+  });
+</script>

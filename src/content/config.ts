@@ -83,6 +83,11 @@ const episodeSchema = z.object({
     size: z.number(), // size in megabytes
 });
 
+const notebookLMResources = z.object({
+  externalLink: z.string().url().optional(),
+  audioPath: z.string().optional(),
+});
+
 
 const postCollection = defineCollection({
   schema: z.object({
@@ -113,6 +118,7 @@ const postCollection = defineCollection({
     downloadableDocuments: downloadableDocumentssDef.optional(),
     patentFamilyMembers: z.array(z.string()).optional(),
     blogCitations: z.array(blogCitationsDef).optional(),
+    notebookLMResources: notebookLMResources.optional(),
   }),
 });
 export type episodeSchema = z.infer<typeof episodeSchema>;

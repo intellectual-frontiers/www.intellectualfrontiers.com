@@ -67,6 +67,7 @@ export interface Post {
   downloadableDocuments?: downloadableDocuments;
   patentFamilyMembers?: Array<string>;
   blogCitations?: BlogCitations[];
+  notebookLMResources?: notebookLMResources;
 }
 
 export interface PatentSummaryLinks {
@@ -93,6 +94,11 @@ export interface BlogCitations {
 export interface downloadableDocuments {
   pdfLink?: string;
   claimSummaryLink?: string;
+}
+
+export interface notebookLMResources {
+  externalLink?: string;
+  audioPath?: string;
 }
 
 export interface MetaData {

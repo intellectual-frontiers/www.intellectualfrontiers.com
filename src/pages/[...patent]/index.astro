@@ -12,6 +12,7 @@ import { blogPostRobots, getStaticPathsPatentPost } from '~/utils/patent';
 import { findImage } from '~/utils/images';
 import type { MetaData } from '~/types';
 import SinglePostDetails from '~/components/blog/SinglePostDetails.astro';
+import AudioPlayer from '~/components/audioPlayer.astro';
 
 export const prerender = true;
 
@@ -50,3 +51,7 @@ const metadata = merge(
   <!-- <SinglePost post={{ ...post, image: image }} url={url} /> -->
   <SinglePostDetails post={{ ...post, image: image }} url={url} />
 </Layout>
+
+
+<AudioPlayer />
+
