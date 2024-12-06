@@ -60,9 +60,6 @@ externalLinks:
     link: 'https://patentcenter.uspto.gov/applications/15813109'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/68/df/0e/2ca94ab83c9534/US10489830.pdf'
-notebookLMResources:
-  externalLink: "https://notebooklm.google.com/notebook/d0db89a1-366d-471a-bfce-f30695992ae4/audio"
-  audioPath: "/public/podcast/aggregate-rating-indicator-patent-US9846896B2.wav"
 ---
 
 ### Abstract
