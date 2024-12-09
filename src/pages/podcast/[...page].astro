@@ -2,11 +2,12 @@
 import { getCollection } from 'astro:content';
 import HorizontalCard from '../../components/HorizontalCard.astro';
 import AudioPlayer from '../../components/audioPlayer.astro';
-import HeaderCard from '../../components/HeaderCard.astro';
 import Pagination from '../../components/pagination.astro';
 import { marked } from 'marked';
 import PlainTextRenderer from 'marked-plaintext';
-import Layout from '~/layouts/PodcastLayout.astro';
+import Layout from '~/layouts/PageLayout.astro';
+
+
 const renderer = new PlainTextRenderer();
 
 export async function getStaticPaths({ paginate }) {
@@ -29,9 +30,8 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <HeaderCard title="Podcasts" subtitle="Intellectual Frontiers" />
-
-  <div class="card min-w-full bg-base-100 shadow-md p-3 pb-3 mt-12 mb-12">
+  <section class="px-6 sm:px-6 py-10 sm:py-10 lg:py-10 mx-auto max-w-4xl">
+  <div>
     {
       page.data.map((episode, index) => (
         <HorizontalCard
@@ -49,5 +49,8 @@ const metadata = {
   </div>
 
   {(page.url.next || page.url.prev) && <Pagination page={page} />}
+  </section>
 </Layout>
 <AudioPlayer />
+
+

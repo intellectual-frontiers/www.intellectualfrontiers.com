@@ -1,11 +1,12 @@
 ---
-const { title, desc, url, audioUrl, id, pubDate, duration } = Astro.props;
-
 import dayjs from 'dayjs';
 import localizedFormat from 'dayjs/plugin/localizedFormat';
 dayjs.extend(localizedFormat);
 import PlayIcon from './icons/playIcon.astro';
 import PauseIcon from './icons/pauseIcon.astro';
+import { Icon } from 'astro-icon/components';
+
+const { title, desc, audioUrl, id, pubDate, duration } = Astro.props;
 
 // let cover_url = cover ? cover : astropodConfig.cover;
 const displayDate = dayjs(pubDate).format('ll');
@@ -30,23 +31,23 @@ const displayDuration = formatTime(duration);
 
 <div class="episode-card">
   <div class="hero-content flex-row">
-    <a href={url} class="min-w-fit">
+    <span class="min-w-fit">
       <img
         src="/images/podcasts/cover.jpg"
         alt={title}
         class="shadow-lg rounded-md w-[4.5rem] h-[4.5rem] md:w-24 md:h-24"
       />
-    </a>
+    </span>
     <div class="grow w-full overflow-auto">
       <div>
-        <h2 class="md:text-xl text-sm font-semibold truncate">
+        <h2 class="text-sm md:text-lg font-bold truncate">
           {title}
         </h2>
-        <p class="text-xs font-medium text-gray-500">
-          {displayDuration && displayDuration + ' • '}
-          {displayDate}
-        </p>
-        <p class="my-1 text-xs md:text-sm line-clamp-2">{desc}</p>
+          <div class="mb-1 text-xs md:text-sm">
+            <Icon name="tabler:calendar-month" class="w-3.5 h-3.5 inline-block -mt-0.5 dark:text-gray-400" />
+            <time datetime={String(displayDate)} class="inline-block font-medium">{displayDuration && displayDuration + ' • '}{displayDate}</time>
+          </div>
+        <p class="my-1 text-muted text-sm md:text-[16px] lg:text-[17px] xl:text-[20px] md:leading-[30px]" set:html={desc}></p>
       </div>
     </div>
     <label class="btn-circle bg-gray-100 md:mx-2 swap w-14 h-11">
@@ -65,5 +66,14 @@ const displayDuration = formatTime(duration);
 <style>
   .episode-card:last-child hr {
     display: none;
+  }
+  .hero-content {
+      z-index: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 80rem;
+      gap: 1rem;
+      padding: 1rem 0rem;
   }
 </style>
