@@ -1,18 +1,15 @@
 ---
 import type { InferGetStaticPropsType, GetStaticPaths } from 'astro';
-
 import merge from 'lodash.merge';
 import type { ImageMetadata } from 'astro';
 import Layout from '~/layouts/PageLayout.astro';
-import SinglePost from '~/components/blog/SinglePost.astro';
-import ToBlogLink from '~/components/blog/ToBlogLink.astro';
-
 import { getCanonical, getPermalink } from '~/utils/permalinks';
 import { blogPostRobots, getStaticPathsPatentPost } from '~/utils/patent';
 import { findImage } from '~/utils/images';
 import type { MetaData } from '~/types';
 import SinglePostDetails from '~/components/blog/SinglePostDetails.astro';
 import AudioPlayer from '~/components/audioPlayer.astro';
+import TokenValidation from '~/components/TokenValidation'; // Import the React component
 
 export const prerender = true;
 
@@ -47,11 +44,13 @@ const metadata = merge(
 ---
 
 <Layout metadata={metadata}>
-  <!-- Call the component which displays all the patent relevant information in the page instead of just showing the page as a regular page. Since this is a patent so we need to display it in a different form. -->
-  <!-- <SinglePost post={{ ...post, image: image }} url={url} /> -->
-  <SinglePostDetails post={{ ...post, image: image }} url={url} />
+  {post?.authnAuthz?.strategy === 'token' ? (
+    <TokenValidation validTokens={post?.authnAuthz?.validTokens || []} client:only="react">
+      <SinglePostDetails post={{ ...post, image: image }} url={url} />
+    </TokenValidation>
+  ) : (
+    <SinglePostDetails post={{ ...post, image: image }} url={url} />
+  )}
 </Layout>
 
-
 <AudioPlayer />
-

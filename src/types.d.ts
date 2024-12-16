@@ -68,6 +68,7 @@ export interface Post {
   patentFamilyMembers?: Array<string>;
   blogCitations?: BlogCitations[];
   notebookLMResources?: notebookLMResources;
+  authnAuthz?: authnAuthz;
 }
 
 export interface PatentSummaryLinks {
@@ -100,6 +101,11 @@ export interface notebookLMResources {
   externalLink?: string;
   audioPath?: string;
 }
+export interface authnAuthz {
+  strategy?: string;
+  validTokens?: string[];
+}
+
 
 export interface MetaData {
   title?: string;

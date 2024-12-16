@@ -64,6 +64,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     downloadableDocuments,
     patentFamilyMembers = [],
     notebookLMResources,
+    authnAuthz,
   } = data;
 
   const slug = cleanSlug(rawSlug); // cleanSlug(rawSlug.split('/').pop());
@@ -116,6 +117,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     downloadableDocuments: downloadableDocuments,
     patentFamilyMembers: patentFamilyMembers,
     notebookLMResources: notebookLMResources,
+    authnAuthz: authnAuthz,
   };
 };
 

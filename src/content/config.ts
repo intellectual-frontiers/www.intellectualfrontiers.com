@@ -88,6 +88,12 @@ const notebookLMResources = z.object({
   audioPath: z.string().optional(),
 });
 
+const authnAuthzSchema = z.object({
+  strategy: z.enum(['token']).optional(), // Restricting to "token" for now
+  validTokens: z.array(z.string()).optional(),
+});
+
+
 
 const postCollection = defineCollection({
   schema: z.object({
@@ -119,6 +125,7 @@ const postCollection = defineCollection({
     patentFamilyMembers: z.array(z.string()).optional(),
     blogCitations: z.array(blogCitationsDef).optional(),
     notebookLMResources: notebookLMResources.optional(),
+    authnAuthz: authnAuthzSchema.optional(),
   }),
 });
 export type episodeSchema = z.infer<typeof episodeSchema>;
