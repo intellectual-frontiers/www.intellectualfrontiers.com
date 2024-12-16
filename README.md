@@ -145,7 +145,6 @@ To restrict access to certain pages (e.g., unpublished patent applications or se
 
 3. **Secure Token Management:**
    - Tokens are stored in the page’s **Markdown frontmatter**, ensuring they are easy to manage on a per-page basis.
-   - Token validation is performed on the server level to ensure secure access control.
 
 
  
