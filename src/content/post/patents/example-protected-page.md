@@ -7,8 +7,8 @@ metadata:
   title: Computer-executable and traceable metric queues system
   description: 'Discover a computer-controlled system for digitally evaluating machine metrics. Analyze performance data with traceable metric queues. Achieve efficiency with our technology.'
   robots:
-    index: true
-    follow: true
+    index: false
+    follow: false
   openGraph:
     title: Computer-executable and traceable metric queues system | IntellectualFrontiers
     site_name: IntellectualFrontiers
@@ -63,7 +63,6 @@ downloadableDocuments:
 authnAuthz:
   strategy: token
   validTokens: ["123", "456"]
-# draft: true
 ---
 
 ### Abstract
