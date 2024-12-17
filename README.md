@@ -135,6 +135,10 @@ To restrict access to certain pages (e.g., unpublished patent applications or se
     authnAuthz:
      strategy: token
      validTokens: ["token-1", "token-2"]
+    metadata:
+     robots:
+      index: false
+      follow: false
    ``` 
 
 
@@ -145,6 +149,16 @@ To restrict access to certain pages (e.g., unpublished patent applications or se
 
 3. **Secure Token Management:**
    - Tokens are stored in the page’s **Markdown frontmatter**, ensuring they are easy to manage on a per-page basis.
+
+4. **Preventing Indexing of Protected Pages:**
+
+   - To ensure that protected pages are not indexed by search engines, the robots field in the frontmatter is configured as follows:
+   ```
+    metadata:
+     robots:
+      index: false
+      follow: false
+   ``` 
 
 
  
