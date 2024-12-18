@@ -33,8 +33,11 @@ const TokenValidation: React.FC<TokenValidationProps> = ({ validTokens, children
     return (
       <div style={overlayStyles}>
         <div style={modalStyles}>
-          <h1>Access Restricted</h1>
-          <p>This page is protected. Please enter a valid token to access it.</p>
+          {/* <h1>Access Restricted</h1> */}
+          <h6>
+            This page requires an agreement to sign a Non Disclosure Agreement (NDA). Please enter a token and your
+            typed-in signature to agree to our NDA.
+          </h6>
           <form onSubmit={handleTokenSubmit}>
             <input
               type="text"
@@ -76,7 +79,7 @@ const modalStyles: React.CSSProperties = {
   backgroundColor: 'white',
   padding: '20px',
   borderRadius: '8px',
-  width: '300px',
+  width: '400px',
   textAlign: 'center',
   boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)',
 };
