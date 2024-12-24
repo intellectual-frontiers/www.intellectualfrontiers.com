@@ -62,6 +62,9 @@ externalLinks:
     link: 'https://patentcenter.uspto.gov/applications/16712213'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/e0/36/4c/503990294714d0/US11423500.pdf'
+notebookLMResources:
+  externalLink: "https://notebooklm.google.com/notebook/40a2768f-d893-434d-b73b-719aab02002a/audio"
+  audioPath: "/podcast/computer-controlled-precision-education-and-training-us11423500b2.wav"
 ---
 
 ### Abstract
