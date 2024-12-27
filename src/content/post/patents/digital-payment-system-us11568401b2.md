@@ -61,6 +61,8 @@ externalLinks:
     link: 'https://patentcenter.uspto.gov/applications/16835289'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/01/ec/49/f51cfcb9fa921b/US11568401.pdf'
+notebookLMResources:
+  audioPath: "/podcast/digital-payment-system-us11568401b2.wav"
 ---
 
 ### Abstract
