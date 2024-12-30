@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import md5 from 'md5';
 
 type TokenValidationProps = {
-  validTokens: string[];
+  validTokens: string[]; // List of MD5-encrypted tokens
   children: React.ReactNode; // Accept children (protected content)
 };
 
@@ -12,15 +13,17 @@ const TokenValidation: React.FC<TokenValidationProps> = ({ validTokens, children
 
   useEffect(() => {
     const token = new URL(window.location.href).searchParams.get('token');
-    setIsAuthorized(!!token && validTokens.includes(token || ''));
+    const encryptedToken = token ? md5(token) : null;
+    setIsAuthorized(!!encryptedToken && validTokens.includes(encryptedToken));
   }, [validTokens]);
 
   const handleTokenSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
-    if (validTokens.includes(inputToken)) {
+    const encryptedToken = md5(inputToken);
+    if (validTokens.includes(encryptedToken)) {
       setError(null);
-      // Update the URL with the valid token
+      // Update the URL with the valid encrypted token
       const currentUrl = new URL(window.location.href);
       currentUrl.searchParams.set('token', inputToken);
       window.location.href = currentUrl.toString();
@@ -33,7 +36,6 @@ const TokenValidation: React.FC<TokenValidationProps> = ({ validTokens, children
     return (
       <div style={overlayStyles}>
         <div style={modalStyles}>
-          {/* <h1>Access Restricted</h1> */}
           <h6>
             This page requires an agreement to sign a Non Disclosure Agreement (NDA). Please enter a token and your
             typed-in signature to agree to our NDA.

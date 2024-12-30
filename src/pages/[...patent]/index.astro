@@ -10,6 +10,7 @@ import type { MetaData } from '~/types';
 import SinglePostDetails from '~/components/blog/SinglePostDetails.astro';
 import AudioPlayer from '~/components/audioPlayer.astro';
 import TokenValidation from '~/components/TokenValidation'; // Import the React component
+import md5 from "md5";
 
 export const prerender = true;
 
@@ -23,6 +24,9 @@ const { post } = Astro.props as Props;
 
 const url = getCanonical(getPermalink(post.permalink, 'post'));
 const image = (await findImage(post.image)) as ImageMetadata | string | undefined;
+
+// Encrypt valid tokens before passing them
+const encryptedTokens = (post?.authnAuthz?.validTokens || []).map((token) => md5(token));
 
 const metadata = merge(
   {
@@ -45,7 +49,7 @@ const metadata = merge(
 
 <Layout metadata={metadata}>
   {post?.authnAuthz?.strategy === 'token' ? (
-    <TokenValidation validTokens={post?.authnAuthz?.validTokens || []} client:only="react">
+    <TokenValidation validTokens={encryptedTokens || []} client:only="react">
       <SinglePostDetails post={{ ...post, image: image }} url={url} />
     </TokenValidation>
   ) : (

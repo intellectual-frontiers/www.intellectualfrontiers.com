@@ -32,6 +32,7 @@
     "limax": "4.1.0",
     "lodash.merge": "^4.6.2",
     "marked-plaintext": "^0.0.2",
+    "md5": "^2.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "schema-dts": "^1.1.2",
