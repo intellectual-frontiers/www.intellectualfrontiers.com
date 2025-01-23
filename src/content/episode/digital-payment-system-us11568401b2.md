@@ -1,8 +1,8 @@
 ---
-title: Digital payment system - US10643208B2
-audioUrl: /podcast/digital-payment-system-us11568401b2.wav
+title: Digital payment system - US11568401B2
+audioUrl: /podcast/digital-payment-system-us11568401b2-updated.mp3
 pubDate: Dec 27 2024
-duration: 15:07
+duration: 11:50
 size: 0.7
 cover: ""
 explicit: false
