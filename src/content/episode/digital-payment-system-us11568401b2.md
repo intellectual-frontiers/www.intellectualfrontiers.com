@@ -1,8 +1,8 @@
 ---
 title: Digital payment system - US11568401B2
-audioUrl: /podcast/digital-payment-system-us11568401b2-music.mp3
+audioUrl: /podcast/digital-payment-system-us11568401b2-cloned-voice.mp3
 pubDate: Dec 27 2024
-duration: 11:55
+duration: 11:43
 size: 0.7
 cover: ""
 explicit: false
