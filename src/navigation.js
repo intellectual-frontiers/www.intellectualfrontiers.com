@@ -97,13 +97,13 @@ export const footerData = {
     },
     {
       title: 'Quick Links',
-      links: [        
+      links: [
         { text: 'Patents for Sale', href: '/patents' },
         { text: 'All Topics', href: '/topics' },
         { text: 'FAQs', href: '/faq' },
-        { text: 'Articles', href: '/article' },        
+        { text: 'Articles', href: '/article' },
         { text: 'About Us', href: '/about' },
-        { text: 'Contact Us', href: '/contact' },       
+        { text: 'Contact Us', href: '/contact' },
       ],
     },
     {
@@ -120,10 +120,10 @@ export const footerData = {
   ],
   socialLinks: [
     { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://twitter.com/IntelFrontiers' },
-    // { ariaLabel: 'Flipboard', icon: 'tabler:brand-flipboard', href: '#' },
+    { ariaLabel: 'Spotify', icon: 'tabler:brand-spotify', href: 'https://open.spotify.com/show/2K9w0Pkdqh2w6DQTLiz7eO?si=a736d40484d8407f' },
     // { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: '#' },
     // { ariaLabel: 'RSS', icon: 'tabler:rss', href: '#' },
-   
+
   ],
   footNote: `
     <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)]"></span>
