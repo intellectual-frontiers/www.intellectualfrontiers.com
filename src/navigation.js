@@ -120,7 +120,7 @@ export const footerData = {
   ],
   socialLinks: [
     { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://twitter.com/IntelFrontiers' },
-    { ariaLabel: 'Spotify', icon: 'tabler:brand-spotify', href: 'https://open.spotify.com/show/2K9w0Pkdqh2w6DQTLiz7eO?si=a736d40484d8407f' },
+    { ariaLabel: 'Spotify', icon: 'tabler:brand-spotify', href: 'https://open.spotify.com/show/2K9w0Pkdqh2w6DQTLiz7eO?si=eb058dc33e1a4dc6' },
     // { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: '#' },
     // { ariaLabel: 'RSS', icon: 'tabler:rss', href: '#' },
 
