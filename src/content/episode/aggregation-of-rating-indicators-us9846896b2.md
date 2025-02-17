@@ -1,8 +1,8 @@
 ---
 title: Aggregation of rating indicators - US9846896B2
-audioUrl: /podcast/aggregate-rating-indicator-patent-US9846896B2.wav
-pubDate: Dec 6 2024
-duration: 12:01
+audioUrl: /podcast/aggregation-of-rating-indicators-us9846896b2-updated.mp3
+pubDate: Feb 17 2025
+duration: 08:10
 size: 0.7
 cover: ""
 explicit: false

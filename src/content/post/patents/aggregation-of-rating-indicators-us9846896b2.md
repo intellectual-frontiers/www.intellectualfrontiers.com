@@ -62,7 +62,7 @@ downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/b8/17/f8/9fe36b7991db27/US9846896.pdf'
 notebookLMResources:
   externalLink: "https://notebooklm.google.com/notebook/d0db89a1-366d-471a-bfce-f30695992ae4/audio"
-  audioPath: "/podcast/aggregate-rating-indicator-patent-US9846896B2.wav"
+  audioPath: "/podcast/aggregation-of-rating-indicators-us9846896b2-updated.mp3"
 ---
 
 ### Abstract
