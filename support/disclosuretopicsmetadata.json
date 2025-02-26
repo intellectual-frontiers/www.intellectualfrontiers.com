@@ -1,0 +1,44 @@
+{
+  "extended-reality": {
+    "metaTitle": "Patent Licensing - Intellectual Frontiers",
+    "metaDescription": "Patent Licensing - Intellectual Frontiers",
+    "shortDescription": "",
+    "displayName": "Extended Reality",
+    "tagDisplayLabel": "Extended Reality"
+  },
+  "virtual-reality": {
+    "metaTitle": "Patent Licensing - Intellectual Frontiers",
+    "metaDescription": "Patent Licensing - Intellectual Frontiers",
+    "shortDescription": "",
+    "displayName": "Virtual Reality",
+    "tagDisplayLabel": "Virtual Reality"
+  },
+  "search-engines": {
+    "metaTitle": "Patent Licensing - Intellectual Frontiers",
+    "metaDescription": "Patent Licensing - Intellectual Frontiers",
+    "shortDescription": "",
+    "displayName": "Search Engines",
+    "tagDisplayLabel": "Search Engines"
+  },
+  "mobile-device": {
+    "metaTitle": "Mobile Device",
+    "metaDescription": "Mobile Device",
+    "shortDescription": "Mobile Device",
+    "displayName": "Mobile Device",
+    "tagDisplayLabel": "Mobile Device"
+  },  
+  "scanner": {
+    "metaTitle": "Scanner",
+    "metaDescription": "Scanner",
+    "shortDescription": "Scanner",
+    "displayName": "Scanner",
+    "tagDisplayLabel": "Scanner"
+  },
+  "web-security": {
+    "metaTitle": "Web Security",
+    "metaDescription": "Web Security",
+    "shortDescription": "Web Security",
+    "displayName": "Web Security",
+    "tagDisplayLabel": "Web Security"
+  }
+}

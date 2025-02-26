@@ -148,7 +148,7 @@ const config = yaml.load(fs.readFileSync('src/config.yaml', 'utf8')) as {
     blog?: AppBlogConfig;
     patent?: AppPatentConfig;
     article?: AppArticleConfig;
-    disclosure?: AppDisclosureConfig
+    
   };
   ui?: unknown;
   analytics?: unknown;
@@ -207,86 +207,6 @@ const getI18N = () => {
     }),
   }) as I18NConfig;
 };
-
-export interface AppDisclosureConfig {
-  isEnabled: boolean;
-  postsPerPage: number;
-  post: {
-    isEnabled: boolean;
-    permalink: string;
-    robots: {
-      index: boolean;
-      follow: boolean;
-    };
-  };
-  list: {
-    isEnabled: boolean;
-    pathname: string;
-    robots: {
-      index: boolean;
-      follow: boolean;
-    };
-  };
-  category: {
-    isEnabled: boolean;
-    pathname: string;
-    robots: {
-      index: boolean;
-      follow: boolean;
-    };
-  };
-  tag: {
-    isEnabled: boolean;
-    pathname: string;
-    robots: {
-      index: boolean;
-      follow: boolean;
-    };
-  };
-}
-
-const getAppDisclosure = () => {
-  const _default = {
-    isEnabled: false,
-    postsPerPage: 6,
-    post: {
-      isEnabled: true,
-      permalink: '/disclosure/%slug%',
-      robots: {
-        index: true,
-        follow: true,
-      },
-    },
-    list: {
-      isEnabled: true,
-      pathname: 'disclosures',
-      robots: {
-        index: true,
-        follow: true,
-      },
-    },
-    category: {
-      isEnabled: true,
-      pathname: 'category',
-      robots: {
-        index: true,
-        follow: true,
-      },
-    },
-    tag: {
-      isEnabled: true,
-      pathname: 'topics',
-      robots: {
-        index: false,
-        follow: true,
-      },
-    },
-  };
-
-  return merge({}, _default, config?.apps?.disclosure ?? {}) as AppDisclosureConfig;
-};
-
-
 
 const getAppBlog = () => {
   const _default = {
@@ -440,5 +360,3 @@ export const UI = getUI();
 export const ANALYTICS = getAnalytics();
 export const APP_PATENT = getAppPatent();
 export const APP_ARTICLE = getAppArticle();
-// Add this to your existing exports
-export const APP_DISCLOSURE = getAppDisclosure();

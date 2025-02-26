@@ -1,0 +1,55 @@
+---
+import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
+// import ItemGrid from '~/components/ui/ItemGrid.astro';
+import Headline from '~/components/ui/Headline.astro';
+import type { Features } from '~/types';
+import ItemGridFeaturedDisclosure from '~/components/disclosure/ItemGridFeaturedDisclosure.astro';
+
+const {
+  title = await Astro.slots.render('title'),
+  subtitle = await Astro.slots.render('subtitle'),
+  tagline = await Astro.slots.render('tagline'),
+  items = [],
+  columns = 2,
+
+  defaultIcon,
+
+  id,
+  isDark = false,
+  classes = {},
+  bg = await Astro.slots.render('bg'),
+} = Astro.props as Features;
+---
+
+<WidgetWrapper id={id} isDark={isDark} containerClass={`max-w-7xl ${classes?.container ?? ''}`} bg={bg}>
+  <Headline title={title} subtitle={subtitle} tagline={tagline} classes={classes?.headline} />
+  <ItemGridFeaturedDisclosure
+    items={items}
+    columns={columns}
+    defaultIcon={defaultIcon}
+    classes={{
+      container: '',
+      title: 'md:text-[1.3rem]',
+      icon: 'text-white bg-primary rounded-full w-10 h-10 p-2 md:w-12 md:h-12 md:p-3 mr-4 rtl:ml-4 rtl:mr-0',
+      ...((classes?.items as {}) ?? {}),
+    }}
+  />
+  <div class="text-center mt-10">
+    <button
+      type="button"
+      class="text-white text-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+      ><a href="/patents"
+        >All Patents <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-5 h-5 ml-1 -mr-1.5 rtl:mr-1 rtl:-ml-1.5 inline-block"
+        >
+          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+        </svg>
+      </a></button
+    >
+  </div>
+</WidgetWrapper>

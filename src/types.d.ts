@@ -69,6 +69,8 @@ export interface Post {
   blogCitations?: BlogCitations[];
   notebookLMResources?: notebookLMResources;
   authnAuthz?: authnAuthz;
+  disclosureAuthors?: Array<string>;
+  disclosureId?: string;
 }
 
 export interface PatentSummaryLinks {
@@ -202,6 +204,7 @@ export interface Item {
   patentStatus?: string;
   inventor?: string;
   viewCount?: string;
+  disclosureId?: string;
 }
 
 export interface Price {

@@ -1,6 +1,6 @@
 import slugify from 'limax';
 
-import { SITE, APP_BLOG, APP_PATENT, APP_ARTICLE, APP_DISCLOSURE } from '~/utils/config';
+import { SITE, APP_BLOG, APP_PATENT, APP_ARTICLE } from '~/utils/config';
 
 import { trim } from '~/utils/utils';
 
@@ -35,12 +35,6 @@ export const ARTICLE_BASE = cleanSlug(APP_ARTICLE?.list?.pathname);
 export const ARTICLE_CATEGORY_BASE = cleanSlug(APP_ARTICLE?.category?.pathname);
 export const ARTICLE_TAG_BASE = cleanSlug(APP_ARTICLE?.tag?.pathname) || 'tag';
 
-export const DISCLOSURE_BASE = cleanSlug(APP_DISCLOSURE?.list?.pathname);
-export const DISCLOSURE_CATEGORY_BASE = cleanSlug(APP_DISCLOSURE?.category?.pathname);
-export const DISCLOSURE_TAG_BASE = cleanSlug(APP_DISCLOSURE?.tag?.pathname) || 'tag';
-
-export const POST_DISCLOSURE_PATTERN = trimSlash(APP_DISCLOSURE?.post?.permalink || `${DISCLOSURE_BASE}/%slug%`);
-console.log(POST_DISCLOSURE_PATTERN)
 /** */
 export const getCanonical = (path = ''): string | URL => {
   const url = String(new URL(path, SITE.site));
@@ -72,16 +66,8 @@ export const getPermalink = (slug = '', type = 'page'): string => {
     case 'articletag':
       permalink = createPath(ARTICLE_TAG_BASE, trimSlash(slug));
       break;
-
     case 'post':
       permalink = createPath(trimSlash(slug));
-      break;
-    case 'disclosurecategory':
-      permalink = createPath(DISCLOSURE_CATEGORY_BASE, trimSlash(slug));
-      break;
-
-    case 'disclosuretag':
-      permalink = createPath(DISCLOSURE_TAG_BASE, trimSlash(slug));
       break;
 
     case 'page':
@@ -105,8 +91,6 @@ export const getBlogPermalink = (): string => getPermalink(BLOG_BASE);
 export const getPatentPermalink = (): string => getPermalink(PATENT_BASE);
 
 export const getArticlePermalink = (): string => getPermalink(ARTICLE_BASE);
-
-export const getDisclosurePermalink = (): string => getPermalink(DISCLOSURE_BASE);
 
 
 /** */

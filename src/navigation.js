@@ -1,29 +1,29 @@
-import { getPermalink, /*getBlogPermalink, getAsset,*/getPatentPermalink, getArticlePermalink } from './utils/permalinks';
+import { getPermalink, /*getBlogPermalink, getAsset,*/getPatentPermalink, getArticlePermalink, getDisclosurePermalink } from './utils/permalinks';
 
 export const headerData = {
   links: [
-    {
-      text: 'Home',
-      // links: [
-      //   {
-      //     text: 'SaaS',
-      //     href: getPermalink('/homes/saas'),
-      //   },
-      //   {
-      //     text: 'Startup',
-      //     href: getPermalink('/homes/startup'),
-      //   },
-      //   {
-      //     text: 'Mobile App',
-      //     href: getPermalink('/homes/mobile-app'),
-      //   },
-      //   {
-      //     text: 'Personal',
-      //     href: getPermalink('/homes/personal'),
-      //   },
-      // ],
-      href: '/',
-    },
+    // {
+    //   text: 'Home',
+    //   // links: [
+    //   //   {
+    //   //     text: 'SaaS',
+    //   //     href: getPermalink('/homes/saas'),
+    //   //   },
+    //   //   {
+    //   //     text: 'Startup',
+    //   //     href: getPermalink('/homes/startup'),
+    //   //   },
+    //   //   {
+    //   //     text: 'Mobile App',
+    //   //     href: getPermalink('/homes/mobile-app'),
+    //   //   },
+    //   //   {
+    //   //     text: 'Personal',
+    //   //     href: getPermalink('/homes/personal'),
+    //   //   },
+    //   // ],
+    //   href: '/',
+    // },
     {
       text: 'About Us',
       href: '/about',
@@ -31,6 +31,10 @@ export const headerData = {
     {
       text: 'Patents for Sale',
       href: getPatentPermalink('/patents'),
+    },
+    {
+      text: 'Defensive Disclosures',
+      href: getDisclosurePermalink('/defensive-dosclosures'),
     },
     {
       text: 'Topics',

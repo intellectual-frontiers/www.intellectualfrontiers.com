@@ -1,0 +1,53 @@
+---
+import type { InferGetStaticPropsType, GetStaticPaths } from 'astro';
+import { blogTagRobots, getStaticPathsDisclosureTag } from '~/utils/disclosure';
+
+import Layout from '~/layouts/PageLayout.astro';
+import BlogList from '~/components/disclosure/List.astro';
+import Headline from '~/components/blog/Headline.astro';
+import Pagination from '~/components/blog/Pagination.astro';
+//Import the meta data json file
+import TopicsMetaData from '../../../../support/disclosuretopicsmetadata.json';
+
+export const prerender = true;
+
+export const getStaticPaths = (async ({ paginate }) => {
+  return await getStaticPathsDisclosureTag({ paginate });
+}) satisfies GetStaticPaths;
+
+type Props = InferGetStaticPropsType<typeof getStaticPaths>;
+
+const { page, tag } = Astro.props as Props;
+
+const currentPage = page.currentPage ?? 1;
+const titleText = tag.replaceAll('-', ' ').replace(/\s[a-z]|^[a-z]/gi, (a) => a.toUpperCase());
+//Get the associated value for the tag
+const topicMetadataEntry = TopicsMetaData[tag];
+//Construct the meta tilte for the page
+const title =
+  topicMetadataEntry?.metaTitle ??
+  `${titleText} Defensive Disclosures ${currentPage > 1 ? ` — Page ${currentPage} ` : ''}`;
+
+//Construct the meta description for the page
+const description = topicMetadataEntry?.metaDescription ?? `${titleText}`;
+
+const metadata = {
+  title,
+  description,
+  robots: {
+    index: true,
+    follow: true,
+  },
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="px-4 md:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
+    <Headline>
+      Access defensive disclosures on the topic `<span class="">{tag.replace(/-/g, ' ')}</span>`
+    </Headline>
+    <BlogList posts={page.data} />
+    <Pagination page={page} />
+  </section>
+</Layout>

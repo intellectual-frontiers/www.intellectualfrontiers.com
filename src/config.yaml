@@ -113,6 +113,34 @@ apps:
       robots:
         index: false
 
+  disclosure:
+    isEnabled: true
+    postsPerPage: 10
+
+    post:
+      isEnabled: true
+      permalink: '/%slug%'
+      robots:
+        index: true
+
+    list:
+      isEnabled: true
+      pathname: 'defensive-disclosures'
+      robots:
+        index: true
+
+    category:
+      isEnabled: true
+      pathname: 'defensive-disclosures'
+      robots:
+        index: true
+
+    tag:
+      isEnabled: true
+      pathname: 'defensive-disclosures/topics'
+      robots:
+        index: true
+
 analytics:
   vendors:
     googleAnalytics:
