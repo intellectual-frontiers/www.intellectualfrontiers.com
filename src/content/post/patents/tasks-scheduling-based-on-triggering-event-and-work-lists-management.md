@@ -61,7 +61,6 @@ externalLinks:
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/28/32/0a/6f98f67c215065/US10403399.pdf'
 notebookLMResources:
-  externalLink: ""
   audioPath: "/podcast/tasks-scheduling-based-on-triggering-event-and-work-lists-management-us10403399b2.mp3"
 ---
 
