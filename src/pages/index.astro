@@ -18,6 +18,9 @@ import FeaturedTopics from '../../support/featuredtopics.json';
 import MostViewedPatent from '../../support/mostviewpatent.json';
 import Faq from '../../support/faq.json';
 import { Schema } from 'astro-seo-schema';
+import FeaturedDisclosure from '../../support/featureddisclosure.json';
+import FeaturesDisclosure from '~/components/disclosure/FeaturesDisclosure.astro';
+import MostViewedDisclosures from '~/components/disclosure/MostViewedDisclosures.astro';
 
 const metadata = {
   title: 'Patent License | Buy and Sell Patents Online - Intellectual Frontiers',
@@ -112,14 +115,11 @@ const metadata = {
     ]}
     image={{ src: '', alt: '' }}
   >
-    <Fragment slot="title">Patents for Sale: Explore, Acquire, and Secure Licensing for Breakthrough Patents</Fragment>
+    <Fragment slot="title">Patents for Sale & Licensing | Explore Intellectual Assets & Defensive Disclosures</Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        Intellectual Frontiers presents a gateway to innovation through our extensive advanced tech patent portfolio,
-        offering breakthrough solutions across various industries. Each patent is an opportunity for your business to
-        leap forward, combining cutting-edge technology with strategic innovation. Discover, explore, and acquire the
-        keys to your future success and industry leadership with our patent collection.</span
+        Intellectual Frontiers is a premier platform for buying, selling, and licensing patents, featuring a diverse portfolio across software, medical devices, healthcare, and blockchain. Alongside patents available for acquisition, the site also features defensive disclosures — strategically published innovations that prevent competitors from securing patents on key technologies. Additionally, Intellectual Frontiers provides a space for innovators to publish their own defensive disclosures, ensuring their ideas remain publicly documented and protected.</span
       >
     </Fragment>
   </Hero>
@@ -133,6 +133,18 @@ const metadata = {
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
   </Features>
+
+  <!-- <FeaturesDisclosure
+  id="features"
+  tagline=""
+  title="Featured Defensive Disclosures"
+  subtitle=""
+  items={FeaturedDisclosure}
+>
+<Fragment slot="bg">
+  <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+</Fragment>
+</FeaturesDisclosure> -->
 
   <!-- Features Widget *************** -->
 
@@ -292,6 +304,18 @@ const metadata = {
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
   </Features2>
+
+  <!-- <MostViewedDisclosures
+  id="features"
+  tagline=""
+  title="Most Viewed Defensive Disclosures"
+  subtitle=""
+  items={FeaturedDisclosure}
+>
+<Fragment slot="bg">
+  <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+</Fragment>
+</MostViewedDisclosures> -->
 
   <!-- HighlightedPosts Widget ******* -->
 

@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Web Security Scanner with Accelerate Detection and Verification of Vulnerabilities",
+    "description": "The web security scanner is a software tool that automatically examines web applications for security vulnerabilities through systematic crawling and testing phases.",
+    "link":"/defensive-disclosures/web-security-scanner-with-accelerate-detection-and-verification-of-vulnerabilities",
+    "disclosureId": "DD20241204001",
+    "inventor":"Shahid N. Shah"
+  },
+  {
+    "title": "Preventing Dust Ingression into a Foldable Mobile Device",
+    "description": "This publication describes techniques and apparatuses directed to the prevention of dust ingression into a foldable mobile device (e.g., at a hinge module)." ,
+    "link": "/defensive-disclosures/preventing-dust-ingression-into-a-foldable-mobile-device",
+    "disclosureId": "DD20241202001",
+    "inventor":"Shahid N. Shah"
+  },
+  {
+    "title": "Automatically Determining Missing Product Attributes Using a Large Language Model Automatical",
+    "description": "To surface products that are relevant to customers, search engines require online merchants to fill in certain attributes relating to their products. ",
+    "link":"/defensive-disclosures/automatically-determining-missing-product-attributes-using-a-large-language-model-automatical",
+    "disclosureId": "DD20241129002",
+    "inventor":"Shahid N. Shah"
+  },
+  {
+    "title": "Eye Tracking Driven Dynamic Glanceable Passthrough Window for Extended Reality",
+    "description": "Virtual reality (VR) and extended reality (XR) devices offer an immersive experience to users. However, such an immersive experience can create a disconnect from the real world for users.",
+    "link":"/defensive-disclosures/eye-tracking-driven-dynamic-glanceable-passthrough-window-for-extended-reality",
+    "disclosureId": "DD20241129001",
+    "inventor":"Shahid N. Shah"
+  }  
+]

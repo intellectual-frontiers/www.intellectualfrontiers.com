@@ -1,18 +1,30 @@
 [
-    {
-      "title": "What types of patents are included in Intellectual Frontiers’ portfolio?",
-      "description": "Our portfolio spans a diverse range of industries. It includes breakthrough patents in various high-growth areas, offering innovative solutions and cutting-edge technology applicable across multiple sectors."
-    },
-    {
-      "title": "How can I explore the specific patents available for acquisition?",
-      "description": "You can easily browse our patent listings on our website. Each listing is accompanied by a detailed profile, including descriptions, potential applications, and visual aids, to help you understand the full potential of each patent."
-    },
-    {
-      "title": "What is the process for acquiring a patent from Intellectual Frontiers?",
-      "description": "To initiate the acquisition process, simply contact us through our website. Our team will guide you through the necessary steps, including discussions on licensing terms, pricing, and any other specific requirements you may have."
-    },
-    {
-      "title": "Can IntellectualFrontiers.com assist in understanding how a specific patent can be integrated into my business?",
-      "description": "Absolutely. Our expert team is available to discuss how our patents can be adapted to your business needs, offering insights into practical applications and integration strategies."
-    }
-  ]
+  {
+    "title": "What types of intellectual property are listed on Intellectual Frontiers?",
+    "description": "The portfolio includes two key categories of intellectual assets:<br><div style=\"padding-top:5px;\" class=\"text-muted\"><span class=\"font-bold\">Patents</span> – Available for sale and licensing, spanning software, medical devices, blockchain, healthcare, and other high-growth industries.</div><div style=\"padding-top:5px;\" class=\"text-muted\"><span class=\"font-bold\">Defensive Disclosures</span> – Publicly documented innovations that prevent competitors from patenting key technologies where traditional patenting may not be viable. Many disclosures relate to strategically and carefully identified whitespaces around patented portfolios so as to provide a more robust space for buyers to implement the patented innovations without worrying about competitive threats.</div>"
+  },
+  {
+    "title": "How can I explore available patents and defensive disclosures?",
+    "description": "You can browse comprehensive listings on the website. Each entry includes a detailed profile with descriptions, potential applications, and supporting visuals to help you assess its value."
+  },
+  {
+    "title": "What is the process for acquiring a patent from Intellectual Frontiers?",
+    "description": "To start the acquisition process, simply contact us through our website. Our team will guide you through licensing terms, pricing, and any additional steps needed to finalize the transaction."
+  },
+  {
+    "title": "What are defensive disclosures, and how do they differ from patents?",
+    "description": "Defensive disclosures are publicly published innovations intended to prevent others from patenting the same idea. Unlike patents, they do not provide exclusive rights but serve as a strategic tool to block competitors from securing restrictive patents on certain technologies."
+  },
+  {
+    "title": "How do defensive disclosures contribute to an intellectual property strategy?",
+    "description": "Defensive disclosures help businesses: <div class=\"text-muted\"><div> • Safeguard innovations that may not be practical to patent due to strategic reasons.</div><div> •  Prevent competitors from patenting similar technologies, ensuring open industry access.</div><div> • Strengthen an IP portfolio by complementing patents with additional layers of protection.</div></div>"
+  },
+  {
+    "title": "Can I publish my own defensive disclosures on Intellectual Frontiers?",
+    "description": "Yes. Intellectual Frontiers provides a platform for innovators to publish their defensive disclosures, ensuring their ideas are publicly documented and protected from restrictive patent claims. The publication dates are immutable, making them a reliable reference for patent examiners and researchers."
+  },
+  {
+    "title": "Can Intellectual Frontiers help integrate a specific patent or defensive disclosure into my business?",
+    "description": "Absolutely. Our team can discuss how both patents and defensive disclosures can be leveraged for innovation, competitive positioning, and strategic growth within your industry."
+  }
+]
