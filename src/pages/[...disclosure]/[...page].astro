@@ -5,7 +5,10 @@ import BlogList from '../../components/disclosure/List.astro';
 import Headline from '../../components/blog/Headline.astro';
 import Pagination from '../../components/blog/Pagination.astro';
 import { Icon } from 'astro-icon/components';
-
+import Hero from '~/components/widgets/Hero.astro';
+import Features4 from '~/components/widgets/Features4.astro';
+import Content from '~/components/disclosure/Content.astro';
+import Content2 from '~/components/disclosure/Content2.astro';
 import { blogListRobots, getStaticPathsDisclosureList } from '../../utils/disclosure';
 
 export const prerender = true;
@@ -22,8 +25,8 @@ const metadata = {
   title: 'Defensive Disclosures | Intellectual Frontiers',
   description: `Defensive Disclosures at Intellectual Frontiers`,
   robots: {
-    index: blogListRobots?.index && currentPage === 1,
-    follow: blogListRobots?.follow,
+    index: false, //blogListRobots?.index && currentPage === 1,
+    follow: false, //blogListRobots?.follow,
   },
   openGraph: {
     type: 'disclosure',
@@ -39,32 +42,125 @@ const metadata = {
 };
 ---
 
-<Layout metadata={metadata}>
-  <section class="px-6 sm:px-6 py-10 sm:py-10 lg:py-10 mx-auto max-w-4xl">
-    <Headline
-      subtitle=""
+<Layout metadata={metadata}>  
+  <Hero
+  actions={[
+    {
+      variant: 'primary',
+      text: 'Submit a Disclosure',
+      href: '#',
+      icon: 'tabler:arrow-right',
+    },
+    {
+      // variant: 'primary',
+      text: 'Explore Disclosures',
+      href: '#',
+      icon: 'tabler:arrow-right',
+    },
+    // { text: 'Learn more', href: '#features' },
+  ]}
+  image={{ src: '', alt: '' }}
+>
+  <Fragment slot="title">Publish Your Invention into the Public Domain and Secure Prior Art Recognition</Fragment>
+
+  <Fragment slot="subtitle">
+    <span class="hidden sm:inline">
+      Companies that publish with us know that their disclosures are reliably found by patent authorities, patent offices, and examiners, ensuring that their innovations remain unpatentable by others.</span
     >
-    Intellectual Frontiers Defensive Disclosures
-    </Headline> 
-    <div class="max-w-md mx-auto bg-white shadow-lg rounded-lg overflow-hidden my-14 border border-gray-200">
-      <div class="p-6">
-        <div class="flex justify-center mb-4">
-          <Icon name="tabler:calendar-time" class="w-12 h-12 text-blue-500" />
-        </div>
-        <h3 class="text-xl font-bold text-center text-gray-800 mb-2">Coming Soon!</h3>
-        <div class="text-gray-600 italic text-center">
-          A curated list of defensive disclosures will be available here shortly.
-        </div>
-        <div class="mt-6 flex justify-center">
-          <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-            <Icon name="tabler:bell-ringing" class="w-4 h-4 mr-1" />
-            Stay tuned
-          </span>
-        </div>
-      </div>     
-    </div>
-    <br>   
-    <!-- <BlogList posts={page.data} />
-    <Pagination page={page} /> -->
-  </section>
+  </Fragment>
+</Hero>
+<Content
+  isReversed
+  classes={{container: 'mt-6'}}
+  title="What is a Defensive Disclosure?"
+  subtitle='A defensive disclosure is a method to establish prior art by publishing details of an invention into the public domain to prevent others from obtaining a patent on the same innovation.<br><br><span>Studies reveal that up to two-thirds of patenting organizations actively use defensive disclosures within their IP strategy. The most effective way to make an invention public is through structured disclosure in a recognized industry repository.</span>''
+  items={[
+    {
+      title: '',
+      description:
+        'Ensures prior art recognition by patent examiners',
+    },
+    {
+      title: '',
+      description:
+        'Blocks competitors from obtaining overlapping patents',
+    },
+    {
+      title: '',
+      description:
+        'Acts as a cost-effective alternative to patenting',
+    },
+  ]}
+  image={{
+    src: '~/assets/images/dd-1.webp',
+    alt: 'Fractional CTO',
+  }}
+  callToAction={
+    {
+      variant: 'primary',
+      text: 'Publish Your Defensive Disclosure Today',
+      href: '#',
+      icon: 'tabler:arrow-right',
+    }
+  }
+>
+<Fragment slot="content">
+  <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+    Key Characteristics
+  </h3>
+</Fragment>
+
+<Fragment slot="bg">
+  <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+</Fragment>
+</Content>
+<Content2
+  classes={{container: 'mt-4'}}
+  title="Why Publish a Defensive Disclosure?"
+  subtitle='Organizations choose defensive publications as a strategic IP tool when patenting is either undesirable or impractical.'
+  items={[
+    {
+      title: 'Blocking Patents Before Grant',
+      icon: 'tabler:lock-password',
+      description: 'Patent examiners actively search prior art databases during examination. A properly indexed defensive disclosure:',
+      bullets: [
+        'Ensures the examiner identifies and cites the disclosure.',
+        'Prevents an overlapping patent from being granted in the first place.'
+      ]
+    },
+    {
+      title: 'Strengthening Legal Defenses in Opposition & Litigation',
+      description: 'While prevention is ideal, defensive disclosures also serve in:',
+      icon: 'tabler:gavel',
+      bullets: [
+        'Patent oppositions – Challenging a granted patent\'s validity.',
+        'Litigation & invalidity proceedings – Establishing prior art to defeat infringement claims.'
+      ]
+    },
+    {
+      title: 'Cost-Effective IP Strategy',
+      description: 'Patents can be expensive to obtain and maintain.',
+      icon: 'tabler:coin',
+      bullets: [
+        'Defensive disclosures achieve similar protective effects at a fraction of the cost.'
+      ]
+    }
+  ]}
+  image={{
+    src: '~/assets/images/dd-2.webp',
+    alt: 'image',
+  }}
+  callToAction={{
+    variant: 'primary',
+    text: 'Start Your Submission',
+    href: '#',
+    icon: 'tabler:arrow-right',
+  }}  
+>
+<Fragment slot="content">
+  <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+    Defensive disclosures offer:
+  </h3>
+</Fragment>
+</Content2>
 </Layout>

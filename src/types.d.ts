@@ -205,6 +205,7 @@ export interface Item {
   inventor?: string;
   viewCount?: string;
   disclosureId?: string;
+  bullets?: string[];
 }
 
 export interface Price {
