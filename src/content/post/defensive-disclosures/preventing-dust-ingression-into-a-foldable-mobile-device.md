@@ -28,9 +28,9 @@ disclosureAuthors:
     - Kodo Lin
     - Yongho Lim
 image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREO3tkIJnmJZcWmgLLR-z973QVHQ8zbwDGnw&s'
-tags:
-  - Mobile Device
-  - Virtual Reality
+# tags:
+#   - Mobile Device
+#   - Virtual Reality
 downloadableDocument: 'https://example.com/blockchain-voting-disclosure.pdf'
 ---
 ## Abstract

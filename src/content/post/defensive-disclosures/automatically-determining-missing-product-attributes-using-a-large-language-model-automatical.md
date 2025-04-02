@@ -32,8 +32,8 @@ disclosureAuthors:
     - Sree Meruva 
 # image: '/images/disclosure/eye-tracking-driven-dynamic-glanceable-passthrough-window-for-extended-reality-cover.jpg'
 image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREO3tkIJnmJZcWmgLLR-z973QVHQ8zbwDGnw&s'
-tags:
-  - Search Engines
+# tags:
+#   - Search Engines
 downloadableDocument: 'https://example.com/blockchain-voting-disclosure.pdf'
 ---
 ## Abstract

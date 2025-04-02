@@ -29,9 +29,9 @@ disclosureAuthors:
     - Kathleen Bryan
     - Shiblee Hasan
 image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREO3tkIJnmJZcWmgLLR-z973QVHQ8zbwDGnw&s'
-tags:
-  - Virtual Reality
-  - Extended Reality
+# tags:
+#   - Virtual Reality
+#   - Extended Reality
 downloadableDocument: 'https://example.com/blockchain-voting-disclosure.pdf'
 ---
 ## Abstract

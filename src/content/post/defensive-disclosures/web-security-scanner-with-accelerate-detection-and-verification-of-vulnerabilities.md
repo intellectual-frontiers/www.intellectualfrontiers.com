@@ -27,9 +27,9 @@ abstract: This publication describes techniques and apparatuses directed to the 
 disclosureAuthors:
     - Yash Bhatnagar
 image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREO3tkIJnmJZcWmgLLR-z973QVHQ8zbwDGnw&s'
-tags:
-  - Scanner
-  - Web Security
+# tags:
+#   - Scanner
+#   - Web Security
 downloadableDocument: 'https://example.com/blockchain-voting-disclosure.pdf'
 ---
 The web security scanner is a software tool that automatically examines web applications for security vulnerabilities through systematic crawling and testing phases. Web security scanners receive customer scan configurations for deployed web applications in cloud services (e.g., application engine, compute service, kubernetes engine), including starting uniform resource locators (URLs), authentication credentials, and scan scope parameters like URLs to exclude using regular expressions. The web security scanner validates customer ownership of URLs before initiating the crawling phase.
