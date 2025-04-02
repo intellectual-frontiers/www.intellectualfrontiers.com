@@ -1,0 +1,92 @@
+---
+import type { ImageMetadata } from 'astro';
+import { Icon } from 'astro-icon/components';
+import Image from '~/components/common/Image.astro';
+import PostTags from '~/components/disclosure/Tags.astro';
+
+import { APP_BLOG } from '~/utils/config';
+import type { Post } from '~/types';
+
+import { getPermalink } from '~/utils/permalinks';
+import { findImage } from '~/utils/images';
+import { getFormattedDate } from '~/utils/utils';
+
+export interface Props {
+  post: Post;
+}
+
+const { post } = Astro.props;
+const image = (await findImage(post.image)) as ImageMetadata | undefined;
+
+const link = APP_BLOG?.post?.isEnabled ? getPermalink(post.permalink, 'post') : '';
+---
+
+<div class="p-4 md:w-1/2">
+  <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow bg-white">
+    {image && (
+      <a href={link ?? 'javascript:void(0)'}>
+        <Image
+          src={image}
+          class="lg:h-48 md:h-36 w-full object-cover object-center"
+          widths={[400, 720]}
+          width={720}
+          sizes="(max-width: 720px) 400px, 720px"
+          alt={post.title}
+          aspectRatio="16:9"
+          loading="lazy"
+          decoding="async"
+        />
+      </a>
+    )}
+    <div class="px-6 pt-2 pb-4">
+      <h2 class="tracking-widest text-sm title-font font-medium text-gray-500 mb-1">
+        <Icon name="tabler:calendar-month" class="w-3.5 h-3.5 inline-block -mt-0.5 dark:text-gray-400" />
+        <time datetime={String(post.publishDate)} class="inline-block mt-0.5">
+          Publication Date: {getFormattedDate(post.publishDate)}
+        </time>
+      </h2>
+      <div class="line-clamp-5">
+      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+        {link ? (
+          <a class="hover:text-primary dark:hover:text-blue-700 transition ease-in duration-200" href={link}>
+            {post.title}
+          </a>
+        ) : (
+          post.title
+        )}
+      </h1>
+      {post.excerpt && <p class="leading-relaxed mb-3 text-gray-600">{post.excerpt}</p>}
+    </div>
+      {post.disclosureAuthors && post.disclosureAuthors.length > 0 && (
+        <div class="mb-2 mt-2">
+          <span class="font-medium text-sm text-gray-700 block mb-2">
+            {post.disclosureAuthors.length > 1 ? 'Authors:' : 'Author:'}
+          </span>
+          <div class="flex flex-wrap">
+            {post.disclosureAuthors.map((author) => (
+              <span class="bg-blue-100 text-blue-800 text-xs font-medium mr-2 mb-2 px-2.5 py-0.5 rounded">
+                {author}
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
+      
+      <div class="flex items-center flex-wrap mt-2">
+        {link ? (
+          <a href={link} class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+            Read the full disclosure
+            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        ) : null}
+      </div>
+      
+      <div class="borsder-t border-gray-200 pt-4">
+        <PostTags tags={post.tags} />
+      </div>
+    </div>
+  </div>
+</div>

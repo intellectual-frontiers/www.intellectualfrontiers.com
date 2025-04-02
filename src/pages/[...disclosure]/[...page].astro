@@ -1,7 +1,8 @@
 ---
 // File: [...disclosure]/[...page].astro
 import Layout from '../../layouts/PageLayout.astro';
-import BlogList from '../../components/disclosure/List.astro';
+import BlogList from '../../components/disclosure/List2.astro';
+// import BlogList from '../../components/disclosure/List.astro';
 import Pagination from '../../components/blog/Pagination.astro';
 import { Icon } from 'astro-icon/components';
 import Hero from '~/components/widgets/Hero.astro';
@@ -14,6 +15,7 @@ import Steps from '~/components/disclosure/Steps.astro';
 import Steps2 from '~/components/disclosure/Steps2.astro';
 import CallToAction from '~/components/disclosure/CallToAction.astro';
 import { blogListRobots, getStaticPathsDisclosureList } from '../../utils/disclosure';
+import Headline from '~/components/disclosure/Headline2.astro';
 
 export const prerender = true;
 
@@ -48,6 +50,320 @@ const metadata = {
 
 <Layout metadata={metadata}>  
   <Hero
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Submit a Disclosure',
+        href: '#',
+        icon: 'tabler:arrow-right',
+      },
+      {
+        // variant: 'primary',
+        text: 'Explore Disclosures',
+        href: '#browse-disclosures',
+        icon: 'tabler:arrow-right',
+      },
+      // { text: 'Learn more', href: '#features' },
+    ]}
+    image={{ src: '', alt: '' }}
+  >
+    <Fragment slot="title">Publish Your Invention into the Public Domain and Secure Prior Art Recognition</Fragment>
+
+    <Fragment slot="subtitle">
+      <span class="hidden sm:inline">
+        Companies that publish with us know that their disclosures are reliably found by patent authorities, patent offices, and examiners, ensuring that their innovations remain unpatentable by others.</span
+      >
+    </Fragment>
+  </Hero>
+  <Content
+    isReversed
+    classes={{container: 'mt-6'}}
+    title="What is a Defensive Disclosure?"
+    subtitle='A defensive disclosure is a method to establish prior art by publishing details of an invention into the public domain to prevent others from obtaining a patent on the same innovation.<br><br><span>Studies reveal that up to two-thirds of patenting organizations actively use defensive disclosures within their IP strategy. The most effective way to make an invention public is through structured disclosure in a recognized industry repository.</span>''
+    items={[
+      {
+        title: '',
+        description:
+          'Ensures prior art recognition by patent examiners',
+      },
+      {
+        title: '',
+        description:
+          'Blocks competitors from obtaining overlapping patents',
+      },
+      {
+        title: '',
+        description:
+          'Acts as a cost-effective alternative to patenting',
+      },
+    ]}
+    image={{
+      src: '~/assets/images/dd-1.webp',
+      alt: 'Fractional CTO',
+    }}
+    callToAction={
+      {
+        variant: 'primary',
+        text: 'Publish Your Defensive Disclosure Today',
+        href: '#',
+        icon: 'tabler:arrow-right',
+      }
+    }
+  >
+  <Fragment slot="content">
+    <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+      Key Characteristics
+    </h3>
+  </Fragment>
+
+  <Fragment slot="bg">
+    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+  </Fragment>
+  </Content>
+  <Content2
+    classes={{container: 'mt-4'}}
+    title="Why Publish a Defensive Disclosure?"
+    subtitle='Organizations choose defensive publications as a strategic IP tool when patenting is either undesirable or impractical.'
+    items={[
+      {
+        title: 'Blocking Patents Before Grant',
+        icon: 'tabler:lock-password',
+        description: 'Patent examiners actively search prior art databases during examination. A properly indexed defensive disclosure:',
+        bullets: [
+          'Ensures the examiner identifies and cites the disclosure.',
+          'Prevents an overlapping patent from being granted in the first place.'
+        ]
+      },
+      {
+        title: 'Strengthening Legal Defenses in Opposition & Litigation',
+        description: 'While prevention is ideal, defensive disclosures also serve in:',
+        icon: 'tabler:gavel',
+        bullets: [
+          'Patent oppositions – Challenging a granted patent\'s validity.',
+          'Litigation & invalidity proceedings – Establishing prior art to defeat infringement claims.'
+        ]
+      },
+      {
+        title: 'Cost-Effective IP Strategy',
+        description: 'Patents can be expensive to obtain and maintain.',
+        icon: 'tabler:coin',
+        bullets: [
+          'Defensive disclosures achieve similar protective effects at a fraction of the cost.'
+        ]
+      }
+    ]}
+    image={{
+      src: '~/assets/images/dd-2.webp',
+      alt: 'image',
+    }}
+    callToAction={{
+      variant: 'primary',
+      text: 'Start Your Submission',
+      href: '#',
+      icon: 'tabler:arrow-right',
+    }}  
+  >
+  <Fragment slot="content">
+    <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+      Defensive disclosures offer:
+    </h3>
+  </Fragment>
+  </Content2>
+  <Features
+  title="Why Should Organizations Use Defensive Publications?"
+  subtitle="Organizations face multiple options for protecting innovations:"
+  columns={3}
+  classes={{
+    container: 'bg-blue-50',
+  }}
+  items={[
+    {
+      title: 'Patents',
+      description:
+        'Provide exclusivity but require significant investment.',
+      icon: 'tabler:certificate',
+    },
+    {
+      title: 'Trade Secrets',
+      description:
+        'Keep innovations confidential but lack protection if disclosed or reverse-engineered.',
+      icon: 'tabler:lock-password',
+    },
+    {
+      title: 'Defensive Publications',
+      description: `Provide cost-effective prior art protection while maintaining open access.`,
+      icon: 'tabler:file-text-shield',
+    },
+  ]}
+  />
+  <Features2 
+  id="features" 
+  tagline="" 
+  title="Patent vs. Defensive Publication: A Strategic Trade-Off" 
+  subtitle="When patenting is not an option, a defensive disclosure ensures the invention remains unpatentable by others while saving costs and protecting market access." 
+  callToAction={
+    {
+      variant: 'primary',
+      text: 'Publish Your Disclosure',
+      href: '#',
+      icon: 'tabler:arrow-right',
+    }
+  } 
+  items={[
+    {
+      "title": "Business Considerations",
+      "description": "Is patenting desirable for revenue, licensing, or exclusivity?",
+      "icon": "tabler:cash-register"
+    },
+    {
+      "title": "Legal Considerations",
+      "description": "Is patenting possible based on novelty and eligibility?",
+      "icon": "tabler:gavel"
+    }
+  ]} 
+  />
+  <Content2
+    classes={{container: 'mt-4 bg-blue-50 !pb-8'}}
+    title="What Makes a Defensive Disclosure Legally Strong?"
+    subtitle=''
+    isReversed
+    items={[
+      {
+        title: 'Reliability in Court',
+        icon: 'tabler:lock-password',
+        description: '',
+        bullets: [
+          'A disclosure must be legally recognized as prior art in case of invalidation proceedings.',
+          'Proper indexing and timestamping ensure legal defensibility.'
+        ]
+      },
+      {
+        title: 'Accessibility to Patent Examiners',
+        description: '',
+        icon: 'tabler:gavel',
+        bullets: [
+          'Patent authorities only consider prior art they can find.',
+          '<a href="/">IntellectualFrontiers.com</a> ensures discoverability via structured indexing.'
+        ]
+      },
+      {
+        title: 'Anonymous Publication Option',
+        description: '',
+        icon: 'tabler:coin',
+        bullets: [
+          'Some companies prefer non-attributable defensive disclosures to protect strategic positioning.',
+      'We provide confidential submission options.'
+        ]
+      }
+    ]}
+    image={{
+      src: '~/assets/images/dd-3.webp',
+      alt: 'image',
+    }}
+    callToAction={{
+      variant: 'primary',
+      text: 'Ensure Your Disclosure is Legally Defensible',
+      href: '#',
+      icon: 'tabler:arrow-right',
+    }}  
+  >
+  <Fragment slot="content">
+    <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+      The value of a defensive disclosure depends on:
+    </h3>
+  </Fragment>
+  </Content2>
+
+  <Steps
+  classes={{container: 'mt-6'}}
+  title="Why IntellectualFrontiers.com?"
+  items={[
+    {
+      title: 'Indexed for Patent Examiner Discoverability',
+      description: `
+        <ul class="list-disc ml-4 space-y-2">
+          <li>Structured metadata ensures visibility in patent searches.</li>
+          <li>Optimized for citation in relevant prior art databases.</li>
+        </ul>
+      `,
+      icon: 'tabler:list-search',
+    },
+    {
+      title: 'Legally Defensible Timestamping',
+      description: `
+        <ol class="list-disc ml-4 space-y-2">
+          <li>Immutable, verifiable publication dates prevent legal challenges.</li>
+          <li>Ensures establishment of prior art at a fixed date.</li>
+        </ol>
+      `,
+      icon: 'tabler:calendar-stats',
+    },
+    {
+      title: 'Trusted by IP Professionals Worldwide',
+      description: `
+        <ol class="list-disc ml-4 space-y-2">
+          <li>Used by corporate IP teams, patent brokers, and law firms.</li>
+          <li>Provides industry-standard defensive disclosure structuring.</li>
+        </ol>
+      `,
+      icon: 'tabler:world-check',
+    },
+  ]}
+  image={{
+    src:  '~/assets/images/dd-4.webp',
+    alt: 'Steps image',
+  }}
+  callToAction={{
+    variant: 'primary',
+    text: 'Submit Your Defensive Disclosure Now',
+    href: '#',
+    icon: 'tabler:arrow-right',
+  }}
+  />
+
+  <Steps2
+  title="Submission Process: Ensuring a Legally Recognized Disclosure"
+  subtitle=""
+  callToAction={{
+    text: 'Start Your Submission',
+    href: '#',
+    icon: 'tabler:arrow-right',
+  }}
+  classes={{container: 'bg-blue-50 max-w-7xl !px-16 !md:px-16 pt-12'}}
+  items={[
+    {
+      title: 'Submit a Structured Disclosure',
+      description: `
+        <ul class="list-disc ml-4 space-y-2 text-muted">
+          <li>Structured metadata ensures visibility in patent searches.</li>
+          <li>Optimized for citation in relevant prior art databases.</li>
+        </ul>
+      `,
+      icon: 'tabler:square-rounded-number-1',
+    },
+    {
+      title: 'Immutable Timestamping & Indexing',
+      description: `
+        <ul class="list-disc ml-4 space-y-2 text-muted">
+          <li>Your disclosure receives a permanent, uneditable publication date.</li>
+          <li>Indexed for maximum visibility to patent examiners.</li>
+        </ul>
+      `,
+      icon: 'tabler:square-rounded-number-2',
+    },
+    {
+      title: 'Prior Art Citation & Visibility',
+      description: `
+        <ul class="list-disc ml-4 space-y-2 text-muted">
+          <li>Maximized likelihood of citation in patent rejections.</li>
+          <li>Industry-wide access for IP strategists and litigation use.</li>
+        </ul>
+      `,
+      icon: 'tabler:square-rounded-number-3',
+    },
+  ]}
+  />
+  <CallToAction
   actions={[
     {
       variant: 'primary',
@@ -56,334 +372,28 @@ const metadata = {
       icon: 'tabler:arrow-right',
     },
     {
-      // variant: 'primary',
-      text: 'Explore Disclosures',
-      href: '#',
-      icon: 'tabler:arrow-right',
+      variant: 'secondary',
+      text: 'Consult With Our IP Team',
+      href: '/contact',
+      icon: 'tabler:headset',
     },
-    // { text: 'Learn more', href: '#features' },
   ]}
-  image={{ src: '', alt: '' }}
->
-  <Fragment slot="title">Publish Your Invention into the Public Domain and Secure Prior Art Recognition</Fragment>
+  >
+  <Fragment slot="title">
+    Ensure Your Innovations Remain in the Public Domain with a Discoverable and Legally Defensible Disclosure
+  </Fragment>
 
   <Fragment slot="subtitle">
-    <span class="hidden sm:inline">
-      Companies that publish with us know that their disclosures are reliably found by patent authorities, patent offices, and examiners, ensuring that their innovations remain unpatentable by others.</span
-    >
+    For tailored IP strategies, contact <a href="mailto:support@intellectualfrontiers.com">support@intellectualfrontiers.com</a>
   </Fragment>
-</Hero>
-<Content
-  isReversed
-  classes={{container: 'mt-6'}}
-  title="What is a Defensive Disclosure?"
-  subtitle='A defensive disclosure is a method to establish prior art by publishing details of an invention into the public domain to prevent others from obtaining a patent on the same innovation.<br><br><span>Studies reveal that up to two-thirds of patenting organizations actively use defensive disclosures within their IP strategy. The most effective way to make an invention public is through structured disclosure in a recognized industry repository.</span>''
-  items={[
-    {
-      title: '',
-      description:
-        'Ensures prior art recognition by patent examiners',
-    },
-    {
-      title: '',
-      description:
-        'Blocks competitors from obtaining overlapping patents',
-    },
-    {
-      title: '',
-      description:
-        'Acts as a cost-effective alternative to patenting',
-    },
-  ]}
-  image={{
-    src: '~/assets/images/dd-1.webp',
-    alt: 'Fractional CTO',
-  }}
-  callToAction={
-    {
-      variant: 'primary',
-      text: 'Publish Your Defensive Disclosure Today',
-      href: '#',
-      icon: 'tabler:arrow-right',
-    }
-  }
->
-<Fragment slot="content">
-  <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-    Key Characteristics
-  </h3>
-</Fragment>
-
-<Fragment slot="bg">
-  <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-</Fragment>
-</Content>
-<Content2
-  classes={{container: 'mt-4'}}
-  title="Why Publish a Defensive Disclosure?"
-  subtitle='Organizations choose defensive publications as a strategic IP tool when patenting is either undesirable or impractical.'
-  items={[
-    {
-      title: 'Blocking Patents Before Grant',
-      icon: 'tabler:lock-password',
-      description: 'Patent examiners actively search prior art databases during examination. A properly indexed defensive disclosure:',
-      bullets: [
-        'Ensures the examiner identifies and cites the disclosure.',
-        'Prevents an overlapping patent from being granted in the first place.'
-      ]
-    },
-    {
-      title: 'Strengthening Legal Defenses in Opposition & Litigation',
-      description: 'While prevention is ideal, defensive disclosures also serve in:',
-      icon: 'tabler:gavel',
-      bullets: [
-        'Patent oppositions – Challenging a granted patent\'s validity.',
-        'Litigation & invalidity proceedings – Establishing prior art to defeat infringement claims.'
-      ]
-    },
-    {
-      title: 'Cost-Effective IP Strategy',
-      description: 'Patents can be expensive to obtain and maintain.',
-      icon: 'tabler:coin',
-      bullets: [
-        'Defensive disclosures achieve similar protective effects at a fraction of the cost.'
-      ]
-    }
-  ]}
-  image={{
-    src: '~/assets/images/dd-2.webp',
-    alt: 'image',
-  }}
-  callToAction={{
-    variant: 'primary',
-    text: 'Start Your Submission',
-    href: '#',
-    icon: 'tabler:arrow-right',
-  }}  
->
-<Fragment slot="content">
-  <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-    Defensive disclosures offer:
-  </h3>
-</Fragment>
-</Content2>
-<Features
-title="Why Should Organizations Use Defensive Publications?"
-subtitle="Organizations face multiple options for protecting innovations:"
-columns={3}
-classes={{
-  container: 'bg-blue-50',
-}}
-items={[
-  {
-    title: 'Patents',
-    description:
-      'Provide exclusivity but require significant investment.',
-    icon: 'tabler:certificate',
-  },
-  {
-    title: 'Trade Secrets',
-    description:
-      'Keep innovations confidential but lack protection if disclosed or reverse-engineered.',
-    icon: 'tabler:lock-password',
-  },
-  {
-    title: 'Defensive Publications',
-    description: `Provide cost-effective prior art protection while maintaining open access.`,
-    icon: 'tabler:file-text-shield',
-  },
-]}
-/>
-<Features2 
-id="features" 
-tagline="" 
-title="Patent vs. Defensive Publication: A Strategic Trade-Off" 
-subtitle="When patenting is not an option, a defensive disclosure ensures the invention remains unpatentable by others while saving costs and protecting market access." 
-callToAction={
-  {
-    variant: 'primary',
-    text: 'Publish Your Disclosure',
-    href: '#',
-    icon: 'tabler:arrow-right',
-  }
-} 
-items={[
-  {
-    "title": "Business Considerations",
-    "description": "Is patenting desirable for revenue, licensing, or exclusivity?",
-    "icon": "tabler:cash-register"
-  },
-  {
-    "title": "Legal Considerations",
-    "description": "Is patenting possible based on novelty and eligibility?",
-    "icon": "tabler:gavel"
-  }
-]} 
-/>
-<Content2
-  classes={{container: 'mt-4 bg-blue-50 !pb-8'}}
-  title="What Makes a Defensive Disclosure Legally Strong?"
-  subtitle=''
-  isReversed
-  items={[
-    {
-      title: 'Reliability in Court',
-      icon: 'tabler:lock-password',
-      description: '',
-      bullets: [
-        'A disclosure must be legally recognized as prior art in case of invalidation proceedings.',
-        'Proper indexing and timestamping ensure legal defensibility.'
-      ]
-    },
-    {
-      title: 'Accessibility to Patent Examiners',
-      description: '',
-      icon: 'tabler:gavel',
-      bullets: [
-        'Patent authorities only consider prior art they can find.',
-        '<a href="/">IntellectualFrontiers.com</a> ensures discoverability via structured indexing.'
-      ]
-    },
-    {
-      title: 'Anonymous Publication Option',
-      description: '',
-      icon: 'tabler:coin',
-      bullets: [
-        'Some companies prefer non-attributable defensive disclosures to protect strategic positioning.',
-    'We provide confidential submission options.'
-      ]
-    }
-  ]}
-  image={{
-    src: '~/assets/images/dd-3.webp',
-    alt: 'image',
-  }}
-  callToAction={{
-    variant: 'primary',
-    text: 'Ensure Your Disclosure is Legally Defensible',
-    href: '#',
-    icon: 'tabler:arrow-right',
-  }}  
->
-<Fragment slot="content">
-  <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-    The value of a defensive disclosure depends on:
-  </h3>
-</Fragment>
-</Content2>
-
-<Steps
-classes={{container: 'mt-6'}}
-title="Why IntellectualFrontiers.com?"
-items={[
-  {
-    title: 'Indexed for Patent Examiner Discoverability',
-    description: `
-      <ul class="list-disc ml-4 space-y-2">
-        <li>Structured metadata ensures visibility in patent searches.</li>
-        <li>Optimized for citation in relevant prior art databases.</li>
-      </ul>
-    `,
-    icon: 'tabler:list-search',
-  },
-  {
-    title: 'Legally Defensible Timestamping',
-    description: `
-      <ol class="list-disc ml-4 space-y-2">
-        <li>Immutable, verifiable publication dates prevent legal challenges.</li>
-        <li>Ensures establishment of prior art at a fixed date.</li>
-      </ol>
-    `,
-    icon: 'tabler:calendar-stats',
-  },
-  {
-    title: 'Trusted by IP Professionals Worldwide',
-    description: `
-      <ol class="list-disc ml-4 space-y-2">
-        <li>Used by corporate IP teams, patent brokers, and law firms.</li>
-        <li>Provides industry-standard defensive disclosure structuring.</li>
-      </ol>
-    `,
-    icon: 'tabler:world-check',
-  },
-]}
-image={{
-  src:  '~/assets/images/dd-4.webp',
-  alt: 'Steps image',
-}}
-callToAction={{
-  variant: 'primary',
-  text: 'Submit Your Defensive Disclosure Now',
-  href: '#',
-  icon: 'tabler:arrow-right',
-}}
-/>
-
-<Steps2
-title="Submission Process: Ensuring a Legally Recognized Disclosure"
-subtitle=""
-callToAction={{
-  text: 'Start Your Submission',
-  href: '#',
-  icon: 'tabler:arrow-right',
-}}
-classes={{container: 'bg-blue-50 max-w-7xl !px-16 !md:px-16 pt-12'}}
-items={[
-  {
-    title: 'Submit a Structured Disclosure',
-    description: `
-      <ul class="list-disc ml-4 space-y-2 text-muted">
-        <li>Structured metadata ensures visibility in patent searches.</li>
-        <li>Optimized for citation in relevant prior art databases.</li>
-      </ul>
-    `,
-    icon: 'tabler:square-rounded-number-1',
-  },
-  {
-    title: 'Immutable Timestamping & Indexing',
-    description: `
-      <ul class="list-disc ml-4 space-y-2 text-muted">
-        <li>Your disclosure receives a permanent, uneditable publication date.</li>
-        <li>Indexed for maximum visibility to patent examiners.</li>
-      </ul>
-    `,
-    icon: 'tabler:square-rounded-number-2',
-  },
-  {
-    title: 'Prior Art Citation & Visibility',
-    description: `
-      <ul class="list-disc ml-4 space-y-2 text-muted">
-        <li>Maximized likelihood of citation in patent rejections.</li>
-        <li>Industry-wide access for IP strategists and litigation use.</li>
-      </ul>
-    `,
-    icon: 'tabler:square-rounded-number-3',
-  },
-]}
-/>
-<CallToAction
-actions={[
-  {
-    variant: 'primary',
-    text: 'Submit a Disclosure',
-    href: '#',
-    icon: 'tabler:arrow-right',
-  },
-  {
-    variant: 'secondary',
-    text: 'Consult With Our IP Team',
-    href: '#',
-    icon: 'tabler:headset',
-  },
-]}
->
-<Fragment slot="title">
-  Ensure Your Innovations Remain in the Public Domain with a Discoverable and Legally Defensible Disclosure
-</Fragment>
-
-<Fragment slot="subtitle">
-  For tailored IP strategies, contact <a href="mailto:support@intellectualfrontiers.com">support@intellectualfrontiers.com</a>
-</Fragment>
-</CallToAction>
-<br>
+  </CallToAction>
+  <section class="px-9 sm:px-9 py-10 sm:py-10 lg:py-10 mx-auto masx-w-6xl bg-blue-50" id="browse-disclosures" style="scroll-margin-top: 80px;">
+    <Headline
+        subtitle="Explore a growing repository of legally recognized prior art, ensuring innovation remains accessible and unpatentable by competitors. Each disclosure is timestamped, indexed, and discoverable by patent examiners worldwide."
+      >
+      Browse Published Defensive Disclosures
+    </Headline> 
+    <BlogList posts={page.data} />
+    <!-- <Pagination page={page} /> -->
+  </section>
 </Layout>
