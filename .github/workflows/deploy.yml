@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest
+    runs-on: intellectual-frontiers
 
     steps:
       - name: Checkout code
