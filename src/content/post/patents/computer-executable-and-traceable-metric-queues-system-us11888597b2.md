@@ -60,6 +60,8 @@ externalLinks:
     link: 'https://patentcenter.uspto.gov/applications/17838198'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/be/97/e6/886c87cb880709/US11888597.pdf'
+notebookLMResources:
+  audioPath: "/podcast/computer-executable-and-traceable-metric-queues-system-us11888597b2.mp3"
 ---
 
 ### Abstract

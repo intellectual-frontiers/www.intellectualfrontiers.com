@@ -1,5 +1,5 @@
 ---
-title: Tasks scheduling based on triggering event and work lists management - US11568401B2
+title: Tasks scheduling based on triggering event and work lists management - US10403399B2
 audioUrl: /podcast/tasks-scheduling-based-on-triggering-event-and-work-lists-management-us10403399b2.mp3
 pubDate: Mar 07 2025
 duration: 11:28
