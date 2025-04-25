@@ -13,11 +13,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Install SSH Client
-        run: |
-          sudo apt update
-          sudo apt install openssh-client -y
-
       - name: Set up SSH agent
         run: |
           eval $(ssh-agent -s)
