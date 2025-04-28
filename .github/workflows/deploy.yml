@@ -20,7 +20,16 @@ jobs:
    #       chmod 700 ~/.ssh
    #       echo -e "${{ secrets.SSH_PRIVATE_KEY_PROD }}" >> ~/.ssh/id_rsa
    #       chmod 400 ~/.ssh/id_rsa
+   
+      - name: Install dependencies and build using npm
+        run: |
+           whoami
+           pwd
+           which node
+           which npm
+           which asdf
 
+        
       - name: Install dependencies and build using npm
         run: "/home/github-runner-if/.asdf/shims/npm run deno-deploy"
 
