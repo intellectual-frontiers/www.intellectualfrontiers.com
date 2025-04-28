@@ -8,35 +8,11 @@ on:
 jobs:
   build-and-deploy:
     runs-on: intellectual-frontiers
-    defaults:
-      run:
-        shell: bash -l {0}
         
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-
-   #   - name: Set up SSH agent
-   #     run: |
-   #       eval $(ssh-agent -s)
-   #       mkdir -p ~/.ssh
-   #       chmod 700 ~/.ssh
-   #       echo -e "${{ secrets.SSH_PRIVATE_KEY_PROD }}" >> ~/.ssh/id_rsa
-   #       chmod 400 ~/.ssh/id_rsa
-   
-      - name: Install dependencies
-        run: |
-          git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.14.0
-          echo '. $HOME/.asdf/asdf.sh' >> ~/.bashrc
-          echo '. $HOME/.asdf/completions/asdf.bash' >> ~/.bashrc
-
-      - name: Setup Node.js using asdf
-        run: |
-          asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
-          bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
-          asdf install nodejs latest
-          asdf global nodejs latest
-
+        
       - name: Check Node and NPM
         run: |
           node -v
