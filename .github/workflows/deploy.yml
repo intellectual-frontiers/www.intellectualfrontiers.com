@@ -13,13 +13,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Set up SSH agent
-        run: |
-          eval $(ssh-agent -s)
-          mkdir -p ~/.ssh
-          chmod 700 ~/.ssh
-          echo -e "${{ secrets.SSH_PRIVATE_KEY_PROD }}" >> ~/.ssh/id_rsa
-          chmod 400 ~/.ssh/id_rsa
+   #   - name: Set up SSH agent
+   #     run: |
+   #       eval $(ssh-agent -s)
+   #       mkdir -p ~/.ssh
+   #       chmod 700 ~/.ssh
+   #       echo -e "${{ secrets.SSH_PRIVATE_KEY_PROD }}" >> ~/.ssh/id_rsa
+   #       chmod 400 ~/.ssh/id_rsa
 
       - name: Install dependencies and build using npm
         run: "npm run deno-deploy"
