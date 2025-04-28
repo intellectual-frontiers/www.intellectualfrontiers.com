@@ -56,6 +56,8 @@ externalLinks:
     link: 'https://patentcenter.uspto.gov/applications/16854872'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/bc/56/3b/c505cf90405052/US11880882.pdf'
+notebookLMResources:
+  audioPath: "/podcast/computer-controlled-marketplace-network-for-digital-transactions-us11880882b2.mp3"
 ---
 
 ### Abstract
