@@ -23,6 +23,7 @@ jobs:
    
       - name: Install dependencies and build using npm
         run: |
+           source ~/.bashrc
            whoami
            pwd
            which node
