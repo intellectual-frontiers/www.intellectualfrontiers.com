@@ -22,7 +22,7 @@ jobs:
    #       chmod 400 ~/.ssh/id_rsa
 
       - name: Install dependencies and build using npm
-        run: "npm run deno-deploy"
+        run: "/home/github-runner-if/.asdf/shims/npm run deno-deploy"
 
       - name: Archive build artifacts
         run: |
