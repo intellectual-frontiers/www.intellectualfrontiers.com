@@ -26,7 +26,7 @@ const link = APP_BLOG?.post?.isEnabled ? getPermalink(post.permalink, 'post') : 
     {image && (
       // <a href={link ?? 'javascript:void(0)'}>
       <a href="#">
-        <Image
+         <Image
           src={image}
           class="lg:h-48 md:h-36 w-full object-cover object-center"
           widths={[400, 720]}
@@ -40,12 +40,19 @@ const link = APP_BLOG?.post?.isEnabled ? getPermalink(post.permalink, 'post') : 
       </a>
     )}
     <div class="px-6 pt-2 pb-4">
-      <h2 class="tracking-widest text-sm title-font font-medium text-gray-500 mb-1">
-        <Icon name="tabler:calendar-month" class="w-3.5 h-3.5 inline-block -mt-0.5 dark:text-gray-400" />
-        <time datetime={String(post.publishDate)} class="inline-block mt-0.5">
-          Publication Date: {getFormattedDate(post.publishDate)}
-        </time>
+      <h2 class="tracking-widest text-sm title-font font-medium text-gray-500 mb-2 flex flex-wrap gap-2 pt-2">
+        <span class="bg-green-100 text-green-800 text-sm font-medium px-2.5 py-0.5 rounded inline-flex items-center gap-1">
+          <Icon name="tabler:calendar-month" class="w-3.5 h-3.5 dark:text-gray-400" />
+          <time datetime={String(post.publishDate)}>
+            Publication Date: {getFormattedDate(post.publishDate)}
+          </time>
+        </span>
+      
+        <span class="bg-blue-100 text-blue-800 text-sm font-medium px-2.5 py-0.5 rounded">
+          {post.disclosureId}
+        </span>
       </h2>
+      
       <div class="line-clamp-5">
       <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
         {link ? (
