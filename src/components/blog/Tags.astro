@@ -35,8 +35,12 @@ const { tags, class: className = 'text-sm', title = undefined, isCategory = fals
           const patentNumberPattern = /^[A-Za-z]+\d+[A-Za-z]+\d+$/;
           const isPatentNumber = patentNumberPattern.test(tag);
 
-          // If the tag is a patent number, don't render it
-          if (isPatentNumber) {
+          // Check if the tag is a document ID with the format "NA-YYYY" (case insensitive)
+          const documentIdPattern = /^NA-\d+$/i;
+          const isDocumentId = documentIdPattern.test(tag);
+
+          // If the tag is a patent number or document ID, don't render it
+          if (isPatentNumber || isDocumentId) {
             return null;
           }
 
