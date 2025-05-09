@@ -194,5 +194,26 @@
     "shortDescription": "Mobile Device",
     "displayName": "Mobile Device",
     "tagDisplayLabel": "Mobile Device"
+  },
+  "scanner": {
+    "metaTitle": "Scanner",
+    "metaDescription": "Scanner",
+    "shortDescription": "Scanner",
+    "displayName": "Scanner",
+    "tagDisplayLabel": "Scanner"
+  },
+  "web-security": {
+    "metaTitle": "Web Seurity",
+    "metaDescription": "Web Security",
+    "shortDescription": "Web Security",
+    "displayName": "Web Security",
+    "tagDisplayLabel": "Web Security"
+  },
+  "na-2025": {
+    "metaTitle": "NA",
+    "metaDescription": "NA",
+    "shortDescription": "NA",
+    "displayName": "NA",
+    "tagDisplayLabel": "NA"
   }
 }
