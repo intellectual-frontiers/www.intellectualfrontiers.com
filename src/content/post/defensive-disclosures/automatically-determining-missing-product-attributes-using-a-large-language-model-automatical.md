@@ -4,6 +4,7 @@ excerpt: To surface products that are relevant to customers, search engines requ
 sectiontype: disclosure
 publishDate: 2025-03-02
 disclosureId: DD20241129002
+# patentId: US11888597B2
 metadata:
   title: Automatically Determining Missing Product Attributes Using a Large Language Model Automatical
   description: To surface products that are relevant to customers, search engines require online merchants to fill in certain attributes relating to their products. However, merchants often do not fill in the requested attributes, which can lead to search results not surfacing the most appropriate products and merchants.

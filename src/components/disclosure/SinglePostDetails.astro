@@ -8,7 +8,8 @@ import SocialShare from '~/components/common/SocialShare.astro';
 import { getDisclosurePermalink } from '~/utils/permalinks';
 import { getFormattedDate } from '~/utils/utils';
 import { getFormattedDateWithLongMonth } from '~/utils/utils';
-import { getRelatedPosts, getBlogPosts } from '~/utils/patent';
+import { getBlogPosts } from '~/utils/patent';
+import { getRelatedPosts } from '~/utils/disclosure';
 import {getRelatedDisclosurePosts, getRelatedDisclosurePostsByAuthors} from '~/utils/disclosure';
 
 import type { Post } from '~/types';
@@ -23,15 +24,17 @@ export interface Props {
 const { post, url } = Astro.props;
 const { Content } = post;
 
+// console.log(post.patentId)
 //Get the related posts
 const relatedPosts = await getRelatedPosts(post.patentId)
+// console.log(relatedPosts)
 //Get the latest 4 blogs
 const blogPosts = await getBlogPosts()
 // import downloadFile from 'src/assets/sample.pdf';
 
 const relatedPostsD = post.tags ? await getRelatedDisclosurePosts(post) : [];
 const relatedPostsA = post.disclosureAuthors ? await getRelatedDisclosurePostsByAuthors(post) : [];
-console.log(relatedPostsA)
+// console.log(relatedPostsA)
 ---
 
 <!-- The component is designed and be used to display all the patent related information in a specific format. This is mainly to be used in the patent pages -->
@@ -255,6 +258,68 @@ console.log(relatedPostsA)
       </div>
     </div>
       <!-- Further Read Block -->
+      {
+        relatedPosts.length > 0 && (
+          <>
+            <div class="flex flex-col w-full mt-9">
+              <hr class="h-px mt-2 bg-slate-800 border-2 border-slate-400 dark:bg-gray-700" />
+            </div>
+            <div class="flex text-left bg-slate-500 py-1 w-full msb-2 text-white font-bold px-2 mt-0.5">
+              <p class="tracking-normal">
+                Related Patent
+              </p>
+            </div>
+            <div class="pb-2 pr-2 pl-2 bordser border-2 border-slate-200">
+              {relatedPosts.map((item, index) => (
+                <>
+                  <div
+                    class={`flex flex-col shadow-xl w-full mb-1 ${
+                      index === 0 ? "mt-2" : "mt-8"
+                    }`}
+                  >
+                     <a href={`/${item.url}`} class="hover:opacity-75">
+                    <img
+                      src={item.thumbnail}
+                      alt={item.title}
+                      class="w-full p-2 bg-white h-56 object-cover object-top"
+                    />
+                  </a>
+                    <div class="bg-white flex flex-col justify-start py-4 px-2">
+                      <p>
+                        <span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded hover:text-blue-900 dark:bg-blue-900 dark:text-blue-300">
+                          <a href={getDisclosurePermalink()}>
+                            {item.category
+                              ?.replaceAll("-", " ")
+                              .replace(/\s[a-z]|^[a-z]/gi, (a) => a.toUpperCase())}
+                          </a>
+                        </span>
+                        <span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">
+                        {item.patentId}
+                      </span>
+                      </p>
+                      <a
+                        href={`/${item.url}`}
+                        class="text-base font-bold hover:text-gray-700 pb-2 pt-2"
+                      >
+                        {item.title}{" "}
+                      </a>
+                      <p class="mb-2 text-muted dark:text-slate-400 text-sm leading-relaxed line-clamp-4">
+                        {item.excerpt}
+                      </p>
+                      <a href={`/${item.url}`} class="text-[#214EA2] text-sm pt-2">
+                        Read More
+                        <Icon
+                          name="tabler:arrow-narrow-right"
+                          class="w-5 h-5 ml-1 -mr-1.5 rtl:mr-1 rtl:-ml-1.5 inline-block"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </>
+              ))}
+            </div>
+          </>
+        )}
       {
         relatedPostsD.length > 0 && (
           <>

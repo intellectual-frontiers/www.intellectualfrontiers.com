@@ -4,6 +4,7 @@ excerpt: Virtual reality (VR) and extended reality (XR) devices offer an immersi
 sectiontype: disclosure
 publishDate: 2024-11-28
 disclosureId: DD20241129001
+# patentId: US11880882B2
 metadata:
   title: Method for Secure Blockchain-Based Voting
   description: A transparent and secure voting system leveraging blockchain technology to ensure election integrity.

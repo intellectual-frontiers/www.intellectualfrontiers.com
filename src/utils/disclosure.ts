@@ -57,8 +57,10 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     draft = false,
     metadata = {},
     sectiontype,
-    disclosureAuthors =[],
+    disclosureAuthors = [],
     disclosureId,
+    patentId,
+    patentFamilyMembers = [],
   } = data;
 
   const slug = cleanSlug(rawSlug);
@@ -87,8 +89,10 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     sectiontype,
     metadata,
     Content: Content,
-    disclosureAuthors: disclosureAuthors, 
+    disclosureAuthors: disclosureAuthors,
     disclosureId: disclosureId,
+    patentId: patentId,
+    patentFamilyMembers: patentFamilyMembers,
     readingTime: remarkPluginFrontmatter?.readingTime,
   };
 };
@@ -217,9 +221,9 @@ export const getRelatedDisclosurePosts = async (originalPost: Post, maxResults: 
   const originalTagsSet = new Set(originalPost.tags ? originalPost.tags.map((tag) => tag.toLowerCase()) : []);
 
   return posts
-    .filter(post => 
-      post.slug !== originalPost.slug && 
-      post.tags && 
+    .filter(post =>
+      post.slug !== originalPost.slug &&
+      post.tags &&
       post.tags.some(tag => originalTagsSet.has(tag.toLowerCase()))
     )
     .slice(0, maxResults);
@@ -228,16 +232,68 @@ export const getRelatedDisclosurePosts = async (originalPost: Post, maxResults: 
 export const getRelatedDisclosurePostsByAuthors = async (originalPost: Post, maxResults: number = 4): Promise<Post[]> => {
   const posts = await fetchDisclosurePosts();
   const originalAuthorsSet = new Set(
-    originalPost.disclosureAuthors 
-      ? originalPost.disclosureAuthors.map((author) => author.toLowerCase()) 
+    originalPost.disclosureAuthors
+      ? originalPost.disclosureAuthors.map((author) => author.toLowerCase())
       : []
   );
 
   return posts
-    .filter(post => 
-      post.slug !== originalPost.slug && 
-      post.disclosureAuthors && 
+    .filter(post =>
+      post.slug !== originalPost.slug &&
+      post.disclosureAuthors &&
       post.disclosureAuthors.some(author => originalAuthorsSet.has(author.toLowerCase()))
     )
     .slice(0, maxResults);
+};
+
+export const fetchPatentPosts = async (): Promise<Array<Post>> => {
+  if (!_posts) {
+    _posts = await load();
+  }
+
+  //return _posts;
+  return _posts ? _posts.filter(item => item.sectiontype === ('patent')) : [];
+};
+
+// Function to filter out all the posts that are related to the patent ID passed as an argument
+export const getRelatedPosts = async (id?: string) => {
+  // Fetch all posts
+  const posts = await fetchPatentPosts();
+
+  // Filter the posts to exclude those with the category "blog"
+  const related = posts.filter(post => {
+    // Exclude posts categorized as "blog" to focus on patent-related content
+    if (post.category !== 'blogs') {
+      // If the post is not a blog, check if its patentId matches the provided ID
+      return post.patentId === id;
+    }
+    // If the post is a blog, exclude it from the related posts
+    return false;
+  }).map(post => {
+    // Transform each filtered post into a simplified object structure
+    return {
+      title: post.title, // The title of the post
+      url: post.permalink, // The URL where the post can be found
+      category: post.category, // The category of the post
+      excerpt: post.excerpt, // A brief summary of the post content
+      thumbnail: post.image, // The URL of the post's featured image
+      publishedDate: post.publishDate, // The date the post was published
+      patentId: post.patentId,
+    };
+  });
+
+  // Return the array of related posts in the simplified object structure
+  return related;
+}
+
+export const getPatentFamilyMembers = async (id?: string): Promise<Array<string>> => {
+  if (!id) return [];
+
+  const posts = await fetchPatentPosts();
+
+  // Find the post with the matching ID
+  const originalPost = posts.find(post => post.patentId === id);
+
+  // Return the patent family members if they exist, otherwise an empty array
+  return originalPost?.patentFamilyMembers || [];
 };
