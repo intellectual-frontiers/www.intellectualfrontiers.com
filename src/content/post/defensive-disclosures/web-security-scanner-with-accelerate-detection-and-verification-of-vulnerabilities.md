@@ -4,6 +4,7 @@ excerpt: The web security scanner is a software tool that automatically examines
 sectiontype: disclosure
 publishDate: 2024-12-04
 disclosureId: DD20241204001
+# patentId: US20240015129A1
 metadata:
   title: Web Security Scanner with Accelerate Detection and Verification of Vulnerabilities 
   description: The web security scanner is a software tool that automatically examines web applications for security vulnerabilities through systematic crawling and testing phases.
