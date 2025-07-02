@@ -31,7 +31,7 @@ patent-owners-rights:
 territorialScope: United States
 applicationDate: 2023-09-25
 priorityDate: 2023-09-25
-patentStatus: Active - Granted
+patentStatus: Notice of Allowance
 url: '/patents/computer-controlled-marketplace-network-for-digital-transactions'
 category: Patents
 uspto-patent-url:
@@ -548,7 +548,7 @@ collect predefined information about a mobile communication device and an associ
 </div>
 <br>
 <div style="padding-left: 80px;">
-generate a first short message service component (SMS) that is sent to the mobile communication device;
+generate a first short message service (SMS) that is sent to the mobile communication device;
 </div>
 <br>
 <div style="padding-left: 80px;">
