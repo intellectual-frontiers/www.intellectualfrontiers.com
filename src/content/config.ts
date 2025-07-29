@@ -1,5 +1,8 @@
 import { z, defineCollection } from 'astro:content';
 
+// Define access levels as a const assertion for reusability
+const ACCESS_LEVELS = ['free', 'paid'] as const;
+
 const metadataDefinition = () =>
   z
     .object({
@@ -128,13 +131,25 @@ const postCollection = defineCollection({
     authnAuthz: authnAuthzSchema.optional(),
     disclosureAuthors: z.array(z.string()).optional(),
     disclosureId: z.string().optional(),
+    abstract: z.string().optional(),
+    downloadPdfLink: z.string().optional(),
+    language: z.string().optional(),
+    aiSummary: z.string().optional(),
+    // Restrict access to specific values with default fallback
+    access: z.enum(ACCESS_LEVELS).default('paid'),
+    disclosureStatus: z.string().optional(),
+    references: z.array(z.string()).optional(),
   }),
 });
 export type episodeSchema = z.infer<typeof episodeSchema>;
 
 const episodeCollection = defineCollection({ schema: episodeSchema });
+export type AccessLevel = typeof ACCESS_LEVELS[number]; // Export the type for use elsewhere
 
 export const collections = {
   post: postCollection,
   'episode': episodeCollection,
 };
+
+// Export ACCESS_LEVELS for use in other parts of your app
+export { ACCESS_LEVELS };

@@ -4,14 +4,12 @@ import { Icon } from 'astro-icon/components';
 import Image from '~/components/common/Image.astro';
 import PostTags from '~/components/disclosure/Tags.astro';
 import SocialShare from '~/components/common/SocialShare.astro';
-
 import { getDisclosurePermalink } from '~/utils/permalinks';
 import { getFormattedDate } from '~/utils/utils';
 import { getFormattedDateWithLongMonth } from '~/utils/utils';
 import { getBlogPosts } from '~/utils/patent';
 import { getRelatedPosts } from '~/utils/disclosure';
 import {getRelatedDisclosurePosts, getRelatedDisclosurePostsByAuthors} from '~/utils/disclosure';
-
 import type { Post } from '~/types';
 //Import the patent urls json file
 import patenturl from '../../../support/patenturls.json';
@@ -24,446 +22,100 @@ export interface Props {
 const { post, url } = Astro.props;
 const { Content } = post;
 
-// console.log(post.patentId)
-//Get the related posts
+// Get the related posts
 const relatedPosts = await getRelatedPosts(post.patentId)
-// console.log(relatedPosts)
-//Get the latest 4 blogs
-const blogPosts = await getBlogPosts()
-// import downloadFile from 'src/assets/sample.pdf';
-
+// Get the latest 4 blogs
+// const blogPosts = await getBlogPosts()
 const relatedPostsD = post.tags ? await getRelatedDisclosurePosts(post) : [];
 const relatedPostsA = post.disclosureAuthors ? await getRelatedDisclosurePostsByAuthors(post) : [];
-// console.log(relatedPostsA)
 ---
-
-<!-- The component is designed and be used to display all the patent related information in a specific format. This is mainly to be used in the patent pages -->
-<div class="container mx-auto flex flex-wrap py-6 px-2">
-  <h1 class="lg:px-6 sm:px-6 mx-auto text-4xl md:text-5xl font-bold leading-tighter tracking-tighter font-heading">
-    {post.title}
-  </h1>
-  <section class="w-full md:w-2/3 flex flex-col items-center px-3 rounded-md">
-    <article class="flex flex-col shadow my-4 w-full">
-      <!-- Article Image -->
-      <!-- Article Image -->
-      <a href="#" class="mt-4">
-        {
-          post.image ? (
-            <Image
-              src={post.image}
-              class="max-w-full lg:max-w-[900px] mx-auto mrb-6 sm:rouunded-md bg-gray-400 dark:bg-slate-700"
-              widths={[400, 900]}
-              sizes="(max-width: 900px) 400px, 900px"
-              alt={post?.excerpt || ''}
-              width={900}
-              height={506}
-              loading="eager"
-              decoding="async"
-            />
-          ) : (
-            <div class="max-w-3xl mx-auto px-4 sm:px-6">
-              <div class="border-t dark:border-slate-700" />
+<div class="container mx-auto flex flex-wrap py-8 px-4 bg-gray-50 dark:bg-gray-900 min-h-screen">
+  <!-- Scholarly Header with Academic Styling -->
+  <div class="w-full mb-4">
+    <div class="bg-white dark:bg-gray-800 rounded-sm border border-gray-300 dark:border-gray-600 p-8 shadow-sm">
+      <!-- Updated Header Section - Move Publication ID near title -->
+      <div class="border-b border-gray-200 dark:border-gray-700 pb-6 mb-6">
+        <div class="flex flex-wrap items-start justify-between">
+          <div class="flex items-center mb-4 md:mb-0">
+            <div class="bg-gray-700 dark:bg-gray-600 p-3 rounded-sm mr-4">
+              <Icon name="tabler:file-certificate" class="w-8 h-8 text-white" />
             </div>
-          )
-        }
-      </a>
-      <div class="flex flex-col justify-start p-6">
-        <div
-          class="mx-auto !leading-normal w-full prose prose-lg lg:prose-xl dark:prose-invert dark:prose-headings:text-slate-300 prose-md prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary dark:prose-a:text-blue-400 prose-img:rounded-md prose-img:shadow-lg mt-8 prose-headings:scroll-mt-[80px]"
-        >
-          {Content ? <Content /> : <Fragment set:html={post.content || ''} />}
-        </div>
-      </div>
-    </article>
-  </section>
-  <!-- Sidebar Section -->
-  <aside class="w-full md:w-1/3 flex flex-col items-center px-3">
-    <div
-      class="w-full bgs-white flex flex-col mt-4 pww-6 shadow-md rounded-tr-lg rounded-tl-lg"
-      style="background-color: #fdfdfd; color: #697e91"
-    >
-      <div class="bg-gray-200 text-slate-800 text-center mb-3 rounded-tr-lg rounded-tl-lg">
-        <p class="text-2xl font-bold pt-3 pb-1">{post.disclosureId}</p>
-        <!-- <span>United States</span> -->
-        <p class="text-md font-bold pb-3 text-emerald-600 uppercase">{post.patentStatus}</p>
-      </div>
-      <!-- <p class="pb-2 p-2 font-bold">Brief Summary</p>
-      <p class="pb-2 p-2">
-        {post?.excerpt}
-      </p> -->
-      {
-        post.patentSummaryLinks && post.patentSummaryLinks.length > 0 && (
-          <>
-            <p class="pb-2 p-2 font-bold">
-              {post.patentSummaryLinks.length === 1 ? 'Patent Summary' : 'Patent Summaries'}
-            </p>
-            <ul class="list-outside list-disc pr-2 ms-8">
-              {post.patentSummaryLinks.map((link) => (
-                <li class="pb-2">
-                  <a class="text-sky-700 hover:text-sky-600" href={link.link}>
-                    {link.summaryTitle}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </>
-        )
-      }
-      <div class="px-2 pb-3 flex items-center justify-center">
-        {
-          post.downloadableDocuments && (
-            <a
-              href={post.downloadableDocuments?.pdfLink}
-              target="_blank"
-              class="p-6 w-full bg-sky-600 text-white font-bold text-base rounded hover:bg-sky-500 flex items-center justify-center px-2 py-2.5 mt-4 shadow-md"
-            >
-              <Icon name="tabler:file-download" class="mb-0.5" />
-              &nbsp;Download Full PDF
-            </a>
-          )
-        }
-        <!-- <a
-          href={post.patentSummaryLink}
-          class="p-6 w-full bg-blue-400 text-white font-bold text-base upxpercase rounded hover:bg-blue-700 flex items-center justify-center px-2 py-3 mt-4"
-        >
-          <Icon name="tabler:external-link" class="mb-0.5 dark:text-gray-400" />&nbsp;Read Patent Summary
-        </a> -->
-      </div>
-      <hr />
-      <hr class="px-3" />
-      <div class="pb-2 p-2.5 text-sm">
-        {
-          post.disclosureAuthors &&
-            Array.isArray(post.disclosureAuthors) &&
-            post.disclosureAuthors.length > 0 && (
-              <div class="bg-slate-100 shadow px-2 pt-[6px] pb-[6px] rounded mt-1 mb-[8px] border-b border-grey">
-                <div class="flex items-start">
-                  <span class="pr-1 font-semibold">Authors&nbsp;</span>
-                  <Icon
-                    name="tabler:point-filled"
-                    class="w-3 h-3 inline-block mt-[5px] text-sky-700 dark:text-gray-400"
-                  />
-                  <span class="pl-1 pt-0.5 flex-1 break-words leading-tight">
-                    {post.disclosureAuthors.map((item, index, arr) => (
-                      <>
-                      {/* The empty paranthesis below is to stop the logic block of index calculation getting pushed to the next line which in turn causes an extra space to be shown in the UI before the comma. This is because of VScode automatic formatting which formats and pushes the logic block to next line*/}
-                        <span class="text-sky-700">
-                          {item}{}{index !== arr.length - 1 && <span>,</span>}
-                        </span>
-                      </>
-                    ))}
-                  </span>
-                </div>
-              </div>
-            )
-        }
-        <!-- <div
-          class="bg-slate-100 shadow px-2 pt-[6px] pb-[6px] rounded mt-1 mb-[8px] border-b border-grey hover:bg-grey-lighter"
-          id="currentAssignee"
-        >
-          <div class="flex items-start">
-            <span class="pr-1 font-semibold leading-tight">Current Assignee&nbsp;</span>
-            <Icon name="tabler:point-filled" class="w-3 h-3 inline-block mt-[3px] text-sky-700 dark:text-gray-400" />
-            <span class="pl-1 flex-1 break-words leading-tight" id="value">
-              {
-                // If the assignee is Netspective Communications LLC then hyperlink to Netspective website
-                post.currentAssignee === 'Netspective Communications LLC' ? (
-                  <a class="text-sky-700 hover:text-sky-600" href="https://www.netspective.com/" target="_blank">
-                    {post.currentAssignee}
-                  </a>
-                ) : (
-                  post.currentAssignee
-                )
-              }
-            </span>
+            <div>
+              <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-1 font-serif">Intellectual Frontiers Journal of Open Innovation in Healthtech</h2>
+              <p class="text-sm text-gray-600 dark:text-gray-400 font-medium">
+                A Prior Art Warehouse for AI, Medtech, and Digital Therapeutics
+              </p>
+            </div>
           </div>
-        </div> -->
-        <!-- <div
-          class="bg-slate-100 shadow px-2 pt-[6px] pb-[6px] rounded mt-1 mb-[8px] border-b border-grey hover:bg-grey-lighter"
-        >
-          <span class="pr-1 font-semibold">Application Date&nbsp;</span><Icon
-            name="tabler:point-filled"
-            class="w-3 h-3 inline-block -mt-0.5 text-sky-700 dark:text-gray-400"
-          /><span class="pl-1">{getFormattedDateWithLongMonth(post.applicationDate)}</span>
-        </div> -->
-        <!-- <div
-          class="bg-slate-100 shadow px-2 pt-[6px] pb-[6px] rounded mt-1 mb-[8px] border-b border-grey hover:bg-grey-lighter"
-        >
-          <span class="pr-1 font-semibold">Priority Date&nbsp;</span><Icon
-            name="tabler:point-filled"
-            class="w-3 h-3 inline-block -mt-0.5 text-sky-700 dark:text-gray-400"
-          /><span class="pl-1">{getFormattedDateWithLongMonth(post.priorityDate)}</span>
-        </div> -->
-        <div
-          class="bg-slate-100 shadow px-2 pt-[6px] pb-[6px] rounded mt-1 mb-[8px] border-b border-grey hover:bg-grey-lighter"
-        >
-          <span class="pr-1 font-semibold">Publication Date&nbsp;</span><Icon
-            name="tabler:point-filled"
-            class="w-3 h-3 inline-block -mt-0.5 text-sky-700 dark:text-gray-400"
-          /><span class="pl-1">{getFormattedDateWithLongMonth(post.publishDate)}</span>
+          <div class="text-left md:text-right w-full md:w-auto">
+            {post.language && (
+              <div class="text-sm text-gray-700 dark:text-gray-300 mb-1">
+                <span class="font-semibold">Language:</span> {post.language}
+              </div>
+            )}
+            <div class="text-sm text-gray-700 dark:text-gray-300 mb-1">
+              <span class="font-semibold">Status:</span> 
+              <span class="ml-1 px-2 py-1 bg-green-50 dark:bg-green-900/30 text-green-800 dark:text-green-200 text-xs font-medium rounded-sm border border-green-200 dark:border-green-700">
+                {post.disclosureStatus}
+              </span>
+            </div>
+            <div class="text-sm text-gray-700 dark:text-gray-300">
+              <span class="font-semibold">Original Publication Date:</span> {getFormattedDateWithLongMonth(post.publishDate)}
+            </div>
+            <div class="text-sm text-gray-700 dark:text-gray-300">
+              <span class="font-semibold">IFJ Number:</span><span class="font-bold"> {post.disclosureId}</span>
+            </div>
+          </div>
         </div>
-        {
-          // Required since patents not yet granted has no expiry date
-          post.expiryDate !== undefined && post.expiryDate !== null && (
-            <div class="bg-slate-100 shadow px-2 pt-[6px] pb-[6px] rounded mt-1 mb-[8px] border-b border-grey  hover:bg-grey-lighter">
-              <span class="pr-1 font-semibold">Expiry Date&nbsp;</span>
-              <>
-                <Icon name="tabler:point-filled" class="w-3 h-3 inline-block -mt-0.5 text-sky-700 dark:text-gray-400" />
-                <span class="pl-1">{getFormattedDateWithLongMonth(post.expiryDate)}</span>
-              </>
-            </div>
-          )
-        }
-        {
-          post.patentFamilyMembers &&
-            Array.isArray(post.patentFamilyMembers) &&
-            post.patentFamilyMembers.length > 0 && (
-              <div class="bg-slate-100 shadow px-2 pt-[6px] pb-[6px] rounded mt-1 mb-[8px] border-b border-grey hover:bg-grey-lighter">
-                <div class="flex items-start">
-                  <span class="pr-1 font-semibold">Family Members&nbsp;</span>
-                  <Icon
-                    name="tabler:point-filled"
-                    class="w-3 h-3 inline-block mt-[5px] text-sky-700 dark:text-gray-400"
-                  />
-                  <span class="pl-1 pt-0.5 flex-1 break-words leading-tight">
-                    {post.patentFamilyMembers.map((item, index, arr) => (
-                      <>
-                      {/* The empty paranthesis below is to stop the logic block of index calculation getting pushed to the next line which in turn causes an extra space to be shown in the UI before the comma. This is because of VScode automatic formatting which formats and pushes the logic block to next line*/}
-                        <a class="text-sky-700  hover:text-sky-600" href={patenturl[item].url}>
-                          {item}{}{index !== arr.length - 1 && <span>,</span>}
-                        </a>
-                      </>
-                    ))}
-                  </span>
-                </div>
-              </div>
-            )
-        }
-        {
-          post.externalLinks && post.externalLinks.length > 0 && (
-            <div class="bg-slate-100 shadow px-2 pt-[6px] pb-[6px] rounded mt-1 mb-[8px] border-b border-grey hover:bg-grey-lighter">
-              <span class="pr-1 font-semibold">External Links&nbsp;</span>
-              <Icon name="tabler:point-filled" class="w-3 h-3 inline-block -mt-0.5 text-sky-700 dark:text-gray-400" />
-              {post.externalLinks.map((link, index, arr) => (
-                <span>
-                  <a class="text-sky-700  hover:text-sky-600" href={link.link} target="_blank">
-                    <span class="pl-1">{link.sourceText}</span>
-                  </a>
-                  {index !== arr.length - 1 && <span>l</span>}
-                </span>
-              ))}
-            </div>
-          )
-        }
       </div>
+      <div class="text-center mb-6">
+        <!-- <div class="mb-3">
+          <span class="inline-flex items-center px-4 py-2 bg-gray-800 dark:bg-gray-700 text-white text-lg font-bold rounded-sm border border-gray-600 font-mono"> -->
+            <!-- <Icon name="tabler:hash" class="w-5 h-5 mr-2" /> -->
+            <!-- IFJ Number: 
+            {post.disclosureId}
+          </span>
+        </div> -->
+        <h1 class="text-3xl md:text-4xl font-bold leading-tight tracking-normal font-serif text-gray-900 dark:text-white">
+          {post.title}
+        </h1>
+      </div>
+      
+      {post.disclosureAuthors && Array.isArray(post.disclosureAuthors) && post.disclosureAuthors.length > 0 && (
+  <div class="text-center border-t border-gray-200 dark:border-gray-700 pt-4">
+    <div class="max-w-2xl mx-auto">
+      <p class="text-sm text-gray-600 dark:text-gray-400 font-medium mb-2 tracking-wide">
+        {post.disclosureAuthors.length === 1 ? 'Author' : 'Authors'}
+      </p>
+      <p class="text-lg text-gray-600 dark:text-gray-200 font-serif leading-relaxed italic">
+        <a href="https://shahidshah.com" class="hover:text-sky-600" target="_blank">{post.disclosureAuthors.join(' • ')}<span class="text-sm text-gray-500">, Netspective Communications LLC</span></a>
+      </p>
     </div>
-      <!-- Further Read Block -->
-      {
-        relatedPosts.length > 0 && (
-          <>
-            <div class="flex flex-col w-full mt-9">
-              <hr class="h-px mt-2 bg-slate-800 border-2 border-slate-400 dark:bg-gray-700" />
-            </div>
-            <div class="flex text-left bg-slate-500 py-1 w-full msb-2 text-white font-bold px-2 mt-0.5">
-              <p class="tracking-normal">
-                Related Patent
-              </p>
-            </div>
-            <div class="pb-2 pr-2 pl-2 bordser border-2 border-slate-200">
-              {relatedPosts.map((item, index) => (
-                <>
-                  <div
-                    class={`flex flex-col shadow-xl w-full mb-1 ${
-                      index === 0 ? "mt-2" : "mt-8"
-                    }`}
-                  >
-                     <a href={`/${item.url}`} class="hover:opacity-75">
-                    <img
-                      src={item.thumbnail}
-                      alt={item.title}
-                      class="w-full p-2 bg-white h-56 object-cover object-top"
-                    />
-                  </a>
-                    <div class="bg-white flex flex-col justify-start py-4 px-2">
-                      <p>
-                        <span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded hover:text-blue-900 dark:bg-blue-900 dark:text-blue-300">
-                          <a href={getDisclosurePermalink()}>
-                            {item.category
-                              ?.replaceAll("-", " ")
-                              .replace(/\s[a-z]|^[a-z]/gi, (a) => a.toUpperCase())}
-                          </a>
-                        </span>
-                        <span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">
-                        {item.patentId}
-                      </span>
-                      </p>
-                      <a
-                        href={`/${item.url}`}
-                        class="text-base font-bold hover:text-gray-700 pb-2 pt-2"
-                      >
-                        {item.title}{" "}
-                      </a>
-                      <p class="mb-2 text-muted dark:text-slate-400 text-sm leading-relaxed line-clamp-4">
-                        {item.excerpt}
-                      </p>
-                      <a href={`/${item.url}`} class="text-[#214EA2] text-sm pt-2">
-                        Read More
-                        <Icon
-                          name="tabler:arrow-narrow-right"
-                          class="w-5 h-5 ml-1 -mr-1.5 rtl:mr-1 rtl:-ml-1.5 inline-block"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </>
-              ))}
-            </div>
-          </>
-        )}
-      {
-        relatedPostsD.length > 0 && (
-          <>
-            <div class="flex flex-col w-full mt-9">
-              <hr class="h-px mt-2 bg-slate-800 border-2 border-slate-400 dark:bg-gray-700" />
-            </div>
-            <div class="flex text-left bg-slate-500 py-1 w-full msb-2 text-white font-bold px-2 mt-0.5">
-              <p class="tracking-normal">
-                Related Defensive Disclosures
-              </p>
-            </div>
-            <div class="pb-2 pr-2 pl-2 bordser border-2 border-slate-200">
-              {relatedPostsD.map((item, index) => (
-                <>
-                  <div
-                    class={`flex flex-col shadow-xl w-full mb-1 ${
-                      index === 0 ? "mt-2" : "mt-8"
-                    }`}
-                  >
-                    <div class="bg-white flex flex-col justify-start py-4 px-2">
-                      <p>
-                        <span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded hover:text-blue-900 dark:bg-blue-900 dark:text-blue-300">
-                          <a href={getDisclosurePermalink()}>
-                            {item.category
-                              ?.replaceAll("-", " ")
-                              .replace(/\s[a-z]|^[a-z]/gi, (a) => a.toUpperCase())}
-                          </a>
-                        </span>
-                      </p>
-                      <a
-                        href={`/${item.slug}`}
-                        class="text-base font-bold hover:text-gray-700 pb-2 pt-2"
-                      >
-                        {item.title}{" "}
-                      </a>
-                      <p class="mb-2 text-muted dark:text-slate-400 text-sm leading-relaxed line-clamp-4">
-                        {item.excerpt}
-                      </p>
-                      <a href={`/${item.slug}`} class="text-[#214EA2] text-sm pt-2">
-                        Read More
-                        <Icon
-                          name="tabler:arrow-narrow-right"
-                          class="w-5 h-5 ml-1 -mr-1.5 rtl:mr-1 rtl:-ml-1.5 inline-block"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </>
-              ))}
-            </div>
-          </>
-        )}
-      <!-- Latest Blog Posts -->
-      {
-        relatedPostsA.length > 0 && (
-          <>
-            <div class="flex flex-col w-full mt-9">
-              <hr class="h-px mt-2 bg-slate-800 border-2 border-slate-400 dark:bg-gray-700" />
-            </div>
-            <div class="flex text-left bg-slate-500 py-1 w-full msb-2 text-white font-bold px-2 mt-0.5">
-              <p class="tracking-normal">
-                More from These Authors
-              </p>
-            </div>
-            <div class="pb-2 pr-2 pl-2 bordser border-2 border-slate-200">
-              {relatedPostsA.map((item, index) => (
-                <>
-                  <div
-                    class={`flex flex-col shadow-xl w-full mb-1 ${
-                      index === 0 ? "mt-2" : "mt-8"
-                    }`}
-                  >
-                    <div class="bg-white flex flex-col justify-start py-4 px-2">
-                      <p>
-                        <span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded hover:text-blue-900 dark:bg-blue-900 dark:text-blue-300">
-                          <a href={getDisclosurePermalink()}>
-                            {item.category
-                              ?.replaceAll("-", " ")
-                              .replace(/\s[a-z]|^[a-z]/gi, (a) => a.toUpperCase())}
-                          </a>
-                        </span>
-                      </p>
-                      <a
-                        href={`/${item.slug}`}
-                        class="text-base font-bold hover:text-gray-700 pb-2 pt-2"
-                      >
-                        {item.title}{" "}
-                      </a>
-                      <p class="mb-2 text-muted dark:text-slate-400 text-sm leading-relaxed line-clamp-4">
-                        {item.excerpt}
-                      </p>
-                      {/* <p>
-                        {item.disclosureAuthors?.map((author)=>(
-                          <span class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">
-                            {author}
-                        </span>
-                        ))}                        
-                      </p> */}
-                      <a href={`/${item.slug}`} class="text-[#214EA2] text-sm pt-2">
-                        Read More
-                        <Icon
-                          name="tabler:arrow-narrow-right"
-                          class="w-5 h-5 ml-1 -mr-1.5 rtl:mr-1 rtl:-ml-1.5 inline-block"
-                        />
-                      </a>
-                    </div>
-                  </div> 
-                </>
-              ))}                        
-              <div class="flex items-center justify-center mt-4 mb-3">
-              <a id="show" href="/category/blogs" class="text-sm hover:text-sky-600 text-sky-700 mt-3 block">
-                Show More Defensive Disclosures 
-              </a>
-              </div>
-            </div>
-          </>
-        )
-      }
-        
-    <div class="flex !justify-start pt-4">
-      <PostTags tags={post.tags} class="text-lg justify-start" />
+  </div>
+)}
     </div>
-  </aside>
-  <SocialShare url={url} text={post.title} class="px-3 mt-5 sm:mt-1 align-middle text-gray-500 dark:text-slate-600" />
+  </div>
+<!-- Right after the authors section and before the main content -->
 
+
+
+
+
+  <!-- Academic Back to Top Button -->
   <button
     id="to-top-button"
     onclick="goToTop()"
     title="Go To Top"
-    class="hidden fixed z-50 bottom-10 right-10 p-4 border-0 w-14 h-14 rounded-full shadow-md bg-sky-600 hover:bg-sky-700 text-white text-lg font-semibold transition-colors duration-300"
+    class="hidden fixed z-50 bottom-10 right-10 p-4 border border-gray-400 dark:border-gray-600 w-14 h-14 rounded-sm shadow-lg bg-gray-800 hover:bg-gray-700 dark:bg-gray-700 dark:hover:bg-gray-600 text-white text-lg font-semibold transition-all duration-300 hover:scale-105"
   >
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-      <path d="M12 4l8 8h-6v8h-4v-8H4l8-8z"></path>
-    </svg>
+    <Icon name="tabler:arrow-up" class="w-6 h-6" />
     <span class="sr-only">Go to top</span>
   </button>
 
+  <!-- All Scripts -->
   <script>
-    // Get the 'to top' button element by ID
     var toTopButton = document.getElementById('to-top-button');
-
-    // Check if the button exists
     if (toTopButton) {
-      // On scroll event, toggle button visibility based on scroll position
       window.onscroll = function () {
         if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
           toTopButton.classList.remove('hidden');
@@ -471,8 +123,6 @@ const relatedPostsA = post.disclosureAuthors ? await getRelatedDisclosurePostsBy
           toTopButton.classList.add('hidden');
         }
       };
-
-      // Function to scroll to the top of the page smoothly
       window.goToTop = function () {
         window.scrollTo({
           top: 0,
@@ -481,100 +131,61 @@ const relatedPostsA = post.disclosureAuthors ? await getRelatedDisclosurePostsBy
       };
     }
   </script>
-    <script>
-      // Get all the img elements in the grid
-      var images = document.querySelectorAll('.patentimages img');
-      var currentIndex = 0;
+
+  <script>
+    var images = document.querySelectorAll('.patentimages img');
+    var currentIndex = 0;
     
-      // Loop through each img element
-      images.forEach(function(img, index) {
-        // Add a click event listener to each img element
-        img.addEventListener('click', function() {
-          showModal(img.src, index);
-        });
+    images.forEach(function(img, index) {
+      img.addEventListener('click', function() {
+        showModal(img.src, index);
       });
+    });
+
+    var modal = document.getElementById('patentimagemodal');
+    var modalImg = document.getElementById('modal-img');
+    var closeModalBtn = document.getElementById('close-modal');
+    var prevBtn = document.getElementById('prev-btn');
+    var nextBtn = document.getElementById('next-btn');
+
+    function showModal(src, index) {
+      modal.style.display = 'flex';
+      modalImg.src = src;
+      currentIndex = index;
+      updatePrevNextButtons();
+    }
     
-      // Get the modal by id
-      var modal = document.getElementById('patentimagemodal');
-      // Get the modal image tag
-      var modalImg = document.getElementById('modal-img');
-      // Get the close button
-      var closeModalBtn = document.getElementById('close-modal');
-      // Get the prev and next buttons
-      var prevBtn = document.getElementById('prev-btn');
-      var nextBtn = document.getElementById('next-btn');
-    
-      // This function is called when a small image is clicked
-      function showModal(src, index) {
-        modal.style.display = 'flex';
-        modalImg.src = src;
-        currentIndex = index;
+    closeModalBtn.addEventListener('click', function() {
+      modal.style.display = 'none';
+    });
+
+    function prevImage() {
+      if (currentIndex > 0) {
+        currentIndex--;
+        modalImg.src = images[currentIndex].src;
         updatePrevNextButtons();
       }
+    }
     
-      // This function is called when the close button is clicked
-      closeModalBtn.addEventListener('click', function() {
-        modal.style.display = 'none';
-      });
-    
-      // Function to show previous image
-      function prevImage() {
-        if (currentIndex > 0) {
-          currentIndex--;
-          modalImg.src = images[currentIndex].src;
-          updatePrevNextButtons();
-        }
+    function nextImage() {
+      if (currentIndex < images.length - 1) {
+        currentIndex++;
+        modalImg.src = images[currentIndex].src;
+        updatePrevNextButtons();
       }
+    }
     
-      // Function to show next image
-      function nextImage() {
-        if (currentIndex < images.length - 1) {
-          currentIndex++;
-          modalImg.src = images[currentIndex].src;
-          updatePrevNextButtons();
-        }
-      }
-    
-      // Update visibility of prev/next buttons based on current image index
-  function updatePrevNextButtons() {
-        prevBtn.disabled = currentIndex === 0;
-        nextBtn.disabled = currentIndex === images.length - 1;
-      }
+    function updatePrevNextButtons() {
+      prevBtn.disabled = currentIndex === 0;
+      nextBtn.disabled = currentIndex === images.length - 1;
+    }
   
-  prevBtn.addEventListener('click', function() {
+    prevBtn.addEventListener('click', function() {
       prevImage();
-  });
-  
-  nextBtn.addEventListener('click', function() {
+    });
+    nextBtn.addEventListener('click', function() {
       nextImage();
-  });
-    </script>
+    });
+  </script>
   
-    <!-- The Modal -->
-    <div
-      id="patentimagemodal"
-      class="fixed inset-0 z-50 flex items-center justify-center hidden"
-      style="display: none; background-color: rgba(0, 0, 0, 0.5);"
-    >
-      <!-- Modal Content -->
-      <div class="bg-white rounded-lg shadow-lg p-5 relative">
-        <!-- Close Button -->
-        <button
-          title="Close"
-          id="close-modal"
-          class="absolute top-1 right-3 bg-slate-50 rounded text-red-500 hover:text-red-700 z-90"
-        >
-          <Icon name="tabler:square-x" class="w-6 h-6 inline-block -mt-0.5" />
-        </button>
-        <!-- Image Display -->
-        <div class="flex justify-center items-center w-full h-full mt-3">
-          <img id="modal-img" class="w-full h-auto object-contain max-w-[600px] max-md:max-w-[500px] max-lg:max-w-[500px] max-2xl:max-w-[600px]" />
-        </div>
-       
-   
-      </div>
-      <div class="prevnextmodal flex justify-between">
-        <button id="prev-btn" onclick="prevImage()" class="max-sm:left-0 left-6"><span>&#x2039;</span></button>
-        <button id="next-btn" onclick="nextImage()" class="max-sm:right-0 right-6"><span>&#x203A;</span> </button>
-      </div>
-    </div>
+</div>

@@ -71,6 +71,13 @@ export interface Post {
   authnAuthz?: authnAuthz;
   disclosureAuthors?: Array<string>;
   disclosureId?: string;
+  abstract?: string;
+  downloadPdfLink?: string;
+  language?: string;
+  aiSummary?: string;
+  access?: string;
+  disclosureStatus?: string;
+  references?: Array<string>;
 }
 
 export interface PatentSummaryLinks {
@@ -205,7 +212,14 @@ export interface Item {
   inventor?: string;
   viewCount?: string;
   disclosureId?: string;
+  abstract?: string;
+  downloadPdfLink?: string;
+  aiSummary?: string;
+  language?: string;
+  access?: 'free' | 'paid';
   bullets?: string[];
+  disclosureStatus?: string;
+  references?: Array<string>;
 }
 
 export interface Price {

@@ -59,7 +59,15 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     sectiontype,
     disclosureAuthors = [],
     disclosureId,
+    disclosureStatus,
+    abstract,
+    downloadPdfLink,
+    aiSummary,
+    language,
+    access,
     patentId,
+    downloadableDocuments,
+    references = [],
     patentFamilyMembers = [],
   } = data;
 
@@ -91,9 +99,17 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     Content: Content,
     disclosureAuthors: disclosureAuthors,
     disclosureId: disclosureId,
+    disclosureStatus: disclosureStatus,
+    abstract: abstract,
+    downloadPdfLink: downloadPdfLink,
+    downloadableDocuments: downloadableDocuments,
+    language: language,
+    aiSummary: aiSummary,
+    access: access,
     patentId: patentId,
     patentFamilyMembers: patentFamilyMembers,
     readingTime: remarkPluginFrontmatter?.readingTime,
+    references: references,
   };
 };
 
