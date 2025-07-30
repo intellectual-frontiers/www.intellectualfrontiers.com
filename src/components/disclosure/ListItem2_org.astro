@@ -1,12 +1,15 @@
 ---
 // ListItem2.astro
+import type { ImageMetadata } from 'astro';
 import { Icon } from 'astro-icon/components';
+import Image from '~/components/common/Image.astro';
 import PostTags from '~/components/disclosure/Tags.astro';
 
 import { APP_BLOG } from '~/utils/config';
 import type { Post } from '~/types';
 
 import { getPermalink } from '~/utils/permalinks';
+import { findImage } from '~/utils/images';
 import { getFormattedDate } from '~/utils/utils';
 import { getPatentFamilyMembers } from '~/utils/disclosure';
 import patenturl from '../../../support/patenturls.json';
@@ -16,6 +19,8 @@ export interface Props {
 }
 
 const { post } = Astro.props;
+const image = (await findImage(post.image)) as ImageMetadata | undefined;
+
 const link = APP_BLOG?.post?.isEnabled ? getPermalink(post.permalink, 'post') : '';
 
 // Only fetch family members if patentId exists
@@ -32,41 +37,56 @@ const getHrefForSlug = (slug: string) => {
 ---
 
 <div class="p-4 md:w-1/2">
-  <div class="h-full border border-gray-300 dark:border-gray-600 rounded-sm overflow-hidden shadow-sm bg-white dark:bg-gray-800">
-    <div class="px-6 pt-3 pb-4">
-      <h2 class="tracking-widest text-sm title-font font-medium text-gray-600 dark:text-gray-400 mb-2 flex flex-wrap gap-2 pt-2">
-        <span class="bg-green-50 dark:bg-green-900/30 text-green-800 dark:text-green-200 text-sm font-medium px-2.5 py-0.5 rounded-sm border border-green-200 dark:border-green-700 inline-flex items-center gap-1">
-          <Icon name="tabler:calendar-month" class="w-3.5 h-3.5" />
+  <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow bg-white">
+    {image && (
+      <a href={getHrefForSlug(post.slug)}>
+         <Image
+          src={image}
+          class="lg:h-48 md:h-36 w-full object-cover object-center"
+          widths={[400, 720]}
+          width={720}
+          sizes="(max-width: 720px) 400px, 720px"
+          alt={post.title}
+          aspectRatio="16:9"
+          loading="lazy"
+          decoding="async"
+        />
+      </a>
+    )}
+    <div class="px-6 pt-2 pb-4">
+      <h2 class="tracking-widest text-sm title-font font-medium text-gray-500 mb-2 flex flex-wrap gap-2 pt-2">
+        <span class="bg-green-100 text-green-800 text-sm font-medium px-2.5 py-0.5 rounded inline-flex items-center gap-1">
+          <Icon name="tabler:calendar-month" class="w-3.5 h-3.5 dark:text-gray-400" />
           <time datetime={String(post.publishDate)}>
             Publication Date: {getFormattedDate(post.publishDate)}
           </time>
         </span>
       
-        <span class="bg-gray-800 dark:bg-gray-700 text-white text-sm font-medium px-2.5 py-0.5 rounded-sm border border-gray-600">
+        <span class="bg-blue-100 text-blue-800 text-sm font-medium px-2.5 py-0.5 rounded">
           {post.disclosureId}
         </span>
       </h2>
       
       <div class="line-clamp-5">
-      <h1 class="title-font text-lg font-medium text-gray-900 dark:text-white mb-3 font-serif">
+      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
         {link ? (
-          <a class="hover:text-sky-700 dark:hover:text-gray-300 transition ease-in duration-200" href={getHrefForSlug(post.slug)}>
+          <a class="hover:text-primary dark:hover:text-blue-700 transition ease-in duration-200" href={getHrefForSlug(post.slug)}>
             {post.title}
           </a>
         ) : (
           post.title
         )}
       </h1>
-      {post.excerpt && <p class="leading-relaxed mb-3 text-gray-700 dark:text-gray-300 font-serif">{post.excerpt}</p>}
+      {post.excerpt && <p class="leading-relaxed mb-3 text-gray-600">{post.excerpt}</p>}
     </div>
       {post.disclosureAuthors && post.disclosureAuthors.length > 0 && (
         <div class="mb-2 mt-2">
-          <span class="font-medium text-sm text-gray-700 dark:text-gray-300 block mb-2">
+          <span class="font-medium text-sm text-gray-700 block mb-2">
             {post.disclosureAuthors.length > 1 ? 'Authors:' : 'Author:'}
           </span>
           <div class="flex flex-wrap">
             {post.disclosureAuthors.map((author) => (
-              <span class="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 text-xs font-medium mr-2 mb-2 px-2.5 py-0.5 rounded-sm border border-gray-300 dark:border-gray-600">
+              <span class="bg-blue-100 text-blue-800 text-xs font-medium mr-2 mb-2 px-2.5 py-0.5 rounded">
                 {author}
               </span>
             ))}
@@ -75,9 +95,9 @@ const getHrefForSlug = (slug: string) => {
       )}
       
       {post.patentId && patenturl[post.patentId] && (
-        <div class="py-3 text-gray-700 dark:text-gray-300">
+        <div class="py-3">
           {familyMembers.length === 0 ? 'Related Patent:' : 'Related Patents:'}
-          <a class="text-gray-700 dark:text-gray-300 hover:text-sky-700 dark:hover:text-gray-100 underline ml-1" href={"/patents/"+patenturl[post.patentId].url}>
+          <a class="text-sky-700 hover:text-sky-600 ml-1" href={"/patents/"+patenturl[post.patentId].url}>
             {post.patentId}
           </a>
           {familyMembers.length > 0 && (
@@ -85,7 +105,7 @@ const getHrefForSlug = (slug: string) => {
               ,{familyMembers.map((item, index, arr) => (
                 patenturl[item] && (
                   <a 
-                    class="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 underline ml-1" 
+                    class="text-sky-700 hover:text-sky-600 ml-1" 
                     href={"/patents/"+patenturl[item].url}
                   >
                     {item}{index !== arr.length - 1 && <span>,</span>}
@@ -99,16 +119,19 @@ const getHrefForSlug = (slug: string) => {
       
       <div class="flex items-center flex-wrap mt-2">
         {link ? (
-          <a href={getHrefForSlug(post.slug)} class="no-underline text-gray-800 dark:text-gray-300 hover:text-sky-700 dark:hover:text-gray-100 inline-flex items-centers md:mb-2 lg:mb-0">
+          <a href={getHrefForSlug(post.slug)} class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
             Read the full disclosure
-            <Icon name="tabler:arrow-narrow-right" class="w-7 h-7 ml-2 dark:text-gray-400" />            
+            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="M12 5l7 7-7 7"></path>
+            </svg>
           </a>
         ) : null}
       </div>
       
-      <!-- <div class="border-t border-gray-200 dark:border-gray-700 pt-4">
+      <div class="borsder-t border-gray-200 pt-4">
         <PostTags tags={post.tags} />
-      </div> -->
+      </div>
     </div>
   </div>
 </div>
