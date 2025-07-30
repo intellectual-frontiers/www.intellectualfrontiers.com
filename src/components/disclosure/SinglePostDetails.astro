@@ -118,7 +118,429 @@ const relatedPostsA = post.disclosureAuthors ? await getRelatedDisclosurePostsBy
     </div>
   </div>
 )}
+  <section class="w-full md:w-2/3 flex flex-col items-center gpx-3">
+    <article class="flex flex-col shadow-sm my-4 w-full bg-white dark:bg-gray-800 rounded-sm border border-gray-300 dark:border-gray-600 overflow-hidden">
+<!-- Academic Image Section -->
+<div class="mt-6 relative">
+  {/* Only show image for premium content */}
+  {post.access === 'paid' && post.image && (
+    <div class="relative px-6">
+      <Image
+        src="/images/disclosure/premium-defensive-disclosure-cover.webp"
+        class="max-w-full lg:max-w-[900px] mx-auto mb-6 rounded-sm bg-gray-100 dark:bg-gray-700 bordder border-gray-300 dark:border-gray-600"
+        widths={[400, 900]}
+        sizes="(max-width: 900px) 400px, 900px"
+        alt={post?.excerpt || ''}
+        width={900}
+        height={506}
+        loading="eager"
+        decoding="async"
+      />
+      
+      {/* Academic Premium Content Overlay */}
+      <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center rounded-sm mx-6">
+        <div class="text-center text-white p-8 max-w-md bg-gray-900 bg-opacity-95 rounded-sm border border-gray-600">
+          <div class="mb-6">
+            <Icon name="tabler:lock" class="w-12 h-12 mx-auto mb-4 text-gray-300" />
+            <h3 class="text-xl font-bold mb-3 font-serif">Premium Technical Disclosure</h3>
+            <p class="text-sm opacity-90 leading-relaxed">
+              This comprehensive defensive disclosure contains detailed technical specifications, 
+              implementation details, and prior art analysis. The abstract is available below.
+            </p>
+          </div>
+          <div class="space-y-3">
+            <button 
+              onclick="document.getElementById('abstract-section').scrollIntoView({behavior: 'smooth'})"
+              class="w-full bg-gray-700 hover:bg-gray-600 text-white font-medium py-3 px-6 rounded-sm transition-colors duration-200 border border-gray-600"
+            >
+              <Icon name="tabler:file-text" class="w-4 h-4 inline mr-2" />
+              Read Abstract Below
+            </button>
+            <button class="w-full bg-gray-800 hover:bg-gray-700 text-white font-medium py-3 px-6 rounded-sm transition-colors duration-200 border border-gray-600">
+              <Icon name="tabler:key" class="w-4 h-4 inline mr-2" />
+              Access Full Publication
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  )}
+  
+  {/* Academic Open Innovation Disclaimer for Free Access */}
+  {post.access !== 'paid' && (
+    <div class="px-6 mb-6">
+      <div class="bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-sm p-6">
+        <div class="flex items-start">
+          <div class="flex-shrink-0 mr-4">
+            <div class="bg-gray-100 dark:bg-gray-800 p-2 rounded-sm">
+              <Icon name="tabler:bulb" class="w-6 h-6 text-sky-600 dark:text-sky-400" />
+            </div>
+          </div>
+          <div class="flex-1">
+            <p class="text-gray-700 dark:text-gray-300 leading-relaxed font-serif italic text-base">
+              This disclosure is published as part of Intellectual Frontiers Open Innovation Initiative. It is not a patent filing, but a technical blueprint shared to promote transparency, collaboration, and to prevent overlapping patent claims in this domain.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  )}
+  
+  {/* Fallback border for posts without image */}
+  {!post.image && post.access !== 'paid' && (
+    <div class="max-w-3xl mx-auto px-4 sm:px-6">
+      <div class="border-t border-gray-300 dark:border-gray-600" />
+    </div>
+  )}
+</div>
 
+      <!-- Academic Content Section -->
+      <div class="flex flex-col justify-start p-2">
+        {post.access === 'paid' ? (
+          <div id="abstract-section" class="mx-auto w-full max-w-4xl mt-8">
+            <div class="relative bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-sm p-8 shadow-sm">
+              <div class="absolute top-4 right-4">
+                <span class="inline-flex items-center gap-1 bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 text-sm font-semibold px-3 py-1 rounded-sm border border-gray-300 dark:border-gray-600">
+                  <Icon name="tabler:lock" class="w-4 h-4" />
+                  Premium
+                </span>
+              </div>
+              
+              <div class="mb-6 border-b border-gray-200 dark:border-gray-700 pb-4">
+                <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-2 flex items-center font-serif">
+                  <Icon name="tabler:file-text" class="w-6 h-6 mr-2 text-gray-600" />
+                  Abstract
+                </h3>
+              </div>
+              
+              <div class="prose prose-lg max-w-none">
+                <p class="text-gray-800 dark:text-gray-200 leading-relaxed text-lg font-serif">
+                  {post.abstract || 'This premium defensive disclosure contains comprehensive technical information, detailed implementation specifications, and thorough prior art analysis. Subscribe to access the complete technical documentation.'}
+                </p>
+              </div>
+              
+              <div class="mt-8 pt-6 border-t border-gray-200 dark:border-gray-700">
+                <div class="flex items-center justify-between">
+                  <div>
+                    <p class="text-lg font-semibold text-gray-800 dark:text-gray-200 mb-1">
+                      Access Full Technical Documentation
+                    </p>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">
+                      Includes detailed specifications, implementation notes, and references
+                    </p>
+                  </div>
+                  <button class="inline-flex items-center px-6 py-3 bg-gray-800 hover:bg-gray-700 text-white text-lg font-medium rounded-sm transition-colors duration-200 border border-gray-600">
+                    <Icon name="tabler:key" class="w-5 h-5 mr-2" />
+                    Subscribe Now
+                    <Icon name="tabler:arrow-right" class="w-5 h-5 ml-2" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        ) : (
+          <div>
+            {/* Full Content for Free Articles */}            
+            <div class="mx-4 text-lg !leading-normal prose prose-lg lg:prose-xl dark:prose-invert prose-headings:font-serif prose-headings:font-bold prose-headings:leading-tight prose-headings:tracking-normal prose-headings:scroll-mt-[80px] dark:prose-headings:text-gray-200 prose-a:text-gray-700 dark:prose-a:text-gray-300 prose-a:underline prose-p:font-serif prose-p:text-gray-800 dark:prose-p:text-gray-200 prose-img:rounded-sm prose-img:shadow-sm prose-img:border prose-img:border-gray-300 dark:prose-img:border-gray-600 prose-h2:mb-1 prose-h2:text-3xl">
+              {Content ? <Content /> : <Fragment set:html={post.content || ''} />}
+            </div>
+                    
+        {/* Academic Recommended Citation Section */}
+        {/* <div id="citation-section" class="mt-16 pt-8 border-t-2 border-gray-300 dark:border-gray-600">
+          <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-6 flex items-center font-serif">
+            <Icon name="tabler:quote" class="w-6 h-6 mr-3 text-gray-600" />
+            Recommended Citation
+          </h3>
+          <div class="bg-white dark:bg-gray-800 rounded-sm p-6 border border-gray-300 dark:border-gray-600">
+            <div class="bg-gray-50 dark:bg-gray-900 p-4 rounded-sm border border-gray-200 dark:border-gray-700 mb-4">
+              <p id="citation-text" class="text-gray-800 dark:text-gray-200 font-serif italic leading-relaxed">
+                {post.disclosureAuthors && post.disclosureAuthors.length > 0 
+                  ? post.disclosureAuthors.join(', ') + '. '
+                  : ''
+                }"{post.title}." <em>Intellectual Frontiers Journal</em>, {getFormattedDateWithLongMonth(post.publishDate)}. {new URL(Astro.url).origin}/{post.slug || 'current-page'}
+              </p>
+            </div>
+            <div class="flex justify-end">
+              <button
+                onclick="copyCitationText()"
+                class="inline-flex items-center px-3 py-2 bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300 text-sm font-medium rounded-sm transition-all duration-200 border border-gray-300 dark:border-gray-600"
+              >
+                <Icon name="tabler:copy" class="w-4 h-4 mr-2" />
+                Copy Citation
+              </button>
+            </div>
+          </div>
+        </div> */}
+          </div>
+        )}
+      </div>
+    </article>
+  </section>
+  <!-- Academic Sidebar with Scholarly Design -->
+  <aside class="w-full md:w-1/3 flex flex-col items-center pl-4">
+    <!-- Main Publication Information Card -->
+    <div class="w-full bg-white dark:bg-gray-800 flex flex-col mt-4 shadow-sm rounded-sm border border-gray-300 dark:border-gray-600 overflow-hidden">
+      <!-- Header Section -->
+      <div class="bg-gray-800 dark:bg-gray-700 text-white text-center py-6 px-6 border-b border-gray-600">
+        <div class="flex items-center justify-center mb-3">
+          <Icon name="tabler:file-certificate" class="w-6 h-6 mr-2" />
+          <h3 class="text-lg font-semibold font-serif"></h3>
+        </div>
+        <p class="text-xl font-bold font-mono">{post.disclosureId}</p>
+        <!-- <div class="mt-3">
+          <span class="inline-flex items-center px-3 py-1 bg-gray-100 dark:bg-gray-600 text-gray-800 dark:text-gray-200 rounded-sm text-sm font-medium border border-gray-300 dark:border-gray-500">
+            <Icon name="tabler:shield-check" class="w-4 h-4 mr-1" />
+            {post.disclosureStatus}
+          </span>
+        </div> -->
+      </div>
+
+      <!-- Content Section -->
+      <div class="p-6 space-y-6">             
+
+        <!-- Academic Metadata Section -->
+        <div class="space-y-4">
+          <!-- Publication Date -->
+          <!-- <div class="bg-gray-50 dark:bg-gray-900 rounded-sm p-4 border border-gray-200 dark:border-gray-700">
+            <div class="flex items-center">
+              <Icon name="tabler:calendar" class="w-5 h-5 text-gray-600 mr-3" />
+              <div>
+                <span class="text-sm font-semibold text-gray-700 dark:text-gray-300">Publication Date</span>
+                <p class="text-gray-800 dark:text-gray-200 font-mono text-sm">{getFormattedDateWithLongMonth(post.publishDate)}</p>
+              </div>
+            </div>
+          </div> -->
+          
+           <!-- Enhanced Download Section - Place after Publication Date -->
+        <!-- <div class="bg-gray-50 dark:bg-gray-900 rounded-sm p-4 border border-gray-200 dark:border-gray-700">
+  <div class="space-y-3">
+    {/* Primary PDF Download Button */}
+    {post.downloadPdfLink ? (
+      <a
+        href={post.downloadPdfLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex items-center justify-center w-full bg-gray-800 hover:bg-gray-700 dark:bg-gray-700 dark:hover:bg-gray-600 text-white font-semibold py-3 px-4 rounded-sm transition-all duration-200 border border-gray-600 shadow-sm hover:shadow-md group"
+      >
+        <Icon name="tabler:file-type-pdf" class="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
+        Download Full PDF
+        <Icon name="tabler:external-link" class="w-4 h-4 ml-2 opacity-70" />
+      </a>
+    ) : (
+      /* Fallback when PDF link is not available */
+      <div class="text-center">
+        <div class="inline-flex items-center justify-center w-full bg-gray-300 dark:bg-gray-600 text-gray-600 dark:text-gray-400 font-semibold py-3 px-4 rounded-sm border border-gray-400 dark:border-gray-500 cursor-not-allowed">
+          <Icon name="tabler:file-type-pdf" class="w-5 h-5 mr-2" />
+          PDF Processing
+        </div>
+        <p class="text-xs text-gray-500 dark:text-gray-400 mt-2 italic">
+          PDF generation in progress
+        </p>
+      </div>
+    )} -->
+
+    {/* Recommended Citation Button */}
+    <!-- <button
+      onclick="scrollToCitation()"
+      class="w-full inline-flex items-center justify-center bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300 font-medium py-2 px-3 rounded-sm transition-all duration-200 border border-gray-300 dark:border-gray-600 text-sm"
+    >
+      <Icon name="tabler:quote" class="w-4 h-4 mr-2" />
+      Recommended Citation
+    </button> -->
+  </div>
+</div>          
+
+          <!-- Patent Family Members -->
+          <!-- {post.patentFamilyMembers && Array.isArray(post.patentFamilyMembers) && post.patentFamilyMembers.length > 0 && (
+            <div class="bg-gray-50 dark:bg-gray-900 rounded-sm p-4 border border-gray-200 dark:border-gray-700">
+              <div class="flex items-start">
+                <Icon name="tabler:hierarchy" class="w-5 h-5 text-gray-600 mr-3 mt-0.5" />
+                <div class="flex-1">
+                  <span class="text-sm font-semibold text-gray-700 dark:text-gray-300 block mb-2">Family Members</span>
+                  <div class="flex flex-wrap gap-2">
+                    {post.patentFamilyMembers.map((item, index) => (
+                      <a 
+                        href={patenturl[item]?.url}
+                        class="inline-flex items-center px-2 py-1 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 text-xs font-medium rounded-sm hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors border border-gray-300 dark:border-gray-600"
+                      >
+                        {item}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          )} -->
+
+          <!-- External Links -->
+          <!-- {post.externalLinks && post.externalLinks.length > 0 && (
+            <div class="bg-gray-50 dark:bg-gray-900 rounded-sm p-4 border border-gray-200 dark:border-gray-700">
+              <div class="flex items-start">
+                <Icon name="tabler:external-link" class="w-5 h-5 text-gray-600 mr-3 mt-0.5" />
+                <div class="flex-1">
+                  <span class="text-sm font-semibold text-gray-700 dark:text-gray-300 block mb-2">External Links</span>
+                  <div class="space-y-1">
+                    {post.externalLinks.map((link, index) => (
+                      <a 
+                        href={link.link} 
+                        target="_blank"
+                        class="block text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 text-sm underline"
+                      >
+                        {link.sourceText}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          )} -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Academic Related Patents Section -->
+    <!-- {relatedPosts.length > 0 && (
+      <div class="w-full mt-8">
+        <div class="bg-gray-800 dark:bg-gray-700 text-white py-4 px-4 rounded-t-sm border border-gray-600">
+          <h3 class="font-bold text-lg flex items-center font-serif">
+            <Icon name="tabler:file-certificate" class="w-5 h-5 mr-2" />
+            Related Patents
+          </h3>
+        </div>
+        <div class="bg-white dark:bg-gray-800 border-x border-b border-gray-300 dark:border-gray-600 rounded-b-sm p-4 space-y-6">
+          {relatedPosts.map((item, index) => (
+            <div class="bg-gray-50 dark:bg-gray-900 rounded-sm overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-200 dark:border-gray-700">
+              <a href={`/${item.url}`} class="block">
+                <img
+                  src={item.thumbnail}
+                  alt={item.title}
+                  class="w-full h-48 object-cover border-b border-gray-200 dark:border-gray-700"
+                />
+              </a>
+              <div class="p-4">
+                <div class="flex items-center gap-2 mb-3">
+                  <span class="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 text-xs font-medium px-2 py-1 rounded-sm border border-gray-300 dark:border-gray-600">
+                    <a href={getDisclosurePermalink()}>
+                      {item.category?.replaceAll("-", " ").replace(/\s[a-z]|^[a-z]/gi, (a) => a.toUpperCase())}
+                    </a>
+                  </span>
+                  <span class="bg-gray-200 dark:bg-gray-600 text-gray-800 dark:text-gray-200 text-xs font-medium px-2 py-1 rounded-sm border border-gray-300 dark:border-gray-500 font-mono">
+                    {item.patentId}
+                  </span>
+                </div>
+                <a href={`/${item.url}`} class="block">
+                  <h4 class="font-semibold text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300 mb-2 line-clamp-2 font-serif">
+                    {item.title}
+                  </h4>
+                </a>
+                <p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed line-clamp-3 mb-3 font-serif">
+                  {item.excerpt}
+                </p>
+                <a href={`/${item.url}`} class="inline-flex items-center text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 text-sm font-medium">
+                  Read More
+                  <Icon name="tabler:arrow-narrow-right" class="w-4 h-4 ml-1" />
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    )} -->
+
+    <!-- Academic Related Defensive Disclosures Section -->
+    <!-- {relatedPostsD.length > 0 && (
+      <div class="w-full mt-8">
+        <div class="bg-gray-800 dark:bg-gray-700 text-white py-4 px-4 rounded-t-sm border border-gray-600">
+          <h3 class="font-bold text-lg flex items-center font-serif">
+            <Icon name="tabler:shield-check" class="w-5 h-5 mr-2" />
+            Related Defensive Disclosures
+          </h3>
+        </div>
+        <div class="bg-white dark:bg-gray-800 border-x border-b border-gray-300 dark:border-gray-600 rounded-b-sm p-4 space-y-4">
+          {relatedPostsD.map((item, index) => (
+            <div class="bg-gray-50 dark:bg-gray-900 rounded-sm p-4 hover:shadow-md transition-shadow border border-gray-200 dark:border-gray-700">
+              <div class="mb-2">
+                <span class="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 text-xs font-medium px-2 py-1 rounded-sm border border-gray-300 dark:border-gray-600">
+                  <a href={getDisclosurePermalink()}>
+                    {item.category?.replaceAll("-", " ").replace(/\s[a-z]|^[a-z]/gi, (a) => a.toUpperCase())}
+                  </a>
+                </span>
+              </div>
+              <a href={`/${item.slug}`} class="block">
+                <h4 class="font-semibold text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300 mb-2 line-clamp-2 font-serif">
+                  {item.title}
+                </h4>
+              </a>
+              <p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed line-clamp-3 mb-3 font-serif">
+                {item.excerpt}
+              </p>
+              <a href={`/${item.slug}`} class="inline-flex items-center text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 text-sm font-medium">
+                Read More
+                <Icon name="tabler:arrow-narrow-right" class="w-4 h-4 ml-1" />
+              </a>
+            </div>
+          ))}
+        </div>
+      </div>
+    )} -->
+
+    <!-- Academic More from Authors Section -->
+    <!-- {relatedPostsA.length > 0 && (
+      <div class="w-full mt-8">
+        <div class="bg-gray-800 dark:bg-gray-700 text-white py-4 px-4 rounded-t-sm border border-gray-600">
+          <h3 class="font-bold text-lg flex items-center font-serif">
+            <Icon name="tabler:user-circle" class="w-5 h-5 mr-2" />
+            More from These Authors
+          </h3>
+        </div>
+        <div class="bg-white dark:bg-gray-800 border-x border-b border-gray-300 dark:border-gray-600 rounded-b-sm p-4 space-y-4">
+          {relatedPostsA.map((item, index) => (
+            <div class="bg-gray-50 dark:bg-gray-900 rounded-sm p-4 hover:shadow-md transition-shadow border border-gray-200 dark:border-gray-700">
+              <div class="mb-2">
+                <span class="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 text-xs font-medium px-2 py-1 rounded-sm border border-gray-300 dark:border-gray-600">
+                  <a href={getDisclosurePermalink()}>
+                    {item.category?.replaceAll("-", " ").replace(/\s[a-z]|^[a-z]/gi, (a) => a.toUpperCase())}
+                  </a>
+                </span>
+              </div>
+              <a href={`/${item.slug}`} class="block">
+                <h4 class="font-semibold text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300 mb-2 line-clamp-2 font-serif">
+                  {item.title}
+                </h4>
+              </a>
+              <p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed line-clamp-3 mb-3 font-serif">
+                {item.excerpt}
+              </p>
+              <a href={`/${item.slug}`} class="inline-flex items-center text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 text-sm font-medium">
+                Read More
+                <Icon name="tabler:arrow-narrow-right" class="w-4 h-4 ml-1" />
+              </a>
+            </div>
+          ))}
+          <div class="text-center pt-4 border-t border-gray-200 dark:border-gray-700">
+            <a 
+              href="/defensive-disclosures#browse-disclosures" 
+              class="inline-flex items-center text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 font-medium"
+            >
+              <Icon name="tabler:chevron-right" class="w-4 h-4 mr-1" />
+              Show More Defensive Disclosures
+            </a>
+          </div>
+        </div>
+      </div>
+    )} -->
+
+    <!-- Academic Tags Section -->
+    <!-- <div class="w-full mt-8">
+      <div class="bg-gray-50 dark:bg-gray-900 rounded-sm p-4 border border-gray-200 dark:border-gray-700">
+        <h3 class="font-semibold text-gray-900 dark:text-white mb-3 flex items-center font-serif">
+          <Icon name="tabler:tags" class="w-5 h-5 mr-2 text-gray-600" />
+          Technical Keywords
+        </h3>
+        <PostTags tags={post.tags} class="justify-start" />
+      </div>
+    </div> -->
+  </aside>
 
 
 
