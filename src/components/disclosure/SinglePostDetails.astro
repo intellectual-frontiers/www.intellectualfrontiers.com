@@ -304,8 +304,7 @@ const SITE_ORIGIN = Astro.site?.origin; //returns 'https://www.intellectualfront
             {/* Primary PDF Download Button - Only show if link exists */}
             {post.downloadPdfLink && (
               <a
-                href={post.downloadPdfLink}
-                target="_blank"
+                href="#"
                 rel="noopener noreferrer"
                 class="inline-flex items-center justify-center w-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300 font-medium py-2 px-3 rounded-sm transition-all duration-200 border border-gray-300 dark:border-gray-600 text-sm group"
               >
@@ -314,16 +313,14 @@ const SITE_ORIGIN = Astro.site?.origin; //returns 'https://www.intellectualfront
               </a>
             )}
 
-            <button
-              onclick="openCitationModal()"
+            <button              
               class="w-full inline-flex items-center justify-center bg-gray-200 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300 font-medium py-2 px-3 rounded-sm transition-all duration-200 border border-gray-300 dark:border-gray-600 text-sm"
             >
               <Icon name="tabler:quote" class="w-4 h-4 mr-2 text-yellow-600 dark:text-yellow-400" />
               Cite this Disclosure
             </button>
 
-            <button
-              onclick="copyPermalink(event)"
+            <button              
               class="w-full inline-flex items-center justify-center bg-gray-200 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300 font-medium py-2 px-3 rounded-sm transition-all duration-200 border border-gray-300 dark:border-gray-600 text-sm"
             >
               <Icon name="tabler:link" class="w-4 h-4 mr-2 text-green-600 dark:text-green-400" />
@@ -433,24 +430,17 @@ const SITE_ORIGIN = Astro.site?.origin; //returns 'https://www.intellectualfront
     )}
 
     <!-- Academic More from Authors Section -->
-    {relatedPostsA.length > 0 && (
+    <!-- {relatedPostsA.length > 0 && (
       <div class="w-full mt-8">
         <div class="bg-gray-800 dark:bg-gray-700 text-white py-4 px-4 rounded-t-sm border border-gray-600">
           <h3 class="font-bold text-lg flex items-center font-serif">
             <Icon name="tabler:user-circle" class="w-5 h-5 mr-2" />
-            More Disclosures from These Authors
+            More Disclosures from {post.disclosureAuthors && post.disclosureAuthors.length === 1 ? 'the Author' : 'These Authors'}
           </h3>
         </div>
         <div class="bg-white dark:bg-gray-800 border-x border-b border-gray-300 dark:border-gray-600 rounded-b-sm p-4 space-y-4">
           {relatedPostsA.map((item, index) => (
             <div class="bg-gray-50 dark:bg-gray-900 rounded-sm p-4 hover:shadow-md transition-shadow border border-gray-200 dark:border-gray-700">
-              {/* <div class="mb-2">
-                <span class="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 text-xs font-medium px-2 py-1 rounded-sm border border-gray-300 dark:border-gray-600">
-                  <a href={getDisclosurePermalink()}>
-                    {item.category?.replaceAll("-", " ").replace(/\s[a-z]|^[a-z]/gi, (a) => a.toUpperCase())}
-                  </a>
-                </span>
-              </div> */}
               <a href={`/${item.slug}`} class="block">
                 <h4 class="font-semibold text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300 mb-2 line-clamp-2 font-serif">
                   {item.title}
@@ -476,8 +466,7 @@ const SITE_ORIGIN = Astro.site?.origin; //returns 'https://www.intellectualfront
           </div>
         </div>
       </div>
-    )}
-
+    )} -->
     
     <!-- <SocialShare url={url} text={post.title} class="text-gray-600 dark:text-gray-400" /> -->
   </aside>
