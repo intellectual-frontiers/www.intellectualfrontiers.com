@@ -13,7 +13,8 @@ import {getRelatedDisclosurePosts, getRelatedDisclosurePostsByAuthors} from '~/u
 import type { Post } from '~/types';
 //Import the patent urls json file
 import patenturl from '../../../support/patenturls.json';
-
+import { Schema } from 'astro-seo-schema';
+import { getFormattedDateWithLongMonth, getFormattedDateYYYYMMDD } from '~/utils/utils';
 export interface Props {
   post: Post;
   url: string | URL;
@@ -28,7 +29,45 @@ const relatedPosts = await getRelatedPosts(post.patentId)
 // const blogPosts = await getBlogPosts()
 const relatedPostsD = post.tags ? await getRelatedDisclosurePosts(post) : [];
 const relatedPostsA = post.disclosureAuthors ? await getRelatedDisclosurePostsByAuthors(post) : [];
+
+const SITE_HREF = Astro.site?.href; //returns 'https://www.intellectualfrontiers.com/'
+const SITE_ORIGIN = Astro.site?.origin; //returns 'https://www.intellectualfrontiers.com'
 ---
+<!-- <Schema
+  item={{
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': SITE_HREF + post.permalink,
+    },
+    headline: post.title,
+    description: post.excerpt,
+    image: SITE_ORIGIN + post.image,
+    publisher: {
+      '@type': 'Organization',
+      name: 'Intellectual Frontiers',
+      logo: {
+        '@type': 'ImageObject',
+        url: SITE_ORIGIN + '/images/IF-logo.svg',
+      },
+    },
+    datePublished: getFormattedDateYYYYMMDD(post.publishDate),
+    dateModified: getFormattedDateYYYYMMDD(post.publishDate),
+    ...(post.blogCitations && post.blogCitations.length > 0
+      ? {
+          citation: post.blogCitations.map((item) => ({
+            '@type': 'CreativeWork',
+            author: item.author || '',
+            name: item.name || '',
+            publisher: item.publisher || '',
+            datePublished: item.datePublished || '',
+            about: item.about || ''
+          }))
+        }
+      : {})
+  }}
+/> -->
 <div class="container mx-auto flex flex-wrap py-8 px-4 bg-gray-50 dark:bg-gray-900 min-h-screen">
   <!-- Scholarly Header with Academic Styling -->
   <div class="w-full mb-4">
@@ -95,104 +134,104 @@ const relatedPostsA = post.disclosureAuthors ? await getRelatedDisclosurePostsBy
 )}
     </div>
   </div>
-<!-- Right after the authors section and before the main content -->
-{post.aiSummary && (
-  <div class="w-full mb-6">
-    <div class="bg-white dark:bg-gray-800 rounded-sm border-l-4 border-l-gray-300 dark:border-gray-500 border border-gray-200 dark:borsder-gray-600 p-6 shadow-sm">
-      <div class="flex items-start mb-4">
-        <div class="bg-gray-100 dark:bg-gray-700 p-2 rounded-sm mr-4 mt-1">
-          <Icon name="tabler:file-description" class="w-5 h-5 text-gray-600 dark:text-gray-400" />
+  <!-- Right after the authors section and before the main content -->
+  {post.aiSummary && (
+    <div class="w-full mb-6">
+      <div class="bg-white dark:bg-gray-800 rounded-sm border-l-4 border-l-gray-300 dark:border-gray-500 border border-gray-200 dark:borsder-gray-600 p-6 shadow-sm">
+        <div class="flex items-start mb-4">
+          <div class="bg-gray-100 dark:bg-gray-700 p-2 rounded-sm mr-4 mt-1">
+            <Icon name="tabler:file-description" class="w-5 h-5 text-gray-600 dark:text-gray-400" />
+          </div>
+          <div>
+            <h3 class="tesxt-lg font-medium text-gray-900 dark:text-white tracking-wide uppercase text-md mb-1 font-sans">
+              Technical Overview
+            </h3>
+            <div class="w-12 h-0.5 bg-gray-400 dark:bg-gray-500"></div>
+          </div>
         </div>
-        <div>
-          <h3 class="tesxt-lg font-medium text-gray-900 dark:text-white tracking-wide uppercase text-md mb-1 font-sans">
-            Technical Overview
-          </h3>
-          <div class="w-12 h-0.5 bg-gray-400 dark:bg-gray-500"></div>
+        <div class="ml-13">
+          <p class="text-gray-700 dark:text-gray-300 leading-relaxed text-base font-serif italic">
+            {post.aiSummary}
+          </p>
         </div>
-      </div>
-      <div class="ml-13">
-        <p class="text-gray-700 dark:text-gray-300 leading-relaxed text-base font-serif italic">
-          {post.aiSummary}
-        </p>
       </div>
     </div>
-  </div>
-)}
+  )}
   <section class="w-full md:w-2/3 flex flex-col items-center gpx-3">
     <article class="flex flex-col shadow-sm my-4 w-full bg-white dark:bg-gray-800 rounded-sm border border-gray-300 dark:border-gray-600 overflow-hidden">
-<!-- Academic Image Section -->
-<div class="mt-6 relative">
-  {/* Only show image for premium content */}
-  {post.access === 'paid' && post.image && (
-    <div class="relative px-6">
-      <Image
-        src="/images/disclosure/premium-defensive-disclosure-cover.webp"
-        class="max-w-full lg:max-w-[900px] mx-auto mb-6 rounded-sm bg-gray-100 dark:bg-gray-700 bordder border-gray-300 dark:border-gray-600"
-        widths={[400, 900]}
-        sizes="(max-width: 900px) 400px, 900px"
-        alt={post?.excerpt || ''}
-        width={900}
-        height={506}
-        loading="eager"
-        decoding="async"
-      />
-      
-      {/* Academic Premium Content Overlay */}
-      <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center rounded-sm mx-6">
-        <div class="text-center text-white p-8 max-w-md bg-gray-900 bg-opacity-95 rounded-sm border border-gray-600">
-          <div class="mb-6">
-            <Icon name="tabler:lock" class="w-12 h-12 mx-auto mb-4 text-gray-300" />
-            <h3 class="text-xl font-bold mb-3 font-serif">Premium Technical Disclosure</h3>
-            <p class="text-sm opacity-90 leading-relaxed">
-              This comprehensive defensive disclosure contains detailed technical specifications, 
-              implementation details, and prior art analysis. The abstract is available below.
-            </p>
-          </div>
-          <div class="space-y-3">
-            <button 
-              onclick="document.getElementById('abstract-section').scrollIntoView({behavior: 'smooth'})"
-              class="w-full bg-gray-700 hover:bg-gray-600 text-white font-medium py-3 px-6 rounded-sm transition-colors duration-200 border border-gray-600"
-            >
-              <Icon name="tabler:file-text" class="w-4 h-4 inline mr-2" />
-              Read Abstract Below
-            </button>
-            <button class="w-full bg-gray-800 hover:bg-gray-700 text-white font-medium py-3 px-6 rounded-sm transition-colors duration-200 border border-gray-600">
-              <Icon name="tabler:key" class="w-4 h-4 inline mr-2" />
-              Access Full Publication
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-  )}
-  
-  {/* Academic Open Innovation Disclaimer for Free Access */}
-  {post.access !== 'paid' && (
-    <div class="px-6 mb-6">
-      <div class="bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-sm p-6">
-        <div class="flex items-start">
-          <div class="flex-shrink-0 mr-4">
-            <div class="bg-gray-100 dark:bg-gray-800 p-2 rounded-sm">
-              <Icon name="tabler:bulb" class="w-6 h-6 text-sky-600 dark:text-sky-400" />
+    <!-- Academic Image Section -->
+    <div class="mt-6 relative">
+      {/* Only show image for premium content */}
+      {post.access === 'paid' && post.image && (
+        <div class="relative px-6">
+          <Image
+            src="/images/disclosure/premium-defensive-disclosure-cover.webp"
+            class="max-w-full lg:max-w-[900px] mx-auto mb-6 rounded-sm bg-gray-100 dark:bg-gray-700 bordder border-gray-300 dark:border-gray-600"
+            widths={[400, 900]}
+            sizes="(max-width: 900px) 400px, 900px"
+            alt={post?.excerpt || ''}
+            width={900}
+            height={506}
+            loading="eager"
+            decoding="async"
+          />
+          
+          {/* Academic Premium Content Overlay */}
+          <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center rounded-sm mx-6">
+            <div class="text-center text-white p-8 max-w-md bg-gray-900 bg-opacity-95 rounded-sm border border-gray-600">
+              <div class="mb-6">
+                <Icon name="tabler:lock" class="w-12 h-12 mx-auto mb-4 text-gray-300" />
+                <h3 class="text-xl font-bold mb-3 font-serif">Premium Technical Disclosure</h3>
+                <p class="text-sm opacity-90 leading-relaxed">
+                  This comprehensive defensive disclosure contains detailed technical specifications, 
+                  implementation details, and prior art analysis. The abstract is available below.
+                </p>
+              </div>
+              <div class="space-y-3">
+                <button 
+                  onclick="document.getElementById('abstract-section').scrollIntoView({behavior: 'smooth'})"
+                  class="w-full bg-gray-700 hover:bg-gray-600 text-white font-medium py-3 px-6 rounded-sm transition-colors duration-200 border border-gray-600"
+                >
+                  <Icon name="tabler:file-text" class="w-4 h-4 inline mr-2" />
+                  Read Abstract Below
+                </button>
+                <button class="w-full bg-gray-800 hover:bg-gray-700 text-white font-medium py-3 px-6 rounded-sm transition-colors duration-200 border border-gray-600">
+                  <Icon name="tabler:key" class="w-4 h-4 inline mr-2" />
+                  Access Full Publication
+                </button>
+              </div>
             </div>
           </div>
-          <div class="flex-1">
-            <p class="text-gray-700 dark:text-gray-300 leading-relaxed font-serif italic text-base">
-              This disclosure is published as part of Intellectual Frontiers Open Innovation Initiative. It is not a patent filing, but a technical blueprint shared to promote transparency, collaboration, and to prevent overlapping patent claims in this domain.
-            </p>
+        </div>
+      )}
+      
+      {/* Academic Open Innovation Disclaimer for Free Access */}
+      {post.access !== 'paid' && (
+        <div class="px-6 mb-6">
+          <div class="bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-sm p-6">
+            <div class="flex items-start">
+              <div class="flex-shrink-0 mr-4">
+                <div class="bg-gray-100 dark:bg-gray-800 p-2 rounded-sm">
+                  <Icon name="tabler:bulb" class="w-6 h-6 text-sky-600 dark:text-sky-400" />
+                </div>
+              </div>
+              <div class="flex-1">
+                <p class="text-gray-700 dark:text-gray-300 leading-relaxed font-serif italic text-base">
+                  This disclosure is published as part of Intellectual Frontiers Open Innovation Initiative. It is not a patent filing, but a technical blueprint shared to promote transparency, collaboration, and to prevent overlapping patent claims in this domain.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      )}
+      
+      {/* Fallback border for posts without image */}
+      {!post.image && post.access !== 'paid' && (
+        <div class="max-w-3xl mx-auto px-4 sm:px-6">
+          <div class="border-t border-gray-300 dark:border-gray-600" />
+        </div>
+      )}
     </div>
-  )}
-  
-  {/* Fallback border for posts without image */}
-  {!post.image && post.access !== 'paid' && (
-    <div class="max-w-3xl mx-auto px-4 sm:px-6">
-      <div class="border-t border-gray-300 dark:border-gray-600" />
-    </div>
-  )}
-</div>
 
       <!-- Academic Content Section -->
       <div class="flex flex-col justify-start p-2">
@@ -241,160 +280,70 @@ const relatedPostsA = post.disclosureAuthors ? await getRelatedDisclosurePostsBy
         ) : (
           <div>
             {/* Full Content for Free Articles */}            
-            <div class="mx-4 text-lg !leading-normal prose prose-lg lg:prose-xl dark:prose-invert prose-headings:font-serif prose-headings:font-bold prose-headings:leading-tight prose-headings:tracking-normal prose-headings:scroll-mt-[80px] dark:prose-headings:text-gray-200 prose-a:text-gray-700 dark:prose-a:text-gray-300 prose-a:underline prose-p:font-serif prose-p:text-gray-800 dark:prose-p:text-gray-200 prose-img:rounded-sm prose-img:shadow-sm prose-img:border prose-img:border-gray-300 dark:prose-img:border-gray-600 prose-h2:mb-1 prose-h2:text-3xl">
+            <div class="mx-4 text-lg !leading-normal prose prose-sm lg:prose-md dark:prose-invert prose-headings:font-serif prose-headings:font-bold prose-headings:leading-tight prose-headings:tracking-normal prose-headings:scroll-mt-[80px] dark:prose-headings:text-gray-200 prose-a:text-gray-700 dark:prose-a:text-gray-300 prose-a:underline prose-p:font-serif prose-p:text-gray-800 dark:prose-p:text-gray-200 prose-img:rounded-sm prose-img:shadow-sm prose-img:border prose-img:border-gray-300 dark:prose-img:border-gray-600 prose-h2:mb-1 prose-h2:text-3xl">
               {Content ? <Content /> : <Fragment set:html={post.content || ''} />}
-            </div>
-                    
-        {/* Academic Recommended Citation Section */}
-        {/* <div id="citation-section" class="mt-16 pt-8 border-t-2 border-gray-300 dark:border-gray-600">
-          <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-6 flex items-center font-serif">
-            <Icon name="tabler:quote" class="w-6 h-6 mr-3 text-gray-600" />
-            Recommended Citation
-          </h3>
-          <div class="bg-white dark:bg-gray-800 rounded-sm p-6 border border-gray-300 dark:border-gray-600">
-            <div class="bg-gray-50 dark:bg-gray-900 p-4 rounded-sm border border-gray-200 dark:border-gray-700 mb-4">
-              <p id="citation-text" class="text-gray-800 dark:text-gray-200 font-serif italic leading-relaxed">
-                {post.disclosureAuthors && post.disclosureAuthors.length > 0 
-                  ? post.disclosureAuthors.join(', ') + '. '
-                  : ''
-                }"{post.title}." <em>Intellectual Frontiers Journal</em>, {getFormattedDateWithLongMonth(post.publishDate)}. {new URL(Astro.url).origin}/{post.slug || 'current-page'}
-              </p>
-            </div>
-            <div class="flex justify-end">
-              <button
-                onclick="copyCitationText()"
-                class="inline-flex items-center px-3 py-2 bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300 text-sm font-medium rounded-sm transition-all duration-200 border border-gray-300 dark:border-gray-600"
-              >
-                <Icon name="tabler:copy" class="w-4 h-4 mr-2" />
-                Copy Citation
-              </button>
-            </div>
-          </div>
-        </div> */}
+            </div>  
           </div>
         )}
       </div>
     </article>
   </section>
+
   <!-- Academic Sidebar with Scholarly Design -->
   <aside class="w-full md:w-1/3 flex flex-col items-center pl-4">
     <!-- Main Publication Information Card -->
     <div class="w-full bg-white dark:bg-gray-800 flex flex-col mt-4 shadow-sm rounded-sm border border-gray-300 dark:border-gray-600 overflow-hidden">
-      <!-- Header Section -->
-      <div class="bg-gray-800 dark:bg-gray-700 text-white text-center py-6 px-6 border-b border-gray-600">
-        <div class="flex items-center justify-center mb-3">
-          <Icon name="tabler:file-certificate" class="w-6 h-6 mr-2" />
-          <h3 class="text-lg font-semibold font-serif"></h3>
-        </div>
-        <p class="text-xl font-bold font-mono">{post.disclosureId}</p>
-        <!-- <div class="mt-3">
-          <span class="inline-flex items-center px-3 py-1 bg-gray-100 dark:bg-gray-600 text-gray-800 dark:text-gray-200 rounded-sm text-sm font-medium border border-gray-300 dark:border-gray-500">
-            <Icon name="tabler:shield-check" class="w-4 h-4 mr-1" />
-            {post.disclosureStatus}
-          </span>
-        </div> -->
-      </div>
-
       <!-- Content Section -->
-      <div class="p-6 space-y-6">             
+      <div class="p-6 space-y-6">         
 
         <!-- Academic Metadata Section -->
-        <div class="space-y-4">
-          <!-- Publication Date -->
-          <!-- <div class="bg-gray-50 dark:bg-gray-900 rounded-sm p-4 border border-gray-200 dark:border-gray-700">
-            <div class="flex items-center">
-              <Icon name="tabler:calendar" class="w-5 h-5 text-gray-600 mr-3" />
-              <div>
-                <span class="text-sm font-semibold text-gray-700 dark:text-gray-300">Publication Date</span>
-                <p class="text-gray-800 dark:text-gray-200 font-mono text-sm">{getFormattedDateWithLongMonth(post.publishDate)}</p>
-              </div>
-            </div>
-          </div> -->
-          
+        <div class="space-y-4">  
            <!-- Enhanced Download Section - Place after Publication Date -->
-        <!-- <div class="bg-gray-50 dark:bg-gray-900 rounded-sm p-4 border border-gray-200 dark:border-gray-700">
+          <!-- Enhanced Download Section - Place after Publication Date -->
+<div class="bg-gray-50 dark:bg-gray-900 rounded-sm p-4 border border-gray-200 dark:border-gray-700">
   <div class="space-y-3">
-    {/* Primary PDF Download Button */}
-    {post.downloadPdfLink ? (
+    {/* Primary PDF Download Button - Only show if link exists */}
+    {post.downloadPdfLink && (
       <a
         href={post.downloadPdfLink}
         target="_blank"
         rel="noopener noreferrer"
-        class="inline-flex items-center justify-center w-full bg-gray-800 hover:bg-gray-700 dark:bg-gray-700 dark:hover:bg-gray-600 text-white font-semibold py-3 px-4 rounded-sm transition-all duration-200 border border-gray-600 shadow-sm hover:shadow-md group"
+        class="inline-flex items-center justify-center w-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300 font-medium py-2 px-3 rounded-sm transition-all duration-200 border border-gray-300 dark:border-gray-600 text-sm group"
       >
-        <Icon name="tabler:file-type-pdf" class="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
+        <Icon name="tabler:file-type-pdf" class="w-4 h-4 mr-2 text-red-600 dark:text-red-400 group-hover:scale-110 transition-transform" />
         Download Full PDF
-        <Icon name="tabler:external-link" class="w-4 h-4 ml-2 opacity-70" />
       </a>
-    ) : (
-      /* Fallback when PDF link is not available */
-      <div class="text-center">
-        <div class="inline-flex items-center justify-center w-full bg-gray-300 dark:bg-gray-600 text-gray-600 dark:text-gray-400 font-semibold py-3 px-4 rounded-sm border border-gray-400 dark:border-gray-500 cursor-not-allowed">
-          <Icon name="tabler:file-type-pdf" class="w-5 h-5 mr-2" />
-          PDF Processing
-        </div>
-        <p class="text-xs text-gray-500 dark:text-gray-400 mt-2 italic">
-          PDF generation in progress
-        </p>
-      </div>
-    )} -->
+    )}
 
-    {/* Recommended Citation Button */}
-    <!-- <button
-      onclick="scrollToCitation()"
-      class="w-full inline-flex items-center justify-center bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300 font-medium py-2 px-3 rounded-sm transition-all duration-200 border border-gray-300 dark:border-gray-600 text-sm"
+    <button
+      onclick="openCitationModal()"
+      class="w-full inline-flex items-center justify-center bg-gray-200 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300 font-medium py-2 px-3 rounded-sm transition-all duration-200 border border-gray-300 dark:border-gray-600 text-sm"
     >
-      <Icon name="tabler:quote" class="w-4 h-4 mr-2" />
-      Recommended Citation
-    </button> -->
+      <Icon name="tabler:quote" class="w-4 h-4 mr-2 text-yellow-600 dark:text-yellow-400" />
+      Cite this Disclosure
+    </button>
+
+    <button
+      onclick="copyPermalink(event)"
+      class="w-full inline-flex items-center justify-center bg-gray-200 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300 font-medium py-2 px-3 rounded-sm transition-all duration-200 border border-gray-300 dark:border-gray-600 text-sm"
+    >
+      <Icon name="tabler:link" class="w-4 h-4 mr-2 text-green-600 dark:text-green-400" />
+      Copy Permalink
+    </button>
   </div>
-</div>          
-
-          <!-- Patent Family Members -->
-          <!-- {post.patentFamilyMembers && Array.isArray(post.patentFamilyMembers) && post.patentFamilyMembers.length > 0 && (
-            <div class="bg-gray-50 dark:bg-gray-900 rounded-sm p-4 border border-gray-200 dark:border-gray-700">
-              <div class="flex items-start">
-                <Icon name="tabler:hierarchy" class="w-5 h-5 text-gray-600 mr-3 mt-0.5" />
-                <div class="flex-1">
-                  <span class="text-sm font-semibold text-gray-700 dark:text-gray-300 block mb-2">Family Members</span>
-                  <div class="flex flex-wrap gap-2">
-                    {post.patentFamilyMembers.map((item, index) => (
-                      <a 
-                        href={patenturl[item]?.url}
-                        class="inline-flex items-center px-2 py-1 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 text-xs font-medium rounded-sm hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors border border-gray-300 dark:border-gray-600"
-                      >
-                        {item}
-                      </a>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-          )} -->
-
-          <!-- External Links -->
-          <!-- {post.externalLinks && post.externalLinks.length > 0 && (
-            <div class="bg-gray-50 dark:bg-gray-900 rounded-sm p-4 border border-gray-200 dark:border-gray-700">
-              <div class="flex items-start">
-                <Icon name="tabler:external-link" class="w-5 h-5 text-gray-600 mr-3 mt-0.5" />
-                <div class="flex-1">
-                  <span class="text-sm font-semibold text-gray-700 dark:text-gray-300 block mb-2">External Links</span>
-                  <div class="space-y-1">
-                    {post.externalLinks.map((link, index) => (
-                      <a 
-                        href={link.link} 
-                        target="_blank"
-                        class="block text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 text-sm underline"
-                      >
-                        {link.sourceText}
-                      </a>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-          )} -->
+</div>     
         </div>
+      </div>
+    </div>
+
+    <!-- Academic Tags Section -->
+    <div class="w-full mt-8">
+      <div class="bg-gray-50 dark:bg-gray-900 rounded-sm p-4 border border-gray-200 dark:border-gray-700">
+        <h3 class="font-semibold text-gray-900 dark:text-white mb-3 flex items-center font-serif">
+          <Icon name="tabler:tags" class="w-5 h-5 mr-2 text-gray-600" />
+          Field(s) of Study
+        </h3>
+        <PostTags tags={post.tags} class="justify-start" />
       </div>
     </div>
 
@@ -448,7 +397,7 @@ const relatedPostsA = post.disclosureAuthors ? await getRelatedDisclosurePostsBy
     )} -->
 
     <!-- Academic Related Defensive Disclosures Section -->
-    <!-- {relatedPostsD.length > 0 && (
+    {relatedPostsD.length > 0 && (
       <div class="w-full mt-8">
         <div class="bg-gray-800 dark:bg-gray-700 text-white py-4 px-4 rounded-t-sm border border-gray-600">
           <h3 class="font-bold text-lg flex items-center font-serif">
@@ -459,13 +408,13 @@ const relatedPostsA = post.disclosureAuthors ? await getRelatedDisclosurePostsBy
         <div class="bg-white dark:bg-gray-800 border-x border-b border-gray-300 dark:border-gray-600 rounded-b-sm p-4 space-y-4">
           {relatedPostsD.map((item, index) => (
             <div class="bg-gray-50 dark:bg-gray-900 rounded-sm p-4 hover:shadow-md transition-shadow border border-gray-200 dark:border-gray-700">
-              <div class="mb-2">
+              {/* <div class="mb-2">
                 <span class="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 text-xs font-medium px-2 py-1 rounded-sm border border-gray-300 dark:border-gray-600">
                   <a href={getDisclosurePermalink()}>
                     {item.category?.replaceAll("-", " ").replace(/\s[a-z]|^[a-z]/gi, (a) => a.toUpperCase())}
                   </a>
                 </span>
-              </div>
+              </div> */}
               <a href={`/${item.slug}`} class="block">
                 <h4 class="font-semibold text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300 mb-2 line-clamp-2 font-serif">
                   {item.title}
@@ -482,27 +431,27 @@ const relatedPostsA = post.disclosureAuthors ? await getRelatedDisclosurePostsBy
           ))}
         </div>
       </div>
-    )} -->
+    )}
 
     <!-- Academic More from Authors Section -->
-    <!-- {relatedPostsA.length > 0 && (
+    {relatedPostsA.length > 0 && (
       <div class="w-full mt-8">
         <div class="bg-gray-800 dark:bg-gray-700 text-white py-4 px-4 rounded-t-sm border border-gray-600">
           <h3 class="font-bold text-lg flex items-center font-serif">
             <Icon name="tabler:user-circle" class="w-5 h-5 mr-2" />
-            More from These Authors
+            More Disclosures from These Authors
           </h3>
         </div>
         <div class="bg-white dark:bg-gray-800 border-x border-b border-gray-300 dark:border-gray-600 rounded-b-sm p-4 space-y-4">
           {relatedPostsA.map((item, index) => (
             <div class="bg-gray-50 dark:bg-gray-900 rounded-sm p-4 hover:shadow-md transition-shadow border border-gray-200 dark:border-gray-700">
-              <div class="mb-2">
+              {/* <div class="mb-2">
                 <span class="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 text-xs font-medium px-2 py-1 rounded-sm border border-gray-300 dark:border-gray-600">
                   <a href={getDisclosurePermalink()}>
                     {item.category?.replaceAll("-", " ").replace(/\s[a-z]|^[a-z]/gi, (a) => a.toUpperCase())}
                   </a>
                 </span>
-              </div>
+              </div> */}
               <a href={`/${item.slug}`} class="block">
                 <h4 class="font-semibold text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300 mb-2 line-clamp-2 font-serif">
                   {item.title}
@@ -528,20 +477,11 @@ const relatedPostsA = post.disclosureAuthors ? await getRelatedDisclosurePostsBy
           </div>
         </div>
       </div>
-    )} -->
+    )}
 
-    <!-- Academic Tags Section -->
-    <!-- <div class="w-full mt-8">
-      <div class="bg-gray-50 dark:bg-gray-900 rounded-sm p-4 border border-gray-200 dark:border-gray-700">
-        <h3 class="font-semibold text-gray-900 dark:text-white mb-3 flex items-center font-serif">
-          <Icon name="tabler:tags" class="w-5 h-5 mr-2 text-gray-600" />
-          Technical Keywords
-        </h3>
-        <PostTags tags={post.tags} class="justify-start" />
-      </div>
-    </div> -->
+    
+    <!-- <SocialShare url={url} text={post.title} class="text-gray-600 dark:text-gray-400" /> -->
   </aside>
-
 
 
   <!-- Academic Back to Top Button -->
@@ -555,80 +495,183 @@ const relatedPostsA = post.disclosureAuthors ? await getRelatedDisclosurePostsBy
     <span class="sr-only">Go to top</span>
   </button>
 
-  <!-- All Scripts -->
+  <!-- Update the existing script section (around line 550) to include these functions: -->
   <script>
-    var toTopButton = document.getElementById('to-top-button');
-    if (toTopButton) {
-      window.onscroll = function () {
-        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-          toTopButton.classList.remove('hidden');
-        } else {
-          toTopButton.classList.add('hidden');
-        }
-      };
-      window.goToTop = function () {
-        window.scrollTo({
-          top: 0,
-          behavior: 'smooth',
-        });
-      };
-    }
-  </script>
-
-  <script>
-    var images = document.querySelectorAll('.patentimages img');
-    var currentIndex = 0;
-    
-    images.forEach(function(img, index) {
-      img.addEventListener('click', function() {
-        showModal(img.src, index);
+  var toTopButton = document.getElementById('to-top-button');
+  if (toTopButton) {
+    window.onscroll = function () {
+      if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+        toTopButton.classList.remove('hidden');
+      } else {
+        toTopButton.classList.add('hidden');
+      }
+    };
+    window.goToTop = function () {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
       });
-    });
+    };
+  }
 
-    var modal = document.getElementById('patentimagemodal');
-    var modalImg = document.getElementById('modal-img');
-    var closeModalBtn = document.getElementById('close-modal');
-    var prevBtn = document.getElementById('prev-btn');
-    var nextBtn = document.getElementById('next-btn');
+  // Citation Modal Functions
+  window.openCitationModal = function() {
+    document.getElementById('citationModal').classList.remove('hidden');
+    document.body.style.overflow = 'hidden'; // Prevent background scrolling
+  };
 
-    function showModal(src, index) {
-      modal.style.display = 'flex';
-      modalImg.src = src;
-      currentIndex = index;
-      updatePrevNextButtons();
-    }
+  window.closeCitationModal = function() {
+    document.getElementById('citationModal').classList.add('hidden');
+    document.body.style.overflow = 'auto'; // Restore scrolling
+  };
+
+  // Copy Permalink Function
+  window.copyPermalink = function(event) {
+    event.preventDefault();
+    const permalink = window.location.href;
     
-    closeModalBtn.addEventListener('click', function() {
-      modal.style.display = 'none';
-    });
+    // Try clipboard API first
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(permalink).then(() => {
+        alert('Permalink copied to clipboard!');
+        updateButton(event.target);
+      }).catch(() => {
+        // If clipboard API fails, try fallback
+        fallbackCopy(permalink, event.target);
+      });
+    } else {
+      // Use fallback for older browsers
+      fallbackCopy(permalink, event.target);
+    }
+  };
 
-    function prevImage() {
-      if (currentIndex > 0) {
-        currentIndex--;
-        modalImg.src = images[currentIndex].src;
-        updatePrevNextButtons();
+  // Copy Citation Function with Alert
+  window.copyCitationText = function(event) {
+    event.preventDefault();
+    const citationText = document.getElementById('citation-text').innerText;
+    
+    // Simple approach - try clipboard API first
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(citationText).then(() => {
+        alert('Citation copied to clipboard!');
+        updateButton(event.target);
+      }).catch(() => {
+        // If clipboard API fails, try fallback
+        fallbackCopy(citationText, event.target);
+      });
+    } else {
+      // Use fallback for older browsers
+      fallbackCopy(citationText, event.target);
+    }
+  };
+
+  function fallbackCopy(text, button) {
+    const textArea = document.createElement('textarea');
+    textArea.value = text;
+    textArea.style.position = 'fixed';
+    textArea.style.opacity = '0';
+    document.body.appendChild(textArea);
+    textArea.select();
+    
+    try {
+      const success = document.execCommand('copy');
+      if (success) {
+        alert('Content copied to clipboard!');
+        updateButton(button);
+      } else {
+        alert('Failed to copy. Please try again.');
       }
+    } catch (err) {
+      alert('Failed to copy. Please try again.');
     }
     
-    function nextImage() {
-      if (currentIndex < images.length - 1) {
-        currentIndex++;
-        modalImg.src = images[currentIndex].src;
-        updatePrevNextButtons();
-      }
+    document.body.removeChild(textArea);
+  }
+
+  function updateButton(button) {
+    const actualButton = button.closest('button');
+    const originalText = actualButton.innerHTML;
+    actualButton.innerHTML = '<svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Copied!';
+    setTimeout(() => {
+      actualButton.innerHTML = originalText;
+    }, 2000);
+  }
+
+  // Close modal when clicking outside
+  document.addEventListener('click', function(event) {
+    const modal = document.getElementById('citationModal');
+    if (event.target === modal) {
+      closeCitationModal();
     }
-    
-    function updatePrevNextButtons() {
-      prevBtn.disabled = currentIndex === 0;
-      nextBtn.disabled = currentIndex === images.length - 1;
+  });
+
+  // Close modal with Escape key
+  document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+      closeCitationModal();
     }
-  
-    prevBtn.addEventListener('click', function() {
-      prevImage();
-    });
-    nextBtn.addEventListener('click', function() {
-      nextImage();
-    });
-  </script>
-  
+  });
+</script>
+
+  <!-- Add this Citation Modal HTML before the closing </div> of the main container: -->
+  <!-- Citation Modal -->
+  <div id="citationModal" class="hidden fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
+    <div class="bg-white dark:bg-gray-800 rounded-sm max-w-4xl w-full max-h-[90vh] overflow-y-auto border border-gray-300 dark:border-gray-600 shadow-xl">
+      <!-- Modal Header -->
+      <div class="flex items-center justify-between p-6 border-b border-gray-200 dark:border-gray-700">
+        <h2 class="text-lg font-bold text-gray-900 dark:text-white flex items-center font-serif">
+          <Icon name="tabler:quote" class="w-6 h-6 mr-2 text-gray-600" />
+          Citation Tools
+        </h2>
+        <button onclick="closeCitationModal()" class="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors">
+          <Icon name="tabler:x" class="w-6 h-6" />
+        </button>
+      </div>
+
+      <!-- Modal Content -->
+      <div class="p-6">
+        <!-- Citation Text Display -->
+        <div class="mb-6">
+          <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-4 font-serif">
+            Recommended Citation
+          </h3>
+          <div class="bg-gray-50 dark:bg-gray-900 p-4 rounded-sm border border-gray-200 dark:border-gray-700 mb-4">
+            <p id="citation-text" class="text-lg text-gray-800 dark:text-gray-300 mb-4 font-serif leading-relaxed">
+              {post.disclosureAuthors && post.disclosureAuthors.length > 0 
+                ? post.disclosureAuthors.join(', ') + '. '
+                : ''
+              }"{post.title}." <em>Intellectual Frontiers Journal</em>, {getFormattedDateWithLongMonth(post.publishDate)}. {new URL(Astro.url).origin}/{post.slug || 'current-page'}
+            </p>
+          </div>
+          
+          <!-- Copy Citation Button -->
+          <div class="flex justify-end mb-6">
+            <!-- Update the Copy Citation Button to this: -->
+            <button
+              onclick="copyCitationText(event)"
+              class="inline-flex items-center px-4 py-2 bg-gray-800 hover:bg-gray-700 dark:bg-gray-700 dark:hover:bg-gray-600 text-white text-sm font-medium rounded-sm transition-all duration-200 border border-gray-600"
+            >
+              <Icon name="tabler:copy" class="w-4 h-4 mr-2" />
+              Copy Citation
+            </button>
+          </div>
+        </div>
+
+        <!-- Citation Style Formats -->
+        <div class="mb-6">
+          <h4 class="text-md font-semibold text-gray-900 dark:text-white mb-4 uppercase tracking-wide">
+            Citation Style Formats
+          </h4>
+          <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
+            <button class="bg-gray-600 hover:bg-gray-700 text-white py-2 px-4 rounded-sm text-sm font-medium transition-colors">Default</button>
+            <button class="bg-gray-600 hover:bg-gray-700 text-white py-2 px-4 rounded-sm text-sm font-medium transition-colors">APA</button>
+            <button class="bg-gray-600 hover:bg-gray-700 text-white py-2 px-4 rounded-sm text-sm font-medium transition-colors">MLA</button>
+            <button class="bg-gray-600 hover:bg-gray-700 text-white py-2 px-4 rounded-sm text-sm font-medium transition-colors">Chicago</button>
+            <button class="bg-gray-600 hover:bg-gray-700 text-white py-2 px-4 rounded-sm text-sm font-medium transition-colors">AMA</button>
+            <button class="bg-gray-600 hover:bg-gray-700 text-white py-2 px-4 rounded-sm text-sm font-medium transition-colors">NLM</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

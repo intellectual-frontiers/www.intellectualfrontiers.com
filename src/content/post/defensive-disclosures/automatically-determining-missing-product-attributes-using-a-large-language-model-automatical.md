@@ -4,6 +4,7 @@ excerpt: To surface products that are relevant to customers, search engines requ
 sectiontype: disclosure
 publishDate: 2025-03-02
 disclosureId: DD20241129002
+access: free
 # patentId: US11888597B2
 metadata:
   title: Automatically Determining Missing Product Attributes Using a Large Language Model Automatical
@@ -33,8 +34,8 @@ disclosureAuthors:
     - Sree Meruva 
 # image: '/images/disclosure/eye-tracking-driven-dynamic-glanceable-passthrough-window-for-extended-reality-cover.jpg'
 image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREO3tkIJnmJZcWmgLLR-z973QVHQ8zbwDGnw&s'
-# tags:
-#   - Search Engines
+tags:
+  - Artificial Intelligence
 downloadableDocument: 'https://example.com/blockchain-voting-disclosure.pdf'
 ---
 ## Abstract
