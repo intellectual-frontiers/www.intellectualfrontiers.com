@@ -215,5 +215,19 @@
     "shortDescription": "NA",
     "displayName": "NA",
     "tagDisplayLabel": "NA"
+  },
+  "artificial-intelligence": {
+    "metaTitle": "Artificial Intelligence",
+    "metaDescription": "Artificial Intelligence",
+    "shortDescription": "Artificial Intelligence",
+    "displayName": "Artificial Intelligence",
+    "tagDisplayLabel": "Artificial Intelligence"
+  },
+  "autonomous-task-execution": {
+    "metaTitle": "Autonomous Task Execution",
+    "metaDescription": "Autonomous Task Execution",
+    "shortDescription": "Autonomous Task Execution",
+    "displayName": "Autonomous Task Execution",
+    "tagDisplayLabel": "Autonomous Task Execution"
   }
 }
