@@ -297,41 +297,40 @@ const SITE_ORIGIN = Astro.site?.origin; //returns 'https://www.intellectualfront
       <div class="p-6 space-y-6">         
 
         <!-- Academic Metadata Section -->
-        <div class="space-y-4">  
-           <!-- Enhanced Download Section - Place after Publication Date -->
+        <div class="space-y-4"> 
           <!-- Enhanced Download Section - Place after Publication Date -->
-<div class="bg-gray-50 dark:bg-gray-900 rounded-sm p-4 border border-gray-200 dark:border-gray-700">
-  <div class="space-y-3">
-    {/* Primary PDF Download Button - Only show if link exists */}
-    {post.downloadPdfLink && (
-      <a
-        href={post.downloadPdfLink}
-        target="_blank"
-        rel="noopener noreferrer"
-        class="inline-flex items-center justify-center w-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300 font-medium py-2 px-3 rounded-sm transition-all duration-200 border border-gray-300 dark:border-gray-600 text-sm group"
-      >
-        <Icon name="tabler:file-type-pdf" class="w-4 h-4 mr-2 text-red-600 dark:text-red-400 group-hover:scale-110 transition-transform" />
-        Download Full PDF
-      </a>
-    )}
+        <div class="bg-gray-50 dark:bg-gray-900 rounded-sm p-4 border border-gray-200 dark:border-gray-700">
+          <div class="space-y-3">
+            {/* Primary PDF Download Button - Only show if link exists */}
+            {post.downloadPdfLink && (
+              <a
+                href={post.downloadPdfLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center justify-center w-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300 font-medium py-2 px-3 rounded-sm transition-all duration-200 border border-gray-300 dark:border-gray-600 text-sm group"
+              >
+                <Icon name="tabler:file-type-pdf" class="w-4 h-4 mr-2 text-red-600 dark:text-red-400 group-hover:scale-110 transition-transform" />
+                Download Full PDF
+              </a>
+            )}
 
-    <button
-      onclick="openCitationModal()"
-      class="w-full inline-flex items-center justify-center bg-gray-200 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300 font-medium py-2 px-3 rounded-sm transition-all duration-200 border border-gray-300 dark:border-gray-600 text-sm"
-    >
-      <Icon name="tabler:quote" class="w-4 h-4 mr-2 text-yellow-600 dark:text-yellow-400" />
-      Cite this Disclosure
-    </button>
+            <button
+              onclick="openCitationModal()"
+              class="w-full inline-flex items-center justify-center bg-gray-200 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300 font-medium py-2 px-3 rounded-sm transition-all duration-200 border border-gray-300 dark:border-gray-600 text-sm"
+            >
+              <Icon name="tabler:quote" class="w-4 h-4 mr-2 text-yellow-600 dark:text-yellow-400" />
+              Cite this Disclosure
+            </button>
 
-    <button
-      onclick="copyPermalink(event)"
-      class="w-full inline-flex items-center justify-center bg-gray-200 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300 font-medium py-2 px-3 rounded-sm transition-all duration-200 border border-gray-300 dark:border-gray-600 text-sm"
-    >
-      <Icon name="tabler:link" class="w-4 h-4 mr-2 text-green-600 dark:text-green-400" />
-      Copy Permalink
-    </button>
-  </div>
-</div>     
+            <button
+              onclick="copyPermalink(event)"
+              class="w-full inline-flex items-center justify-center bg-gray-200 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300 font-medium py-2 px-3 rounded-sm transition-all duration-200 border border-gray-300 dark:border-gray-600 text-sm"
+            >
+              <Icon name="tabler:link" class="w-4 h-4 mr-2 text-green-600 dark:text-green-400" />
+              Copy Permalink
+            </button>
+          </div>
+        </div>     
         </div>
       </div>
     </div>
@@ -621,7 +620,7 @@ const SITE_ORIGIN = Astro.site?.origin; //returns 'https://www.intellectualfront
       <div class="flex items-center justify-between p-6 border-b border-gray-200 dark:border-gray-700">
         <h2 class="text-lg font-bold text-gray-900 dark:text-white flex items-center font-serif">
           <Icon name="tabler:quote" class="w-6 h-6 mr-2 text-gray-600" />
-          Citation Tools
+          Cite this Disclosure
         </h2>
         <button onclick="closeCitationModal()" class="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors">
           <Icon name="tabler:x" class="w-6 h-6" />
@@ -635,7 +634,7 @@ const SITE_ORIGIN = Astro.site?.origin; //returns 'https://www.intellectualfront
           <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-4 font-serif">
             Recommended Citation
           </h3>
-          <div class="bg-gray-50 dark:bg-gray-900 p-4 rounded-sm border border-gray-200 dark:border-gray-700 mb-4">
+          <div class="bg-gray-50 dark:bg-gray-900 p-4 rounded-sm border border-gray-200 dark:border-gray-700 mb-4 shadow">
             <p id="citation-text" class="text-lg text-gray-800 dark:text-gray-300 mb-4 font-serif leading-relaxed">
               {post.disclosureAuthors && post.disclosureAuthors.length > 0 
                 ? post.disclosureAuthors.join(', ') + '. '
