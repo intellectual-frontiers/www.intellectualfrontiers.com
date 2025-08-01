@@ -33,9 +33,9 @@ disclosureAuthors:
     - Shahid N. Shah
 # image: '/images/disclosure/eye-tracking-driven-dynamic-glanceable-passthrough-window-for-extended-reality-cover.jpg'
 image: '/images/disclosures/IFJ‑2025T05DF50YR.JPG'
-# tags:
-#   - Artificial Intelligence
-#   - Autonomous Task Execution
+tags:
+  - Artificial Intelligence
+  - Autonomous Task Execution
 downloadPdfLink: '/pdfs/defensive-disclosures/IFJ‑2025T05DF50YR.pdf'
 # references:
 #   - “Shopify” available online at https://www.shopify.com/ accessed Nov 19, 2024.
