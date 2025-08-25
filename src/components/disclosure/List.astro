@@ -1,5 +1,6 @@
 ---
-import Item from '~/components/disclosure/ListItem.astro';
+//DD Topic List
+import Item from '~/components/disclosure/ListItem2.astro';
 import type { Post } from '~/types';
 
 export interface Props {
@@ -9,7 +10,7 @@ export interface Props {
 const { posts } = Astro.props;
 ---
 
-<ul>
+<!-- <ul>
   {
     posts.map((post) => (
       <li class="mb-12 md:mb-20">
@@ -17,4 +18,12 @@ const { posts } = Astro.props;
       </li>
     ))
   }
-</ul>
+</ul> -->
+
+<section class="text-gray-600 dark:text-gray-400 body-font">
+  <div class="container md:px-8 sm:px-0 py-12 mx-auto">
+    <div class="flex flex-wrap -m-4">
+      {posts.map((post) => <Item post={post} />)}
+    </div>
+  </div>
+</section>
