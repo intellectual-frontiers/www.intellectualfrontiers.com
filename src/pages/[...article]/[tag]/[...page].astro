@@ -3,8 +3,10 @@ import type { InferGetStaticPropsType, GetStaticPaths } from 'astro';
 import { blogTagRobots, getStaticPathsArticleTag } from '~/utils/article';
 
 import Layout from '~/layouts/PageLayout.astro';
-import BlogList from '~/components/article/List.astro';
-import Headline from '~/components/article/Headline.astro';
+// import BlogList from '~/components/article/List.astro';
+import BlogList from '~/components/article/List2.astro';
+// import Headline from '~/components/article/Headline.astro';
+import Headline from '~/components/article/HeadlineWithCategories.astro';
 import Pagination from '~/components/article/Pagination.astro';
 
 //Import the meta data json file
@@ -51,7 +53,7 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <section class="px-4 md:px-6 pb-12 sm:pb-16 lg:pb-20 pt-6 sm:pt-6 lg:pt-6 mx-auto max-w-4xl">
+  <section class="px-4 md:px-6 pb-12 sm:pb-16 lg:pb-20 pt-6 sm:pt-6 lg:pt-6 mx-auto max-w-7xl">
     <Headline
       subtitle={topicMetadataEntry?.shortDescription ??
         `Access the patent <span class="uppercase">${tag.replace(

@@ -1,0 +1,77 @@
+---
+// components/article/Headline.astro
+import { Icon } from 'astro-icon/components';
+const { title = await Astro.slots.render('default'), subtitle = await Astro.slots.render('subtitle') } = Astro.props;
+---
+
+<div class="container mx-auto mb-12">
+  <!-- Scholarly Header Card -->
+  <div class="bg-white dark:bg-gray-800 rounded-sm border border-gray-300 dark:border-gray-600 p-8 pb-4 shadow-sm">
+    <!-- Main Title Section -->
+    <div class="text-center mb-6">
+      <h1
+        class="text-3xl md:text-4xl font-bold leading-tight tracking-normal font-serif text-gray-900 dark:text-white mb-4"
+        set:html={title}
+      />
+    </div>
+    <!-- Research Overview Section -->
+    {
+      subtitle && (
+        <div class="border-t border-gray-200 dark:border-gray-700 pt-6">
+          <div class="max-w-4xl mx-auto">
+            <div class="flex items-start">
+              <div class="bg-gray-100 dark:bg-gray-700 p-2 rounded-sm mr-4 mt-1 flex-shrink-0">
+                <Icon name="tabler:file-description" class="w-5 h-5 text-gray-600 dark:text-gray-400" />
+              </div>
+              <div class="flex-grow">
+                <h3 class="text-lg font-medium text-gray-900 dark:text-white tracking-wide uppercase text-sm mb-2 font-sans">
+                  Overview
+                </h3>
+                <div class="w-16 h-0.5 bg-gray-400 dark:bg-gray-500 mb-4" />
+                <div class="prose prose-lg max-w-none">
+                  <p
+                    class="text-gray-700 dark:text-gray-300 leading-relaxed text-base font-serif"
+                    set:html={subtitle}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )
+    }
+    <!-- Research Categories/Fields -->
+    <div class="border-t border-gray-200 dark:border-gray-700 pt-4 mt-6">
+      <div class="flex flex-wrap items-center justify-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+        <div class="flex items-center">
+          <Icon name="tabler:file-certificate" class="w-4 h-4 mr-1" />
+          <span>Patents</span>
+        </div>
+        <div class="flex items-center">
+          <Icon name="tabler:shield" class="w-4 h-4 mr-1" />
+          <span>Defensive Disclosures</span>
+        </div>
+        <div class="flex items-center">
+          <Icon name="tabler:file-text" class="w-4 h-4 mr-1" />
+          <span>Patent Summaries</span>
+        </div>
+        <div class="flex items-center">
+          <Icon name="tabler:map" class="w-4 h-4 mr-1" />
+          <span>Patent Landscapes</span>
+        </div>
+        <div class="flex items-center">
+          <Icon name="tabler:chart-line" class="w-4 h-4 mr-1" />
+          <span>Market Potential</span>
+        </div>
+        <div class="flex items-center">
+          <Icon name="tabler:layers-intersect" class="w-4 h-4 mr-1" />
+          <span>Use Cases</span>
+        </div>
+        <div class="flex items-center">
+          <Icon name="tabler:article" class="w-4 h-4 mr-1" />
+          <span>Blogs</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
