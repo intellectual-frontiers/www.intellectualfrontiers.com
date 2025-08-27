@@ -3,8 +3,8 @@ import type { InferGetStaticPropsType, GetStaticPaths } from 'astro';
 import { blogCategoryRobots, getStaticPathsArticleCategory } from '~/utils/article';
 
 import Layout from '~/layouts/PageLayout.astro';
-import BlogList from '~/components/article/List.astro';
-import Headline from '~/components/article/Headline.astro';
+import BlogList from '~/components/article/ListCategory.astro';
+import Headline from '~/components/article/Headline2.astro';
 import Pagination from '~/components/article/Pagination.astro';
 
 export const prerender = true;
@@ -54,7 +54,7 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <section class="px-4 md:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
+  <section class="px-4 md:px-6 py-12 sm:py-16 lg:py-6 mx-auto max-w-7xl">
     <Headline
       subtitle={category === 'market-potential'
         ? 'Access in-depth market analysis of patents with our Strategic Patent Insights, offering a clear view of market potentials and technological impact'
