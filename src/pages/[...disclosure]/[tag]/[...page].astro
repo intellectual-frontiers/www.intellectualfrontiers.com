@@ -4,7 +4,7 @@ import { blogTagRobots, getStaticPathsDisclosureTag } from '~/utils/disclosure';
 
 import Layout from '~/layouts/PageLayout.astro';
 import BlogList from '~/components/disclosure/List.astro';
-import Headline from '~/components/blog/Headline.astro';
+import Headline from '~/components/disclosure/Headline3.astro';
 import Pagination from '~/components/blog/Pagination.astro';
 //Import the meta data json file
 import TopicsMetaData from '../../../../support/disclosuretopicsmetadata.json';
@@ -43,9 +43,11 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <section class="px-4 md:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-7xl">
-    <Headline>
-      Access defensive disclosures on the topic `<span class="">{tag.replace(/-/g, ' ')}</span>`
+  <section class="px-4 md:px-6 py-6 mx-auto max-w-7xl">
+    <Headline
+      subtitle="Curated defensive disclosures organized by topic, providing a reliable reference point and citation resource for innovators, researchers, and organizations."
+    >
+      `<span class="capitalize">{tag.replace(/-/g, ' ')}</span>` Defensive Disclosures
     </Headline>
     <BlogList posts={page.data} />
     <Pagination page={page} />
