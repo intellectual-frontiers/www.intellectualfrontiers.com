@@ -1,0 +1,27 @@
+---
+import Item from '../../components/blog/ListItem2.astro';
+import type { Post } from '../../types';
+
+export interface Props {
+  posts: Array<Post>;
+}
+
+const { posts } = Astro.props;
+---
+
+<!-- <ul>
+  {
+    posts.map((post) => (
+      <li class="mb-12 md:mb-20">
+        <Item post={post} />
+      </li>
+    ))
+  }
+</ul> -->
+<section class="text-gray-600 dark:text-gray-400 body-font">
+  <div class="container mds:px-2 sm:px-0 py-12 pt-0 mx-auto">
+    <div class="flex flex-wrap -m-4">
+      {posts.map((post) => <Item post={post} />)}
+    </div>
+  </div>
+</section>
