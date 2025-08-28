@@ -1,12 +1,12 @@
 ---
+//SinglePostDetails.astro
 import { Icon } from 'astro-icon/components';
 
 import Image from '~/components/common/Image.astro';
 import PostTags from '~/components/disclosure/Tags.astro';
 import SocialShare from '~/components/common/SocialShare.astro';
 import { getDisclosurePermalink } from '~/utils/permalinks';
-import { getFormattedDate } from '~/utils/utils';
-import { getFormattedDateWithLongMonth } from '~/utils/utils';
+import { getFormattedDate, getFormattedDateWithLongMonth, getFormattedDateYYYYMMDD } from '~/utils/utils';
 import { getBlogPosts } from '~/utils/patent';
 import { getRelatedPosts } from '~/utils/disclosure';
 import {getRelatedDisclosurePosts, getRelatedDisclosurePostsByAuthors} from '~/utils/disclosure';
@@ -14,7 +14,9 @@ import type { Post } from '~/types';
 //Import the patent urls json file
 import patenturl from '../../../support/patenturls.json';
 import { Schema } from 'astro-seo-schema';
-import { getFormattedDateWithLongMonth, getFormattedDateYYYYMMDD } from '~/utils/utils';
+// Import citation utilities
+import { generateCitations } from '~/utils/citations';
+
 export interface Props {
   post: Post;
   url: string | URL;
@@ -31,7 +33,10 @@ const relatedPostsD = post.tags ? await getRelatedDisclosurePosts(post) : [];
 const relatedPostsA = post.disclosureAuthors ? await getRelatedDisclosurePostsByAuthors(post) : [];
 
 const SITE_HREF = Astro.site?.href; //returns 'https://www.intellectualfrontiers.com/'
-const SITE_ORIGIN = Astro.site?.origin; //returns 'https://www.intellectualfrontiers.com'
+const SITE_ORIGIN = Astro.site?.origin || 'https://www.intellectualfrontiers.com'; //returns 'https://www.intellectualfrontiers.com'
+
+// Generate all citation formats using the utility function
+const citations = generateCitations(post, SITE_ORIGIN, getFormattedDateWithLongMonth);
 ---
 <!-- <Schema
   item={{
@@ -304,7 +309,8 @@ const SITE_ORIGIN = Astro.site?.origin; //returns 'https://www.intellectualfront
             {/* Primary PDF Download Button - Only show if link exists */}
             {post.downloadPdfLink && (
               <a
-                href="#"
+              target="_blank"
+                href={post.downloadPdfLink}
                 rel="noopener noreferrer"
                 class="inline-flex items-center justify-center w-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300 font-medium py-2 px-3 rounded-sm transition-all duration-200 border border-gray-300 dark:border-gray-600 text-sm group"
               >
@@ -315,6 +321,7 @@ const SITE_ORIGIN = Astro.site?.origin; //returns 'https://www.intellectualfront
 
             <button              
               class="w-full inline-flex items-center justify-center bg-gray-200 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300 font-medium py-2 px-3 rounded-sm transition-all duration-200 border border-gray-300 dark:border-gray-600 text-sm"
+              onclick="openCitationModal1()"
             >
               <Icon name="tabler:quote" class="w-4 h-4 mr-2 text-yellow-600 dark:text-yellow-400" />
               Cite this Disclosure
@@ -322,7 +329,7 @@ const SITE_ORIGIN = Astro.site?.origin; //returns 'https://www.intellectualfront
 
             <button              
               class="w-full inline-flex items-center justify-center bg-gray-200 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300 font-medium py-2 px-3 rounded-sm transition-all duration-200 border border-gray-300 dark:border-gray-600 text-sm"
-            >
+           onclick="copyPermalink()" >
               <Icon name="tabler:link" class="w-4 h-4 mr-2 text-green-600 dark:text-green-400" />
               Copy Permalink
             </button>
@@ -483,123 +490,54 @@ const SITE_ORIGIN = Astro.site?.origin; //returns 'https://www.intellectualfront
     <span class="sr-only">Go to top</span>
   </button>
 
-  <!-- Update the existing script section (around line 550) to include these functions: -->
-  <script>
-  var toTopButton = document.getElementById('to-top-button');
-  if (toTopButton) {
-    window.onscroll = function () {
-      if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-        toTopButton.classList.remove('hidden');
-      } else {
-        toTopButton.classList.add('hidden');
-      }
-    };
-    window.goToTop = function () {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth',
-      });
-    };
+  <!-- Initialize citation data -->
+<script type="module">
+  // Set citation data for use in defensive-scripts.js
+  const citationData = {
+    authors: [],
+    title: '',
+    formattedDate: '',
+    rawDate: '',
+    url: ''
+  };
+
+  // Get data from the page elements
+  try {
+    const titleElement = document.querySelector('h1');
+    if (titleElement) {
+      citationData.title = titleElement.textContent.trim();
+    }
+
+    // Get URL from current page
+    citationData.url = window.location.href;
+
+    // Get publication date
+    const dateElement = document.querySelector('[data-publish-date]');
+    if (dateElement) {
+      citationData.formattedDate = dateElement.textContent.trim();
+    }
+
+    // Get raw date
+    const rawDateElement = document.querySelector('[data-raw-date]');
+    if (rawDateElement) {
+      citationData.rawDate = rawDateElement.textContent.trim();
+    }
+    
+    // Get authors
+    const authorsElement = document.querySelector('[data-authors]');
+    if (authorsElement && authorsElement.textContent.trim()) {
+      citationData.authors = authorsElement.textContent.split(' • ').map(author => author.trim()).filter(author => author.length > 0);
+    }
+
+    window.citationData = citationData;
+    console.log('Citation data initialized:', window.citationData);
+  } catch (error) {
+    console.error('Error initializing citation data:', error);
+    window.citationData = citationData; // Set empty data as fallback
   }
-
-  // Citation Modal Functions
-  window.openCitationModal = function() {
-    document.getElementById('citationModal').classList.remove('hidden');
-    document.body.style.overflow = 'hidden'; // Prevent background scrolling
-  };
-
-  window.closeCitationModal = function() {
-    document.getElementById('citationModal').classList.add('hidden');
-    document.body.style.overflow = 'auto'; // Restore scrolling
-  };
-
-  // Copy Permalink Function
-  window.copyPermalink = function(event) {
-    event.preventDefault();
-    const permalink = window.location.href;
-    
-    // Try clipboard API first
-    if (navigator.clipboard) {
-      navigator.clipboard.writeText(permalink).then(() => {
-        alert('Permalink copied to clipboard!');
-        updateButton(event.target);
-      }).catch(() => {
-        // If clipboard API fails, try fallback
-        fallbackCopy(permalink, event.target);
-      });
-    } else {
-      // Use fallback for older browsers
-      fallbackCopy(permalink, event.target);
-    }
-  };
-
-  // Copy Citation Function with Alert
-  window.copyCitationText = function(event) {
-    event.preventDefault();
-    const citationText = document.getElementById('citation-text').innerText;
-    
-    // Simple approach - try clipboard API first
-    if (navigator.clipboard) {
-      navigator.clipboard.writeText(citationText).then(() => {
-        alert('Citation copied to clipboard!');
-        updateButton(event.target);
-      }).catch(() => {
-        // If clipboard API fails, try fallback
-        fallbackCopy(citationText, event.target);
-      });
-    } else {
-      // Use fallback for older browsers
-      fallbackCopy(citationText, event.target);
-    }
-  };
-
-  function fallbackCopy(text, button) {
-    const textArea = document.createElement('textarea');
-    textArea.value = text;
-    textArea.style.position = 'fixed';
-    textArea.style.opacity = '0';
-    document.body.appendChild(textArea);
-    textArea.select();
-    
-    try {
-      const success = document.execCommand('copy');
-      if (success) {
-        alert('Content copied to clipboard!');
-        updateButton(button);
-      } else {
-        alert('Failed to copy. Please try again.');
-      }
-    } catch (err) {
-      alert('Failed to copy. Please try again.');
-    }
-    
-    document.body.removeChild(textArea);
-  }
-
-  function updateButton(button) {
-    const actualButton = button.closest('button');
-    const originalText = actualButton.innerHTML;
-    actualButton.innerHTML = '<svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Copied!';
-    setTimeout(() => {
-      actualButton.innerHTML = originalText;
-    }, 2000);
-  }
-
-  // Close modal when clicking outside
-  document.addEventListener('click', function(event) {
-    const modal = document.getElementById('citationModal');
-    if (event.target === modal) {
-      closeCitationModal();
-    }
-  });
-
-  // Close modal with Escape key
-  document.addEventListener('keydown', function(event) {
-    if (event.key === 'Escape') {
-      closeCitationModal();
-    }
-  });
 </script>
+<!-- Include the defensive disclosure specific script -->
+<script type="module" src="/scripts/defensive-scripts.js"></script>
 
   <!-- Add this Citation Modal HTML before the closing </div> of the main container: -->
   <!-- Citation Modal -->
@@ -624,17 +562,17 @@ const SITE_ORIGIN = Astro.site?.origin; //returns 'https://www.intellectualfront
             Recommended Citation
           </h3>
           <div class="bg-gray-50 dark:bg-gray-900 p-4 rounded-sm border border-gray-200 dark:border-gray-700 mb-4 shadow">
-            <p id="citation-text" class="text-lg text-gray-800 dark:text-gray-300 mb-4 font-serif leading-relaxed">
-              {post.disclosureAuthors && post.disclosureAuthors.length > 0 
-                ? post.disclosureAuthors.join(', ') + '. '
-                : ''
-              }"{post.title}." <em>Intellectual Frontiers Journal</em>, {getFormattedDateWithLongMonth(post.publishDate)}. {new URL(Astro.url).origin}/{post.slug || 'current-page'}
-            </p>
+            <!-- Pre-generated citation formats - only one will be visible at a time -->
+            <p id="citation-default" class="citation-text text-lg text-gray-800 dark:text-gray-300 mb-4 font-serif leading-relaxed" set:html={citations.default}></p>
+            <p id="citation-apa" class="citation-text hidden text-lg text-gray-800 dark:text-gray-300 mb-4 font-serif leading-relaxed" set:html={citations.apa}></p>
+            <p id="citation-mla" class="citation-text hidden text-lg text-gray-800 dark:text-gray-300 mb-4 font-serif leading-relaxed" set:html={citations.mla}></p>
+            <p id="citation-chicago" class="citation-text hidden text-lg text-gray-800 dark:text-gray-300 mb-4 font-serif leading-relaxed" set:html={citations.chicago}></p>
+            <p id="citation-ama" class="citation-text hidden text-lg text-gray-800 dark:text-gray-300 mb-4 font-serif leading-relaxed" set:html={citations.ama}></p>
+            <p id="citation-nlm" class="citation-text hidden text-lg text-gray-800 dark:text-gray-300 mb-4 font-serif leading-relaxed" set:html={citations.nlm}></p>
           </div>
           
           <!-- Copy Citation Button -->
           <div class="flex justify-end mb-6">
-            <!-- Update the Copy Citation Button to this: -->
             <button
               onclick="copyCitationText(event)"
               class="inline-flex items-center px-4 py-2 bg-gray-800 hover:bg-gray-700 dark:bg-gray-700 dark:hover:bg-gray-600 text-white text-sm font-medium rounded-sm transition-all duration-200 border border-gray-600"
@@ -651,12 +589,42 @@ const SITE_ORIGIN = Astro.site?.origin; //returns 'https://www.intellectualfront
             Citation Style Formats
           </h4>
           <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
-            <button class="bg-gray-600 hover:bg-gray-700 text-white py-2 px-4 rounded-sm text-sm font-medium transition-colors">Default</button>
-            <button class="bg-gray-600 hover:bg-gray-700 text-white py-2 px-4 rounded-sm text-sm font-medium transition-colors">APA</button>
-            <button class="bg-gray-600 hover:bg-gray-700 text-white py-2 px-4 rounded-sm text-sm font-medium transition-colors">MLA</button>
-            <button class="bg-gray-600 hover:bg-gray-700 text-white py-2 px-4 rounded-sm text-sm font-medium transition-colors">Chicago</button>
-            <button class="bg-gray-600 hover:bg-gray-700 text-white py-2 px-4 rounded-sm text-sm font-medium transition-colors">AMA</button>
-            <button class="bg-gray-600 hover:bg-gray-700 text-white py-2 px-4 rounded-sm text-sm font-medium transition-colors">NLM</button>
+            <button 
+              data-citation-style="default" 
+              class="bg-gray-800 hover:bg-gray-900 text-white py-2 px-4 rounded-sm text-sm font-medium transition-colors"
+            >
+              Default
+            </button>
+            <button 
+              data-citation-style="apa" 
+              class="bg-gray-600 hover:bg-gray-700 text-white py-2 px-4 rounded-sm text-sm font-medium transition-colors"
+            >
+              APA
+            </button>
+            <button 
+              data-citation-style="mla" 
+              class="bg-gray-600 hover:bg-gray-700 text-white py-2 px-4 rounded-sm text-sm font-medium transition-colors"
+            >
+              MLA
+            </button>
+            <button 
+              data-citation-style="chicago" 
+              class="bg-gray-600 hover:bg-gray-700 text-white py-2 px-4 rounded-sm text-sm font-medium transition-colors"
+            >
+              Chicago
+            </button>
+            <button 
+              data-citation-style="ama" 
+              class="bg-gray-600 hover:bg-gray-700 text-white py-2 px-4 rounded-sm text-sm font-medium transition-colors"
+            >
+              AMA
+            </button>
+            <button 
+              data-citation-style="nlm" 
+              class="bg-gray-600 hover:bg-gray-700 text-white py-2 px-4 rounded-sm text-sm font-medium transition-colors"
+            >
+              NLM
+            </button>
           </div>
         </div>
       </div>
