@@ -1,3 +1,4 @@
+// navigation.js
 import { getPermalink, /*getBlogPermalink, getAsset,*/getPatentPermalink, getArticlePermalink, getDisclosurePermalink } from './utils/permalinks';
 
 export const headerData = {
@@ -45,8 +46,8 @@ export const headerData = {
       href: '/faq',
     },
     // {
-    //   //text: 'Blog',
-    //   //href: getPermalink('/blog'),
+    //   text: 'Blog',
+    //   href: getPermalink('/blog'),
     // },
     // {
     //   text: 'Articles',
@@ -111,10 +112,11 @@ export const footerData = {
       ],
     },
     {
-      title: 'Contact Info',
+      title: 'Defensive Disclosures',
       links: [
-        { text: 'hello@intellectualfrontiers.com', href: 'mailto:hello@intellectualfrontiers.com' },
-        // { text: 'Contact Us', href: '/contact' },
+        { text: 'About Defensive Disclosures', href: '/defensive-disclosures' },
+        { text: 'Published Defensive Disclosures', href: '/defensive-disclosures#browse-disclosures' },
+        { text: 'Submit Defensive Disclosures', href: '/contact' },
       ],
     },
   ],
