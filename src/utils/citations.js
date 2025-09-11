@@ -142,11 +142,23 @@ export function formatAuthorsNLM(authors) {
     return authors.slice(0, 6).map(formatAuthorNLM).join(", ") + ", et al.";
 }
 
-export function getNLMDate(dateStr) {
+export function getNLMDate1(dateStr) {
     const date = new Date(dateStr);
     const year = date.getFullYear();
     const month = (date.getMonth() + 1).toString().padStart(2, "0");
     const day = date.getDate().toString().padStart(2, "0");
+    return `${year} ${month} ${day}`;
+}
+
+export function getNLMDate(dateStr) {
+    const date = new Date(dateStr);
+    const months = [
+        "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+        "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+    ];
+    const year = date.getFullYear();
+    const month = months[date.getMonth()];
+    const day = date.getDate();
     return `${year} ${month} ${day}`;
 }
 
@@ -181,8 +193,8 @@ export function generateCitations(post, siteOrigin, getFormattedDateWithLongMont
             : `"${toTitleCase(post.title)}." <em>Intellectual Frontiers Journal</em>. ${getChicagoDate(post.publishDate)}. ${citationUrl}.`,
 
         ama: hasAuthors
-            ? `${formatAuthorsAMA(authors)}. ${toSentenceCase(post.title)}. <em>Intellectual Frontiers Journal</em>. ${getAMADate(post.publishDate)}. Available at: ${citationUrl}`
-            : `${toSentenceCase(post.title)}. <em>Intellectual Frontiers Journal</em>. ${getAMADate(post.publishDate)}. Available at: ${citationUrl}`,
+            ? `${formatAuthorsAMA(authors)}. ${toSentenceCase(post.title)}. <em>Intellectual Frontiers Journal</em>. Published ${getAMADate(post.publishDate)}. Accessed ${getAMADate(new Date())}. ${citationUrl}`
+            : `${toSentenceCase(post.title)}. <em>Intellectual Frontiers Journal</em>. Published ${getAMADate(post.publishDate)}. Accessed ${getAMADate(new Date())}. ${citationUrl}`,
 
         nlm: hasAuthors
             ? `${formatAuthorsNLM(authors)}. ${toSentenceCase(post.title)}. Intellectual Frontiers Journal [Internet]. ${getNLMDate(post.publishDate)} [cited ${getNLMDate(new Date())}]; Available from: ${citationUrl}`
