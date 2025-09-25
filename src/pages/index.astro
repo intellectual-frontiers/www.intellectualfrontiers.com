@@ -1,10 +1,12 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 
-import Hero from '~/components/widgets/Hero.astro';
+import Hero from '~/components/widgets/HeroHomepage.astro';
 // import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
 import Features2 from '~/components/widgets/Features2.astro';
+// import Features5 from '~/components/widgets/Features5.astro';
+// import FeaturesDemo from '~/components/disclosure/Features2.astro';
 import Featurestopic from '~/components/widgets/Featurestopic.astro';
 // import Steps from '~/components/widgets/Steps.astro';
 // import Content from '~/components/widgets/Content.astro';
@@ -125,32 +127,31 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Explore Patents for Sale',
-        href: '/patents',
+        text: 'Publish Your Innovation Disclosure',
+        href: '/defensive-disclosures',
         icon: 'tabler:arrow-right',
       },
       {
         // variant: 'primary',
-        text: 'Explore Defensive Disclosures',
-        href: '/defensive-disclosures',
+        text: 'Explore Intellectual Property Assests',
+        href: '/defensive-disclosures#browse-disclosures',
         icon: 'tabler:arrow-right',
       },
-      // { text: 'Learn more', href: '#features' },
+      // { variant: 'tertiary', icon: 'tabler:arrow-right', text: 'View Patents', href: '/patents' },
     ]}
     image={{ src: '', alt: '' }}
   >
-    <Fragment slot="title">Patents for Sale & Licensing | Explore Intellectual Assets & Defensive Disclosures</Fragment>
+    <Fragment slot="title">Innovation at Machine Speed, Protecting IP at Machine Speed</Fragment>
+     <Fragment slot="tagline">Built for the AI era, offering insurance against patent trolls </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        Intellectual Frontiers is a premier platform for buying, selling, and licensing patents, featuring a diverse portfolio across software, medical devices, healthcare, and blockchain. Alongside patents available for acquisition, the site also features defensive disclosures — strategically published innovations that prevent competitors from securing patents on key technologies. Additionally, Intellectual Frontiers provides a space for innovators to publish their own defensive disclosures, ensuring their ideas remain publicly documented and protected.</span
+        Intellectual Frontiers is a defensive disclosure platform and IP exchange marketplace designed for healthcare innovators and investors. In a world where inventions emerge at machine speed but patent systems lag behind, we help startups, R&D leaders, and investors safeguard their ideas and portfolios. By establishing clear timestamped prior art, our platform reduces the risk of litigation and wasted IP expenditure, while offering a practical, defensible, and affordable solution. With a simple one-time license fee, companies can generate and secure IP protection at the speed of discovery.</span
       >
     </Fragment>
   </Hero>
 
-  <!-- Note Widget ******************* -->
-
-  <!-- <Note /> -->
+  <br>
 
   <Features id="features" tagline="" title="Featured Patents" subtitle="" items={FeaturedpatentContent}>
     <Fragment slot="bg">
