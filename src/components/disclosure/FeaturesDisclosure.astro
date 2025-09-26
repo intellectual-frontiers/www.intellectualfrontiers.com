@@ -4,21 +4,21 @@ import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
 import Headline from '~/components/ui/Headline.astro';
 import type { Features } from '~/types';
 import ItemGridFeaturedDisclosure from '~/components/disclosure/ItemGridFeaturedDisclosure.astro';
-
+import Button from "~/components/ui/Button.astro";
 const {
   title = await Astro.slots.render('title'),
   subtitle = await Astro.slots.render('subtitle'),
   tagline = await Astro.slots.render('tagline'),
   items = [],
   columns = 2,
-
+  callToAction,
   defaultIcon,
 
   id,
   isDark = false,
   classes = {},
   bg = await Astro.slots.render('bg'),
-} = Astro.props as Features;
+} = Astro.props as Features & { callToAction?: any }
 ---
 
 <WidgetWrapper id={id} isDark={isDark} containerClass={`max-w-7xl ${classes?.container ?? ''}`} bg={bg}>
@@ -34,22 +34,9 @@ const {
       ...((classes?.items as {}) ?? {}),
     }}
   />
-  <div class="text-center mt-10">
-    <button
-      type="button"
-      class="text-white text-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-      ><a href="/defensive-disclosures"
-        >All Defensive Disclosures<svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="currentColor"
-          class="w-5 h-5 ml-1 -mr-1.5 rtl:mr-1 rtl:-ml-1.5 inline-block"
-        >
-          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
-        </svg>
-      </a></button
-    >
-  </div>
+  {callToAction && (
+    <div class="mt-8 flex justify-center">
+      <Button {...callToAction} />
+    </div>
+  )}
 </WidgetWrapper>

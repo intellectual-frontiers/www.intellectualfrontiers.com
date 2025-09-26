@@ -213,23 +213,36 @@ const metadata = {
   } 
   /> -->
 
-  <Features id="features" tagline="" title="Featured Patents" subtitle="" items={FeaturedpatentContent}>
+  <!-- <Features id="features" tagline="" title="Featured Patents" subtitle="" items={FeaturedpatentContent}>
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
-  </Features>
+  </Features> -->
 
-  <!-- <FeaturesDisclosure
-  id="features"
-  tagline=""
-  title="Featured Defensive Disclosures"
-  subtitle=""
-  items={FeaturedDisclosure}
->
-<Fragment slot="bg">
-  <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-</Fragment>
-</FeaturesDisclosure> -->
+  <FeaturesDisclosure
+    id="features"
+    tagline=""
+    title="Featured Innovation Disclosures"
+    subtitle=""
+    items={FeaturedDisclosure}
+    classes={{
+    headline: {
+      container: "!mb-6 max-w-3xl"
+    }
+  }}
+    callToAction={
+    {
+      variant: 'primary',
+      text: 'View Full Disclosure Library',
+      href: '/defensive-disclosures#browse-disclosures',
+      icon: 'tabler:arrow-right',
+    }
+  } 
+    >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </FeaturesDisclosure>
 
   <!-- Features Widget *************** -->
 
