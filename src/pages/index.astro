@@ -5,7 +5,7 @@ import Hero from '~/components/widgets/HeroHomepage.astro';
 // import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
 import Features2 from '~/components/widgets/Features2.astro';
-// import Features5 from '~/components/widgets/Features5.astro';
+import Features5 from '~/components/widgets/Features5.astro';
 // import FeaturesDemo from '~/components/disclosure/Features2.astro';
 import Featurestopic from '~/components/widgets/Featurestopic.astro';
 // import Steps from '~/components/widgets/Steps.astro';
@@ -152,6 +152,46 @@ const metadata = {
   </Hero>
 
   <br>
+    <Features5
+    title="What services do we provide?"
+     classes={{
+    headline: {
+      container: "!mb-1"
+    }
+  }}
+    subtitle="We help innovators protect, showcase, and strategically use intellectual property — with speed, clarity, and confidence"
+    items={[
+      {
+        title: 'Defensive Disclosure Publishing',
+        description: '',
+        icon: 'flat-color-icons:diploma-2',
+      },
+      {
+        title: 'Disclosure Database Access',
+        description: '',
+        icon: 'flat-color-icons:database',
+      },
+      {
+        title: 'IP Market',
+        description: '',
+        icon: 'flat-color-icons:shop',
+      },
+      {
+        title: 'Affordable Protection Model',
+        description: '',
+        icon: 'flat-color-icons:privacy',
+      },
+      {
+        title: 'Custom Disclosure Drafting Assistance',
+        description: '',
+        icon: 'flat-color-icons:assistant',
+      },
+    ]}
+    >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Features5>
 
   <Features id="features" tagline="" title="Featured Patents" subtitle="" items={FeaturedpatentContent}>
     <Fragment slot="bg">
