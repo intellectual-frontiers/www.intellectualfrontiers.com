@@ -220,6 +220,7 @@ export interface Item {
   bullets?: string[];
   disclosureStatus?: string;
   references?: Array<string>;
+  publishDate?: string;
 }
 
 export interface Price {
