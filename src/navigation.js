@@ -30,12 +30,12 @@ export const headerData = {
       href: '/about',
     },
     {
-      text: 'Patents for Sale',
-      href: getPatentPermalink('/patents'),
-    },
-    {
       text: 'Defensive Disclosures',
       href: getDisclosurePermalink('/defensive-dosclosures'),
+    },
+    {
+      text: 'IP Market',
+      href: getPatentPermalink('/patents'),
     },
     {
       text: 'Topics',
@@ -88,7 +88,7 @@ export const footerData = {
     {
       title: 'Categories',
       links: [
-        { text: 'Patents for Sale', href: '/patents' },
+        { text: 'IP Market', href: '/patents' },
         { text: 'Patent Landscape', href: '/patent-landscape' },
         { text: 'Patent Summaries', href: '/patent-summaries' },
         { text: 'Market Potential', href: '/market-potential' },
@@ -103,7 +103,7 @@ export const footerData = {
     {
       title: 'Quick Links',
       links: [
-        { text: 'Patents for Sale', href: '/patents' },
+        { text: 'IP Market', href: '/patents' },
         { text: 'All Topics', href: '/topics' },
         { text: 'FAQs', href: '/faq' },
         { text: 'Articles', href: '/article' },

@@ -6,6 +6,7 @@ import Hero from '~/components/widgets/HeroHomepage.astro';
 import Features from '~/components/widgets/Features.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Features5 from '~/components/widgets/Features5.astro';
+import FeaturesIndustries from '~/components/disclosure/FeaturesIndustries.astro';
 // import FeaturesDemo from '~/components/disclosure/Features2.astro';
 import Featurestopic from '~/components/widgets/Featurestopic.astro';
 // import Steps from '~/components/widgets/Steps.astro';
@@ -127,14 +128,14 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Publish Your Innovation Disclosure',
+        text: 'Innovation Disclosure',
         href: '/defensive-disclosures',
         icon: 'tabler:arrow-right',
       },
       {
         // variant: 'primary',
-        text: 'Explore Intellectual Property Assests',
-        href: '/defensive-disclosures#browse-disclosures',
+        text: 'Request a Demo',
+        href: '/contact',
         icon: 'tabler:arrow-right',
       },
       // { variant: 'tertiary', icon: 'tabler:arrow-right', text: 'View Patents', href: '/patents' },
@@ -211,6 +212,51 @@ const metadata = {
       icon: 'tabler:arrow-right',
     }
   } 
+  /> -->
+
+<!-- <FeaturesIndustries
+  title="Industries We Protect"
+  subtitle="Innovation without protection is fragile. Across sectors, organizations risk losing their edge if competitors patent around them, if litigation drains resources, or if costly blind spots remain unchecked. Intellectual Frontiers empowers industries to publish defensive disclosures at machine speed — timestamped, hashed, and immutable — ensuring freedom to operate and protection against patent traps."
+  columns={3}
+  items={[
+  {
+    title: 'HealthTech & MedTech',
+    description:
+      'Medical device makers and digital health startups face relentless patent scrutiny. Without disclosures, rivals can patent adjacent techniques, blocking market entry and exposing innovators to litigation at the very moment of FDA clearance or commercialization.',
+    icon: 'tabler:first-aid-kit',
+  },
+  {
+    title: 'Software & AI',
+    description:
+      'In fast-moving AI and SaaS markets, weak prior art invites “junk patents” that competitors weaponize. Publishing defensive disclosures ensures your algorithms and architectures remain open to you — not locked behind someone else’s filing.',
+    icon: 'tabler:code-dots',
+  },
+  {
+    title: 'Biotech & Life Sciences',
+    description:
+      'Labs and R&D teams risk wasting millions on patents later invalidated by overlooked prior art. Disclosures create early protective cover, preventing competitors from locking up critical therapeutic pathways.',
+    icon: 'tabler:microscope',
+  },
+  {
+    title: 'Universities & Academia',
+    description:
+      'Faculty and students often present groundbreaking work at conferences before filing patents. A defensive disclosure ensures those ideas remain citable prior art — preventing opportunistic outsiders from patenting them first.',
+    icon: 'tabler:book-2',
+  },
+  {
+    title: 'Venture Capital & Incubators',
+    description:
+      'Portfolios collapse when startups lose freedom to operate. By standardizing disclosures, VCs and incubators reduce IP litigation risk across their investments, protecting equity value before the next funding round.',
+    icon: 'tabler:businessplan',
+  },
+  {
+    title: 'Manufacturing & Industrial Tech',
+    description:
+      'Industrial innovators are vulnerable to competitors patenting incremental process improvements. Strategic disclosures can safeguard proprietary methods, ensure supply chain freedom-to-operate, and block opportunistic patent filings that inflate production costs.',
+    icon: 'tabler:building-factory-2',
+  },
+]}
+
   /> -->
 
   <!-- <Features id="features" tagline="" title="Featured Patents" subtitle="" items={FeaturedpatentContent}>
