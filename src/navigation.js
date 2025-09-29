@@ -116,7 +116,7 @@ export const footerData = {
       links: [
         { text: 'About Defensive Disclosures', href: '/defensive-disclosures' },
         { text: 'Published Defensive Disclosures', href: '/defensive-disclosures#browse-disclosures' },
-        { text: 'Submit Defensive Disclosures', href: '/contact' },
+        { text: 'Submit a Defensive Disclosure', href: '/submit-a-disclosure' },
       ],
     },
   ],
