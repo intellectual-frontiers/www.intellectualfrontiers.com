@@ -443,11 +443,11 @@ const metadata = {
 
   <!-- Features2 Widget ************** -->
 
-  <Features2 title="Most Viewed Patents" subtitle="" tagline="" items={MostViewedPatent}>
+  <!-- <Features2 title="Most Viewed Patents" subtitle="" tagline="" items={MostViewedPatent}>
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
-  </Features2>
+  </Features2> -->
 
   <!-- <MostViewedDisclosures
   id="features"
@@ -460,6 +460,31 @@ const metadata = {
   <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
 </Fragment>
 </MostViewedDisclosures> -->
+
+  <FeaturesDisclosure
+    id="features"
+    tagline=""
+    title="Most Viewed Defensive Disclosures"
+    subtitle=""
+    items={FeaturedDisclosure}
+    classes={{
+    headline: {
+      container: "!mb-6 max-w-3xl"
+    }
+  }}
+    callToAction={
+    {
+      variant: 'primary',
+      text: 'View all Defensive Disclosures',
+      href: '/defensive-disclosures#browse-disclosures',
+      icon: 'tabler:arrow-right',
+    }
+  } 
+    >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </FeaturesDisclosure>
 
   <!-- HighlightedPosts Widget ******* -->
 
