@@ -25,10 +25,10 @@ export const headerData = {
     //   // ],
     //   href: '/',
     // },
-    {
-      text: 'About Us',
-      href: '/about',
-    },
+    // {
+    //   text: 'About Us',
+    //   href: '/about',
+    // },
     {
       text: 'Defensive Disclosures',
       href: getDisclosurePermalink('/defensive-dosclosures'),
