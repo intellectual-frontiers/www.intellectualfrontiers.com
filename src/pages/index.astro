@@ -11,6 +11,7 @@ import FeaturesIndustries from '~/components/disclosure/FeaturesIndustries.astro
 import Featurestopic from '~/components/widgets/Featurestopic.astro';
 // import Steps from '~/components/widgets/Steps.astro';
 // import Content from '~/components/widgets/Content.astro';
+import Content from '~/components/disclosure/Content.astro';
 // import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import ArticleLatestPosts from '~/components/widgets/ArticleLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
@@ -194,6 +195,129 @@ const metadata = {
     </Fragment>
   </Features5>
 
+  
+  <!-- Industries -->
+
+  <Content
+    isReversed
+    classes={{container: 'mt-0 !pb-0'}}
+    title="Industries"
+    subtitle='Innovation now moves at machine speed, but protection often lags behind. Intellectual Frontiers serves the stakeholders who face the highest risks — startups, incubators, R&D leaders, and investors, by providing defensible disclosures and an IP marketplace. Our platform delivers confidence, cost savings, and freedom to innovate and operate'
+    items={[
+           {
+        title: 'Healthcare & Life Sciences',
+        description:
+          '',
+      },
+      {
+        title: 'Health Tech & Digital Health',
+        description:
+          '',
+      },
+       {
+        title: 'Medical Devices & Diagnostics',
+        description:
+          '',
+      },
+      {
+        title: 'Pharmaceutical & Biotech R&D',
+        description:
+          '',
+      }
+    ]}
+    image={{
+      src: '~/assets/images/target_sector.webp',
+      alt: 'Target Sector',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Target Sectors</h3>       
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-white dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+  <Content
+    classes={{container: 'mt-0 !pt-0 !pb-0'}}
+    title=""
+    subtitle=''
+    items={[
+           {
+        title: 'Startups & Founders',
+        description:
+          '',
+      },
+      {
+        title: 'R&D Leaders and Researchers',
+        description:
+          '',
+      },
+       {
+        title: 'Investors',
+        description:
+          '',
+      },
+    ]}
+    image={{
+      src: '~/assets/images/audience.webp',
+      alt: 'Audience',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Audience</h3>       
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-white dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+  <Content
+    isReversed
+    classes={{container: 'mt-0 !pt-0'}}
+    title=""
+    subtitle=''
+    items={[
+           {
+        title: 'Freedom to Innovate',
+        description:
+          '',
+      },
+      {
+        title: 'Portfolio Strength',
+        description:
+          '',
+      },
+       {
+        title: 'Cost Efficiency',
+        description:
+          '',
+      },
+      {
+        title: 'Defense Against Patent Trolls',
+        description:
+          '',
+      },
+      {
+        title: 'Innovation Exchange',
+        description:
+          '',
+      }
+    ]}
+    image={{
+      src: '~/assets/images/strategy.webp',
+      alt: 'Strategy',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Strategy</h3>       
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-white dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
 <!-- <FeaturesDemo 
   id="features" 
   tagline="" 
@@ -215,49 +339,52 @@ const metadata = {
   /> -->
 
 <!-- <FeaturesIndustries
-  title="Industries We Protect"
-  subtitle="Innovation without protection is fragile. Across sectors, organizations risk losing their edge if competitors patent around them, if litigation drains resources, or if costly blind spots remain unchecked. Intellectual Frontiers empowers industries to publish defensive disclosures at machine speed — timestamped, hashed, and immutable — ensuring freedom to operate and protection against patent traps."
-  columns={3}
-  items={[
-  {
-    title: 'HealthTech & MedTech',
-    description:
-      'Medical device makers and digital health startups face relentless patent scrutiny. Without disclosures, rivals can patent adjacent techniques, blocking market entry and exposing innovators to litigation at the very moment of FDA clearance or commercialization.',
-    icon: 'tabler:first-aid-kit',
-  },
-  {
-    title: 'Software & AI',
-    description:
-      'In fast-moving AI and SaaS markets, weak prior art invites “junk patents” that competitors weaponize. Publishing defensive disclosures ensures your algorithms and architectures remain open to you — not locked behind someone else’s filing.',
-    icon: 'tabler:code-dots',
-  },
-  {
-    title: 'Biotech & Life Sciences',
-    description:
-      'Labs and R&D teams risk wasting millions on patents later invalidated by overlooked prior art. Disclosures create early protective cover, preventing competitors from locking up critical therapeutic pathways.',
-    icon: 'tabler:microscope',
-  },
-  {
-    title: 'Universities & Academia',
-    description:
-      'Faculty and students often present groundbreaking work at conferences before filing patents. A defensive disclosure ensures those ideas remain citable prior art — preventing opportunistic outsiders from patenting them first.',
-    icon: 'tabler:book-2',
-  },
-  {
-    title: 'Venture Capital & Incubators',
-    description:
-      'Portfolios collapse when startups lose freedom to operate. By standardizing disclosures, VCs and incubators reduce IP litigation risk across their investments, protecting equity value before the next funding round.',
-    icon: 'tabler:businessplan',
-  },
-  {
-    title: 'Manufacturing & Industrial Tech',
-    description:
-      'Industrial innovators are vulnerable to competitors patenting incremental process improvements. Strategic disclosures can safeguard proprietary methods, ensure supply chain freedom-to-operate, and block opportunistic patent filings that inflate production costs.',
-    icon: 'tabler:building-factory-2',
-  },
-]}
-
-  /> -->
+    title="Industries We Protect"
+    subtitle="Innovation without protection is fragile. Across sectors, organizations risk losing their edge if competitors patent around them, if litigation drains resources, or if costly blind spots remain unchecked. Intellectual Frontiers empowers industries to publish defensive disclosures at machine speed — timestamped, hashed, and immutable — ensuring freedom to operate and protection against patent traps."
+    columns={3}
+    items={[
+    {
+      title: 'HealthTech & MedTech',
+      description:
+        'Medical device makers and digital health startups face relentless patent scrutiny. Without disclosures, rivals can patent adjacent techniques, blocking market entry and exposing innovators to litigation at the very moment of FDA clearance or commercialization.',
+      icon: 'tabler:first-aid-kit',
+    },
+    {
+      title: 'Software & AI',
+      description:
+        'In fast-moving AI and SaaS markets, weak prior art invites “junk patents” that competitors weaponize. Publishing defensive disclosures ensures your algorithms and architectures remain open to you — not locked behind someone else’s filing.',
+      icon: 'tabler:code-dots',
+    },
+    {
+      title: 'Biotech & Life Sciences',
+      description:
+        'Labs and R&D teams risk wasting millions on patents later invalidated by overlooked prior art. Disclosures create early protective cover, preventing competitors from locking up critical therapeutic pathways.',
+      icon: 'tabler:microscope',
+    },
+    {
+      title: 'Universities & Academia',
+      description:
+        'Faculty and students often present groundbreaking work at conferences before filing patents. A defensive disclosure ensures those ideas remain citable prior art — preventing opportunistic outsiders from patenting them first.',
+      icon: 'tabler:book-2',
+    },
+    {
+      title: 'Venture Capital & Incubators',
+      description:
+        'Portfolios collapse when startups lose freedom to operate. By standardizing disclosures, VCs and incubators reduce IP litigation risk across their investments, protecting equity value before the next funding round.',
+      icon: 'tabler:businessplan',
+    },
+    {
+      title: 'Manufacturing & Industrial Tech',
+      description:
+        'Industrial innovators are vulnerable to competitors patenting incremental process improvements. Strategic disclosures can safeguard proprietary methods, ensure supply chain freedom-to-operate, and block opportunistic patent filings that inflate production costs.',
+      icon: 'tabler:building-factory-2',
+    },
+  ]}
+  >  
+  <Fragment slot="bg">
+      <div class="absolute inset-0 bg-white dark:bg-transparent"></div>
+    </Fragment>
+  </FeaturesIndustries> -->
 
   <!-- <Features id="features" tagline="" title="Featured Patents" subtitle="" items={FeaturedpatentContent}>
     <Fragment slot="bg">
@@ -294,45 +421,6 @@ const metadata = {
 
   <Featurestopic id="features" tagline="" title="Featured Topics" subtitle="" items={FeaturedTopics} />
 
-  <!-- Content Widget **************** -->
-
-  <!-- <Content
-    isReversed
-    tagline="Inside template"
-    title="AstroWind's Blueprint: Fun Meets Functionality!"
-    items={[
-      {
-        title: 'Built on top of Astro 3.0',
-        description:
-          'Benefiting from the performance and developer-friendly features of this modern static site generator.',
-      },
-      {
-        title: 'Styled using Tailwind CSS',
-        description:
-          'Facilitating rapid design and consistent styling with this highly popular utility-first CSS framework.',
-      },
-      {
-        title: 'Cross-browser compatibility',
-        description:
-          'Ensure your website looks and functions consistently across various web browsers, delivering a seamless experience to all users.',
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      alt: 'Colorful Image',
-    }}
-  >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Building on modern foundations</h3>
-       Gain a competitive advantage by incorporating industry leading practices
-    </Fragment>
-
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content> -->
-
-  <!-- Content Widget **************** -->
 
   <!-- <Content
     isAfterContent
