@@ -1,10 +1,12 @@
 ---
-title: Web Security Scanner with Accelerate Detection and Verification of Vulnerabilities 
-excerpt: The web security scanner is a software tool that automatically examines web applications for security vulnerabilities through systematic crawling and testing phases. 
+title1: Web Security Scanner with Accelerate Detection and Verification of Vulnerabilities 
+title: Lorem Ipsum Dolor Sit Amet
+excerpt: -- 
 sectiontype: disclosure
 publishDate: 2024-12-04
 access: free
-disclosureId: DD20241204001
+disclosureId1: DD20241204001
+disclosureId: --
 # patentId: US20240015129A1
 metadata:
   title: Web Security Scanner with Accelerate Detection and Verification of Vulnerabilities 
@@ -26,8 +28,10 @@ submissionDate: 2024-12-02
 url: '/defensive-disclosures/web-security-scanner-with-accelerate-detection-and-verification-of-vulnerabilities'
 category: "Defensive Disclosure"
 abstract: This publication describes techniques and apparatuses directed to the prevention of dust ingression into a foldable mobile device (e.g., at a hinge module). 
-disclosureAuthors:
+disclosureAuthors1:
     - Shahid N. Shah
+disclosureAuthors:
+  - --
 image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREO3tkIJnmJZcWmgLLR-z973QVHQ8zbwDGnw&s'
 # tags:
 #   - Scanner

@@ -1,9 +1,11 @@
 ---
-title: Eye Tracking Driven Dynamic Glanceable Passthrough Window for Extended Reality
-excerpt: Virtual reality (VR) and extended reality (XR) devices offer an immersive experience to users. However, such an immersive experience can create a disconnect from the real world for users.
+title1: Eye Tracking Driven Dynamic Glanceable Passthrough Window for Extended Reality
+title: Lorem Ipsum Dolor Sit Amet
+excerpt: --
 sectiontype: disclosure
 publishDate: 2024-11-28
-disclosureId: DD20241129001
+disclosureId1: DD20241129001
+disclosureId: --
 # patentId: US11880882B2
 metadata:
   title: Method for Secure Blockchain-Based Voting
@@ -26,9 +28,11 @@ url: '/defensive-disclosures/secure-blockchain-voting'
 category: "Defensive Disclosure"
 abstract: A system for conducting anonymous voting using blockchain to ensure voter privacy and election transparency.
 problemSolved: Eliminates the risk of tampering and fraud in digital voting systems while maintaining voter anonymity.
-disclosureAuthors:
+disclosureAuthors1:
     - Kathleen Bryan
     - Shiblee Hasan
+disclosureAuthors:
+  - --
 image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREO3tkIJnmJZcWmgLLR-z973QVHQ8zbwDGnw&s'
 # tags:
 #   - Virtual Reality

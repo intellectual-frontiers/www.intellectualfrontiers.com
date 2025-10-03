@@ -1,9 +1,11 @@
 ---
-title: Automatically Determining Missing Product Attributes Using a Large Language Model Automatical
-excerpt: To surface products that are relevant to customers, search engines require online merchants to fill in certain attributes relating to their products. However, merchants often do not fill in the requested attributes, which can lead to search results not surfacing the most appropriate products and merchants.
+title1: Automatically Determining Missing Product Attributes Using a Large Language Model Automatical
+title: Lorem Ipsum Dolor Sit Amet
+excerpt: --
 sectiontype: disclosure
 publishDate: 2025-03-02
-disclosureId: DD20241129002
+disclosureId1: DD20241129002
+disclosureId: --
 access: free
 # patentId: US11888597B2
 metadata:
@@ -25,13 +27,15 @@ metadata:
 submissionDate: 2025-03-02
 url: '/defensive-disclosures/automatically-determining-missing-product-attributes-using-a-large-language-model-automatical'
 category: Defensive Disclosure
-disclosureAuthors:
+disclosureAuthors1:
     - Gokul Pillai
     - Sandaleen Taqdees
     - Rishabh Agrawal
     - Alex Stillwell
     - Joey Chinoski
     - Sree Meruva 
+disclosureAuthors:
+  - --
 # image: '/images/disclosure/eye-tracking-driven-dynamic-glanceable-passthrough-window-for-extended-reality-cover.jpg'
 image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREO3tkIJnmJZcWmgLLR-z973QVHQ8zbwDGnw&s'
 tags:
