@@ -143,7 +143,7 @@ const metadata = {
     ]}
     image={{ src: '', alt: '' }}
   >
-    <Fragment slot="title">Innovation at Machine Speed, Protecting IP at Machine Speed</Fragment>
+    <Fragment slot="title">Invent. Protect. Exchange <br> — at Machine Speed</Fragment>
      <Fragment slot="tagline">Built for the AI era, offering insurance against patent trolls </Fragment>
 
     <Fragment slot="subtitle">
@@ -158,8 +158,11 @@ const metadata = {
     title="How We Help"
      classes={{
     headline: {
-      container: "!mb-1"
-    }
+      container: "!mb-2"
+    },
+      items: {
+        container: "justify-items-center"
+      }
   }}
     subtitle="We help innovators protect, showcase, and strategically use intellectual property — with speed, clarity, and confidence"
     items={[
@@ -194,9 +197,6 @@ const metadata = {
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
   </Features5>
-
-  
-  <!-- Industries -->
 
 <!--  
   <Content
@@ -339,47 +339,90 @@ const metadata = {
   } 
   /> -->
 
-<FeaturesIndustries
-    title="Industries"
-    subtitle="Innovation now moves at machine speed, but protection often lags behind. Intellectual Frontiers serves the stakeholders who face the highest risks — startups, incubators, R&D leaders, and investors, by providing defensible disclosures and an IP marketplace. Our platform delivers confidence, cost savings, and freedom to innovate and operate"
-    columns={3}
+  <Features5
+    title="Proof of Record and Transparency"
+    columns={2}
+     classes={{
+      headline: {
+        container: "!mb-4 !mt-4"
+      },
+      items: {
+        container: "justify-items-center"
+      }
+    }}
+    subtitle="Each disclosure on Intellectual Frontiers carries verifiable proof of authenticity and integrity. Every record is time-stamped, hashed, and permanently linked to a secure audit trail providing an immutable record of publication and access. This establishes priority date of the prior art recognizable by authorities. Optional third-party verification adds another layer of assurance, ensuring complete transparency and defensibility of your disclosures.<div class='mt-8 mb-8 text-2xl font-bold text-default'>Key Features</div>"
     items={[
-    {
-      title: 'Target Sectors',
-      description: [
-        'Healthcare & Life Sciences',
-        'Health Tech & Digital Health',
-        'Medical Devices & Diagnostics',
-        'Pharmaceutical & Biotech R&D'
-      ],
-      icon: 'tabler:target-arrow',
-    },
-    {
-      title: 'Audience',
-      description: [
-        'Startups & Founders',
-        'R&D Leaders & Researchers',
-        'Investors'
-      ],
-      icon: 'tabler:users',
-    },
-    {
-      title: 'Strategy',
-      description: [
-        'Freedom to Innovate',
-        'Portfolio Strength',
-        'Cost Efficiency',
-        'Defense Against Patent Trolls',
-        'Innovation Exchange'
-      ],
-      icon: 'tabler:bulb',
-    }
-  ]}
->  
-  <Fragment slot="bg">
-      <div class="absolute inset-0 bg-white dark:bg-transparent"></div>
-    </Fragment>
-</FeaturesIndustries>
+      {
+        title: 'Visible Hash and Publication Timestamp on Every Disclosure',
+        description: '',
+        icon: 'tabler:file-text-shield',
+      },
+      {
+        title: 'Immutable Record Of Creation and Update History',
+        description: '',
+        icon: 'tabler:history',
+      },
+      {
+        title: 'Transparent Audit Trail Of Access and Activity',
+        description: '',
+        icon: 'tabler:route',
+      },
+      {
+        title: 'Optional External Verification for Added Assurance',
+        description: '',
+        icon: 'tabler:user-scan',
+      }
+    ]}
+    >
+  </Features5>
+
+
+  <FeaturesIndustries
+      title="Industries"
+      subtitle="Innovation now moves at machine speed, but protection often lags behind. Intellectual Frontiers serves the stakeholders who face the highest risks — startups, incubators, R&D leaders, and investors, by providing defensible disclosures and an IP marketplace. Our platform delivers confidence, cost savings, and freedom to innovate and operate"
+      columns={3}
+      classes={{
+        items: {
+          container: "justify-items-center"
+        }
+      }}
+      items={[
+      {
+        title: 'Target Sectors',
+        description: [
+          'Healthcare & Life Sciences',
+          'Health Tech & Digital Health',
+          'Medical Devices & Diagnostics',
+          'Pharmaceutical & Biotech R&D'
+        ],
+        icon: 'tabler:target-arrow',
+      },
+      {
+        title: 'Audience',
+        description: [
+          'Startups & Founders',
+          'R&D Leaders & Researchers',
+          'Investors'
+        ],
+        icon: 'tabler:users',
+      },
+      {
+        title: 'Strategy',
+        description: [
+          'Freedom to Innovate',
+          'Portfolio Strength',
+          'Cost Efficiency',
+          'Defense Against Patent Trolls',
+          'Innovation Exchange'
+        ],
+        icon: 'tabler:bulb',
+      }
+    ]}
+  >  
+    <Fragment slot="bg">
+        <div class="absolute inset-0 bg-white dark:bg-transparent"></div>
+      </Fragment>
+  </FeaturesIndustries>
 
   <!-- <Features id="features" tagline="" title="Featured Patents" subtitle="" items={FeaturedpatentContent}>
     <Fragment slot="bg">
@@ -568,8 +611,6 @@ const metadata = {
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
   </FeaturesDisclosure> -->
-
-  <!-- HighlightedPosts Widget ******* -->
 
   <ArticleLatestPosts
     title="Latest Articles"
