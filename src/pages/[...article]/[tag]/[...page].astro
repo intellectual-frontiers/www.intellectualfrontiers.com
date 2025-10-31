@@ -1,16 +1,12 @@
 ---
 import type { InferGetStaticPropsType, GetStaticPaths } from 'astro';
-import { blogTagRobots, getStaticPathsArticleTag } from '~/utils/article';
+import { blogTagRobots, getStaticPathsArticleTag, fetchTaggedPosts } from '~/utils/article';
 
 import Layout from '~/layouts/PageLayout.astro';
-// import BlogList from '~/components/article/List.astro';
 import BlogList from '~/components/article/List2.astro';
-// import Headline from '~/components/article/Headline.astro';
 import Headline from '~/components/article/HeadlineWithCategories.astro';
-import Pagination from '~/components/article/Pagination.astro';
-
-//Import the meta data json file
 import TopicsMetaData from '../../../../support/topicsmetadata.json';
+// Remove Pagination import
 
 export const prerender = true;
 
@@ -20,9 +16,9 @@ export const getStaticPaths = (async ({ paginate }) => {
 
 type Props = InferGetStaticPropsType<typeof getStaticPaths>;
 
-const { page, tag } = Astro.props as Props;
+const { tag } = Astro.props as Props;
 
-const currentPage = page.currentPage ?? 1;
+const currentPage = 1; // Since we're removing pagination, we only have page 1
 
 // Check if the tag is a patent number using a regular expression
 const patentNumberPattern = /^[A-Za-z]+\d+[A-Za-z]+\d+$/;
@@ -32,15 +28,13 @@ const titleText = isPatentNumber
   ? tag.toUpperCase()
   : tag.replaceAll('-', ' ').replace(/\s[a-z]|^[a-z]/gi, (a) => a.toUpperCase());
 
-//Get the associated value for the tag
+// Get the associated value for the tag
 const topicMetadataEntry = TopicsMetaData[tag];
-//Construct the meta tilte for the page
-const title =
-  topicMetadataEntry?.metaTitle ??
-  `${titleText} Patent and Insights ${currentPage > 1 ? ` — Page ${currentPage} ` : ''}`;
-//Construct the meta description for the page
+// Construct the meta title for the page
+const title = topicMetadataEntry?.metaTitle ?? `${titleText} Patent and Insights`;
+// Construct the meta description for the page
 const description = topicMetadataEntry?.metaDescription ?? `${titleText} Patent and Insights`;
-//Update the metadata object
+// Update the metadata object
 const metadata = {
   title,
   description,
@@ -50,6 +44,12 @@ const metadata = {
   },
   ignoreTitleTemplate: true,
 };
+
+// Get ALL posts for this tag (not just current page)
+const allPosts = await fetchTaggedPosts();
+const taggedPosts = allPosts.filter(
+  (post) => Array.isArray(post.tags) && post.tags.find((elem) => elem.toLowerCase() === tag)
+);
 ---
 
 <Layout metadata={metadata}>
@@ -61,14 +61,14 @@ const metadata = {
           ' '
         )}</span> available for acquisition. This collection includes detailed patent information, use cases, landscape analyses, market studies, informative articles, and additional resources to support informed decision-making.`}
     >
-      <!-- {page.data.length}
-      {page.data.length > 1 ? ' Matches' : ' Match'} Across Categories for Tag - -->
+      <!-- {taggedPosts.length}
+      {taggedPosts.length > 1 ? ' Matches' : ' Match'} Across Categories for Tag - -->
       <span class={isPatentNumber ? 'uppercase' : ''}>
         {topicMetadataEntry?.displayName ?? "'" + tag.replace(/-/g, ' ') + "'"}
       </span>
       {isPatentNumber && 'Patent and Insights'}
     </Headline>
-    <BlogList posts={page.data} />
-    <Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />
+    <BlogList posts={taggedPosts} />
+    <!-- Remove Pagination component -->
   </section>
 </Layout>

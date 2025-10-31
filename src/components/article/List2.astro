@@ -18,7 +18,7 @@ const { posts } = Astro.props;
     ))
   }
 </ul> -->
-<section class="text-gray-600 dark:text-gray-400 body-font">
+<section class="text-gray-600 dark:text-gray-400 body-font posts-container">
   <div class="container mds:px-2 sm:px-0 py-12 pt-0 mx-auto">
     <div class="flex flex-wrap -m-4">
       {posts.map((post) => <Item post={post} />)}

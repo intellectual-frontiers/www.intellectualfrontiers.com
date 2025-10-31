@@ -1,7 +1,19 @@
 ---
-// components/article/Headline.astro
+// components/article/HeadlineWithCategories.astro
 import { Icon } from 'astro-icon/components';
+
 const { title = await Astro.slots.render('default'), subtitle = await Astro.slots.render('subtitle') } = Astro.props;
+
+// Define category mappings
+const categories = [
+  { name: 'Defensive Disclosures', slug: 'defensive-disclosure', icon: 'tabler:shield' },
+  { name: 'Patents', slug: 'patents', icon: 'tabler:file-certificate' },
+  { name: 'Patent Summaries', slug: 'patent-summaries', icon: 'tabler:file-text' },
+  { name: 'Patent Landscapes', slug: 'patent-landscapes', icon: 'tabler:map' },
+  { name: 'Market Potential', slug: 'market-potential', icon: 'tabler:chart-line' },
+  { name: 'Use Cases', slug: 'use-cases', icon: 'tabler:layers-intersect' },
+  { name: 'Blogs', slug: 'blogs', icon: 'tabler:article' },
+];
 ---
 
 <div class="container mx-auto mb-12">
@@ -42,36 +54,151 @@ const { title = await Astro.slots.render('default'), subtitle = await Astro.slot
     }
     <!-- Research Categories/Fields -->
     <div class="border-t border-gray-200 dark:border-gray-700 pt-4 mt-6">
-      <div class="flex flex-wrap items-center justify-center gap-4 text-sm text-gray-500 dark:text-gray-400">
-        <div class="flex items-center">
-          <Icon name="tabler:file-certificate" class="w-4 h-4 mr-1" />
-          <span>Patents</span>
-        </div>
-        <div class="flex items-center">
-          <Icon name="tabler:shield" class="w-4 h-4 mr-1" />
-          <span>Defensive Disclosures</span>
-        </div>
-        <div class="flex items-center">
-          <Icon name="tabler:file-text" class="w-4 h-4 mr-1" />
-          <span>Patent Summaries</span>
-        </div>
-        <div class="flex items-center">
-          <Icon name="tabler:map" class="w-4 h-4 mr-1" />
-          <span>Patent Landscapes</span>
-        </div>
-        <div class="flex items-center">
-          <Icon name="tabler:chart-line" class="w-4 h-4 mr-1" />
-          <span>Market Potential</span>
-        </div>
-        <div class="flex items-center">
-          <Icon name="tabler:layers-intersect" class="w-4 h-4 mr-1" />
-          <span>Use Cases</span>
-        </div>
-        <div class="flex items-center">
-          <Icon name="tabler:article" class="w-4 h-4 mr-1" />
-          <span>Blogs</span>
-        </div>
+      <div class="flex flex-wrap items-center justify-center gap-4 text-sm" id="category-filters">
+        <!-- All Categories (Active by default) -->
+        <button
+          class="category-filter flex items-center text-gray-700 dark:text-gray-200 bg-gray-100 dark:bg-gray-700 px-3 py-2 rounded-sm border border-gray-300 dark:border-gray-600 transition-colors duration-200 active-category"
+          data-category="all"
+        >
+          <Icon name="tabler:apps" class="w-4 h-4 mr-1" />
+          <span>All</span>
+        </button>
+
+        {/* Categories */}
+        {
+          categories.map((category) => (
+            <button
+              class="category-filter flex items-center text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 px-3 py-2 rounded-sm border border-transparent hover:border-gray-300 dark:hover:border-gray-600 transition-colors duration-200"
+              data-category={category.slug}
+            >
+              <Icon name={category.icon} class="w-4 h-4 mr-1" />
+              <span>{category.name}</span>
+            </button>
+          ))
+        }
       </div>
     </div>
   </div>
 </div>
+
+<script>
+  // Clean version without animations - eliminates the jump
+  document.addEventListener('DOMContentLoaded', function () {
+    const filterButtons = document.querySelectorAll('.category-filter');
+    const postElements = document.querySelectorAll('.post-item');
+    const postsContainer = document.querySelector('.posts-container');
+
+    // Create no posts message element
+    const noPostsMessage = document.createElement('div');
+    noPostsMessage.className = 'no-posts-message text-center py-12 w-full';
+    noPostsMessage.innerHTML = `
+    <div class="bg-gray-50 dark:bg-gray-800 rounded-lg p-8 max-w-md mx-auto border border-gray-200 dark:border-gray-700">
+      <h3 class="text-lg font-medium text-gray-900 dark:text-white mb-2">No Resources Found</h3>
+      <p class="text-gray-600 dark:text-gray-400">We're constantly adding new content. Check back soon for resources in this category!</p>
+      <button class="mt-4 px-4 py-2 bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-sm text-sm hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors back-to-all">
+        View All Resources
+      </button>
+    </div>
+  `;
+    noPostsMessage.style.display = 'none';
+
+    if (postsContainer) {
+      postsContainer.querySelector('.container').appendChild(noPostsMessage);
+    }
+
+    // Add click handler for the "View All Resources" button
+    document.addEventListener('click', function (e) {
+      if (e.target.classList.contains('back-to-all')) {
+        const allButton = document.querySelector('[data-category="all"]');
+        if (allButton) {
+          allButton.click();
+        }
+      }
+    });
+
+    filterButtons.forEach((button) => {
+      button.addEventListener('click', function () {
+        const selectedCategory = this.getAttribute('data-category');
+
+        // Update active state
+        filterButtons.forEach((btn) => {
+          btn.classList.remove(
+            'active-category',
+            'text-gray-700',
+            'dark:text-gray-200',
+            'bg-gray-100',
+            'dark:bg-gray-700'
+          );
+          btn.classList.add('text-gray-500', 'dark:text-gray-400');
+          btn.classList.remove('border-gray-300', 'dark:border-gray-600');
+          btn.classList.add('border-transparent');
+        });
+
+        this.classList.add('active-category', 'text-gray-700', 'dark:text-gray-200', 'bg-gray-100', 'dark:bg-gray-700');
+        this.classList.remove('text-gray-500', 'dark:text-gray-400');
+        this.classList.add('border-gray-300', 'dark:border-gray-600');
+        this.classList.remove('border-transparent');
+
+        // Filter posts and count visible posts
+        let visiblePostCount = 0;
+
+        postElements.forEach((post) => {
+          const postCategory = post.getAttribute('data-category');
+
+          if (selectedCategory === 'all' || postCategory === selectedCategory) {
+            post.style.display = 'block';
+            visiblePostCount++;
+          } else {
+            post.style.display = 'none';
+          }
+        });
+
+        // Show/hide no posts message instantly
+        if (visiblePostCount === 0 && selectedCategory !== 'all') {
+          noPostsMessage.style.display = 'block';
+        } else {
+          noPostsMessage.style.display = 'none';
+        }
+
+        // Update URL without reload
+        const newUrl =
+          selectedCategory === 'all'
+            ? window.location.pathname
+            : `${window.location.pathname}?category=${selectedCategory}`;
+        window.history.replaceState({}, '', newUrl);
+      });
+    });
+
+    // Check URL for category parameter on page load
+    const urlParams = new URLSearchParams(window.location.search);
+    const initialCategory = urlParams.get('category');
+    if (initialCategory) {
+      const initialButton = document.querySelector(`[data-category="${initialCategory}"]`);
+      if (initialButton) {
+        initialButton.click();
+      }
+    }
+  });
+</script>
+
+<style>
+  .active-category {
+    font-weight: 600;
+  }
+
+  /* Remove any transitions that might cause jumps */
+  .post-item,
+  .no-posts-message {
+    transition: none;
+  }
+</style>
+
+<style>
+  .active-category {
+    font-weight: 600;
+  }
+
+  .no-posts-message {
+    grid-column: 1 / -1;
+  }
+</style>
