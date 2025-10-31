@@ -1,6 +1,5 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-
 import Hero from '~/components/widgets/HeroHomepage.astro';
 // import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
@@ -19,12 +18,14 @@ import FAQs from '~/components/widgets/FAQs.astro';
 // import CallToAction from '~/components/widgets/CallToAction.astro';
 import FeaturedpatentContent from '../../support/featuredpatent.json';
 import FeaturedTopics from '../../support/featuredtopics.json';
-import MostViewedPatent from '../../support/mostviewpatent.json';
+// import MostViewedPatent from '../../support/mostviewpatent.json';
 import Faq from '../../support/faq.json';
 import { Schema } from 'astro-seo-schema';
 import FeaturedDisclosure from '../../support/featureddisclosure.json';
 import FeaturesDisclosure from '~/components/disclosure/FeaturesDisclosure.astro';
 import MostViewedDisclosures from '~/components/disclosure/MostViewedDisclosures.astro';
+import CaseStudies from '~/components/widgets/CaseStudies.astro';
+import Prices from '~/components/widgets/Pricing.astro';
 
 const metadata = {
   title: 'Patent License | Buy and Sell Patents Online - Intellectual Frontiers',
@@ -424,6 +425,46 @@ const metadata = {
       </Fragment>
   </FeaturesIndustries>
 
+  <CaseStudies
+  title="Case Studies"
+  subtitle="Discover how healthcare innovators, startups, and investors use Intellectual Frontiers to protect, publish, and profit from their intellectual assets — faster, more securely, and with greater confidence."
+  testimonials={[
+    {
+      title: 'HealthTech Startup Builds Investor Trust Through Transparent IP Recordkeeping',
+      testimonial:
+        'A high-growth health-tech startup partnered with Intellectual Frontiers to implement an auditable, timestamped disclosure workflow across its R&D pipeline. The result: founders demonstrated clear evidence of invention provenance to investors, reducing IP diligence concerns and accelerating their fundraising timeline by 30%.',
+      image: {
+        src: '/images/case-studies/case-study-2.jpeg',
+        alt: 'Startup Defensive Disclosure Case Study',
+      },
+      downloadLink: '#',
+      readLink: '#',
+    },
+    {
+      title: 'Wearable Device Company Protects Its Algorithmic IP at Machine Speed',
+      testimonial:
+        'A next-generation wearable-sensor company used Intellectual Frontiers to document its proprietary algorithms in real time as new iterations were released. By publishing verifiable, timestamped disclosures, the startup safeguarded its innovations against copycat filings and reduced IP conflicts during product launches. This proactive recordkeeping allowed the R&D team to innovate continuously without waiting for lengthy patent approvals.',
+      image: {
+        src: '/images/case-studies/case-study-3.jpeg',
+        alt: 'Medical Device Innovator Case Study',
+      },
+      downloadLink: '#',
+      readLink: '#',
+    },
+    {
+      title: 'AI Diagnostics Venture Secures Freedom to Operate Through Defensive Disclosures',
+      testimonial:
+        'An AI-based medical diagnostics venture faced overlapping patent claims that threatened its commercialization timeline. Using Intellectual Frontiers, the team published detailed technical disclosures that established prior art and invalidated conflicting filings. This defensive publication strategy preserved the company’s freedom to operate and reassured investors that future clinical deployments would remain litigation-free. Freedom to operate confirmed; litigation risk reduced by 70%; follow-on funding secured within three months.',
+      image: {
+        src: '/images/case-studies/case-study-1.jpeg',
+        alt: 'Investor Portfolio Defense Case Study',
+      },
+      downloadLink: '#',
+      readLink: '#',
+    },
+  ]}
+/>
+
   <!-- <Features id="features" tagline="" title="Featured Patents" subtitle="" items={FeaturedpatentContent}>
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
@@ -630,6 +671,97 @@ const metadata = {
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
   </FAQs>
+
+<!-- <Prices
+  title="Plans built for speed and proof"
+  subtitle="Fast-lane options to publish defensive disclosures at machine speed — no procurement delays"
+  prices={[
+    {
+      title: 'Startup Plan',
+      subtitle: 'For founders and early-stage teams who need instant IP protection',
+      price: 200,
+      period: 'per month',
+      items: [
+        {
+          description: 'AI-assisted drafting of your defensive disclosure',
+        },
+        {
+          description: 'Guaranteed publication within 48 hours (SLA-backed)',
+        },
+        {
+          description: 'Blockchain timestamp and hash verification for proof of invention',
+        },
+        {
+          description: 'Private vault for review before public release',
+        },
+        {
+          description: 'Month-to-month subscription — cancel anytime',
+        },
+      ],
+      callToAction: {
+        // target: '_blank',
+        text: 'Start publishing',
+        href: '/pricing/startup-plan',
+      },
+      hasRibbon: true,
+      ribbonTitle: 'most popular',
+    },
+    {
+      title: 'Law-Firm Assist',
+      subtitle: 'For IP practices managing disclosures for multiple clients',
+      price: 1000,
+      period: 'per month per practice group',
+      items: [
+        {
+          description: '“DD Drafting Copilot” to turn client notes into publish-ready disclosures',
+        },
+        {
+          description: 'Private client vault and review workflow',
+        },
+        {
+          description: '48-hour publication SLA and compliance support',
+        },
+        {
+          description: 'Dedicated support and NDA-ready onboarding materials',
+        },
+      ],
+      callToAction: {
+        // target: '_blank',
+        text: 'Join program',
+        href: '/contact',
+      },
+    },
+    {
+      title: 'Enterprise Pilot',
+      subtitle: 'For R&D or business units testing fast defensive disclosure programs',
+      price: 5000,
+      period: 'per 90-day pilot',
+      items: [
+        {
+          description: 'Fixed-fee pilot covering up to 5 disclosures',
+        },
+        {
+          description: 'All disclosures published within 10 business days',
+        },
+        {
+          description: 'Dedicated DD operations and onboarding support',
+        },
+        {
+          description: 'SLA-backed 48-hour publication and audit trail access',
+        },
+        {
+          description: 'Renewable quarterly — scale organization-wide after validation',
+        },
+      ],
+      callToAction: {
+        // target: '_blank',
+        text: 'Launch pilot',
+        href: '/pricing/enterprise-pilot',
+      },
+    },
+  ]}
+/> -->
+
 
   <!-- Stats Widget ****************** -->
 

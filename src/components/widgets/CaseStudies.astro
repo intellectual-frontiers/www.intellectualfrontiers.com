@@ -1,0 +1,95 @@
+---
+import Headline from '~/components/ui/Headline.astro';
+import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
+import Button from '~/components/ui/Button.astro';
+import Image from '~/components/common/Image.astro';
+import type { Testimonials } from '~/types';
+
+const {
+  title = '',
+  subtitle = '',
+  tagline = '',
+  testimonials = [],
+  callToAction,
+
+  id,
+  isDark = false,
+  classes = {},
+  bg = await Astro.slots.render('bg'),
+} = Astro.props as Testimonials;
+---
+
+<WidgetWrapper id={id} isDark={isDark} containerClass={`max-w-7xl mx-auto ${classes?.container ?? ''}`} bg={bg}>
+  <Headline title={title} subtitle={subtitle} tagline={tagline} />
+
+  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+    {
+      testimonials &&
+        testimonials.map(({ title, testimonial, name, job, image, downloadLink, readLink }) => (
+          <div class="flex h-auto">
+            <div class="flex flex-col rounded-lg shadow-xl dark:shadow-none dark:border dark:border-slate-600 overflow-hidden bg-white dark:bg-slate-800">
+              {/* Case Study Image */}
+              {image && (
+                <div class="w-full aspect-[4/3] overflow-hidden bg-slate-200 dark:bg-slate-700">
+                  {typeof image === 'string' ? (
+                    <Fragment set:html={image} />
+                  ) : (
+                    <Image
+                      class="w-full h-full object-cover"
+                      widths={[400, 768]}
+                      sizes="(max-width: 768px) 100vw, 400px"
+                      {...(image as any)}
+                    />
+                  )}
+                </div>
+              )}
+
+              {/* Content */}
+              <div class="flex flex-col flex-grow p-6">
+                {title && <h3 class="text-xl font-bold leading-tight mb-3 text-slate-900 dark:text-white">{title}</h3>}
+                {testimonial && (
+                  <div class="flex-auto mb-4">
+                    <p class="text-muted text-sm leading-relaxed">{testimonial}</p>
+                  </div>
+                )}
+
+                <hr class="border-slate-200 dark:border-slate-600 my-4" />
+
+                {/* Read/Download Buttons */}
+                <div class="mt-auto">
+                  <div class="inline-flex items-center gap-1 text-sm font-semibold text-primary dark:text-blue-400">
+                    {readLink && (
+                      <a href={readLink} class="hover:underline inline-flex items-center gap-1.5">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                        </svg>
+                        READ CASE STUDY
+                      </a>
+                    )}
+                    {readLink && downloadLink && (
+                      <span class="mx-2">|</span>
+                    )}
+                    {downloadLink && (
+                      <a href={downloadLink} class="hover:underline inline-flex items-center gap-1.5">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                        </svg>
+                        DOWNLOAD PDF
+                      </a>
+                    )}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))
+    }
+  </div>
+  {
+    callToAction && (
+      <div class="flex justify-center mx-auto w-fit mt-8 md:mt-12 font-medium">
+        <Button {...callToAction} />
+      </div>
+    )
+  }
+</WidgetWrapper>
