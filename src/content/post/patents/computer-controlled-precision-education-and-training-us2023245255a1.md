@@ -188,124 +188,138 @@ The blockchain device may include a distributed trusted ledgers system containin
 
 These and other aspects of the embodiments herein will be better appreciated and understood when considered in conjunction with the following description and the accompanying drawings. It should be understood, however, that the following descriptions, while indicating exemplary embodiments and numerous specific details thereof, are given by way of illustration and not of limitation. Many changes and modifications may be made within the scope of the embodiments herein without departing from the spirit thereof, and the embodiments herein include all such modifications.
 
-### CLAIMS
+### ALLOWED CLAIMS
 
-1. A method for live digital streaming of one or more contextual micro-content blocks in real-time for a workflow task to facilitate task performance by a user, the method comprising: receiving one or more digital inputs, wherein each digital input is indicative of one or more of a parameters of relevance associated with the workflow task;
+1. A method for live digital streaming of one or more contextual micro-content blocks in real-time for a workflow task to facilitate task performance by a user, the method comprising:
 
-<div style="padding-left: 70px">
+    receiving one or more digital inputs from a front-end context monitoring appliance deployed at a user device, wherein each digital input is indicative of one or more of a parameters of relevance associated with the workflow task, wherein the front-end context monitoring appliance comprises a context sensor that detects a context of the task performance and an installable agent configured as a browser plugin at the device associated with the user;
 
-navigating through one or more digital information sources accessible over a network to search for information that matches the one or more parameters of relevance associated with the workflow task;
+    navigating through one or more digital information sources accessible over a network to search for information that matches the one or more parameters of relevance associated with the workflow task using at least one of a push gateway system that monitors data elements at the information sources and a pull gateway system that queries the information sources;
 
-generating one or more contextual micro-content blocks based on an overall contextual pattern associated with the workflow task;
+    filtering, by a filtering circuit, a plurality of processed information blocks based on a contextual pattern associated with the user and the workflow task to remove redundant information and manage information overload by comparing the processed information blocks with reference characteristics to determine what is noise versus what is important for the workflow task;
 
-and transmitting the one or more contextual micro-content blocks relating to the workflow task to a device associated with the user to deliver information pertinent to the overall contextual pattern of the workflow task.
+    generating one or more contextual micro-content blocks based on an overall contextual pattern associated with the workflow task, wherein the one or more contextual micro-content blocks are generated from the filtered plurality of processed information blocks and are configured to auto-hash review interactions at required intervals; and
 
-</div>
+    transmitting the one or more contextual micro-content blocks relating to the workflow task to the device associated with the user according to a delivery schedule managed by a task manager that examines status of micro-tasks on a time series and identifies timelines associated with delivery of the micro-content blocks for different tasks.
 
-<div style="padding-left: 80px; color:grey">
+2. The method of claim 1, comprising generating the overall contextual pattern defined by a score that represents a context of the workflow task. 
+ 
+3.	The method of claim 1, comprising:
+    <br>
+    detecting a context of the task performance; and
+    <br>
+    detecting geographical coordinates of the device associated with the user. 
+ 
+4.	The method of claim 1, wherein the one or more contextual micro-content blocks are time-stamped before transmission to the device associated with the user for real-time delivery according to an occurrence of a plurality of micro-tasks associated with the workflow task. 
+ 
+5.	The method of claim 4, comprising receiving a signal indicative of the plurality of micro-tasks specific to the user for real-time delivery of the one or more contextual micro-content blocks to the user device. 
+ 
+6.	The method of claim 4, wherein a duration of a first micro task of the plurality of micro tasks is determined based on a level of guidance that the first micro task needs as a standalone step independent of a second micro task, where the second micro task is one of the plurality of micro tasks other than the first micro task.
 
-2. The method of claim 1 , comprising generating the overall contextual pattern defined by a score that represents a context of the workflow task.
+7. The method of claim 1, wherein generating the one or more contextual micro-content blocks based on the contextual pattern associated with the workflow task comprises:
 
-3. The method of claim 1 , wherein the one or more contextual micro-content blocks relating to the workflow task is transmitted to the device associated with the user at a time when a plurality of micro-tasks of the workflow task are about to start.
+    extracting one or more computer-executable information files from the one or more digital information sources based on the contextual pattern associated with the workflow task;
 
-4. The method of claim 1 , wherein the one or more contextual micro-content blocks are time-stamped before transmission to the device associated with the user for real-time delivery according to an occurrence of a plurality of micro-tasks associated with the workflow task.
+    digitally processing the one or more extracted computer-executable information files into a plurality of processed information blocks; and
 
-5. The method of claim 4 , comprising receiving a signal indicative of the plurality of micro-tasks specific to the user for real-time delivery of the one or more contextual micro-content blocks to the user device.
-
-6. The method of claim 4 , wherein a duration of a first micro task of the plurality of micro tasks is determined based on a level of guidance that the first micro task needs as a standalone step independent of a second micro task, where the second micro task is one of the plurality of micro tasks other than the first micro task.
-
-7. The method of claim 1 , wherein generating the one or more contextual micro-content blocks based on the contextual pattern associated with the workflow task comprises:
-
-<div style="padding-left: 80px;">
-
-extracting one or more computer-executable information files from the one or more digital information sources based on the contextual pattern associated with the workflow task;
-
-digitally processing the one or more extracted computer-executable information files into a plurality of processed information blocks;
-and
-
-generating the one or more contextual micro-content blocks from the plurality of processed information blocks.
-
-</div>
-
-8. The method of claim 1 , comprising notifying to the user when the one or more contextual micro-content blocks is at least one of delivered, completed, and remains pending after a specified due time.
-
-9. The method of claim 1 , comprising generating AWL-based predictions of future expected behavior and learning requirements by the user using an artificial intelligence machine and a machine learning tool to timely guide when predefined information is required by the user.
-
-</div>
+    generating the one or more contextual micro-content blocks from the plurality of processed information blocks. 
+ 
+8.	The method of claim 1, comprising notifying to the user when the one or more contextual micro-content blocks is at least one of delivered, completed, and remains pending after a specified due time. 
+ 
+9.	The method of claim 1, comprising generating AI/ML-based predictions of future expected behavior and learning requirements by the user using an artificial intelligence machine and a machine learning tool to timely guide when predefined information is required by the user. 
 
 10. A system for live digital streaming of one or more contextual micro-content blocks in real-time for a workflow task to facilitate task performance by a user, wherein the system comprises:
 
-<div style="padding-left: 70px;">
+    an information management server connected to a plurality of user devices associated with a plurality of users, wherein each of the user devices performs the workflow task at a particular time and location such that performance of the workflow task occurs at a location remote from a location of the information management server, and wherein the workflow task comprises a plurality of micro-tasks performed in a particular sequence at particular locations and particular time slots;
 
-an information management server connected to a plurality of user devices associated with a plurality of users, wherein each of the user devices performs the workflow task at a particular time and location such that performance of the workflow task occurs at a location remote from a location of the information management server, and wherein the workflow task comprises a plurality of micro-tasks performed in a particular sequence at particular locations and particular time slots, wherein the information management server comprises a processor to:
+    a front-end context monitoring appliance communicatively coupled to the information management server at a remote location, the front-end context monitoring appliance comprising:
 
-<div style="padding-left: 75px;">
+    <div style="padding-left: 75px;">
 
-navigate through one or more digital information sources accessible over a network to search for information that matches one or more parameters of relevance associated with the workflow task;
+    a context sensor that detects a context of the task performance;
 
-generate a unified score for determining a contextual pattern associated with the workflow task based on the one or more parameters of relevance associated with the workflow task;
+    a GPS device that detects geographical coordinates of the device associated with the user and retrieves real-time tracking location coordinates associated with event occurrences for the plurality of micro-tasks; and
 
-generate one or more contextual micro-content blocks based on the contextual pattern associated with the workflow task; and
+    an agent device operated by deploying an installable agent configured as a browser plugin at the device associated with the user;
+    wherein the information management server comprises:
 
-</div>
+    a network layer that uses at least one of a push gateway system that monitors data elements at information sources and pushes relevant data and a pull gateway system that sends queries to the information sources and pulls in computer-executable files containing information; and
 
-transmit the one or more contextual micro-content blocks relating to the workflow task to a device associated with the user at a time when a plurality of micro-tasks of the workflow task are about to start to deliver information pertinent to the contextual pattern of the workflow task.
+    a processor configured to:
 
-</div>
+    <div style="padding-left: 75px;">
 
-<div style="padding-left: 80px; color:grey">
+    navigate through one or more digital information sources accessible over a network to search for information that matches one or more parameters of relevance associated with the workflow task;
 
-11. The system of claim 10 , wherein the one or more contextual micro-content blocks is time-stamped before transmission to the device associated with the user for real-time delivery according to an occurrence of a plurality of micro-tasks.
+    generate a unified score for determining a contextual pattern associated with the workflow task based on the one or more parameters of relevance associated with the workflow task;
 
-12. The system of claim 11 , wherein the processor tracks activities of the user, determines the plurality of micro-tasks specific to the activities of the user for real-time delivery, determines recommendations for the user related to the activities of the user, and generates the one or more micro-content blocks that pertains to accomplish the plurality of micro-tasks specific to the user activities for real-time delivery of the one or more micro content blocks.
+    filter, through a filtering circuit, a plurality of processed information blocks based on the contextual pattern to manage semantic signal-to-noise ratio by comparing the processed information blocks with the contextual pattern to determine what is noise versus what is important; and
 
-13. The system of claim 11 , wherein a duration of a first micro task of the plurality of micro tasks is determined based on a level of guidance that the first micro task needs as a standalone step independent of a second micro task, where the second micro task is one of the plurality of micro tasks other than the first micro task.
+    generate one or more contextual micro-content blocks based on the contextual pattern associated with the workflow task, wherein the micro-content blocks are configured to auto-hash review interactions at required intervals; and
+    
 
-14. The system of claim 10 , wherein the processor generates the one or more contextual micro-content blocks based on the contextual pattern associated with the workflow task, the processor further configured to:
+    </div>
+    
+    </div>
 
-<div style="padding-left: 75px">
+    a task manager that schedules delivery of the micro-content blocks according to schedule of the tasks and associated micro-tasks, ties different tasks on a time series, identifies timelines associated with delivery of the micro-content blocks for the different tasks, and examines status of the micro-tasks on the time series to transmit the one or more contextual micro-content blocks relating to the workflow task to the device associated with the user when the micro-tasks are scheduled to begin execution.
 
-extract computer-executable information files from the one or more digital information sources based on the contextual pattern associated with the workflow task;
+11. The system of claim 10, wherein the one or more contextual micro-content blocks is time-stamped before transmission to the device associated with the user for real-time delivery according to an occurrence of a plurality of micro-tasks. 
+ 
+12.	The system of claim 11, wherein the processor tracks activities of the user, determines the plurality of micro-tasks specific to the activities of the user for real-time delivery, determines recommendations for the user related to the activities of the user, and generates the one or more micro-content blocks that pertains to accomplish the plurality of micro-tasks specific to the user activities for real-time delivery of the one or more micro content blocks. 
+ 
+13.	The system of claim 11, wherein a duration of a first micro task of the plurality of micro tasks is determined based on a level of guidance that the first micro task needs as a standalone step independent of a second micro task, where the second micro task is one of the plurality of micro tasks other than the first micro task. 
+ 
+14.	The system of claim 10, wherein the processor generates the one or more contextual micro-content blocks based on the contextual pattern associated with the workflow task, the processor further configured to:
 
-</div>
+    extract computer-executable information files from the one or more digital information sources based on the contextual pattern associated with the workflow task;
 
-digitally process the extracted computer-executable information files into a plurality of processed information blocks;
+    digitally process the extracted computer-executable information files into a plurality of processed information blocks; and
+    generate the one or more contextual micro-content blocks from the plurality of processed information blocks. 
+ 
+15.	The system of claim 10, wherein the processor notifies to the user when the one or more contextual micro-content blocks is at least one of delivered, completed, and remains pending after a specified due time. 
 
-and generate the one or more contextual micro-content blocks from the plurality of processed information blocks.
-
-15. The system of claim 10 , wherein the processor notifies to the user when the one or more contextual micro-content blocks is at least one of delivered, completed, and remains pending after a specified due time.
-
-16. The system of claim 10 , wherein the processor is configured to generate one or more AWL-based predictions of future expected behavior and learning requirements by the user using one or more of an artificial intelligence machine and a machine learning tool to timely guide when certain information is required by the user.
-
-</div>
+16. The system of claim 10, wherein the processor is configured to generate one or more AI/ML-based predictions of future expected behavior and learning requirements by the user using one or more of an artificial intelligence machine and a machine learning tool to timely guide when certain information is required by the user. 
 
 17. A system for digital streaming of one or more contextual micro-content blocks in real-time for a workflow task to facilitate task performance by a user, wherein the system comprises:
 
-<div style="padding-left: 65px">
+    an information management server connected to a plurality of user devices associated with a plurality of users;
 
-an information management server connected to a plurality of user devices associated with a plurality of users, wherein the information management server comprises a processor to:
+    a blockchain device that interacts with the information management server through a plurality of blockchain configured distributed access points over a blockchain network, wherein the blockchain device comprises:
 
-<div style="padding-left: 65px">
+    <div style="padding-left: 75px;">
 
-extract computer-executable information files from the one or more digital information sources that matches the one or more parameters of relevance for the workflow task, create a plurality of information blocks based on the extracted computer-executable information files,
+    a distributed trusted ledgers system containing a plurality of distributed blockchain ledgers associated with a plurality of computing terminals such that each ledger stores a copy of a computer-executable file containing context inputs and the one or more contextual micro-content blocks associated with the workflow task; and
 
-</div>
+    a private data store configured to auto-hash review interactions at required intervals and provide compartmentalized access to computer-executable files based on access rights authorized to nodes;
 
-generate one or more contextual micro-content blocks from the plurality of information blocks;
+    wherein the information management server comprises:
 
-and transmit the one or more contextual micro-content blocks relating to the workflow task to a device associated with the user.
+    a network layer that uses at least one of a push gateway system and a pull gateway system to collect data from one or more digital information sources; and
 
-<div style="padding-left: 65px; color:grey">
+    a processor configured to:
 
-18. The system of claim 17 , wherein the one or more micro-content blocks comprises at least one of a context-based micro-content block, a location-based micro-content block, a role-based micro-content block, and a skills-based micro-content block.
+    <div style="padding-left: 75px;">
 
-19. The system of claim 18 , wherein the one or more contextual micro-content blocks are time-stamped before transmission to the device associated with the user for real-time delivery of the one or more micro content blocks according to an occurrence of the plurality of micro-tasks associated with the workflow task.
+    extract computer-executable information files from the one or more digital information sources that matches the one or more parameters of relevance for the workflow task;
 
-20. The system of claim 17 , wherein the processor notifies the user when the one or more contextual micro-content blocks is at least one of delivered, completed, and remains pending after a specified due time.
+    create a plurality of information blocks based on the extracted computer-executable information files;
 
-</div>
+    filter the plurality of information blocks through a filtering circuit that removes redundant information using automated methods to manage information overload and increment semantic signal-to-noise ratio; and
 
-</div>
+    generate one or more contextual micro-content blocks from the plurality of filtered information blocks, wherein the contextual micro-content blocks are configured to enable auto-hash review interactions at required intervals for integrity verification; and
+
+    </div>
+
+    </div>
+
+    a task manager configured to schedule and transmit the one or more contextual micro-content blocks relating to the workflow task to a device associated with the user based on examining status of micro-tasks on a time series.
+
+18. The system of claim 17, wherein the one or more micro-content blocks comprises at least one of a context-based micro-content block, a location-based micro-content block, a role-based micro-content block, and a skills-based micro-content block. 
+ 
+19.	The system of claim 18, wherein the one or more contextual micro-content blocks are time-stamped before transmission to the device associated with the user for real-time delivery of the one or more micro content blocks according to an occurrence of the plurality of micro-tasks associated with the workflow task. 
+ 
+20.	The system of claim 17, wherein the processor notifies the user when the one or more contextual micro-content blocks is at least one of delivered, completed, and remains pending after a specified due time.
 
 ### BRIEF DESCRIPTION OF THE DRAWINGS
 
