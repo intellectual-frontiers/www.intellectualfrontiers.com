@@ -176,9 +176,13 @@ an external device communicatively linked to the at least one server;
 
 a scanner operatively linked to the external device;
 
-a communication network communicatively linking at least two of the subject, the server, the external device, and the scanner;
+a communication network communicatively linking at least two of the subject, the server, the external device, and the scanner; and 
 
-and a contextual authorization device communicatively coupled to the at least one server, wherein the contextual authorization device comprises electronic circuits and computer logic instructions, which when executed by the electronic circuits of the contextual authorization device, cause the contextual authorization device to perform the steps of: tracking a geo-location of the external device using a Global Positioning System (GPS);
+a contextual authorization device communicatively coupled to the at least one server, wherein the contextual authorization device comprises electronic circuits and computer logic instructions, which when executed by the electronic circuits of the contextual authorization device, cause the contextual authorization device to perform the steps of: 
+
+<div style="padding-left: 60px;">
+
+tracking a geo-location of the external device using a Global Positioning System (GPS);
 
 determining a crowdsourced credentialing score associated with an entity associated with the external device, wherein the crowdsourced credentialing score is determined based on credentialing of a digital profile of the entity by a plurality of respondents such that the crowdsourced credentialing score is indicative of a trust of the external device;
 
@@ -194,6 +198,8 @@ and creating the computerized records based on the authorization and transforms 
 
 </div>
 
+<div style="padding-left: 50px; color: gray">
+
 2. The system of claim 1 , further comprising a graphical user interface displayed to the subject and the external entity associated with the external device to respectively update the computerized records of the subject and view or extract the computerized records as authorized by the contextual authorization device.
 
 3. The system of claim 1 , wherein the at least one server allows transfer of the computerized records through at least one of a wired and wireless transmission technique to a destination identified by the external device, upon successful authorization of the access by the contextual authorization device.
@@ -206,12 +212,23 @@ and creating the computerized records based on the authorization and transforms 
 
 7. The system of claim 6 , wherein the computerized records are classified into discrete types, and wherein the system comprises a monetization engine that comprises electronic circuits that associates a price value with the authorized computerized records based on the usage by the external device and based on the classification of authorized computerized records as accessed by the external device.
 
-8. The system of claim 1 , wherein the digital data structure comprises a QR (quick response) code readable by the scanner. .
+8. The system of claim 1 , wherein the digital data structure comprises a QR (quick response) code readable by the scanner.
 
-9. A system for digitally authorizing access to computerized records, the system comprising: a server comprising multiple computer executable files associated with a subject and containing digital subject data related to a subject identifier that identifies association of the subject with its respective computer executable file, wherein the server comprises a port that provides a communicative link to an external device;
+</div>
+
+</div>
+
+9. A system for digitally authorizing access to computerized records, the system comprising: 
 
 <div style="padding-left:60px;">
-a contextual authorization device communicatively coupled to the at least one server, wherein the contextual authorization device comprises electronic circuits and computer logic instructions, which when executed by the electronic circuits of the contextual authorization device, cause the contextual authorization device to perform the steps of: identifying geo-location data of the external device using a Global Positioning System (GPS);
+
+a server comprising multiple computer executable files associated with a subject and containing digital subject data related to a subject identifier that identifies association of the subject with its respective computer executable file, wherein the server comprises a port that provides a communicative link to an external device;
+
+a contextual authorization device communicatively coupled to the at least one server, wherein the contextual authorization device comprises electronic circuits and computer logic instructions, which when executed by the electronic circuits of the contextual authorization device, cause the contextual authorization device to perform the steps of: 
+
+<div style="padding-left: 60px;">
+
+identifying geo-location data of the external device using a Global Positioning System (GPS);
 
 determining a crowdsourced credentialing score associated with an entity associated with the external device, wherein the crowdsourced credentialing score is indicative of a trust factor of the external device;
 
@@ -227,6 +244,8 @@ and transforming the computerized records into a digital data structure for acce
 
 </div>
 
+<div style="padding-left: 60px; color: gray">
+
 10. The system of claim 9 , further comprising a graphical user interface that displays the computerized records that are authorized for access.
 
 11. The system of claim 9 , wherein the port provides any of a wired and wireless link to the external device and to another device identified by the external device upon authorization of the access of the computerized records.
@@ -239,11 +258,21 @@ and transforming the computerized records into a digital data structure for acce
 
 15. The system of claim 14 , further comprising a monetization engine comprises electronic circuits that associate a price value with the authorized computerized records based on the usage by the external device and based on a classification of the authorized computerized records as accessed by the external device.
 
-16. The system of claim 9 , comprising a scanner operatively connected to the external device, wherein the digital data structure comprises a QR (quick response) code readable by the scanner. .
+16. The system of claim 9 , comprising a scanner operatively connected to the external device, wherein the digital data structure comprises a QR (quick response) code readable by the scanner.
 
-17. A system for digitally authorizing access to computerized records, the system comprising: a server comprising multiple computer executable files associated with a subject and containing digital subject data related to a subject identifier that identifies association of the subject with its respective computer executable file, wherein the server comprises a port that provides a communicative link to an external device;
+</div>
+
+17. A system for digitally authorizing access to computerized records, the system comprising: 
+
 <div style="padding-left:60px;">
-a contextual authorization device communicatively coupled to the at least one server, wherein the contextual authorization device comprises electronic circuits and computer logic instructions, which when executed by the electronic circuits of the contextual authorization device, cause the contextual authorization device to perform the steps of: identifying geo-location data of the external device using a Global Positioning System (GPS);
+
+a server comprising multiple computer executable files associated with a subject and containing digital subject data related to a subject identifier that identifies association of the subject with its respective computer executable file, wherein the server comprises a port that provides a communicative link to an external device;
+
+a contextual authorization device communicatively coupled to the at least one server, wherein the contextual authorization device comprises electronic circuits and computer logic instructions, which when executed by the electronic circuits of the contextual authorization device, cause the contextual authorization device to perform the steps of: 
+
+<div style="padding-left: 60px;">
+
+identifying geo-location data of the external device using a Global Positioning System (GPS);
 
 comparing dynamically changing contextual details of an entity associated with the external device with a set of past requests indicative of historical behavior;
 
@@ -256,12 +285,23 @@ storing the set of custom rules in a database, wherein the set of custom rules d
 and transforming the computerized records into a digital data structure for access through the external device based on the geolocation of the external device, the dynamically changing contextual information associated with the entity, the index of normality, and the set of custom rules, wherein the set of custom rules allows the access through the external device only when at least one of the entity associated with the external device possesses at least a minimum threshold score, and a minimum predefined threshold of normality is noted about the external device and the associated entity.
 
 </div>
+
+</div>
+
+<div style="padding-left: 120px; color: gray">
+
 18. The system of claim 17 , wherein the contextual authorization device determines a crowdsourced credentialing score associated with the entity associated with the external device, wherein the crowdsourced credentialing score is indicative of a trust factor of the external device, and wherein the custom rules set an authorization to access the computerized records upon the crowdsourced credentialing score comprising a minimum threshold score.
 
 19. The system of claim 17 , wherein the at least one server receives binary values for authorization access of the computerized records, wherein the custom rules are used in association with the input module to provide access to the external device, and wherein the contextual authorization device provides for a real-time automated access for the computerized records based on the custom rules stored in the database. .
 
-20. The system of claim 17 , further comprising: a graphical user interface that displays the computerized records that are authorized for access;
-<div style="padding-left:60px;">
+20. The system of claim 17 , further comprising: 
+
+</div>
+
+<div style="padding-left:190px;">
+
+a graphical user interface that displays the computerized records that are authorized for access;
+
 a document usage system comprising a machine-accessible medium storing a plurality of program modules that determine document utilization information providing an indication of usage of the computerized records as authorized to be accessed by the external device associated with the entity, wherein the usage comprises an amount of time that the external device has accessed particular sections of the authorized computerized records;
 
 a monetization engine comprises electronic circuits that associate a price value with the authorized computerized records based on the usage by the external device and based on a classification of the authorized computerized records as accessed by the external device;
