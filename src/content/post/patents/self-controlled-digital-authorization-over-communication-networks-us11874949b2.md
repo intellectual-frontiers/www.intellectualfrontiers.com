@@ -166,9 +166,12 @@ The communication terminal may be a near-field communication (NFC) terminal with
 
 ### CLAIMS
 
-1. A distributed architecture-based system for digitally authorizing access to computerized records, the system comprising: at least one server comprising at least one computerized records data-store storing multiple computer executable files associated with a subject and containing subject data in a digital format and associated with a subject identifier that identifies association of the subject with its respective computer executable file;
+1. A distributed architecture-based system for digitally authorizing access to computerized records, the system comprising: 
 
 <div style="padding-left: 60px;">
+
+at least one server comprising at least one computerized records data-store storing multiple computer executable files associated with a subject and containing subject data in a digital format and associated with a subject identifier that identifies association of the subject with its respective computer executable file;
+
 an external device communicatively linked to the at least one server;
 
 a scanner operatively linked to the external device;
