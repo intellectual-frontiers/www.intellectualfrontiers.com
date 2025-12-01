@@ -57,6 +57,8 @@ externalLinks:
     link: 'https://patentcenter.uspto.gov/applications/17184255'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/ac/09/76/a71f49fb827309/US11874949.pdf'
+notebookLMResources:
+  audioPath: "/podcast/self-controlled-digital-authorization-over-communication-networks-us11874949b2.mp3"
 ---
 
 ### ABSTRACT
