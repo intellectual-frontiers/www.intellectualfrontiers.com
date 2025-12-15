@@ -34,7 +34,7 @@ patentFamilyMembers:
   - US11651459B2
 applicationDate: 2023-04-06
 priorityDate: 2019-12-12
-patentStatus: Active - Applied
+patentStatus: Notice of Allowance
 url: '/patents/computer-controlled-precision-education-and-training-us2023245255a1'
 category: Patents
 uspto-patent-url:
