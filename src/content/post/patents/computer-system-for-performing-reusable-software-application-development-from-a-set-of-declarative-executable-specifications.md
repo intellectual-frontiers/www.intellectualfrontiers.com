@@ -26,7 +26,7 @@ uspto-canonical-id-label: Patent
 patentId: US7039898B2
 uspto-patent-number: US7039898B2
 inventor: Shahid N. Shah
-currentAssignee: Netspective Communications LLC
+currentAssignee: RPX Corp
 patent-owners-rights:
 territorialScope: United States
 applicationDate: 2002-07-12
