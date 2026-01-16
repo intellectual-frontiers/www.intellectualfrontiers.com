@@ -3,7 +3,7 @@ title: Computer-controlled marketplace network for digital transactions
 excerpt: A marketplace network for facilitating transactions among a plurality of marketplace participants. The marketplace network includes a plurality of service provider systems associated with respective service provider participants.
 sectiontype: patent
 uspto-canonical-id-label: Patent
-publishDate: 2024-02-22
+publishDate: 2025-10-07
 metadata:
   title: Computer-controlled marketplace network for digital transactions
   description: A secure digital marketplace system for processing ownership and service transactions between users and providers over interconnected networks.
@@ -15,7 +15,7 @@ metadata:
     site_name: IntellectualFrontiers
     description: A secure digital marketplace system for processing ownership and service transactions between users and providers over interconnected networks.
     images:
-      - url: '/images/patents/us11651459b2/us11651459b2-patent.webp'
+      - url: '/images/patents/us12437338b2/us12437338b2-patent.webp'
         width: 1200
         height: 628
     type: website
@@ -23,15 +23,16 @@ metadata:
     handle: '@IntelFrontiers'
     site: '@IntelFrontiers'
     cardType: summary_large_image
-patentId: US20240062291A1
-uspto-patent-number: US20240062291A1
+patentId: US12437338B2
+uspto-patent-number: US12437338B2
 inventor: Shahid N. Shah
 currentAssignee: Netspective Communications LLC
 patent-owners-rights:
 territorialScope: United States
 applicationDate: 2023-09-25
 priorityDate: 2023-09-25
-patentStatus: Notice of Allowance
+expiryDate: 2040-07-14
+patentStatus: ACTIVE - GRANTED
 url: '/patents/computer-controlled-marketplace-network-for-digital-transactions'
 category: Patents
 uspto-patent-url:
@@ -44,14 +45,14 @@ abstract-of-the-invention:
 problem-solved-by-the-invention:
 images:
 tags:
-  - US20240062291A1
-image: '/images/patents/us20240062291a1/us20240062291a1-patent.webp'
+  - US12437338B2
+image: '/images/patents/us12437338b2/us12437338b2-patent.webp'
 altText: Patent for a computer-controlled digital marketplace that enables secure online transactions and ownership transfers of digital data between users and service providers.
 externalLinks:
   - sourceText: 'USPTO Patent Center'
     link: 'https://patentcenter.uspto.gov/applications/18372652'
 downloadableDocuments:
-  pdfLink: 'https://patentimages.storage.googleapis.com/cb/5b/46/e84c2449ece23f/US20240062291A1.pdf'
+  pdfLink: 'https://ppubs.uspto.gov/api/pdf/downloadPdf/12437338?requestToken=eyJzdWIiOiI0MjQzYWVmMS1hYjBhLTQ5YmItODA3OC04NWM3YWQ0YjQ5MmUiLCJ2ZXIiOiI3MTc1ZTlkZi0yN2I0LTRhNjctYWYyNi1iMzhhM2U2YzVlNGUiLCJleHAiOjB9'
 ---
 
 ### Abstract
@@ -62,39 +63,39 @@ A marketplace network for facilitating transactions among a plurality of marketp
 
 <div class="flex overflow-x-auto gap-4 bg-slate-50 cursor-pointer patentimages">
 <div class="flex-shrink-0 p-2" id="fig1">
-    <img src="/images/patents/us20240062291a1/us20240062291a1-image-1.png" alt="Figure 1" class="w-64 max-h-[250px] !my-0" />    
+    <img src="/images/patents/us12437338b2/us12437338b2-image-1.png" alt="Figure 1" class="w-64 max-h-[250px] !my-0" />    
     <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 1</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig2">
-    <img src="/images/patents/us20240062291a1/us20240062291a1-image-2.png" alt="Figure 2" class="w-64 max-h-[250px] !my-0" />
+    <img src="/images/patents/us12437338b2/us12437338b2-image-2.png" alt="Figure 2" class="w-64 max-h-[250px] !my-0" />
     <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 2</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig3">
-    <img src="/images/patents/us20240062291a1/us20240062291a1-image-3.png" alt="Figure 3" class="w-64 max-h-[250px] !my-0" />
+    <img src="/images/patents/us12437338b2/us12437338b2-image-3.png" alt="Figure 3" class="w-64 max-h-[250px] !my-0" />
     <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 3</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig4">
-    <img src="/images/patents/us20240062291a1/us20240062291a1-image-4.png" alt="Figure 4" class="w-64 max-h-[250px] !my-0" />
+    <img src="/images/patents/us12437338b2/us12437338b2-image-4.png" alt="Figure 4" class="w-64 max-h-[250px] !my-0" />
     <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 4</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig5">
-    <img src="/images/patents/us20240062291a1/us20240062291a1-image-5.png" alt="Figure 5" class="w-64 max-h-[250px] !my-0" />
+    <img src="/images/patents/us12437338b2/us12437338b2-image-5.png" alt="Figure 5" class="w-64 max-h-[250px] !my-0" />
     <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 5</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig6">
-    <img src="/images/patents/us20240062291a1/us20240062291a1-image-6.png" alt="Figure 6" class="w-64 max-h-[250px] !my-0" />
+    <img src="/images/patents/us12437338b2/us12437338b2-image-6.png" alt="Figure 6" class="w-64 max-h-[250px] !my-0" />
     <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 6</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig7">
-    <img src="/images/patents/us20240062291a1/us20240062291a1-image-7.png" alt="Figure 7" class="w-64 max-h-[250px] !my-0" />
+    <img src="/images/patents/us12437338b2/us12437338b2-image-7.png" alt="Figure 7" class="w-64 max-h-[250px] !my-0" />
     <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 7</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig8">
-    <img src="/images/patents/us20240062291a1/us20240062291a1-image-8.png" alt="Figure 8" class="w-64 max-h-[250px] !my-0" />
+    <img src="/images/patents/us12437338b2/us12437338b2-image-8.png" alt="Figure 8" class="w-64 max-h-[250px] !my-0" />
     <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 8</span>
 </div>
 <div class="flex-shrink-0 p-2" id="fig9">
-    <img src="/images/patents/us20240062291a1/us20240062291a1-image-9.png" alt="Figure 9" class="w-64 max-h-[250px] !my-0" />
+    <img src="/images/patents/us12437338b2/us12437338b2-image-9.png" alt="Figure 9" class="w-64 max-h-[250px] !my-0" />
     <span class="flex items-center justify-center w-full pt-2 text-center text-xs text-muted">Figure 9</span>
 </div>
 </div>
@@ -575,25 +576,23 @@ wherein the merchant server generates and sends a confirmation electronic messag
 wherein the first secured hashlink and the second secured hashlink are each executable with clicks such that the execution of the first secured hashlink and the second secured hashlink record a proof of respective locations of the mobile communication device and the service provider system.
 </div>
 
-2.	The system of claim 1, wherein the data is valued at no less than a value of the service calculated in accordance with a set of digitally recognizable data valuation parameters defined by the service provider system.
+<div style="padding-left: 100px; color: gray;">
 
-<div style="display: none">
+2. The system of claim 1, wherein the data is valued at no less than a value of the service calculated in accordance with a set of digitally recognizable data valuation parameters defined by the service provider system.
 
-3. 
+3. The system of claim 2, wherein the unique SPT is associated with each of the mobile communication device and the service provider system and is indicative of completion and delivery of the service by the service provider system to the user associated with the mobile communication device.
+
+4. The system of claim 3, wherein the service provider system accesses the data automatically from a database when the data is available upon submitting the service proof token (SPT).
+
+5. The system of claim 4, wherein the SPT serves as an evidence of the delivery of the service by the service provider to the user at a different prior time when the data was not yet available.
+
+6. The system of claim 5, further comprising a blockchain device that automatically stores computer-executable instructions comprising the SPT associated with the mobile communication device and the service provider system for delivery of the service.
+
+7. The system of claim 6, further comprising a central verification device that verifies the evidence of the service delivery, wherein the central verification device compares the SPT submitted by the service system with the SPT stored in the blockchain device to allow the service provider system access to the database storing the data.
 
 </div>
 
-4. The system of claim 2, wherein the unique SPT is associated with each of the mobile communication device and the service provider system and is indicative of completion and delivery of the service by the service provider system to the user associated with the mobile communication device.
-
-5.	The system of claim 4, wherein the service provider system accesses the data automatically from a database when the data is available upon submitting the service proof token (SPT).
-
-6.	The system of claim 5, wherein the SPT serves as an evidence of the delivery of the service by the service provider to the user at a different prior time when the data was not yet available.
-
-7.	The system of claim 6, further comprising a blockchain device that automatically stores computer-executable instructions comprising the SPT associated with the mobile communication device and the service provider system for delivery of the service.
-
-8.	The system of claim 7, further comprising a central verification device that verifies the evidence of the service delivery, wherein the central verification device compares the SPT submitted by the service system with the SPT stored in the blockchain device to allow the service provider system access to the database storing the data.
-
-9.	A computer-controlled system for automated evidence-based transactional exchange between a service provider system associated with a service provider and a mobile communication device associated with a user, the system comprising a server comprising a memory storing instructions, and a processor to execute the instructions, wherein the instructions are configured to:
+8.	A computer-controlled system for automated evidence-based transactional exchange between a service provider system associated with a service provider and a mobile communication device associated with a user, the system comprising a server comprising a memory storing instructions, and a processor to execute the instructions, wherein the instructions are configured to:
 
 <div style="padding-left: 80px;">
 collect predefined information about a mobile communication device and an associated user, the predefined information comprising at least a first computer-executable input indicative of an identifier of the mobile communication device and the associated user, and a second computer-executable input indicative of a service sought for delivery in the service setting,
@@ -613,27 +612,38 @@ wherein the SPT is generated after execution of the first secured hashlink and t
 wherein the first secured hashlink and the second secured hashlink are each executable with clicks such that the execution of the first secured hashlink and the second secured hashlink record a proof of respective locations of the mobile communication device and the service provider system.
 </div>
 
-14.	The system of claim 9, wherein respective clicks record GPS locations of the mobile communication device and the service provider system.
+<div style="padding-left: 100px; color: gray;">
 
-15.	The system of claim 14, further comprising a blockchain device, wherein the GPS locations of the mobile communication device and the service provider system along with service details are stored in the blockchain device within the STP.
+9.	The system of claim 8, wherein respective clicks record GPS locations of the mobile communication device and the service provider system.
 
-16.	The system of claim 15, wherein the service provider system is configured to automatically secure the ownership of the digitally executable data at a later time using the STP from the blockchain device.
+10.	The system of claim 9, further comprising a blockchain device, wherein the GPS locations of the mobile communication device and the service provider system along with service details are stored in the blockchain device within the STP.
 
-17.	A computer-controlled system for automated evidence-based transactional exchange between a service provider system associated with a service provider and a mobile communication device associated with a user, the system comprising a server comprising a memory storing instructions, and a processor to execute the instructions, wherein the instructions are configured to:
+11.	 The system of claim 10, wherein the service provider system is configured to automatically secure the ownership of the digitally executable data at a later time using the STP from the blockchain device.
+
+</div>
+
+12.	A computer-controlled system for automated evidence-based transactional exchange between a service provider system associated with a service provider and a mobile communication device associated with a user, the system comprising a server comprising a memory storing instructions, and a processor to execute the instructions, wherein the instructions are configured to:
 
 <div style="padding-left: 80px;">
+
 collect predefined information about a mobile communication device and an associated user, the predefined information comprising at least a first computer-executable input indicative of an identifier of the mobile communication device and the associated user, and a second computer-executable input indicative of a service sought for delivery in the service setting,
 
 generate and send a confirmation electronic message along with a digitally executable unique service proof token (SPT) to the mobile communication device and the service provider system upon completion of the service delivery, wherein the unique SPT is associated with each of the mobile communication device and the service provider system and records an evidence of the completion and delivery of the service by the service provider system to the user associated with the mobile communication device; and
 
 allow a transaction involving transfer of ownership of digitally executable data, originally owned by the user, to the service provider system when the data is available at a later time in return of the service availed by the user,
 
-wherein the server generates a first short message service (SMS) that is sent to the mobile communication device, wherein the server generates a second SMS that is sent to the service provider system, wherein the first SMS and the second SMS contain a first secured hashlink and a second secured hashlink respectively that are executable by the user and the service provider respectively, such that the first SMS and the second SMS are indicative of delivery of the service, and wherein the first secured hashlink and the second secured hashlink are each executable with clicks such that the execution of the first secured hashlink and the second secured hashlink record a proof of respective locations of the mobile communication device and the service provider system.
+wherein the server generates a first short message service (SMS) that is sent to the mobile communication device, wherein the server generates a second SMS that is sent to the service provider system, and wherein the first SMS and the second SMS contain a first secured hashlink and a second secured hashlink respectively that are executable by the user and the service provider respectively, such that the first SMS and the second SMS are indicative of delivery of the service, and wherein the first secured hashlink and the second secured hashlink are each executable with clicks such that the execution of the first secured hashlink and the second secured hashlink record a proof of respective locations of the mobile communication device and the service provider system.
+
 </div>
 
-18.	The system of claim 17, comprising a processor configured to digitally record an ownership trail of the digitally executable data as computer-executable files in a decentralized blockchain ledger, wherein the decentralized blockchain ledger is accessed through a graphical user interface (GUI).
+<div style="padding-left: 100px; color: gray;">
 
-19.	The system of claim 18, wherein the processor is configured to transform the computer-executable files into an application programming interface to create an electronic document comprising the item.
+13. The system of claim 12, comprising a processor configured to digitally record an ownership trail of the digitally executable data as computer-executable files in a decentralized blockchain ledger, wherein the decentralized blockchain ledger is accessed through a graphical user interface (GUI).
 
-20.	The system of claim 19, wherein the processor is configured to deliver the electronic document comprising the item to the user participant by the service provider system based on the ownership trail.
+14. The system of claim 13, wherein the processor is configured to transform the computer-executable files into an application programming interface to create an electronic document comprising the item.
+
+15. The system of claim 14, wherein the processor is configured to deliver the electronic document comprising the item to the user participant by the service provider system based on the ownership trail.
+
+</div>
+
 </div>
