@@ -32,7 +32,7 @@ patentFamilyMembers:
   - US10320735B2
   - US9525753B2
   - US11777894B2
-  - US20240015129A1
+  - US12401615B2
 applicationDate: 2019-04-11
 priorityDate: 2012-12-12
 expiryDate: 2034-08-26
