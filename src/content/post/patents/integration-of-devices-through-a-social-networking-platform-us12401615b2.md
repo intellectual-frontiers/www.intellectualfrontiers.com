@@ -3,7 +3,7 @@ title: Integration of devices through a social networking platform
 excerpt: A system and method for providing a social networking service to a plurality of devices. A social networking server for facilitating social information exchange among the plurality of devices through a socially aware network.
 sectiontype: patent
 uspto-canonical-id-label: Patent
-publishDate: 2024-01-11
+publishDate: 2025-08-26
 metadata:
   title: Integration of devices through a social networking platform
   description: Connect devices seamlessly with a social networking platform. Facilitate social information exchange among devices. Manage individual centric profiles. Enhance connectivity now.
@@ -23,8 +23,8 @@ metadata:
     handle: '@IntelFrontiers'
     site: '@IntelFrontiers'
     cardType: summary_large_image
-patentId: US20240015129A1
-uspto-patent-number: US20240015129A1
+patentId: US12401615B2
+uspto-patent-number: US12401615B2
 inventor: Shahid N. Shah
 currentAssignee: Intellectual Frontiers LLC
 patent-owners-rights:
@@ -36,7 +36,8 @@ patentFamilyMembers:
   - US11777894B2
 applicationDate: 2023-08-17
 priorityDate: 2023-08-17
-patentStatus: Active - Applied
+expiryDate: 2034-06-25
+patentStatus: Active - Granted
 url: '/patents/integration-of-devices-through-a-social-networking-platform-us20240015129a1'
 category: Patents
 uspto-patent-url:
@@ -50,11 +51,11 @@ problem-solved-by-the-invention:
 patentSummaryLink:
 images:
 tags:
-  - US20240015129A1
+  - US12401615B2
   - Near Field Communication (NFC)
   - Medical Device Automation
   - Device Health Monitoring
-image: '/images/patents/us20240015129a1/us20240015129a1-patent.webp'
+image: '/images/patents/us12401615b2/us12401615b2-patent.webp'
 altText: medical device automation
 externalLinks:
   - sourceText: 'USPTO Patent Center'
@@ -240,11 +241,11 @@ What is claimed is:
 
 <div style="padding-left:65px">
 
-an intelligent health monitoring unit communicatively coupled to the first device and the second device, wherein each of the first device and the second device are associated with an individual device profile comprising a set of predefined working parameters, and wherein the intelligent health monitoring unit is to continuously monitor health parameters and detect one or more fault based on comparisons with the set of predefined working parameters;
+an intelligent health monitoring unit communicatively coupled to the first device and the second device, wherein each of the first device and the second device are associated with an individual device profile comprising a set of predefined working parameters and relationship parameters that define a device-to-device interconnection framework for coordinated functioning, and wherein the intelligent health monitoring unit is to continuously monitor health parameters and detect one or more fault based on comparisons with the set of predefined working parameters;
 
-a networking server to receive a fault information about the second device from the intelligent health monitoring unit and initiate an operational fix by identifying an alternative device capable of performing an affected function; and
+a networking server to receive a fault information about the second device from the intelligent health monitoring unit and initiate an operational fix by identifying an alternative device based on a determined relationship compatibility between the first device and potential alternative devices as defined by their respective relationship parameters, wherein the alternative device is identified from a set of interconnected devices capable of performing synchronous operations according to predefined event timelines; and
 
-a switch matrix associated with at least the alternative device, wherein the switch matrix is to change an operating state of the alternative device based on an executable instruction requesting a change in the operating state of the alternative device.
+a switch matrix associated with at least the alternative device, wherein the switch matrix is to change an operating state of the alternative device based on an executable instruction requesting a change in the operating state of the alternative device to perform coordinated functioning in adherence with event occurrence timelines associated with the first device.
 
 </div>
 
@@ -258,7 +259,7 @@ a switch matrix associated with at least the alternative device, wherein the swi
 
 receiving a search request for functionally similar devices from the first device from the plurality of devices based on information contained in the individual device profile of the first device and current operating characteristics of the first device;
 
-searching for one or more functionally similar devices from the plurality of devices; and
+searching for one or more functionally similar devices from the plurality of devices based on relationship compatibility information contained in the individual device profiles; and
 
 providing a list of searched functionally similar devices including individual device profiles of the searched functionally similar devices and network links for the functionally similar devices to allow the first device to send the executable instruction to one or more of the searched functionally similar devices, wherein the alternative device is one among the searched functionally similar devices eligible for receiving the executable instruction from the first device.
 
@@ -276,13 +277,13 @@ providing a list of searched functionally similar devices including individual d
 
 posting a search request for identification and receiving individual device profile information of the alternative device functionally similar to the second device in response to the search request by the first device, wherein upon receipt of the device profile information of the alternative device, the first device sends another connection request to the alternative device,
 
-wherein the alternative device being configured to perform one or more functions of the second device when the fault is detected in the second device.
+wherein the alternative device being configured to perform one or more functions of the second device when the fault is detected in the second device based on compatibility requirements defined within the relationship parameters in the individual device profile of the alternative device.
 
 </div>
 
 8.  The system of claim 5, wherein the activity comprises at least one of:
 
-    posting a connection request for the second device to associate a relationship with the second device and causing a synchronous and non-conflicting performance between the first device and the second device; and
+    posting a connection request for the second device to associate a relationship with the second device and causing a synchronous and non-conflicting performance between the first device and the second device in accordance with the relationship parameters that define timelines for coordinated actions; and
 
     accepting or rejecting the connection request by the second device in response to the connection request sent by the first device for associating the relationship with the first device.
 
@@ -297,7 +298,7 @@ determine whether the operational status is below a threshold limit; and
 
 when ascertained operational status is indicative of below the threshold limit, generate a signal indicative of the operational status below the threshold limit,
 
-wherein the first device is to initiate, using the networking server, activities that include communicating the operational status to the alternative device so as to allow the alternative device to switch to a task performed by the second device, in case of a fault detected at the second device.
+wherein the first device is to initiate, using the networking server, activities that include communicating the operational status to the alternative device so as to allow the alternative device to switch to a task performed by the second device, in case of a fault detected at the second device in accordance with the relationship parameters that govern interconnection behavior between the devices.
 
 </div>
 10. The system of claim 9, wherein the health parameters of the second device are identified by monitoring a set of physiological parameters of a patient that are controlled by the second device, and wherein a drop in the physiological parameters of the patient is indicative of the fault at the second device.
@@ -310,11 +311,13 @@ wherein the first device is to initiate, using the networking server, activities
 
 connecting the devices with a networking server for electronic activity;
 
-from the first device and the second device, sending a search request for identifying functionally similar devices based on their profiles and operating characteristics;
+from the first device and the second device, sending a search request for identifying functionally similar devices based on their profiles and operating characteristics including relationship parameters defining device-to-device coordination frameworks;
 
 receiving a list of device profiles respectively by the first device and the second device associated with functionally similar devices; and
 
 initiating an action through the networking server to communicate status to the interconnected devices, enabling the third device to switch to a predefined task upon health failure of one of the first device and the second device.
+
+wherein the third device is identified based on relationship compatibility requirements defining event coordination timelines that facilitate synchronous operation among the interconnected devices.
 
 </div>
 
@@ -342,11 +345,13 @@ an external controller associated with the first device to process the generated
 
 connecting the devices with a networking server for electronic activity;
 
-from the first device and the second device, sending a search request for identifying functionally similar devices based on their profiles and operating characteristics;
+from the first device and the second device, sending a search request for identifying functionally similar devices based on their profiles and operating characteristics including relationship parameters defining device-to-device coordination frameworks;
 
 receiving a list of device profiles respectively by the first device and the second device associated with functionally similar devices; and
 
 initiating an action through the networking server to communicate status to the interconnected devices, enabling the third device to switch to a predefined task upon health failure of one of the first device and the second device.
+
+wherein the third device is identified based on relationship compatibility requirements defining event coordination timelines that facilitate synchronous operation among the interconnected devices.
 
 </div>
 
@@ -360,19 +365,19 @@ storing information related to predefined event timelines for a plurality of tas
 
 detecting the failure in functioning of the second device by comparing the predefined event timeline with an event occurrence time, wherein a gap between the predefined event timeline and the event occurrence time beyond a threshold limit is indicative of the failure; and
 
-sharing a computer executable instruction, indicative of the failure, to the interconnected devices, wherein the first device and the second device belong to same automated synchronous operation.
+sharing a computer executable instruction, indicative of the failure, to the interconnected devices, wherein the first device and the second device belong to same automated synchronous operation chain defined by the relationship parameters that establish coordination requirements for maintaining operation continuity.
 
 </div>
 
 16. The method of claim 15, comprising, through a switch matrix associated with the third device, changing an operating state of the third device based on the executable instruction requesting a change in the operating state of the third device so as to allow continuing the automated synchronous operation of the first device and the second device without the second device being in operating state due to the failure.
 
-17. The method of claim 15, wherein the executable instruction is exchanged between the first device and the second device through a device-level social activity which is initiated after the first device and the second device are mutual connections.
+17. The method of claim 15, wherein the executable instruction is exchanged between the first device and the second device through a device-level coordinated communication mechanism which is initiated after the first device and the second device are mutual connections established through verification of relationship compatibility between the devices.
 
-18. The method of claim 15, further comprising sending to the second device by the first device a connection request such that the connection request causes a display of a profile of the first device to the second device, wherein upon acceptance of the connection request, the second device and the first device are mutual connections for further exchange of the executable instruction between the first device and the second device.
+18. The method of claim 15, further comprising sending to the second device by the first device a connection request such that the connection request causes a display of a profile of the first device to the second device, wherein upon acceptance of the connection request, the second device and the first device are mutual connections for further exchange of the executable instruction between the first device and the second device according to the relationship parameters defining the device-to-device coordination framework.
 
 19. The method of claim 15, wherein sharing the executable instruction includes a near field communication channel and a socially aware network channel.
 
-20. The method of claim 14, wherein each of the first device, the second device, and the third device is communicatively connected to an external controller through a near field communication (NFC) channel so that a communication point of the NFC channel receives executable instructions among the devices to transfer the executable instructions to the external controller associated with a respective device.
+20.  The method of claim 14, wherein each of the first device, the second device, and the third device is communicatively connected to an external controller through a near field communication (NFC) channel so that a communication point of the NFC channel receives executable instructions among the devices to transfer the executable instructions to the external controller associated with a respective device, wherein the executable instructions facilitate coordinated operation according to the relationship parameters defining event occurrence timelines for synchronous task execution.
 
 </div>
 
