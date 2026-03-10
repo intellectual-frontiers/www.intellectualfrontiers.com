@@ -54,7 +54,7 @@ image: '/images/patents/us9870591b2/us9870591b2-patent.webp'
 altText: patent on blockchain system
 externalLinks:
   - sourceText: 'USPTO Patent Center'
-    link: 'https://patentcenter.uspto.gov/applications/15386846'
+    link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(9870591).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/96/71/16/d3520ba76ca720/US9870591.pdf'
 ---

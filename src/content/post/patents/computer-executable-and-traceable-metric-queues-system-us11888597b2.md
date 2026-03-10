@@ -57,7 +57,7 @@ image: '/images/patents/us11888597b2/us11888597b2-patent.webp'
 altText: patents in Data Management
 externalLinks:
   - sourceText: 'USPTO Patent Center'
-    link: 'https://patentcenter.uspto.gov/applications/17838198'
+    link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(11888597).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/be/97/e6/886c87cb880709/US11888597.pdf'
 notebookLMResources:

@@ -57,7 +57,7 @@ image: '/images/patents/us10811124b2/us10811124b2-patent.webp'
 altText: natural language processing patent
 externalLinks:
   - sourceText: 'USPTO Patent Center'
-    link: 'https://patentcenter.uspto.gov/applications/16517975'
+    link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(10811124).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/57/bc/0f/5c11441ba4fb9b/US10811124.pdf'
 ---

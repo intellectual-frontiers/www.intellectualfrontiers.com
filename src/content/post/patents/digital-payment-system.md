@@ -58,7 +58,7 @@ image: '/images/patents/us10643208b2/us10643208b2-patent.webp'
 altText: digital payment system
 externalLinks:
   - sourceText: 'USPTO Patent Center'
-    link: 'https://patentcenter.uspto.gov/applications/16283802'
+    link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(10643208).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/e5/4b/a8/22010101a565bb/US10643208.pdf'
 notebookLMResources:

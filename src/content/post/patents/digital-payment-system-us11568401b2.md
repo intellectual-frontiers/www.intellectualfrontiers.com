@@ -58,7 +58,7 @@ image: '/images/patents/us11568401b2/us11568401b2-patent.webp'
 excerpt: A digital payment system for facilitating seamless transactions from a user system to a buyer system. The system includes a service provider system which further includes a service interaction component.
 externalLinks:
   - sourceText: 'USPTO Patent Center'
-    link: 'https://patentcenter.uspto.gov/applications/16835289'
+    link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(11568401).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/01/ec/49/f51cfcb9fa921b/US11568401.pdf'
 notebookLMResources:

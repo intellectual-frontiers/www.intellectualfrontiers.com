@@ -59,7 +59,7 @@ tags:
 image: '/images/patents/us11388077b2/us11388077b2-patent.webp'
 externalLinks:
   - sourceText: 'USPTO Patent Center'
-    link: 'https://patentcenter.uspto.gov/applications/16669496'
+    link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(11388077).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/d7/cd/ee/6f61489027a2ab/US11388077.pdf'
 ---

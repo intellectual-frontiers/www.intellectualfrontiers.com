@@ -54,7 +54,7 @@ image: '/images/patents/us10586069b2/us10586069b2-patent.webp'
 altText: online reputation management
 externalLinks:
   - sourceText: 'USPTO Patent Center'
-    link: 'https://patentcenter.uspto.gov/applications/15163667'
+    link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(10586069).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/28/56/67/1c0e7c5abe9517/US10586069.pdf'
 ---

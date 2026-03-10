@@ -54,7 +54,7 @@ image: '/images/patents/us9418355b2/us9418355b2-patent.webp'
 altText: crowdsourced response patents
 externalLinks:
   - sourceText: 'USPTO Patent Center'
-    link: 'https://patentcenter.uspto.gov/applications/14032368'
+    link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(9418355).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/91/ad/51/413b959e07c47e/US9418355.pdf'
 ---

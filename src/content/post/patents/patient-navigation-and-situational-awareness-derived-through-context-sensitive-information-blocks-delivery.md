@@ -55,7 +55,7 @@ image: '/images/patents/us10089492b2/us10089492b2-patent.webp'
 altText: future of electronic medical records
 externalLinks:
   - sourceText: 'USPTO Patent Center'
-    link: 'https://patentcenter.uspto.gov/applications/15163662'
+    link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(10089492).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/ff/04/53/696fcba5f8b748/US10089492.pdf'
 ---

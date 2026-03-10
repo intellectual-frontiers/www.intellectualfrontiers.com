@@ -56,7 +56,7 @@ image: '/images/patents/us10320735b2/us10320735b2-patent.webp'
 altText: NFC patent
 externalLinks:
   - sourceText: 'USPTO Patent Center'
-    link: 'https://patentcenter.uspto.gov/applications/15275463'
+    link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(10320735).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/c9/fe/38/05eaaa831697a7/US10320735.pdf'
 tags:

@@ -57,7 +57,7 @@ image: '/images/patents/us11006920b2/us11006920b2-patent.webp'
 altText: medical devices patent
 externalLinks:
   - sourceText: 'USPTO Patent Center'
-    link: 'https://patentcenter.uspto.gov/applications/16835258'
+    link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(11006920).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/77/73/ff/b2a17908c15b18/US11006920.pdf'
 ---

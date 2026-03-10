@@ -57,7 +57,7 @@ image: '/images/patents/us10403399b2/us10403399b2-patent.webp'
 altText: tasks automation patents
 externalLinks:
   - sourceText: 'USPTO Patent Center'
-    link: 'https://patentcenter.uspto.gov/applications/14946702'
+    link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(10403399).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/28/32/0a/6f98f67c215065/US10403399.pdf'
 notebookLMResources:

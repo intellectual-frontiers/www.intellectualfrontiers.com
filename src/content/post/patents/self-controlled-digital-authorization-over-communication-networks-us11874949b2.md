@@ -54,7 +54,7 @@ image: '/images/patents/us11874949b2/us11874949b2-patent.webp'
 altText: patents in data privacy
 externalLinks:
   - sourceText: 'USPTO Patent Center'
-    link: 'https://patentcenter.uspto.gov/applications/17184255'
+    link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(11874949).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/ac/09/76/a71f49fb827309/US11874949.pdf'
 notebookLMResources:

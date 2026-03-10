@@ -96,7 +96,7 @@ images:
     type: png
 external-links:
   - anchor_text: USPTO Patent Center
-    link_url: https://patentcenter.uspto.gov/applications/14946702
+    link_url: https://ppubs.uspto.gov/pubwebapp/external.html?q=(10403399).pn.&db=USPAT,US-PGPUB&type=ids
   - anchor_text: Google Patents
     link_url: https://patents.google.com/patent/US10403399B2
 downloadable-documents:

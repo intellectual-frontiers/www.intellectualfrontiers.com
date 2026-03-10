@@ -56,7 +56,7 @@ image: '/images/patents/us11044221b2/us11044221b2-patent.webp'
 altText: medical device integration
 externalLinks:
   - sourceText: 'USPTO Patent Center'
-    link: 'https://patentcenter.uspto.gov/applications/16381772'
+    link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(11044221).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/b5/f8/89/3dd9e3b489839e/US11044221.pdf'
 tags:

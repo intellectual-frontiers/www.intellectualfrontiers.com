@@ -56,7 +56,7 @@ image: '/images/patents/us10638999b2/us10638999b2-patent.webp'
 altText: patent in medical devices
 externalLinks:
   - sourceText: 'USPTO Patent Center'
-    link: 'https://patentcenter.uspto.gov/applications/15430461'
+    link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(10638999).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/fa/32/83/3bb567467f3175/US10638999.pdf'
 ---

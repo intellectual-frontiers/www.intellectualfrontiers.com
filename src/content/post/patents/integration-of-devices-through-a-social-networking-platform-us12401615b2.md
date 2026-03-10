@@ -59,7 +59,7 @@ image: '/images/patents/us12401615b2/us12401615b2-patent.webp'
 altText: medical device automation
 externalLinks:
   - sourceText: 'USPTO Patent Center'
-    link: 'https://patentcenter.uspto.gov/applications/18235327'
+    link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(12401615).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/d5/91/cf/0229999bcaf17f/US20240015129A1.pdf'
 ---

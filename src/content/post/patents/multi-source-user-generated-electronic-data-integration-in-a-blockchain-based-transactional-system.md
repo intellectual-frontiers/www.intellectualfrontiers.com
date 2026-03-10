@@ -55,7 +55,7 @@ image: '/images/patents/us10839020b2/us10839020b2-patent.webp'
 altText: blockchain transactional system
 externalLinks:
   - sourceText: 'USPTO Patent Center'
-    link: 'https://patentcenter.uspto.gov/applications/16048338'
+    link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(10839020).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/35/72/7b/62c0d8e9b79665/US10839020.pdf'
 ---

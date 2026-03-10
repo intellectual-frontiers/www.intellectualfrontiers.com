@@ -51,7 +51,7 @@ image: '/images/patents/us7039898b2/us7039898b2-patent.webp'
 altText: software application development patent
 externalLinks:
   - sourceText: 'USPTO Patent Center'
-    link: 'https://patentcenter.uspto.gov/applications/10194646'
+    link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(7039898).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/2f/e7/27/f40f5ddb15d76e/US7039898.pdf'
 tags:

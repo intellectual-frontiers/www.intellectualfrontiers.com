@@ -57,7 +57,7 @@ image: '/images/patents/us11769573b2/us11769573b2-patent.webp'
 altText: patent on blockchain technology
 externalLinks:
   - sourceText: 'USPTO Patent Center'
-    link: 'https://patentcenter.uspto.gov/applications/1616184'
+    link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(11769573).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/e7/f9/4e/339e3b81f67fea/US11769573.pdf'
 ---

@@ -56,7 +56,7 @@ image: '/images/patents/us20240006038a1/us20240006038a1-patent.webp'
 altText: blockchain technology patents
 externalLinks:
   - sourceText: 'USPTO Patent Center'
-    link: 'https://patentcenter.uspto.gov/applications/18232314'
+    link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(2024006038).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/8a/2c/43/39795251cc4a2a/US20240006038A1.pdf'
 ---

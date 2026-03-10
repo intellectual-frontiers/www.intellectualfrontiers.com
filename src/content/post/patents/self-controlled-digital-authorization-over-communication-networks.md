@@ -58,7 +58,7 @@ image: '/images/patents/us10963585b2/us10963585b2-patent.webp'
 altText: patents in authorization and data privacy
 externalLinks:
   - sourceText: 'USPTO Patent Center'
-    link: 'https://patentcenter.uspto.gov/applications/15434942'
+    link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(10963585).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/fa/68/4e/06f50719226ff1/US10963585.pdf'
 ---

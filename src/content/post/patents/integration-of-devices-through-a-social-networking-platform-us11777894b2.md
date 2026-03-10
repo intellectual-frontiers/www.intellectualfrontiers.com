@@ -59,7 +59,7 @@ image: '/images/patents/us11777894b2/us11777894b2-patent.webp'
 altText: device health monitoring
 externalLinks:
   - sourceText: 'USPTO Patent Center'
-    link: 'https://patentcenter.uspto.gov/applications/17327694'
+    link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(11777894).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/81/5c/74/c1e7d22f253e58/US11777894.pdf'
 ---
