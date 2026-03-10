@@ -54,7 +54,7 @@ tags:
 image: '/images/patents/us11270263b2/us11270263b2-patent.webp'
 externalLinks:
   - sourceText: 'USPTO Patent Center'
-    link: 'https://patentcenter.uspto.gov/applications/15587202'
+    link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(11270263).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/b3/7f/f3/d9ea6606ab53ad/US11270263.pdf'
 ---

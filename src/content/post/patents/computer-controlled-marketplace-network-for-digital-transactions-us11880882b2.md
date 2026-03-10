@@ -53,7 +53,7 @@ image: '/images/patents/us11880882b2/us11880882b2-patent.webp'
 altText: ''
 externalLinks:
   - sourceText: 'USPTO Patent Center'
-    link: 'https://patentcenter.uspto.gov/applications/16854872'
+    link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(11880882).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/bc/56/3b/c505cf90405052/US11880882.pdf'
 notebookLMResources:

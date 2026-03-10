@@ -56,7 +56,7 @@ image: '/images/patents/us11561884b2/us11561884b2-patent.webp'
 altText: device health monitoring patent
 externalLinks:
   - sourceText: 'USPTO Patent Center'
-    link: 'https://patentcenter.uspto.gov/applications/16952063'
+    link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(11561884).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/e3/9b/2e/8cd22b461a2b78/US11561884.pdf'
 ---

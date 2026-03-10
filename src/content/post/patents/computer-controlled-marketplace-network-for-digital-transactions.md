@@ -50,7 +50,7 @@ image: '/images/patents/us12437338b2/us12437338b2-patent.webp'
 altText: Patent for a computer-controlled digital marketplace that enables secure online transactions and ownership transfers of digital data between users and service providers.
 externalLinks:
   - sourceText: 'USPTO Patent Center'
-    link: 'https://patentcenter.uspto.gov/applications/18372652'
+    link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(12437338).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://ppubs.uspto.gov/api/pdf/downloadPdf/12437338?requestToken=eyJzdWIiOiI0MjQzYWVmMS1hYjBhLTQ5YmItODA3OC04NWM3YWQ0YjQ5MmUiLCJ2ZXIiOiI3MTc1ZTlkZi0yN2I0LTRhNjctYWYyNi1iMzhhM2U2YzVlNGUiLCJleHAiOjB9'
 ---

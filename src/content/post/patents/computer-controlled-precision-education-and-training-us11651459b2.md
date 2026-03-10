@@ -59,7 +59,7 @@ image: '/images/patents/us11651459b2/us11651459b2-patent.webp'
 altText: precision learning technology patent
 externalLinks:
   - sourceText: 'USPTO Patent Center'
-    link: 'https://patentcenter.uspto.gov/applications/17865173'
+    link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(11651459).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/74/18/e8/8e2292a13b0fef/US11651459.pdf'
 notebookLMResources:

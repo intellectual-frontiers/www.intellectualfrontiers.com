@@ -56,7 +56,7 @@ image: '/images/patents/us2023245255a1/us2023245255a1-patent.webp'
 altText: patent on blockchain
 externalLinks:
   - sourceText: 'USPTO Patent Center'
-    link: 'https://patentcenter.uspto.gov/applications/18131648'
+    link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(20230245255).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/2e/94/c0/044a28acb68572/US20230245255A1.pdf'
 notebookLMResources:

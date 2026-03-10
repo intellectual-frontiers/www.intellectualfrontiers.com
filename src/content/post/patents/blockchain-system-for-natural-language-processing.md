@@ -56,7 +56,7 @@ image: '/images/patents/us10984913b2/us10984913b2-patent.webp'
 altText: natural language processing
 externalLinks:
   - sourceText: 'USPTO Patent Center'
-    link: 'https://patentcenter.uspto.gov/applications/15389243'
+    link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(10984913).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/0e/e3/2a/a4ec99d2900250/US10984913.pdf'
 ---

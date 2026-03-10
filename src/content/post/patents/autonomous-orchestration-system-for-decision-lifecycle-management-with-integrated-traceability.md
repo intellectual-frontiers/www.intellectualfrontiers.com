@@ -58,7 +58,7 @@ authnAuthz:
   validTokens: ["153MIoKc3w9D", "nVt321Cz7G35"]
 # externalLinks:
 #   - sourceText: 'USPTO Patent Center'
-#     link: 'https://patentcenter.uspto.gov/applications/15813109'
+#     link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(15813109).pn.&db=USPAT,US-PGPUB&type=ids'
 # downloadableDocuments:
 #   pdfLink: 'https://patentimages.storage.googleapis.com/68/df/0e/2ca94ab83c9534/US10489830.pdf'
 ---

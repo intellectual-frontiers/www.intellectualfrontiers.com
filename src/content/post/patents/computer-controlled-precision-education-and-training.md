@@ -59,7 +59,7 @@ image: '/images/patents/us11423500b2/us11423500b2-patent.webp'
 altText: AI in education patent
 externalLinks:
   - sourceText: 'USPTO Patent Center'
-    link: 'https://patentcenter.uspto.gov/applications/16712213'
+    link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(11423500).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/e0/36/4c/503990294714d0/US11423500.pdf'
 notebookLMResources:

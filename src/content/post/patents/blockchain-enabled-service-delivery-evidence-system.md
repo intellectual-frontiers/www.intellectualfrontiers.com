@@ -55,7 +55,7 @@ image: '/images/patents/us11475441b2/us11475441b2-patent.webp'
 altText: service automation patent
 externalLinks:
   - sourceText: 'USPTO Patent Center'
-    link: 'https://patentcenter.uspto.gov/applications/16045530'
+    link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(11475441).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/d8/f9/aa/75b84e961d5636/US11475441.pdf'
 ---
