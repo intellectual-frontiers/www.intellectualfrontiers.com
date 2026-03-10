@@ -57,7 +57,7 @@ image: '/images/patents/us9846896b2/us9846896b2-patent.webp'
 altText: patent on online reputation management
 externalLinks:
   - sourceText: 'USPTO Patent Center'
-    link: 'https://patentcenter.uspto.gov/applications/14744697'
+    link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(9846896).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/b8/17/f8/9fe36b7991db27/US9846896.pdf'
 notebookLMResources:
