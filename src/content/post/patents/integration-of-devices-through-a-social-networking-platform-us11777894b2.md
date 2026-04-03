@@ -62,6 +62,8 @@ externalLinks:
     link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(11777894).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/81/5c/74/c1e7d22f253e58/US11777894.pdf'
+notebookLMResources:
+  audioPath: "/podcast/integration-of-devices-through-a-social-networking-platform-us11777894b2.mp3"
 ---
 
 ### Abstract
