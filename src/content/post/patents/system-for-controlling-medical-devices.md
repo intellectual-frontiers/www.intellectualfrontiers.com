@@ -60,6 +60,8 @@ externalLinks:
     link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(11006920).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://patentimages.storage.googleapis.com/77/73/ff/b2a17908c15b18/US11006920.pdf'
+notebookLMResources:
+  audioPath: "/podcast/system-for-controlling-medical-devices-us11006920b2.mp3"
 ---
 
 ### Abstract
