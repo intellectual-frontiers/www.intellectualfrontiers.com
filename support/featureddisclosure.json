@@ -1,13 +1,5 @@
 [
   {
-    "title": "Agentic AI Platform For Configurable Deployment And Orchestration Of Enterprise AI Workforce",
-    "description": "The embodiments herein provide a modular and scalable agentic AI-based platform configured for autonomous execution of enterprise workflows.",
-    "link": "/defensive-disclosures/agentic-ai-platform-for-configurable-deployment-and-orchestration-of-enterprise-ai-workforce",
-    "disclosureId": "IFJ‑2025T05DF50YR",
-    "inventor": "Shahid N. Shah",
-    "publishDate": "2025-07-29"
-  },
-  {
     "title": "Document-Centric Orchestration and Deterministic Execution of Multi-Language Computational Workflows",
     "description": "The present disclosure provides systems and methods for executing, orchestrating, and materializing computational workflows using document-based representations.",
     "link": "/defensive-disclosures/document-centric-orchestration-and-deterministic-execution-of-multi-language-computational-workflows",
@@ -16,27 +8,11 @@
     "publishDate": "2026-04-16"
   },
   {
-    "title": "Lorem Ipsum Dolor Sit Amet",
-    "description": "--",
-    "link": "#",
-    "disclosureId": "--",
-    "inventor": "--",
-    "publishDate": "--"
-  },
-  {
-    "title": "Lorem Ipsum Dolor Sit Amet",
-    "description": "--",
-    "link": "#",
-    "disclosureId": "--",
-    "inventor": "--",
-    "publishDate": "--"
-  },
-  {
-    "title": "Lorem Ipsum Dolor Sit Amet",
-    "description": "--",
-    "link": "#",
-    "disclosureId": "--",
-    "inventor": "--",
-    "publishDate": "--"
+    "title": "Agentic AI Platform For Configurable Deployment And Orchestration Of Enterprise AI Workforce",
+    "description": "The embodiments herein provide a modular and scalable agentic AI-based platform configured for autonomous execution of enterprise workflows.",
+    "link": "/defensive-disclosures/agentic-ai-platform-for-configurable-deployment-and-orchestration-of-enterprise-ai-workforce",
+    "disclosureId": "IFJ‑2025T05DF50YR",
+    "inventor": "Shahid N. Shah",
+    "publishDate": "2025-07-29"
   }
 ]
