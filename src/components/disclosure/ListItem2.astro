@@ -25,9 +25,12 @@ const familyMembers = post.patentId
 
 // Determine the href value based on the slug
 const getHrefForSlug = (slug: string) => {
-  return slug === "defensive-disclosures/agentic-ai-platform-for-configurable-deployment-and-orchestration-of-enterprise-ai-workforce" 
-    ? '/' + slug 
-    : "#";
+  const validSlugs = [
+    "defensive-disclosures/agentic-ai-platform-for-configurable-deployment-and-orchestration-of-enterprise-ai-workforce",
+    "defensive-disclosures/document-centric-orchestration-and-deterministic-execution-of-multi-language-computational-workflows"
+  ];
+  
+  return validSlugs.includes(slug) ? '/' + slug : "#";
 };
 ---
 

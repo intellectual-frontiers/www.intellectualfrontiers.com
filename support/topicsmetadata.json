@@ -229,5 +229,33 @@
     "shortDescription": "Autonomous Task Execution",
     "displayName": "Autonomous Task Execution",
     "tagDisplayLabel": "Autonomous Task Execution"
+  },
+  "workflow-orchestration": {
+    "metaTitle": "Workflow Orchestration",
+    "metaDescription": "Workflow Orchestration",
+    "shortDescription": "Workflow Orchestration",
+    "displayName": "Workflow Orchestration",
+    "tagDisplayLabel": "Workflow Orchestration"
+  },
+  "executable-documentation": {
+    "metaTitle": "Executable Documentation",
+    "metaDescription": "Executable Documentation",
+    "shortDescription": "Executable Documentation",
+    "displayName": "Executable Documentation",
+    "tagDisplayLabel": "Executable Documentation"
+  },
+  "data-engineering": {
+    "metaTitle": "Data Engineering",
+    "metaDescription": "Data Engineering",
+    "shortDescription": "Data Engineering",
+    "displayName": "Data Engineering",
+    "tagDisplayLabel": "Data Engineering"
+  },
+  "markdown-file": {
+    "metaTitle": "Markdown File",
+    "metaDescription": "Markdown File",
+    "shortDescription": "Markdown File",
+    "displayName": "Markdown File",
+    "tagDisplayLabel": "Markdown File"
   }
 }
