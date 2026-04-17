@@ -53,6 +53,8 @@ externalLinks:
     link: 'https://ppubs.uspto.gov/pubwebapp/external.html?q=(12437338).pn.&db=USPAT,US-PGPUB&type=ids'
 downloadableDocuments:
   pdfLink: 'https://ppubs.uspto.gov/api/pdf/downloadPdf/12437338?requestToken=eyJzdWIiOiI0MjQzYWVmMS1hYjBhLTQ5YmItODA3OC04NWM3YWQ0YjQ5MmUiLCJ2ZXIiOiI3MTc1ZTlkZi0yN2I0LTRhNjctYWYyNi1iMzhhM2U2YzVlNGUiLCJleHAiOjB9'
+notebookLMResources:
+  audioPath: "/podcast/computer-controlled-marketplace-network-for-digital-transactions-us12437338b2.mp3"
 ---
 
 ### Abstract
