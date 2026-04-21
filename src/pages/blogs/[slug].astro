@@ -1,0 +1,61 @@
+---
+import type { GetStaticPaths, InferGetStaticPropsType } from 'astro';
+import merge from 'lodash.merge';
+import type { ImageMetadata } from 'astro';
+
+import Layout from '~/layouts/PageLayout.astro';
+import SinglePostWithResources from '~/components/article/SinglePostWithResources.astro';
+import BackButton from '~/components/article/BackButton.astro';
+
+import { fetchArticlePosts, blogPostRobots } from '~/utils/article';
+import { getCanonical, getPermalink } from '~/utils/permalinks';
+import { findImage } from '~/utils/images';
+import type { MetaData } from '~/types';
+
+export const prerender = true;
+
+export const getStaticPaths = (async () => {
+  const posts = await fetchArticlePosts();
+
+  return posts
+    .filter((post) => post.category === 'blogs' && post.permalink.startsWith('blogs/'))
+    .map((post) => {
+      const slug = post.slug.split('/').pop() || post.slug;
+      if (!slug) return null;
+      return {
+        params: { slug },
+        props: { post },
+      };
+    })
+    .filter(Boolean);
+}) satisfies GetStaticPaths;
+
+type Props = InferGetStaticPropsType<typeof getStaticPaths>;
+
+const { post } = Astro.props as Props;
+const image = (await findImage(post.image)) as ImageMetadata | string | undefined;
+const url = getCanonical(getPermalink(post.permalink, 'post'));
+
+const metadata = merge(
+  {
+    title: post.title,
+    description: post.excerpt,
+    robots: {
+      index: blogPostRobots?.index,
+      follow: blogPostRobots?.follow,
+    },
+    openGraph: {
+      type: 'article',
+      ...(image
+        ? { images: [{ url: image, width: (image as ImageMetadata)?.width, height: (image as ImageMetadata)?.height }] }
+        : {}),
+    },
+  },
+  { ...(post?.metadata ? { ...post.metadata, canonical: post.metadata?.canonical || url } : {}) }
+) as MetaData;
+---
+
+<Layout metadata={metadata}>
+  <SinglePostWithResources post={{ ...post, image }} url={url} />
+  <BackButton category={post.category} />
+</Layout>

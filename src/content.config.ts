@@ -1,4 +1,5 @@
 import { z, defineCollection } from 'astro:content';
+import { glob } from 'astro/loaders';
 
 // Define access levels as a const assertion for reusability
 const ACCESS_LEVELS = ['free', 'paid'] as const;
@@ -99,6 +100,10 @@ const authnAuthzSchema = z.object({
 
 
 const postCollection = defineCollection({
+  loader: glob({
+    base: './src/content/post',
+    pattern: '**/*.{md,mdx}',
+  }),
   schema: z.object({
     publishDate: z.date().optional(),
     updateDate: z.date().optional(),
@@ -143,7 +148,13 @@ const postCollection = defineCollection({
 });
 export type episodeSchema = z.infer<typeof episodeSchema>;
 
-const episodeCollection = defineCollection({ schema: episodeSchema });
+const episodeCollection = defineCollection({
+  loader: glob({
+    base: './src/content/episode',
+    pattern: '**/*.{md,mdx}',
+  }),
+  schema: episodeSchema,
+});
 export type AccessLevel = typeof ACCESS_LEVELS[number]; // Export the type for use elsewhere
 
 export const collections = {
