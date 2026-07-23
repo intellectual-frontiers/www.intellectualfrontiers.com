@@ -759,33 +759,33 @@ A representative hardware environment for practicing the embodiments herein is d
 [0208]
 The foregoing description of the specific embodiments will so fully reveal the general nature of the embodiments herein that others can, by applying current knowledge, readily modify and/or adapt for various applications such specific embodiments without departing from the generic concept, and, therefore, such adaptations and modifications should and are intended to be comprehended within the meaning and range of equivalents of the disclosed embodiments. It is to be understood that the phraseology or terminology employed herein is for the purpose of description and not of limitation. Therefore, while the embodiments herein have been described in terms of preferred embodiments, those skilled in the art will recognize that the embodiments herein can be practiced with modification within the spirit and scope of the appended claims.
 
-### Claims (20)
+### Claims (24)
 
 What is claimed is:
 
-1. A computer-controlled system for facilitating an evidence-based digital transaction between a service provider system associated with a service provider and a user device associated with a user, the system comprising:
+1.	A computer-controlled system for facilitating an evidence-based digital transaction between a service provider system associated with a service provider and a user device associated with a user, the system comprising:
 
-<div style="padding-left:60px">
-
+<div style="padding-left:60px;">
 a server comprising a memory storing instructions and a processor executing the instructions to:
+
+<div style="padding-left:20px;">
+
+collect information about the user device and the associated user, the information comprising an identifier of the user device and an indication of a service requested by the user;
+
+generate a first digital message containing a first executable link comprising a first secured hashlink and a second digital message containing a second executable link comprising a second secured hashlink, the first digital message and the second digital message each comprising one of a short message service (SMS), an email, or a notification, the first executable link and the second executable link being activatable by either the user via the user device or the service provider via the service provider system;
+
+transmit the first digital message and the second digital message such that activation of the first executable link by the at least one of the user via the user device and the service provider via the service provider system records an evidence of start of the service and activation of the second executable link by the at least one of the user via the user device and the service provider via the service provider system records an evidence of completion of the service requested by the user, and
+
+generate and send an electronic message along with a digitally executable unique service proof token (SPT) to at least one of the user device and the service provider system upon activation of at least one of the first executable link and the second executable link.
 
 </div>
 
-<div style="padding-left:80px">
+</div>
 
-collect information about the user device and the associated user, the information comprising an identifier of the user device 
-and an indication of a service requested by the user;
-
-generate a first digital message containing a first executable link and a second digital message containing a second executable link, the first executable link and the second executable link are activatable by either the user via the user device or the service provider via the service provider system; and
-
-transmit the first digital message and the second digital message such that activation of the first executable link by the at least one of the user via the user device and the service provider via the service provider system records an evidence of start of the service and activation of the second executable link by the at least one of the user via the user device and the service provider via the service provider system records an evidence of completion of the service requested by the user.
-
-<div style="color: grey">
 
 2. The computer-controlled system of claim 1, wherein the processor is to initiate, based on the evidence of the completion of the service, a transaction comprising confirmation of service delivery and at least one of:
 
-<div style="padding-left:60px">
-
+<div style="padding-left:60px;">
 providing access to digital data associated with the user,
 
 delivering the digital data, and
@@ -796,87 +796,95 @@ in exchange for a compensation associated with the service.
 
 </div>
 
-3. The computer-controlled system of claim 1, wherein the instructions are to generate and send an electronic message along with a digitally executable unique service proof token (SPT) to at least one of the user device and the service provider system upon activation of the at least one of the first executable link and the second executable link.
+<div style="display:none">
 
-4. The computer-controlled system of claim 3, wherein the instructions are to generate and send the electronic message to the at least one of the user device and the service provider system upon activation of the completion of the service after the activation of the second executable link.
-
-5. The computer-controlled system of claim 4, wherein the digitally executable unique service proof token (SPT) comprises metadata identifying one or more of a service type, user identifier, service provider identifier, execution timestamp, and a status of the digital data associated with the user.
-
-6. The system of claim 1, wherein the activation of the at least one of the first executable link and the second executable link by the at least one of the user device and the service provider system automatically causes the server to record a location of the one or more of the user device and the service provider system, and wherein an association of a recorded location with an activation time of the second executable link is used as the evidence of the completion of the service.
-
-7. The computer-controlled system of claim 1, wherein any of the first digital message and the second digital message is selected from one of a short message service (SMS), an email, or an in-app notification.
-
-8. The computer-controlled system of claim 1, wherein the server is to automatically record location coordinates of the user device and the service provider system upon activation of executable links.
-
-9. The computer-controlled system of claim 1, wherein the first executable link and the second executable link comprises a first secured hashlink and a second secured hashlink respectively, wherein at least one of the first secured hashlink and the second secured hashlink causes the processor to log metadata associated with at least one of the user device and the service provider system.
+3.	(Canceled).
 
 </div>
 
+4.	The computer-controlled system of claim 1, wherein the instructions are to generate and send the electronic message to the at least one of the user device and the service provider system upon activation of the completion of the service after the activation of the second executable link.
+
+5.	The computer-controlled system of claim 4, wherein the digitally executable unique service proof token (SPT) comprises metadata identifying one or more of a service type, user identifier, service provider identifier, execution timestamp, and a status of the digital data associated with the user.
+
+6.	The system of claim 1, wherein the activation of the at least one of the first executable link and the second executable link by the at least one of the user device and the service provider system automatically causes the server to record a location of one or more of the user device and the service provider system, and wherein an association of a recorded location with an activation time of the second executable link is used as the evidence of the completion of the service.
+
+<div style="display:none">
+
+7.	(Canceled).
+
 </div>
 
-10. A computer-controlled system for facilitating a digital transaction between a service provider system associated with a service provider and a user device associated with a user, the system comprising:
+8.	The computer-controlled system of claim 1, wherein the server is to automatically record location coordinates of the user device and the service provider system upon activation of the first executable link and the second executable link.
 
-<div style="padding-left:60px">
+<div style="display:none">
 
-a server comprising a memory storing instructions and a processor executing the instructions to:
+9.	(Canceled).
 
 </div>
 
-<div style="padding-left:80px">
+10.	A non-transitory program storage device, readable by a computer, comprising executable instructions for performing a method for facilitating a digital transaction between a service provider system associated with a service provider and a user device associated with a user, the method comprising:
 
-collect information about the user device and the associated user, the information comprising an identifier of the user device and an indication of a service requested by the user;
+<div style="padding-left:60px;">
 
-generate one or more digital messages, each digital message including an executable link that is activatable by either the user or the service provider; and
+collecting, by a server comprising a memory storing instructions and a processor executing the instructions, information about the user device and the associated user, the information comprising an identifier of the user device and an indication of a service requested by the user;
 
-transmit at least one of the digital messages such that activation of the executable link by at least one of the user device and the service provider system records an evidence of completion of the service requested by the user.
+generating, by the server, one or more digital messages, each of the one or more digital messages comprising one of a short message service (SMS), an email, or a notification and each digital message including an executable link comprising a secured hashlink being activatable by either the user or the service provider;
 
-<div style="color: grey">
+transmitting, by the server, at least one of the digital messages such that activation of the executable link by at least one of the user device and the service provider system records an evidence of start of the service and activation of the executable link by the at least one of the user via the user device and an evidence of completion of the service requested by the user; and
 
-11. The computer-controlled system of claim 10, wherein the one or more digital messages is selected from one of a short message service (SMS), an email, or an in-app notification.
+generating and sending, by the server, an electronic message along with a digitally executable unique service proof token (SPT) to at least one of the user device and the service provider system upon activation of the executable link.
 
-12. The computer-controlled system of claim 10, wherein the processor is to initiate, based on the evidence of the completion of the service, a transaction comprising confirmation of the service and at least one of:
+</div>
 
-<div style="padding-left:60px">
+<div style="display:none">
+
+11.	(Canceled).
+
+</div>
+
+12.	The non-transitory program storage device of claim 10, wherein the processor is to initiate, based on the evidence of the completion of the service, a transaction comprising confirmation of the service and at least one of:
+
+<div style="padding-left:60px;">
 
 providing access to digital data associated with the user, at least in part,
 
 delivering the digital data, and
 
-transferring ownership of the digital data,
+transferring ownership of the digital data, 
 
 in exchange for a compensation associated with the service.
 
 </div>
 
-13. The computer-controlled system of claim 12, wherein the executable link is executable with a click such that the activation of the executable link records the evidence of the completion of the service.
+13.	The non-transitory program storage device of claim 12, wherein the executable link is executable with a click such that the activation of the executable link records the evidence of the completion of the service.
 
-</div>
+14.	A computer-implemented method for facilitating a digital transaction between a service provider system associated with a service provider and a user device associated with a user, the method comprising:
 
-</div>
-
-14. A computer-implemented method for facilitating a digital transaction between a service provider system associated with a service provider and a user device associated with a user, the method comprising:
-
-<div style="padding-left:60px">
+<div style="padding-left:60px;">
 
 collecting, by a server comprising a processor executing instructions stored in a memory, information about the user device and the associated user, the information comprising an identifier of the user device and an indication of a service requested by the user;
 
-generating, by the server, one or more digital messages, each digital message including an executable link that is activatable by either the user device or the service provider system; and
+generating, by the server, one or more digital messages, each of the one or more digital messages comprising one of a short message service (SMS), an email, or a notification and each digital message including an executable link comprising a secured hashlink generated by applying a secure hash algorithm to at least a transaction identifier and a time stamp associated with the service requested by the user, the executable link being activatable by either the user device or the service provider system;
 
-transmitting, by the server, at least one of the digital messages such that activation of the executable link by at least one of the user device or the service provider system records evidence of completion of the service requested by the user.
+transmitting, by the server, at least one of the digital messages such that activation of the executable link by at least one of the user device or the service provider system records evidence of start of the service and activation of the executable link by the at least one of the user via the user device and an evidence of completion of the service requested by the user; and
+
+generating and sending, by the server, an electronic message along with a digitally executable unique service proof token (SPT) to at least one of the user device and the service provider system upon activation of the executable link.
 
 </div>
 
-<div style="padding-left:60px; color: grey">
+<div style="display:none">
 
-15. The method of claim 14, wherein the executable link comprises a secured hashlink generated by applying a secure hash algorithm to at least a transaction identifier and a time stamp associated with the service requested by the user.
+15.	(Canceled).
 
-16. The method of claim 14, wherein the evidence of completion of the service comprises timestamped digital verification data that is automatically stored in a distributed database accessible by the server.
+</div>
 
-17. The method of claim 14, comprising, upon activation of the executable link, automatically recording at least one of a location of the activating device, a date and time of the activation, and an identifier of an activated executable link, and storing recorded information as part of the evidence of the service completion.
+16.	The method of claim 14, wherein the evidence of completion of the service comprises timestamped digital verification data that is automatically stored in a distributed database accessible by the server.
 
-18. The method of claim 14, comprising executing a digital transaction after completion of the service, wherein the digital transaction comprises at least one of:
+17.	The method of claim 14, comprising, upon activation of the executable link, automatically recording at least one of a location of the activating device, a date and time of the activation, and an identifier of an activated executable link, and storing recorded information as part of the evidence of the service completion.
 
-<div style="padding-left:60px">
+18.	The method of claim 14, comprising executing a digital transaction after completion of the service, wherein the digital transaction comprises at least one of:
+
+<div style="padding-left:60px;">
 
 providing a secure access link to digital data associated with the user,
 
@@ -888,8 +896,14 @@ in exchange for compensation associated with the service.
 
 </div>
 
-19. The method of claim 18, wherein the digital data is valued at no less than a value of the service calculated in accordance with a set of digitally recognizable data valuation parameters defined by the service provider system.
+19.	The method of claim 18, wherein the digital data is valued at no less than a value of the service calculated in accordance with a set of digitally recognizable data valuation parameters defined by the service provider system.
 
-20. The method of claim 18, comprising accessing the digital data by the service provider system automatically from a database, communicatively connected with the user device and the service provider system, when the data is available upon submitting a service proof token (SPT) indicative of the completion of the service, wherein the SPT is generated upon the activation of the executable link
+20.	The method of claim 18, comprising accessing the digital data by the service provider system automatically from a database, communicatively connected with the user device and the service provider system, when the data is available upon submitting the SPT indicative of the completion of the service.
 
-</div>
+21.	The non-transitory program storage device of claim 10, wherein the SPT comprises metadata identifying one or more of a service type, user identifier, service provider identifier, execution timestamp, and a status of the digital data associated with the user.
+
+22.	The non-transitory program storage device of claim 10, wherein the evidence of completion of the service comprises timestamped digital verification data that is automatically stored in a distributed database accessible by the server.
+
+23.	The method of claim 14, wherein the SPT comprises metadata identifying one or more of a service type, user identifier, service provider identifier, execution timestamp, and a status of the digital data associated with the user.
+
+24.	The method of claim 18, wherein the executable link is executable with a click such that the activation of the executable link records the evidence of the completion of the service.
