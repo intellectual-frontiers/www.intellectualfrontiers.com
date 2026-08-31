@@ -170,7 +170,7 @@ A system and method for providing a social networking service to a plurality of 
 
 ### Description
 
-CROSS-REFERENCE TO RELATED APPLICATIONS
+**CROSS-REFERENCE TO RELATED APPLICATIONS**
 
 This application claims the benefit of U.S. Provisional Application No. 61/736,119, filed on Dec. 12, 2012, the complete disclosure of which, in its entirety, is hereby incorporated by reference.
 
