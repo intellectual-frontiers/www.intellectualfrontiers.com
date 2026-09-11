@@ -1,4 +1,5 @@
 name: CI/CD Workflow
+
 on:
   push:
     branches:
@@ -8,19 +9,26 @@ on:
 jobs:
   build-and-deploy:
     runs-on: self-hosted
-        
+
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
-        
+        uses: actions/checkout@v4
+
       - name: Check Node and NPM
         run: |
           node -v
           npm -v
 
-        
-      - name: Install dependencies and build using npm
-        run: "/home/github-runner-if/.asdf/shims/npm run deno-deploy"
+      - name: Setup pnpm
+        run: |
+          npm install -g pnpm@9.15.0
+          pnpm -v
+
+      - name: Install dependencies and build
+        run: |
+          pnpm install --no-frozen-lockfile
+          pnpm run build
+          mv dist/ deno-deploy
 
       - name: Archive build artifacts
         run: |
@@ -28,8 +36,17 @@ jobs:
 
       - name: Copy build artifacts to the production server
         run: |
-          scp -P22 -o StrictHostKeyChecking=no intellectualfrontiers.tar.gz "${{ secrets.PRODUCTION_DEPLOYMENT_USER }}@${{ secrets.PRODUCTION_DEPLOYMENT_SERVER_IP }}:"
+          scp -P22 \
+          -o StrictHostKeyChecking=no \
+          intellectualfrontiers.tar.gz \
+          "${{ secrets.PRODUCTION_DEPLOYMENT_USER }}@${{ secrets.PRODUCTION_DEPLOYMENT_SERVER_IP }}:"
 
       - name: Deploy to production server
         run: |
-          ssh -p22 -o StrictHostKeyChecking=no -t ${{ secrets.PRODUCTION_DEPLOYMENT_USER }}@${{ secrets.PRODUCTION_DEPLOYMENT_SERVER_IP }} "bash -i legacy-intellectual-frontiers.sh"
+          ssh -p22 \
+          -o StrictHostKeyChecking=no \
+          -t ${{ secrets.PRODUCTION_DEPLOYMENT_USER }}@${{ secrets.PRODUCTION_DEPLOYMENT_SERVER_IP }} \
+          "bash -i legacy-intellectual-frontiers.sh"
+
+
+
