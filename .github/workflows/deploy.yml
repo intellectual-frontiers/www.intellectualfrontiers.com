@@ -32,11 +32,11 @@ jobs:
 
       - name: Archive build artifacts
         run: |
-          tar -czvf intellectualfrontiers.tar.gz deno-deploy
+          tar -czvf legacy-intellectualfrontiers.tar.gz deno-deploy
 
       - name: Copy build artifacts to the production server
         run: |
-          scp -P22 -o StrictHostKeyChecking=no intellectualfrontiers.tar.gz "${{ secrets.PRODUCTION_DEPLOYMENT_USER }}@${{ secrets.PRODUCTION_DEPLOYMENT_SERVER_IP }}:"
+          scp -P22 -o StrictHostKeyChecking=no legacy-intellectualfrontiers.tar.gz "${{ secrets.PRODUCTION_DEPLOYMENT_USER }}@${{ secrets.PRODUCTION_DEPLOYMENT_SERVER_IP }}:"
 
       - name: Deploy to production server
         run: |
