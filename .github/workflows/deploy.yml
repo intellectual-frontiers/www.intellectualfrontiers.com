@@ -36,17 +36,11 @@ jobs:
 
       - name: Copy build artifacts to the production server
         run: |
-          scp -P22 \
-          -o StrictHostKeyChecking=no \
-          intellectualfrontiers.tar.gz \
-          "${{ secrets.PRODUCTION_DEPLOYMENT_USER }}@${{ secrets.PRODUCTION_DEPLOYMENT_SERVER_IP }}:"
+          scp -P22 -o StrictHostKeyChecking=no intellectualfrontiers.tar.gz "${{ secrets.PRODUCTION_DEPLOYMENT_USER }}@${{ secrets.PRODUCTION_DEPLOYMENT_SERVER_IP }}:"
 
       - name: Deploy to production server
         run: |
-          ssh -p22 \
-          -o StrictHostKeyChecking=no \
-          -t ${{ secrets.PRODUCTION_DEPLOYMENT_USER }}@${{ secrets.PRODUCTION_DEPLOYMENT_SERVER_IP }} \
-          "bash -i legacy-intellectual-frontiers.sh"
+          ssh -p22 -o StrictHostKeyChecking=no -t ${{ secrets.PRODUCTION_DEPLOYMENT_USER }}@${{ secrets.PRODUCTION_DEPLOYMENT_SERVER_IP }} "bash -i legacy-intellectual-frontiers.sh"
 
 
 
