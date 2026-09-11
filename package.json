@@ -11,7 +11,7 @@
     "astro": "astro",
     "format": "prettier -w .",
     "lint:eslint": "eslint . --ext .js,.ts,.astro",
-    "deno-deploy": "npm install pnpm@9.15.0 -g && pnpm install --no-frozen-lockfile --config.strict-dep-builds=false && pnpm approve-builds --all && pnpm run build && mv dist/ deno-deploy"
+    "deno-deploy": "npm install pnpm -g && pnpm install --no-frozen-lockfile --config.strict-dep-builds=false && pnpm run build && mv dist/ deno-deploy"
   },
   "dependencies": {
     "@astrojs/react": "^5.0.3",
@@ -68,8 +68,14 @@
     "node": ">=18.14.1"
   },
   "pnpm": {
-    "overrides": {
-      "@iconify/tools": "^4.0.0"
-    }
+  "overrides": {
+    "@iconify/tools": "^4.0.0"
+  },
+  "onlyBuiltDependencies": [
+    "@parcel/watcher",
+    "esbuild",
+    "puppeteer",
+    "sharp"
+  ]
   }
 }
